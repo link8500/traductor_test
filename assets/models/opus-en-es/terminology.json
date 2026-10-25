@@ -1,0 +1,30 @@
+{
+  "description": "Terminología genérica EN-ES para ficción de regresión y cultivo. No contiene frases de los capítulos de prueba.",
+  "rules": [
+    {"source":"\\bregressors?\\b", "pattern":"\\bregresistas\\b", "replacement":"regresores"},
+    {"source":"\\bregressors?\\b", "pattern":"\\bregresista\\b", "replacement":"regresor"},
+    {"source":"\\bregressors?\\b", "pattern":"\\bregresivos\\b", "replacement":"regresores"},
+    {"source":"\\bregressors?\\b", "pattern":"\\bregresivo\\b", "replacement":"regresor"},
+    {"source":"\\bregressors?\\b", "pattern":"\\bregressors\\b", "replacement":"regresores"},
+    {"source":"\\bregressors?\\b", "pattern":"\\bregressor\\b", "replacement":"regresor"},
+    {"source":"\\bqi refin(?:ing|ement)\\b", "pattern":"Qi Refinando", "replacement":"refinamiento de qi"},
+    {"source":"\\bqi refin(?:ing|ement)\\b", "pattern":"(etapa|fase|nivel) (refinamiento de qi)", "replacement":"$1 de $2"},
+    {"source":"\\bfoundation establishment\\b", "pattern":"(?:la )?Fundaci(?:o|ó)n Establecimiento", "replacement":"establecimiento de cimientos"},
+    {"source":"\\bfoundation establishment\\b", "pattern":"Establecimiento de la Fundaci(?:o|ó)n", "replacement":"establecimiento de cimientos"},
+    {"source":"\\bfoundation establishment\\b.*\\brealm\\b", "pattern":"(?:ámbito|ambito)", "replacement":"reino"},
+    {"source":"\\bfoundation establishment\\b", "pattern":"de establecimiento de cimientos", "replacement":"del establecimiento de cimientos"},
+    {"source":"\\b(?:swing|swings)\\b.*\\b(?:sword|dagger|blade)\\b", "pattern":"\\bswing\\b", "replacement":"golpe"},
+    {"source":"\\bcore format(?:i)?on\\b", "pattern":"formateo central", "replacement":"formación del núcleo"},
+    {"source":"\\bcore formation\\b", "pattern":"formaci(?:o|ó)n central", "replacement":"formación del núcleo"},
+    {"source":"\\bjoin\\b", "pattern":"\\bUnete\\b", "replacement":"Únete"},
+    {"source":"\\bdays\\b", "pattern":"\\b(dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|muchos|pocos|algunos|varios|[0-9]+) dias\\b", "replacement":"$1 días"},
+    {"source":"^days[.!?]?$", "pattern":"\\bdias\\b", "replacement":"días"}
+  ],
+  "source_rules": [
+    {"source":"\\b(?:stage|realm|cultvator|cultivator|core)\\b", "pattern":"\\bQ[1l]\\b(?= +(?:building|refining|refinement)\\b)", "replacement":"qi"},
+    {"source":"\\b(?:stage|realm|cultivator|core)\\b", "pattern":"\\bbuild1ng\\b", "replacement":"building"},
+    {"source":"\\b(?:stage|realm|cultivator|core)\\b", "pattern":"\\brefin[1/]ng\\b", "replacement":"refining"},
+    {"source":"\\b(?:stage|realm|cultvator|core)\\b", "pattern":"\\bcultvator\\b", "replacement":"cultivator"},
+    {"source":"\\bcore\\b", "pattern":"\\bformat[1i]?on\\b", "replacement":"formation"}
+  ]
+}

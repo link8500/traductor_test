@@ -1,0 +1,27 @@
+{
+  "scope": "Every changed candidate admitted by the final speech-function policy, selected from all124 completed control chapters; not a population accuracy estimate",
+  "before_native_build": "802701",
+  "after_native_build": "802801",
+  "whole_visible_original_dialogue_inspected": true,
+  "all_chapter_words_visually_reviewed": false,
+  "manual_answers_supplied_to_application": false,
+  "entries": [
+    {"id":12,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la orden de esperar; el resto conserva la visita repetida para mañana. Referencia Olympus localizada manualmente y cotejada en el suplemento visual."},
+    {"id":22,"before":"incorrect","after":"incorrect","opening_intent_preserved":true,"note":"Se recupera la aprobación inicial, pero el cuerpo sigue cambiando una propuesta en primera persona plural por una orden en segunda persona."},
+    {"id":24,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera el acuerdo inicial y se conserva la propuesta de llevar el asunto hasta el final."},
+    {"id":29,"before":"incorrect","after":"incorrect","opening_intent_preserved":true,"note":"Se recupera la reacción inicial, pero el OCR del cuerpo todavía pierde la referencia a los matones y a la traición."},
+    {"id":33,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la reacción interrogativa y permanece la amenaza adicional contra la familia."},
+    {"id":34,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la orden de callar y se conserva la condición, la prohibición y su alcance total."},
+    {"id":39,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la reacción interrogativa sin perder la pregunta negativa sobre esta ocasión."},
+    {"id":40,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la pregunta sobre el propio hablante; se conserva la segunda pregunta y su negación."},
+    {"id":45,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la llamada al interlocutor y permanece la pregunta sobre su acción."},
+    {"id":53,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"La normalización permite recuperar el enlace discursivo; la variante inicial que lo traducía como un intensificador se descarta."},
+    {"id":57,"before":"incomplete","after":"incomplete","opening_intent_preserved":true,"note":"Se recupera la confirmación inicial, pero la traducción del cuerpo conserva una intensidad genérica y no acredita el grado deíctico completo del original."},
+    {"id":59,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera el rechazo inicial, manteniendo separada la afirmación sobre el cansancio extremo."},
+    {"id":60,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la reacción inicial y se conserva la pregunta sobre la imposibilidad de recordar lo deseado."},
+    {"id":62,"before":"incomplete","after":"acceptable","opening_intent_preserved":true,"note":"Se recupera la reacción inicial y se conserva la pregunta causal sobre la posesión del objeto."},
+    {"id":63,"before":"incorrect","after":"incorrect","opening_intent_preserved":true,"note":"Se recupera la reacción, pero el cuerpo mantiene la alternancia no resuelta entre tercera y segunda persona."},
+    {"id":65,"before":"incomplete","after":"needs_review","opening_intent_preserved":true,"note":"La reacción se recupera y el contexto muestra una bebida vertida en una taza. La referencia pronominal femenina necesita cotejar la conversación completa; no se aprueba toda la ubicación."},
+    {"id":66,"before":"incomplete","after":"incomplete","opening_intent_preserved":true,"note":"Se recupera la reacción inicial, pero los píxeles contienen una referencia temporal al momento presente que falta en la fuente OCR y en la traducción."}
+  ]
+}

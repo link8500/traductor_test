@@ -1,0 +1,1522 @@
+{
+  "schema": 1,
+  "chapter": "absolute-regression-124",
+  "reviewer": "assistant",
+  "evaluated_english_report_directory": "translated-en8010",
+  "evaluated_english_report_sha256": "749b7d82427eb57efb29770e211ac13e9c1eb5e212b9ab6f3550ea15aceac6ba",
+  "reference_report_sha256": "39d86b3f10514c94f8231186ec51cb6d8d6794d87e6bd3df41648438ddd85155",
+  "original_images": {
+    "en": {
+      "0": "b938ed6c7ebac1661b1d14449ec1ec69fee17a23d20254fab2bf9a47b4fb9e67",
+      "1": "3505e36787f3cadc403558b8faac414bdc0f87a95034b30f7e77ee8579d2d3ea",
+      "2": "414cdf299776d7387f8ca3273bd484d3a29307889170e4ed7bfded67a34f7527",
+      "3": "aa52aa0230e46d9c80f98d013ceef33dbd961edfbb89ae091f50eea24332fedd",
+      "4": "0952f45de7a3a9a31c5f36abcae0ecab10d30acfb49e45d194a4d237757cd128",
+      "5": "690903ac09ba49be91810d6ff9d5ef58e7af7c45ff1406dd005582f510ee59a3",
+      "6": "7c4c7a27a3fafa3249a3b1dd34dc4b033440353962dcc14bd8f26e235803d6ce",
+      "7": "8e9c2b9d12145d007f92b5e4cb5958ff8ee23b3e32f625b19171f4dae81586b6",
+      "8": "87aada41d09b0751cb5e3de87f7ca361cf1068efb44351aa016eaa3a243e71e2",
+      "9": "39175b485cafd86032eac0a778d21acadc4f8d89167d2f0ca2899acceaf1f529",
+      "10": "2505b4030b6f58a7fccb1f3ac900eb8bbc690b1effb458b1b25f1989ab4d39f1",
+      "11": "e982773ef4fbfd7f399add0da6a708c86a0769847bc0d22efdc1c40745e932f9",
+      "12": "9583f1954611442e4066ed1c5a6cef1e478af48ba7a685875f700e156e768f13",
+      "13": "0b7a49bbcd10f0a7480791786385fcd0d3308fddd8a10b9ab26f39d3d63e7c88",
+      "14": "b8e48c838f8c3c866ccef4e79208c3a468a80ac59971f3a3ba05078e06782847",
+      "15": "fe9f17e8ec8c5cff9010be4b79fb81f04104bd9b29cba6ffa0b7061435b3bb4f",
+      "16": "aae08779f66ba5f8c39c7d27e2b7a68d007be7ff5f7f5322ae82986a9a8a1ad6",
+      "17": "52dcbf589754258a6817e3e434faca8adda50dca1d1fb9bd254eaa623ab2b14d",
+      "18": "501dd3726523656bd881458a94403ad48186f371b5e1ebc2631f69af1a5774b2",
+      "19": "7465a51076440d8b327907bdad79bf56ebe9eb514738cfd9027aa62ddea7699d",
+      "20": "392862323852a0e56c0296462e6f31939cc9fe605707182b2226ac144368f9fb",
+      "21": "cf0686e3282f6c4a0cad6195a2adcf90dd5d34ddfd01455fae1aa307bdbc4f3d"
+    },
+    "es": {
+      "0": "fcddd97f130b0a5a49e1fa548131299d9ee9fe9683defa508c05e6776396081c",
+      "1": "d3298f196a7bff7e63e52a642efa76156c9bdc1528bc4da1371b19b4709d9548",
+      "2": "561c14903d1ca3e0afef9348be9d661acd8f58198dfef47315447a780debc641",
+      "3": "20569f63c5dec8d2d457092605249fac4c07e754daeb88e32fac63020735a24f",
+      "4": "15f2248eb5cf307aae026ee4fef3c1d54dda09346f3db8c9ce9a9e8cf91e3e6a",
+      "5": "ee88743f7c62ce499742f1d2117ba1a37cb4abf848fa19ee335f40ce2ef54d05",
+      "6": "4f088d32eb65424be7aa5e5f8088a5c73be94b570b8a0c769147c17e18982363",
+      "7": "0ea2fd8b96b027213013611bc449619f3ada4d295aa0bbd2de7c06d5002e98ec",
+      "8": "e3fffbaed236d5f49d3a35a2904a084ca73eb8f7588a5fb55104d95f6548e787",
+      "9": "b4a2df9c30a12b569c7ce1448cd36564f1b417f0a13ea8bf6127086462bbac77",
+      "10": "557d2b671ed254baf5d0ea9937763902fa098463a6c20df402650160a3890c97",
+      "11": "2c1f0c9e6bd4925eda55c13d156a41fda7b8c566c97108846154cb349d32e886",
+      "12": "4d62400be4dd6549d2f3e8072735189ee631356fa4feb40ac5d6f3dac627efcc",
+      "13": "ef77d79e69b1d8d0a1fe0a860d1ec0414dc513015489577fdc44a6e61e8dc1ee",
+      "14": "93382df5d7a3bcd7ed396b0f4919939f833f93131f9b24dbb54c0c4a72f95d73",
+      "15": "667114e6b90b7712c1bceb2d9ac52bc30131719fd130934ea361176b41e9c423",
+      "16": "89e5a32df29a8cf66710419eae1d6bad8ee969303a2518bf887c2debbda2d9ef",
+      "17": "491263484ddf02076ed5d291ee351fbbe7974cd78174957013ff2d2054a17347",
+      "18": "e8a70342e438fac21bb1616b9bbd28b7edaa176bc66d80dc50207cc416e0302e",
+      "19": "532eb7cb5458c625e9331c94c8cc4d6223428302d56e670c225776083ac176a1",
+      "20": "ee01c3b3f187b2608924bc274fba3c2a8b212c84cb577dbb23998b7ac8d10e32",
+      "21": "9cb365618a4c086458e44b67960b41645d467138f4e3475e6d672de8f0def691",
+      "22": "d787043262a20dbea6644c0f9491dcb7e719346c5a333d4ab31706f77d3c31ce",
+      "23": "dab8f00292e7ea30e673734a96906ee1763abea7fe86adb60f2f40c67790f835",
+      "24": "dbedd0ee793e298e601516250eab4f05d329e56b51cd3436e9d56cda231ab656",
+      "25": "0adb9f25af9dd2c7b8cc8e240246f7cf86a4f6531eaaf81d48b404f359b2a43d",
+      "26": "b57dcb3fe23a86575aec1e3e9a1a5d69eea3641ceb1c8ceb7319e593414ec3de",
+      "27": "d5b68dcdd9a715b2068fd42b7322dd3d55ac3902f25439eace62a91ba313a577",
+      "28": "79986bc0ae17722109108e0ddbb1739fd135f433374dd14dc6360651a1b1b921",
+      "29": "659810e3ed4934c27e837c3ed760ce2c2efa7e93886d52d285dc89969d3c7c40"
+    }
+  },
+  "generated_at_utc": "2026-10-24T02:38:02.073112+00:00",
+  "dialogue_pairs_checked": 67,
+  "scope": "Individual word readings and meaning assessed in 67 bilingual dialogue/narration pairs against original image crops and saved build 8010 outputs. Promotional text, credits, lettering not covered by these crops, and whole-chapter completeness are not approved. It is QA ground truth, never loaded by the shipped app.",
+  "all_chapter_words_visually_reviewed": false,
+  "semantic_accuracy": null,
+  "production_answer_lookup_added": false,
+  "entries": [
+    {
+      "id": 1,
+      "english_regions": [
+        6
+      ],
+      "reference_regions": [
+        8,
+        9,
+        10
+      ],
+      "english_image": 1,
+      "reference_image": 1,
+      "english_reading": "JUST AS THE SECOND YOUNG MASTER SAID, THERE HAS BEEN NO SURVEILLANCE OR TAILING DURING THE TEN-PLUS DAYS IT TOOK TO GET HERE.",
+      "reference_reading": "VIAJAMOS DURANTE MÁS DE DIEZ DÍAS HASTA AQUÍ Y NO FUIMOS VIGILADOS NI SEGUIDOS, TAL COMO DIJO EL SEGUNDO JOVEN MAESTRO QUE SUCEDERÍA.",
+      "recorded_english_ocr": "ST AS THE SECOND YOUNG MASTER SAID, THERE HAS BEEN NO SURVEILLANCE OR TAILING DURING THE TEN-PLUS DAYS IT TOOK TO ET HERE.",
+      "recorded_translation": "Como dijo el segundo joven maestro, no ha habido vigilancia ni seguimiento durante los más de diez días que tardó en llegar aquí.",
+      "recorded_reference_ocr": "VIAJAMOS DURANTE MÁS DE DIEZ DÍAS HASTA AQUÍ Y NO FUIMOS VIGILADOS NI SEGUIDOS, TAL COMO DIJO EL / SEGUNDO JOVEN M / SUCEDERÍA.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "needs_improvement",
+      "note_es": "OCR pierde JUST y la G de GET; la traducción conserva el sentido general.",
+      "evidence_sheet": "review-cases/chapter124-word-review/01.png"
+    },
+    {
+      "id": 2,
+      "english_regions": [
+        8
+      ],
+      "reference_regions": [
+        14
+      ],
+      "english_image": 1,
+      "reference_image": 2,
+      "english_reading": "CAN YOU SWIM?",
+      "reference_reading": "¿SABES NADAR?",
+      "recorded_english_ocr": "CAN YOU SWIM?",
+      "recorded_translation": "¿Puedes nadar?",
+      "recorded_reference_ocr": "¿SABES NADAR?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/01.png"
+    },
+    {
+      "id": 3,
+      "english_regions": [
+        9
+      ],
+      "reference_regions": [
+        15
+      ],
+      "english_image": 2,
+      "reference_image": 2,
+      "english_reading": "I CAN EVEN EAT A MEAL UNDERWATER WHILE DEALING WITH THE WATER GHOSTS OF THE YANGTZE RIVER.",
+      "reference_reading": "INCLUSO PUEDO COMER BAJO EL AGUA MIENTRAS ME ENFRENTO A LOS KAPPAS.",
+      "recorded_english_ocr": "I CAN EVEN EAT A MEAL UNDERWATER WHILE DEALING WITH THE WATER GHOSTS OF THE YANGTZE RIVER.",
+      "recorded_translation": "Incluso puedo comer una comida bajo el agua mientras trato con los fantasmas del agua del río yangtze.",
+      "recorded_reference_ocr": "INCLUSO PUEDO COMER BAJO EL AGLA MIENTRAS ME ENFRENTO A LOS KAPPAS.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "Luma conserva agua y fantasmas; Olympus adapta los espíritus a kappas.",
+      "evidence_sheet": "review-cases/chapter124-word-review/01.png"
+    },
+    {
+      "id": 4,
+      "english_regions": [
+        10,
+        11,
+        12
+      ],
+      "reference_regions": [
+        20
+      ],
+      "english_image": 2,
+      "reference_image": 2,
+      "english_reading": "THEN FOLLOW ME.",
+      "reference_reading": "ENTONCES, VEN CONMIGO.",
+      "recorded_english_ocr": "THEN / ME. / FOLLOW",
+      "recorded_translation": "ENTONCES / Yo. / Seguir",
+      "recorded_reference_ocr": "ENTONCES, VEN CONMIGO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "fragmented",
+      "note_es": "THEN, FOLLOW y ME se tradujeron por separado. Corrección de agrupación en prueba con 8011.",
+      "evidence_sheet": "review-cases/chapter124-word-review/01.png"
+    },
+    {
+      "id": 5,
+      "english_regions": [
+        14,
+        15,
+        16
+      ],
+      "reference_regions": [
+        30,
+        31
+      ],
+      "english_image": 3,
+      "reference_image": 5,
+      "english_reading": "SO THIS IS THE ALL EVIL CAVE?",
+      "reference_reading": "¿ESTA ES LA CUEVA DE LAS DIEZ MIL MALDICIONES?",
+      "recorded_english_ocr": "SO THIS / IS THE ALL EVIL / CAVE?",
+      "recorded_translation": "Así que esto / Es el todo mal / ¿Cave?",
+      "recorded_reference_ocr": "TA ES LA CUEVA / DE LAS DIEZ MIL MALDICIONES?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "fragmented",
+      "note_es": "Un solo globo aparece como tres solicitudes; CAVE queda en inglés.",
+      "evidence_sheet": "review-cases/chapter124-word-review/01.png"
+    },
+    {
+      "id": 6,
+      "english_regions": [
+        20
+      ],
+      "reference_regions": [
+        33
+      ],
+      "english_image": 5,
+      "reference_image": 6,
+      "english_reading": "IT IS SAID THAT AFTER THE BATTLE WITH THE HEAVENLY DEMON, THE INJURED ALL EVIL SOVEREIGN DRIFTED TO THIS PLACE.",
+      "reference_reading": "DICEN QUE EL MAESTRO DE LAS DIEZ MIL MALDICIONES VINO AQUÍ DESPUÉS DE RESULTAR HERIDO EN UNA BATALLA CONTRA EL DEMONIO CELESTIAL.",
+      "recorded_english_ocr": "IT IS SAID THAT AFTER THE BATTLE | WITH THE HEAVENLY DEMON, | THE INJURED ALL EVIL SOVEREIGN DRIFTED TO THIS PLACE.",
+      "recorded_translation": "Se dice que después de la batalla - con el demonio celestial, - el herido todos los malvados soberanos a la deriva a este lugar.",
+      "recorded_reference_ocr": "DICEN QUE EL MAESTRO DE LAS DIEZ MIL MALDICIONES VINO AQLÍ DESPUÉS DE RESULTAR HERIDO EN UNA BATALLA CONTRA EL DEMONIO CELESTIAL.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "El OCR introduce barras y el traductor altera el singular del soberano y el verbo.",
+      "evidence_sheet": "review-cases/chapter124-word-review/01.png"
+    },
+    {
+      "id": 7,
+      "english_regions": [
+        21
+      ],
+      "reference_regions": [
+        38
+      ],
+      "english_image": 5,
+      "reference_image": 6,
+      "english_reading": "WE THEN MADE THIS PLACE OUR SANCTUARY.",
+      "reference_reading": "CONVERTIMOS ESTE LUGAR EN UNA TIERRA SAGRADA.",
+      "recorded_english_ocr": "WE THEN MADE THIS PLACE OUR SANCTUARY.",
+      "recorded_translation": "Luego hicimos de este lugar nuestro santuario.",
+      "recorded_reference_ocr": "/ CONVERTIMOS ESTE LUGAR EN / LINA TIERRA SAGRADA.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/02.png"
+    },
+    {
+      "id": 8,
+      "english_regions": [
+        22
+      ],
+      "reference_regions": [
+        39
+      ],
+      "english_image": 5,
+      "reference_image": 6,
+      "english_reading": "THIS IS A DOOR THAT CAN ONLY BE OPENED BY INJECTING INNER ENERGY IN A SPECIFIC WAY.",
+      "reference_reading": "ESTA PUERTA SÓLO PUEDE ABRIRSE INYECTANDO ENERGÍA INTERNA DE UNA MANERA ESPECÍFICA.",
+      "recorded_english_ocr": "THIS IS A DOOR THAT CAN ONLY BE OPENED BY INJECTING INNER ENERGY IN A SPECIFIC WAY.",
+      "recorded_translation": "Esta es una puerta que solo se puede abrir inyectando energía interior de una manera específica.",
+      "recorded_reference_ocr": "ESTA PUERTA SÓLO PUEDE ABRIRSE INYECTANDO ENERGÍA INTERNA DE LNA MANERA ESPECÍFICA.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/02.png"
+    },
+    {
+      "id": 9,
+      "english_regions": [
+        23
+      ],
+      "reference_regions": [
+        40
+      ],
+      "english_image": 5,
+      "reference_image": 6,
+      "english_reading": "IF YOU TRY | TO FORCE IT OPEN, THIS PLACE WILL COLLAPSE.",
+      "reference_reading": "SI INTENTAS ABRIRLA POR LA FUERZA, TODO EL LUGAR SE DERRUMBARÁ.",
+      "recorded_english_ocr": "IF YOU TRY | TO FORCE IT OPEN, THIS PLACE WILL COLLAPSE.",
+      "recorded_translation": "Si intentas forzarlo para que se abra, este lugar colapsará.",
+      "recorded_reference_ocr": "SI INTENTAS ABRIRLA POR LA FUERZA, TODO EL LUGAR SE DERRUMBARÁ.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/02.png"
+    },
+    {
+      "id": 10,
+      "english_regions": [
+        24
+      ],
+      "reference_regions": [
+        41
+      ],
+      "english_image": 5,
+      "reference_image": 7,
+      "english_reading": "NOW, TELL ME. WHO IS THE MASTERMIND?",
+      "reference_reading": "AHORA, DIME. ¿QUIÉN ESTÁ DETRÁS DE TODO ESTO?",
+      "recorded_english_ocr": "NOW, TELL ME. WHO IS THE MASTERMIND?",
+      "recorded_translation": "Ahora, dime. ¿Quién es el cerebro?",
+      "recorded_reference_ocr": "AHORA, DIME. ¿QUIÉN ESTÁ DETRÁS DE TODO ESTO?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/02.png"
+    },
+    {
+      "id": 11,
+      "english_regions": [
+        25
+      ],
+      "reference_regions": [
+        42
+      ],
+      "english_image": 5,
+      "reference_image": 7,
+      "english_reading": "IT'S THE UNORTHODOX ALLIANCE FIRST ELDER, SEOK GWANCHU.",
+      "reference_reading": "EL GRAN ANCIANO DE LA ALIANZA DEL CAMINO DEL MAL, SEOK GWANCHU.",
+      "recorded_english_ocr": "IT'S THE LUNORTHODOX ALLIANCE FIRST ELDER, SEOK GWANCHU.",
+      "recorded_translation": "Es el primer anciano de la alianza lunorthodox, seok gwanchu.",
+      "recorded_reference_ocr": "EL GRAN ANCIANO DE LA ALIANZA DEL CAMINO DEL MAL, SEOK GWANCHU.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "UNORTHODOX se reconoce como LUNORTHODOX y queda mal traducido.",
+      "evidence_sheet": "review-cases/chapter124-word-review/02.png"
+    },
+    {
+      "id": 12,
+      "english_regions": [
+        26
+      ],
+      "reference_regions": [
+        45
+      ],
+      "english_image": 5,
+      "reference_image": 7,
+      "english_reading": "THAT'S IMPOSSIBLE.",
+      "reference_reading": "ESO ES IMPOSIBLE.",
+      "recorded_english_ocr": "THAT'S IMPOSSIBLE.",
+      "recorded_translation": "Eso es imposible.",
+      "recorded_reference_ocr": "ESO ES IMPOSIBLE.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/02.png"
+    },
+    {
+      "id": 13,
+      "english_regions": [
+        27
+      ],
+      "reference_regions": [
+        46
+      ],
+      "english_image": 5,
+      "reference_image": 8,
+      "english_reading": "ELDER SEOK RETIRED A LONG TIME AGO AND JOINED THE COUNCIL OF ELDERS.",
+      "reference_reading": "EL ANCIANO SEOK SE RETIRÓ HACE MUCHO TIEMPO Y PASÓ A FORMAR PARTE DEL CONSEJO DE ANCIANOS.",
+      "recorded_english_ocr": "ELDER SEOK RETIRED A LONG TIME AGO AND JOINEDT",
+      "recorded_translation": "El élder seok se retiró hace mucho tiempo y se unió",
+      "recorded_reference_ocr": "EL ANCIANO SEOK SE RETIRÓ HACE MUCHO TIEMPO Y PASÓ A FORMAR PARTE DEL CONSEJO DE ANCIANOS.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "Falta THE COUNCIL OF ELDERS en la salida guardada; posible captura parcial seleccionada antes que una completa.",
+      "evidence_sheet": "review-cases/chapter124-word-review/03.png"
+    },
+    {
+      "id": 14,
+      "english_regions": [
+        28
+      ],
+      "reference_regions": [
+        47
+      ],
+      "english_image": 5,
+      "reference_image": 8,
+      "english_reading": "DO YOU HAVE PROOF IT'S HIM?",
+      "reference_reading": "¿TIENES ALGUNA PRUEBA DE ESO?",
+      "recorded_english_ocr": "DO YOU HAVE PROOF IT'S HIM?",
+      "recorded_translation": "¿Tienes pruebas de que es él?",
+      "recorded_reference_ocr": "¿TIENES ALGUNA PRUEBA DE ESO?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/03.png"
+    },
+    {
+      "id": 15,
+      "english_regions": [
+        29
+      ],
+      "reference_regions": [
+        48
+      ],
+      "english_image": 6,
+      "reference_image": 8,
+      "english_reading": "THE BLACK ASSASSIN LEADER CONFESSED.",
+      "reference_reading": "LA MUERTE NEGRA LO CONFESÓ.",
+      "recorded_english_ocr": "THE BLACK ASSASSIN LEADER CONFESSED.",
+      "recorded_translation": "El líder asesino negro confesó.",
+      "recorded_reference_ocr": "LA MUERTE NEGRA LO CONFESÓ.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/03.png"
+    },
+    {
+      "id": 16,
+      "english_regions": [
+        30
+      ],
+      "reference_regions": [
+        49
+      ],
+      "english_image": 6,
+      "reference_image": 8,
+      "english_reading": "WHERE IS HE NOW?",
+      "reference_reading": "¿DÓNDE ESTÁ AHORA?",
+      "recorded_english_ocr": "WHERE IS HE NOW?",
+      "recorded_translation": "¿Dónde está ahora?",
+      "recorded_reference_ocr": "¿DÓNDE ESTÁ AHORA?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/03.png"
+    },
+    {
+      "id": 17,
+      "english_regions": [
+        31
+      ],
+      "reference_regions": [
+        54
+      ],
+      "english_image": 6,
+      "reference_image": 8,
+      "english_reading": "HE'S DEAD.",
+      "reference_reading": "MUERTO.",
+      "recorded_english_ocr": "HE'S DEAD.",
+      "recorded_translation": "Está muerto.",
+      "recorded_reference_ocr": "MUERTO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/03.png"
+    },
+    {
+      "id": 18,
+      "english_regions": [
+        32
+      ],
+      "reference_regions": [
+        55
+      ],
+      "english_image": 7,
+      "reference_image": 9,
+      "english_reading": "THEN YOU'RE SAYING ELDER SEOK IS THE MASTERMIND WITHOUT ANY PROOF?",
+      "reference_reading": "ENTONCES, ¿ESTÁS ACUSANDO AL ANCIANO SEOK SIN TENER NINGUNA PRUEBA?",
+      "recorded_english_ocr": "THEN YOU'RE SAYING ELDER SEOK IS THE MASTERMIND WITHOUT ANY PROOF?",
+      "recorded_translation": "¿Entonces estás diciendo que el anciano Seok es el cerebro sin ninguna prueba?",
+      "recorded_reference_ocr": "ENTONCES, ¿ESTÁS ACLSANDO AL ANCIANO SEOK SIN TENER NINGUNA PRUEBA?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/03.png"
+    },
+    {
+      "id": 19,
+      "english_regions": [
+        33,
+        34,
+        35
+      ],
+      "reference_regions": [
+        56
+      ],
+      "english_image": 7,
+      "reference_image": 9,
+      "english_reading": "WHAT DO YOU MEAN THERES NO PROOF?",
+      "reference_reading": "¿NO TENGO PRUEBAS?",
+      "recorded_english_ocr": "WI/ATDO / YOU ME / U PROOF",
+      "recorded_translation": "WI/ATDO / Tú me / Prueba U",
+      "recorded_reference_ocr": "¿NO TENGO PRUEBAS?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "Tipografía estrecha: el OCR pierde la mayor parte de WHAT DO YOU MEAN THERES NO PROOF.",
+      "evidence_sheet": "review-cases/chapter124-word-review/04.png"
+    },
+    {
+      "id": 20,
+      "english_regions": [
+        36,
+        37
+      ],
+      "reference_regions": [
+        61
+      ],
+      "english_image": 7,
+      "reference_image": 9,
+      "english_reading": "I, THE SECOND SON OF THE HEAVENLY DEMON, AM SPEAKING AS A WITNESS.",
+      "reference_reading": "ESTOY DANDO MI TESTIMONIO COMO EL SEGUNDO HIJO DEL DEMONIO CELESTIAL.",
+      "recorded_english_ocr": "l, TUECECOIID SON OF THE HEAVENLY DEMON, AM SPEAKING / AS A WITNESS.",
+      "recorded_translation": "L, TUECECOIID HIJO DEL DEMONIO CELEBRAL, HABLO / Como testigo.",
+      "recorded_reference_ocr": "ESTOY DANDO MI TESTIMONIO COMO EL SEGUNDO HIJO DEL DEMONIO CELESTIAL.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "THE SECOND se deforma en TUECECOIID; DEMON acaba como DEMONIO CELEBRAL.",
+      "evidence_sheet": "review-cases/chapter124-word-review/04.png"
+    },
+    {
+      "id": 21,
+      "english_regions": [
+        38
+      ],
+      "reference_regions": [
+        62
+      ],
+      "english_image": 7,
+      "reference_image": 10,
+      "english_reading": "IF YOU DON'T BELIEVE ME, YOU SHOULDN'T BE STANDING HERE IN THE FIRST PLACE.",
+      "reference_reading": "SI NO CONFÍAS EN MÍ, ENTONCES NI SIQUIERA DEBERÍAS HABERME TRAÍDO AQUÍ EN PRIMER LUGAR.",
+      "recorded_english_ocr": "IF YOU DON'T BELIEVE ME, YOU SHOULDN'T BE STANDING HERE IN THE FIRST PLACE.",
+      "recorded_translation": "Si no me crees, no deberías estar parado aquí en primer lugar.",
+      "recorded_reference_ocr": "SI NO CONFÍAS EN MÍ, ENTONCES NI SIQUIERA DEBERÍAS HABERME TRAÍDO AQUÍ EN PRIMER LUGAR.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/04.png"
+    },
+    {
+      "id": 22,
+      "english_regions": [
+        39
+      ],
+      "reference_regions": [
+        67
+      ],
+      "english_image": 7,
+      "reference_image": 10,
+      "english_reading": "WHAT ON EARTH ARE YOU DOING?",
+      "reference_reading": "¿QUÉ DEMONIOS TIENES EN LA CABEZA?",
+      "recorded_english_ocr": "WHAT ON EARTH ARE YOU DOING?",
+      "recorded_translation": "¿Qué demonios estás haciendo?",
+      "recorded_reference_ocr": "¿QUÉ DEMONIOS TIENES EN LA CABEZA?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/04.png"
+    },
+    {
+      "id": 23,
+      "english_regions": [
+        40
+      ],
+      "reference_regions": [
+        68
+      ],
+      "english_image": 7,
+      "reference_image": 10,
+      "english_reading": "NO... I BELIEVE YOU. I CAME BECAUSE I BELIEVE YOU...",
+      "reference_reading": "NO... CONFÍO EN TI. VINIMOS AQUÍ PRECISAMENTE PORQUE CONFÍO EN TI...",
+      "recorded_english_ocr": "NO... I BELIEVE | YOLU. I CAME BECALSE ) I BELIEVE YOU...",
+      "recorded_translation": "No... creo que yolu. Vine becalse) creo que...",
+      "recorded_reference_ocr": "NO... CONFÍO EN TI. VINIMOS AQLÍ PRECISAMENTE PORQUE CONFÍO EN TI...",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "YOU y BECAUSE quedan como YOLU y BECALSE; se pierde el sentido de la frase.",
+      "evidence_sheet": "review-cases/chapter124-word-review/04.png"
+    },
+    {
+      "id": 24,
+      "english_regions": [
+        41
+      ],
+      "reference_regions": [
+        69
+      ],
+      "english_image": 7,
+      "reference_image": 10,
+      "english_reading": "IT'S SIMPLY DIFFICULT TO BELIEVE THAT IT'S ELDER SEOK.",
+      "reference_reading": "ES SOLO QUE NO PUEDO CREER QUE SEA EL ANCIANO SEOK.",
+      "recorded_english_ocr": "IT'S SIMPLY PIFFICULT TO BELIEVE THAT IT'S ELDER SEOK.",
+      "recorded_translation": "Es simplemente difícil de creer que es seok mayor.",
+      "recorded_reference_ocr": "ES SOLO QUE NO PUEDO CREER QUE SEA EL ANCIANO SEOK.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "needs_improvement",
+      "note_es": "PIFFICULT es un error de lectura aunque el modelo recupera difícil. El título elder también necesita mejor tratamiento.",
+      "evidence_sheet": "review-cases/chapter124-word-review/04.png"
+    },
+    {
+      "id": 25,
+      "english_regions": [
+        42
+      ],
+      "reference_regions": [
+        70
+      ],
+      "english_image": 8,
+      "reference_image": 11,
+      "english_reading": "I CAN UNDERSTAND BI SA-IN'S REACTION.",
+      "reference_reading": "PUEDO ENTENDER LA REACCIÓN DE BI SAIN.",
+      "recorded_english_ocr": "I CAN UNDERSTAND BI SA-IN'S REACTION.",
+      "recorded_translation": "Puedo entender la reacción de Bi Sa-in.",
+      "recorded_reference_ocr": "PUEDO ENTENDER LA REACCIÓN DE BI SAIN.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/05.png"
+    },
+    {
+      "id": 26,
+      "english_regions": [
+        43
+      ],
+      "reference_regions": [
+        71,
+        72,
+        73
+      ],
+      "english_image": 8,
+      "reference_image": 11,
+      "english_reading": "SEOK GWANCHU IS AN INDIVIDUAL WHO COMMANDS THE ABSOLUTE RESPECT OF THE UNORTHODOX ALLIANCE MARTIAL ARTISTS.",
+      "reference_reading": "DESPUÉS DE TODO, SEOK GWANCHU SE HA GANADO EL RESPETO DE TODOS LOS GUERREROS DE LA ALIANZA DEL CAMINO DEL MAL.",
+      "recorded_english_ocr": "SEOK GWANCHU IS AN INDIVIDLALWHO COMMANDS THE ABSOLUTE RESPECT OF THE UNORTHODOX ALLIANCE MARTIAL ARTISTS.",
+      "recorded_translation": "Seok gwanchu es un individuo que tiene el respeto absoluto de los artistas marciales de la alianza poco ortodoxa.",
+      "recorded_reference_ocr": "DESPUÉS DE TODO, SEOK GWANCHU SE HA GANADO EL / O DE TODOS LOS / GUERREROS DE LA ALIANZA DEL CAMINO DEL MAL.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "needs_improvement",
+      "note_es": "INDIVIDUAL WHO se une y se deforma en INDIVIDLALWHO; la traducción conserva el sentido.",
+      "evidence_sheet": "review-cases/chapter124-word-review/05.png"
+    },
+    {
+      "id": 27,
+      "english_regions": [
+        44
+      ],
+      "reference_regions": [
+        74
+      ],
+      "english_image": 9,
+      "reference_image": 11,
+      "english_reading": "ELDER SEOK IS TRYING TO MAKE HIS GRANDSON THE SUCCESSOR.",
+      "reference_reading": "EL ANCIANO SEOK ESTÁ INTENTANDO CONVERTIR A SU PROPIO NIETO EN EL SUCESOR.",
+      "recorded_english_ocr": "ELDER SEOK IS TRYING TO MAKE HIS GRANDSON THE SUCCESSOR.",
+      "recorded_translation": "El élder Seok está tratando de hacer que su nieto sea el sucesor.",
+      "recorded_reference_ocr": "EL ANCIANO SEOK ESTÁ INTENTANDO CONVERTIR A SU PROPIO NIETO EN EL SUCESOR.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/05.png"
+    },
+    {
+      "id": 28,
+      "english_regions": [
+        45,
+        46
+      ],
+      "reference_regions": [
+        77
+      ],
+      "english_image": 9,
+      "reference_image": 11,
+      "english_reading": "SO THAT WAS IT...",
+      "reference_reading": "ASÍ QUE ERA POR ESO...",
+      "recorded_english_ocr": "SOTHAT / WAS IT...",
+      "recorded_translation": "Así que / ¿Era...?",
+      "recorded_reference_ocr": "ASÍ QUE ERA POR ESO...",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "fragmented",
+      "note_es": "SO THAT WAS IT se divide en dos traducciones.",
+      "evidence_sheet": "review-cases/chapter124-word-review/05.png"
+    },
+    {
+      "id": 29,
+      "english_regions": [
+        47
+      ],
+      "reference_regions": [
+        78
+      ],
+      "english_image": 9,
+      "reference_image": 12,
+      "english_reading": "ELDER SEOK WAS VERY PROUD OF HIS GRANDSON. HE BRAGGED ABOUT HIM TO ME SEVERAL TIMES.",
+      "reference_reading": "EL ANCIANO SEOK SIEMPRE HA ESTADO MUY ORGULLOSO DE SU NIETO. SE JACTÓ DE ÉL VARIAS VECES DELANTE DE MÍ.",
+      "recorded_english_ocr": "ELDER SEOK WAS VERY PROUD OF HIS GRANDSON. HE BI ABOUT HIM TO ME SEVERAL TIMES.",
+      "recorded_translation": "El élder Seok estaba muy orgulloso de su nieto.",
+      "recorded_reference_ocr": "EL ANCIANO SEOK SIEMPRE HA ESTADO MUY ORGULLOSO DE SU NIETO. SE JACTÓ DE ÉL VARIAS VECES DELANTE DE MÍ.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "Se omite toda la segunda oración sobre presumir del nieto.",
+      "evidence_sheet": "review-cases/chapter124-word-review/05.png"
+    },
+    {
+      "id": 30,
+      "english_regions": [
+        48
+      ],
+      "reference_regions": [
+        79
+      ],
+      "english_image": 9,
+      "reference_image": 12,
+      "english_reading": "BACK THEN... I JUST THOUGHT HIS AFFECTION FOR HIS GRANDSON WAS EXCESSIVE,",
+      "reference_reading": "EN AQUEL ENTONCES... PENSÉ QUE SOLO ERA UN ABUELO MOSTRANDO SU CARIÑO POR SU NIETO.",
+      "recorded_english_ocr": "BACK THEN... I JUST THOUGHT HIS AFFECTION FOR HIS GRANDSON WAS EXCESSIVE,",
+      "recorded_translation": "En aquel entonces... pensé que su afecto por su nieto era excesivo,",
+      "recorded_reference_ocr": "EN AQUEL ENTONCES... PENSÉ QUE SOLO ERA LIN ABUELO MOSTRANDO SU CARIÑO POR SU NIETO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/05.png"
+    },
+    {
+      "id": 31,
+      "english_regions": [
+        49
+      ],
+      "reference_regions": [
+        80
+      ],
+      "english_image": 9,
+      "reference_image": 12,
+      "english_reading": "BUT THINKING ABOUT IT NOW, IT SEEMS THAT WASN'T ALL.",
+      "reference_reading": "PERO AHORA QUE LO PIENSO, PARECE QUE NO ERA SOLO ESO.",
+      "recorded_english_ocr": "BLT THINKING",
+      "recorded_translation": "Blt pensamiento",
+      "recorded_reference_ocr": "PERO AHORA QUE LO PIENSO, PARECE QUE NO ERA SOLO ESO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "Se conserva únicamente BUT THINKING y se pierde ABOUT IT NOW, IT SEEMS THAT WASN’T ALL.",
+      "evidence_sheet": "review-cases/chapter124-word-review/06.png"
+    },
+    {
+      "id": 32,
+      "english_regions": [
+        50
+      ],
+      "reference_regions": [
+        83
+      ],
+      "english_image": 9,
+      "reference_image": 12,
+      "english_reading": "NOW, IT'S YOUR TURN TO KEEP YOUR PROMISE.",
+      "reference_reading": "BIEN. AHORA TE TOCA CUMPLIR TU PROMESA.",
+      "recorded_english_ocr": "NOW, IT'S YOUR TURN TO KEEP YOUR PROMISE.",
+      "recorded_translation": "Ahora es tu turno de cumplir tu promesa.",
+      "recorded_reference_ocr": "BIEN. AHORA TE TOCA CUMPLIR TU PROMESA.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/06.png"
+    },
+    {
+      "id": 33,
+      "english_regions": [
+        51
+      ],
+      "reference_regions": [
+        84
+      ],
+      "english_image": 9,
+      "reference_image": 12,
+      "english_reading": "I UNDERSTAND.",
+      "reference_reading": "ESTÁ BIEN.",
+      "recorded_english_ocr": "I UNDERSTAND.",
+      "recorded_translation": "Entiendo.",
+      "recorded_reference_ocr": "ESTÁ BIEN.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/06.png"
+    },
+    {
+      "id": 34,
+      "english_regions": [
+        52
+      ],
+      "reference_regions": [
+        88
+      ],
+      "english_image": 10,
+      "reference_image": 14,
+      "english_reading": "COMING HERE MUST REMAIN A SECRET UNTIL THE DAY YOU DIE.",
+      "reference_reading": "EL HECHO DE QUE HAYAS ENTRADO AQUÍ DEBE PERMANECER EN SECRETO HASTA EL DÍA DE TU MUERTE.",
+      "recorded_english_ocr": "COMING HERE MUST REMAIN A SECRET UNTIL THE DAY YOU DIE.",
+      "recorded_translation": "Venir aquí debe ser un secreto hasta el día que mueras.",
+      "recorded_reference_ocr": "EL HECHO DE QUE HAYAS ENTRADO AQUÍ DEBE PERMANECER EN SECRETO HASTA EL DÍA DE TU MUERTE.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/06.png"
+    },
+    {
+      "id": 35,
+      "english_regions": [
+        53
+      ],
+      "reference_regions": [
+        89
+      ],
+      "english_image": 10,
+      "reference_image": 14,
+      "english_reading": "YOU HAVE EXACTLY FOUR HOURS. IF YOU DON'T COME OUT BY THAT TIME, THEN I'LL BE COMING IN.",
+      "reference_reading": "Y TENDRÁS EXACTAMENTE DOS HORAS. SI NO SALES PARA ENTONCES, ENTRARÉ A BUSCARTE.",
+      "recorded_english_ocr": "YOU HAVE EXACTLY FOUR HOURS. IF YOU | DON'T COME OLT BY THAT | TIME, THEN I'LL BE COMING IN.",
+      "recorded_translation": "Tienes exactamente cuatro horas. Si no vienes para ese momento, entonces voy a entrar.",
+      "recorded_reference_ocr": "Y TENDRÁS EXACTAMENTE DOS HORAS. SI NO SALES PARA ENTONCES, ENTRARÉ A BUSCARTE.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "El inglés dice FOUR HOURS y Olympus DOS HORAS: diferencia real entre ediciones. Además, OUT se lee OLT y Luma pierde la idea de salir.",
+      "evidence_sheet": "review-cases/chapter124-word-review/06.png"
+    },
+    {
+      "id": 36,
+      "english_regions": [
+        54
+      ],
+      "reference_regions": [
+        90
+      ],
+      "english_image": 10,
+      "reference_image": 14,
+      "english_reading": "UNDERSTOOD.",
+      "reference_reading": "ENTENDIDO.",
+      "recorded_english_ocr": "/ UNDERSTOOD.",
+      "recorded_translation": "/ ENTENDIMIENTO.",
+      "recorded_reference_ocr": "ENTENDIDO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "UNDERSTOOD es una respuesta de aceptación; ENTENDIMIENTO resulta inadecuado en este diálogo.",
+      "evidence_sheet": "review-cases/chapter124-word-review/06.png"
+    },
+    {
+      "id": 37,
+      "english_regions": [
+        55
+      ],
+      "reference_regions": [
+        97
+      ],
+      "english_image": 11,
+      "reference_image": 15,
+      "english_reading": "THE LIFE OF THE ALL EVIL SOVEREIGN IS RECORDED HERE.",
+      "reference_reading": "LA VIDA DEL MAESTRO DE LAS DIEZ MIL MALDICIONES ESTÁ REGISTRADA AQUÍ.",
+      "recorded_english_ocr": "THE LIFE OF THE ALL EVIL SOVEREIGN IS RECORDED HERE.",
+      "recorded_translation": "La vida del soberano todo mal se registra aquí.",
+      "recorded_reference_ocr": "LA VIDA DEL MAESTRO DE LAS DIEZ MIL MALDICIONES ESTÁ REGISTRADA AQUÍ.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "needs_improvement",
+      "note_es": "El título ALL EVIL SOVEREIGN necesita una traducción consistente y natural.",
+      "evidence_sheet": "review-cases/chapter124-word-review/07.png"
+    },
+    {
+      "id": 38,
+      "english_regions": [
+        56
+      ],
+      "reference_regions": [
+        98
+      ],
+      "english_image": 11,
+      "reference_image": 16,
+      "english_reading": "FROM HIS BIRTH, HIS UNFORTUNATE CHILDHOOD, TO HIS DAYS OF TRAINING MARTIAL ARTS WITH PAINSTAKING EFFORT,",
+      "reference_reading": "DESDE SU NACIMIENTO Y SU DESDICHADA INFANCIA, PASANDO POR LOS AÑOS DE ENTRENAMIENTO MARCIAL EN LOS QUE SE DEDICÓ INCANSABLEMENTE,",
+      "recorded_english_ocr": "FROM HIS BIRTH, HIS LNFORTUNATE CHILDHOOD, TO HIS DAYS OF TRAINING MARTIAL ARTS WITH PAINSTAKING EFFORT,",
+      "recorded_translation": "Desde su nacimiento, su infancia afortunada, hasta sus días de entrenamiento en artes marciales con un esfuerzo minucioso,",
+      "recorded_reference_ocr": "DESDE SU NACIMIENTO Y SU DESDICHADA INFANCIA, PASANDO POR LOS AÑOS DE ENTRENAMIENTO MARCIAL EN LOS QUE SE DEDICÓ INCANSABLEMENTE,",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "UNFORTUNATE se lee LNFORTUNATE y termina en infancia afortunada: se invierte el significado.",
+      "evidence_sheet": "review-cases/chapter124-word-review/07.png"
+    },
+    {
+      "id": 39,
+      "english_regions": [
+        57
+      ],
+      "reference_regions": [
+        99
+      ],
+      "english_image": 11,
+      "reference_image": 16,
+      "english_reading": "HIS HEROIC TALES FROM HIS YOUTH, AND THE BIOGRAPHY OF HOW HE BECAME A GRANDMASTER OF THE UNORTHODOX SECT ARE ALL WRITTEN HERE.",
+      "reference_reading": "HASTA LAS HAZAÑAS DE SU JUVENTUD Y TODA LA TRAYECTORIA DE SU VIDA, HASTA CONVERTIRSE EN UN GRAN MAESTRO. TODO ESTÁ REGISTRADO.",
+      "recorded_english_ocr": "HIS HEROIC TALES FROM HIS YOUTH, AND THE BIOGRAPHY OF HOW HE BECAME A GRANDMASTER OF THE UNORTHODOX SECT ARE ALL WRITTEN HERE.",
+      "recorded_translation": "Sus cuentos heroicos de su juventud, y la biografía de cómo se convirtió en un gran maestro de la secta poco ortodoxa están todos escritos aquí.",
+      "recorded_reference_ocr": "HASTA LAS HAZAÑAS DE SU JUVENTUD Y TODA LA TRAYECTORIA DE SU VIDA, HASTA CONVERTIRSE. EN LUN GRAN MAESTRO. TODO ESTÁ REGISTRADO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/07.png"
+    },
+    {
+      "id": 40,
+      "english_regions": [
+        58
+      ],
+      "reference_regions": [
+        100
+      ],
+      "english_image": 11,
+      "reference_image": 16,
+      "english_reading": "BUT THAT'S IT. THERE IS NOTHING ELSE.",
+      "reference_reading": "PERO ESO ES TODO. NO HAY NADA MÁS.",
+      "recorded_english_ocr": "BUT THAT'S IT. THERE IS NOTHING ELSE.",
+      "recorded_translation": "Pero eso es todo, no hay nada más.",
+      "recorded_reference_ocr": "PERO ESO ES TODO. NO HAY NADA MÁS.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/07.png"
+    },
+    {
+      "id": 41,
+      "english_regions": [
+        59
+      ],
+      "reference_regions": [
+        105,
+        106,
+        107
+      ],
+      "english_image": 11,
+      "reference_image": 16,
+      "english_reading": "THE REASON BI SA-IN LET ME IN HERE WAS BECAUSE THIS IS MERELY A PLACE WHERE THE BIOGRAPHY OF AN UNORTHODOX MARTIAL MASTER IS RECORDED.",
+      "reference_reading": "DESPUÉS DE TODO, LA RAZÓN POR LA QUE BI SAIN ME PERMITIÓ ENTRAR AQUÍ FUE PRECISAMENTE PORQUE ESTE LUGAR NO ES MÁS QUE UN SITIO DONDE SE REGISTRA LA HISTORIA DE VIDA DE UN MAESTRO MARCIAL DEL CAMINO NO ORTODOXO.",
+      "recorded_english_ocr": "THE REASON BI SA-IN LET ME IN HERE WAS BECALSE",
+      "recorded_translation": "La razón por la que me dejó entrar aquí fue porque",
+      "recorded_reference_ocr": "DESPUÉS DE TODO, LA RAZÓN POR LA QUE BI SAIN ME PERMITIÓ ENTRAR AQUÍ FUI PRECISAMENTE PORQUE ESTE LUGAR NO ES MÁS QUE UN SITIO DONDE SE / A LA HISTORIA DE VIDA DE UN / MAESTRO MARCIAL DEL CAMINO NO ORTODOXO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "Se pierde la explicación completa después de BECAUSE; la traducción también omite el nombre BI SA-IN.",
+      "evidence_sheet": "review-cases/chapter124-word-review/07.png"
+    },
+    {
+      "id": 42,
+      "english_regions": [
+        60
+      ],
+      "reference_regions": [
+        108
+      ],
+      "english_image": 12,
+      "reference_image": 16,
+      "english_reading": "HOWEVER,",
+      "reference_reading": "PERO...",
+      "recorded_english_ocr": "HOWEVER",
+      "recorded_translation": "Sin embargo",
+      "recorded_reference_ocr": "PERO...",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/07.png"
+    },
+    {
+      "id": 43,
+      "english_regions": [
+        61
+      ],
+      "reference_regions": [
+        109
+      ],
+      "english_image": 12,
+      "reference_image": 17,
+      "english_reading": "TEN YEARS FROM NOW, AN EARTHQUAKE WILL OCCUR HERE, CAUSING THE WALL TO COLLAPSE,",
+      "reference_reading": "DENTRO DE DIEZ AÑOS, HABRÁ UN TERREMOTO QUE HARÁ QUE ESTAS PAREDES SE DERRUMBEN.",
+      "recorded_english_ocr": "TEN YEARS FROM NOW, AN EARTHQUAKE WILL OCCUR HERE, CAUSING THE WALLTO COLLAPSE,",
+      "recorded_translation": "Diez años a partir de ahora, un terremoto ocurrirá aquí, causando el colapso de la pared,",
+      "recorded_reference_ocr": "DENTRO DE DIEZ AÑOS, HABRÁ UN TERREMOTO QUE HARÁ QUE ES E DERRUMBEN.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/08.png"
+    },
+    {
+      "id": 44,
+      "english_regions": [
+        62
+      ],
+      "reference_regions": [
+        110
+      ],
+      "english_image": 12,
+      "reference_image": 17,
+      "english_reading": "AND A NEW SPACE WILL BE DISCOVERED.",
+      "reference_reading": "Y QUEDARÁ AL DESCUBIERTO UN NUEVO ESPACIO.",
+      "recorded_english_ocr": "AND A NEW SPACE WILL BE DISCOVERED.",
+      "recorded_translation": "Y un nuevo espacio será descubierto.",
+      "recorded_reference_ocr": "Y QUEDARÁ AL DESCUBIERTO LUN NUEVO ESPACIO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/08.png"
+    },
+    {
+      "id": 45,
+      "english_regions": [
+        64
+      ],
+      "reference_regions": [
+        117,
+        118
+      ],
+      "english_image": 13,
+      "reference_image": 19,
+      "english_reading": "THIS IS IT. THE ALL EVIL SOVEREIGN'S MARTIAL ARTS KNOWLEDGE...",
+      "reference_reading": "LO ENCONTRÉ, LAS ARTES MARCIALES DEL MAESTRO DE LAS DIEZ MIL MALDICIONES...",
+      "recorded_english_ocr": "THIS IS IT.THE ALL EVIL SOVEREIGN'S MARTIAL ARTS KNOWLEDGE...",
+      "recorded_translation": "Esto es it.The todo el conocimiento de las artes marciales del malvado soberano...",
+      "recorded_reference_ocr": "LO ENCONTRÉ, / S MARCIALES",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "La salida conserva it.The y presenta una construcción incorrecta para el título.",
+      "evidence_sheet": "review-cases/chapter124-word-review/08.png"
+    },
+    {
+      "id": 46,
+      "english_regions": [
+        65
+      ],
+      "reference_regions": [
+        123,
+        124
+      ],
+      "english_image": 15,
+      "reference_image": 20,
+      "english_reading": "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS BASED ON THE ENLIGHTENMENT HE GAINED THROUGH HIS FIGHT WITH THE HEAVENLY DEMON.",
+      "reference_reading": "ES UN REGISTRO COMPLETO DE SUS ARTES MARCIALES, BASADO EN LAS ENSEÑANZAS QUE OBTUVO DURANTE SU LUCHA CONTRA EL DEMONIO CELESTIAL.",
+      "recorded_english_ocr": "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS D ON THE ENLIGHTENMENT HE GAINED THROLGH HIS FIGHT WITH THE HEAVENLY DEMON.",
+      "recorded_translation": "Es una conferencia sobre todas sus artes marciales y sobre la iluminación que obtuvo a través de su lucha con el demonio celestial.",
+      "recorded_reference_ocr": "S UN REGISTRO / COMPLETO DE SUS AI MARCIALES, BASADO EN LA ENSEÑANZAS QUE OBTUVO DURANTE SU LUCHA CONTRA EL DEMONIO CELESTIAL.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "Faltan letras de BASED y THROUGH; el sentido principal se recupera.",
+      "evidence_sheet": "review-cases/chapter124-word-review/08.png"
+    },
+    {
+      "id": 47,
+      "english_regions": [
+        66
+      ],
+      "reference_regions": [
+        125
+      ],
+      "english_image": 15,
+      "reference_image": 20,
+      "english_reading": "THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHODOX FACTION IN THE LAST THREE HUNDRED YEARS.",
+      "reference_reading": "UNA OBRA DEJADA POR EL MAYOR MAESTRO DEL CAMINO NO ORTODOXO DE LOS ÚLTIMOS TRESCIENTOS AÑOS.",
+      "recorded_english_ocr": "THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHODOX FACTION IN THE LAST THREE HUNDRED YEARS.",
+      "recorded_translation": "El legado dejado por el mayor maestro de la facción poco ortodoxa en los últimos trescientos años.",
+      "recorded_reference_ocr": "LUNA OBRA DEJADA POR EL MAYOR MAESTRO DEL CAMINO NO ORTODOXO DE LOS ÚLTIMOS TRESCIENTOS AÑOS.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/08.png"
+    },
+    {
+      "id": 48,
+      "english_regions": [
+        67
+      ],
+      "reference_regions": [
+        130
+      ],
+      "english_image": 15,
+      "reference_image": 20,
+      "english_reading": "A NEW LESSON PROVIDED BY UNORTHODOX SECT MARTIAL ARTS, WHICH ARE COMPLETELY DIFFERENT FROM OUR CULT'S DEMONIC ARTS.",
+      "reference_reading": "UN NUEVO CONOCIMIENTO DE LAS ARTES DEMONÍACAS, COMPLETAMENTE DIFERENTE DE LAS ARTES DE NUESTRO CULTO.",
+      "recorded_english_ocr": "A NEW LESSON PROVIDED BY UNORTHODOX SECT MARTIAL ARTS, WHICH ARE COMPLETELY DIFFERENT FROM OUR CULT'S DEMONIC ARTS.",
+      "recorded_translation": "Una nueva lección proporcionada por las artes marciales de sectas poco ortodoxas, que son completamente diferentes de las artes demoníacas de nuestro culto.",
+      "recorded_reference_ocr": "LN NUEVO CONOCIMIENTO DE LAS ARTES DEMONÍACAS, COMPLETAMENTE DIFERENTE DE LAS ARTES DE NUESTRO CULTO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "edition_difference",
+      "note_es": "El inglés habla de las artes de la secta no ortodoxa y Olympus dice artes demoníacas. No debe forzarse el original a copiar esa discrepancia.",
+      "evidence_sheet": "review-cases/chapter124-word-review/08.png"
+    },
+    {
+      "id": 49,
+      "english_regions": [
+        68
+      ],
+      "reference_regions": [
+        131
+      ],
+      "english_image": 15,
+      "reference_image": 20,
+      "english_reading": "BUT NOW THAT I'VE READ AND REREAD IT, I'VE REALIZED THAT IN THE END, ALL MARTIAL ARTS STARTED FROM A SINGLE ROOT...",
+      "reference_reading": "SIN EMBARGO, CUANTO MÁS LO LEÍA Y RELEÍA, MÁS ME DABA CUENTA DE QUE TODAS LAS ARTES MARCIALES TENÍAN SU ORIGEN EN UNA ÚNICA RAÍZ...",
+      "recorded_english_ocr": "BUT NOW THAT I'VE READ AND REREAD IT, I' REALIZED THAT IN THE END, ALL MARTIAL ARTS STARTED FROM A SINGLE ROOT...",
+      "recorded_translation": "Pero ahora que lo he leído y releído, me di cuenta de que al final, todas las artes marciales comenzaron desde una sola raíz...",
+      "recorded_reference_ocr": "SIN EMBARGO, CUANTO MÁS LO LEÍA Y RELEÍA, MÁS ME DABA CUENTA DE QUE TODAS LAS ARTES MARCIALES TENÍAN SU ORIGEN EN UNA ÚÍNICA RAÍZ.„",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/09.png"
+    },
+    {
+      "id": 50,
+      "english_regions": [
+        69,
+        70,
+        71
+      ],
+      "reference_regions": [
+        132
+      ],
+      "english_image": 15,
+      "reference_image": 21,
+      "english_reading": "THEY ARE BOTH THE SAME AND DIFFERENT.",
+      "reference_reading": "ERAN SIMILARES Y DIFERENTES AL MISMO TIEMPO.",
+      "recorded_english_ocr": "THEY ARE. / BOTH THE SA / AND DIFFERENT.",
+      "recorded_translation": "Lo son. / Tanto el SA / Y diferente.",
+      "recorded_reference_ocr": "ERAN SIMILARES Y DIFERENTES AL MISMO TIEMPO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "fragmented",
+      "note_es": "Se divide THEY ARE BOTH THE SAME AND DIFFERENT y se pierde SAME.",
+      "evidence_sheet": "review-cases/chapter124-word-review/09.png"
+    },
+    {
+      "id": 51,
+      "english_regions": [
+        73
+      ],
+      "reference_regions": [
+        133,
+        134,
+        135
+      ],
+      "english_image": 15,
+      "reference_image": 21,
+      "english_reading": "IF I HAD ONLY LEARNED DEMONIC ARTS, OR IF I HAD ONLY LEARNED THE MARTIAL ARTS OF THE UNORTHODOX SECT,",
+      "reference_reading": "SI SOLO HUBIERA APRENDIDO LAS ARTES DEL CULTO, O SI SOLO HUBIERA APRENDIDO ESTAS ARTES MARCIALES,",
+      "recorded_english_ocr": "IF I HAD ONLY LEARNED DEMONIC ARTS, OR IF I HAD ONLY LEARNED THE MARTIAL ARTS OF THE UNORTHODOX SECT,",
+      "recorded_translation": "Si solo hubiera aprendido artes demoníacas, o si solo hubiera aprendido las artes marciales de la secta poco ortodoxa,",
+      "recorded_reference_ocr": "SI SOLO HUBIERA APRENDIDO / S DEL CULTO, O SI / SOLO HUBIERA APRENDIDO ESTAS ARTES MARCIALES,",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/09.png"
+    },
+    {
+      "id": 52,
+      "english_regions": [
+        74
+      ],
+      "reference_regions": [
+        139
+      ],
+      "english_image": 15,
+      "reference_image": 21,
+      "english_reading": "HIS TEACHINGS WOULDN'T HAVE RESONATED WITH ME THIS MUCH.",
+      "reference_reading": "SUS ENSEÑANZAS NO HABRÍAN CAUSADO UN IMPACTO TAN PROFUNDO EN MÍ.",
+      "recorded_english_ocr": "HIS TEACHINGS WOULDN'T HAVE RESONATED WITH ME THIS MUCH.",
+      "recorded_translation": "Sus enseñanzas no habrían resonado tanto conmigo.",
+      "recorded_reference_ocr": "SUS ENSEÑANZAS NO HABRÍAN CAUSADO LN IMPACTO TAN PROFUNDO EN MI",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/09.png"
+    },
+    {
+      "id": 53,
+      "english_regions": [
+        75
+      ],
+      "reference_regions": [
+        140
+      ],
+      "english_image": 15,
+      "reference_image": 22,
+      "english_reading": "ALTHOUGH I HAVE A FOUNDATION IN DEMONIC ARTS,",
+      "reference_reading": "AUNQUE LAS ARTES DEL CULTO ERAN MI FUNDAMENTO,",
+      "recorded_english_ocr": "ALTHOUGH I HAVE A FOLNDATION IN DEMONIC ARTS,",
+      "recorded_translation": "Aunque tengo una pasión por las artes demoníacas,",
+      "recorded_reference_ocr": "AUNQUE LAS ARTES DEL CULTO ERAN MI FUNDAMENTO,",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "FOUNDATION se lee FOLNDATION y acaba como pasión; significa fundamento o base.",
+      "evidence_sheet": "review-cases/chapter124-word-review/09.png"
+    },
+    {
+      "id": 54,
+      "english_regions": [
+        76,
+        77
+      ],
+      "reference_regions": [
+        144
+      ],
+      "english_image": 16,
+      "reference_image": 22,
+      "english_reading": "I HAVE LIVED A LIFE THAT TRANSCENDS FACTIONS THROUGHOUT MY PREVIOUS LIFE.",
+      "reference_reading": "PASÉ TODA MI VIDA YENDO MÁS ALLÁ DE LOS LÍMITES DE LAS DISTINTAS ESCUELAS.",
+      "recorded_english_ocr": "I HAVE / D A LIFE THAT TRANSCENDS FACTIONS THROUGHOLT M PREVIOUS LIFE.",
+      "recorded_translation": "Yo tengo / D una vida que trascienda a las facciones a través de la vida anterior.",
+      "recorded_reference_ocr": "PASÉ TODA MI VIDA YENDO MÁS ALLÁ DE LOS LÍMITES DE LAS DISTINTAS ESCUELAS.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "LIVED y MY se pierden; el resto queda sin una oración española completa.",
+      "evidence_sheet": "review-cases/chapter124-word-review/09.png"
+    },
+    {
+      "id": 55,
+      "english_regions": [
+        78
+      ],
+      "reference_regions": [
+        145
+      ],
+      "english_image": 17,
+      "reference_image": 22,
+      "english_reading": "THAT'S WHY...",
+      "reference_reading": "Y FUE POR ESO QUE...",
+      "recorded_english_ocr": "THAT'S WHy...",
+      "recorded_translation": "Eso es WHy...",
+      "recorded_reference_ocr": "Y FUE POR ESO QUE...",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "WHY permanece en inglés.",
+      "evidence_sheet": "review-cases/chapter124-word-review/10.png"
+    },
+    {
+      "id": 56,
+      "english_regions": [
+        79
+      ],
+      "reference_regions": [
+        149,
+        150,
+        151
+      ],
+      "english_image": 17,
+      "reference_image": 23,
+      "english_reading": "THE FINAL ENLIGHTENMENT OF THE ALL EVIL SOVEREIGN",
+      "reference_reading": "LA ILUMINACIÓN FINAL DEL MAESTRO DE LAS DIEZ MIL MALDICIONES...",
+      "recorded_english_ocr": "THE FINAL ENLIGHTENMENT OF THE ALL EVIL SOVEREIGN",
+      "recorded_translation": "La iluminación final del soberano todo mal",
+      "recorded_reference_ocr": "LA ILUMINACIÓN FINAL DEL / O DE LAS DIEZ MIL / MALDICIONES...",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "needs_improvement",
+      "note_es": "Terminología del título todavía poco natural.",
+      "evidence_sheet": "review-cases/chapter124-word-review/10.png"
+    },
+    {
+      "id": 57,
+      "english_regions": [
+        81
+      ],
+      "reference_regions": [
+        152
+      ],
+      "english_image": 17,
+      "reference_image": 23,
+      "english_reading": "HAS GIVEN ME SUCH A GREAT RESONANCE.",
+      "reference_reading": "RESONÓ CONMIGO.",
+      "recorded_english_ocr": "HAS GIVEN ME SUCH A GREAT RESONANCE.",
+      "recorded_translation": "Me ha dado una gran resonancia.",
+      "recorded_reference_ocr": "RESONÓ CONMIGO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/10.png"
+    },
+    {
+      "id": 58,
+      "english_regions": [
+        82
+      ],
+      "reference_regions": [
+        156
+      ],
+      "english_image": 18,
+      "reference_image": 25,
+      "english_reading": "I HAVE ACHIEVED THE TWELFTH STAGE COMPLETION OF THE SOARING SWORD ART!",
+      "reference_reading": "¡HE DOMINADO POR COMPLETO LA DUODÉCIMA ESTRELLA DEL ARTE DE LA ESPADA VOLADORA CELESTIAL!",
+      "recorded_english_ocr": "IHAVE ACHIEVED THE TWELFTH STAGE COMPLETION OF THE SOARING SWORD ART!",
+      "recorded_translation": "¡He logrado la duodécima etapa de finalización del arte de la espada!",
+      "recorded_reference_ocr": "E DOMINADO POR COMPLETO LA DUODÉCIMA ESTRELLA DEL ARTE DE LA ESPADA VOLADORA CELESTIAL!",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "La salida pierde SOARING del nombre de la técnica; la adaptación de Olympus también añade celestial.",
+      "evidence_sheet": "review-cases/chapter124-word-review/10.png"
+    },
+    {
+      "id": 59,
+      "english_regions": [
+        84
+      ],
+      "reference_regions": [
+        165
+      ],
+      "english_image": 19,
+      "reference_image": 26,
+      "english_reading": "THANK YOU VERY MUCH FOR LEAVING SUCH GREAT TEACHINGS.",
+      "reference_reading": "MUCHAS GRACIAS POR DEJAR UNAS ENSEÑANZAS TAN VALIOSAS.",
+      "recorded_english_ocr": "THANK YOU VERY MUCH FOR LEAVING SUCH G TEACHINGS.",
+      "recorded_translation": "Muchas gracias por dejar esas enseñanzas.",
+      "recorded_reference_ocr": "MUCHAS GRACIAS POR DEJAR UNAS ENSEÑANZAS TAN VALIOSAS.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incomplete",
+      "note_es": "El OCR pierde GREAT y la traducción omite el calificativo.",
+      "evidence_sheet": "review-cases/chapter124-word-review/10.png"
+    },
+    {
+      "id": 60,
+      "english_regions": [
+        85
+      ],
+      "reference_regions": [
+        166
+      ],
+      "english_image": 19,
+      "reference_image": 27,
+      "english_reading": "EVEN THOUGH A PERSON OF THE UNORTHODOX PATH COULD NOT RECEIVE THIS PRECIOUS FATE,",
+      "reference_reading": "AUNQUE NO HAYA SIDO UN PRACTICANTE DE TU CAMINO NO ORTODOXO QUIEN RECIBIÓ ESTE PRECIOSO REGALO,",
+      "recorded_english_ocr": "EVEN THOLGH A PERSON OF THE LUNORTHODOX PATH COULD NOT RECEIVE THIS PRECIOUS FATE,",
+      "recorded_translation": "Incluso una persona del camino lunortodoxo no podía recibir este destino precioso,",
+      "recorded_reference_ocr": "ALNQLE NO HAYA SIDO LN PRACTICANTE DE TU CAMINO NO ORTODOXO QUIEN RECIBIÓ ESTE PRECIOSO REGALO,",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "incorrect",
+      "note_es": "THOUGH y UNORTHODOX se deforman; la concesión aunque no queda bien representada.",
+      "evidence_sheet": "review-cases/chapter124-word-review/10.png"
+    },
+    {
+      "id": 61,
+      "english_regions": [
+        86
+      ],
+      "reference_regions": [
+        167
+      ],
+      "english_image": 19,
+      "reference_image": 27,
+      "english_reading": "SOMEONE WHO WANTS TO HELP YOUR DESCENDANTS HAS RECEIVED IT, SO PLEASE DO NOT BE TOO DISAPPOINTED.",
+      "reference_reading": "HA LLEGADO A MANOS DE ALGUIEN QUE PRETENDE AYUDAR A TUS DESCENDIENTES. ASÍ QUE NO ME GUARDES DEMASIADO RENCOR.",
+      "recorded_english_ocr": "SOMEONE WHO WANTS TO HELP YOUR DESCENDANTS HAS RECEIVED IT, SO PLEASE DO NOT BE TOO DISAPPOINTED.",
+      "recorded_translation": "Alguien que quiera ayudar a sus descendientes lo ha recibido, así que por favor no se decepcione demasiado.",
+      "recorded_reference_ocr": "HA LLEGADO A MANOS DE ALGUIEN QUE PRETENDE AYUDAR A TUS DESCENDIENTES. ASÍ QUE NO ME GUARDES DEMASIADO RENCOR.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/11.png"
+    },
+    {
+      "id": 62,
+      "english_regions": [
+        87
+      ],
+      "reference_regions": [
+        168
+      ],
+      "english_image": 19,
+      "reference_image": 27,
+      "english_reading": "HMM?",
+      "reference_reading": "¿HM?",
+      "recorded_english_ocr": "HMM?",
+      "recorded_translation": "¿HMM?",
+      "recorded_reference_ocr": "¿HM?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/11.png"
+    },
+    {
+      "id": 63,
+      "english_regions": [
+        88
+      ],
+      "reference_regions": [
+        173
+      ],
+      "english_image": 20,
+      "reference_image": 28,
+      "english_reading": "IS THIS A LETTER?",
+      "reference_reading": "¿UNA CARTA?",
+      "recorded_english_ocr": "IS THIS A LETTER?",
+      "recorded_translation": "¿Es una carta?",
+      "recorded_reference_ocr": "¿UNA CARTA?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/11.png"
+    },
+    {
+      "id": 64,
+      "english_regions": [
+        89
+      ],
+      "reference_regions": [
+        178
+      ],
+      "english_image": 21,
+      "reference_image": 28,
+      "english_reading": "IT'S A LETTER LEFT BY THE ALL EVIL SOVEREIGN.",
+      "reference_reading": "ES UNA CARTA QUE DEJÓ EL MAESTRO DE LAS DIEZ MIL MALDICIONES.",
+      "recorded_english_ocr": "IT'S A LETTER LEFT BY THE ALL EVIL SOVEREIGN.",
+      "recorded_translation": "Es una carta dejada por el soberano todo mal.",
+      "recorded_reference_ocr": "ES UINA CARTA E DEJÓ EL MAESTRO DE LAS DIEZ MIL MALDICIONES.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "needs_improvement",
+      "note_es": "Título ALL EVIL SOVEREIGN traducido de forma poco natural.",
+      "evidence_sheet": "review-cases/chapter124-word-review/11.png"
+    },
+    {
+      "id": 65,
+      "english_regions": [
+        90,
+        91,
+        92
+      ],
+      "reference_regions": [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
+      ],
+      "english_image": 21,
+      "reference_image": 28,
+      "english_reading": "...I REALIZED THAT EVEN IF I WERE TO CONSUME THIS TEN-THOUSAND-YEAR BLACK LINGZHI, I WOULD NOT BE ABLE TO KILL THE HEAVENLY DEMON.",
+      "reference_reading": "...ME DI CUENTA DE QUE AUNQUE CONSUMIERA ESTE HONGO NEGRO DE DIEZ MIL AÑOS, NO PODRÍA MATAR AL DEMONIO CELESTIAL.",
+      "recorded_english_ocr": "...I REALIZED THAT EVEN IF I WERE TO CONSUME THIS TEN-THOUSAND-YEAR BLACK LINGZHI, / LD NOT BE ABLE TO KILL / THE HEAVENLY DEMON.",
+      "recorded_translation": "Me di cuenta de que incluso si yo fuera a consumir este lingzhi negro de diez mil años, / No puede ser capaz de matar / El demonio celestial.",
+      "recorded_reference_ocr": "E DI CUENTA DE QUE / AUNQUE CONSUMIERA ESTE / HONGO NEGRO DE DIEZ MIL / AÑOS. NO PODRÍA MATAR AL / CELESTIAI / PEMONO",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "fragmented",
+      "note_es": "Texto con contorno: se pierde I WOULD y la continuación se traduce fuera de contexto. El texto español cruza el límite entre dos archivos.",
+      "evidence_sheet": "review-cases/chapter124-word-review/11.png"
+    },
+    {
+      "id": 66,
+      "english_regions": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "reference_regions": [
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "english_image": 21,
+      "reference_image": 29,
+      "english_reading": "THEREFORE, I LEAVE THIS FOR FUTURE GENERATIONS WITHOUT TAKING IT MYSELF, SO I HOPE THE ONE WHO FINDS IT WILL CHERISH THIS KARMIC CONNECTION.",
+      "reference_reading": "POR ESO, DECIDÍ NO CONSUMIRLO Y DEJARLO PARA LAS GENERACIONES FUTURAS. ESPERO QUE MI DESCENDIENTE VALORE ESTE REGALO DEL DESTINO.",
+      "recorded_english_ocr": "VE THIS FOR / FUTURE GENERATIONS WI / G IT MYSELF, / SO I HOPE THE ONE WH / FINDS IT WILL CHERISH THIS / KARMIC CONNECTION.",
+      "recorded_translation": "Ve esto por / Las futuras generaciones wi / G él mismo, / Así que espero que el que / Encuentra que va a apreciar esto / Conexión kármica.",
+      "recorded_reference_ocr": "POR ESO, DECIDÍ NO CONSUMIRLO Y DEIARLO PARA LAS GENERACIONES / FUTURAS. / ESPERO QUE / MI DESCENDIENTE VALORE / ESTE REGALO DEL DESTINO.",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "fragmented",
+      "note_es": "Texto con contorno: fragmentación y pérdida de THEREFORE, I LEAVE y WITHOUT TAKING. Las dos unidades narrativas se comparan juntas aquí, no deben convertirse en un solo globo.",
+      "evidence_sheet": "review-cases/chapter124-word-review/11.png"
+    },
+    {
+      "id": 67,
+      "english_regions": [
+        99
+      ],
+      "reference_regions": [
+        190,
+        191
+      ],
+      "english_image": 21,
+      "reference_image": 29,
+      "english_reading": "HE ACTUALLY LEFT BEHIND A TEN-THOUSAND-YEAR BLACK LINGZHI?",
+      "reference_reading": "¿DEJÓ UN HONGO NEGRO DE DIEZ MIL AÑOS?",
+      "recorded_english_ocr": "ACTUALLY LEFT BEHIND A TEN-THOUSAND-YEAR BLACK LINGZHI?",
+      "recorded_translation": "¿Dejó atrás un lingzhi negro de diez mil años?",
+      "recorded_reference_ocr": "¿DEJÓ UN HONGO NEGRO DE / DIEZ MIL AÑOS?",
+      "visual_word_reading_checked": true,
+      "artwork_correspondence_checked": true,
+      "meaning_result": "acceptable",
+      "note_es": "El sentido de la traducción guardada es compatible con el original en este diálogo; no requiere redacción idéntica a Olympus.",
+      "evidence_sheet": "review-cases/chapter124-word-review/12.png"
+    }
+  ]
+}

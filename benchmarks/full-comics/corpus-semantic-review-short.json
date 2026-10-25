@@ -1,0 +1,1128 @@
+{
+  "schema": 1,
+  "reviewer": "assistant",
+  "sample_path": "build/full-comics/corpus-review-short8011/sample.json",
+  "sample_sha256": "3cbc82ccfc08289c19bff3325434c2a58ee78aceab2538fc1db3839bdeca1ee2",
+  "manual_decisions_sha256": "6b99f161528f1a5d2f9af26ccf8b8fed402c4b179c719250451e0e2318b04082",
+  "all_chapter_words_visually_reviewed": false,
+  "app_uses_review_answers": false,
+  "scope": "One additional hashed eligible aligned short OCR region per chapter, excluding the previous 372 locations. Some short regions are truncated pieces of longer sentences; entire balloon approval remains false.",
+  "entries": [
+    {
+      "id": 1,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La lectura y ambas traducciones terminan a mitad de palabra y no completan el agradecimiento.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 2,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas solo conservan un fragmento de la oración.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "El contexto ampliado confirma I WAS; la salida nueva cambia el tiempo pasado por presente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 4,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas terminan con una palabra cortada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 5,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "El nombre queda cortado y una sílaba inglesa permanece sin traducir; la referencia propuesta no corresponde a este recorte.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 6,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva haber estado pensando en hacerlo en la porción inspeccionada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 7,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera el no inicial; se evalúa la fidelidad al inglés, aunque la edición española adapte la frase.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 8,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten palabras corruptas y el pronombre se interpreta como un nombre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 9,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Se conserva la porción sobre aprender artes demoníacas; no se aprueba la continuación fuera del recorte.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 10,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la afirmación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 11,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Hacer algo deja de convertirse en ponerlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 12,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "El artículo se reconoce como un pronombre y cambia el sustantivo por una acción.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 13,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el insulto sin fragmentos corruptos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 14,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "La nueva salida conserva una palabra inglesa deformada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 15,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "La salida nueva recupera de repente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 16,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera que el hablante comprende al interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 17,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre sentarse allí.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 18,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La frase termina sin identificar el tercer paso.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva proteger en lugar de atacar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Desaparece el fragmento ajeno y se conserva la captura del padre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 21,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La identidad negada del hablante se convierte en una afirmación de existencia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "needs_improvement",
+      "note_es": "La intención de no pedir tanto se mantiene, con paréntesis innecesarios en la salida nueva.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 23,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "La nueva salida aclara la pregunta y su sujeto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta elíptica conmigo; la referencia española amplía su redacción.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 25,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "La pregunta cambia de una valoración de traducción a una amenaza recibida.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 26,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se traduce el cargo que antes quedaba en inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 27,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas contienen solo el comienzo truncado de ofrecer apoyo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 28,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas acaban en un fragmento sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 29,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la expresión nocturna sin caracteres corruptos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 30,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera una pregunta de eco coherente; la base preguntaba por certeza, cambiando el acto de habla.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 31,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera fingir ignorancia sin tokens corruptos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 32,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera aceptar la voluntad del interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 33,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera que se lo entregó fácilmente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva el futuro y el comparativo de felicidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 35,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la exclamación de rechazo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la amabilidad considerada innecesaria.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 37,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Desaparecen los tokens corruptos del agradecimiento.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 38,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva esperar al interlocutor allí.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 39,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Ambas formulaciones preguntan por la visita al lugar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 40,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre lo hecho mal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 41,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el demostrativo antes deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Traduce la porción sobre sus técnicas de espada; no aprueba el párrafo completo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 43,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera comenzar otra vez sin palabras deformadas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el cargo completo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La base conserva una palabra corrupta y la salida nueva confunde ser declarado inocente con ser juzgado de manera inocente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva el miedo y su énfasis; la referencia humana adapta la estructura.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "El modismo se traduce de forma coherente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 48,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre en qué está ocupado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 49,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera marcharse, en lugar de afirmar que será algo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 50,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas son fragmentos sin el deseo completo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 51,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva preferir la paz.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 52,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera derecho sin palabra inglesa corrupta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 53,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la exclamación de haberlo sabido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 54,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "La base contiene texto corrupto y la nueva salida omite artes y poder.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 55,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "El título se corta antes de viento; en la salida nueva también queda un token deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 56,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Se recupera también.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 57,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera que ya sospechan del interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 58,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva el recuerdo de Baek sin imponer la ampliación de nombre de otra edición.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 59,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la petición de mayor rapidez.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre certeza.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 61,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera buena voluntad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 62,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La lectura comienza a mitad de palabra y ninguna salida reconstruye un fragmento comprensible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 63,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la pregunta sobre cómo lo supo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la posibilidad de que tenga razón.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 65,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "La imagen muestra pliegues de ropa, no palabras reales; se excluye de la comparación semántica y se registra como falsa detección.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 66,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la pregunta sin token extraño.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 67,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el modismo sobre hablar en serio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 68,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "La posición de segundo se entiende, con un comparativo español poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 69,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Desaparece el token corrupto; falta la interjección de duda.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 70,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "El modismo de comprensión queda literal y poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 71,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera no dejar de hablar; la base cambiaba el sentido por no hablar nunca.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 72,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Se recupera la porción sobre energía de espada sin partirla en una pregunta y una etiqueta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre el plan.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 74,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La palabra queda cortada y permanece un fragmento sin interpretar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 75,
+      "before": "acceptable",
+      "after": "needs_improvement",
+      "note_es": "Se conserva preguntar por una decisión previa, con gramática elíptica poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 76,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas son fragmentos de letras y no conservan el anuncio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 77,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera dificultad en lugar de un toque.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 78,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva el cargo; la referencia usa un diminutivo estilístico.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 79,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La lectura nueva sigue sin la negación ni el deseo del hablante; no transmite la frase original.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 80,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Solo se traduce un fragmento del cargo y se pierde la relación causal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 81,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva yo también, con paréntesis menores.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 82,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas omiten la primera oración tranquilizadora.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera decirlo en lugar de saborearlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 84,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva preguntar por la respuesta anterior.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 85,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La base es un fragmento; la salida nueva recupera el cargo y la idea pero pierde el nombre Go.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 86,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la advertencia al interlocutor, aunque la referencia explicite su cargo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 87,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La traducción del título termina en de y omite el resto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 88,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva haber creído que había llegado un asesino.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 89,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "La salida nueva recupera la primera persona explícita.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el agradecimiento sin token inglés corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 91,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "La salida nueva pierde el nombre, también y la entonación de pregunta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 92,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera el modismo no me digas frente a una negación aislada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva saberlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 94,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta negativa sobre otros demonios supremos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 95,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La base omite el nombre; la salida nueva también omite quién.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 96,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Arrepentirse se convierte en volver, cambiando la advertencia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva reconocer el error recién cometido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 98,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la pregunta sin palabra corrupta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 99,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la explicación causal en lugar de convertirla en pregunta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 100,
+      "before": "incomplete",
+      "after": "needs_improvement",
+      "note_es": "Se recupera malvado en el título, con orden de palabras poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 101,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera maestro sin token corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 102,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Consejos deja de convertirse en vicio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 103,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera preguntar si el hermano lo sabe.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva haberlo terminado todo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 105,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que la tarea no es fácil.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera pedir su palabra frente a mirar su trabajo; falta el conector de intercambio y sobra un paréntesis.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 107,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persiste un fragmento corrupto sin traducir en la confirmación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 108,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva preguntar si pueden considerarse vivos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 109,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera que el nombre es incorrecto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 110,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La acción queda sin el objeto pelaje presente en la imagen.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 111,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva preguntar qué eran.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 112,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el mundo que se vuelve interesante sin inglés corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 113,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva estar bien y agradecerlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera volver a reunirse, sin el fragmento extraño de la base.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 115,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El valor bajo queda como un lado físico literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 116,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Azul queda fragmentado y no se traduce.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 117,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La salida nueva recupera carruaje pero cambia ir a buscarlo por ir hacia él.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 118,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la advertencia de no creer que terminó.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 119,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que no tenía necesidad de atacar así.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 120,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre sentirse mejor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 121,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Desaparecen los caracteres corruptos; queda una letra incorrecta en el nombre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 122,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Joven queda como una palabra corrupta sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 123,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La comparación conmigo queda deformada y se pierde el sujeto de la oración.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 124,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre la capacidad de nadar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    }
+  ]
+}

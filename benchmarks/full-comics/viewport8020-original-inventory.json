@@ -1,0 +1,1334 @@
+{
+  "schema": 1,
+  "viewports_expected": 124,
+  "viewports_visually_inspected": 124,
+  "all124_original_inventories_complete": true,
+  "spanish_outputs_visually_reviewed": false,
+  "complete_chapter_traversal": false,
+  "entries": [
+    {
+      "id": 1,
+      "dialogue": [
+        "WHY EXACTLY ARE YOU TRYING TO GO BACK TO THE PAST?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "Large Korean impact effect",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 2,
+      "dialogue": [
+        "HEY! SEEING AS HOW YOU DARE TO MESS WITH ME, IT MUST MEAN YOU'RE CONFIDENT IN YOUR ABILITIES."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 3,
+      "dialogue": [
+        "THAT BOY INCURRED A GREAT DEBT BECAUSE HE GOT ADDICTED TO GAMBLING."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "?! reaction punctuation",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 4,
+      "dialogue": [
+        "IT HAS STIFF FUR AND A LONG BODY, SO IT FEELS LIKE IT COULD BE A WILD BOAR..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Empty balloon edge at bottom, without visible letters",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 5,
+      "dialogue": [
+        "YOU'RE FINALLY OUT, SECOND YOUNG MASTER. WHY ARE YOU SUDDENLY TRAINING OUT OF NOWHERE? AND YOU DID IT FOR DAYS AT THAT?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Empty balloon edge at bottom, without visible letters",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 6,
+      "dialogue": [
+        "IS MY FIRST OPPONENT THE BLOOD HEAVENS BLADESMAN?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 7,
+      "dialogue": [
+        "WE MUST PUNISH OURSELVES SO THAT WE CAN SURVIVE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 8,
+      "dialogue": [
+        "JUST HOW TERRIBLE IS THIS PLACE FOR SO MANY PEOPLE TO GET STUCK IN HERE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Fictional inscriptions on illuminated pillars; not English dialogue",
+      "sfx_exempt": "Korean footstep effect",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 9,
+      "dialogue": [
+        "I CAN FEEL A STRONG POWER IN THIS BODY THAT I DIDN'T FEEL BEFORE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Large Korean motion effect",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 10,
+      "dialogue": [
+        "THE FIRST BATTLE THAT FEELS LIKE A REAL BATTLE EVER SINCE I REGRESSED."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Large Korean impact effect at upper border",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 11,
+      "dialogue": [
+        "YOU CAN'T MEET HIM UNLESS YOU HAVE MADE AN APPOINTMENT."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 12,
+      "dialogue": [
+        "MUST I SPELL IT OUT FOR YOU?",
+        "WHAT ARE YOU TRYING TO DO HERE BY PUTTING SOMETHING THAT INUSPICIOUS WHERE PEOPLE COME AND GO?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "The artwork spells INUSPICIOUS; preserve the visible source spelling.",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 13,
+      "dialogue": [
+        "INTO A FIGHT WITH THEM AT A BAR.",
+        "ALL HIS OPPONENTS WERE LOW RANKED MARTIAL ARTISTS. BEFORE THINGS BLEW OUT OF PROPORTION, THE DEMONIC ARMY COVERED IT ALL UP FOR HIM.",
+        "BECAUSE THERE ARE TOO MANY RETARDS THAT DON'T REVERE THE DEMONIC ARMY IN THE WORLD."
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Top dialogue begins outside the viewport; first stored clause is only its fully visible fragment.",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 14,
+      "dialogue": [
+        "THE DEMONIC ARMY GAVE US THESE BOOKS.",
+        "THE ASSASSINATION REQUEST LOGS AND BANKNOTE PAPERS THAT ARE WORTH THOUSANDS OF NYANGS WERE DISCOVERED IN THE 1ST CORPS COMMANDER'S HOUSE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Non-English writing on document spines",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 15,
+      "dialogue": [
+        "HOW WOULD I KNOW? YOU SHOULD ASK THE DEAD 1ST CORPS COMMANDER THAT QUESTION."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean cup-placement effect at top",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 16,
+      "dialogue": [
+        "I CAN'T BELIEVE HE'S BEING SO HONEST ABOUT HIS RELATIONSHIP WITH HIS BROTHER..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Ellipsis-only reaction bubble",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 17,
+      "dialogue": [
+        "HOW ABOUT PLACING A STATUE OF A BEAUTIFUL WOMAN INSTEAD OF THAT DEMON STATUE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Exclamation-only reaction bubble; empty balloon edge at top",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 18,
+      "dialogue": [
+        "WHY DID YOU CREATE CONFLICT BETWEEN ME AND HIM THEN?",
+        "SHOULDN'T YOU TAKE RESPONSIBILITY FOR THAT?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 19,
+      "dialogue": [
+        "THE HEAVENLY DEMON DEFENSE ART. IT PROTECTS ONE'S BODY AND IS AN EXCLUSIVE MARTIAL ART THAT ONLY THE HEAVENLY DEMON CAN LEARN."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean fire effect",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 20,
+      "dialogue": [
+        "HE'S PUT POISON INTO THE FOOD THAT HE GAVE OUT!",
+        "I DIDN'T EAT ANY OF THE FOOD YOU GAVE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean tension effect at bottom",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 21,
+      "dialogue": [
+        "LOOKS LIKE YOU'VE GOT A GOOD EYE FOR PEOPLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 22,
+      "dialogue": [
+        "A PRIVATE GROUP?",
+        "DON'T EACH OF THE DEMON SUPREMES TAKE IN THEIR OWN SUBORDINATES?",
+        "IN ORDER TO DEAL WITH THEM, I ALSO NEED MY OWN."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 23,
+      "dialogue": [
+        "HOW COULD HE DO THAT?",
+        "I HEARD THE FATHER OF THE CHILD WHO LED THE ATTACK ON MY CHILD WAS THE HUNDRED SWORD DEMON."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean striking effect",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 24,
+      "dialogue": [
+        "IF ANYTHING UNFAIR HAPPENS EVER AGAIN, PLEASE REPORT IT TO THE NIRVANA PAVILION."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Ellipsis and exclamation reaction bubbles",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 25,
+      "dialogue": [
+        "WERE YOU THREATENED WITH THE SAFETY OF YOUR SISTER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Empty balloon tail at upper border",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 26,
+      "dialogue": [
+        "NO MATTER WHO IT IS, IF THEY DARE COMMIT A CRIME, THEN I BELIEVE THEY SHOULD BE PUNISHED.",
+        "EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Second sentence continues below viewport; only its visible fragment is transcribed.",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 27,
+      "dialogue": [
+        "WHILE I'M THANKFUL YOU THINK HIGHLY OF ME,"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean cup-placement effect",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 28,
+      "dialogue": [
+        "PLEASE DON'T SAY THAT EVEN IF YOU MEANT IT AS A JOKE.",
+        "IF I GO TO THE SOUTHERN BLADE HOUSE RIGHT NOW, I MIGHT GET MY LEGS BROKEN THERE..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Empty balloon edge at bottom",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 29,
+      "dialogue": [
+        "BUT I INTEND TO GET BUSY AND MAKE HIM THE DEMONIC ARMY COMMANDER."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Empty balloon edge at top",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 30,
+      "dialogue": [
+        "AS YOU KNOW, I'VE ALREADY DONE MUCH TO SUPPORT MY SECOND SON.",
+        "I NEED TO CONSIDER THE FEELINGS OF MY FIRST SON."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Stylized breath/sigh by closed eyes",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 31,
+      "dialogue": [
+        "THAT'S JUST WHAT IT'S SUPPOSED TO BE LIKE.",
+        "WE JUST WEREN'T ABLE TO DO WHAT'S TO BE NATURALLY EXPECTED SO FAR."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Empty balloon arc at top",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 32,
+      "dialogue": [
+        "THAT WAS ONLY POSSIBLE BECAUSE YOU WERE SUCH A GREAT PILLAR OF SUPPORT."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 33,
+      "dialogue": [
+        "THERE ARE VARIOUS TYPES OF NASTIES.",
+        "FROM WHAT I'VE SEEN, YOU'RE NOT SOMEONE WHO'D BREAK THEIR WORD."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 34,
+      "dialogue": [
+        "AND MAKE ME HAND OVER EVEN THE HEAVENLY DIVINE PILL?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 35,
+      "dialogue": [
+        "ARE YOU SURE IT'S NOT BECAUSE HE GAVE YOU THE HEAVENLY DIVINE PILL?",
+        "I WON'T DENY THAT."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Empty balloon edge at top",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 36,
+      "dialogue": [
+        "THERE WAS SOMETHING THAT OLD MAN COULD SEE BUT I COULDN'T?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 37,
+      "dialogue": [
+        "I HAVE A FAVOR TO ASK OF YOU.",
+        "WHAT IS IT?",
+        "I'D LIKE TO HAVE ANOTHER FAMILY MEMBER."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Balloon extends beyond bottom without clipping letters",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 38,
+      "dialogue": [
+        "LET'S HAVE DRINKS AT THE PLEASURE BAR LATER TONIGHT.",
+        "I'LL WAIT FOR YOU THERE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 39,
+      "dialogue": [
+        "NOW HE'S COME TO MY RESIDENCE FOR THE FIRST TIME.",
+        "THERE HAVE BEEN SO MANY FIRST EXPERIENCES WITH HIM IN THIS LIFETIME.",
+        "WOULD YOU LIKE TO COME IN?",
+        "WHY WOULD I GO INTO A ROOM WHERE A MAN LIVES ALONE AND SMELLS?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Last balloon extends beyond frame; all its letters remain visible",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 40,
+      "dialogue": [
+        "WELCOME, SWORD SUPREME. PLEASE SIT OVER HERE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 41,
+      "dialogue": [
+        "I SHOULDN'T HAVE INVITED YOU TO THAT DINNER.",
+        "YOU ALREADY WON. WHY ARE YOU APOLOGIZING TO ME?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 42,
+      "dialogue": [
+        "IT WAS A ONCE-IN-A-LIFETIME STROKE OF LUCK.",
+        "I'M NOT ARROGANT ENOUGH TO MISTAKE LUCK FOR SKILL.",
+        "THEN LET'S DO THIS. I WON'T SET ANY CONDITIONS IF I WIN."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 43,
+      "dialogue": [
+        "I'D LIKE TO HAVE A DRINK WITH YOU.",
+        "LET'S GO."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 44,
+      "dialogue": [
+        "THE SOUL ABSORBING SUPREME DEMON WOULD'VE BEEN METICULOUS IN COVERING UP ANYTHING RELATED TO HIS SOUL ART.",
+        "YET THE CORPSES WERE FOUND BY A HERB GATHERER, AND THE FAN WAS CONVENIENTLY LEFT BEHIND?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 45,
+      "dialogue": [
+        "IF YOU'RE THAT SKILLED, THEN YOU'LL NATURALLY FILL THE VACANCY LEFT BY THE SOUL ABSORBING SUPREME DEMON."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 46,
+      "dialogue": [
+        "SINCE IT WAS MORE OF A THREAT USING MY FATHER, IT'LL PROBABLY HOLD FOR TWO OR THREE MONTHS."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "Korean movement SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 47,
+      "dialogue": [
+        "I'M ALREADY THIRTY-TWO. I'M WORRIED IT MIGHT BE TOO LATE.",
+        "YEAH, IT'S LATE. BUT THAT ALSO COMES WITH AN ADVANTAGE.",
+        "AN ADVANTAGE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 48,
+      "dialogue": [
+        "A FEW DAYS OR A FEW YEARS, ANYTHING IS FINE.",
+        "IF YOU STILL DON'T LIKE HIM, THEN WE"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "ASURASCANS.COM watermark; next line only unreadable top edges at bottom",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 49,
+      "dialogue": [
+        "I DID THAT?",
+        "IT'S BEEN DECADES SINCE I LAST ALLOWED ANYONE TO TOUCH ME."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean SFX at bottom",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 50,
+      "dialogue": [
+        "WHAT IF YOUR CHILD ENDS UP HATING YOU?",
+        "THEN"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "ASURASCANS.COM watermark; THEN cut at bottom",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 51,
+      "dialogue": [
+        "THERE'LL BE MORE TROUBLE SOON, I BET.",
+        "WHY DO YOU ASSUME THAT I WENT OUT TO CAUSE TROUBLE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 52,
+      "dialogue": [
+        "DO WE REALLY LIVE LIVES SO EASY THAT WE CAN AFFORD TO GIVE THE WEAK A CHOICE?",
+        "WHAT'S SO WRONG WITH DEVOURING THE HEARTS OF THE WEAK TO GROW STRONGER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 53,
+      "dialogue": [
+        "HIM",
+        "KILL HIM.",
+        "KILL HIM.",
+        "EVEN WHEN THE HEAVENLY DEMON DEFENSE ART IS ACTIVATED, THERE'S STILL THIS MUCH EFFECT...",
+        "FOR AN ORDINARY PERSON, THEY WOULD'VE ALREADY FALLEN UNDER THE SOUL ABSORBING ART OF THE SOUL ABSORBING SUPREME DEMON.",
+        "KILL HIM."
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Top HIM fragment cut; left vertical KILL HIM is dialogue, not SFX",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 54,
+      "dialogue": [
+        "IF I HADN'T DODGED WITH MY FLICKER STEP, I WOULD'VE BEEN SLICED INTO SIX PIECES AND KILLED."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 55,
+      "dialogue": [
+        "UNLIKE THE SOUL ABSORBING SUPREME DEMON'S USUAL SELF, HE DIDN'T LEAVE ANY CURSES BEHIND."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "Korean SFX at bottom",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 56,
+      "dialogue": [
+        "WOULD IT BE HARD FOR ME TO CATCH YOU?",
+        "IF YOU RELEASE THE FISH YOU CAUGHT, MAYBE IT'LL BE POSSIBLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 57,
+      "dialogue": [
+        "WHERE TO?",
+        "ISN'T IT TIME YOU VISITED THE NIRVANA PAVILION BRANCH IN THE CENTRAL PLAINS?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 58,
+      "dialogue": [
+        "THOSE WHO SAY THEY HAVE NO REGRETS ARE OFTEN THE ONES MOST TORMENTED INSIDE.",
+        "ANYWAY, WHAT IS THIS ABOUT?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 59,
+      "dialogue": [
+        "GOOD GRIEF. THAT'S A STRAIGHT PATH TO ILLNESS.",
+        "I'M ALREADY SICK. IT'S A CONDITION WHERE I CAN'T SLEEP UNLESS I TRAIN."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean impact SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 60,
+      "dialogue": [
+        "WELL?",
+        "THE SECOND YOUNG MASTER HAS NO CONNECTION TO THE SOUL ABSORBING ART. TO OVERPOWER SOMEONE WITHIN A SPACE CREATED BY THAT TECHNIQUE,"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 61,
+      "dialogue": [
+        "IN THAT MOMENT, I CLEARLY HEARD IT.",
+        "THE SOUND OF HIS HEART'S DOOR OPENING A LITTLE WIDER,"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 62,
+      "dialogue": [
+        "I THOUGHT ABOUT IT AFTER RETURNING, AND YOU WERE RIGHT.",
+        "I REALIZED I STILL HAVEN'T SHOWN YOU ANY TRUE GOODWILL YET."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark; ellipsis balloon",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 63,
+      "dialogue": [
+        "AT THE END.",
+        "WHEN THAT HAPPENS, EVEN I SOMETIMES FEEL LIKE KILLING HIM IN ONE BLOW."
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Top first line cut; only AT THE END fragment visible",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 64,
+      "dialogue": [
+        "HASN'T THE SECOND YOUNG MASTER RISEN TO THE SEAT OF NIRVANA PAVILION MASTER?",
+        "TO ANYONE'S EYES, IT LOOKS LIKE THE HEAVENLY DEMON IS"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Next bottom line only unreadable top edges",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 65,
+      "dialogue": [
+        "TAKING ONE HIT ISN'T A REASON TO SLAUGHTER A FAMILY. AND DRINKING TOO MUCH ISN'T A REASON TO LOSE YOUR HUMANITY.",
+        "SO TELL ME, WHY? WHY DID IT HAVE TO COME TO THIS? IT COULD'VE ENDED WITHOUT ANY INCIDENT."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 66,
+      "dialogue": [
+        "UNEXPECTED.",
+        "DO YOU EVEN KNOW WHAT YOU'RE CHOOSING?",
+        "I DON'T KNOW EXACTLY, BUT I FELT STRONGLY DRAWN TO IT."
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Top UNEXPECTED fragment cut",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 67,
+      "dialogue": [
+        "BECAUSE YOU WOULD ONLY CONSIDER GIVING A GIFT TO SOMEONE OF HIS CALIBER."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Non-English decorative script; ellipsis balloon",
+      "sfx_exempt": "Korean SFX at bottom",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 68,
+      "dialogue": [
+        "WHY DON'T YOU CONSIDER YOURSELF THE THIRD?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark; exclamation balloon",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 69,
+      "dialogue": [
+        "I USED TO ANSWER THAT IT WAS BECAUSE OF ONE PETTY, GREEDY PERSON IN THE PAST."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 70,
+      "dialogue": [
+        "IF SHE CAN LEARN FROM THE SKY HEAVEN CULT LEADER, WHO IS CURRENTLY STAYING AT THE CULT, SHE'LL HAVE A CHANCE TO WIN.",
+        "I SEE..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 71,
+      "dialogue": [
+        "CAN'T YOU SEE THEY'RE TRYING TO DRIVE US OUT?",
+        "WHO WOULD BELIEVE THAT THE HEAVENLY DEMON DIVINE CULT WOULD STOOP TO SUCH PETTY TRICKS?"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Top balloon shows only unreadable bottom tips of letters",
+      "sfx_exempt": "HAA breath SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 72,
+      "dialogue": [
+        "THE BLOOD GOD PILL EARLIER, AND NOW THIS SUPREME HEAVENLY SILK..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 73,
+      "dialogue": [
+        "I...",
+        "I DON'T CARE EVEN IF I'M JUST A DRAGONFLY'S WING."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 74,
+      "dialogue": [
+        "HE'S HERE TO ROB ME AGAIN.",
+        "THAT'S BECAUSE WE'RE ALWAYS TALKING ABOUT THE SECOND YOUNG MASTER AND THINKING ABOUT HIM."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 75,
+      "dialogue": [
+        "SO PLEASE, CONTINUE KEEPING THESE THINGS HIDDEN FROM ME.",
+        "EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 76,
+      "dialogue": [
+        "WHEN YOU DO, MAKE SURE TO EMPHASIZE THIS POINT."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 77,
+      "dialogue": [
+        "DID YOU COME TO WATCH YOUR SUBORDINATE SUFFER?",
+        "HE ALREADY SUFFERS PLENTY DURING THE DAY. I DON'T HAVE SUCH TWISTED HOBBIES."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 78,
+      "dialogue": [
+        "THE OTHERS WILL BE WORSE, WON'T THEY? ON THE SURFACE THEY SWEAR LOYALTY, BUT INSIDE THEY'RE LAUGHING AT ME."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 79,
+      "dialogue": [
+        "HE TOLD THE LEADER THAT HE SHOULD RELEASE SOMEONE THAT OUGHT TO BE SENT OFF,",
+        "WHILE ALSO PRAISING THE SHACKLED MAN AS A DRAGON THAT'S MEANT TO ASCEND."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 80,
+      "dialogue": [
+        "THE SKY HEAVEN CULT POURED INNER ENERGY INTO THE LIQUOR BOTTLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ellipsis balloon",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 81,
+      "dialogue": [
+        "IT INCLUDES THE SKY HEAVEN CULT LEADER'S AND THE SHACKLED MAN!",
+        "I DON'T KNOW IF I'M ALLOWED TO ACCEPT SUCH A PRECIOUS DAGGER."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 82,
+      "dialogue": [
+        "I DON'T HAVE DREAMS OF CHANGING THE WORLD.",
+        "THEN WHY? WHY THE HELL ARE YOU LEAVING?!"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 83,
+      "dialogue": [
+        "GO AND SUFFER IN HELL...",
+        "REGRET LEAVING ME TILL THE DAY YOU DIE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 84,
+      "dialogue": [
+        "BUT HE ALSO LOOKED LIKE HE WANTED ME TO RETURN QUICKLY.",
+        "HE ASKED HOW LONG I PLANNED TO KEEP UP WITH THE MARTIAL ARTS TRAINING.",
+        "WHAT WAS YOUR ANSWER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 85,
+      "dialogue": [
+        "WHY SHOULD I ACCEPT THE SKY HEAVEN CULT LEADER COMING ONTO MY SIDE, EVEN IF IT MEANS ENDURING CONFLICT WITH MY FATHER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 86,
+      "dialogue": [
+        "STILL... WOULD HE REALLY ABANDON THE SEAT OF THE SKY HEAVEN CULT LEADER AND COME TO ME JUST BECAUSE OF HIS RELATIONSHIP WITH ONE PERSON?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 87,
+      "dialogue": [
+        "SO CELESTIAL SEIZE CAN EVEN DO SUCH PRECISE THINGS!",
+        "I CAN'T JUST LET YOU WALK AWAY. LET'S HAVE A DUEL."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 88,
+      "dialogue": [
+        "I-IF YOU NEED ANYTHING ELSE, PLEASE CALL ME ANYTIME!"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean bowing SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 89,
+      "dialogue": [
+        "I'D LIKE THAT TOO, BUT HAVEN'T YOU SEEN ENOUGH BY NOW?",
+        "THE SWORD SUPREME SNAPS AT ME VICIOUSLY EVERY TIME SHE SEES ME."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 90,
+      "dialogue": [
+        "IT'S REALLY WELL MADE. SO MUCH SO YOU COULD EVEN TREAT IT AS A DIVINE RELIC."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 91,
+      "dialogue": [
+        "THE SPECTATORS ARE GONE, SO THE MOOD'S DIED DOWN.",
+        "BUT THE STRENGTH IN MY FIST HASN'T. LET'S GO A ROUND."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 92,
+      "dialogue": [
+        "LIKE THE MINOR HEAVEN CAVE, IT'S A SECRET TRAINING GROUND OF THE DEMONIC CULT.",
+        "IT'S HIDDEN ON THE FRONTIER, THAT CAN ONLY BE ENTERED WITH THE HEAVENLY DEMON'S PERMISSION."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 93,
+      "dialogue": [
+        "WHEN I FIRST MET YOU, IT WAS HERE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean impact SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 94,
+      "dialogue": [
+        "OF COURSE. THOUGH NATURALLY, I PLAN TO DO EVERYTHING TO PREVENT IT FROM COMING TO THAT.",
+        "WHICH ISN'T BECAUSE OF CHEONG SEON, BUT BECAUSE OF THE SKY HEAVEN CULT LEADER."
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "OF COURSE line cut at top",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 95,
+      "dialogue": [
+        "HOLDING A BLOOD POISON PEARL WHILE DRINKING.",
+        "HAS THAT OLD MAN LOST HIS MIND?!"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "HOLDING A BLOOD line cut at top; ASURASCANS.COM watermark; exclamation balloon",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 96,
+      "dialogue": [
+        "HE'S SOMEONE WHO UNCONDITIONALLY OBEYS HIS FATHER'S WILL.",
+        "HE'S NOTHING LIKE THE SECOND YOUNG MASTER, WHO HAS TENDENCIES TO BE OUT OF THE NORM."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 97,
+      "dialogue": [
+        "YEAH, THAT'S TRUE. IT WOULD'VE BEEN PERFECT IF YOU HADN'T SAID THAT.",
+        "IS THAT SO?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean awkward movement SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 98,
+      "dialogue": [
+        "KEEPING THEM IN CHECK?",
+        "YES, MY BROTHER HAS STARTED MEETING PEOPLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean eye movement SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 99,
+      "dialogue": [
+        "FIRST YOUNG MASTER IS SOMEONE WHO FITS WELL WITH OUR CULT."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean nod SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 100,
+      "dialogue": [
+        "BEING TWO SIDES OF A COIN IS LIKELY NOTHING MORE THAN WORDS MADE UP BY VILLAINS TO JUSTIFY THEMSELVES."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 101,
+      "dialogue": [
+        "MASTER... JUST CALLED ME HIS DISCIPLE FOR THE FIRST TIME.",
+        "MASTER!"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Bottom MASTER! partially cut",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 102,
+      "dialogue": [
+        "HE WAS A VILLAIN WHO DESERVED TO DIE..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 103,
+      "dialogue": [
+        "PERHAPS WE BROTHERS ARE THE ONES WHO ACTUALLY NEED AN INTRODUCTION."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 104,
+      "dialogue": [
+        "SOON, THAT MAN WILL PUT ON THE MASK HE WAS SELLING AND STAB THE PERSON NEXT TO HIM TO DEATH."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "URGH! groan in balloon",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 105,
+      "dialogue": [
+        "WOULDN'T THIS BE FINE? THEN WE'LL BOTH BE LOOKING AT THE SKY."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 106,
+      "dialogue": [
+        "I'M LOOKING FORWARD TO MY TRIP WITH YOU.",
+        "WE AREN'T EXACTLY GOING ON A TRIP...",
+        "IF YOU GO WITH A FRIEND, ISN'T IT A TRIP NO MATTER WHERE YOU GO?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 107,
+      "dialogue": [
+        "THEY WILL GET ALONG EVEN BETTER THAN MY BROTHER WITH THE DEMONIC BUDDHA."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "ASURASCANS.COM watermark",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 108,
+      "dialogue": [
+        "SINCE HE HEARD OUR CONVERSATION EARLIER, HE'LL PROBABLY GO AND CLEAN OUT THEIR LEADER AS WELL.",
+        "OF COURSE, IT WON'T BE LONG BEFORE A NEW UNDERWORLD GROUP MOVES IN."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 109,
+      "dialogue": [
+        "IT'S PROBABLY BECAUSE IT FEELS LIKE YOUR OWN FLESH IS BEING TORN OFF."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 110,
+      "dialogue": [
+        "IF THE WORLD WE SEE NOW IS DULL, THEN THE ORIGINAL WORLD MUST BE A SLEEPING ONE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 111,
+      "dialogue": [
+        "WOULDN'T THAT HAVE CAUSED ANOTHER MASSIVE UPROAR?",
+        "THE MASTERMINDS BEHIND THIS LIKELY INTENDED TO USE THE CONFLICT AND STRIFE BETWEEN OUR CULT AND THE UNORTHODOX ALLIANCE",
+        "TO PLOT SOMETHING THAT WOULD FOLLOW"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Bottom FOLLOW cut",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 112,
+      "dialogue": [
+        "IS IT OKAY TO PLAY AT A MAJOR STRONGHOLD OF THE VALLEY OF THE WICKED?"
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 113,
+      "dialogue": [
+        "LET'S KIDNAP THE CHEF HERE. CHEF LIM MUST BE GETTING OLD. HIS SEASONING HASN'T BEEN RIGHT LATELY.",
+        "CHEF LIM WOULD BE HURT IF HE HEARD THAT."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean table impact SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 114,
+      "dialogue": [
+        "THE ONE WHO FIRST REVEALED HIMSELF LUNGED AT ME USING A DAGGER.",
+        "LIKE THIS..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "Bottom balloon extends out but all LIKE THIS letters visible",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 115,
+      "dialogue": [
+        "I STILL WANT TO SEE THIS KIND OF WORLD."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 116,
+      "dialogue": [
+        "AND INSTEAD LEAD THINGS SO THAT ONLY THOSE BEHIND THIS INCIDENT ARE DEALT WITH.",
+        "BLUE"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "BLUE starts next cut balloon at bottom",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 117,
+      "dialogue": [
+        "YOU'RE PROBABLY THE FIRST PERSON TO EVER BREAK THE SMILING DEMON'S CARRIAGE."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 118,
+      "dialogue": [
+        "THIS IS THE METHOD I'VE CHOSEN TO DEAL WITH A MADMAN."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "HAHAHAHA! laughter",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 119,
+      "dialogue": [
+        "EATING AND DRINKING TOGETHER TODAY.",
+        "AFTER ALL, IT'S THE FIRST TIME WE'VE SHARED A MEAL AND A DRINK."
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "First visible line touches and is slightly cut by top edge",
+      "sfx_exempt": "Korean tapping SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 120,
+      "dialogue": [
+        "I NEED TO QUESTION HIM FIRST.",
+        "WHO WAS IT THAT OFFERED YOU A SEAT IN THE UNORTHODOX ALLIANCE?"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Top of first line cut",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 121,
+      "dialogue": [
+        "NO, THIS WORLD IS STILL YOUR WORLD."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 122,
+      "dialogue": [
+        "LET'S CATCH THE RAT FIRST BEFORE DISCUSSING THE DETAILS."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "Korean pouring SFX",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 123,
+      "dialogue": [
+        "ARE YOU NOT THE WITNESSES?",
+        "EVEN EXCLUDING THE INVOLVED PARTY, YOUNG MASTER BI, THERE ARE SIX WITNESSES WHO SAW THE SIXTH WOLF'S BETRAYAL..."
+      ],
+      "visible_dialogue_clipped": false,
+      "other_visible_text": "",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    },
+    {
+      "id": 124,
+      "dialogue": [
+        "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS BASED ON THE ENLIGHTENMENT HE GAINED THROUGH HIS FIGHT WITH THE HEAVENLY DEMON.",
+        "THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHODOX FACTION IN THE LAST THREE"
+      ],
+      "visible_dialogue_clipped": true,
+      "other_visible_text": "Continuation after THREE below capture; no unit visible",
+      "sfx_exempt": "",
+      "original_inventory_complete": true
+    }
+  ]
+}

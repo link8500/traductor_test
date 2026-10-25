@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {"id": 36, "after": "acceptable", "note": "The original complete balloon is an existential echo question. Opening and closing question marks restore its uncertainty. Both past-tense clauses, the old man's definite referent and the contrast with the speaker's inability remain; Spanish verbal ellipsis matches the English ellipsis."}
+  ],
+  "additional_intent_review": {
+    "unique_changed_passages_reviewed": 3,
+    "physical_source_locations": 2,
+    "question_intent_preserved": true,
+    "all_words_changed_by_rule": false,
+    "whole_additional_locations_approved": false,
+    "note": "The other location has two historical OCR/translation variants. Question intent is restored, while OCR fragmentation and missing qualifications remain outside this punctuation rule. No complete chapter or additional full location is approved."
+  },
+  "all124_chapter_words_reviewed": false
+}

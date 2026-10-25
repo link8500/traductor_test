@@ -1,0 +1,1310 @@
+{
+  "schema": 1,
+  "viewports": 124,
+  "source_regions": 228,
+  "native_ocr_sources_and_bounds_all_identical": true,
+  "all124_new_meanings_reviewed": true,
+  "all124_previous_meanings_bound_to_exact_same_location_outputs": true,
+  "cohorts": {
+    "all124_fixed_reading_viewports": {
+      "viewports": 124,
+      "before_categories": {
+        "incomplete": 19,
+        "acceptable": 66,
+        "incorrect": 25,
+        "clipped": 11,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "acceptable": 39,
+        "incorrect": 64,
+        "incomplete": 17,
+        "clipped": 3,
+        "needs_review": 1
+      },
+      "before_not_approved": 58,
+      "after_not_approved": 85,
+      "corrected": 8,
+      "regressed": 35,
+      "relative_unapproved_reduction_percent": -46.55172413793103
+    },
+    "no_visible_dialogue_clipped": {
+      "viewports": 107,
+      "before_categories": {
+        "incomplete": 17,
+        "acceptable": 66,
+        "incorrect": 21,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "acceptable": 39,
+        "incorrect": 53,
+        "incomplete": 14,
+        "needs_review": 1
+      },
+      "before_not_approved": 41,
+      "after_not_approved": 68,
+      "corrected": 8,
+      "regressed": 35,
+      "relative_unapproved_reduction_percent": -65.85365853658537
+    }
+  },
+  "entries": [
+    {
+      "id": 1,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "Question, exactness and temporal return retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "913f055b53108bddf740205e8f55535723e806e9cc76036ab232940d14b45d48",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 2,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "HEY becomes a pain interjection; messing with the speaker becomes intrusion into the speaker's life.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "fde1ff909ea90c1b1d959d0bae41b084f8473108892f152084e7a2c7205d9157",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Gambling addiction onset changes to becoming aware of an existing addiction.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "57b0aaff4bc066299cbb3cdd13a2053db375953b30b1c4863c78ed5a836d9d75",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 4,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note": "Fur, stiffness, long body and tentative wild-boar identification retained; Spanish grammar is poor.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "e828172474dd97a694085598c284829fe207088c766e3a4f9e75e828515d1db3",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 5,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "SUDDENLY remains in malformed mixed-language output and AT THAT meaning is not conveyed.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "492997854728dfe233ee4c9a5503fdf7e924fad0e8a4261265ebd6e28495364d",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 6,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Opponent title becomes a fabricated phrase about bloody murders, with nonword BLADO.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "c204ff6382a2a60a0a9aa1fa39803a4a0dfb5197c3bc0a244fc982ece2f3bf54",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 7,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Obligation, self-punishment and survival retained despite grammatical defects.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "57f2a19fdacca3314669db569460ba7e2ee8ba651fbfba71312a2f730205f23d",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 8,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Rhetorical degree, terrible place and many trapped people retained; grammar is poor.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "81acadcadc643eee62da4237bf728fe8bfa8b028fa22fb8b74b434afb14f9c66",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Body, strong power and comparison to prior absence retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "cb1fa158b83ac4314fb260f26fd56a54d1c11815c236008494576f2f68a863b7",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 10,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "BATTLE remains English twice.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "4044cd13e9a0e00b888c23e9b702b15e174583cf9c26d10fda4777460cc4fd06",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Meeting/contact barred unless an appointment was made; wording is awkward.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "967e367e1c4737a207359c949694ce75a38e556c591104e42788225251d2f7de",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 12,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Spell it out idiom becomes writing aloud; unfamiliar OCR becomes invented personal qualities.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "2b54266f048f68aeac537ace335c9dcd3eaf67dfbdc005b4437a88036fee3673",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 13,
+      "before": "clipped",
+      "after": "incomplete",
+      "note": "All three passages copied in English; full paragraphs are untranslated in addition to clipped opening.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "d0a1cf504be93b150838b6d91e6eed6f5de7f58d2110db727cfb9746ff84ad46",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 14,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note": "PAPERS and CORPS remain English; malformed assassination spelling. Not fully translated.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "446e0f3635892547bcd1ab3c540eecc6941b4b0b3f4a62ad7c56d0cfbc5e61fe",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 15,
+      "before": "needs_review",
+      "after": "incorrect",
+      "note": "Adds first as an instruction modifier and leaves CORPS untranslated.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "5bb6b30bf3ec17aff488fa864be9b6977c5ae645047f4f63455b64c3face6799",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 16,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "First-person disbelief changes to third-person or formal second-person disbelief.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "5e77a81838578447e9210518b3cc9933b4bc2999a092ef63bc47a21e027fb717",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 17,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Proposal to replace demon statue with a beautiful woman's statue retained; extraneous detection is non-dialogue.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "61b495a4a0fe2e2de8b5a60b9fd54cfd447a0f8889bb8cbe6948bd66550cedfc",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 18,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "Both questions and THEN connector retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "c64f3bd631daccf157251509bba80f650e199c7bf53fcd7f5d4aafeffbd2e900",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Exclusive unique Heavenly Demon changes to plural celestial demons.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "08c782c4677eedd6ff08a9619be7324cd35cae11613fdfbb63524d2b05c5df89",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "First passage remains garbled, and food you gave becomes food someone gave to you.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "961bbb305e7577763817fc23b0f26e82fa1122ddcb4c61e4c8a7423c8a76ba4b",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Good eye for people retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "bb8e7bca8028a189e88e127d28124b2d5a958163176477af4c93e8eb647de682",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Demon Supremes becomes supernatural supremes; group and subordinate clauses otherwise present.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "1ae0ce5a83a519a3c41fcea426814bfa781116e9c094a00590583457f760c6b2",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Question, father-child relations and Hundred Sword Demon title retained; grammar is poor.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "9a5ac4de9c64807a5ca9e5b445fdc7296e654333c50192ec1426ea035b3cc9aa",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "PAVILION remains English in the destination title.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "89d94d5e161a141fcb83ae97be2b92fc7d41801c39f32ee5e5c40335706eb72a",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Threat involving sister's safety retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "bb097c4b4ca5fd0e176ff0b4c9aeeda745637a1526f42a332d07ba860d16b688",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 26,
+      "before": "clipped",
+      "after": "incomplete",
+      "note": "I BELIEVE is omitted and PAVILION remains English, beyond the already clipped continuation.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "311ed8652ef058523a74c7cc2ad0f35ae44e75fab1f4859b7d5548792dd702bb",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Concessive WHILE becomes temporal MIENTRAS and HIGHLY is omitted.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "eee069961fceba1db27666cf482e5165cabf3ccb939becc99094323a06ce6687",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "HOUSE and BLADE remain English in the destination.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "1b06218b696d8e52ae1a759d48f2d712d2c809fd8c39c732cc6e5c11c65c534b",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 29,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Speaker getting busy becomes making someone look BUSY, with BUSY untranslated.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "9c566a7d307abda251343ee3ac2de5329af4cf93f109dea84eb60ea38c95f5b0",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Both sons' ordinal positions, prior support and feelings retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "916d7c46a8b1692c3fadfdb6dd52f79c5da63ed1783c5325cdcef237634f749f",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 31,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "First JUST restored with EXACTAMENTE; inability and naturally expected conduct so far retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "4b8b24a526982cd2a063513ac856b19bec0d6bd6286ae8fd0160abd80e65d198",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 32,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Causal support attribution retained with natural support paraphrase; non-dialogue artifacts exempt.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "cd1bbd012ab28ac984b6391766d768d0c896267bd4e70261907307b0c64d9a7d",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 33,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "NASTIES in the interpersonal context becomes malign things rather than nasty people.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "4983464519197d72a332a4aeafafa5b618a7fb5a4ee0b63767398a8a719da0fc",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Handing over even the named divine medicine retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "aae08591fbf5f7ce7aa817c15401b1beab6e02bfd2ff0fd6df496f3bf1e209e2",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 35,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Negated question, recipient and reply retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "c427ffe402f2cd8a5b43f4dc3a4d73681f36bcbec50f9cb04efea90f088afde8",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 36,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note": "Contrasting abilities to see and the question retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "02bb0c5c6f08492a78e51c29c83ccdc5de91733bb583cafe47fc7cb8778e2172",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Favor, question and desire for another family member retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "430aaddb4efd809a03dc29521f9181c30e8023363d9f9a3302f9661b66a23367",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 38,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "DRINK untranslated and future waiting changes to currently waiting there.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "c65c131970918161763bd10349b02c18b9cff9e0421d86fd804e57d1bf994ee5",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 39,
+      "before": "needs_review",
+      "after": "incorrect",
+      "note": "Smelly man becomes a man with very poor sense of smell.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "2922004e73f03ae7b3433830c069008258c952c25c969dfef809ac9f10fd5279",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 40,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Title remains English and female addressee is welcomed in masculine form.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "3479008bdb95ba16d8f26e7c6311d56e6f230735978c5a294d49c3f77cf35169",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Inviting to dinner is replaced by malformed nonword TEJADO and CENAR.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "885e9c354652b5195132fa624ed61f6dfd8f9ead57e0d472dc3cbdd7c2c155cf",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "First-person promise not to set conditions becomes third-person plural; once-in-a-lifetime expression also malformed.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "ebf62f270856f78330dcdfa77b86e1c95f71974bd3dac9acca49f617c71af5e9",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 43,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "DRINK remains English; other balloon retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "e7378ae5af570f92ae673203cefefccad0f67dc2623902120e36765717ccf47c",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Title garbled and handheld fan still becomes a ventilator; other malformed words.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "1a3aa0cc6f2d202877e2b9470bc2cba2b4a68004b8e25ac97d02397ff22afaed",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Corrupt first clause remains unresolved and most of the readable final clause stays English.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "b87a048df1f2e1eb81a6c4d2080f4ec4050b4bbfa1d50f15c757795f23407109",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Existing threat using father becomes a possibility of using father; causal qualification lost.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "7932ca420dad8d8c6f3eb040e5fc6a258bc05003bd5d6272cea9b891effd5e0e",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Age, concern, admission of lateness and advantage retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "cafdefedc26be029c8e3475eb1d8ae9fdba7e4e5ccaf3add2f8cda7c61ce9aa0",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 48,
+      "before": "clipped",
+      "after": "clipped",
+      "note": "Full first balloon retained despite poor grammar; bottom dialogue remains clipped.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "e2cc8ea8a60efd411b46507adeeb3d54fa1a5f448085bcb03f7eef4cdfdf21ac",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 49,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "I DID remains absent from recognized source; question is only THAT.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "deb3e515644598484eb1bd3135fe00d5ee017982a600b2a0a0a5c60fad03b77d",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 50,
+      "before": "clipped",
+      "after": "clipped",
+      "note": "Full question retained with spelling defect; clipped THEN remains unrecognized.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "e3704b0c59e93256f3669d5dc64aee683f76692ac590c010e066cf8712f0419e",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 51,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Prediction, soon, speaker's expectation and cause-trouble question retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "5330a22127a62a99dcf4b7a95535812c9613d315b7fe94e28e56bea8431f0081",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 52,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Devouring becomes returning hearts and growing stronger still refers to the weak.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "6f2c7ab41f2b066f10055449a5b36e971f774798d9d5db3ce4cb12c162845dcd",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 53,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "Defense-art name changes to divine anti-conditioning; missing vertical KILL HIM remains absent.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "347aa1bae0985e12791a15d79418739a9f00098a6322ddf29d0373cd181ee81f",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Death becomes materialization; technique also rendered incorrectly.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "0da8c91d8682fc59fb0d1562f5cb319fbf20b8504ea43e9142351799c0cd9d7e",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 55,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "SELF remains English; curse weakened to generic spell.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "1dbcf01c1f4ff9cfef9d6a8de453778637abe4b23691f0741580579f800e0ca3",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 56,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note": "Both catch questions and fish-release condition now retained despite OCR typo.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "6de4c9961dc2a086fa900db60b9c95ba56bd416e72e94459e9052e34606ee668",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Destination question and visit to the named branch in Central Plains retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "e82d8a77a441cc7a349419e4ac0bd59470ad3746e547df12774b29952880ba4f",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 58,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Lack of regrets, internal torment and request to explain the matter retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "cd2c2583e19cabbae78870537d4a6eef2c0b1905caa107e46f4b0eb10d022f1f",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 59,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "Frustration, route to illness and sleep-unless-training condition retained; interjection is unnecessarily profane.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "c7c41fd7fe97fcc48c978c2089f266c3bb38e0face3d77e98094104e5dcdb3ff",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "Unresolved 3Y artifact remains inside the translated dialogue.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "1e19ca7d5d30b1885962682c386864b2f11b8ac4aacb348acb1a263bc197e6e6",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 61,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "LITTLE remains English and HIS heart referent is omitted.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "a399953350cc2a98122f4c1faaa26a45836287ba4da56e8aa18079be3e9adaa2",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 62,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "True goodwill changes to true blessing.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "2f5bd7db62d232e9a611e372d30f42650377f5bf82c780c733aa1f3cde57f281",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 63,
+      "before": "clipped",
+      "after": "incorrect",
+      "note": "Adds unless, garbles sometimes and changes one blow to a target; not merely the preexisting clipped fragment.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "340a546c4cdf3ca588cafd102a03ca844dfa4621759ae6547d685bcc23d1cb25",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Promotion to master becomes literal chair; PAVILION untranslated, beyond clipped second sentence.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "9e6d1bc0dc68a5b58c889ebba7b12e2590eb3d2903ab3e0270789fe9b6222cfb",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 65,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "Slaughtering a family becomes sowing a family, though repeated WHY is restored.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "4b1076b24bfbbceb46c25a2c68f8e4048b30d7d157f1452a280a8376ec531fdc",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 66,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "Strong attraction becomes being trapped; EVEN emphasis still omitted, beyond clipped fragment.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "feacd48399840c98e6ca5a394d4d6485992f2d8364b6f27eb0aeeec04c32bfca",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Considering a gift becomes saying something and giving the addressee a gift; actors changed.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "11834f44c9fca42e3635397f34c10cbf3bde4e3e8227585ed568278e107d85ae",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Whole question retained; stray OCR separator does not replace any dialogue word.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "8e5b20bcf46732cef2dc6238cb95f3e6df3b9b6651912858d276dd8db03f299c",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 69,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Multiple English fragments and invented Spanish words corrupt past answer and both character adjectives.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "0c0fb641af9b1a986111e3dc9751005fd0bbe76322cc379503c39abd4d3aadc0",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 70,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Cult leader reduced to the cult and acknowledgment remains literal seeing.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "cc42d41948ef5b3101a87437a8681b3bb3f18f4d650236fc3503c58e033789c5",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 71,
+      "before": "clipped",
+      "after": "incorrect",
+      "note": "Expelling us and petty tricks become malformed phrases and sin.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f7af7d60875c593d3a6f154c68705d545c908f3d4885562d9e7e2eb45a5cacef",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 72,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Named pill becomes PILLA, blood god becomes bleeding god and temporal relationship changes.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "aeac624afea82e6fbf14f31c7cbfe0e4b9495129a59fef38b3ac613897e16fbe",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 73,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "Dragonfly becomes a draco/dragon; standalone I remains omitted by OCR.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "06efcaf0202e3a738688dbfc1fa4471b5f51e187a580dbfba6405b59d93c3825",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 74,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Robbing again and always talking/thinking of the second young master retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "d109932b51f5e7bd9ea62b528c7cc53e895dbf47d501e9761658667b3a8813d9",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note": "Continue is repaired, but SO connective is omitted; tomorrow learning the unification fact otherwise readable.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "ebc6de34fff987c16ac30f6d4b96ed6219653c22e49fb5e2de732973aadbb926",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Timing, make sure and emphasis instruction retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "77e4f55a07bf440a9377689cf18ece7ed5061c4961a3cfa7d600155b85a252a9",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 77,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Current/habitual daytime suffering becomes completed past suffering.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "caf8e977ce8f788a5d087a76d8eefd7753c7d33a0f255119ef301c60a94c964c",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 78,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Worse companions, rhetorical tag, outward loyalty and inward ridicule retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "d04e671b5115116fd925d3edaf3c38dbd075324287c953283cb8dec3a8513037",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 79,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Release request and chained man's destined ascent retained; historic present is understandable.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "c1363974c897548e02897afd55c3da0d3684d6680bb764cd21ee29cdf332beb4",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 80,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "Almost the entire sentence remains English.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "062116999e626ee46c9ae421219d8f000a64bdc3a7d877dcdcc6721aad3b7b42",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 81,
+      "before": "needs_review",
+      "after": "incorrect",
+      "note": "Uncertainty about permission becomes definite prohibition, dagger becomes sword, and shackled man becomes closed man.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "48269ac17042930f49643e26eab2c59675718370b76f97e0ddc819515d400461",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "DREAMS untranslated and leaving becomes malformed VANIENDO.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "34a6cb479be048dd8e068c18ced40e7b9744d8de617f2468238332ebaced1881",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "GO becomes GO MORE; imperative regret becomes an incorrectly inflected future statement.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "a83e7596e26c43ef35daf7e1d21283fb6d8da6b42503d59d009f8144ca43059a",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 84,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Quick return becomes sudden return; training-duration sentence also malformed.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "ded927665c2262e7766bb3b5b6fc66a1bea5a333ff0be7843dc284a6949b1c28",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 85,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Acceptance of the cult leader's allegiance and enduring conflict with father retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "ec622760cf17036981a3fefa6746c26c70acf049eb077e27837aba5c52f9af50",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 86,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Abandoning leadership for a relationship with one person and the speaker's doubt retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "797a9f1ff8ab3d285eb5d9285b82fc072be78905929ac923f58b8166c75d5780",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 87,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "I cannot let you go becomes he/you cannot let me go; SO also remains English.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "d09e67c6c00b5601bd5b7c271c004640cd40bc36781ac480db005e16b34abf8f",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 88,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "ELSE in the offer is omitted; stuttering is stylistic, not itself a required translated word.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "909a0ccded3d8b466ad632ac43cb7761a9b949dcefae1e5b3d03724be37473e8",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Verbal snapping becomes physical biting.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f603e6b9ac14a4163b86210aca91a0a4f4a640b19a24de2b0241e30f826d2df4",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Unresolved YOL T remains and second-person treatment becomes ambiguous third/first-person.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "8a8949773e7ab6a90efe3e6e5a27135ee411afbf977609f0f7e76b1d9a7dc9b2",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 91,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "Mood becomes mode and fighting a round becomes taking a walk.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "285755d33d51b06de520c05ee21c6f6e4bd8ce18b090e3c976f34b5c378d6b73",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 92,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "Ground still absent, named cave distorted, and demonic cult becomes demonic culture.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f0ef03ef90e8271bd1a43843358f1af2b69a49f20fbb24b24f35a799e8910a9c",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note": "FIRST omitted from the meeting statement.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "44d4c3999d75575544a659970fad1e07b665650285f69e1bb91843c907b75a93",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 94,
+      "before": "clipped",
+      "after": "incorrect",
+      "note": "Cult title gains invented elves; this is additional to the previously clipped OF COURSE.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "b7409e0873e16573204fc6af7b9dd6937f5cb4872e0a59dfb9f0f8833ba8f933",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 95,
+      "before": "clipped",
+      "after": "incomplete",
+      "note": "POISON PEARL remains English and OLD is omitted beyond the clipped first line.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "72020f2afd496bc66709c1b28a748e366c19adec80c824c13f6cff0b9cc8adc5",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 96,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Unconditional obedience and contrast with unconventional second master retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "63b698d136fb1be7dc818726c9a303777a2a92db65cc02678ee52b2d7200ffa6",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Counterfactual negation is lost: if you had NOT said that becomes if you had said it.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "b64fd1db8ad7204d5170acc85239abcd8f5a55560047f6e02b679e52e343fb8e",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 98,
+      "before": "acceptable",
+      "after": "needs_review",
+      "note": "Meeting people becomes finding people; arranged contact versus searching is unclear.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f341facafa844e249b621e3298e864e4ebd114a093be4cae75d912f82eb56969",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Our cult becomes our culture.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "a6df6286b676dee39b307506804541c17b8c7f854b24154853fcb3d32fcfe135",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 100,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "TWO sides becomes ONE side and the likely-nothing-more-than qualification is garbled.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "71d361bbde5d74308b1e83956ee5aef67d6dd693aba249137e13e610c8c2ccf5",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 101,
+      "before": "clipped",
+      "after": "incorrect",
+      "note": "Master remains English and who called whom disciple is reversed.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "1cdfbf87d0f0350547a2eb6d86f5c530cbe7df90e5ea9fc142a9750224fb3444",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 102,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Villain and deserving death retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "5eaa589d089a4d546ecf9622fe7d7b69bd2bb3614e765a075675e4c76955714c",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 103,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Personal presentation is repaired, but an unsupported BUT connective is added and the sentence is grammatically broken.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "aa5b1208a74b445122322f7e29871a8904d9ff87ae1f9a58912eabdf3f356d8e",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Mask and selling omitted; putting on mask and stabbing become stabilizing.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "78655edd7e8e2e47dafd8041e3368e3b4bb1f518a1eec30ec0ffe75e784ee6ad",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 105,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Question and both people looking at the sky retained despite awkward phrasing.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "cdad5841eddc0b139778a466681909bd988e6e41e7c1c4a3671b2988ca39a3e8",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Looking forward becomes a malformed phrase about being employed; second balloon also broken.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "a79f610666a2b658723b0659e70ac0a77b79110c65c9401f32cb6cfa8c857c29",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 107,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "EVEN comparative emphasis restored; getting along better than brother with named Buddha retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "d0a2b251ff38917c7518657700d8195fbe75e8c3eb13f748c203a3ed4797b4e4",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 108,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Cleaning remains literal and an unsupported one-week limit is invented.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "6b00f13a360a869de089b27e87bf86fbcb85ac4d6437132cf1eb86a8ab173033",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 109,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Tearing flesh off becomes malformed TORNADA OF rather than a complete translated action.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "619ec785f7b82933ca299a9eb8b049ef723c8ff85ba9d450b5d5627f80758735",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 110,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "Missing MUST BE A remains absent and paragraph stays disconnected with ML artifact.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "92a4abdbefeeb6f11d18dc6053521d14467fccff6da4d0c8aaa48e8fc57d25cf",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "MASTERSMINDS and PROBABLY remain English, cult becomes culture, alliance still corrupted.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "12a014fbd35c8d283990bd4e70cbb820fb5d52e6e8d8e4500b452f4f56388200",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Stronghold becomes nonword ENCOMIENSA and MAJOR remains English.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "d5fc14880c72fd059ebe4d0e29d4a52bef13584ec7bdbee823491b85dc7817b2",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 113,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "GETTING remains English and seasoning becomes a season of condiments.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f5cce3e2314e65e2b2836ab0acbfa6b93bf43fd62db7c5a9f3368d2713fb296c",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Lunge and dagger remain absent or garbled in fragments.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f4138567fef4719020f5d46b800aec95d3e730bd943c6f99bd4c5b2f8b4918a1",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 115,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Still wanting to see this kind of world retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "30a7193ee5c366dd83a10e26ed0525f30c832e0351f9f294d70fb06e5e3f92ad",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 116,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "AND INSTEAD LEAD becomes AND INSTEAD OF LEADING, reversing the instruction.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f1d3c6196728a19e6df6488c88b9cee66e828cafe6677fc35a8ee0af8564d13a",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 117,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "First-ever sense, probability, carriage and owner retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "5ef3def495af5b6e31eeae5bf02bbd746765013ad7c418ef6885aa9045c56fb0",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 118,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Chosen method to deal with a madman retained; malformed noun agreement does not change referent.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "bc22679ae64ce9ba9027711bde09e92cd3d783cad0716ef1e54e0df2aeb18e1b",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 119,
+      "before": "clipped",
+      "after": "clipped",
+      "note": "Visible eating/drinking propositions retained; top continuation remains outside the capture.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "064fa1e3d2e80919a1cff2182a321b742f867356e3dadb3a0ea2c9b2754852e1",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 120,
+      "before": "clipped",
+      "after": "incorrect",
+      "note": "Unorthodox alliance becomes unusual alliance, losing the doctrinal faction distinction, beyond clipped first line.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "f53e72c84f1d4ec1fecff27f913b552d98d80f2316409bb4ee69cc37a335f0d7",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Negation, still and ownership retained.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "7db68fdef5b6f85eb5b002c157f2ee0e91736f8dd45b7600e49cc2fc92c47b7a",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 122,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Rat becomes robbery and discussing becomes malformed DISCUSSIONAR.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "c397b8ca29773ccf1490268a9563cc125c4c7b0f164b431e29b455c9f25aa5b7",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 123,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "Plural witnesses becomes one witness; Young Master remains English and involved party becomes political party.",
+      "visible_dialogue_clipped": false,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "cea90e3ebf9903ab996b7fffe0d4ba15cc0853c2e14dabe8407ac11439fab5bd",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    },
+    {
+      "id": 124,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Entire becomes nonword ENTEGRE and unorthodox faction becomes repeated invented weakness phrase.",
+      "visible_dialogue_clipped": true,
+      "original_dialogue_inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+      "isolated_output_sha256": "285add56d29e085186533ed8745e6d5ed303c8dd7e8dde402dc6de463134858e",
+      "all_new_meanings_reviewed_against_full_original_inventory": true
+    }
+  ],
+  "manual_sha256": "df6b033ecf89998c5b60038b5a37f676c2fc97b6dab3000ed752002c7b555582",
+  "previous_native_review_sha256": "a7aff03fa96821274d41b9e9153a7f91861873ec59ac6bc58ee583ef054cc343",
+  "output_sha256": "d45d969d437f1a25df4b56fe92c50921168f9d6dc5991a391632fe3da32229fa",
+  "provenance_sha256": "f3d31fa24f3452a4edf538577f04ffd736be2e37dc5afc9294ac0e2577f061f3",
+  "local_model": "Qwen3-4B-Q4_K_M",
+  "sampling": "greedy temperature0; isolated configuration only",
+  "model_weights_trained": false,
+  "application_modified": false,
+  "provider_accepted_for_deployment": false,
+  "poor_spanish_grammar_also_observed": true,
+  "semantic_pass_is_not_complete_app_use_approval": true,
+  "original_paint_and_live_capture_not_evaluated": true,
+  "all_chapter_words_visually_reviewed": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "ready_for_release": false
+}

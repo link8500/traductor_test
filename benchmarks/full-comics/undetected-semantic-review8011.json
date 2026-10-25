@@ -1,0 +1,505 @@
+{
+  "schema": 1,
+  "reviewer": "assistant",
+  "sample_path": "build/full-comics/undetected-review8011/sample.json",
+  "sample_sha256": "8d4701539649ab80d1ee4842a66da13db831222277ade7abe42a4a926ea5a480",
+  "manual_decisions_sha256": "36769e446e608998979504c011c09c2c0d8d6414e5269cf9f173a71bec9a7f85",
+  "engine": "translated-en8011-context",
+  "chapters_checked_for_proposals": 124,
+  "candidate_chapters_reviewed": 47,
+  "reviewed_regions": 47,
+  "result_counts": {
+    "reference_only_promotion": 29,
+    "reference_ocr_artifact": 2,
+    "partial_detection": 3,
+    "reference_only_edition_text": 1,
+    "missing_text": 2,
+    "translation_omission": 1,
+    "numeric_original_preserved": 1,
+    "reference_only_editor_note": 3,
+    "fragmented_translation": 1,
+    "already_detected": 2,
+    "reference_duplicate_translation_defect": 1,
+    "unsupported_source_script": 1
+  },
+  "complete_or_partial_english_detection_failures": 5,
+  "other_english_translation_defects": 3,
+  "unsupported_source_script_regions": 1,
+  "spurious_nontext_detection_regions": 2,
+  "global_omission_rate": null,
+  "all_chapter_words_visually_reviewed": false,
+  "app_uses_review_answers": false,
+  "limitation": "Diagnostic sample of automatically mapped missing-region proposals. Counts are separate from the distributed semantic sample and must not be added without deduplication.",
+  "entries": [
+    {
+      "id": 1,
+      "result": "reference_only_promotion",
+      "note_es": "Es un anuncio añadido por la edición española; no existe texto inglés equivalente en el dibujo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 2,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 3,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 4,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 5,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 6,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 7,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 8,
+      "result": "reference_only_promotion",
+      "note_es": "Anuncio español sin equivalente; Luma conserva una marca inglesa distinta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 9,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 10,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 11,
+      "result": "reference_ocr_artifact",
+      "note_es": "Los remaches del portón se reconocen como caracteres en ambas lecturas; no son palabras omitidas. Existe una falsa detección de Luma.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 12,
+      "result": "partial_detection",
+      "note_es": "El contexto ampliado muestra cuatro rótulos con contorno. Se reconoce uno bien, dos parcialmente y falta el último; no se recupera el nombre de técnica completo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": true,
+      "expanded_context_sha256": "b2f67c86bfc89e8eae0a3798cd4752742c8df9865ee5c9bfe328bd9b70c51665",
+      "chapter_words_approved": false
+    },
+    {
+      "id": 13,
+      "result": "reference_only_edition_text",
+      "note_es": "El contexto ampliado muestra efectos coreanos en el original, mientras la edición española añade una leyenda latina que no está en esa imagen inglesa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": true,
+      "expanded_context_sha256": "acc9f41ba0b8bed090ebea3d72c4e20b19b807c94d2dacdc7d279cae5ce2ce81",
+      "chapter_words_approved": false
+    },
+    {
+      "id": 14,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 15,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 16,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria de la edición española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 17,
+      "result": "missing_text",
+      "note_es": "El texto rojo inclinado se ve en el original y no aparece ninguna región de Luma en el recorte.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 18,
+      "result": "translation_omission",
+      "note_es": "La lectura de Luma sí incluye la continuación del diálogo, pero su traducción omite la segunda oración. La señal no es una omisión de detección.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 19,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 20,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 21,
+      "result": "partial_detection",
+      "note_es": "El contexto ampliado confirma letras deformadas y pérdidas en el título; FORM se traduce separado como formulario.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": true,
+      "expanded_context_sha256": "eb19ed29ca61c948655920d3797fdbcc5b87b4e086a6cc087be705a239011563",
+      "chapter_words_approved": false
+    },
+    {
+      "id": 22,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 23,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 24,
+      "result": "numeric_original_preserved",
+      "note_es": "El original contiene únicamente 999; dejar el número visible conserva la información, aunque la referencia lo escriba con letras.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 25,
+      "result": "reference_only_editor_note",
+      "note_es": "Nota del traductor español sin texto equivalente en el original.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 26,
+      "result": "reference_only_editor_note",
+      "note_es": "Explicación de la edición española añadida bajo el diálogo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 27,
+      "result": "fragmented_translation",
+      "note_es": "La leyenda inglesa está más abajo que la referencia. Luma reconoce todas sus palabras, pero las separa en tres traducciones y cambia FORM por formulario.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": true,
+      "expanded_context_sha256": "0d836e606bb102220216021c96fd4b24fe71c76eb54bb819587a6314be48f645",
+      "chapter_words_approved": false
+    },
+    {
+      "id": 28,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 29,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 30,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 31,
+      "result": "missing_text",
+      "note_es": "El rótulo inglés está rotado sobre el pergamino y no aparece entre las regiones de Luma.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 32,
+      "result": "partial_detection",
+      "note_es": "La oración manuscrita se divide: su inicio queda truncado y sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 33,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 34,
+      "result": "reference_ocr_artifact",
+      "note_es": "La referencia propuesta corresponde al dibujo de una ventana; no contiene palabras omitidas. Luma también detecta barras como caracteres.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 35,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 36,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 37,
+      "result": "already_detected",
+      "note_es": "La frase inglesa sí tiene una región de Luma; la correspondencia del ledger es demasiado estrecha. No aprueba su redacción.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 38,
+      "result": "reference_only_editor_note",
+      "note_es": "Nota añadida por el editor español sobre la imagen original.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 39,
+      "result": "reference_duplicate_translation_defect",
+      "note_es": "La referencia repite fuera del globo el mismo diálogo. El diálogo inglés sí se detecta más abajo; la traducción cambia indebidamente el nombre propio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": true,
+      "expanded_context_sha256": "48ed96254e6075461a2fd0ab78b9704cc07ed9c769d60a37c5826c3146813c0b",
+      "chapter_words_approved": false
+    },
+    {
+      "id": 40,
+      "result": "unsupported_source_script",
+      "note_es": "La etiqueta original está en caracteres chinos, mientras la prueba usa el reconocimiento inglés. La traducción española fue editada sobre la imagen.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 41,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 42,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 43,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 44,
+      "result": "already_detected",
+      "note_es": "El diálogo está reconocido y traducido; la propuesta de ausencia es un error de alineación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 45,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 46,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    },
+    {
+      "id": 47,
+      "result": "reference_only_promotion",
+      "note_es": "Marca publicitaria española sin equivalente inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "expanded_context_inspected": false,
+      "expanded_context_sha256": null,
+      "chapter_words_approved": false
+    }
+  ]
+}

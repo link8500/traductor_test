@@ -1,0 +1,2166 @@
+{
+  "schema": 1,
+  "status": "development_candidate_not_in_application",
+  "reviewed_changed_locations": 14,
+  "before_not_approved": 13,
+  "after_not_approved": 5,
+  "before_categories": {
+    "incomplete": 11,
+    "incorrect": 2,
+    "acceptable": 1
+  },
+  "after_categories": {
+    "acceptable": 9,
+    "incorrect": 4,
+    "needs_improvement": 1
+  },
+  "corrected": 8,
+  "regressed": 0,
+  "original_and_reference_sheets_inspected": 4,
+  "candidate_locations_planned": 1008,
+  "newly_affected_native_inferences": 19,
+  "native_guards": 15,
+  "rejected_unprotected_candidate_repetition_retained": true,
+  "manual_sha256": "1b698b578ff22d59227154a92405b57578562eefa84f5e817e0769fba234f600",
+  "sample_sha256": "213fd97d0836f28a68c4889894e0e5836380a9d28ef2740e1520a024dedb1c72",
+  "provenance_sha256": "35a06f22e7d3ba3bc43895af58964560dc2d1b796ee97aeec908a274dd1e2284",
+  "native_inferences_sha256": "a565f6019529a3017ef363f89109b6d2114c3012244aeda95f183ce9c59eca7d",
+  "model_weights_changed": false,
+  "included_in_application": false,
+  "all_planned_location_meanings_reviewed": false,
+  "independent_validation": false,
+  "screen_attempt_failure_probability": null,
+  "population_accuracy_estimate": false,
+  "entries": [
+    {
+      "id": 1,
+      "chapter": "absolute-regression-82",
+      "sampling": "One hashed eligible aligned region per chapter; not selected by translation outcome",
+      "current_folder": "translated-en-final",
+      "current_report_sha256": "78c6337fe413e6b4c4f8a01a45945abef266085d28c9edef13c2bc5c9c7f341d",
+      "current_region": 99,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "78c6337fe413e6b4c4f8a01a45945abef266085d28c9edef13c2bc5c9c7f341d",
+      "source": "THEN WHY? WHY THE HELL ARE YOU LEAVING?!",
+      "translation": "¿Entonces por qué? ¡¿Por qué diablos te vas?!",
+      "before_source": "THEN WHY? WHY THE HELL ARE YYOU LEAVING?!",
+      "before_translation": "Entonces, ¿por qué diablos te vas?",
+      "bounds": [
+        196,
+        10302,
+        606,
+        10439
+      ],
+      "source_image": 9,
+      "reference_source": "ENTONCES ¿POR QUÉ? ¡¿POR QUÉ DEMONIOS?!",
+      "reference_region": 152,
+      "reference_bounds": [
+        263,
+        2511,
+        558,
+        2613
+      ],
+      "reference_image": 23,
+      "source_page": {
+        "chapter": "absolute-regression-82-en",
+        "series": "absolute-regression",
+        "number": 82,
+        "language": "en",
+        "image": 9,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/82/010.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-82-en\\009.webp",
+        "width": 800,
+        "height": 15000,
+        "sha256": "6a4953df2fce6f47d2d39e98c2e029a989d6ed3221e2f04e44e79ad50e7dd578"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-82-es",
+        "series": "absolute-regression",
+        "number": 82,
+        "language": "es",
+        "image": 23,
+        "url": "https://media.imagesolymp.xyz/comics/1382/123199/5_03.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-82-es\\023.webp",
+        "width": 800,
+        "height": 5528,
+        "sha256": "90109f4517c250265a2e9c6b61b847f4ba267242a50b11734647e9be5206fc20"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "full_engine_report": "translated-en8011-context",
+      "full_engine_report_sha256": "2f7b0e779b972fb34546b19503db065a2a0b3898e89d46c2706f279f787bc858",
+      "refreshed_source": "THEN WHY? WHY THE HELL ARE YOU LEAVING?!",
+      "refreshed_translation": "Entonces, ¿por qué diablos te vas?",
+      "refreshed_regions": [
+        {
+          "chapter": "absolute-regression-82-en",
+          "image": 9,
+          "capture_edge_clearance": 661,
+          "source": "THEN WHY? WHY THE HELL ARE YOU LEAVING?!",
+          "cropTop": 9100,
+          "native_source": "THEN WHY? WHY THE HELL ARE YOU LEAVIN&?!",
+          "additional_detection": false,
+          "native_words": [
+            {
+              "text": "THEN",
+              "bounds": [
+                280,
+                10303,
+                392,
+                10340
+              ]
+            },
+            {
+              "text": "WHY?",
+              "bounds": [
+                410,
+                10302,
+                522,
+                10340
+              ]
+            },
+            {
+              "text": "WHY",
+              "bounds": [
+                196,
+                10353,
+                283,
+                10389
+              ]
+            },
+            {
+              "text": "THE",
+              "bounds": [
+                298,
+                10353,
+                385,
+                10390
+              ]
+            },
+            {
+              "text": "HELL",
+              "bounds": [
+                403,
+                10353,
+                503,
+                10390
+              ]
+            },
+            {
+              "text": "ARE",
+              "bounds": [
+                520,
+                10352,
+                606,
+                10390
+              ]
+            },
+            {
+              "text": "YOU",
+              "bounds": [
+                240,
+                10402,
+                326,
+                10439
+              ]
+            },
+            {
+              "text": "LEAVIN&?!",
+              "bounds": [
+                346,
+                10401,
+                563,
+                10439
+              ]
+            }
+          ],
+          "bounds": [
+            193,
+            10302,
+            608,
+            10439
+          ],
+          "prepared": "Then why? Why the hell are you leaving?!",
+          "translation": "Entonces, ¿por qué diablos te vas?",
+          "raw_model": "Entonces, ¿por qué diablos te vas?",
+          "terminology": [],
+          "source_corrections": [],
+          "retained_original": false,
+          "reused_identical_source_inference": false,
+          "translation_signature": "901782abb0fac8dfd9912466c05f3d9835f6c5caa8096578390207d7a14d36d8"
+        }
+      ],
+      "refreshed_bounds": [
+        193,
+        10302,
+        608,
+        10439
+      ],
+      "full_engine_judgment": "acceptable",
+      "assessment_reused_for_identical_output_and_unambiguous_geometry": true,
+      "previous_frozen_judgment": "acceptable",
+      "needs_visual_review": false,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 1277,
+        "prepared": "Then why? Why the hell are you leaving?!",
+        "raw_model": "Entonces, ¿por qué diablos te vas?",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Then why?",
+          "Why the hell are you leaving?!"
+        ],
+        "sentence_translations": [
+          "¿Entonces por qué?",
+          "¡¿Por qué diablos te vas?!"
+        ],
+        "source": "THEN WHY? WHY THE HELL ARE YOU LEAVING?!",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "¿Entonces por qué? ¡¿Por qué diablos te vas?!",
+        "whole_translation": "Entonces, ¿por qué diablos te vas?"
+      },
+      "inference_id": "fixed_prior_sample:81",
+      "original_before_judgment": "acceptable",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera THEN WHY? como pregunta independiente; mantiene la pregunta siguiente.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 2,
+      "chapter": "absolute-regression-03",
+      "sampling": "2 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "1046a7701fc324db7f2aea7f3a115b19d48cbc80ffd695188f8b556ae6de33df",
+      "current_region": 79,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "f8e6de9f1053b60cbbbfc90758942788110d46f16fbaa465e67ca04a646cd256",
+      "source": "HY YOU? TU ONE AT FAULT IS THE ONE WHO POISONED MY MEAL.",
+      "translation": "¿Hy tú? Tu culpable es el que envenenó mi comida.",
+      "before_source": "HY yOU? TH ONE AT FAULT IS THE ouv WuO Polsouvv MY MEAL.",
+      "before_translation": "Tu culpable es el que envenenó mi comida.",
+      "bounds": [
+        159,
+        10418,
+        608,
+        10651
+      ],
+      "source_image": 5,
+      "reference_source": "¿POR QUÉ TE RESPONSABILIZAS DE ESTO?EL QUE TIENE LA CULPA ES EL QLE ENVENENÓ MI COMIDA.",
+      "reference_region": 106,
+      "reference_bounds": [
+        108,
+        3514,
+        544,
+        3595
+      ],
+      "reference_image": 10,
+      "source_page": {
+        "chapter": "absolute-regression-03-en",
+        "series": "absolute-regression",
+        "number": 3,
+        "language": "en",
+        "image": 5,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/3/006.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-03-en\\005.webp",
+        "width": 800,
+        "height": 12805,
+        "sha256": "85f85e407841bdd8481bfa74dffadf728aacd5c69e1a2d834f162637a7180f9d"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-03-es",
+        "series": "absolute-regression",
+        "number": 3,
+        "language": "es",
+        "image": 10,
+        "url": "https://media.imagesolymp.xyz/comics/1382/97696/2_05.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\bilingual-quality\\references\\absolute-regression-03-es\\010.webp",
+        "width": 720,
+        "height": 5595,
+        "sha256": "9306bce0706a9bc7324efc87261b1eaf408a09514d64f304061068492642eed4"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "full_engine_report": "translated-en8011-context",
+      "full_engine_report_sha256": "1046a7701fc324db7f2aea7f3a115b19d48cbc80ffd695188f8b556ae6de33df",
+      "refreshed_source": "HY YOU? TU ONE AT FAULT IS THE ONE WHO POISONED MY MEAL.",
+      "refreshed_translation": "Tu culpable es el que envenenó mi comida.",
+      "refreshed_regions": [
+        {
+          "chapter": "absolute-regression-03-en",
+          "image": 5,
+          "capture_edge_clearance": 449,
+          "source": "HY YOU? TU ONE AT FAULT IS THE ONE WHO POISONED MY MEAL.",
+          "cropTop": 9100,
+          "native_source": "Youg ouv FAULT TUV ouv WuO Polsouvv MY MEAL.",
+          "additional_detection": false,
+          "native_words": [
+            {
+              "text": "Youg",
+              "bounds": [
+                332,
+                10418,
+                435,
+                10463
+              ]
+            },
+            {
+              "text": "ouv",
+              "bounds": [
+                170,
+                10481,
+                252,
+                10527
+              ]
+            },
+            {
+              "text": "FAULT",
+              "bounds": [
+                337,
+                10481,
+                449,
+                10528
+              ]
+            },
+            {
+              "text": "TUV",
+              "bounds": [
+                531,
+                10481,
+                604,
+                10527
+              ]
+            },
+            {
+              "text": "ouv",
+              "bounds": [
+                165,
+                10543,
+                247,
+                10590
+              ]
+            },
+            {
+              "text": "WuO",
+              "bounds": [
+                268,
+                10543,
+                360,
+                10590
+              ]
+            },
+            {
+              "text": "Polsouvv",
+              "bounds": [
+                381,
+                10543,
+                587,
+                10590
+              ]
+            },
+            {
+              "text": "MY",
+              "bounds": [
+                280,
+                10606,
+                333,
+                10651
+              ]
+            },
+            {
+              "text": "MEAL.",
+              "bounds": [
+                355,
+                10606,
+                468,
+                10651
+              ]
+            }
+          ],
+          "bounds": [
+            159,
+            10418,
+            608,
+            10651
+          ],
+          "prepared": "Hy you? Tu one at fault is the one who poisoned my meal.",
+          "translation": "Tu culpable es el que envenenó mi comida.",
+          "raw_model": "Tu culpable es el que envenenó mi comida.",
+          "terminology": [],
+          "source_corrections": [],
+          "retained_original": false,
+          "reused_identical_source_inference": false,
+          "translation_signature": "901782abb0fac8dfd9912466c05f3d9835f6c5caa8096578390207d7a14d36d8"
+        }
+      ],
+      "refreshed_bounds": [
+        159,
+        10418,
+        608,
+        10651
+      ],
+      "full_engine_judgment": "incorrect",
+      "assessment_reused_for_identical_output_and_unambiguous_geometry": true,
+      "previous_frozen_judgment": "incorrect",
+      "needs_visual_review": false,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 1293,
+        "prepared": "Hy you? Tu one at fault is the one who poisoned my meal.",
+        "raw_model": "Tu culpable es el que envenenó mi comida.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Hy you?",
+          "Tu one at fault is the one who poisoned my meal."
+        ],
+        "sentence_translations": [
+          "¿Hy tú?",
+          "Tu culpable es el que envenenó mi comida."
+        ],
+        "source": "HY YOU? TU ONE AT FAULT IS THE ONE WHO POISONED MY MEAL.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "¿Hy tú? Tu culpable es el que envenenó mi comida.",
+        "whole_translation": "Tu culpable es el que envenenó mi comida."
+      },
+      "inference_id": "fixed_prior_sample:128",
+      "original_before_judgment": "incorrect",
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La pregunta se incorpora, pero HY sigue corrupto y TU se convierte en posesivo culpable.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 3,
+      "chapter": "absolute-regression-42",
+      "sampling": "2 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "f299a5db97e86e2cb5a1d826f7f75875c89e2e77ae2930cab59bb2c0a4704ac2",
+      "current_region": 46,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "8868abddc9c1e17761d89db2f2741da7aa46f2caf1186934e8b3e23fa1377e6b",
+      "source": "JUST GET SOME PROPER REST TODAY. YOU LOOK UNWELL.",
+      "translation": "Solo descansa un poco hoy. Te ves mal.",
+      "before_source": "JUST GET SOME PROPER REST TOPAY. YOU LOOK UNWELL.",
+      "before_translation": "Descansa bien hoy, te ves mal.",
+      "bounds": [
+        170,
+        12226,
+        649,
+        12360
+      ],
+      "source_image": 2,
+      "reference_source": "DESCANSE BIEN. SU ROSTRO LUCE AGOTADO.]",
+      "reference_region": 56,
+      "reference_bounds": [
+        181,
+        141,
+        711,
+        223
+      ],
+      "reference_image": 6,
+      "source_page": {
+        "chapter": "absolute-regression-42-en",
+        "series": "absolute-regression",
+        "number": 42,
+        "language": "en",
+        "image": 2,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/42/003.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-42-en\\002.webp",
+        "width": 800,
+        "height": 14353,
+        "sha256": "ce578430506c41fa04751c914487595525fb70ee0dbf263436489864e56342f8"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-42-es",
+        "series": "absolute-regression",
+        "number": 42,
+        "language": "es",
+        "image": 6,
+        "url": "https://media.imagesolymp.xyz/comics/1382/109840/2_01.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-42-es\\006.webp",
+        "width": 800,
+        "height": 5238,
+        "sha256": "b910e67da9a94853d4719a3dc2d47faafb6f637743c8533b322cc72c3dff2a74"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "full_engine_report": "translated-en8011-context",
+      "full_engine_report_sha256": "f299a5db97e86e2cb5a1d826f7f75875c89e2e77ae2930cab59bb2c0a4704ac2",
+      "refreshed_source": "JUST GET SOME PROPER REST TODAY. YOU LOOK UNWELL.",
+      "refreshed_translation": "Descansa bien hoy, te ves mal.",
+      "refreshed_regions": [
+        {
+          "chapter": "absolute-regression-42-en",
+          "image": 2,
+          "capture_edge_clearance": 526,
+          "source": "JUST GET SOME PROPER REST TODAY. YOU LOOK UNWELL.",
+          "cropTop": 11700,
+          "native_source": "JUST SOME PROPER REST TOPAY. YOU LOOK UNWELL.",
+          "additional_detection": false,
+          "native_words": [
+            {
+              "text": "JUST",
+              "bounds": [
+                229,
+                12226,
+                339,
+                12263
+              ]
+            },
+            {
+              "text": "SOME",
+              "bounds": [
+                459,
+                12227,
+                583,
+                12262
+              ]
+            },
+            {
+              "text": "PROPER",
+              "bounds": [
+                173,
+                12276,
+                350,
+                12312
+              ]
+            },
+            {
+              "text": "REST",
+              "bounds": [
+                368,
+                12276,
+                481,
+                12311
+              ]
+            },
+            {
+              "text": "TOPAY.",
+              "bounds": [
+                497,
+                12276,
+                640,
+                12312
+              ]
+            },
+            {
+              "text": "YOU",
+              "bounds": [
+                198,
+                12324,
+                282,
+                12360
+              ]
+            },
+            {
+              "text": "LOOK",
+              "bounds": [
+                302,
+                12323,
+                425,
+                12359
+              ]
+            },
+            {
+              "text": "UNWELL.",
+              "bounds": [
+                442,
+                12323,
+                615,
+                12360
+              ]
+            }
+          ],
+          "bounds": [
+            170,
+            12226,
+            649,
+            12360
+          ],
+          "prepared": "Just get some proper rest today. You look unwell.",
+          "translation": "Descansa bien hoy, te ves mal.",
+          "raw_model": "Descansa bien hoy, te ves mal.",
+          "terminology": [],
+          "source_corrections": [],
+          "retained_original": false,
+          "reused_identical_source_inference": false,
+          "translation_signature": "901782abb0fac8dfd9912466c05f3d9835f6c5caa8096578390207d7a14d36d8"
+        }
+      ],
+      "refreshed_bounds": [
+        170,
+        12226,
+        649,
+        12360
+      ],
+      "full_engine_judgment": "acceptable",
+      "assessment_reused_for_identical_output_and_unambiguous_geometry": true,
+      "previous_frozen_judgment": "acceptable",
+      "needs_visual_review": false,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 982,
+        "prepared": "Just get some proper rest today. You look unwell.",
+        "raw_model": "Descansa bien hoy, te ves mal.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Just get some proper rest today.",
+          "You look unwell."
+        ],
+        "sentence_translations": [
+          "Solo descansa un poco hoy.",
+          "Te ves mal."
+        ],
+        "source": "JUST GET SOME PROPER REST TODAY. YOU LOOK UNWELL.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Solo descansa un poco hoy. Te ves mal.",
+        "whole_translation": "Descansa bien hoy, te ves mal."
+      },
+      "inference_id": "fixed_prior_sample:207",
+      "original_before_judgment": "acceptable",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Ambas versiones conservan descanso y aspecto enfermo; cambia la formulación.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 4,
+      "chapter": "absolute-regression-48",
+      "sampling": "2 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "0606da3f88964e690ee57b2a386a0d852d19af4e08b952d02c3e14b2bfee1706",
+      "current_region": 62,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "c90d4b9d73f63899e05d1de8ea5498819ad89af456557779185b61c5b003375c",
+      "source": "IF YOU STILL DON'T LIKE HIM, THEN WE CAN CALL IT OFF AFTER THE FIRST DAY. JUST GIVE HIM A CHANCE.",
+      "translation": "Si todavía no te gusta, entonces podemos cancelarlo después del primer día. Solo dale una oportunidad.",
+      "before_source": "IF YOU STILL PON'T LIKE HIM, THEN WE CAN CALL IT OFF AFTER THE FIRST PAY. JUST CIVE HIM A CHANCE.",
+      "before_translation": "Si todavía no te gusta, podemos cancelarlo después del primer día.",
+      "bounds": [
+        110,
+        10998,
+        720,
+        11231
+      ],
+      "source_image": 4,
+      "reference_source": "SI ESTE CHICO NO LE AGRADA, PUEDE ENSEÑARLE SOLO UN DÍA. SOLO LE PIDO QUE LE DÉ UNA OPORTUNIDAD.",
+      "reference_region": 83,
+      "reference_bounds": [
+        102,
+        2768,
+        727,
+        2942
+      ],
+      "reference_image": 11,
+      "source_page": {
+        "chapter": "absolute-regression-48-en",
+        "series": "absolute-regression",
+        "number": 48,
+        "language": "en",
+        "image": 4,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/48/005.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-48-en\\004.webp",
+        "width": 800,
+        "height": 13735,
+        "sha256": "9245910afad742c62a81e47a2beb89d385fe96d878154c2c5bff830f69cd56b5"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-48-es",
+        "series": "absolute-regression",
+        "number": 48,
+        "language": "es",
+        "image": 11,
+        "url": "https://media.imagesolymp.xyz/comics/1382/112184/2_05.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-48-es\\011.webp",
+        "width": 800,
+        "height": 5455,
+        "sha256": "89fdccc4b4c42b9cc7f58d795dfbd0175aaecf221c8669235bfa52dcfa305cdb"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "full_engine_report": "translated-en8011-context",
+      "full_engine_report_sha256": "0606da3f88964e690ee57b2a386a0d852d19af4e08b952d02c3e14b2bfee1706",
+      "refreshed_source": "IF YOU STILL DON'T LIKE HIM, THEN WE CAN CALL IT OFF AFTER THE FIRST DAY. JUST GIVE HIM A CHANCE.",
+      "refreshed_translation": "Si todavía no te gusta, podemos cancelarlo después del primer día.",
+      "refreshed_regions": [
+        {
+          "chapter": "absolute-regression-48-en",
+          "image": 4,
+          "capture_edge_clearance": 598,
+          "source": "IF YOU STILL DON'T LIKE HIM, THEN WE CAN CALL IT OFF AFTER THE FIRST DAY. JUST GIVE HIM A CHANCE.",
+          "cropTop": 10400,
+          "native_source": "IF YOU STILL PON'T LIKE HIM, THEN WE CAN CALL IT OFF AFTER THE FIRST PAY. JUST CIVE HIM A CHANCE.",
+          "additional_detection": false,
+          "native_words": [
+            {
+              "text": "IF",
+              "bounds": [
+                281,
+                10999,
+                314,
+                11034
+              ]
+            },
+            {
+              "text": "YOU",
+              "bounds": [
+                333,
+                10998,
+                422,
+                11035
+              ]
+            },
+            {
+              "text": "STILL",
+              "bounds": [
+                441,
+                10999,
+                554,
+                11035
+              ]
+            },
+            {
+              "text": "PON'T",
+              "bounds": [
+                150,
+                11045,
+                281,
+                11083
+              ]
+            },
+            {
+              "text": "LIKE",
+              "bounds": [
+                299,
+                11047,
+                382,
+                11083
+              ]
+            },
+            {
+              "text": "HIM,",
+              "bounds": [
+                402,
+                11047,
+                483,
+                11088
+              ]
+            },
+            {
+              "text": "THEN",
+              "bounds": [
+                501,
+                11046,
+                606,
+                11084
+              ]
+            },
+            {
+              "text": "WE",
+              "bounds": [
+                624,
+                11046,
+                682,
+                11083
+              ]
+            },
+            {
+              "text": "CAN",
+              "bounds": [
+                112,
+                11096,
+                193,
+                11132
+              ]
+            },
+            {
+              "text": "CALL",
+              "bounds": [
+                210,
+                11097,
+                311,
+                11132
+              ]
+            },
+            {
+              "text": "IT",
+              "bounds": [
+                331,
+                11097,
+                365,
+                11132
+              ]
+            },
+            {
+              "text": "OFF",
+              "bounds": [
+                382,
+                11097,
+                469,
+                11132
+              ]
+            },
+            {
+              "text": "AFTER",
+              "bounds": [
+                485,
+                11096,
+                625,
+                11133
+              ]
+            },
+            {
+              "text": "THE",
+              "bounds": [
+                641,
+                11096,
+                719,
+                11133
+              ]
+            },
+            {
+              "text": "FIRST",
+              "bounds": [
+                184,
+                11146,
+                306,
+                11181
+              ]
+            },
+            {
+              "text": "PAY.",
+              "bounds": [
+                324,
+                11146,
+                408,
+                11182
+              ]
+            },
+            {
+              "text": "JUST",
+              "bounds": [
+                425,
+                11145,
+                536,
+                11182
+              ]
+            },
+            {
+              "text": "CIVE",
+              "bounds": [
+                553,
+                11145,
+                648,
+                11182
+              ]
+            },
+            {
+              "text": "HIM",
+              "bounds": [
+                263,
+                11194,
+                332,
+                11231
+              ]
+            },
+            {
+              "text": "A",
+              "bounds": [
+                349,
+                11195,
+                375,
+                11230
+              ]
+            },
+            {
+              "text": "CHANCE.",
+              "bounds": [
+                392,
+                11194,
+                570,
+                11231
+              ]
+            }
+          ],
+          "bounds": [
+            110,
+            10998,
+            720,
+            11231
+          ],
+          "prepared": "If you still don't like him, then we can call it off after the first day. Just give him a chance.",
+          "translation": "Si todavía no te gusta, podemos cancelarlo después del primer día.",
+          "raw_model": "Si todavía no te gusta, podemos cancelarlo después del primer día.",
+          "terminology": [],
+          "source_corrections": [],
+          "retained_original": false,
+          "reused_identical_source_inference": false,
+          "translation_signature": "901782abb0fac8dfd9912466c05f3d9835f6c5caa8096578390207d7a14d36d8"
+        }
+      ],
+      "refreshed_bounds": [
+        110,
+        10998,
+        720,
+        11231
+      ],
+      "full_engine_judgment": "incomplete",
+      "assessment_reused_for_identical_output_and_unambiguous_geometry": true,
+      "previous_frozen_judgment": "incomplete",
+      "needs_visual_review": false,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 1834,
+        "prepared": "If you still don't like him, then we can call it off after the first day. Just give him a chance.",
+        "raw_model": "Si todavía no te gusta, podemos cancelarlo después del primer día.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "If you still don't like him, then we can call it off after the first day.",
+          "Just give him a chance."
+        ],
+        "sentence_translations": [
+          "Si todavía no te gusta, entonces podemos cancelarlo después del primer día.",
+          "Solo dale una oportunidad."
+        ],
+        "source": "IF YOU STILL DON'T LIKE HIM, THEN WE CAN CALL IT OFF AFTER THE FIRST DAY. JUST GIVE HIM A CHANCE.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Si todavía no te gusta, entonces podemos cancelarlo después del primer día. Solo dale una oportunidad.",
+        "whole_translation": "Si todavía no te gusta, podemos cancelarlo después del primer día."
+      },
+      "inference_id": "fixed_prior_sample:218",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera la petición completa de darle una oportunidad.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 5,
+      "chapter": "absolute-regression-62",
+      "sampling": "2 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "f9bfc71b289b8c4840ffd93542bf7ae66e263b14d3dcf0a0d982b6c578c43ebd",
+      "current_region": 141,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "4805ae9662c9710438de2b54473b25abbd75b17c3daae3023428906c07ba37a6",
+      "source": "IT'S RATHER DESOLATE HERE, ISN'T IT? THIS IS MY HOMETOWN.",
+      "translation": "Está bastante desolado aquí, ¿no? Esta es mi ciudad natal.",
+      "before_source": "IT'S RATHER DESOLATE HERE, ISN'T IT? THIS IS MY HOMETOWN.",
+      "before_translation": "Está bastante desolado aquí, ¿no?",
+      "bounds": [
+        269,
+        7997,
+        691,
+        8174
+      ],
+      "source_image": 10,
+      "reference_source": "ES DESOLADO, ¿VERDAD? ESTE ES MI LUIGAR NATAL.",
+      "reference_region": 193,
+      "reference_bounds": [
+        273,
+        1199,
+        713,
+        1270
+      ],
+      "reference_image": 25,
+      "source_page": {
+        "chapter": "absolute-regression-62-en",
+        "series": "absolute-regression",
+        "number": 62,
+        "language": "en",
+        "image": 10,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/62/011.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-62-en\\010.webp",
+        "width": 800,
+        "height": 13310,
+        "sha256": "9917930e83d9e9603a8f4a854e7379b6a2de8c797ba7540e8b90769abf724d02"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-62-es",
+        "series": "absolute-regression",
+        "number": 62,
+        "language": "es",
+        "image": 25,
+        "url": "https://media.imagesolymp.xyz/comics/1382/116825/5_05.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-62-es\\025.webp",
+        "width": 800,
+        "height": 5585,
+        "sha256": "01732f5cb658ebd5309c60f5fab7fb2a95bdddd100f67f31b7cd67db79d5ac98"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "full_engine_report": "translated-en8011-context",
+      "full_engine_report_sha256": "f9bfc71b289b8c4840ffd93542bf7ae66e263b14d3dcf0a0d982b6c578c43ebd",
+      "refreshed_source": "IT'S RATHER DESOLATE HERE, ISN'T IT? THIS IS MY HOMETOWN.",
+      "refreshed_translation": "Está bastante desolado aquí, ¿no?",
+      "refreshed_regions": [
+        {
+          "chapter": "absolute-regression-62-en",
+          "image": 10,
+          "capture_edge_clearance": 326,
+          "source": "IT'S RATHER DESOLATE HERE, ISN'T IT? THIS IS MY HOMETOWN.",
+          "cropTop": 6500,
+          "native_source": "IT'S RATHER PESOLATE HERE, ISN'T IT? THIS IS MY HOMETOWN.",
+          "additional_detection": false,
+          "native_words": [
+            {
+              "text": "IT'S",
+              "bounds": [
+                364,
+                7997,
+                435,
+                8033
+              ]
+            },
+            {
+              "text": "RATHER",
+              "bounds": [
+                453,
+                7999,
+                605,
+                8034
+              ]
+            },
+            {
+              "text": "PESOLATE",
+              "bounds": [
+                312,
+                8045,
+                521,
+                8079
+              ]
+            },
+            {
+              "text": "HERE,",
+              "bounds": [
+                540,
+                8045,
+                654,
+                8084
+              ]
+            },
+            {
+              "text": "ISN'T",
+              "bounds": [
+                279,
+                8090,
+                380,
+                8126
+              ]
+            },
+            {
+              "text": "IT?",
+              "bounds": [
+                398,
+                8091,
+                455,
+                8126
+              ]
+            },
+            {
+              "text": "THIS",
+              "bounds": [
+                470,
+                8092,
+                563,
+                8127
+              ]
+            },
+            {
+              "text": "IS",
+              "bounds": [
+                582,
+                8093,
+                618,
+                8126
+              ]
+            },
+            {
+              "text": "MY",
+              "bounds": [
+                634,
+                8091,
+                689,
+                8126
+              ]
+            },
+            {
+              "text": "HOMETOWN.",
+              "bounds": [
+                364,
+                8138,
+                604,
+                8174
+              ]
+            }
+          ],
+          "bounds": [
+            269,
+            7997,
+            691,
+            8174
+          ],
+          "prepared": "It's rather desolate here, isn't it? This is my hometown.",
+          "translation": "Está bastante desolado aquí, ¿no?",
+          "source_corrections": [],
+          "retained_original": false,
+          "reused_identical_source_inference": true,
+          "translation_signature": "901782abb0fac8dfd9912466c05f3d9835f6c5caa8096578390207d7a14d36d8"
+        }
+      ],
+      "refreshed_bounds": [
+        269,
+        7997,
+        691,
+        8174
+      ],
+      "full_engine_judgment": "incomplete",
+      "assessment_reused_for_identical_output_and_unambiguous_geometry": true,
+      "previous_frozen_judgment": "incomplete",
+      "needs_visual_review": false,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 1278,
+        "prepared": "It's rather desolate here, isn't it? This is my hometown.",
+        "raw_model": "Está bastante desolado aquí, ¿no?",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "It's rather desolate here, isn't it?",
+          "This is my hometown."
+        ],
+        "sentence_translations": [
+          "Está bastante desolado aquí, ¿no?",
+          "Esta es mi ciudad natal."
+        ],
+        "source": "IT'S RATHER DESOLATE HERE, ISN'T IT? THIS IS MY HOMETOWN.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Está bastante desolado aquí, ¿no? Esta es mi ciudad natal.",
+        "whole_translation": "Está bastante desolado aquí, ¿no?"
+      },
+      "inference_id": "fixed_prior_sample:247",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera THIS IS MY HOMETOWN.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 6,
+      "chapter": "absolute-regression-64",
+      "sampling": "2 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "256078c5ff5beda5adeec3c60a061322840f130c96b1aee4b6fb0f30a1745598",
+      "current_region": 102,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "9ea2827dd1ec329144801372b845352215bb83283e8b16fdacc7d4d4f2f89cdb",
+      "source": "THINKFOR YOURSELF. STOP MAKING A HABIT OF ASKING ME.",
+      "translation": "Piensa por ti mismo. Deja de tener el hábito de preguntarme.",
+      "before_source": "THINK FOR YOURSELF. STOP MAKING A HABIT OF ASKING ME.",
+      "before_translation": "No te acostumbres a preguntarme.",
+      "bounds": [
+        196,
+        5923,
+        674,
+        6142
+      ],
+      "source_image": 8,
+      "reference_source": "PIENSA POR TI MISMO. NO T ACOSTUMBRES A HACER PREGUNTAS.",
+      "reference_region": 157,
+      "reference_bounds": [
+        196,
+        620,
+        648,
+        783
+      ],
+      "reference_image": 20,
+      "source_page": {
+        "chapter": "absolute-regression-64-en",
+        "series": "absolute-regression",
+        "number": 64,
+        "language": "en",
+        "image": 8,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/64/009.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-64-en\\008.webp",
+        "width": 800,
+        "height": 13200,
+        "sha256": "60478f1e2b6ffe8d8358772a3ce9d789c5e2fd8f66388b6e9444f52c8c8768af"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-64-es",
+        "series": "absolute-regression",
+        "number": 64,
+        "language": "es",
+        "image": 20,
+        "url": "https://media.imagesolymp.xyz/comics/1382/117490/4_05.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-64-es\\020.webp",
+        "width": 800,
+        "height": 5373,
+        "sha256": "1600c8f5b394433cff662dfef27c123fddb82639a7969ee4d8350a836c7c6db1"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "full_engine_report": "translated-en8011-context",
+      "full_engine_report_sha256": "256078c5ff5beda5adeec3c60a061322840f130c96b1aee4b6fb0f30a1745598",
+      "refreshed_source": "THINKFOR YOURSELF. STOP MAKING A HABIT OF ASKING ME.",
+      "refreshed_translation": "No te acostumbres a preguntarme.",
+      "refreshed_regions": [
+        {
+          "chapter": "absolute-regression-64-en",
+          "image": 8,
+          "capture_edge_clearance": 723,
+          "source": "THINKFOR YOURSELF. STOP MAKING A HABIT OF ASKING ME.",
+          "cropTop": 5200,
+          "native_source": "THINK FOR YOURSELF. STOP MAKIN& A HABIT OF ASKIN& ME.",
+          "additional_detection": false,
+          "native_words": [
+            {
+              "text": "THINK",
+              "bounds": [
+                306,
+                5923,
+                445,
+                5967
+              ]
+            },
+            {
+              "text": "FOR",
+              "bounds": [
+                466,
+                5924,
+                566,
+                5966
+              ]
+            },
+            {
+              "text": "YOURSELF.",
+              "bounds": [
+                221,
+                5981,
+                494,
+                6025
+              ]
+            },
+            {
+              "text": "STOP",
+              "bounds": [
+                515,
+                5982,
+                652,
+                6024
+              ]
+            },
+            {
+              "text": "MAKIN&",
+              "bounds": [
+                201,
+                6039,
+                383,
+                6082
+              ]
+            },
+            {
+              "text": "A",
+              "bounds": [
+                402,
+                6041,
+                431,
+                6082
+              ]
+            },
+            {
+              "text": "HABIT",
+              "bounds": [
+                452,
+                6040,
+                583,
+                6083
+              ]
+            },
+            {
+              "text": "OF",
+              "bounds": [
+                602,
+                6040,
+                670,
+                6082
+              ]
+            },
+            {
+              "text": "ASKIN&",
+              "bounds": [
+                295,
+                6098,
+                477,
+                6142
+              ]
+            },
+            {
+              "text": "ME.",
+              "bounds": [
+                496,
+                6099,
+                576,
+                6142
+              ]
+            }
+          ],
+          "bounds": [
+            196,
+            5923,
+            674,
+            6142
+          ],
+          "prepared": "Thinkfor yourself. Stop making a habit of asking me.",
+          "translation": "No te acostumbres a preguntarme.",
+          "raw_model": "No te acostumbres a preguntarme.",
+          "terminology": [],
+          "source_corrections": [],
+          "retained_original": false,
+          "reused_identical_source_inference": false,
+          "translation_signature": "901782abb0fac8dfd9912466c05f3d9835f6c5caa8096578390207d7a14d36d8"
+        }
+      ],
+      "refreshed_bounds": [
+        196,
+        5923,
+        674,
+        6142
+      ],
+      "full_engine_judgment": "incomplete",
+      "assessment_reused_for_identical_output_and_unambiguous_geometry": true,
+      "previous_frozen_judgment": "incomplete",
+      "needs_visual_review": false,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 1300,
+        "prepared": "Thinkfor yourself. Stop making a habit of asking me.",
+        "raw_model": "No te acostumbres a preguntarme.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Thinkfor yourself.",
+          "Stop making a habit of asking me."
+        ],
+        "sentence_translations": [
+          "Piensa por ti mismo.",
+          "Deja de tener el hábito de preguntarme."
+        ],
+        "source": "THINKFOR YOURSELF. STOP MAKING A HABIT OF ASKING ME.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Piensa por ti mismo. Deja de tener el hábito de preguntarme.",
+        "whole_translation": "No te acostumbres a preguntarme."
+      },
+      "inference_id": "fixed_prior_sample:251",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera THINK FOR YOURSELF y mantiene la petición siguiente.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 7,
+      "chapter": "absolute-regression-82",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "2f7b0e779b972fb34546b19503db065a2a0b3898e89d46c2706f279f787bc858",
+      "current_region": 90,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "78c6337fe413e6b4c4f8a01a45945abef266085d28c9edef13c2bc5c9c7f341d",
+      "source": "IT'S FINE. EVERYONE LIVES LIKE THIS.",
+      "translation": "Está bien. Todo el mundo vive así.",
+      "before_source": "IT'S FINE. EVERYONE LIVES LIKE THIS.",
+      "before_translation": "Todo el mundo vive así.",
+      "bounds": [
+        142,
+        4446,
+        501,
+        4581
+      ],
+      "source_image": 9,
+      "reference_source": "ESTÁ BIEN. TODOS VIVIMOS CON COSAS ASÍ.",
+      "reference_region": 141,
+      "reference_bounds": [
+        151,
+        2244,
+        486,
+        2296
+      ],
+      "reference_image": 22,
+      "source_page": {
+        "chapter": "absolute-regression-82-en",
+        "series": "absolute-regression",
+        "number": 82,
+        "language": "en",
+        "image": 9,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/82/010.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-82-en\\009.webp",
+        "width": 800,
+        "height": 15000,
+        "sha256": "6a4953df2fce6f47d2d39e98c2e029a989d6ed3221e2f04e44e79ad50e7dd578"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-82-es",
+        "series": "absolute-regression",
+        "number": 82,
+        "language": "es",
+        "image": 22,
+        "url": "https://media.imagesolymp.xyz/comics/1382/123199/5_02.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-82-es\\022.webp",
+        "width": 800,
+        "height": 5528,
+        "sha256": "a9b5bea0ab559ef5aa37e9fccefe2d3916447b8e245f36245a92fc2e07802a94"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 979,
+        "prepared": "It's fine. Everyone lives like this.",
+        "raw_model": "Todo el mundo vive así.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "It's fine.",
+          "Everyone lives like this."
+        ],
+        "sentence_translations": [
+          "Está bien.",
+          "Todo el mundo vive así."
+        ],
+        "source": "IT'S FINE. EVERYONE LIVES LIKE THIS.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Está bien. Todo el mundo vive así.",
+        "whole_translation": "Todo el mundo vive así."
+      },
+      "inference_id": "fixed_prior_sample:453",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera IT'S FINE.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 8,
+      "chapter": "absolute-regression-50",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "8ad6dfea8b329cf4585e95d1aa6fe8cbbbecb0c700b40ef42ecc54abc31a7839",
+      "current_region": 17,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "4cd4b9e5edbb96be11fe50fc0466bf0615d82d15776405179bb3d97dc404bfb1",
+      "source": "THERE YOU GO. THAT'S HOW YOU GRIP THE SWORD AND SWING IT.",
+      "translation": "Ahí tienes. Así es como agarras la espada y la balanceas.",
+      "before_source": "THERE you co. THAT'S HOW YOU GRIP THE SWORD AND SWING IT.",
+      "before_translation": "Así es como agarras la espada y la balanceas.",
+      "bounds": [
+        203,
+        7964,
+        592,
+        8182
+      ],
+      "source_image": 1,
+      "reference_source": "BIEN. ASÍ ES COMO SE AGARRA LUNA ESPADA.",
+      "reference_region": 17,
+      "reference_bounds": [
+        156,
+        2528,
+        571,
+        2612
+      ],
+      "reference_image": 2,
+      "source_page": {
+        "chapter": "absolute-regression-50-en",
+        "series": "absolute-regression",
+        "number": 50,
+        "language": "en",
+        "image": 1,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/50/002.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-50-en\\001.webp",
+        "width": 800,
+        "height": 13652,
+        "sha256": "c05b722bd119ceaac7cf9b5adc8a8e2e8a4e42155e735ceb3e609a03843dbc3e"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-50-es",
+        "series": "absolute-regression",
+        "number": 50,
+        "language": "es",
+        "image": 2,
+        "url": "https://media.imagesolymp.xyz/comics/1382/112961/1_02.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-50-es\\002.webp",
+        "width": 720,
+        "height": 5139,
+        "sha256": "defd6f4784a022c0efe7f441983f94361236a07297ba7a80b1b4210c5c4dc08d"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 1402,
+        "prepared": "There you go. That's how you grip the sword and swing it.",
+        "raw_model": "Así es como agarras la espada y la balanceas.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "There you go.",
+          "That's how you grip the sword and swing it."
+        ],
+        "sentence_translations": [
+          "Ahí tienes.",
+          "Así es como agarras la espada y la balanceas."
+        ],
+        "source": "THERE YOU GO. THAT'S HOW YOU GRIP THE SWORD AND SWING IT.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Ahí tienes. Así es como agarras la espada y la balanceas.",
+        "whole_translation": "Así es como agarras la espada y la balanceas."
+      },
+      "inference_id": "fixed_prior_sample:545",
+      "original_before_judgment": "acceptable",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera THERE YOU GO; conserva agarrar y blandir la espada.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 9,
+      "chapter": "absolute-regression-76",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "c8942d704ba5d02fd5d26250c2d8bcae7639d22634209c5b0bb50e87c27d3032",
+      "current_region": 59,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "8e05497183d1d94a5b025ed4a0939643e031b05e0e4bbf83ef27209fde659d06",
+      "source": "THANK YOU. IT'S ONLY BECAUSE YOL HAD TAUGHT HER WELL.",
+      "translation": "Muchas gracias. Es sólo porque Yol le había enseñado bien.",
+      "before_source": "THANK YOU. IT'S ONLY BECAUSE YOU HAP TAUGHT HER WELL.",
+      "before_translation": "Es sólo porque Yol le había enseñado bien.",
+      "bounds": [
+        221,
+        2062,
+        720,
+        2193
+      ],
+      "source_image": 8,
+      "reference_source": "TODO ES GRACIAS AL LÍDER DEL CULTO QUE ENSEÑÓ TAN BIEN A SU DISCÍPULA.",
+      "reference_region": 61,
+      "reference_bounds": [
+        287,
+        2641,
+        656,
+        2783
+      ],
+      "reference_image": 18,
+      "source_page": {
+        "chapter": "absolute-regression-76-en",
+        "series": "absolute-regression",
+        "number": 76,
+        "language": "en",
+        "image": 8,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/76/009.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-76-en\\008.webp",
+        "width": 800,
+        "height": 13582,
+        "sha256": "aea9c9f558aa15850356a3d674e5f538b7472e2621f5042e7b1818b9e9b5801b"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-76-es",
+        "series": "absolute-regression",
+        "number": 76,
+        "language": "es",
+        "image": 18,
+        "url": "https://media.imagesolymp.xyz/comics/1382/121193/4_03.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-76-es\\018.webp",
+        "width": 800,
+        "height": 5579,
+        "sha256": "0cc455e3d968f29137a409c36ee1482de9ed9ca0faaaf876b78d4deb68fc0067"
+      },
+      "signals": [
+        "unresolved_copied_token"
+      ],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 1266,
+        "prepared": "Thank you. It's only because yol had taught her well.",
+        "raw_model": "Es sólo porque Yol le había enseñado bien.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Thank you.",
+          "It's only because yol had taught her well."
+        ],
+        "sentence_translations": [
+          "Muchas gracias.",
+          "Es sólo porque Yol le había enseñado bien."
+        ],
+        "source": "THANK YOU. IT'S ONLY BECAUSE YOL HAD TAUGHT HER WELL.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Muchas gracias. Es sólo porque Yol le había enseñado bien.",
+        "whole_translation": "Es sólo porque Yol le había enseñado bien."
+      },
+      "inference_id": "fixed_prior_sample:695",
+      "original_before_judgment": "incorrect",
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se recupera el agradecimiento, pero YOL continúa como el nombre Yol en lugar de YOU.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 10,
+      "chapter": "absolute-regression-117",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "a8a1ee006783b75f67c45eaa12234a6e7f0d1f614e990b70169a3e7bde6f0e70",
+      "current_region": 21,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "75e46fc594bfdeb5b8eec44fe57d33f0d15c6f88684b945a4e1d3dfcfac63acc",
+      "source": "CLT HIM DOWN, LEE AHN! THAT PERSON ONLY LOOKS LIKE A CHILD, BUT HE IS ACTUALLY A GROWN ADULT!",
+      "translation": "¡Llévalo abajo, Lee Ahn! Esa persona solo se ve como un niño, ¡pero en realidad es un adulto!",
+      "before_source": "CUT H/\" POWN, LEE AHN! THAT PERSON ONLY LOOKS L/C A CH/LP, BUT HE IS ACTUALLY A GROWN ADULT!",
+      "before_translation": "¡Ese hombre solo parece un niño, pero en realidad es un adulto!",
+      "bounds": [
+        112,
+        890,
+        857,
+        1184
+      ],
+      "source_image": 6,
+      "reference_source": "¡ACABA CON ÉL, LE AHN! ¡SOLO PARECE LIN",
+      "reference_region": 35,
+      "reference_bounds": [
+        127,
+        4964,
+        639,
+        5071
+      ],
+      "reference_image": 9,
+      "source_page": {
+        "chapter": "absolute-regression-117-en",
+        "series": "absolute-regression",
+        "number": 117,
+        "language": "en",
+        "image": 6,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/117/e00b9b.webp?v=1788227826",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-117-en\\006.webp",
+        "width": 900,
+        "height": 1626,
+        "sha256": "52c7f7e30d40007b347e54f8b2c88bfa1cad84ea524889a251ee8ed1b076e4b4"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-117-es",
+        "series": "absolute-regression",
+        "number": 117,
+        "language": "es",
+        "image": 9,
+        "url": "https://media.imagesolymp.xyz/comics/1382/132624/2_05.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-117-es\\009.webp",
+        "width": 720,
+        "height": 5563,
+        "sha256": "f91a507f8e94b12064e8fce0d5d75d6efd460c8223cc9e8f6ad0c2089fe8e68a"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "cohort": "fixed_prior_sample",
+      "image": null,
+      "native_candidate": {
+        "milliseconds": 2086,
+        "prepared": "Clt him down, lee ahn! That person only looks like a child, but he is actually a grown adult!",
+        "raw_model": "¡Ese hombre solo parece un niño, pero en realidad es un adulto!",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Clt him down, lee ahn!",
+          "That person only looks like a child, but he is actually a grown adult!"
+        ],
+        "sentence_translations": [
+          "¡Llévalo abajo, Lee Ahn!",
+          "Esa persona solo se ve como un niño, ¡pero en realidad es un adulto!"
+        ],
+        "source": "CLT HIM DOWN, LEE AHN! THAT PERSON ONLY LOOKS LIKE A CHILD, BUT HE IS ACTUALLY A GROWN ADULT!",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "¡Llévalo abajo, Lee Ahn! Esa persona solo se ve como un niño, ¡pero en realidad es un adulto!",
+        "whole_translation": "¡Ese hombre solo parece un niño, pero en realidad es un adulto!"
+      },
+      "inference_id": "fixed_prior_sample:736",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "Se recupera una primera frase, pero CUT HIM DOWN se traduce como llévalo abajo y no acabar con él.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 11,
+      "chapter": "absolute-regression-48",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "0606da3f88964e690ee57b2a386a0d852d19af4e08b952d02c3e14b2bfee1706",
+      "current_region": 55,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "c90d4b9d73f63899e05d1de8ea5498819ad89af456557779185b61c5b003375c",
+      "source": "WHY ELSE? SO YOU CAN LEARN MARTIAL ARTS, OF COURSE.",
+      "translation": "¿Por qué más? Así que puedes aprender artes marciales, por supuesto.",
+      "before_source": "WHY ELSE? SO YOU CAN LEARN MARTIAL ARTS, OF COURSE.",
+      "before_translation": "Para que puedas aprender artes marciales, por supuesto.",
+      "bounds": [
+        175,
+        2762,
+        686,
+        2986
+      ],
+      "source_image": 4,
+      "reference_source": "ÉY POR QUÉ CREES QUE",
+      "reference_region": 70,
+      "reference_bounds": [
+        166,
+        5420,
+        699,
+        5452
+      ],
+      "reference_image": 9,
+      "source_page": {
+        "chapter": "absolute-regression-48-en",
+        "series": "absolute-regression",
+        "number": 48,
+        "language": "en",
+        "image": 4,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/48/005.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-48-en\\004.webp",
+        "width": 800,
+        "height": 13735,
+        "sha256": "9245910afad742c62a81e47a2beb89d385fe96d878154c2c5bff830f69cd56b5"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-48-es",
+        "series": "absolute-regression",
+        "number": 48,
+        "language": "es",
+        "image": 9,
+        "url": "https://media.imagesolymp.xyz/comics/1382/112184/2_03.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-48-es\\009.webp",
+        "width": 800,
+        "height": 5455,
+        "sha256": "4ab46023bf430a965b37a146d4374ec37c11bd5b3cec7f9ae13d1f3a9bd11865"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "actual_windows": {
+        "id": 48,
+        "expected_visible_english": "WHY ELSE? SO YOU CAN LEARN MARTIAL ARTS, OF COURSE.",
+        "source": "WHY ELSE? SO YOU CAN LEARN MARTIAL ARTS, OF COURSE.",
+        "source_quality": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "exact_word_sequence": true,
+          "edit_categories": {},
+          "edits": []
+        },
+        "regions": 1,
+        "retained_original_regions": 0,
+        "translations": [
+          "Para que puedas aprender artes marciales, por supuesto."
+        ],
+        "meaning_reviewed": false
+      },
+      "reference_alignment_visually_verified": false,
+      "cohort": "actual_windows_heldout",
+      "image": 48,
+      "native_candidate": {
+        "milliseconds": 1451,
+        "prepared": "Why else? So you can learn martial arts, of course.",
+        "raw_model": "Para que puedas aprender artes marciales, por supuesto.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Why else?",
+          "So you can learn martial arts, of course."
+        ],
+        "sentence_translations": [
+          "¿Por qué más?",
+          "Así que puedes aprender artes marciales, por supuesto."
+        ],
+        "source": "WHY ELSE? SO YOU CAN LEARN MARTIAL ARTS, OF COURSE.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "¿Por qué más? Así que puedes aprender artes marciales, por supuesto.",
+        "whole_translation": "Para que puedas aprender artes marciales, por supuesto."
+      },
+      "inference_id": "actual_windows_heldout:60",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "needs_improvement",
+      "note_es": "Se recupera WHY ELSE?, pero SO YOU CAN queda como consecuencia en lugar de propósito.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 12,
+      "chapter": "absolute-regression-76",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "c8942d704ba5d02fd5d26250c2d8bcae7639d22634209c5b0bb50e87c27d3032",
+      "current_region": 72,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "8e05497183d1d94a5b025ed4a0939643e031b05e0e4bbf83ef27209fde659d06",
+      "source": "NO PARTICULAR REASON. I'VE SEEN HIM SEVERAL TIMES WHENEVER I HAVE COME TO GREET YOU.",
+      "translation": "Ninguna razón en particular. Lo he visto varias veces cada vez que he venido a saludarte.",
+      "before_source": "NO PARTICULAR REASON. I'VE SEEN HIM SEVERAL TIMES WHENEVER I HAVE COME TO GREET YOU.",
+      "before_translation": "Lo he visto varias veces cada vez que he venido a saludarte.",
+      "bounds": [
+        127,
+        9043,
+        641,
+        9262
+      ],
+      "source_image": 9,
+      "reference_source": "NO TENGO NINGÚN MOTIVO ESPECIAL. LO HE VISTO MUCHAS VECES CUANDO HE VISITADO AL LÍDER DEL CULTO,",
+      "reference_region": 75,
+      "reference_bounds": [
+        120,
+        862,
+        610,
+        1047
+      ],
+      "reference_image": 22,
+      "source_page": {
+        "chapter": "absolute-regression-76-en",
+        "series": "absolute-regression",
+        "number": 76,
+        "language": "en",
+        "image": 9,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/76/010.webp?v=1770499638",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-76-en\\009.webp",
+        "width": 800,
+        "height": 14475,
+        "sha256": "a875a98bd2f6095081d49d42e357a6f3983dae806ef94a8771ac129947b57b02"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-76-es",
+        "series": "absolute-regression",
+        "number": 76,
+        "language": "es",
+        "image": 22,
+        "url": "https://media.imagesolymp.xyz/comics/1382/121193/5_02.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-76-es\\022.webp",
+        "width": 800,
+        "height": 5600,
+        "sha256": "27ee2ddb5b9d49cf377ffac8322dac9ce7bfd2e20f236cedaf2b9bd9da64c2d7"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "actual_windows": {
+        "id": 76,
+        "expected_visible_english": "NO PARTICULAR REASON. I'VE SEEN HIM SEVERAL TIMES WHENEVER I HAVE COME TO GREET YOU.",
+        "source": "NO PARTICULAR REASON. I'VE SEEN HIM SEVERAL TIMES WHENEVER I HAVE COME TO GREET YOU.",
+        "source_quality": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "exact_word_sequence": true,
+          "edit_categories": {},
+          "edits": []
+        },
+        "regions": 1,
+        "retained_original_regions": 0,
+        "translations": [
+          "Lo he visto varias veces cada vez que he venido a saludarte."
+        ],
+        "meaning_reviewed": false
+      },
+      "reference_alignment_visually_verified": false,
+      "cohort": "actual_windows_heldout",
+      "image": 76,
+      "native_candidate": {
+        "milliseconds": 1634,
+        "prepared": "No particular reason. I've seen him several times whenever I have come to greet you.",
+        "raw_model": "Lo he visto varias veces cada vez que he venido a saludarte.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "No particular reason.",
+          "I've seen him several times whenever I have come to greet you."
+        ],
+        "sentence_translations": [
+          "Ninguna razón en particular.",
+          "Lo he visto varias veces cada vez que he venido a saludarte."
+        ],
+        "source": "NO PARTICULAR REASON. I'VE SEEN HIM SEVERAL TIMES WHENEVER I HAVE COME TO GREET YOU.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Ninguna razón en particular. Lo he visto varias veces cada vez que he venido a saludarte.",
+        "whole_translation": "Lo he visto varias veces cada vez que he venido a saludarte."
+      },
+      "inference_id": "actual_windows_heldout:96",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la respuesta NO PARTICULAR REASON.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 13,
+      "chapter": "absolute-regression-91",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "2c507bceb26b14c956847c0403c0a52349c13e96f513eadc6cbf2521a5732223",
+      "current_region": 62,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "cb044cfcd955b71048d38d099b1431f08257d1d077b5acc9ab1a31cf6e819d85",
+      "source": "THEN I'LL TAKE MY LEAVE AS WELL. IF I DON'T SLEEP, MY SKIN GETS DRY.",
+      "translation": "Entonces me iré también. Si no duermo, mi piel se seca.",
+      "before_source": "THEN I'LL TAKE MY LEAVE AS WELL. IF I DON'T SLEEP, MY",
+      "before_translation": "Si no duermo, mi piel se seca.",
+      "bounds": [
+        147,
+        10913,
+        697,
+        11128
+      ],
+      "source_image": 4,
+      "reference_source": "YO TAMBIÉN ME RETIRO. SI NO DUERMO, MI PIEL SE PONE RESECA.",
+      "reference_region": 91,
+      "reference_bounds": [
+        146,
+        3937,
+        585,
+        4034
+      ],
+      "reference_image": 9,
+      "source_page": {
+        "chapter": "absolute-regression-91-en",
+        "series": "absolute-regression",
+        "number": 91,
+        "language": "en",
+        "image": 4,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/91/005.webp?v=1772780602",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-91-en\\004.webp",
+        "width": 800,
+        "height": 14028,
+        "sha256": "7779188ed5cfb3df6602367a6fc02702686e8edadec6faabcaf5cace0b37d65c"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-91-es",
+        "series": "absolute-regression",
+        "number": 91,
+        "language": "es",
+        "image": 9,
+        "url": "https://media.imagesolymp.xyz/comics/1382/125450/2_04.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-91-es\\009.webp",
+        "width": 720,
+        "height": 5345,
+        "sha256": "348478e9f1a82625c28092c7aa5d796714109ca5dea2cd67089a8a05818976e5"
+      },
+      "signals": [],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "actual_windows": {
+        "id": 91,
+        "expected_visible_english": "THEN I'LL TAKE MY LEAVE AS WELL. IF I DON'T SLEEP, MY SKIN GETS DRY.",
+        "source": "THEN I'LL TAKE MY LEAVE AS WELL. IF I DON'T SLEEP, MY SKIN GETS DRY.",
+        "source_quality": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "exact_word_sequence": true,
+          "edit_categories": {},
+          "edits": []
+        },
+        "regions": 1,
+        "retained_original_regions": 0,
+        "translations": [
+          "Si no duermo, mi piel se seca."
+        ],
+        "meaning_reviewed": false
+      },
+      "reference_alignment_visually_verified": false,
+      "cohort": "actual_windows_heldout",
+      "image": 91,
+      "native_candidate": {
+        "milliseconds": 1487,
+        "prepared": "Then I'll take my leave as well. If I don't sleep, my skin gets dry.",
+        "raw_model": "Si no duermo, mi piel se seca.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Then I'll take my leave as well.",
+          "If I don't sleep, my skin gets dry."
+        ],
+        "sentence_translations": [
+          "Entonces me iré también.",
+          "Si no duermo, mi piel se seca."
+        ],
+        "source": "THEN I'LL TAKE MY LEAVE AS WELL. IF I DON'T SLEEP, MY SKIN GETS DRY.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Entonces me iré también. Si no duermo, mi piel se seca.",
+        "whole_translation": "Si no duermo, mi piel se seca."
+      },
+      "inference_id": "actual_windows_heldout:115",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la primera oración completa sobre retirarse también.",
+      "original_and_reference_pixels_inspected": true
+    },
+    {
+      "id": 14,
+      "chapter": "absolute-regression-117",
+      "sampling": "1 hashed eligible aligned regions per chapter; not selected by translation outcome",
+      "current_folder": "translated-en8011-context",
+      "current_report_sha256": "a8a1ee006783b75f67c45eaa12234a6e7f0d1f614e990b70169a3e7bde6f0e70",
+      "current_region": 57,
+      "baseline_folder": "translated-en-final",
+      "baseline_report_sha256": "75e46fc594bfdeb5b8eec44fe57d33f0d15c6f88684b945a4e1d3dfcfac63acc",
+      "source": "LSE THE HEAVENLY INSIGHT PAVILION'S COMMUNICATION NETWORK. GIVEN THE GRAVITY OF THE MATTER, ADVISOR SIMA WILL SURELY UNDERSTAND.",
+      "translation": "Lse la red de comunicación del pabellón de visión celestial. Dada la gravedad del asunto, el asesor sima seguramente lo entenderá.",
+      "before_source": "USE THE HEAVENLY INSIGHT PAVILION'S COMMUNICATION NETWORK. CIVEN THE &RAVITY OF THE MATTER, ADVISOR SIMA WILL SURELY UNDERSTAND.",
+      "before_translation": "Dada la gravedad del asunto, el asesor sima seguramente lo entenderá.",
+      "bounds": [
+        82,
+        6214,
+        820,
+        6463
+      ],
+      "source_image": 13,
+      "reference_source": "UTILIZA LA RED DE COMUNICACIÓN DEL PABELLÓN QUE ALCANZA EL CIELO. DADA LA GRAVEDAD DE ESTE ASUNTO, EL ESTRATEGA SIMA SEGURAMENTE LO COMPRENDERÁ.",
+      "reference_region": 118,
+      "reference_bounds": [
+        89,
+        2062,
+        639,
+        2273
+      ],
+      "reference_image": 22,
+      "source_page": {
+        "chapter": "absolute-regression-117-en",
+        "series": "absolute-regression",
+        "number": 117,
+        "language": "en",
+        "image": 13,
+        "url": "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/117/7780aa.webp?v=1788227826",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-117-en\\013.webp",
+        "width": 900,
+        "height": 16000,
+        "sha256": "dbc8354d57ba188f10a4c5e4d341d6b92ccdca1336cf98c91a41903b37e48b4d"
+      },
+      "reference_page": {
+        "chapter": "absolute-regression-117-es",
+        "series": "absolute-regression",
+        "number": 117,
+        "language": "es",
+        "image": 22,
+        "url": "https://media.imagesolymp.xyz/comics/1382/132624/5_03.webp",
+        "path": "C:\\Users\\MSI THIN\\Documents\\Code\\Flutter\\traductor\\build\\full-comics\\images\\absolute-regression-117-es\\022.webp",
+        "width": 720,
+        "height": 4198,
+        "sha256": "690752d0550d116a7e555830b68a677ff593d1d4d09a9a8e212681e8c3287e11"
+      },
+      "signals": [
+        "unresolved_copied_token"
+      ],
+      "artwork_alignment_human_verified": false,
+      "meaning_reviewed": true,
+      "meaning_result": null,
+      "actual_windows": {
+        "id": 117,
+        "expected_visible_english": "USE THE HEAVENLY INSIGHT PAVILION'S COMMUNICATION NETWORK. GIVEN THE GRAVITY OF THE MATTER, ADVISOR SIMA WILL SURELY UNDERSTAND.",
+        "source": "LSE THE HEAVENLY INSIGHT PAVILION'S COMMUNICATION NETWORK. GIVEN THE GRAVITY OF THE MATTER, ADVISOR SIMA WILL SURELY UNDERSTAND.",
+        "source_quality": {
+          "expected_words": 18,
+          "word_errors": 1,
+          "exact_word_sequence": false,
+          "edit_categories": {
+            "wrong_word": 1
+          },
+          "edits": [
+            {
+              "kind": "wrong_word",
+              "expected": "use",
+              "actual": "lse"
+            }
+          ]
+        },
+        "regions": 1,
+        "retained_original_regions": 0,
+        "translations": [
+          "Dada la gravedad del asunto, el asesor sima seguramente lo entenderá."
+        ],
+        "meaning_reviewed": false
+      },
+      "reference_alignment_visually_verified": false,
+      "cohort": "actual_windows_heldout",
+      "image": 117,
+      "native_candidate": {
+        "milliseconds": 1961,
+        "prepared": "Lse the heavenly insight pavilion's communication network. Given the gravity of the matter, advisor sima will surely understand.",
+        "raw_model": "Dada la gravedad del asunto, el asesor sima seguramente lo entenderá.",
+        "retained_original": false,
+        "sentence_recovered": true,
+        "sentence_sources": [
+          "Lse the heavenly insight pavilion's communication network.",
+          "Given the gravity of the matter, advisor sima will surely understand."
+        ],
+        "sentence_translations": [
+          "Lse la red de comunicación del pabellón de visión celestial.",
+          "Dada la gravedad del asunto, el asesor sima seguramente lo entenderá."
+        ],
+        "source": "LSE THE HEAVENLY INSIGHT PAVILION'S COMMUNICATION NETWORK. GIVEN THE GRAVITY OF THE MATTER, ADVISOR SIMA WILL SURELY UNDERSTAND.",
+        "source_corrections": [],
+        "terminology": [],
+        "translation": "Lse la red de comunicación del pabellón de visión celestial. Dada la gravedad del asunto, el asesor sima seguramente lo entenderá.",
+        "whole_translation": "Dada la gravedad del asunto, el asesor sima seguramente lo entenderá."
+      },
+      "inference_id": "actual_windows_heldout:148",
+      "original_before_judgment": "incomplete",
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "Se recupera la red de comunicación, pero LSE sigue sin traducir y no aparece el mandato USE.",
+      "original_and_reference_pixels_inspected": true
+    }
+  ]
+}

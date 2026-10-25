@@ -1,0 +1,47 @@
+{
+  "upstream": "Helsinki-NLP/opus-mt-tc-big-en-es",
+  "upstream_revision": "8f4d4924189681076e9c642b2fd85278d793fd4d",
+  "conversion": "VaishalBusiness/opus",
+  "revision": "1ccec650fb90f50f3462bf106bf5015064024f5d",
+  "license": "CC-BY-4.0",
+  "quantization": "ONNX Runtime 1.23.2 RTN Int4, block_size=32, accuracy_level=4, MatMul/Gather; constant output projection transpose folded",
+  "files": {
+    "encoder.onnx": "4d6e222350318858ccb47d8b69e40ba348aaf737569f01c971f385485e698d47",
+    "decoder.onnx": "e826a410a865e64272d99fc310f5adf1ea021cb25d6e6cdcf09fc154762f3d90",
+    "tokenizer.json": "f2ebbe02cdb855225bf7cb6db77674963ffef96d7833f8a7d3309fc3b6761cdb",
+    "terminology.json": "83d7893334e50f500bd9d39316b894814359964eae325b4a8f76fdc1d8476785",
+    "LICENSE.CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "README.upstream.md": "c42997ca3767c6750c346d1da84758a9755422c7f5c5294f12a8f4d92f8a94bc",
+    "english-ocr.onnx": "b20bd37c168a570f583afbc8cd7925603890efbcdc000a59e22c269d160b5f5a",
+    "ocr-characters.json": "f204f829c83e1a39da9ff06006326a6cf2f9d0f8ad88b629312206fd0646576b",
+    "LICENSE.OCR.Apache-2.0.txt": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333",
+    "text-detector.onnx": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+    "english-ocr-fallback.onnx": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318",
+    "ocr-characters-fallback.json": "2c1fa0e0da7f065f917d46a5d0469a25ccacdeb768511d7a11572203d3f6526d"
+  },
+  "ocr": {
+    "upstream": "PaddlePaddle/PaddleOCR",
+    "conversion": "RapidAI/RapidOCR",
+    "revision": "v3.10.0",
+    "license": "Apache-2.0",
+    "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/latin_PP-OCRv5_rec_mobile.onnx",
+    "architecture": "Latin PP-OCRv5 mobile",
+    "purpose": "English and Latin-script line recognition, including comic lettering; pretrained weights, no chapter answer lookup",
+    "fallback": {
+      "architecture": "English PP-OCRv4 mobile",
+      "revision": "v3.9.2",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv4/rec/en_PP-OCRv4_rec_mobile.onnx",
+      "license": "Apache-2.0",
+      "purpose": "Lazy specialist for uncertain decorative words; requires higher confidence and agreement for padding retries"
+    }
+  },
+  "compatibility": "Int4 scale initializers are local to decoder If branches so ORT 1.23.2 ARM64 prepacking can resolve them; values and graph operators unchanged.",
+  "text_detector": {
+    "upstream": "PaddlePaddle/PaddleOCR",
+    "conversion": "RapidAI/RapidOCR",
+    "revision": "v3.10.0",
+    "license": "Apache-2.0",
+    "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv4/det/ch_PP-OCRv4_det_mobile.onnx",
+    "purpose": "Find additional text lines independently of the operating-system OCR; input retains RGB colour."
+  }
+}

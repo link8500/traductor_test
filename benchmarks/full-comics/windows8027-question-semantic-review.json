@@ -1,0 +1,1191 @@
+{
+  "schema": 1,
+  "build": "802701",
+  "baseline_build": "802601",
+  "viewports": 124,
+  "native_regions": 229,
+  "entries": [
+    {
+      "id": 1,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 2,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 4,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 5,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 6,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 7,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 8,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 10,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 12,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 13,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 14,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 15,
+      "before": "needs_review",
+      "after": "needs_review",
+      "historical_baseline": "needs_review",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 16,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 17,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 18,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 26,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 29,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 31,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 32,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 33,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 35,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 36,
+      "before": "incorrect",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "note": "The original complete balloon is an existential echo question. Opening and closing question marks restore its uncertainty. Both past-tense clauses, the old man's definite referent and the contrast with the speaker's inability remain; Spanish verbal ellipsis matches the English ellipsis.",
+      "new_complete_location_meaning_reviewed": true
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 38,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 39,
+      "before": "needs_review",
+      "after": "needs_review",
+      "historical_baseline": "needs_review",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 40,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 43,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 48,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 49,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 50,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 51,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 52,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 53,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 55,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 56,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 58,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 59,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 61,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 62,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 63,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 65,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 66,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 69,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 70,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 71,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 72,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 74,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 77,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 78,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 79,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 80,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 81,
+      "before": "needs_review",
+      "after": "needs_review",
+      "historical_baseline": "needs_review",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 84,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 85,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 86,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 87,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 88,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 91,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 92,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 94,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 95,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 96,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 98,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 100,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 101,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 102,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 103,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 105,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 107,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 108,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 109,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 110,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 113,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 115,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 116,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 117,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 118,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 119,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 120,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 122,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 123,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 124,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    }
+  ],
+  "cohorts": {
+    "all124_fixed_reading_viewports": {
+      "viewports": 124,
+      "before_categories": {
+        "incomplete": 19,
+        "acceptable": 67,
+        "incorrect": 24,
+        "clipped": 11,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 19,
+        "acceptable": 68,
+        "incorrect": 23,
+        "clipped": 11,
+        "needs_review": 3
+      },
+      "before_not_approved": 57,
+      "after_not_approved": 56,
+      "corrected": 1,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 1.7543859649122806
+    },
+    "no_visible_dialogue_clipped": {
+      "viewports": 107,
+      "before_categories": {
+        "incomplete": 17,
+        "acceptable": 67,
+        "incorrect": 20,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 17,
+        "acceptable": 68,
+        "incorrect": 19,
+        "needs_review": 3
+      },
+      "before_not_approved": 40,
+      "after_not_approved": 39,
+      "corrected": 1,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 2.5
+    }
+  },
+  "historical_baseline_comparison": {
+    "build": "801901",
+    "cohorts": {
+      "all124_fixed_reading_viewports": {
+        "viewports": 124,
+        "before_categories": {
+          "incomplete": 19,
+          "acceptable": 62,
+          "incorrect": 31,
+          "clipped": 9,
+          "needs_review": 3
+        },
+        "after_categories": {
+          "incomplete": 19,
+          "acceptable": 68,
+          "incorrect": 23,
+          "clipped": 11,
+          "needs_review": 3
+        },
+        "before_not_approved": 62,
+        "after_not_approved": 56,
+        "corrected": 6,
+        "regressed": 0,
+        "relative_unapproved_reduction_percent": 9.67741935483871
+      },
+      "no_visible_dialogue_clipped": {
+        "viewports": 107,
+        "before_categories": {
+          "incomplete": 16,
+          "acceptable": 62,
+          "incorrect": 26,
+          "needs_review": 3
+        },
+        "after_categories": {
+          "incomplete": 17,
+          "acceptable": 68,
+          "incorrect": 19,
+          "needs_review": 3
+        },
+        "before_not_approved": 45,
+        "after_not_approved": 39,
+        "corrected": 6,
+        "regressed": 0,
+        "relative_unapproved_reduction_percent": 13.333333333333334
+      }
+    }
+  },
+  "dialogue_ocr": {
+    "all124_fixed_reading_viewports": {
+      "before": {
+        "viewports": 124,
+        "expected_dialogue_words": 2265,
+        "word_errors": 45,
+        "word_error_rate_percent": 1.9867549668874172,
+        "viewports_with_word_errors": 21,
+        "alignment_edit_categories": {
+          "substituted_word": 20,
+          "alignment_deleted_word": 24,
+          "inserted_word": 1
+        }
+      },
+      "after": {
+        "viewports": 124,
+        "expected_dialogue_words": 2265,
+        "word_errors": 45,
+        "word_error_rate_percent": 1.9867549668874172,
+        "viewports_with_word_errors": 21,
+        "alignment_edit_categories": {
+          "substituted_word": 20,
+          "alignment_deleted_word": 24,
+          "inserted_word": 1
+        }
+      }
+    },
+    "no_visible_dialogue_clipped": {
+      "before": {
+        "viewports": 107,
+        "expected_dialogue_words": 1867,
+        "word_errors": 27,
+        "word_error_rate_percent": 1.44617032672737,
+        "viewports_with_word_errors": 13,
+        "alignment_edit_categories": {
+          "substituted_word": 16,
+          "alignment_deleted_word": 10,
+          "inserted_word": 1
+        }
+      },
+      "after": {
+        "viewports": 107,
+        "expected_dialogue_words": 1867,
+        "word_errors": 27,
+        "word_error_rate_percent": 1.44617032672737,
+        "viewports_with_word_errors": 13,
+        "alignment_edit_categories": {
+          "substituted_word": 16,
+          "alignment_deleted_word": 10,
+          "inserted_word": 1
+        }
+      }
+    }
+  },
+  "ocr_score_reused_only_because_all_sources_and_bounds_are_identical": true,
+  "changed_complete_location_meanings_reviewed": 1,
+  "identical_complete_location_judgments_reused": 123,
+  "validation_mode": "actual_packaged_native_mt_on_frozen_native_ocr_sources",
+  "native_ocr_build": "802601",
+  "fresh_translation_inference": true,
+  "new_ocr_inference": false,
+  "fresh_screen_capture": false,
+  "native_punctuation_guards": {
+    "application_enabled": false,
+    "guards": 20,
+    "success": true
+  },
+  "historical_full_corpus_rows_checked": 18179,
+  "historical_full_corpus_chapters_checked": 124,
+  "additional_question_intents": {
+    "unique_changed_passages_reviewed": 3,
+    "physical_source_locations": 2,
+    "question_intent_preserved": true,
+    "all_words_changed_by_rule": false,
+    "whole_additional_locations_approved": false,
+    "note": "The other location has two historical OCR/translation variants. Question intent is restored, while OCR fragmentation and missing qualifications remain outside this punctuation rule. No complete chapter or additional full location is approved."
+  },
+  "native_output_sha256": "05a6dc1fa67aedf4fb31392c363380e0629c1c6b91bb858cdff94f84d2d3e35f",
+  "combined_output_sha256": "75154c7b0082aefdcbac30957359c8a43ae9eee48c1d463b252042229f80e039",
+  "native_provenance_sha256": "1218f76dd1ea625a072fe568f0c2d044878cb2eb7e3b1f24c0e1ec723086a744",
+  "native_summary_sha256": "c8aee4b32d135f5fba0c9735da97e1929458231fbd8f465fc844a97104b634b4",
+  "previous_native_output_sha256": "44b9049b68446ac0f464d12987e5b917a9bc521ef1165f25c51cca7b17f409fa",
+  "previous_review_sha256": "e89ff5693bf1d0c6d6cbbb0110d8819b005fe7f1d047989a87d729842530f0db",
+  "snapshot_sha256": "8ebf71f09565f8bd69a5637302bbf782a6735359870fbd658bbb5ed9579abdde",
+  "runtime_checks_sha256": "648ee2464e09916a2893cc124f95254b63ed83c4ea587c85a04017f300682566",
+  "core_equivalence_sha256": "fc2993598ebbe84cbea29f30a55a7458d77c226f78a16bd89db17f80d85fbf85",
+  "rule_evaluation_sha256": "e949c0820e325ad87e96bb7f50e790ac6d68bc03b7ce035b16d9d2c178bc18db",
+  "manual_decisions_sha256": "7d112e553e71b97347f186a53e2ed274e50b8bcf2aeb5178b182953ab14d222c",
+  "normal_live_worker_uses_same_final_rule": true,
+  "decoder_core_and_model_weights_unchanged": true,
+  "model_weights_trained": false,
+  "manual_or_reference_answers_supplied_to_app": false,
+  "all_chapter_words_visually_reviewed": false,
+  "all_paintings_visually_reviewed": false,
+  "complete_live_app_use_including_capture_and_movement": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "ready_for_release": false
+}

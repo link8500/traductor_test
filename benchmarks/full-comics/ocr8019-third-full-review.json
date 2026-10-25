@@ -1,0 +1,5146 @@
+{
+  "schema": 1,
+  "crops_visually_reviewed": 124,
+  "additional_unchanged_crops_reviewed": 108,
+  "prior_changed_pixel_transcriptions_reused": 16,
+  "words": 1553,
+  "metrics": {
+    "legacy": {
+      "words": 1553,
+      "before_word_errors": 46,
+      "after_word_errors": 27,
+      "before_crops_with_word_errors": 33,
+      "after_crops_with_word_errors": 19,
+      "fully_corrected": 14,
+      "regressed": 0,
+      "before_edit_categories": {
+        "inserted_word": 8,
+        "wrong_word": 31,
+        "omitted_word": 7
+      },
+      "after_edit_categories": {
+        "inserted_word": 8,
+        "wrong_word": 14,
+        "omitted_word": 5
+      }
+    },
+    "strict_apostrophes": {
+      "words": 1553,
+      "before_word_errors": 46,
+      "after_word_errors": 27,
+      "before_crops_with_word_errors": 33,
+      "after_crops_with_word_errors": 19,
+      "fully_corrected": 14,
+      "regressed": 0
+    }
+  },
+  "entries": [
+    {
+      "id": 1,
+      "expected_visible_english": "AND FORGIVING GWI RYEONGJA WAS THE LAST TEST FOR YOU.",
+      "source": "AND FORGIVING GW1 f RYEONGJA WAS THE LAST 1 TEST FOR",
+      "selected": "AND FORGIVING GW1 f RYEONGJA WAS THE LAST 1 TEST FOR",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 4,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 2,
+          "wrong_word": 1,
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "gw1"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "gwi",
+            "actual": "f"
+          },
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "1"
+          },
+          {
+            "kind": "omitted_word",
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 4,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 2,
+          "wrong_word": 1,
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "gw1"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "gwi",
+            "actual": "f"
+          },
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "1"
+          },
+          {
+            "kind": "omitted_word",
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 4,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "gw1"
+          },
+          {
+            "expected": "gwi",
+            "actual": "f"
+          },
+          {
+            "expected": null,
+            "actual": "1"
+          },
+          {
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 4,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "gw1"
+          },
+          {
+            "expected": "gwi",
+            "actual": "f"
+          },
+          {
+            "expected": null,
+            "actual": "1"
+          },
+          {
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "Texto marrón estilizado; YOU visible y omitido.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 2,
+      "expected_visible_english": "YES. I HEARD YOU ENJOYED HUNTING WHEN YOU WERE YOUNG. I'D LIKE TO LEARN HOW TO HUNT FROM YOU.",
+      "source": "YES. I HEARD YOU ENJOYED HUNTING WHEN YOU WERE YOUNG. I'D LIKE TO LEARN HOW TO HUNT FROM YOU.",
+      "selected": "YES. I HEARD YOU ENJOYED HUNTING WHEN YOU WERE YOUNG. I'D LIKE TO LEARN HOW TO HUNT FROM YOU.",
+      "before": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 3,
+      "expected_visible_english": "THAT WAS A FEW DECADES AGO TO ME.",
+      "source": "THAT WAS A FEW DECADES AGO TO ME.",
+      "selected": "THAT WAS A FEW DECADES AGO TO ME.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 4,
+      "expected_visible_english": "SLOWLY DISCHARGE YOUR ENERGY AS IF YOU'RE PULLING OUT A THREAD.",
+      "source": "SLOWLY DISCHARGE NOUR ENERGY AS IF YOU'RE PUUING OUT A THREAD.",
+      "selected": "SLOWLY DISCHARGE YOUR ENERGY AS IF YOU'RE PULLING OUT A THREAD.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "your",
+            "actual": "nour"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "pulling",
+            "actual": "puuing"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 2,
+        "edits": [
+          {
+            "expected": "your",
+            "actual": "nour"
+          },
+          {
+            "expected": "pulling",
+            "actual": "puuing"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "YOUR y PULLING legibles.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 5,
+      "expected_visible_english": "BECAUSE I'LL BE ABLE TO FIRST FIND OUT THE ENEMY THAT'S TRYING TO ATTACK ME.",
+      "source": "BECAUSE I'LL BE ABLE TO FIRST FIND OUT THE ENEMY THAT'S TRYING TO ) ATTACK ME.",
+      "selected": "BECAUSE I'LL BE ABLE TO FIRST FIND OUT THE ENEMY THAT'S TRYING TO ) ATTACK ME.",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 6,
+      "expected_visible_english": "IF YOUR DISCIPLE WAS ANYTHING LIKE YOU, HE WOULD STILL BE ALIVE.",
+      "source": "IF YOUR DISCIPLE WAS ANYTHING LIKE YOU, HE WOULD STILL BE ALIVE.",
+      "selected": "IF YOUR DISCIPLE WAS ANYTHING LIKE YOU, HE WOULD STILL BE ALIVE.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 7,
+      "expected_visible_english": "HALF OF THE PEOPLE WHO ARE BLOOD-RELATED TO THE HEAVENLY DEMON THAT WENT IN HAVE LOST THEIR LIVES.",
+      "source": "HALF OF THE PEOPLE WHO ARE BLOOD-RELATED TO THE HEAVENLY DEMON THAT WENT IN HAVE LOST THEIR LIVES.",
+      "selected": "HALF OF THE PEOPLE WHO ARE BLOOD-RELATED TO THE HEAVENLY DEMON THAT WENT IN HAVE LOST THEIR LIVES.",
+      "before": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 8,
+      "expected_visible_english": "-JUST HOW DID HE DO THAT? I CAN'T BELIEVE IT.",
+      "source": "-JUST HOW DID HE DO THAT? I CAN'T BELIEVE IT.",
+      "selected": "-JUST HOW DID HE DO THAT? I CAN'T BELIEVE IT.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 9,
+      "expected_visible_english": "WHAT KIND OF A TRIAL IS THIS?",
+      "source": "WHAT KIND OF A TRIAL IS THIS?",
+      "selected": "WHAT KIND OF A TRIAL IS THIS?",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 10,
+      "expected_visible_english": "TO THINK YOU'D MAKE IT THROUGH THE MINOR HEAVEN CAVE IN JUST 100 DAYS.",
+      "source": "TO THINK YOU'D MAKE IT THROUGH THE MINOR HEAVEN CAVE IN JUST 1OO DAYS.",
+      "selected": "TO THINK YOU'D MAKE IT THROUGH THE MINOR HEAVEN CAVE IN JUST 1OO DAYS.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "100",
+            "actual": "1oo"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "100",
+            "actual": "1oo"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "100",
+            "actual": "1oo"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "100",
+            "actual": "1oo"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 11,
+      "expected_visible_english": "THAT MAN IS THE SECOND-IN-COMMAND IN THIS PLACE. HE'S NOTORIOUS FOR COMMITTING ATROCIOUS DEEDS EVEN AMONG THE DEMONIC ARMY.",
+      "source": "THAT MAN IS THE SECOND-IN-COMMAND IN THIS PLACE. HE'S NOTORIOLS FOR COMMITTING ATROCIOUS DEEDS EVEN AMONG THE DEMONIC ARMY.",
+      "selected": "THAT MAN IS THE SECOND-IN-COMMAND IN THIS PLACE. HE'S NOTORIOUS FOR COMMITTING ATROCIOUS DEEDS EVEN AMONG THE DEMONIC ARMY.",
+      "before": {
+        "expected_words": 21,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "notorious",
+            "actual": "notoriols"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 21,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 21,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "notorious",
+            "actual": "notoriols"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 21,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "NOTORIOUS respaldado por los píxeles.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 12,
+      "expected_visible_english": "LOOK, YOU'RE FREE TO GET ALL RILED UP, BUT DON'T FORGET THAT YOU COULD BE CHARGED WITH TREASON IF YOU STAND IN THE WAY OF OUR INVESTIGATION.",
+      "source": "LOOK, YOU'RE FREE TO GET ALL RILED UP, BUT DON'T FORGET THAT YOU COULD BE CHARGED WITH TREASON IF YOU STAND IN THE WAY OF OUR INVESTIGATION.",
+      "selected": "LOOK, YOU'RE FREE TO GET ALL RILED UP, BUT DON'T FORGET THAT YOU COULD BE CHARGED WITH TREASON IF YOU STAND IN THE WAY OF OUR INVESTIGATION.",
+      "before": {
+        "expected_words": 27,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 27,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 27,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 27,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 13,
+      "expected_visible_english": "AT THE VERY LEAST, I DON'T HIDE BEHIND MY SUBORDINATES.",
+      "source": "AT THE VERY LEAST, I DON'T HIDE BEHIND MY SUBORDINATES.",
+      "selected": "AT THE VERY LEAST, I DON'T HIDE BEHIND MY SUBORDINATES.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 14,
+      "expected_visible_english": "HE DOESN'T SIMPLY TREAT ANYONE. HE ONLY GIVES TREATMENT TO IMPORTANT PEOPLE WITHIN OUR CULT.",
+      "source": "SIMPLY TREAT ANYONE. HE ONLY GIVES TREATMENT T TO IMPORTANT PEOPLE WITHIN OUR CULT.",
+      "selected": "SIMPLY TREAT ANYONE. HE ONLY GIVES TREATMENT T TO IMPORTANT PEOPLE WITHIN OUR CULT.",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 2,
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "he",
+            "actual": null
+          },
+          {
+            "kind": "omitted_word",
+            "expected": "doesnt",
+            "actual": null
+          },
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 2,
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "he",
+            "actual": null
+          },
+          {
+            "kind": "omitted_word",
+            "expected": "doesnt",
+            "actual": null
+          },
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 15,
+        "word_errors": 3,
+        "edits": [
+          {
+            "expected": "he",
+            "actual": null
+          },
+          {
+            "expected": "doesn't",
+            "actual": null
+          },
+          {
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 15,
+        "word_errors": 3,
+        "edits": [
+          {
+            "expected": "he",
+            "actual": null
+          },
+          {
+            "expected": "doesn't",
+            "actual": null
+          },
+          {
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "edge_clipped": true,
+      "text_present": true,
+      "note_es": "Primer renglón parcialmente cortado por arriba, pero HE DOESN'T todavía identificable.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 15,
+      "expected_visible_english": "I TOLD YOU ALREADY, I'M GOING TO KILL THE DEMONIC ARMY COMMANDER.",
+      "source": "TOLD YOU ALREADY, I'M GOING TO KILL THE DEMONIC ARMY COMMANDER.",
+      "selected": "I TOLD YOU ALREADY, I'M GOING TO KILL THE DEMONIC ARMY COMMANDER.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "i",
+            "actual": null
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "i",
+            "actual": null
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "La I inicial está visible y se recupera.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 16,
+      "expected_visible_english": "FATHER, IF YOU WANTED TO GIVE ME A REWARD, YOU SHOULD HAVE GIVEN ME THE WHITE DEMONIC SWORD WHICH SUITS MY ALOOF PERSONALITY MORE.",
+      "source": "FATHER, IF YOU WANTED TO GIVE ME A REWARD, YOL SHOULD HAVE GIVEN ME THE WHITE DEMONIC SWORD WHICH SUITS MY ALOOF PERSONALITY MORE.",
+      "selected": "FATHER, IF YOU WANTED TO GIVE ME A REWARD, YOL SHOULD HAVE GIVEN ME THE WHITE DEMONIC SWORD WHICH SUITS MY ALOOF PERSONALITY MORE.",
+      "before": {
+        "expected_words": 24,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 24,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 24,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 24,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 17,
+      "expected_visible_english": "",
+      "source": "",
+      "selected": "",
+      "before": {
+        "expected_words": 0,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 0,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 0,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 0,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": false,
+      "note_es": "Control sin texto visible: solo una puerta; no cuenta como diálogo traducible.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 18,
+      "expected_visible_english": "HE'S SOMEONE WHO'D LEAVE INFORMATION ON THE WALLS FOR HIS CHILDREN.",
+      "source": "HE'S SOMEONE WHO'D LEAVE INFORMATION ON THE WALLS FOR HIS CHILDREN.",
+      "selected": "HE'S SOMEONE WHO'D LEAVE INFORMATION ON THE WALLS FOR HIS CHILDREN.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 19,
+      "expected_visible_english": "THE FOUR STRIDES OF THE WIND GOD!",
+      "source": "THE FOUR STRIDES OF THE WIND GOD!",
+      "selected": "THE FOUR STRIDES OF THE WIND GOD!",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 20,
+      "expected_visible_english": "LEE AHN, I'LL ASK THIS ONCE MORE.",
+      "source": "LEE AHN, I'LL ASK THIS ONCE MORE.",
+      "selected": "LEE AHN, I'LL ASK THIS ONCE MORE.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 21,
+      "expected_visible_english": "WHO ARE YOU? LET'S GO IN FIRST AND TALK OVER A DRINK.",
+      "source": "WHO ARE YOL? LET'S GO IN FIRST AND TALK OVER A DRINK.",
+      "selected": "WHO ARE YOL? LET'S GO IN FIRST AND TALK OVER A DRINK.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 22,
+      "expected_visible_english": "DEPENDING ON THOSE DECISIONS, SOME WOULD LIVE AND SOME WOULD DIE.",
+      "source": "DEPENDING ON THOSE DECISIONS, SOME WOULD LIVE AND SOME WOULD DIE.",
+      "selected": "DEPENDING ON THOSE DECISIONS, SOME WOULD LIVE AND SOME WOULD DIE.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 23,
+      "expected_visible_english": "DID YOU TELL THEM THEIR SALARIES WOULD BE REDUCED IF THEY DIDN'T WELCOME ME?",
+      "source": "DID YOU TELL THEM THEIR SALARIES WOULD BE REDUCED IF THEY DIDN'T WELCOME ME?",
+      "selected": "DID YOU TELL THEM THEIR SALARIES WOULD BE REDUCED IF THEY DIDN'T WELCOME ME?",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 24,
+      "expected_visible_english": "THE NIRVANA PAVILION ALREADY JUDGED THAT I WAS INNOCENT THOUGH?",
+      "source": "THE NIRVANA PAVILION ALREADY JUDGED THAT I WAS INNOCENT THOUGH?",
+      "selected": "THE NIRVANA PAVILION ALREADY JUDGED THAT I WAS INNOCENT THOUGH?",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 25,
+      "expected_visible_english": "THOSE WHO THINK THE REINVESTIGATION IS CORRECT, COME OVER TO THIS SIDE.",
+      "source": "THOSE WHO THINK THE REINVESTIGATION IS CORRECT. COME OVER TO THIS SIDE.",
+      "selected": "THOSE WHO THINK THE REINVESTIGATION IS CORRECT. COME OVER TO THIS SIDE.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 26,
+      "expected_visible_english": "EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME, I WON'T LET THAT SLIDE EITHER.",
+      "source": "EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME I WON'T LET THAT SLIDE EITHER.",
+      "selected": "EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME I WON'T LET THAT SLIDE EITHER.",
+      "before": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 27,
+      "expected_visible_english": "YOU EXPECT ME TO SUFFER JUST BECAUSE MY BLOOD KIN HAS DIED?",
+      "source": "YOU EXPECT ME TO SUFFER : JUST BECAUSE MY BLOOD KIN HAS DIED?",
+      "selected": "YOU EXPECT ME TO SUFFER : JUST BECAUSE MY BLOOD KIN HAS DIED?",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 28,
+      "expected_visible_english": "PLEASE PUT THE DEMONIC ARMY INTO MY MOUTH.",
+      "source": "PLEASE PLT THE DEMONIC ARMY INTO My MOLTH.",
+      "selected": "PLEASE PUT THE DEMONIC ARMY INTO My MOUTH.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "put",
+            "actual": "plt"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "mouth",
+            "actual": "molth"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 2,
+        "edits": [
+          {
+            "expected": "put",
+            "actual": "plt"
+          },
+          {
+            "expected": "mouth",
+            "actual": "molth"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "PUT y MOUTH completos.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 29,
+      "expected_visible_english": "DIDN'T YOU RECENTLY SAY YOU WANTED TO KILL HIM?",
+      "source": "DIDN'T YOU RECENTLY SAY YOU WANTED TO KILL HIM?",
+      "selected": "DIDN'T YOU RECENTLY SAY YOU WANTED TO KILL HIM?",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 30,
+      "expected_visible_english": "YOU SHOULDN'T HAVE RECOMMENDED JANG HO AS THE DEMONIC ARMY COMMANDER THE NEXT DAY.",
+      "source": "YOU SHOULDN'T HAVE RECOMMENDED JANG HO AS THE DEMONIC ARMY COMMANDER THE NEXT DAY.",
+      "selected": "YOU SHOULDN'T HAVE RECOMMENDED JANG HO AS THE DEMONIC ARMY COMMANDER THE NEXT DAY.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 31,
+      "expected_visible_english": "I SIMPLY MADE A MISTAKE AFTER GETTING DRUNK. PLEASE GIVE ME A CHANCE.",
+      "source": "I SIMPLY MADE A MISTAKE AFTER GETTING DRUNK. PLEASE GIVE ME A CHANCE.",
+      "selected": "I SIMPLY MADE A MISTAKE AFTER GETTING DRUNK. PLEASE GIVE ME A CHANCE.",
+      "before": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 32,
+      "expected_visible_english": "ASK ME TO RECOMMEND JANG HO ALONGSIDE THE SWORD DEMON, DIDN'T YOU?",
+      "source": "ASK ME TO RECOMMEND JANG HO ALONGSIDE THE SWORD DEMON, DIDN'T YOU?",
+      "selected": "ASK ME TO RECOMMEND JANG HO ALONGSIDE THE SWORD DEMON, DIDN'T YOU?",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "Se transcribe el fragmento visible, sin inventar un sujeto previo.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 33,
+      "expected_visible_english": "IF YOU SEE ME AS SOMEONE WHO'D THROW AWAY MY PERSONAL RELATIONSHIPS FOR THE ORGANIZATION,",
+      "source": "IF YOU SEE ME AS SOMEONE WHO'D THROW AWAY MY PERSONAL RELATIONSHIPS FOR THE ORGANIZATION,",
+      "selected": "IF YOU SEE ME AS SOMEONE WHO'D THROW AWAY MY PERSONAL RELATIONSHIPS FOR THE ORGANIZATION,",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 34,
+      "expected_visible_english": "DIDN'T YOU TELL ME THAT YOU HAD SOMETHING YOU WANTED TO GET FROM HIM?",
+      "source": "DIDN'T YOU TELL ME THAT YOU HAD SOMETHING YOL WANTED TO GET FROM HIM?",
+      "selected": "DIDN'T YOU TELL ME THAT YOU HAD SOMETHING YOU WANTED TO GET FROM HIM?",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "YOU y negación conservados.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 35,
+      "expected_visible_english": "THE SWORD SUPREME WILL BECOME EVEN MORE IMPATIENT.",
+      "source": "THE SWORD SUPREME WILL BECOME EVEN MORE IMPATIENT.",
+      "selected": "THE SWORD SUPREME WILL BECOME EVEN MORE IMPATIENT.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 36,
+      "expected_visible_english": "WE CAME BECAUSE THE LIQUOR AND FOOD HERE TASTE GREAT.",
+      "source": "WE CAME BECAUSE THE LIQUOR AND FOOD HERE TASTE GREAT.",
+      "selected": "WE CAME BECAUSE THE LIQUOR AND FOOD HERE TASTE GREAT.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 37,
+      "expected_visible_english": "THE NEXT TIME YOU'RE DETERMINED TO KILL A DEMON SUPREME, I WANT YOU TO TELL ME FIRST.",
+      "source": "THE NEXT TIME YOU'RE DETERMINED TO KILL A DEMON SUPREME, I WANT YOU TO TELL ME FIRST.",
+      "selected": "THE NEXT TIME YOU'RE DETERMINED TO KILL A DEMON SUPREME, I WANT YOU TO TELL ME FIRST.",
+      "before": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 38,
+      "expected_visible_english": "THAT I CAN ALSO LEARN THROUGH TEACHING...",
+      "source": "THAT I CAN ALSO LEARN THROUGH TEACHING...",
+      "selected": "THAT I CAN ALSO LEARN THROUGH TEACHING...",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 39,
+      "expected_visible_english": "OH, THAT'S NOT ME SAYING I WANT TO ATTACK THE MURIM ALLIANCE WITH YOU.",
+      "source": "OH, THAT'S NOT ME SAYING I WANT TO ATTACK THE MURIM ALLIANCE WITH YOU.",
+      "selected": "OH, THAT'S NOT ME SAYING I WANT TO ATTACK THE MURIM ALLIANCE WITH YOU.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 40,
+      "expected_visible_english": "AREN'T YOU CURIOUS ABOUT WHAT I WANT?",
+      "source": "AREN'T YOL CURIOUS ABOUT WHAT I WANT?",
+      "selected": "AREN'T YOU CURIOUS ABOUT WHAT I WANT?",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "YOU respaldado por los píxeles.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 41,
+      "expected_visible_english": "SHE COULDN'T HELP IT THOUGH. THE CONSTANT SHIFTS MADE BY THE SHIFTING SLASH MAKES IT A TECHNIQUE THAT CAN'T BE STOPPED WITH BLOCKING ALONE.",
+      "source": "SHE COULDN'T HELP IT THOLGH. THE CONSTANT SHIFTS MADE BY THE SHIFTING SLASH MAKES IT A TECHNIQUE THAT CAN'T BE STOPPED WITH BLOCKING ALONE.",
+      "selected": "SHE COULDN'T HELP IT THOUGH. THE CONSTANT SHIFTS MADE BY THE SHIFTING SLASH MAKES IT A TECHNIQUE THAT CAN'T BE STOPPED WITH BLOCKING ALONE.",
+      "before": {
+        "expected_words": 24,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "though",
+            "actual": "tholgh"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 24,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 24,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "though",
+            "actual": "tholgh"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 24,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "Se conserva el original visible incluso con la concordancia inglesa de origen.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 42,
+      "expected_visible_english": "LIKE I SAID, MY VICTORY WAS PURELY LUCK.",
+      "source": "LIKE I SAID, MY VICTORY WAS PURELY LUCK.",
+      "selected": "LIKE I SAID, MY VICTORY WAS PURELY LUCK.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 43,
+      "expected_visible_english": "I'VE BEEN PREPARING FOR THIS FOR A LONG TIME.",
+      "source": "I'VE BEEN PREPARING FOR THIS FOR A LONG TIME.",
+      "selected": "I'VE BEEN PREPARING FOR THIS FOR A LONG TIME.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 44,
+      "expected_visible_english": "EVEN THE STATUES AND PAGODAS EVERYWHERE ARE EMITTING IT.",
+      "source": "EVEN THE STATUES AND PAGODAS EVERYWHERE ARE EMITTING IT.",
+      "selected": "EVEN THE STATUES AND PAGODAS EVERYWHERE ARE EMITTING IT.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 45,
+      "expected_visible_english": "YOU ARE NOT YET HIS MATCH WITH YOUR CURRENT SKILLS.",
+      "source": "YOL ARE NOT YET HIS MATCH WITH YOUR CURRENT SKILLS.",
+      "selected": "YOU ARE NOT YET HIS MATCH WITH YOUR CURRENT SKILLS.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "YOU corregido sin modificar NOT.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 46,
+      "expected_visible_english": "GREETINGS, LEE AHN. YOU SEEM DIFFERENT SOMEHOW.",
+      "source": "GREETINGS LEE AHN. YOU SEEM DIFFERENT SOMEHOW.",
+      "selected": "GREETINGS LEE AHN. YOU SEEM DIFFERENT SOMEHOW.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 47,
+      "expected_visible_english": "THANK YOU SO MUCH FOR RECOMMENDING ME THE OTHER DAY. I'M FINALLY ABLE TO EXPRESS MY GRATITUDE PROPERLY.",
+      "source": "THANK YOU SO MUCH FOR RECOMMENDING ME THE OTHER DAY. I'M FINALLY ABLE TO EXPRESS MY GRATITUDE PROPERLY.",
+      "selected": "THANK YOU SO MUCH FOR RECOMMENDING ME THE OTHER DAY. I'M FINALLY ABLE TO EXPRESS MY GRATITUDE PROPERLY.",
+      "before": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 48,
+      "expected_visible_english": "AMONG YOUR CURRENT DISCIPLES, I DON'T BELIEVE THERE'S ANYONE WORTHY TO INHERIT YOUR POSITION.",
+      "source": "AMONG YOUR CURRENT DISCIPLES I DON'T BELIEVE THERE'S ANYONE WORTHY TO INHERIT YOUR POSITION.",
+      "selected": "AMONG YOUR CURRENT DISCIPLES I DON'T BELIEVE THERE'S ANYONE WORTHY TO INHERIT YOUR POSITION.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 49,
+      "expected_visible_english": "YOU WANT TO DIE, YET YOU DON'T EVEN HAVE THE COURAGE TO JUMP OFF A CLIFF?",
+      "source": "you WANT TO DIE YET YOU DON'T t EVEN HAVE THE COURAGE TO JUMP OFF A CLIFF?",
+      "selected": "you WANT TO DIE YET YOU DON'T t EVEN HAVE THE COURAGE TO JUMP OFF A CLIFF?",
+      "before": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "t"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 50,
+      "expected_visible_english": "THE MEDICINE HAS FINISHED BREWING, SO TODAY I'LL GO CHECK WHETHER THE SECRET PASSAGE I DISCOVERED BEFORE THE REGRESSION STILL WORKS.",
+      "source": "THE MEDICINE HAS FINISHED BREWING, SO TODAY I'LL GO CHECK WHETHER THE SECRET PASSAGE I DISCOVERED BEFORE THE REGRESSION STILL WORKS.",
+      "selected": "THE MEDICINE HAS FINISHED BREWING, SO TODAY I'LL GO CHECK WHETHER THE SECRET PASSAGE I DISCOVERED BEFORE THE REGRESSION STILL WORKS.",
+      "before": {
+        "expected_words": 21,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 21,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 21,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 21,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 51,
+      "expected_visible_english": "BECAUSE OF SOUL ABSORBING SUPREME DEMON, I ACQUIRED THE BLOOD EYE PURIFICATION WATER QUICKLY,",
+      "source": "BECAUSE OF SOUL ABSORBING SUPREME DEMON, I ACQUIRED THE BLOOD EYE PURIFICATION WATER QUICKLY",
+      "selected": "BECAUSE OF SOUL ABSORBING SUPREME DEMON, I ACQUIRED THE BLOOD EYE PURIFICATION WATER QUICKLY",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 52,
+      "expected_visible_english": "A PITIFUL ORPHAN. I BROUGHT HIM HERE TO TEACH HIM MARTIAL ARTS.",
+      "source": "A PITIFUL ORPHAN. I BROUGHT HIM HERE TO TEACH HIM MARTIAL ARTS.",
+      "selected": "A PITIFUL ORPHAN. I BROUGHT HIM HERE TO TEACH HIM MARTIAL ARTS.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 53,
+      "expected_visible_english": "YOU'VE LIVED WITH SO MUCH BLOOD ON YOUR HANDS, AND YET YOU HOPED FOR A PEACEFUL DEATH?",
+      "source": "YOU'VE LIVED WITH SO MUCH BLOOD ON YOUR HANDS, AND YET YOU HOPED FOR A PEACEFUL DEATH?",
+      "selected": "YOU'VE LIVED WITH SO MUCH BLOOD ON YOUR HANDS, AND YET YOU HOPED FOR A PEACEFUL DEATH?",
+      "before": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 17,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 54,
+      "expected_visible_english": "SO IF SOMEONE HAS TO BEAR THAT GRUDGE,",
+      "source": "SO IF SOMEONE HAS TO BEAR THAT GRUDGE,",
+      "selected": "SO IF SOMEONE HAS TO BEAR THAT GRUDGE,",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 55,
+      "expected_visible_english": "I GUESS I NEED TO SCOLD HIM.",
+      "source": "I GUESS I NEED TO SCOLD HIM.",
+      "selected": "I GUESS I NEED TO SCOLD HIM.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 56,
+      "expected_visible_english": "THIS IS JUST A SMALL GIFT FOR YOU.",
+      "source": "THIS IS JUST A SMALL GIFT FOR YOU.",
+      "selected": "THIS IS JUST A SMALL GIFT FOR YOU.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 57,
+      "expected_visible_english": "IT'S TO SHOW EVERYONE, NOT JUST US, BUT ALSO THE MURIM ALLIANCE AND THE UNORTHODOX ALLIANCE, THAT THE EIGHT DEMON SUPREMES ARE NOT TO BE MESSED WITH.",
+      "source": "IT'S TO SHOW EVERYONE, NOT JUST LS, BUT ALSO THE MURIM ALLIANCE AND THE UNORTHO. DOX ALLIANCE, THAT THE EIGHT DEMON SUPREMES ARE NOT TO BE MESSED WITH.",
+      "selected": "IT'S TO SHOW EVERYONE, NOT JUST US, BUT ALSO THE MURIM ALLIANCE AND THE UNORTHO. DOX ALLIANCE, THAT THE EIGHT DEMON SUPREMES ARE NOT TO BE MESSED WITH.",
+      "before": {
+        "expected_words": 27,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2,
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "us",
+            "actual": "ls"
+          },
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "unortho"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "unorthodox",
+            "actual": "dox"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 27,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1,
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "unortho"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "unorthodox",
+            "actual": "dox"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 27,
+        "word_errors": 3,
+        "edits": [
+          {
+            "expected": "us",
+            "actual": "ls"
+          },
+          {
+            "expected": null,
+            "actual": "unortho"
+          },
+          {
+            "expected": "unorthodox",
+            "actual": "dox"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 27,
+        "word_errors": 2,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "unortho"
+          },
+          {
+            "expected": "unorthodox",
+            "actual": "dox"
+          }
+        ]
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "UNORTHODOX es una palabra partida por guion de fin de renglón; el candidato aún la fragmenta.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 58,
+      "expected_visible_english": "THERE IS ONLY ONE PERSON WHO CAN DO THAT, THE DEMONIC PHYSICIAN.",
+      "source": "THERE IS ONLY ONE PERSON WHO CAN DO THAT, THE DEMONIC PHYSICIAN.",
+      "selected": "THERE IS ONLY ONE PERSON WHO CAN DO THAT, THE DEMONIC PHYSICIAN.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 59,
+      "expected_visible_english": "WELL, OF COURSE. YOU HAVEN'T EATEN FOR THREE WHOLE DAYS.",
+      "source": "WELL, OF COURSE. YOU HAVEN'T EATEN FOR THREE WHOLE DAYS.",
+      "selected": "WELL, OF COURSE. YOU HAVEN'T EATEN FOR THREE WHOLE DAYS.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 60,
+      "expected_visible_english": "HE WAS ONE OF HIS MOST CHERISHED DEMON SUPREMES.",
+      "source": "HE WAS ONE OF HIS MOST CHERISHED DEMON SUPREMES.",
+      "selected": "HE WAS ONE OF HIS MOST CHERISHED DEMON SUPREMES.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 61,
+      "expected_visible_english": "THAT WOULD ACTUALLY WORK IN MY FAVOR.",
+      "source": "THAT WOULD ACTUALLY WORK IN MY FAVOR.",
+      "selected": "THAT WOULD ACTUALLY WORK IN MY FAVOR.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 62,
+      "expected_visible_english": "A MAN WHO CAN KILL A DEMON SUPREME, WHO COULDN'T HE KILL?",
+      "source": "A MAN WHO CAN KILL A DEMON SUPREME WHO COULDN'T HE KILL?",
+      "selected": "A MAN WHO CAN KILL A DEMON SUPREME WHO COULDN'T HE KILL?",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 63,
+      "expected_visible_english": "IF YOU GIVE ME YOUR WORD, THEN I'LL GIVE YOU THIS MANUAL REGARDLESS OF THE OUTCOME.",
+      "source": "IF YOL GIVE ME YOUR WORD, THEN I'LL GIVE YOL THIS MANLAL REGARDLESS OF THE OUTCOME.",
+      "selected": "IF YOU GIVE ME YOUR WORD, THEN I'LL GIVE YOU THIS MANLAL REGARDLESS OF THE OUTCOME.",
+      "before": {
+        "expected_words": 16,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 3
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "manual",
+            "actual": "manlal"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "manual",
+            "actual": "manlal"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 16,
+        "word_errors": 3,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          },
+          {
+            "expected": "you",
+            "actual": "yol"
+          },
+          {
+            "expected": "manual",
+            "actual": "manlal"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "manual",
+            "actual": "manlal"
+          }
+        ]
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "Las dos lecturas YOU se corrigen, pero MANLAL aún no coincide con MANUAL.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 64,
+      "expected_visible_english": "IF HE MIGHT BECOME THE CULT LEADER ONE DAY, I MUST MEET HIM.",
+      "source": "IF HE MIGHT BECOME THE CULT LEADER ONE DAY, I MLST MEET HIM.",
+      "selected": "IF HE MIGHT BECOME THE CULT LEADER ONE DAY, I MLST MEET HIM.",
+      "before": {
+        "expected_words": 13,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "must",
+            "actual": "mlst"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 13,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "must",
+            "actual": "mlst"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 13,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "must",
+            "actual": "mlst"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 13,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "must",
+            "actual": "mlst"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "MUST visible; MLST permanece sin corregir.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 65,
+      "expected_visible_english": "BUT TO MASSACRE AN ENTIRE FAMILY OVER A SINGLE STRIKE? IS THIS REALLY SOMETHING TO ESCALATE THAT FAR?",
+      "source": "BUT TO MASSACRE AN ENTIRE FAMILY OVER A SINGLE STRIKE? IS THIS REALLY SOMETHING TO ESCALATE THAT FAR?",
+      "selected": "BUT TO MASSACRE AN ENTIRE FAMILY OVER A SINGLE STRIKE? IS THIS REALLY SOMETHING TO ESCALATE THAT FAR?",
+      "before": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 66,
+      "expected_visible_english": "THE DEMONIC BUDDHA IS TRYING TO SEND ME AWAY.",
+      "source": "THE DEMONIC BUDDHA IS TRYING TO SEND ME AWAY.",
+      "selected": "THE DEMONIC BUDDHA IS TRYING TO SEND ME AWAY.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 67,
+      "expected_visible_english": "JUST HOW DEEP MUST HIS CULTIVATION BE...?",
+      "source": "JUST HOW DEEP MUST HIS CULTIVATION BE...?",
+      "selected": "JUST HOW DEEP MUST HIS CULTIVATION BE...?",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 68,
+      "expected_visible_english": "MOST PARENTS WANT THEIR CHILDREN TO COME AND ASK THEM QUESTIONS LIKE THIS.",
+      "source": "MOST PARENTS WANT THEIR CHILDREN TO COME AND ASK THEM QUESTIONS LIKE THIS.",
+      "selected": "MOST PARENTS WANT THEIR CHILDREN TO COME AND ASK THEM QUESTIONS LIKE THIS.",
+      "before": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 69,
+      "expected_visible_english": "OTHERS ARE THE SAME. IT CAN'T BE DONE CASUALLY.",
+      "source": "OTHERS ARE THE SAME. IT CAN'T BE DONE CASUALLY.",
+      "selected": "OTHERS ARE THE SAME. IT CAN'T BE DONE CASUALLY.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": true,
+      "text_present": true,
+      "note_es": "Primer renglón toca el borde superior del recorte; texto identificable.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 70,
+      "expected_visible_english": "NO, I SHOULD BE THE ONE THANKING YOU.",
+      "source": "NO, I SHOULD BE THE ONE THANKING YOU.",
+      "selected": "NO, I SHOULD BE THE ONE THANKING YOU.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 71,
+      "expected_visible_english": "THOSE WHO HATE HIM WILL HATE HIM EVEN IF THEY FEAST ON THREE BANQUETS A DAY.",
+      "source": "THOSE WHO HATE HIM WILL HATE HIM EVEN IF THEY FEAST ON THREE BANQUETS A DAY.",
+      "selected": "THOSE WHO HATE HIM WILL HATE HIM EVEN IF THEY FEAST ON THREE BANQUETS A DAY.",
+      "before": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 72,
+      "expected_visible_english": "WHEN AN UNPRECEDENTED FIGURE IS BORN, NOT ONLY IN THE DEMONIC CULT, BUT PERHAPS IN ALL OF THE MURIM.",
+      "source": "WHEN AN LNPRECEDENTED FIGURE IS BORN, NOT ONLY IN THE DEMONIC CULT, BUT PERHAPS IN ALL OF THE MURIM.",
+      "selected": "WHEN AN UNPRECEDENTED FIGURE IS BORN, NOT ONLY IN THE DEMONIC CULT, BUT PERHAPS IN ALL OF THE MURIM.",
+      "before": {
+        "expected_words": 19,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "unprecedented",
+            "actual": "lnprecedented"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 19,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "unprecedented",
+            "actual": "lnprecedented"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "UNPRECEDENTED respaldado por los píxeles.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 73,
+      "expected_visible_english": "YOU THINK SOMEONE OSTRACIZED AMONG THE DEMON SUPREMES CAN BE OF HELP?",
+      "source": "YOL THINK SOMEONE OSTRACIZED AMONG THE DEMON SUPREMES CAN BE OF HELP?",
+      "selected": "YOU THINK SOMEONE OSTRACIZED AMONG THE DEMON SUPREMES CAN BE OF HELP?",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "YOU corregido.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 74,
+      "expected_visible_english": "WHAT KIND OF ADVISOR WEARS SHACKLES LIKE THIS?",
+      "source": "WHAT KIND OF ADVISOR WEARS SHACKLES LIKE THIS?",
+      "selected": "WHAT KIND OF ADVISOR WEARS SHACKLES LIKE THIS?",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 75,
+      "expected_visible_english": "EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!",
+      "source": "EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!",
+      "selected": "EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 76,
+      "expected_visible_english": "I'D RATHER NOT EAT YOUR SOUL, SO JUST COOK NORMALLY.",
+      "source": "I'D RATHER NOT EAT YOUR SOUL, SO : JUST COOK NORMALLY.",
+      "selected": "I'D RATHER NOT EAT YOUR SOUL, SO : JUST COOK NORMALLY.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 77,
+      "expected_visible_english": "A PROPER VILLAIN MUST BE A PROPER, SO I'LL CARRY THE KARMIC BURDEN AND GO TO HELL MYSELF.",
+      "source": "A PROPER VILLAIN MUST BE A PROPER, SO I'LL CARRY THE KARMIC BURDEN AND GO TO HELL MYSELF.",
+      "selected": "A PROPER VILLAIN MUST BE A PROPER, SO I'LL CARRY THE KARMIC BURDEN AND GO TO HELL MYSELF.",
+      "before": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "Se mantiene la redacción visible del inglés, incluso su construcción a proper.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 78,
+      "expected_visible_english": "THAT NEITHER YOU NOR I ARE PEOPLE BLESSED ENOUGH TO HAVE EVERYTHING WITHOUT LETTING GO OF ANYTHING.",
+      "source": "THAT NEITHER YOU NOR I ARE PEOPLE BLESSED ENOUGH TO HAVE EVERYTHING WITHOLT LETTING GO OF ANYTHING.",
+      "selected": "THAT NEITHER YOU NOR I ARE PEOPLE BLESSED ENOUGH TO HAVE EVERYTHING WITHOLT LETTING GO OF ANYTHING.",
+      "before": {
+        "expected_words": 17,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "without",
+            "actual": "witholt"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 17,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "without",
+            "actual": "witholt"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 17,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "without",
+            "actual": "witholt"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 17,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "without",
+            "actual": "witholt"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "WITHOUT visible; el OCR conserva WITHOLT.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 79,
+      "expected_visible_english": "THAT DOESN'T MEAN YOU NEED TO THROW YOUR BODY ON THE LINE FOR ME.",
+      "source": "THAT DOESN'T MEAN YOL NEED TO THROW YOUR BODY ON THE LINE FOR ME.",
+      "selected": "THAT DOESN'T MEAN YOU NEED TO THROW YOUR BODY ON THE LINE FOR ME.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "YOU se corrige y se conserva DOESN'T.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 80,
+      "expected_visible_english": "IF YOU DON'T HAVE INNER ENERGY TO MATCH, YOU CAN NEVER RECEIVE THE DRINK.",
+      "source": "IF YOU DON'T HAVE INNER ENERGY TO MATCH, YOU CAN NEVER RECEIVE THE DRINK.",
+      "selected": "IF YOU DON'T HAVE INNER ENERGY TO MATCH, YOU CAN NEVER RECEIVE THE DRINK.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 81,
+      "expected_visible_english": "IF THE TABLE GETS FLIPPED, WHAT YOU'LL SEE WON'T BE THE TABLE ON THE FLOOR...",
+      "source": "IF THE TABLE GETS FLIPPED, WHAT YOU'LL SEE WON'T BE THE TABLE ON THE FLOOR...",
+      "selected": "IF THE TABLE GETS FLIPPED, WHAT YOU'LL SEE WON'T BE THE TABLE ON THE FLOOR...",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 82,
+      "expected_visible_english": "I DIDN'T KNOW HE'D KILL THE DEMONIC ARMY COMMANDER. I DIDN'T KNOW HE'D KILL THE SOUL ABSORBING SUPREME DEMON.",
+      "source": "I DIDN'T KNOW HE'D KILL THE DEMONIC ARMY COMMANDER. I DIDN'T KNOW HE'D KILL THE SOUL ABSORBING SUPREME DEMON.",
+      "selected": "I DIDN'T KNOW HE'D KILL THE DEMONIC ARMY COMMANDER. I DIDN'T KNOW HE'D KILL THE SOUL ABSORBING SUPREME DEMON.",
+      "before": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 83,
+      "expected_visible_english": "TO THINK YOU'D HAND THIS OVER AT A MOMENT LIKE THIS.",
+      "source": "TO THINK YOU'D HAND THIS OVER AT A MOMENT LIKE THIS.",
+      "selected": "TO THINK YOU'D HAND THIS OVER AT A MOMENT LIKE THIS.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 84,
+      "expected_visible_english": "AND YOU'D BETTER HAVE THAT MYSTERIOUS AURA ACT OF YOURS READY AT THAT TIME.",
+      "source": "AND YOU'D BETTER HAVE THAT MYSTERIOLS AURA ACT OF YOURS READY AT THAT TIME.",
+      "selected": "AND YOU'D BETTER HAVE THAT MYSTERIOUS AURA ACT OF YOURS READY AT THAT TIME.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "mysterious",
+            "actual": "mysteriols"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "mysterious",
+            "actual": "mysteriols"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "MYSTERIOUS respaldado por los píxeles.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 85,
+      "expected_visible_english": "THE SECOND YOUNG MASTER SUSPECTS ME AND CORNERS ME,",
+      "source": "THE SECOND YOUNG MASTER SUSPECTS ME AND CORNERS ME,",
+      "selected": "THE SECOND YOUNG MASTER SUSPECTS ME AND CORNERS ME,",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 86,
+      "expected_visible_english": "I'M GLAD IT SEEMS I EARNED POINTS.",
+      "source": "I'M GLAD IT SEEMS I EARNED POINTS.",
+      "selected": "I'M GLAD IT SEEMS I EARNED POINTS.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 87,
+      "expected_visible_english": "SURE, THOUGH NO SIGNALLING FOR MY ASSASINATION WHENEVER YOU START LOSING.",
+      "source": "SURE, THOUGH NO SIGNALLING FOR MY ASSASINATION WHENEVER YOU START LOSING.",
+      "selected": "SURE, THOUGH NO SIGNALLING FOR MY ASSASINATION WHENEVER YOU START LOSING.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "La imagen escribe ASSASINATION con una sola S en esa sílaba; se conserva la errata visible.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 88,
+      "expected_visible_english": "IT'S NOT TIME YET. THAT'S ALL YOU NEED TO KNOW.",
+      "source": "IT'S NOT TIME YET. THAT'S ALL YOU NEED TO k KNOW.",
+      "selected": "IT'S NOT TIME YET. THAT'S ALL YOU NEED TO k KNOW.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "k"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "k"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "k"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "k"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 89,
+      "expected_visible_english": "HE'S A SOFT OLD MAN BY NATURE.",
+      "source": "HE'S A SOFT OLD MAN BY NATURE.",
+      "selected": "HE'S A SOFT OLD MAN BY NATURE.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 90,
+      "expected_visible_english": "I THOUGHT IT WOULD TAKE AT LEAST SIX MONTHS FOR HIM TO RETURN, SO I DIDN'T EXPECT HIM BACK THIS FAST.",
+      "source": "I THOUGHT IT WOULD 7 TAKE AT LEAST SIX MONTHS FOR HIM TO RETURN, SO I DIDN'T EXPECT HIM BACK THIS FAST.",
+      "selected": "I THOUGHT IT WOULD 7 TAKE AT LEAST SIX MONTHS FOR HIM TO RETURN, SO I DIDN'T EXPECT HIM BACK THIS FAST.",
+      "before": {
+        "expected_words": 21,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "7"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 21,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "7"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 21,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "7"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 21,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "7"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 91,
+      "expected_visible_english": "YOU'RE THE KIND OF PEOPLE WHO TREAT OTHER LIVES LIKE FLIES, YET CLING DESPERATELY TO THEIR OWN LIVES AS IF THEY'RE PRICELESS.",
+      "source": "YOU'RE THE KIND OF PEOPLE WHO TREAT OTHER LIVES LIKE FLIES, YET CLING DESPERATELY TO THEIR OWN LIVES AS IF THEY'RE PRICELESS.",
+      "selected": "YOU'RE THE KIND OF PEOPLE WHO TREAT OTHER LIVES LIKE FLIES, YET CLING DESPERATELY TO THEIR OWN LIVES AS IF THEY'RE PRICELESS.",
+      "before": {
+        "expected_words": 22,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 22,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 22,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 22,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 92,
+      "expected_visible_english": "SEEING HOW MUCH YOUR MARTIAL ARTS HAVE IMPROVED MAKES ME HAPPY.",
+      "source": "SEEING HOW MUCH YOUR MARTIAL ARTS HAVE IMPROVED MAKES ME HAPPY.",
+      "selected": "SEEING HOW MUCH YOUR MARTIAL ARTS HAVE IMPROVED MAKES ME HAPPY.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 93,
+      "expected_visible_english": "SHE HAS FALLEN INTO A STATE OF TRANSCENDENCE TRANCE.",
+      "source": "SHE HAS FALLEN INTO A STATE OF TRANSCENDENCE TRANCE.",
+      "selected": "SHE HAS FALLEN INTO A STATE OF TRANSCENDENCE TRANCE.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 94,
+      "expected_visible_english": "THEN OUR OPPONENT IS SIX. NO MATTER HOW CLEVER YOU ARE, THIS WILL BE DIFFICULT.",
+      "source": "THEN OUR OPPONENT IS SIX. NO MATTER HOW CLEVER YOL ARE, THIS WILL BE DIFFICULT.",
+      "selected": "THEN OUR OPPONENT IS SIX. NO MATTER HOW CLEVER YOL ARE, THIS WILL BE DIFFICULT.",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 15,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 15,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 95,
+      "expected_visible_english": "THEN WHO WILL YOU TRULY GIVE THE FIRST SUPREME DEMON POSITION TO?",
+      "source": "THEN WHO WILL YOU TRULY GIVE THE FIRST SUPREME DEMON POSITION TO?",
+      "selected": "THEN WHO WILL YOU TRULY GIVE THE FIRST SUPREME DEMON POSITION TO?",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 96,
+      "expected_visible_english": "THAT YOU CAN'T POSSIBLY MATCH THESE CLEVER PEOPLE.",
+      "source": "THAT YOU CAN'T POSSIBLY MATCH THESE CLEVER PEOPLE.",
+      "selected": "THAT YOU CAN'T POSSIBLY MATCH THESE CLEVER PEOPLE.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 97,
+      "expected_visible_english": "IN THE SPACE-TIME TRANSFERENCE ILLUSION ART, IS IT POSSIBLE TO MAKE TIME FLOW DIFFERENTLY INSIDE THAN IN REALITY?",
+      "source": "IN THE SPACE-TIME TRANSFERENCE ILLUSION ART, IS IT POSSIBLE TO MAKE TIME FLOW DIFFERENTLY INSIDE THAN IN REALITY?",
+      "selected": "IN THE SPACE-TIME TRANSFERENCE ILLUSION ART, IS IT POSSIBLE TO MAKE TIME FLOW DIFFERENTLY INSIDE THAN IN REALITY?",
+      "before": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 98,
+      "expected_visible_english": "HE DOESN'T EVEN ASK WHY I'VE COME AGAIN WHEN WE JUST MET.",
+      "source": "HE DOESN'T EVEN ASK WHY I'VE COME AGAIN WHEN WE TUST MET.",
+      "selected": "HE DOESN'T EVEN ASK WHY I'VE COME AGAIN WHEN WE TUST MET.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "just",
+            "actual": "tust"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "just",
+            "actual": "tust"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "just",
+            "actual": "tust"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "just",
+            "actual": "tust"
+          }
+        ]
+      },
+      "edge_clipped": true,
+      "text_present": true,
+      "note_es": "Último renglón parcialmente cortado por debajo; palabras identificables.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 99,
+      "expected_visible_english": "I'M STARTING TO THINK THAT THERE IS HOPE FOR US TOO.",
+      "source": "I'M STARTING TO THINK THAT THERE IS HOPE FOR US TOO.",
+      "selected": "I'M STARTING TO THINK THAT THERE IS HOPE FOR US TOO.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 100,
+      "expected_visible_english": "SECOND YOUNG MASTER, WHY HAVE YOU COME TO SEE ME?",
+      "source": "SECOND YOUNG MASTER, WHY HAVE COME TO SEE ME?",
+      "selected": "SECOND YOUNG MASTER, WHY HAVE YOU COME TO SEE ME?",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "YOU está visible entre HAVE y COME.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 101,
+      "expected_visible_english": "I WAS GOING TO INFORM MASTER IF I HEARD ANY SOUNDS OF FIGHTING.",
+      "source": "I WAS (cid:) GOING TO INFORM MASTER IF I HEARD ANY SOUNDS SICUT",
+      "selected": "I WAS (cid:) GOING TO INFORM MASTER IF I HEARD ANY SOUNDS SICUT",
+      "before": {
+        "expected_words": 13,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1,
+          "omitted_word": 1,
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "cid"
+          },
+          {
+            "kind": "omitted_word",
+            "expected": "of",
+            "actual": null
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "fighting",
+            "actual": "sicut"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 13,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1,
+          "omitted_word": 1,
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "cid"
+          },
+          {
+            "kind": "omitted_word",
+            "expected": "of",
+            "actual": null
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "fighting",
+            "actual": "sicut"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 13,
+        "word_errors": 3,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "cid"
+          },
+          {
+            "expected": "of",
+            "actual": null
+          },
+          {
+            "expected": "fighting",
+            "actual": "sicut"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 13,
+        "word_errors": 3,
+        "edits": [
+          {
+            "expected": null,
+            "actual": "cid"
+          },
+          {
+            "expected": "of",
+            "actual": null
+          },
+          {
+            "expected": "fighting",
+            "actual": "sicut"
+          }
+        ]
+      },
+      "edge_clipped": true,
+      "text_present": true,
+      "note_es": "Última línea parcialmente cortada; OF FIGHTING es identificable.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 102,
+      "expected_visible_english": "TODAY, I MET THE EVIL SMILING DEMON.",
+      "source": "TODAY, I MET THE EVIL SMILING DEMON.",
+      "selected": "TODAY, I MET THE EVIL SMILING DEMON.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 103,
+      "expected_visible_english": "BUT... HE SEEMED ANGRY. WILL IT BE OKAY?",
+      "source": "BUT... HE SEEMED ANGRY. WILL IT BE OKAY?",
+      "selected": "BUT... HE SEEMED ANGRY. WILL IT BE OKAY?",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 104,
+      "expected_visible_english": "IF YOU'RE FINISHED SPEAKING, PLEASE HEAD OUT. IT'S TIME FOR MY MEAL.",
+      "source": "IF YOU'RE FINISHED SPEAKING, PLEASE HEAD OUT. IT'S TIME FOR MY MEAL.",
+      "selected": "IF YOU'RE FINISHED SPEAKING, PLEASE HEAD OUT. IT'S TIME FOR MY MEAL.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 105,
+      "expected_visible_english": "BUT THERE IS MEANING IN THE FACT THAT HE MADE THAT PROMISE AT ALL.",
+      "source": "BUT THERE IS MEANING IN THE FACT THAT HE MADE THAT PROMISE AT ALL.",
+      "selected": "BUT THERE IS MEANING IN THE FACT THAT HE MADE THAT PROMISE AT ALL.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 106,
+      "expected_visible_english": "SINCE THE FLATTERY'S BEEN CAUGHT, I'LL ADD ONE MORE.",
+      "source": "SINCE THE FLATTERY'S BEEN CALGHT. I'LL ADD ONE MORE.",
+      "selected": "SINCE THE FLATTERY'S BEEN CAUGHT. I'LL ADD ONE MORE.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "caught",
+            "actual": "calght"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "caught",
+            "actual": "calght"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": null,
+      "text_present": true,
+      "note_es": "CAUGHT respaldado por los píxeles.",
+      "transcription_reused_from_previously_inspected_identical_pixels": true
+    },
+    {
+      "id": 107,
+      "expected_visible_english": "NO MATTER HOW MUCH OF A MARTIAL MASTER ONE IS, NO ONE CAN ESCAPE AGING.",
+      "source": "NO MATTER HOW MUCH OF A MARTIAL MASTER ONE IS, NO ONE CAN ESCAPE AGING.",
+      "selected": "NO MATTER HOW MUCH OF A MARTIAL MASTER ONE IS, NO ONE CAN ESCAPE AGING.",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 108,
+      "expected_visible_english": "SINCE YOU GAVE IT TO ME, OF COURSE I HAD TO BRING IT.",
+      "source": "SINCE YOU GAVE IT TO ME, OF COURSE I HAD TO BRING IT.",
+      "selected": "SINCE YOU GAVE IT TO ME, OF COURSE I HAD TO BRING IT.",
+      "before": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 109,
+      "expected_visible_english": "REALLY? HE CAN REMEMBER ALL THAT AND WHAT'S BEEN TOLD TO HIM? THE EVIL SMILING DEMON IS TRULY THAT CAPABLE?",
+      "source": "REALLY? HE CAN REMEMBER ALL THAT AND WHAT'S BEEN TOLD TO HIM? THE EVIL SMILING DEMON IS TRULY THAT CAPABLE?",
+      "selected": "REALLY? HE CAN REMEMBER ALL THAT AND WHAT'S BEEN TOLD TO HIM? THE EVIL SMILING DEMON IS TRULY THAT CAPABLE?",
+      "before": {
+        "expected_words": 20,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 20,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 20,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 20,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 110,
+      "expected_visible_english": "IF YOU'RE SCARED, YOU CAN ALL ATTACK ME TOGETHER.",
+      "source": "IF YOU'RE SCARED, YOU CAN ALL ATTACK ME TOGETHER.",
+      "selected": "IF YOU'RE SCARED, YOU CAN ALL ATTACK ME TOGETHER.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 111,
+      "expected_visible_english": "WHAT KIND OF FOOL IN THIS WORLD",
+      "source": "WHAT KIND OF FOOL IN THIS WORLD",
+      "selected": "WHAT KIND OF FOOL IN THIS WORLD",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "Fragmento visible sin completar contenido fuera del recorte.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 112,
+      "expected_visible_english": "SMILING DEMON AND I WILL HELP UNCOVER WHO IS BEHIND THIS.",
+      "source": "SMILING DEMON AND I WILL HELP UNCOVER WHO IS BEHIND THIS.",
+      "selected": "SMILING DEMON AND I WILL HELP UNCOVER WHO IS BEHIND THIS.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 113,
+      "expected_visible_english": "DO YOU THINK IT'S BECAUSE OF MY BODYGUARD?",
+      "source": "DO YOU THINK IT'S BECALSE OF MY BODYGUARD?",
+      "selected": "DO YOU THINK IT'S BECALSE OF MY BODYGUARD?",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "because",
+            "actual": "becalse"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "because",
+            "actual": "becalse"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "because",
+            "actual": "becalse"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "because",
+            "actual": "becalse"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 114,
+      "expected_visible_english": "THE ABSENCE OF WARRIOR LEE AHN IS ESPECIALLY FELT. THE THREE OF US ALWAYS DRANK TOGETHER...",
+      "source": "THE ABSENCE OF WARRIOR LEE AHN IS ESPECIALLY FELT. THE THREE OF LS ALWAYS DRANK TOGETHER..",
+      "selected": "THE ABSENCE OF WARRIOR LEE AHN IS ESPECIALLY FELT. THE THREE OF LS ALWAYS DRANK TOGETHER..",
+      "before": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "us",
+            "actual": "ls"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "us",
+            "actual": "ls"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "us",
+            "actual": "ls"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "us",
+            "actual": "ls"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 115,
+      "expected_visible_english": "THERE IS NOTHING MORE TO SEE OF MY WORLD. THIS IS ABOUT IT.",
+      "source": "THERE IS NOTHING MORE TO SEE OF MY WORLD. THIS IS ABOUT IT.",
+      "selected": "THERE IS NOTHING MORE TO SEE OF MY WORLD. THIS IS ABOUT IT.",
+      "before": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 116,
+      "expected_visible_english": "IF A WAR BREAKS OUT LIKE THIS, WON'T THEY BE IN DANGER TOO?",
+      "source": "IF A WAR BREAKS OUT LIKE THIS, WON'T THEY BE IN DANGER TOO?",
+      "selected": "IF A WAR BREAKS OUT LIKE THIS, WON'T THEY BE IN DANGER TOO?",
+      "before": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 13,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 117,
+      "expected_visible_english": "THE PERSON BEHIND THIS MUST BE NO ORDINARY INDIVIDUAL.",
+      "source": "THE PERSON BEHIND THIS MUST BE NO ORDINARY INDIVIDUAL.",
+      "selected": "THE PERSON BEHIND THIS MUST BE NO ORDINARY INDIVIDUAL.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 118,
+      "expected_visible_english": "WATCHING MY SKILLS AGAINST THE ASSASSINS MUST HAVE FILLED HIM WITH A DESIRE TO FIGHT ME.",
+      "source": "WATCHING MY SKILLS AGAINST THE ASSASSINS MUST HAVE FILLED HIM WITH A DESIRE TO FIGHT ME.",
+      "selected": "WATCHING MY SKILLS AGAINST THE ASSASSINS MUST HAVE FILLED HIM WITH A DESIRE TO FIGHT ME.",
+      "before": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 119,
+      "expected_visible_english": "ARE YOU GOING TO LOSE TWICE IN ONE DAY?",
+      "source": "ARE YOU GOING TO LOSE TWICE IN ONE DAY?",
+      "selected": "ARE YOU GOING TO LOSE TWICE IN ONE DAY?",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 120,
+      "expected_visible_english": "PRECISELY. THE BLACK ASSASSIN LEADER MUST BE CLEANING UP HIS ORGANIZATION.",
+      "source": "PRECISELY. THE BLACK ASSASSIN LEADER MUSTE BE CLEANING UP HIS ORGANIZATION.",
+      "selected": "PRECISELY. THE BLACK ASSASSIN LEADER MUSTE BE CLEANING UP HIS ORGANIZATION.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "must",
+            "actual": "muste"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "must",
+            "actual": "muste"
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 11,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "must",
+            "actual": "muste"
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 11,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "must",
+            "actual": "muste"
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 121,
+      "expected_visible_english": "HE WAS THE LEADER OF THE GHOST HAND SQUAD, THE ELITE UNIT OF THE UNORTHODOX ALLIANCE, AND THE MOST PROMINENT MARTIAL MASTER IN THE UNORTHODOX ALLIANCE.",
+      "source": "HE WAS THE LEADER OF THE GHOST HAND SQUAD, THE ELITE UNIT OF THE UNORTHODOX ALLIANCE, AND THE MOST PROMINENT MARTIAL MASTER IN THE UNORTHODOX ALLIANCE.",
+      "selected": "HE WAS THE LEADER OF THE GHOST HAND SQUAD, THE ELITE UNIT OF THE UNORTHODOX ALLIANCE, AND THE MOST PROMINENT MARTIAL MASTER IN THE UNORTHODOX ALLIANCE.",
+      "before": {
+        "expected_words": 26,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 26,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 26,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 26,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 122,
+      "expected_visible_english": "TO THINK YOU WOULD COMMIT BETRAYAL, SIXTH WOLF...!",
+      "source": "TO THINK WOULD COMMIT BETRAYAL, SIXTH WOLF...!",
+      "selected": "TO THINK WOULD COMMIT BETRAYAL, SIXTH WOLF...!",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "before_strict": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "after_strict": {
+        "expected_words": 8,
+        "word_errors": 1,
+        "edits": [
+          {
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "YOU visible y omitido.",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 123,
+      "expected_visible_english": "THE TESTIMONY OF SIX OF THE UNORTHODOX THIRTEEN WOLVES REPRESENTING THE UNORTHODOX ALLIANCE WON'T BE SUFFICIENT?",
+      "source": "THE TESTIMONY OF SIX OF THE UNORTHODOX THIRTEEN WOLVES REPRESENTING THE UNORTHODOX ALLIANCE WON'T BE SUFFICIENT?",
+      "selected": "THE TESTIMONY OF SIX OF THE UNORTHODOX THIRTEEN WOLVES REPRESENTING THE UNORTHODOX ALLIANCE WON'T BE SUFFICIENT?",
+      "before": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 16,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    },
+    {
+      "id": 124,
+      "expected_visible_english": "BUT THAT'S IT. THERE IS NOTHING ELSE.",
+      "source": "BUT THAT'S IT. THERE IS NOTHING ELSE.",
+      "selected": "BUT THAT'S IT. THERE IS NOTHING ELSE.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "before_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "after_strict": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "edits": []
+      },
+      "edge_clipped": false,
+      "text_present": true,
+      "note_es": "",
+      "transcription_reused_from_previously_inspected_identical_pixels": false
+    }
+  ],
+  "negative_control_crops_without_dialogue": 1,
+  "manual_sha256": "271fe807285a076d0bacd98fae84e94f99b50c6faa7ace6d992a14b409081d85",
+  "source_sample_sha256": "98db1286c7ce907d68a4d135f7904f64d75a19ae0283bc0c07c8989733048153",
+  "previous_review_sha256": "d94b014a87d0dc193754415a2a56f64fe1e20b665751521cb98dd7511fa64ada",
+  "native_output_sha256": "72a54742c61b604cc4ad10233980e978bec9e22ae78a7fbef4e020c922e4c86e",
+  "candidate_provenance_sha256": "3ab03905f4ceeaaab716124ccd7b073ff21437f1aba0251236ebb324dfbb0ba4",
+  "internal_apostrophes_preserved": true,
+  "meanings_of_spanish_outputs_reviewed": false,
+  "transcription_supplied_to_policy": false,
+  "application_modified": false,
+  "model_weights_changed": false,
+  "all_chapter_words_visually_reviewed": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false
+}

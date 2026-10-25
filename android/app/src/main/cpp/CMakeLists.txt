@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.18)
+project(luma_local LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+get_filename_component(LUMA_NATIVE "${CMAKE_CURRENT_SOURCE_DIR}/../../../../../native" ABSOLUTE)
+add_library(luma_local SHARED local_translation_jni.cpp "${LUMA_NATIVE}/local_translation.cpp")
+target_include_directories(luma_local PRIVATE "${LUMA_NATIVE}" "${LUMA_NATIVE}/third_party/json" "${LUMA_NATIVE}/third_party/onnxruntime/include")
+target_link_libraries(luma_local PRIVATE dl android)
+target_link_options(luma_local PRIVATE "-Wl,-z,max-page-size=16384")

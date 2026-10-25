@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "confirmed_by_user": "2026-10-24",
+  "platform_priority": "windows",
+  "android_apk_priority": "after_translation_quality",
+  "target_failure_probability_strictly_below": 0.05,
+  "measurement_unit": "one_complete_screen_translation_attempt",
+  "primary_failure": "Any omitted dialogue or narration content, including text never detected by OCR",
+  "other_failures": ["Incorrect meaning", "Unwanted blocking", "Crash", "Unable to complete translation"],
+  "verbatim_allowed": "Sound effects and onomatopoeia such as sniff can remain unchanged; their unchanged spelling is not itself a failure",
+  "sound_effect_classification": "Judge the original visual context; a sound word inside spoken dialogue is not automatically exempt",
+  "proper_names": "Do not require translating names, but preserve their presence and identity in dialogue",
+  "translation_equivalence": "Preserve every meaningful element; grammatical changes needed for natural Spanish are allowed",
+  "screen_pass_requires": "Original visible text inventory and the entire output visually reviewed on the same frozen Windows build",
+  "partial_region_reviews_can_approve_a_screen": false,
+  "automatic_processing_can_approve_a_screen": false,
+  "all_word_review_complete": false,
+  "current_screen_attempt_failure_probability": null,
+  "target_achieved": false
+}

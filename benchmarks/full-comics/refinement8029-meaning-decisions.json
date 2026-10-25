@@ -1,0 +1,21 @@
+{
+  "scope": "All seven changed physical locations in the frozen refinement diagnostic; no population accuracy estimate",
+  "original_english_and_olympus_pixels_inspected": true,
+  "reference_alignments_visually_verified": true,
+  "all_chapter_words_visually_reviewed": false,
+  "entries": [
+    {"id":1,"before":"incorrect","after":"acceptable","ocr_word_corrected":true,"note":"Se corrige la lectura de la alianza y se conservan la separación entre las dos alianzas, la condición y la negación final."},
+    {"id":2,"before":"incorrect","after":"acceptable","ocr_word_corrected":true,"note":"Se corrige la lectura de la alianza y se conserva que la apaciguaron mediante una restricción a la persona indicada."},
+    {"id":3,"before":"incomplete","after":"incomplete","ocr_word_corrected":true,"note":"La palabra corregida mejora la primera oración, pero sigue faltando la segunda afirmación visible sobre la capacidad de dos maestros."},
+    {"id":4,"before":"incorrect","after":"incorrect","ocr_word_corrected":true,"note":"Se corrige la alianza, pero permanece otro error de reconocimiento en el verbo y su traducción resulta defectuosa. Esta ubicación se solapa con la vista fija modificada."},
+    {"id":5,"before":"incorrect","after":"incorrect","ocr_word_corrected":true,"note":"Se corrige la alianza, pero el traductor sigue interpretando un verbo de acusación como una acción de enmarcar."},
+    {"id":6,"before":"incomplete","after":"incomplete","ocr_word_corrected":true,"note":"El fragmento corregido conserva el cargo dentro de la alianza, pero los originales y Olympus muestran un globo más amplio sobre dinero y nueva identidad. No se aprueba el globo completo."},
+    {"id":7,"before":"incomplete","after":"acceptable","ocr_word_corrected":false,"note":"Se recupera la pregunta inicial de confirmación y permanece la pregunta sobre la muerte del investigador anterior."}
+  ],
+  "fixed_changed_view": {"id":111,"after":"incorrect","note":"Se corrige una palabra, pero permanece el reconocimiento defectuoso del verbo. La mejora parcial no aprueba la ubicación completa."},
+  "complete_corrections":3,
+  "partial_improvements_with_residual_errors":4,
+  "new_complete_region_regressions":0,
+  "not_added_to_fixed_viewport_counts":true,
+  "manual_or_reference_answers_supplied_to_app":false
+}

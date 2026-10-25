@@ -1,0 +1,1200 @@
+{
+  "schema": 1,
+  "build": "803001",
+  "baseline_build": "802901",
+  "viewports": 124,
+  "native_regions": 229,
+  "entries": [
+    {
+      "id": 1,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 2,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 4,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 5,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 6,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 7,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 8,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 10,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 12,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 13,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 14,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 15,
+      "before": "needs_review",
+      "after": "needs_review",
+      "historical_baseline": "needs_review",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 16,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 17,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 18,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 26,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 29,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 31,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 32,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 33,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 35,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 38,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 39,
+      "before": "needs_review",
+      "after": "needs_review",
+      "historical_baseline": "needs_review",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 40,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 43,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 48,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 49,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 50,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 51,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 52,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 53,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 55,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 56,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 58,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 59,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 61,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 62,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 63,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 65,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 66,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 69,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 70,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 71,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 72,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 74,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 77,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 78,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 79,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 80,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 81,
+      "before": "needs_review",
+      "after": "needs_review",
+      "historical_baseline": "needs_review",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 84,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 85,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 86,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 87,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 88,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 91,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 92,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 94,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 95,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 96,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 98,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 100,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 101,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 102,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 103,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 105,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 107,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 108,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 109,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 110,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "note": "Se corrige una palabra, pero permanece el reconocimiento defectuoso del verbo. La mejora parcial no aprueba la ubicación completa.",
+      "new_complete_location_meaning_reviewed": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 113,
+      "before": "incomplete",
+      "after": "incomplete",
+      "historical_baseline": "incomplete",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 115,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 116,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 117,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 118,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 119,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 120,
+      "before": "clipped",
+      "after": "clipped",
+      "historical_baseline": "clipped",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 122,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 123,
+      "before": "acceptable",
+      "after": "acceptable",
+      "historical_baseline": "acceptable",
+      "visible_dialogue_clipped": false,
+      "same_complete_location_output_judgment_reused": true
+    },
+    {
+      "id": 124,
+      "before": "incorrect",
+      "after": "incorrect",
+      "historical_baseline": "incorrect",
+      "visible_dialogue_clipped": true,
+      "same_complete_location_output_judgment_reused": true
+    }
+  ],
+  "cohorts": {
+    "all124_fixed_reading_viewports": {
+      "viewports": 124,
+      "before_categories": {
+        "incomplete": 19,
+        "acceptable": 68,
+        "incorrect": 23,
+        "clipped": 11,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 19,
+        "acceptable": 68,
+        "incorrect": 23,
+        "clipped": 11,
+        "needs_review": 3
+      },
+      "before_not_approved": 56,
+      "after_not_approved": 56,
+      "corrected": 0,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 0.0
+    },
+    "no_visible_dialogue_clipped": {
+      "viewports": 107,
+      "before_categories": {
+        "incomplete": 17,
+        "acceptable": 68,
+        "incorrect": 19,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 17,
+        "acceptable": 68,
+        "incorrect": 19,
+        "needs_review": 3
+      },
+      "before_not_approved": 39,
+      "after_not_approved": 39,
+      "corrected": 0,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 0.0
+    }
+  },
+  "historical_baseline_comparison": {
+    "build": "801901",
+    "cohorts": {
+      "all124_fixed_reading_viewports": {
+        "viewports": 124,
+        "before_categories": {
+          "incomplete": 19,
+          "acceptable": 62,
+          "incorrect": 31,
+          "clipped": 9,
+          "needs_review": 3
+        },
+        "after_categories": {
+          "incomplete": 19,
+          "acceptable": 68,
+          "incorrect": 23,
+          "clipped": 11,
+          "needs_review": 3
+        },
+        "before_not_approved": 62,
+        "after_not_approved": 56,
+        "corrected": 6,
+        "regressed": 0,
+        "relative_unapproved_reduction_percent": 9.67741935483871
+      },
+      "no_visible_dialogue_clipped": {
+        "viewports": 107,
+        "before_categories": {
+          "incomplete": 16,
+          "acceptable": 62,
+          "incorrect": 26,
+          "needs_review": 3
+        },
+        "after_categories": {
+          "incomplete": 17,
+          "acceptable": 68,
+          "incorrect": 19,
+          "needs_review": 3
+        },
+        "before_not_approved": 45,
+        "after_not_approved": 39,
+        "corrected": 6,
+        "regressed": 0,
+        "relative_unapproved_reduction_percent": 13.333333333333334
+      }
+    }
+  },
+  "dialogue_ocr": {
+    "all124_fixed_reading_viewports": {
+      "before": {
+        "viewports": 124,
+        "expected_dialogue_words": 2265,
+        "word_errors": 44,
+        "word_error_rate_percent": 1.9426048565121412,
+        "viewports_with_word_errors": 21,
+        "alignment_edit_categories": {
+          "substituted_word": 19,
+          "alignment_deleted_word": 24,
+          "inserted_word": 1
+        }
+      },
+      "after": {
+        "viewports": 124,
+        "expected_dialogue_words": 2265,
+        "word_errors": 44,
+        "word_error_rate_percent": 1.9426048565121412,
+        "viewports_with_word_errors": 21,
+        "alignment_edit_categories": {
+          "substituted_word": 19,
+          "alignment_deleted_word": 24,
+          "inserted_word": 1
+        }
+      }
+    },
+    "no_visible_dialogue_clipped": {
+      "before": {
+        "viewports": 107,
+        "expected_dialogue_words": 1867,
+        "word_errors": 27,
+        "word_error_rate_percent": 1.44617032672737,
+        "viewports_with_word_errors": 13,
+        "alignment_edit_categories": {
+          "substituted_word": 16,
+          "alignment_deleted_word": 10,
+          "inserted_word": 1
+        }
+      },
+      "after": {
+        "viewports": 107,
+        "expected_dialogue_words": 1867,
+        "word_errors": 27,
+        "word_error_rate_percent": 1.44617032672737,
+        "viewports_with_word_errors": 13,
+        "alignment_edit_categories": {
+          "substituted_word": 16,
+          "alignment_deleted_word": 10,
+          "inserted_word": 1
+        }
+      }
+    }
+  },
+  "tail_diagnostic": {
+    "source_reports_scanned": 124,
+    "nonpromotional_rows_scanned": 15879,
+    "candidates": 98,
+    "candidates_without_automatic_alert": 84,
+    "initial_changed_regions": 11,
+    "accepted_changed_regions": 10,
+    "complete_corrections": 6,
+    "partial_improvements_with_residual_errors": 4,
+    "rejected_additions": 1,
+    "new_complete_region_regressions_observed": 0,
+    "added_clauses_with_residual_grammar_defects": 2,
+    "initial_diagnostic_before_not_approved": 11,
+    "initial_diagnostic_after_not_approved": 5,
+    "all_changed_original_and_olympus_pixels_inspected": true,
+    "all_changed_meanings_reviewed": true,
+    "diagnostic_selection_not_population_estimate": true,
+    "counts_not_added_to_fixed_views_or_previous_diagnostics": true
+  },
+  "actual_native_output_records": 334,
+  "actual_native_trial_output_records": 294,
+  "fixed_complete_location_judgments_reused_by_identity": 124,
+  "previous_diagnostic_judgments_reused_by_identity": 7,
+  "fresh_native_ocr": false,
+  "fresh_translation_inference": true,
+  "fresh_screen_capture": false,
+  "model_weights_trained": false,
+  "normal_live_worker_uses_same_tail_rule": true,
+  "reference_or_manual_answers_supplied_to_app": false,
+  "native_tail_guards": {
+    "application_enabled": false,
+    "guards": 18,
+    "success": true
+  },
+  "previous_review_sha256": "ed8362109b5592008dd291b268d0a6133ad23e0f9bc482daefae8a0f9086ba54",
+  "snapshot_sha256": "c0bfc1eef3b732ea14fe5109449d27873c924e0f21f9afb4d62bc1da5aacd5b4",
+  "native_summary_sha256": "3e39a6beac6d147a3d2dd4ec212a269734dc85ed5834c15f0fac8281a57da745",
+  "native_provenance_sha256": "0159cb2cf82cd8fc3f7d1938026ed03f5c440718640e5bf5b9336116e039ce1d",
+  "fixed_output_sha256": "fb8bb954bebe6103bb598f561b413fdad84b25693bbb3990e9325582c47ba87d",
+  "previous_diagnostic_output_sha256": "6680918a27b7e53dd718c712c2d8a1eaf93099ba510283341e14a1c2f5bbd059",
+  "tail_output_sha256": "28e694a9d2424cb282afe21ac74c4c30cb3ca8693be44dd29c1dceae13c931ef",
+  "native_changes_sha256": "ccde835d60635eb3907557e777e988377d5eb82ab86ac46b246d50dc68d2c09c",
+  "decisions_sha256": "b5c4a03500ddeb74f2f10be7d00d6dba8995af7834d033bffaa00d14d636c773",
+  "runtime_checks_sha256": "c3e6cf317a4dd1a4016c08a2bf31e0f4e2770e2ba089c5b33ae7350dbbf88203",
+  "original_and_olympus_review_sample_sha256": "a3b24d4565e8931ea247e8fae584c0fe79baf4f10eb57dc6912a835a7d619458",
+  "native_paint_provenance_sha256": "1515bfc6286ca0f618ea9fd25f2c88d7699d32ff6694c10f39460d9f4cd1b3a2",
+  "native_paint_manual_review_sha256": "e14a67abaf55144b4de02961540f4f86cb5e8007716d1e70a143578f18114e28",
+  "all_chapter_words_visually_reviewed": false,
+  "complete_live_app_use_including_capture_and_movement": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "ready_for_release": false
+}

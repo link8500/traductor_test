@@ -1,0 +1,622 @@
+[
+  [
+    1,
+    "incomplete",
+    "EXACTLY emphasis remains omitted."
+  ],
+  [
+    2,
+    "acceptable",
+    "Challenge, daring to interfere and inference of confidence retained; Spanish grammar is rough."
+  ],
+  [
+    3,
+    "acceptable",
+    "Debt caused by gambling addiction retained."
+  ],
+  [
+    4,
+    "incorrect",
+    "FUR becomes skin rather than stiff fur; body and boar retained."
+  ],
+  [
+    5,
+    "acceptable",
+    "Sudden unexplained training and additional multi-day surprise retained."
+  ],
+  [
+    6,
+    "incomplete",
+    "BLOOD is omitted from title and bladesman title changes."
+  ],
+  [
+    7,
+    "acceptable",
+    "Self-punishment as requirement for survival retained."
+  ],
+  [
+    8,
+    "acceptable",
+    "Terrible place, rhetorical degree and forced stay retained."
+  ],
+  [
+    9,
+    "acceptable",
+    "Previously absent powerful bodily strength retained."
+  ],
+  [
+    10,
+    "acceptable",
+    "First real battle since regression retained."
+  ],
+  [
+    11,
+    "acceptable",
+    "Appointment prerequisite for meeting retained."
+  ],
+  [
+    12,
+    "incorrect",
+    "INUSPICIOUS becomes merely unsuitable; ominous implication lost."
+  ],
+  [
+    13,
+    "incorrect",
+    "COVERED IT ALL UP becomes helping overcome obstacles; independent of clipped opening."
+  ],
+  [
+    14,
+    "acceptable",
+    "Army books, assassination logs, banknote value and discovery in commander's home retained across split output."
+  ],
+  [
+    15,
+    "acceptable",
+    "Rhetorical ignorance, dead commander and question retained."
+  ],
+  [
+    16,
+    "acceptable",
+    "Honesty about relationship with brother retained."
+  ],
+  [
+    17,
+    "acceptable",
+    "Beautiful-woman statue replacing demon statue retained."
+  ],
+  [
+    18,
+    "acceptable",
+    "Created conflict, THEN and responsibility retained."
+  ],
+  [
+    19,
+    "incorrect",
+    "Unique Heavenly Demon becomes plural celestial demons."
+  ],
+  [
+    20,
+    "incorrect",
+    "HE becomes ELLA, changing speaker's identified poisoner."
+  ],
+  [
+    21,
+    "acceptable",
+    "Good judgment of people retained."
+  ],
+  [
+    22,
+    "incorrect",
+    "Existing subordinate recruitment becomes obligation to recruit (DEBE), changing rhetorical fact."
+  ],
+  [
+    23,
+    "acceptable",
+    "Question, father-child relationships, attack and hundred-sword title retained."
+  ],
+  [
+    24,
+    "incomplete",
+    "PAVILION remains English within the institution name."
+  ],
+  [
+    25,
+    "acceptable",
+    "Threat to sister's safety retained."
+  ],
+  [
+    26,
+    "clipped",
+    "Visible general punishment and heavenly pavilion clause retained; source continuation cut."
+  ],
+  [
+    27,
+    "acceptable",
+    "Concessive gratitude for high opinion retained despite malformed Spanish prepositions."
+  ],
+  [
+    28,
+    "incomplete",
+    "BLADE missing from Southern Blade House title."
+  ],
+  [
+    29,
+    "acceptable",
+    "Intention, getting to work and making him commander retained."
+  ],
+  [
+    30,
+    "acceptable",
+    "Already supporting second son and considering first son's feelings retained."
+  ],
+  [
+    31,
+    "incomplete",
+    "NATURALLY expected remains reduced to generic expectation."
+  ],
+  [
+    32,
+    "acceptable",
+    "Essential support as enabling cause retained; non-dialogue false detection also translated."
+  ],
+  [
+    33,
+    "needs_review",
+    "NASTIES rendered as problematic things; person-versus-thing referent needs fuller context."
+  ],
+  [
+    34,
+    "acceptable",
+    "Forced handover, even and divine heavenly pill retained."
+  ],
+  [
+    35,
+    "incomplete",
+    "HEAVENLY omitted from pill title."
+  ],
+  [
+    36,
+    "incorrect",
+    "Surprised question becomes declarative statement."
+  ],
+  [
+    37,
+    "acceptable",
+    "Favor, question and another family member retained."
+  ],
+  [
+    38,
+    "acceptable",
+    "Invitation for drinks tonight at pleasure bar and waiting retained."
+  ],
+  [
+    39,
+    "acceptable",
+    "First visit, shared first experiences, invitation and smelly solitary man's room retained."
+  ],
+  [
+    40,
+    "acceptable",
+    "Welcome, sword title and seat request retained; title phrasing awkward."
+  ],
+  [
+    41,
+    "acceptable",
+    "Regret about invitation, already winning and apology question retained."
+  ],
+  [
+    42,
+    "acceptable",
+    "Once-in-lifetime luck, distinction from skill and no winning conditions retained."
+  ],
+  [
+    43,
+    "acceptable",
+    "Drink invitation and assent retained."
+  ],
+  [
+    44,
+    "incorrect",
+    "Hypothetical careful cover-up becomes obligation; suspicious rhetorical question becomes statement."
+  ],
+  [
+    45,
+    "incorrect",
+    "Corrupted initial condition remains gibberish and skilled successor meaning lost."
+  ],
+  [
+    46,
+    "incorrect",
+    "Threat USING father becomes threat AGAINST father."
+  ],
+  [
+    47,
+    "acceptable",
+    "Age, lateness worry, concession and advantage question retained."
+  ],
+  [
+    48,
+    "clipped",
+    "Flexible duration and visible conditional beginning retained; continuation cut."
+  ],
+  [
+    49,
+    "incomplete",
+    "I DID THAT reduced to ESO; action and agent lost."
+  ],
+  [
+    50,
+    "clipped",
+    "Child hating parent retained; isolated continuation at cut edge not approved."
+  ],
+  [
+    51,
+    "acceptable",
+    "Soon more trouble, bet and challenge to assumption retained."
+  ],
+  [
+    52,
+    "incorrect",
+    "Devouring weak people's hearts for own growth becomes making weak people stronger."
+  ],
+  [
+    53,
+    "incomplete",
+    "Repeated kill/HIM dialogue missing and soul art attribution collapsed beyond clipped fragment."
+  ],
+  [
+    54,
+    "acceptable",
+    "Counterfactual evasion, flicker step, six pieces and death retained."
+  ],
+  [
+    55,
+    "incomplete",
+    "Contrast with usual behavior omitted; comparison wrongly to demon rather than habitual self."
+  ],
+  [
+    56,
+    "incorrect",
+    "CAUGHT becomes invented fish name CALGH."
+  ],
+  [
+    57,
+    "incomplete",
+    "PAVILION remains English in institution name."
+  ],
+  [
+    58,
+    "incorrect",
+    "OFTEN probabilistic claim becomes unqualified EN REALIDAD assertion."
+  ],
+  [
+    59,
+    "acceptable",
+    "Exasperation, illness and inability to sleep without training retained."
+  ],
+  [
+    60,
+    "acceptable",
+    "Prompt, lack of connection to soul art and overcoming within technique-created space retained."
+  ],
+  [
+    61,
+    "acceptable",
+    "Moment, clear hearing and slightly widening heart-door retained."
+  ],
+  [
+    62,
+    "incorrect",
+    "TRUE GOODWILL becomes true gratitude."
+  ],
+  [
+    63,
+    "clipped",
+    "Complete main sentence retained; opening cut AT THE END fragment absent."
+  ],
+  [
+    64,
+    "clipped",
+    "Promotion to Nirvana pavilion master and visible demon continuation retained; continuation clipped."
+  ],
+  [
+    65,
+    "acceptable",
+    "One hit, slaughtered family, drink, humanity and repeated why questions retained."
+  ],
+  [
+    66,
+    "incomplete",
+    "Visible UNEXPECTED omitted beyond otherwise retained choosing questions."
+  ],
+  [
+    67,
+    "acceptable",
+    "Only considering gift to person of that caliber retained."
+  ],
+  [
+    68,
+    "acceptable",
+    "Question about considering oneself third retained."
+  ],
+  [
+    69,
+    "acceptable",
+    "Habitual past answer, one petty greedy person and historical cause retained."
+  ],
+  [
+    70,
+    "incomplete",
+    "SKY HEAVEN title and currently staying at cult specificity lost."
+  ],
+  [
+    71,
+    "incorrect",
+    "STOOP TO petty tricks becomes being forced; unique Heavenly Demon also pluralized beyond clipping."
+  ],
+  [
+    72,
+    "acceptable",
+    "Earlier blood-god pill and now supreme heavenly silk retained by contrast."
+  ],
+  [
+    73,
+    "incomplete",
+    "Independent I... fragment absent."
+  ],
+  [
+    74,
+    "acceptable",
+    "Repeated robbery and habitual discussion/thoughts about second young master retained."
+  ],
+  [
+    75,
+    "acceptable",
+    "Concealing news and being fine even learning tomorrow about Murim unification retained."
+  ],
+  [
+    76,
+    "acceptable",
+    "Timing and emphasizing this point retained."
+  ],
+  [
+    77,
+    "incorrect",
+    "DID YOU COME becomes malformed VIERON VENIR question, changing agency."
+  ],
+  [
+    78,
+    "acceptable",
+    "Worse others, outward loyalty and inward laughter retained."
+  ],
+  [
+    79,
+    "acceptable",
+    "Release instruction, deserving departure and simultaneous shackled ascending-dragon praise retained."
+  ],
+  [
+    80,
+    "acceptable",
+    "Sky-Heaven institution, inner energy and liquor bottle retained."
+  ],
+  [
+    81,
+    "needs_review",
+    "Possessive LEADER'S becomes inclusion of leader himself; missing referent needs fuller context."
+  ],
+  [
+    82,
+    "acceptable",
+    "No world-changing dreams and emphatic departure questions retained."
+  ],
+  [
+    83,
+    "incorrect",
+    "Command to regret leaving ME becomes speaker regretting leaving YOU."
+  ],
+  [
+    84,
+    "acceptable",
+    "Wanted quick return, training duration question and answer prompt retained."
+  ],
+  [
+    85,
+    "incomplete",
+    "SKY HEAVEN name omitted from cult leader."
+  ],
+  [
+    86,
+    "acceptable",
+    "Abandoning leader position, single-person relationship and coming to speaker retained."
+  ],
+  [
+    87,
+    "incomplete",
+    "SEIZE omitted from technique title."
+  ],
+  [
+    88,
+    "acceptable",
+    "Conditional needs and anytime call retained; stutter omitted without semantic loss."
+  ],
+  [
+    89,
+    "incorrect",
+    "Verbal SNAPS AT becomes violent ATTACK."
+  ],
+  [
+    90,
+    "incorrect",
+    "DIVINE RELIC becomes reliquary container."
+  ],
+  [
+    91,
+    "incorrect",
+    "LET'S GO A ROUND becomes going for a walk rather than a fighting round."
+  ],
+  [
+    92,
+    "incorrect",
+    "Fragmented cult attribution introduces D DE LOS and loses coherent training-ground relationship."
+  ],
+  [
+    93,
+    "acceptable",
+    "First meeting at this place retained."
+  ],
+  [
+    94,
+    "incorrect",
+    "Sky Heaven cult title becomes heaven AND HELL; beyond clipped opening."
+  ],
+  [
+    95,
+    "incomplete",
+    "HOLDING and BLOOD omitted; named singular pearl reduced to plural poison pearls beyond clipping."
+  ],
+  [
+    96,
+    "acceptable",
+    "Unconditional obedience to father versus unconventional second son retained."
+  ],
+  [
+    97,
+    "acceptable",
+    "Agreement, perfect counterfactual and follow-up question retained."
+  ],
+  [
+    98,
+    "acceptable",
+    "Keeping in check, affirmation and brother beginning to meet people retained."
+  ],
+  [
+    99,
+    "incorrect",
+    "Fitting well with cult becomes getting along with a group; institutional suitability changed."
+  ],
+  [
+    100,
+    "acceptable",
+    "Two-sides metaphor, probability and villains' self-justification retained."
+  ],
+  [
+    101,
+    "clipped",
+    "First time called disciple and master exclamation retained; cut source context unapproved."
+  ],
+  [
+    102,
+    "acceptable",
+    "Villain deserving death retained."
+  ],
+  [
+    103,
+    "incorrect",
+    "Social INTRODUCTION becomes false friend INTRODUCCION rather than presentation."
+  ],
+  [
+    104,
+    "acceptable",
+    "Future donning of sold mask and stabbing adjacent person to death retained; SFX exempt."
+  ],
+  [
+    105,
+    "acceptable",
+    "Rhetorical acceptability of arrangement and both looking at sky retained."
+  ],
+  [
+    106,
+    "acceptable",
+    "Anticipation, not exactly a trip and friendship-based definition retained."
+  ],
+  [
+    107,
+    "acceptable",
+    "Even-better relationship comparison to brother and demonic Buddha retained."
+  ],
+  [
+    108,
+    "acceptable",
+    "Earlier overhearing, probable elimination of leader and soon replacement criminal group retained."
+  ],
+  [
+    109,
+    "acceptable",
+    "Probable cause and own flesh being torn away retained."
+  ],
+  [
+    110,
+    "incomplete",
+    "Sleeping-world conclusion remains corrupted and incomplete."
+  ],
+  [
+    111,
+    "incorrect",
+    "Alliance title becomes nonword and PLOT becomes drawing a curve beyond clipped continuation."
+  ],
+  [
+    112,
+    "acceptable",
+    "Question, playing and major Valley-of-Wicked stronghold retained."
+  ],
+  [
+    113,
+    "acceptable",
+    "Kidnapping chef, aging, recent bad seasoning and hurt conditional retained; Spanish aging expression malformed."
+  ],
+  [
+    114,
+    "incorrect",
+    "DAGGER absent and attack-on-speaker clause becomes unrelated personal-opinion phrase."
+  ],
+  [
+    115,
+    "acceptable",
+    "Still wanting to see this kind of world retained."
+  ],
+  [
+    116,
+    "clipped",
+    "Instead steering action to only incident's culprits retained; BLUE at cut continuation unapproved."
+  ],
+  [
+    117,
+    "incorrect",
+    "CARRIAGE becomes protective enchantment."
+  ],
+  [
+    118,
+    "acceptable",
+    "Chosen method of dealing with madman retained; laughter exempt."
+  ],
+  [
+    119,
+    "clipped",
+    "Visible shared food/drink and first-time explanation retained; opening continuation cut."
+  ],
+  [
+    120,
+    "clipped",
+    "First questioning and offered seat in unorthodox alliance retained; source-edge context cut."
+  ],
+  [
+    121,
+    "acceptable",
+    "Negation, still and addressee's world retained."
+  ],
+  [
+    122,
+    "needs_review",
+    "RAT becomes mouse; figurative-versus-species distinction remains uncertain."
+  ],
+  [
+    123,
+    "acceptable",
+    "Witness question, excluded involved party, six witnesses and sixth-wolf betrayal retained."
+  ],
+  [
+    124,
+    "incorrect",
+    "ENTIRE omitted, unorthodox faction becomes nonword and YEARS invented beyond visible THREE."
+  ]
+]

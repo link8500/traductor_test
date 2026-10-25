@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "sample_path": "build/full-comics/current8011-sample-a/sample.json",
+  "sample_sha256": "09bbb133a1e9cb43337714a7fa34b4118adc4705822d05cc83f7fd298e98185e",
+  "reviewer": "assistant",
+  "scope": "Visual re-assessment of changed outputs from the current full-frame 8011 engine at the frozen corpus sample locations. Unchanged translations may reuse prior judgments; no whole-chapter approval.",
+  "app_uses_expected_answers": false,
+  "decisions": [
+    {
+      "id": 11,
+      "meaning_result": "incorrect",
+      "note_es": "La condición aún contiene Yol en lugar del interlocutor."
+    },
+    {
+      "id": 24,
+      "meaning_result": "acceptable",
+      "note_es": "Se recupera la injusticia y se conserva la indicación de reportarla."
+    },
+    {
+      "id": 27,
+      "meaning_result": "needs_improvement",
+      "note_es": "Se recupera la buena opinión; mientras queda literal para una concesión."
+    },
+    {
+      "id": 28,
+      "meaning_result": "needs_improvement",
+      "note_es": "Se recupera la casa y la lesión de piernas; la denominación queda literal."
+    },
+    {
+      "id": 38,
+      "meaning_result": "incorrect",
+      "note_es": "Prinks queda sin traducir donde el original dice drinks."
+    },
+    {
+      "id": 39,
+      "meaning_result": "incomplete",
+      "note_es": "La primera vez queda truncada como primer ti."
+    },
+    {
+      "id": 43,
+      "meaning_result": "acceptable",
+      "note_es": "La salida conserva el deseo de tomar un trago juntos pese al error del OCR."
+    }
+  ]
+}

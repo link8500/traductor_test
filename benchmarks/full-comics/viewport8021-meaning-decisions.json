@@ -1,0 +1,52 @@
+[
+  [
+    4,
+    "incorrect",
+    "FUR is recognized now, but Spanish still says PIEL instead of fur/hair; not a complete correction."
+  ],
+  [
+    5,
+    "incomplete",
+    "WHY and emerging from training recovered; AT THAT surprise/emphasis still omitted from final question."
+  ],
+  [
+    37,
+    "acceptable",
+    "Corrected OCR gives exactly the same acceptable Spanish at the same location."
+  ],
+  [
+    42,
+    "acceptable",
+    "Corrected word boundary gives exactly the same acceptable Spanish."
+  ],
+  [
+    44,
+    "incorrect",
+    "Covering up is recovered, but other balloon still translates handheld FAN as a ventilator."
+  ],
+  [
+    67,
+    "acceptable",
+    "HIS referent restored; the regression in the preceding trial is reversed."
+  ],
+  [
+    83,
+    "incorrect",
+    "GO AND recovered; other balloon still changes imperative REGRET into first-person LAMENTO."
+  ],
+  [
+    88,
+    "acceptable",
+    "Word boundary improved; all offer content preserved with same Spanish."
+  ],
+  [
+    100,
+    "acceptable",
+    "BEING recovered; complete sentence is now readable and retains justification/likelihood."
+  ],
+  [
+    101,
+    "clipped",
+    "JUST temporal immediacy recovered; bottom MASTER balloon is cut in the original capture."
+  ]
+]

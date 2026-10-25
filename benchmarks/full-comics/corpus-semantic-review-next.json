@@ -1,0 +1,1013 @@
+{
+  "schema": 1,
+  "reviewer": "assistant",
+  "sample_path": "build/full-comics/corpus-review-next8011/sample.json",
+  "sample_sha256": "9ce0bcb8f9b01700cdfae6bf711dcaefe04e30f09d0aeb0c9e2399acef0adbcd",
+  "manual_decisions_sha256": "80787aa15d4128ed3a475b8e10e3852d3318c12795ddf4e4c2a121d79df511e1",
+  "reviewed_regions": 124,
+  "chapters_sampled": 124,
+  "comparable_regions": 124,
+  "excluded_unresolved_regions": 0,
+  "before_errors": 77,
+  "after_errors": 29,
+  "corrected_regions": 53,
+  "regressed_regions": 5,
+  "relative_error_reduction_percent": 62.33766233766234,
+  "all_chapter_words_visually_reviewed": false,
+  "population_accuracy_estimate": false,
+  "app_uses_review_answers": false,
+  "entries": [
+    {
+      "id": 1,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "El fragmento seleccionado recupera la pregunta sobre vengarse; no se aprueba el resto del globo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 2,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la reflexión sobre actuar por su bien.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 3,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera la invitación y mostrar algo extraño, pero falta el comparativo aún más.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 4,
+      "before": "fragmented",
+      "after": "fragmented",
+      "note_es": "La región seleccionada corta palabras y la salida sigue siendo un fragmento incomprensible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 5,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Recupera demonio celestial e hijo; la construcción cambia ligeramente el punto de vista.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 6,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Se conserva la preocupación y el daño emocional, con gramática poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 7,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Cambia la suposición sobre lo que él vio por una afirmación en primera persona.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 8,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que usar el aura de espada mejorada produce calor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 9,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten equivalentes de ensayo para una prueba narrativa; antes además había texto corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 10,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva grupo militar y parentesco, pero el título compuesto y consanguíneo quedan poco naturales.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 11,
+      "before": "incomplete",
+      "after": "needs_improvement",
+      "note_es": "Se recuperan la orden de apartarse y el asunto con el comandante; apartarse queda poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 12,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "Invierte el grado de control y disciplina: mayor control pasa a control más bajo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 13,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "El inglés visible habla de quienes murieron; se conserva su delito de traición aunque la referencia reformula la autoría.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 14,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la petición a los subordinados de cooperar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 15,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva la consecuencia del arresto y actuar, con un título propio demasiado literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 16,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Corrige el destinatario de matar; pierde el matiz condicional y hacerlo personalmente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 17,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "La técnica, participantes y golpes a todo el cuerpo quedan completos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 18,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera el nombramiento como líder del pabellón.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 19,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Antes cambia leer por cosechar; ahora conserva un término OCR inexistente en lugar de numerosos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 20,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera la segunda pregunta y conserva la exigencia de pedir clemencia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva ocultar identidad y unirse como guerrero errante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 22,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la felicitación además de la promesa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 23,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "La metáfora del corazón conserva rapidez, pero correr en lugar de latir resulta poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 24,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera haber dedicado toda la vida al culto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva el acuerdo en reinvestigar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 26,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Traduce literalmente hablar de su salida en vez de librarse mediante palabras.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Hace bien sustituye que el padre también lo desea.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 28,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La tipografía roja y negra deja la palabra condición corrupta y sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 29,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Cambia convertir al otro en su espada por convertirse uno mismo en su propia espada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 30,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Recupera la experiencia aprendida con discípulos; criar suena menos natural que formar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 31,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera que era igual la forma del delito descrito en inglés; la referencia lo expresa con un término más general.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 32,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera que no hay otros supremos que lo harían, en lugar de quienes lo han conseguido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 33,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que lo pensará cuando ocurra.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 34,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva el aumento de energía, potencia y rapidez; la concordancia es mejorable.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 35,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva el consejo de cortar la relación, con el título compuesto poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la posibilidad de salvar la vida.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 37,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera guardaespaldas y elevarlo a familiar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 38,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Dinero pasa a ojo y la región termina en una cláusula cortada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 39,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Conserva comer en otro lugar y pagar las pérdidas; la referencia dice beber, pero el inglés visible dice comer.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 40,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva explicar la razón de haber pedido que viniera.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 41,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera cena y el arrepentimiento; la referencia española cambia el contenido respecto del inglés visible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 42,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera el título de espada suprema antes corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 43,
+      "before": "fragmented",
+      "after": "fragmented",
+      "note_es": "Mantiene palabras inventadas para aunque y hoy.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el descubrimiento de cadáveres y del objeto junto a ellos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 45,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera la pregunta sobre ser esencial para el culto y el título.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 46,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Recupera enfrentarse al adversario, con menor énfasis en hacerlo personalmente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 47,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "La salida actual omite completamente que es demasiado joven.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 48,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva amabilidad, personalidad y dificultad para ser sucesor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 49,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera renunciar a todo y pedir perdón.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 50,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Conserva agarrar y mover la espada; pierde una interjección breve de aprobación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 51,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Mala impresión es menos preciso que impresión equivocada; mantiene el reclamo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 52,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera mocoso de veintitantos y comprender con precisión.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 53,
+      "before": "fragmented",
+      "after": "fragmented",
+      "note_es": "Agotamiento y morir quedan corruptos o sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 54,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva técnica y sucesión, con títulos y agua de purificación expresados de forma literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 55,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera beber y la noche todavía joven.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 56,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Causar la muerte se convierte en calmar para que muriera.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 57,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera perseguir y matar al adversario.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 58,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la pregunta de matar por él al convertirse en líder.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 59,
+      "before": "fragmented",
+      "after": "fragmented",
+      "note_es": "Siguen fragmentos incomprensibles en arte marcial y entrenar más.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 60,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera el saludo al líder y soberano del Murim.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 61,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera relajarse, no provocar y no morir como el adversario.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 62,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recuperan hombre extraordinario y no iniciar una batalla sin posibilidades.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 63,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que no le corresponde decidir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 64,
+      "before": "fragmented",
+      "after": "incomplete",
+      "note_es": "La nueva salida omite completamente cambiar papeles por un día.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 65,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Recupera tener hambre, con construcción causal poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 66,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva recelo y unir fuerzas con una metáfora demasiado literal de manos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 67,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La fecha del regreso desaparece en ambas salidas por un recorte OCR.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 68,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La condición de impedir daño a la reputación pasa a un propósito de dañarla.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 69,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Corrige querer entrar a primera persona; omite la conexión porque.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 70,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva hallar uso a la información y realizar la petición; la referencia lo reformula.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 71,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre rebajarse a trucos mezquinos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 72,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera discípulo y líder antes corruptos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 73,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Corrige mujer por ala, pero el título demonio espada y paréntesis quedan poco naturales.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 74,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Corrige dos personas por el único segundo joven maestro.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 75,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "Recupera parte del enunciado pero traduce discusión por discordia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 76,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera formar a Cheong Seon y hacerla más fuerte que el anterior.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 77,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera la necesidad de consultar un asunto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 78,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la elipsis del inglés; la referencia hace explícito matarme.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 79,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Corrige a primera persona quién ofreció la bebida; el inglés no incluye líder.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 80,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Conserva cobardía y estar solo; elimina una letra residual.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 81,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva duda sobre aceptar una daga valiosa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "Regresión: trato con frialdad se convierte en una palabra sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera el calificativo demoníaco del comandante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 84,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Se recupera haberlo hecho y parecer satisfecho.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 85,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva convertirse en demonio celestial y obtener lo deseado; omite la confirmación inicial.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 86,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera la acusación de meterse con él y la pregunta de confirmación sin duplicarla.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 87,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Corrige el sujeto a primera persona; disfrute victorioso y el nombre del salón quedan poco naturales.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 88,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El nombre del líder se convierte en conocer el cielo o salto de culto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Omite haber visto suficiente y usa viciosa donde el contexto requiere menos cruel o agresiva.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La segunda persona queda corrupta como Yol; antes definitivamente también estaba corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 91,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera que se fueron los espectadores y se calmó el ambiente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 92,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva la pregunta sobre planes; desde aquí resulta menos preciso que a partir de ahora.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva no estar ligado a nadie; la referencia española contiene una reformulación muy distinta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 94,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera demonio celestial antes corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 95,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Recupera el apodo monstruos gemelos y la posibilidad de castigo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 96,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Recupera el modal de posibilidad de hablar en esos términos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva ser el primero en dominar tan rápido la técnica desde su creación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 98,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva razones, incredulidad y mantener al adversario bajo control.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 99,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Corrige saltar por liderar cuando se le confía la responsabilidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 100,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la certeza sobre quién mató al adversario.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 101,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La preparación frente a maldad se expresa literalmente como entrenar en corazones.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 102,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva la imposibilidad de quitárselo, pero falta el reflexivo al ponérselo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 103,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva esperar afuera por preocupación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "Regresión: deja sin traducir la palabra que describe el trato brusco.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 105,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva la condición y quitar la máscara a solas; soltar una restricción es poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 106,
+      "before": "acceptable",
+      "after": "fragmented",
+      "note_es": "Regresión: la condición si tienes que dejar queda cortada por una barra y para.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 107,
+      "before": "needs_improvement",
+      "after": "incorrect",
+      "note_es": "Regresión: no ser cortado se convierte en no ceñirse.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 108,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva exponer debilidades para ocultar la verdadera.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 109,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera miseria y a lo largo de la vida.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 110,
+      "before": "incomplete",
+      "after": "fragmented",
+      "note_es": "Persisten palabras inventadas y no se recupera de forma legible la oposición con quienes están delante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 111,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva volver al culto y que será mejor para ambos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 112,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Recupera posición antes corrupta; estar detrás es menos preciso que querer arrebatar el puesto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 113,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Corrige amante y peras por la señora o ama de casa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera cambiar el destino.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 115,
+      "before": "fragmented",
+      "after": "needs_improvement",
+      "note_es": "Recupera dinero y garito; la construcción hacer que perderlo es gramaticalmente defectuosa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 116,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera estallar una guerra, terminar y los sacrificios.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 117,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva deuda de vida y experiencia, con gramática y expresión poco naturales.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 118,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera llegar a esto al final.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 119,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva acumular recuerdos y experiencias para superar la brecha.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 120,
+      "before": "fragmented",
+      "after": "needs_improvement",
+      "note_es": "Recupera riqueza, fama y plena luz del día; pierde el futuro de poder disfrutar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la condición negativa y que no habría sido posible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 122,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera que toda la culpa es del interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 123,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Enmarcar sustituye incriminar o acusar falsamente como cómplices.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    },
+    {
+      "id": 124,
+      "before": "fragmented",
+      "after": "acceptable",
+      "note_es": "Recupera enseñanzas e impacto personal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true
+    }
+  ]
+}

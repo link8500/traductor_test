@@ -1,0 +1,392 @@
+{
+  "schema": 1,
+  "locations_inferred": 124,
+  "changed_locations_visually_reviewed": 12,
+  "unchanged_locations_without_meaning_approval": 112,
+  "before_word_errors": 15,
+  "after_word_errors": 2,
+  "changed_crops_fixed": 10,
+  "changed_crops_regressed": 0,
+  "changed_crops_still_have_word_errors": 2,
+  "source_locations_disjoint_from_previous_744": true,
+  "rule_frozen_before_location_selection": true,
+  "manual_transcription_used_for_inference": false,
+  "screen_attempt_failure_probability": null,
+  "all_chapter_words_visually_reviewed": false,
+  "population_accuracy_estimate": false,
+  "application_modified": false,
+  "policy_sha256": "89fdad1520dc49c79fe4bd0c6ccb32ffafd82585391d7f692256d840df0da0a7",
+  "selection_provenance_sha256": "b04b36feaaf7a28f262fec3fdc79a2ee1f3555b35fbb318a3f89e7942079ef51",
+  "sample_sha256": "a64ee7dcb3b1462edc193939a9f96944102120ee88773495d84df60da0072f67",
+  "manual_sha256": "2882601a45a35ff1bc7f3a9d112b9082f3d9d31f877df9e33ce7802204b72360",
+  "entries": [
+    {
+      "id": 1,
+      "location_id": 5,
+      "expected_visible_english": "DID YOU JUST ASK ME... TO KNEEL TO THAT FATTY OVER THERE?",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "just",
+            "actual": "justa"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "there",
+            "actual": "tuere"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "just",
+            "actual": "justa"
+          }
+        ]
+      },
+      "note_es": "La corrección de THERE está respaldada por los píxeles, pero JUSTA todavía añade una letra al JUST visible."
+    },
+    {
+      "id": 2,
+      "location_id": 18,
+      "expected_visible_english": "I'LL STOP TRYING TO FIGURE OUT HIS INTENTIONS. INSTEAD I'LL FOCUS ON MAKING A DECISION BASED ON WHAT I SEE AND HEAR.",
+      "before": {
+        "expected_words": 22,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "focus",
+            "actual": "focls"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 22,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "La palabra FOCUS reemplaza la lectura FOCLS. El resto de las palabras visibles se conserva."
+    },
+    {
+      "id": 3,
+      "location_id": 23,
+      "expected_visible_english": "YOU JUST CONFESSED THAT IT WASN'T A SPAR, YOU ATTACKED HIM.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "Se corrige YOL por YOU, sin borrar la negación WASN'T ni otras palabras."
+    },
+    {
+      "id": 4,
+      "location_id": 32,
+      "expected_visible_english": "IT'S LIKELY BECAUSE... HE DIDN'T WANT TO LOSE ME.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "because",
+            "actual": "becalse"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "La lectura BECAUSE corrige BECALSE. Se conserva DIDN'T."
+    },
+    {
+      "id": 5,
+      "location_id": 39,
+      "expected_visible_english": "...DON'T SAY THINGS THAT YOU DON'T MEAN.",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "Se corrige YOL y se conservan ambas negaciones DON'T."
+    },
+    {
+      "id": 6,
+      "location_id": 73,
+      "expected_visible_english": "SWORD DEMON, TO ME, YOU ARE ALWAYS THE HIGHEST PRIORITY.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "YOU queda leído correctamente sin cambiar el título ni la prioridad expresada."
+    },
+    {
+      "id": 7,
+      "location_id": 81,
+      "expected_visible_english": "IT'S A GIFT I'M GIVING OUT OF GRATITUDE FOR WHAT EVERYONE HAS DONE FOR ME UP TO NOW.",
+      "before": {
+        "expected_words": 18,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "out",
+            "actual": "olt"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "Se corrige OUT frente a OLT. El dígito espurio de un lector de apoyo no se incorpora."
+    },
+    {
+      "id": 8,
+      "location_id": 84,
+      "expected_visible_english": "MAYBE GO WOL WAS MEANT TO SERVE AS A STEPPING STONE WHO TIES YOU AND ME TOGETHER IN A RELATIONSHIP.",
+      "before": {
+        "expected_words": 20,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 20,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "Se corrige YOU y se mantiene el nombre visible GO WOL."
+    },
+    {
+      "id": 9,
+      "location_id": 87,
+      "expected_visible_english": "I WON'T PUSH IT AWAY. INSTEAD, I'LL LET IT GLIDE OFF ME.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "off",
+            "actual": "oef"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "OFF corrige OEF y no se altera WON'T. La puntuación se contabiliza aparte de las palabras."
+    },
+    {
+      "id": 10,
+      "location_id": 94,
+      "expected_visible_english": "CHEONG SEON IS STILL YOUNG AND AMBITIOUS, SO WE CAN'T QUITE SAY THAT FOR CERTAIN.",
+      "before": {
+        "expected_words": 15,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "ambitious",
+            "actual": "ambitiols"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 15,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "Se corrige AMBITIOUS y se conserva el nombre CHEONG SEON y la negación CAN'T."
+    },
+    {
+      "id": 11,
+      "location_id": 111,
+      "expected_visible_english": "HOW DID YOU KNOW IT WAS ME?",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1,
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "v"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "v"
+          }
+        ]
+      },
+      "note_es": "Se corrige YOL por YOU, pero el carácter aislado V entre HOW y DID sigue presente. No se aprueba el recorte completo."
+    },
+    {
+      "id": 12,
+      "location_id": 124,
+      "expected_visible_english": "YOU HAVE EXACTLY FOUR HOURS. IF YOU DON'T COME OUT BY THAT TIME, THEN I'LL BE COMING IN.",
+      "before": {
+        "expected_words": 18,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 18,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "note_es": "Se corrige YOU sin modificar FOUR HOURS ni la condición negativa. El colon espurio del lector base no se cuenta como una palabra."
+    }
+  ]
+}

@@ -1,0 +1,1257 @@
+{
+  "schema": 1,
+  "reviewer": "assistant",
+  "method": "Visual inspection of frozen original English and proposed Spanish crops plus unedited before/after Windows inference. One deterministically selected eligible aligned region per chapter; no selection by translation outcome. Region review, not whole chapter review or a population accuracy estimate.",
+  "sample_path": "build/full-comics/corpus-review-sample/sample.json",
+  "sample_sha256": "babf47cc347fcc2644dec222d36e011dd15d4596479ab8dade6419608e42d435",
+  "app_uses_review_answers": false,
+  "all_chapter_words_visually_reviewed": false,
+  "semantic_error_unit": "One reviewed region containing a clear lexical, meaning or completeness defect; minor style issues counted separately.",
+  "clear_error_categories": [
+    "incorrect",
+    "incomplete",
+    "fragmented"
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta y el motivo; énfasis menor omitido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 2,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva desafío y confianza; se omite la interjección.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 3,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "La deuda estaba sustituida por una palabra corrupta; ahora se conserva.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 4,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten pérdida de pelaje e introducción de gusto personal ajeno a la frase.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 5,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La ubicación corrupta mejora, pero la pregunta de motivo pasa a deseo de entrenar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 6,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "El título antes corrupto ahora se entiende como espadachín de los cielos de sangre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 7,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se recupera sobrevivir, pero la obligación pasa a una afirmación sin modalidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 8,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la pregunta completa y el sentido de estar atrapados.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 9,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el pronombre y la comparación con lo que antes no sentía.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 10,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la referencia a la regresión y el final de la frase.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "La lectura YOL altera el interlocutor a yo y cambia quién concertó la cita.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 12,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "El sentido idiomático de explicar mejora; pierde énfasis de necesidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 13,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El modismo de salirse de proporción queda como volar de proporción, sin sentido natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 14,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan los registros de solicitudes y el valor monetario.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 15,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "La salida actual omite la pregunta inicial; el muerto modifica al cuerpo y no al comandante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 16,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la relación con su hermano; antes contenía un token ilegible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 17,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera la sustitución de estatuas; la propuesta queda como una pregunta de procedimiento.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 18,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva quién creó el conflicto entre los dos participantes.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva protección corporal y exclusividad del arte; referencia recortada parcialmente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 20,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la negación y que no comió nada de esa comida.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "La imagen inglesa expresa buen juicio sobre personas; ambas salidas lo conservan.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 22,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Se conservan maestros y subordinados, con concordancia poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 23,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera el título de cien espadas; persiste una barra espuria sin cambiar el núcleo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 24,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten palabras corruptas donde debe decir injusto o injusticia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 25,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se corrige la inversión entre amenazar y ser amenazado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 26,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que cualquiera que cometa un crimen debe ser castigado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La cláusula sobre la buena opinión queda corrupta o sin sujeto inteligible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 28,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La denominación de la casa sigue corrupta; antes también se perdía la lesión de piernas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 29,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la intención y el nombramiento como comandante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 30,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el apoyo prestado al segundo hijo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 31,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera el verbo hacer y el sentido de no haber hecho lo esperable.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 32,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la condición del apoyo que hizo posible el resultado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 33,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que el interlocutor cumple su palabra; la referencia amplía la frase.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la entrega forzada de la píldora.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 35,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "La salida actual deja YOL en lugar del destinatario de la entrega.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la diferencia entre lo que podía ver el anciano y el hablante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la petición de un favor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 38,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan las bebidas y la hora nocturna antes corruptas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 39,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que es la primera visita a su residencia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 40,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva bienvenida, título y la invitación a sentarse.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 41,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la disculpa y desaparece la pregunta ajena sobre estar aquí.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "needs_improvement",
+      "note_es": "Se conserva no confundir suerte y habilidad; pierde el matiz de suficiente arrogancia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 43,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el deseo de beber juntos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 44,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "La lectura LIP en lugar de UP introduce un labio y rompe el sentido de encubrir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El texto estilizado sigue convertido en secuencias sin lectura inteligible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 46,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Recupera el plazo de dos o tres meses; la construcción sobre usar al padre sigue torpe.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva retraso y ventaja asociada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 48,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera días, antes sustituido por pagan.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 49,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera que el contacto se había permitido, no solo que ocurrió.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 50,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera que su hijo podría terminar odiándolo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 51,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salió cambia a tercera persona el I went de la imagen inglesa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 52,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Destruir no equivale a devorar; fortalecerlos cambia a quién obtiene la fuerza.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 53,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que una persona ordinaria habría sucumbido al arte de absorción.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 54,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan esquiva, técnica, seis piezas y muerte.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 55,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recuperan las maldiciones; se pierde el contraste con su conducta habitual.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 56,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre la dificultad de atraparlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la visita a la sucursal en las llanuras centrales, aunque rama es literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 58,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se pierde que son quienes dicen no arrepentirse, no necesariamente quienes no se arrepienten.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 59,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten el adjetivo corrupto y locura en lugar de enfermedad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 60,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El arte de absorción y el espacio creado por la técnica quedan fracturados.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 61,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la metáfora de la puerta del corazón abriéndose.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 62,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La cláusula visible sobre pensarlo tras volver pasa a una secuencia ajena de personas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 63,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La frase visible sobre sentir algo algunas veces contiene secuencias ilegibles.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten el título corrupto y sede en lugar del puesto de maestro.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 65,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten pip y la sustitución de incidente por incipiente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 66,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Drawn se reconoce prawn y produce langostino en vez de atracción.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 67,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La modalidad y el calibre personal se pierden entre palabras corruptas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre considerarse el tercero.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 69,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El verbo de responder habitualmente queda como 1 Usep sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 70,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se corrompen el líder del culto y la estancia en él, con inglés conservado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 71,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Expresa que los echarán; pierde el matiz de que lo están intentando.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 72,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La píldora de sangre y la seda quedan con palabras corruptas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 73,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Libélula y ala permanecen como secuencias inglesas corruptas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 74,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Again queda como un&ain; la propuesta de referencia española pertenece a otra frase.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "mismatch",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Cosas ocultas queda como delgados hippen, perdiendo el sentido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 76,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Do queda como po y el verbo no se traduce.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 77,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Twisted queda como twistep sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 78,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Se omite la primera pregunta sobre que los demás serán peores.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 79,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva elogiar al hombre encadenado y la comparación con el dragón.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 80,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El término energía queda fusionado y corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 81,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El verbo incluye queda corrupto como Tnclupe5.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta enfática de por qué se marcha.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Cambia la orden de arrepentirse de abandonarme por el hablante lamentando irse.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 84,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten las palabras corruptas y se pierde quién planeaba entrenar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 85,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El líder se convierte en salto y soportar el conflicto queda corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 86,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Se conserva la pregunta principal; el conector inicial queda como Stu.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 87,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La técnica y la precisión de las acciones quedan ilegibles.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 88,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La condición sobre necesitar algo permanece en inglés corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Snaps at expresa reacción airada, pero se convierte en golpes físicos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El carácter divino de la reliquia queda como pivina sin sentido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 91,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Se omite la invitación a combatir que aparece en la misma región.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 92,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "El recorte inglés está cortado y la referencia propone otra parte; se excluye de la comparación semántica.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "uncertain",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 93,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva el lugar del encuentro; pierde que fue la primera vez.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 94,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El líder del culto pasa a salto y el nombre propio está recortado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 95,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva el modismo perder la cabeza; omite solo el matiz de anciano.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 96,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La comparación y las tendencias se convierten en palabras corruptas y diez peniques.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 97,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La afirmación y el verbo decir quedan como Año y saip.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 98,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El inicio de las reuniones permanece en inglés corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 99,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La pertenencia al culto permanece como OuZ CULT, con sintaxis alterada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 100,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recuperan los dos lados de una moneda; persiste una G espuria inicial y redacción literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 101,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera que lo llamó discípulo por primera vez.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 102,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera merecer morir, antes ausente y corrupto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 103,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera la frase; introducción por presentación queda poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 104,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera que la puñalada será mortal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 105,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Antes aparece solo la pregunta; ahora solo la consecuencia sobre mirar al cielo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera la negación del viaje, con sintaxis poco natural y un paréntesis espurio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 107,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El sentido de llevarse bien queda mal traducido; ahora compara a mi hermano consigo mismo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 108,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que pronto llegará un nuevo grupo del bajo mundo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 109,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la sensación de que le arrancan su propia carne.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 110,
+      "before": "incorrect",
+      "after": "unresolved",
+      "note_es": "La salida actual corresponde a un recorte incompleto; hay que verificar regiones vecinas antes de atribuir una omisión.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se recupera parte del conflicto, pero lisar y Lunorthodox siguen sin significado correcto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 112,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan bastión y valle de los malvados.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 113,
+      "before": "acceptable",
+      "after": "needs_improvement",
+      "note_es": "Conserva el daño condicionado a oírlo, con tiempos verbales y redacción poco naturales.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "El verbo lunged está reconocido en la región pero no aparece en su traducción.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 115,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva el deseo de seguir viendo esa clase de mundo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 116,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva restringir la acción a los responsables; dealt with queda como se tratan.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 117,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan el carruaje y el demonio sonriente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 118,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se corrige repicar a tratar con un loco.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 119,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva que es la primera comida y bebida compartida.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 120,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Conserva la oferta en la alianza; asiento queda literal para un puesto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 121,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la pertenencia al mundo en vez de reducirla a incumbencia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 122,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recuperan los detalles; revelar no expresa exactamente discutir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 123,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la exclusión del implicado y los seis testigos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 124,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan iluminación, lucha y demonio celestial antes corruptos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reference_alignment": "corresponding_or_partial",
+      "whole_balloon_completeness_approved": false
+    }
+  ]
+}

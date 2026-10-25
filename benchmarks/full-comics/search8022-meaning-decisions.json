@@ -1,0 +1,74 @@
+[
+  [
+    16,
+    "acceptable",
+    "Equivalent wording about the relationship; all disbelief and honesty retained.",
+    false
+  ],
+  [
+    22,
+    "acceptable",
+    "Demon-supreme title rendered with adjectival demonic form; same role and subordinates retained.",
+    false
+  ],
+  [
+    31,
+    "incomplete",
+    "Second statement rephrased, but first JUST still omitted.",
+    false
+  ],
+  [
+    45,
+    "incorrect",
+    "Corrupt OCR and wrong LEFT sense persist; some readable title words now remain English.",
+    true
+  ],
+  [
+    54,
+    "acceptable",
+    "Equivalent passive/personal phrasing retains condition, technique, six pieces and death.",
+    false
+  ],
+  [
+    55,
+    "incorrect",
+    "Normal-behavior contrast is now garbled into a soul absorbing the demon's usual supreme self; not a full fix.",
+    false
+  ],
+  [
+    73,
+    "incomplete",
+    "Standalone I remains absent; different wording of the following clause does not fix the whole viewport.",
+    false
+  ],
+  [
+    86,
+    "acceptable",
+    "Equivalent wording about leaving leadership for one relationship.",
+    false
+  ],
+  [
+    87,
+    "incomplete",
+    "JUST remains omitted; duel challenge wording changes without recovering the missing qualifier.",
+    false
+  ],
+  [
+    106,
+    "incorrect",
+    "Second balloon remains broken and the trip companion changes from singular to plural in a two-person exchange.",
+    true
+  ],
+  [
+    110,
+    "incomplete",
+    "WORLD added to first fragment but MUST BE A still absent and paragraph remains disconnected.",
+    false
+  ],
+  [
+    116,
+    "clipped",
+    "Full instruction now grammatical and meaningful, but clipped BLUE fragment still prevents whole-view approval.",
+    false
+  ]
+]

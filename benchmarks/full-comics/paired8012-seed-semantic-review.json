@@ -1,0 +1,1139 @@
+{
+  "schema": 1,
+  "sample_path": "build/full-comics/paired-seed801201/sample.json",
+  "sample_sha256": "151882969bb06a83876aa271748aee86595125c2b2f377f46d7855fd4603654d",
+  "manual_decisions_sha256": "d91f39429193a8fd8cd96982786a24e7771399fe051925a5355bcf31a253cfbc",
+  "old_native_snapshot": "801101",
+  "new_native_snapshot": "801201",
+  "paired_same_pixels": true,
+  "regions": 124,
+  "comparable_regions": 122,
+  "excluded_regions": 2,
+  "before_errors": 33,
+  "after_errors": 22,
+  "corrected_regions": 11,
+  "regressed_regions": 0,
+  "relative_error_reduction_percent": 33.333333333333336,
+  "all_chapter_words_visually_reviewed": false,
+  "population_accuracy_estimate": false,
+  "app_uses_review_answers": false,
+  "scope": "One originally selected region per chapter, on the exact same full screen image in both Windows binaries. No entire chapter accuracy approval.",
+  "entries": [
+    {
+      "id": 1,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 2,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 4,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 5,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 6,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 7,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera la obligación de castigarse para sobrevivir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 8,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 10,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 11,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera el pronombre de quien debe concertar la cita.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 12,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta retórica sobre la necesidad de explicarlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 13,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "El encubrimiento y la escalada del problema se entienden, aunque el modismo queda demasiado literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 14,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 15,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 16,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 17,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 18,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 20,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 22,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 23,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 26,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 27,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 28,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 29,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 31,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 32,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 33,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 35,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 38,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 39,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Recupera la primera visita sin truncar la última palabra.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 40,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 42,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Conserva la negación y la diferencia entre suerte y habilidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 43,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la invitación a beber juntos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 46,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 48,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 49,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 50,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 51,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 52,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 53,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 55,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 56,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 58,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Conserva que la ausencia de arrepentimiento es lo que esas personas dicen, no un hecho establecido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 59,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 61,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 62,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera pensar en ello después del regreso.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 63,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 65,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera incidente; conserva la pregunta y la posibilidad de evitarlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 66,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera la atracción por algo sin sustituirla por una palabra ajena.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 69,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 70,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 71,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 72,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 74,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 77,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 78,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Recupera la burla interior, pero sigue omitiendo la primera oración del párrafo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 79,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 80,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 81,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Desaparece el fragmento inicial y se conservan ambos personajes.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 84,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 85,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 86,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Conserva abandonar el cargo y venir por la relación con alguien.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 87,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 88,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 90,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 91,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 92,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 94,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera la oposición de motivos sin palabra corrupta en inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 95,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 96,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 97,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 98,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 100,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 101,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 102,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 103,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 105,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 106,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 107,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Recupera el sujeto plural y la comparación de relaciones.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 108,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 109,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 110,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre jugar en una fortaleza importante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 113,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Conserva el condicional y el daño emocional.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 114,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 115,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 116,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 117,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 118,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 119,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 120,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 122,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "Conserva capturar primero y conversar sobre los detalles después.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    },
+    {
+      "id": 123,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Salida idéntica en la misma región; se conserva el juicio previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": true
+    },
+    {
+      "id": 124,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva las artes marciales basadas en la iluminación obtenida en el combate; lecture admite una lectura literal diferente de la adaptación española.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "reused_identical_output_judgment": false
+    }
+  ]
+}

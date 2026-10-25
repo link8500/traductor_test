@@ -1,0 +1,163 @@
+[
+  {
+    "reviewer": "assistant",
+    "scope": "One visually checked reference token and its artwork-aligned source context; not a full chapter review",
+    "chapter": "absolute-regression-31",
+    "reference_region": 150,
+    "reference_image": 19,
+    "reference_bounds": [
+      139,
+      2609,
+      354,
+      2642
+    ],
+    "reference_text": "( SNIF... )",
+    "reference_reading_visually_verified": true,
+    "english_visual_text": "Sniff...",
+    "artwork_correspondence_visually_verified": true,
+    "ocr_reader_output": "Smil",
+    "ocr_reader_confidence_approx": 0.57,
+    "remaining_issue": "Detector finds text but line recognizer rejects this stylized lettering",
+    "review_note_es": "El detector encuentra el texto, pero el lector confunde la tipografía de Sniff con Smil y lo rechaza. Observación de la pasada registrada; pendiente de comprobar en una corrección posterior.",
+    "app_answer_lookup_added": false,
+    "whole_chapter_words_reviewed": false
+  },
+  {
+    "reviewer": "assistant",
+    "scope": "One visually checked bilingual balloon; not a full chapter review",
+    "chapter": "absolute-regression-01",
+    "reference_image": 8,
+    "reference_context_crop": [
+      0,
+      4250,
+      800,
+      5000
+    ],
+    "reference_text": "SÍ.",
+    "reference_reading_visually_verified": true,
+    "english_image": 5,
+    "english_bounds": [
+      191,
+      4607,
+      307,
+      4668
+    ],
+    "english_visual_text": "YES.",
+    "artwork_correspondence_visually_verified": true,
+    "luma_ocr_text": "Yes.",
+    "luma_translation": "En serio.",
+    "remaining_issue": "Incorrect affirmative translation; the automatic Spanish reference OCR also misses this balloon",
+    "review_note_es": "El reconocimiento lee YES, pero la pasada registrada lo traduce como «En serio». El OCR de la referencia española también omite este globo; su lectura SÍ se verificó visualmente.",
+    "reference_ocr_region": null,
+    "app_answer_lookup_added": false,
+    "whole_chapter_words_reviewed": false
+  },
+  {
+    "reviewer": "assistant",
+    "scope": "One visually checked bilingual dialogue and offline production pipeline regression; not a full chapter review",
+    "chapter": "absolute-regression-124",
+    "case": "underwater",
+    "reference_image": 2,
+    "reference_bounds": [
+      164,
+      3185,
+      577,
+      3274
+    ],
+    "reference_text": "INCLUSO PUEDO COMER BAJO EL AGUA MIENTRAS ME ENFRENTO A LOS KAPPAS.",
+    "reference_reading_visually_verified": true,
+    "english_image": 2,
+    "english_bounds": [
+      130,
+      273,
+      769,
+      543
+    ],
+    "english_visual_text": "I CAN EVEN EAT A MEAL UNDERWATER WHILE DEALING WITH THE WATER GHOSTS OF THE YANGTZE RIVER.",
+    "artwork_correspondence_visually_verified": true,
+    "luma_ocr_before": "I CAN EVEN EAT A MEAL LNDERWATER WHILE DEALING WITH THE WATER GHOSTS OF THE YANGTZE RIVER.",
+    "luma_ocr_text": "I CAN EVEN EAT A MEAL UNDERWATER WHILE DEALING WITH THE WATER GHOSTS OF THE YANGTZE RIVER.",
+    "luma_translation": "Incluso puedo comer una comida bajo el agua mientras trato con los fantasmas del agua del río yangtze.",
+    "tested_build": 8010,
+    "remaining_issue": "Recognition of UNDERWATER recovered on the tested Windows and Android geometries. Luma uses a more literal rendering of the English water ghosts; Olympus adapts it to kappas. Does not approve other dialogue, all screen scales, or the whole chapter.",
+    "review_note_es": "UNDERWATER ya se reconoce correctamente en las geometrías probadas de Windows y Android con 8010. Luma traduce literalmente «fantasmas del agua»; Olympus adapta la frase a «kappas». No certifica otras escalas ni el capítulo completo.",
+    "app_answer_lookup_added": false,
+    "whole_chapter_words_reviewed": false
+  },
+  {
+    "reviewer": "assistant",
+    "scope": "One visually checked bilingual balloon and its recorded build 8010 output; not a full chapter review",
+    "chapter": "absolute-regression-124",
+    "case": "then-follow-me",
+    "status": "recovered-in-tested-geometries",
+    "reference_image": 2,
+    "reference_bounds": [
+      289,
+      5459,
+      519,
+      5515
+    ],
+    "reference_context_crop": [
+      200,
+      5320,
+      640,
+      5680
+    ],
+    "reference_original_sha256": "561c14903d1ca3e0afef9348be9d661acd8f58198dfef47315447a780debc641",
+    "reference_text": "ENTONCES, VEN CONMIGO.",
+    "reference_reading_visually_verified": true,
+    "english_image": 2,
+    "english_bounds": [
+      295,
+      3174,
+      713,
+      3310
+    ],
+    "english_context_crop": [
+      200,
+      3020,
+      780,
+      3430
+    ],
+    "english_original_sha256": "414cdf299776d7387f8ca3273bd484d3a29307889170e4ed7bfded67a34f7527",
+    "english_visual_text": "THEN FOLLOW ME.",
+    "artwork_correspondence_visually_verified": true,
+    "luma_ocr_regions_in_recorded_order": [
+      "THEN",
+      "ME.",
+      "FOLLOW"
+    ],
+    "luma_translation_regions_in_recorded_order": [
+      "ENTONCES",
+      "Yo.",
+      "Seguir"
+    ],
+    "luma_translation": "ENTONCES / Yo. / Seguir",
+    "recorded_report": "translated-en8010/absolute-regression-124-en.jsonl",
+    "recorded_region_indices": [
+      10,
+      11,
+      12
+    ],
+    "tested_build": 8010,
+    "remaining_issue": "The same speech balloon is split into three translation requests. ME is sorted before FOLLOW because its box starts four pixels higher, although both words share a line. Grouping and reading order must preserve the complete dialogue before translation. The displayed spatial order is ENTONCES / Seguir Yo. This case remains unfixed in build 8010.",
+    "review_note_es": "La pasada 8010 dividía el globo en tres solicitudes y mostraba «ENTONCES / Seguir Yo». Con 8011, la prueba geométrica, el capítulo real en Windows y el proceso de OCR y traducción en Android recuperan «THEN FOLLOW ME.» → «Entonces sígueme.». Otros diálogos y escalas siguen pendientes.",
+    "app_answer_lookup_added": false,
+    "whole_chapter_words_reviewed": false,
+    "verification8011": {
+      "windows_layout_cases": 15,
+      "windows_translation": "Entonces sígueme.",
+      "android_production_pipeline": [
+        {
+          "text": "THEN\nFOLLOW ME.",
+          "system_text": "THEN\nFOLLOW ME.",
+          "confidence": 0.9943692684173584,
+          "local_verified": true,
+          "translation": "Entonces sígueme."
+        }
+      ],
+      "android_fixture": "Original image pixels cropped and scaled to phone width; not a new phone screenshot",
+      "whole_chapter_words_reviewed": false
+    }
+  }
+]

@@ -1,0 +1,752 @@
+{
+  "schema": 1,
+  "expected": 124,
+  "reviewed": 124,
+  "all124_complete": true,
+  "entries": [
+    [
+      1,
+      "incomplete",
+      "incomplete",
+      "EXACTLY specificity omitted."
+    ],
+    [
+      2,
+      "incomplete",
+      "incomplete",
+      "HEY standalone interjection omitted."
+    ],
+    [
+      3,
+      "acceptable",
+      "acceptable",
+      "Debt, gambling addiction and causality retained."
+    ],
+    [
+      4,
+      "incorrect",
+      "incorrect",
+      "FUR missing and sensation becomes liking; candidate retains untranslatable FU, still incorrect."
+    ],
+    [
+      5,
+      "incorrect",
+      "incorrect",
+      "WHY are you training becomes do you want to train; for days at that unnatural and incoherent."
+    ],
+    [
+      6,
+      "acceptable",
+      "acceptable",
+      "First opponent and bladesman title retained."
+    ],
+    [
+      7,
+      "acceptable",
+      "acceptable",
+      "Self-punishment obligation and survival retained."
+    ],
+    [
+      8,
+      "acceptable",
+      "acceptable",
+      "Que tan expresses rhetorical degree; terrible place and many people stuck retained."
+    ],
+    [
+      9,
+      "acceptable",
+      "acceptable",
+      "Power, body and prior absence retained."
+    ],
+    [
+      10,
+      "acceptable",
+      "acceptable",
+      "First real battle since return retained; temporal return readable in context."
+    ],
+    [
+      11,
+      "acceptable",
+      "acceptable",
+      "Meeting, requirement and appointment retained; conocerlo is valid for first meeting."
+    ],
+    [
+      12,
+      "incorrect",
+      "incorrect",
+      "Explicarlo por ti changes beneficiary/agent; INUSPICIOUS visibly misspelled and OCR further garbled into untranslated output."
+    ],
+    [
+      13,
+      "clipped",
+      "clipped",
+      "All full paragraphs readable and meaning retained; initial fight fragment is cut."
+    ],
+    [
+      14,
+      "incorrect",
+      "incorrect",
+      "1st CORPS COMMANDER becomes first commander of a corps, changing the ordinal's referent."
+    ],
+    [
+      15,
+      "needs_review",
+      "needs_review",
+      "Dead commander rendered with MUERTO attached after CUERPO, ambiguously suggesting a dead corps."
+    ],
+    [
+      16,
+      "acceptable",
+      "acceptable",
+      "Disbelief, honesty and brother relationship retained."
+    ],
+    [
+      17,
+      "incorrect",
+      "acceptable",
+      "Procedural HOW becomes correct proposal QUE TAL. Extra garbled detection is not dialogue."
+    ],
+    [
+      18,
+      "incomplete",
+      "incomplete",
+      "THEN logical connector omitted from first question."
+    ],
+    [
+      19,
+      "acceptable",
+      "acceptable",
+      "Protection and exclusivity of learning retained."
+    ],
+    [
+      20,
+      "incorrect",
+      "incorrect",
+      "HE'S lost in source; first balloon becomes ungrammatical English/Spanish fragment."
+    ],
+    [
+      21,
+      "acceptable",
+      "acceptable",
+      "Good eye for people retained idiomatically."
+    ],
+    [
+      22,
+      "acceptable",
+      "acceptable",
+      "Private group, subordinate possession and need for own group retained."
+    ],
+    [
+      23,
+      "acceptable",
+      "acceptable",
+      "Question, father-child relationship and title retained; stray slash is an OCR artifact."
+    ],
+    [
+      24,
+      "acceptable",
+      "acceptable",
+      "Again, unfairness, reporting, please and destination retained."
+    ],
+    [
+      25,
+      "acceptable",
+      "acceptable",
+      "Threat and sister safety retained."
+    ],
+    [
+      26,
+      "clipped",
+      "clipped",
+      "All visible complete content retained, bottom continuation outside viewport."
+    ],
+    [
+      27,
+      "incorrect",
+      "incorrect",
+      "Concessive WHILE becomes temporal MIENTRAS, changing the relation."
+    ],
+    [
+      28,
+      "acceptable",
+      "acceptable",
+      "Request despite joke, immediate destination and risk of broken legs retained."
+    ],
+    [
+      29,
+      "acceptable",
+      "acceptable",
+      "Intended work and making him army commander retained."
+    ],
+    [
+      30,
+      "acceptable",
+      "acceptable",
+      "Prior support for second son and consideration for first son retained."
+    ],
+    [
+      31,
+      "incomplete",
+      "incomplete",
+      "JUST qualification in first statement omitted; second passage retained."
+    ],
+    [
+      32,
+      "acceptable",
+      "acceptable",
+      "Support-pillar attribution retained; extra monja detection is not visible dialogue."
+    ],
+    [
+      33,
+      "incorrect",
+      "incorrect",
+      "NASTIES left in English; second statement correct."
+    ],
+    [
+      34,
+      "acceptable",
+      "acceptable",
+      "Even and handing over named pill retained."
+    ],
+    [
+      35,
+      "incorrect",
+      "acceptable",
+      "Wrong Yol recipient corrected to second-person YOU; reply retained."
+    ],
+    [
+      36,
+      "incorrect",
+      "incorrect",
+      "Original question becomes an assertion with no interrogative form/punctuation."
+    ],
+    [
+      37,
+      "acceptable",
+      "acceptable",
+      "All three balloons retain favour, reply and request for family member."
+    ],
+    [
+      38,
+      "incorrect",
+      "acceptable",
+      "Untranslated PRINKS corrected to drinking; time, venue and waiting retained."
+    ],
+    [
+      39,
+      "needs_review",
+      "needs_review",
+      "Final SMELLS rendered as bare HUELE, ambiguous sniffing versus emitting a bad smell. Other three balloons correct."
+    ],
+    [
+      40,
+      "incorrect",
+      "incorrect",
+      "Sword Supreme is female in story; masculine BIENVENIDO changes gender of address."
+    ],
+    [
+      41,
+      "acceptable",
+      "acceptable",
+      "Regret, prior win and apology question retained."
+    ],
+    [
+      42,
+      "acceptable",
+      "acceptable",
+      "Once-in-lifetime luck, skill distinction and unconditional duel offer retained."
+    ],
+    [
+      43,
+      "acceptable",
+      "acceptable",
+      "Both balloons preserve the visible meaning."
+    ],
+    [
+      44,
+      "incorrect",
+      "incorrect",
+      "UP misread LIP changes concealment to a lip; FAN is a handheld fan in context, not a ventilator. Minor number-agreement change does not fix either error."
+    ],
+    [
+      45,
+      "incorrect",
+      "incorrect",
+      "Stylized first clause is unreadable OCR and translation; final clause also wrongly renders LEFT as IZQUIERDA."
+    ],
+    [
+      46,
+      "acceptable",
+      "acceptable",
+      "Threat using the father and its estimated duration retained."
+    ],
+    [
+      47,
+      "acceptable",
+      "acceptable",
+      "All three balloons retain age, concern, and advantage."
+    ],
+    [
+      48,
+      "clipped",
+      "clipped",
+      "First complete balloon correct; bottom dialogue continues outside capture. Visible full words are translated."
+    ],
+    [
+      49,
+      "incomplete",
+      "incomplete",
+      "I DID missing; THAT? alone loses the actor and action."
+    ],
+    [
+      50,
+      "clipped",
+      "clipped",
+      "Full question correct; bottom THEN is cut and unrecognized."
+    ],
+    [
+      51,
+      "acceptable",
+      "acceptable",
+      "Both balloons preserve the prediction and question."
+    ],
+    [
+      52,
+      "incorrect",
+      "incorrect",
+      "DEVOURING misread, devouring becomes destroying; getting stronger becomes strengthening the weak."
+    ],
+    [
+      53,
+      "incomplete",
+      "incomplete",
+      "Left vertical KILL HIM not recognized; clipped top fragment also unrecognized. Other main paragraphs translated."
+    ],
+    [
+      54,
+      "acceptable",
+      "acceptable",
+      "Condition, technique, number six and death retained."
+    ],
+    [
+      55,
+      "incomplete",
+      "incomplete",
+      "USUAL SELF and DEMON omitted; contrast with normal behaviour loses its sense."
+    ],
+    [
+      56,
+      "incorrect",
+      "incorrect",
+      "CAUGHT misread CALGHT and left untranslatable in second sentence."
+    ],
+    [
+      57,
+      "acceptable",
+      "acceptable",
+      "Both questions and location retained."
+    ],
+    [
+      58,
+      "acceptable",
+      "acceptable",
+      "Regrets and internal torment retained; second question understandable."
+    ],
+    [
+      59,
+      "incomplete",
+      "incomplete",
+      "Complete GOOD GRIEF interjection omitted; both remaining propositions correct."
+    ],
+    [
+      60,
+      "acceptable",
+      "acceptable",
+      "Visible continuation and initial question preserved despite BY misread."
+    ],
+    [
+      61,
+      "acceptable",
+      "acceptable",
+      "Both thoughts preserved."
+    ],
+    [
+      62,
+      "incomplete",
+      "incomplete",
+      "TRUE qualification omitted from goodwill; both other propositions retained."
+    ],
+    [
+      63,
+      "clipped",
+      "clipped",
+      "Main complete paragraph correct; preceding AT THE END fragment cut and unrecognized."
+    ],
+    [
+      64,
+      "incorrect",
+      "incorrect",
+      "Risen to the seat of master mistranslated as physically rising to a headquarters; bottom continuation clipped."
+    ],
+    [
+      65,
+      "incomplete",
+      "incomplete",
+      "First standalone WHY question merged away; remaining propositions retained."
+    ],
+    [
+      66,
+      "incomplete",
+      "incomplete",
+      "EVEN emphasis omitted from full question; clipped top fragment unrecognized."
+    ],
+    [
+      67,
+      "acceptable",
+      "incorrect",
+      "Before recovers HIS in Spanish despite malformed OCR; after leaves calibre S, losing the referent."
+    ],
+    [
+      68,
+      "acceptable",
+      "acceptable",
+      "Whole question retained."
+    ],
+    [
+      69,
+      "acceptable",
+      "acceptable",
+      "Past response and both adjectives retained."
+    ],
+    [
+      70,
+      "incorrect",
+      "incorrect",
+      "I SEE acknowledgement rendered as literal VEO; title is also compressed."
+    ],
+    [
+      71,
+      "incorrect",
+      "clipped",
+      "Expel LS corrected to expel us; both readable balloons correct now. Top previous text only unreadable traces, so full-view approval withheld."
+    ],
+    [
+      72,
+      "acceptable",
+      "acceptable",
+      "Named pill and silk, temporal contrast retained."
+    ],
+    [
+      73,
+      "incomplete",
+      "incomplete",
+      "Standalone I... balloon omitted entirely."
+    ],
+    [
+      74,
+      "acceptable",
+      "acceptable",
+      "Both complete balloons preserved."
+    ],
+    [
+      75,
+      "incorrect",
+      "incorrect",
+      "CONTINUE misread CONTINLE and left as continle; LEARN here means find out, not studying."
+    ],
+    [
+      76,
+      "acceptable",
+      "acceptable",
+      "Whole instruction preserved."
+    ],
+    [
+      77,
+      "acceptable",
+      "acceptable",
+      "Question and both response sentences retained."
+    ],
+    [
+      78,
+      "acceptable",
+      "acceptable",
+      "Worse, outward loyalty and inward ridicule retained."
+    ],
+    [
+      79,
+      "acceptable",
+      "acceptable",
+      "Both visible propositions retained; sent off literal reading supported by source."
+    ],
+    [
+      80,
+      "acceptable",
+      "acceptable",
+      "Energy, bottle, source and action retained."
+    ],
+    [
+      81,
+      "needs_review",
+      "needs_review",
+      "First possessive expression becomes the people themselves; its omitted referent needs surrounding context. Second balloon correct."
+    ],
+    [
+      82,
+      "acceptable",
+      "acceptable",
+      "Negation and both questions, including profanity, retained."
+    ],
+    [
+      83,
+      "incorrect",
+      "incorrect",
+      "GO AND fused and untranslated; imperative regret becomes first-person LAMENTO with wrong actor."
+    ],
+    [
+      84,
+      "acceptable",
+      "acceptable",
+      "All three balloons retain the requests, duration, training and answer."
+    ],
+    [
+      85,
+      "acceptable",
+      "acceptable",
+      "Allegiance and conflict with father retained."
+    ],
+    [
+      86,
+      "acceptable",
+      "acceptable",
+      "Question of abandoning leadership for one relationship retained; literal seat still intelligible."
+    ],
+    [
+      87,
+      "incomplete",
+      "incomplete",
+      "JUST qualification omitted, while refusal and duel request retained."
+    ],
+    [
+      88,
+      "acceptable",
+      "acceptable",
+      "Offer, anything else, please and anytime retained; stammer is expressive repetition."
+    ],
+    [
+      89,
+      "incorrect",
+      "incorrect",
+      "SNAPS AT verbally becomes physical GOLPEA BRUTALMENTE."
+    ],
+    [
+      90,
+      "incorrect",
+      "incorrect",
+      "YOU mangled in OCR; PODRIA shifts second-person COULD to first/third-person."
+    ],
+    [
+      91,
+      "incomplete",
+      "incomplete",
+      "Entire LET'S GO A ROUND challenge omitted."
+    ],
+    [
+      92,
+      "incomplete",
+      "incomplete",
+      "GROUND omitted and first balloon split into three disconnected translated fragments."
+    ],
+    [
+      93,
+      "acceptable",
+      "acceptable",
+      "First meeting and here retained."
+    ],
+    [
+      94,
+      "clipped",
+      "clipped",
+      "Both fully visible passages correct; cut OF COURSE line unrecognized."
+    ],
+    [
+      95,
+      "clipped",
+      "clipped",
+      "Full question correct; first incomplete balloon loses clipped top line."
+    ],
+    [
+      96,
+      "acceptable",
+      "acceptable",
+      "Obedience and contrast with unconventional master retained."
+    ],
+    [
+      97,
+      "acceptable",
+      "acceptable",
+      "Acknowledgement, counterfactual and response retained."
+    ],
+    [
+      98,
+      "acceptable",
+      "acceptable",
+      "Control question and brother starting to meet people retained."
+    ],
+    [
+      99,
+      "acceptable",
+      "acceptable",
+      "Complete statement retained."
+    ],
+    [
+      100,
+      "incorrect",
+      "incorrect",
+      "BEING lost in OCR; malformed Spanish loses the opening grammatical relation."
+    ],
+    [
+      101,
+      "incomplete",
+      "incomplete",
+      "JUST temporal immediacy omitted; bottom exclamation translated but cut in original."
+    ],
+    [
+      102,
+      "acceptable",
+      "acceptable",
+      "Villain and deserving death retained."
+    ],
+    [
+      103,
+      "incorrect",
+      "incorrect",
+      "Personal introduction rendered as introduccion rather than presenting oneself; context is two brothers learning about each other."
+    ],
+    [
+      104,
+      "acceptable",
+      "acceptable",
+      "Complete narrative retained. Exempt URGH groan wrongly becomes URGENCIAS, recorded as a separate SFX corruption."
+    ],
+    [
+      105,
+      "acceptable",
+      "acceptable",
+      "Question and both looking at sky retained."
+    ],
+    [
+      106,
+      "incorrect",
+      "incorrect",
+      "Second balloon has broken Spanish infinitive No estamos exactamente ir; last YOU person corrected, but whole viewport remains unapproved."
+    ],
+    [
+      107,
+      "incomplete",
+      "incomplete",
+      "EVEN comparative emphasis omitted."
+    ],
+    [
+      108,
+      "incorrect",
+      "incorrect",
+      "Clean out leader rendered as cleaning him; criminal underworld becomes inframundo."
+    ],
+    [
+      109,
+      "acceptable",
+      "acceptable",
+      "Probability, ownership of flesh and being torn off retained."
+    ],
+    [
+      110,
+      "incomplete",
+      "incomplete",
+      "MUST BE A missing; paragraph fragmented into disconnected translations."
+    ],
+    [
+      111,
+      "incorrect",
+      "incorrect",
+      "USE, UNORTHODOX and FOLLOW misread and left as wrong untranslated words; bottom continuation clipped."
+    ],
+    [
+      112,
+      "acceptable",
+      "acceptable",
+      "Question, major stronghold and named valley retained."
+    ],
+    [
+      113,
+      "incomplete",
+      "incomplete",
+      "HERE location omitted from kidnapping request; remaining sentences correct."
+    ],
+    [
+      114,
+      "incorrect",
+      "incorrect",
+      "Lunge and dagger lost/mangled in two disconnected fragments."
+    ],
+    [
+      115,
+      "acceptable",
+      "acceptable",
+      "Complete statement retained."
+    ],
+    [
+      116,
+      "incorrect",
+      "incorrect",
+      "Broken Spanish construction loses usable meaning of dealing only with culprits; clipped BLUE fragment unrecognized."
+    ],
+    [
+      117,
+      "acceptable",
+      "acceptable",
+      "Probability, first person, carriage and owner retained; FIRST already expresses first-ever sense."
+    ],
+    [
+      118,
+      "acceptable",
+      "acceptable",
+      "Chosen method and madman retained; exempt laughter appropriately rendered."
+    ],
+    [
+      119,
+      "clipped",
+      "clipped",
+      "All visible propositions translated; initial text cut at top."
+    ],
+    [
+      120,
+      "clipped",
+      "clipped",
+      "Both visible propositions retained; first line cut at top. Changed register/pronoun in last question preserves sense."
+    ],
+    [
+      121,
+      "acceptable",
+      "acceptable",
+      "Negation, still, and ownership retained."
+    ],
+    [
+      122,
+      "acceptable",
+      "acceptable",
+      "Rat, first, and before discussing details retained."
+    ],
+    [
+      123,
+      "acceptable",
+      "acceptable",
+      "Question, excluded person, six witnesses and sixth wolf retained."
+    ],
+    [
+      124,
+      "incorrect",
+      "incorrect",
+      "UNORTHODOX mangled; translation adds ANOS although no time unit visible in cut source. First complete paragraph correct."
+    ]
+  ]
+}

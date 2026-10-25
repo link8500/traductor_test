@@ -1,0 +1,4294 @@
+{
+  "schema": 1,
+  "viewports": 124,
+  "native_regions": 228,
+  "dialogue_rows": 207,
+  "excluded_non_dialogue_rows": 21,
+  "excluded_roles": {
+    "watermark": 16,
+    "non_dialogue_detection": 3,
+    "sfx_exempt": 2
+  },
+  "inventory_sha256": "da5b44d828563b835e806c21b5596109d5cc2d0bd578080ad2ab251dcf57888c",
+  "manual_row_roles_sha256": "677c961a3c22c7f79611666f00308bf183480c66cf40fa1506c73931b53c6704",
+  "native_outputs": {
+    "baseline": "e0a0a4f75c1da13b97115468fff4c92904edb1c4259196e558eb6f6bebad876a",
+    "partial_consensus": "3535026d947f6d7380355b3152d8ebddf86c229648d32244bd3798b579b36411",
+    "full_consensus": "d6c21cb7a5cec7efb2a7a3364e8cb049d40bbaaea717490c3ec9d216594734e0"
+  },
+  "cohorts": {
+    "all124_fixed_reading_viewports": {
+      "variants": {
+        "baseline": {
+          "viewports": 124,
+          "expected_dialogue_words": 2265,
+          "word_errors": 80,
+          "word_error_rate_percent": 3.532008830022075,
+          "viewports_with_word_errors": 40,
+          "alignment_edit_categories": {
+            "substituted_word": 47,
+            "inserted_word": 2,
+            "alignment_deleted_word": 31
+          }
+        },
+        "partial_consensus": {
+          "viewports": 124,
+          "expected_dialogue_words": 2265,
+          "word_errors": 66,
+          "word_error_rate_percent": 2.9139072847682117,
+          "viewports_with_word_errors": 34,
+          "alignment_edit_categories": {
+            "substituted_word": 35,
+            "inserted_word": 2,
+            "alignment_deleted_word": 29
+          }
+        },
+        "full_consensus": {
+          "viewports": 124,
+          "expected_dialogue_words": 2265,
+          "word_errors": 48,
+          "word_error_rate_percent": 2.119205298013245,
+          "viewports_with_word_errors": 24,
+          "alignment_edit_categories": {
+            "substituted_word": 22,
+            "alignment_deleted_word": 25,
+            "inserted_word": 1
+          }
+        }
+      },
+      "paired": {
+        "before_word_errors": 80,
+        "after_word_errors": 48,
+        "relative_word_error_reduction_percent": 40.0,
+        "corrected_viewports": 16,
+        "regressed_viewports": 0
+      }
+    },
+    "no_visible_dialogue_clipped": {
+      "variants": {
+        "baseline": {
+          "viewports": 107,
+          "expected_dialogue_words": 1867,
+          "word_errors": 57,
+          "word_error_rate_percent": 3.0530262453133368,
+          "viewports_with_word_errors": 28,
+          "alignment_edit_categories": {
+            "substituted_word": 39,
+            "inserted_word": 2,
+            "alignment_deleted_word": 16
+          }
+        },
+        "partial_consensus": {
+          "viewports": 107,
+          "expected_dialogue_words": 1867,
+          "word_errors": 46,
+          "word_error_rate_percent": 2.4638457418318156,
+          "viewports_with_word_errors": 24,
+          "alignment_edit_categories": {
+            "substituted_word": 29,
+            "inserted_word": 2,
+            "alignment_deleted_word": 15
+          }
+        },
+        "full_consensus": {
+          "viewports": 107,
+          "expected_dialogue_words": 1867,
+          "word_errors": 29,
+          "word_error_rate_percent": 1.5532940546331013,
+          "viewports_with_word_errors": 15,
+          "alignment_edit_categories": {
+            "substituted_word": 17,
+            "alignment_deleted_word": 11,
+            "inserted_word": 1
+          }
+        }
+      },
+      "paired": {
+        "before_word_errors": 57,
+        "after_word_errors": 29,
+        "relative_word_error_reduction_percent": 49.12280701754386,
+        "corrected_viewports": 13,
+        "regressed_viewports": 0
+      }
+    }
+  },
+  "entries": [
+    {
+      "id": 1,
+      "expected_visible_dialogue": "WHY EXACTLY ARE YOU TRYING TO GO BACK TO THE PAST?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY EXACTLY ARE YOU TRYING TO GO BACK TO THE PAST?"
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY EXACTLY ARE YOU TRYING TO GO BACK TO THE PAST?"
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY EXACTLY ARE YOU TRYING TO GO BACK TO THE PAST?"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "expected_visible_dialogue": "HEY! SEEING AS HOW YOU DARE TO MESS WITH ME, IT MUST MEAN YOU'RE CONFIDENT IN YOUR ABILITIES.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HEY! SEEING AS HOW YOU DARE TO MESS WITH ME, IT MUST MEAN YOU'RE CONFIDENT IN YOUR ABILITIES."
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HEY! SEEING AS HOW YOU DARE TO MESS WITH ME, IT MUST MEAN YOU'RE CONFIDENT IN YOUR ABILITIES."
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HEY! SEEING AS HOW YOU DARE TO MESS WITH ME, IT MUST MEAN YOU'RE CONFIDENT IN YOUR ABILITIES."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "expected_visible_dialogue": "THAT BOY INCURRED A GREAT DEBT BECAUSE HE GOT ADDICTED TO GAMBLING.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT BOY INCURRED A GREAT DEBT BECAUSE HE GOT ADDICTED TO GAMBLING."
+        },
+        "partial_consensus": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT BOY INCURRED A GREAT DEBT BECAUSE HE GOT ADDICTED TO GAMBLING."
+        },
+        "full_consensus": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT BOY INCURRED A GREAT DEBT BECAUSE HE GOT ADDICTED TO GAMBLING."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "expected_visible_dialogue": "IT HAS STIFF FUR AND A LONG BODY, SO IT FEELS LIKE IT COULD BE A WILD BOAR...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 5,
+          "edits": [
+            {
+              "expected": "fur",
+              "actual": "fu",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "and",
+              "actual": "iand",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": null,
+              "actual": "i",
+              "kind": "inserted_word"
+            },
+            {
+              "expected": "feels",
+              "actual": "ifeels",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "wild",
+              "actual": "ld",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT HAS STIFF FU IAND A LONG BODY, SO IT I IFEELS LIKE IT COULD BE A LD BOAR..."
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "fur",
+              "actual": "fu",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": null,
+              "actual": "i",
+              "kind": "inserted_word"
+            },
+            {
+              "expected": "wild",
+              "actual": "ld",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT HAS STIFF FU AND A LONG BODY, SO IT I FEELS LIKE IT COULD BE A LD BOAR..."
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT HAS STIFF FUR AND A LONG BODY, SO IT FEELS LIKE IT COULD BE A WILD BOAR..."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "expected_visible_dialogue": "YOU'RE FINALLY OUT, SECOND YOUNG MASTER. WHY ARE YOU SUDDENLY TRAINING OUT OF NOWHERE? AND YOU DID IT FOR DAYS AT THAT?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 22,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "why",
+              "actual": "w",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "are",
+              "actual": "re",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "YOU'RE FINALLY OUT, SECOND YOUNG MASTER. W RE YOU SUDDENLY TRAINING OUT OF NOWHERE? AND YOU DID IT FOR DAYS AT THAT?"
+        },
+        "partial_consensus": {
+          "expected_words": 22,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "why",
+              "actual": "w",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "are",
+              "actual": "re",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "YOU'RE FINALLY OUT, SECOND YOUNG MASTER. W RE YOU SUDDENLY TRAINING OUT OF NOWHERE? AND YOU DID IT FOR DAYS AT THAT?"
+        },
+        "full_consensus": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YOU'RE FINALLY OUT, SECOND YOUNG MASTER. WHY ARE YOU SUDDENLY TRAINING OUT OF NOWHERE? AND YOU DID IT FOR DAYS AT THAT?"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "expected_visible_dialogue": "IS MY FIRST OPPONENT THE BLOOD HEAVENS BLADESMAN?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IS MY FIRST OPPONENT THE BLOOD HEAVENS BLADESMAN?"
+        },
+        "partial_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IS MY FIRST OPPONENT THE BLOOD HEAVENS BLADESMAN?"
+        },
+        "full_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IS MY FIRST OPPONENT THE BLOOD HEAVENS BLADESMAN?"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "expected_visible_dialogue": "WE MUST PUNISH OURSELVES SO THAT WE CAN SURVIVE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WE MUST PUNISH OURSELVES SO THAT WE CAN SURVIVE."
+        },
+        "partial_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WE MUST PUNISH OURSELVES SO THAT WE CAN SURVIVE."
+        },
+        "full_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WE MUST PUNISH OURSELVES SO THAT WE CAN SURVIVE."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "expected_visible_dialogue": "JUST HOW TERRIBLE IS THIS PLACE FOR SO MANY PEOPLE TO GET STUCK IN HERE?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "JUST HOW TERRIBLE IS THIS PLACE FOR SO MANY PEOPLE TO GET STUCK IN HERE?"
+        },
+        "partial_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "JUST HOW TERRIBLE IS THIS PLACE FOR SO MANY PEOPLE TO GET STUCK IN HERE?"
+        },
+        "full_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "JUST HOW TERRIBLE IS THIS PLACE FOR SO MANY PEOPLE TO GET STUCK IN HERE?"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "expected_visible_dialogue": "I CAN FEEL A STRONG POWER IN THIS BODY THAT I DIDN'T FEEL BEFORE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I CAN FEEL A STRONG POWER IN THIS BODY THAT I DIDN'T FEEL BEFORE."
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I CAN FEEL A STRONG POWER IN THIS BODY THAT I DIDN'T FEEL BEFORE."
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I CAN FEEL A STRONG POWER IN THIS BODY THAT I DIDN'T FEEL BEFORE."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "expected_visible_dialogue": "THE FIRST BATTLE THAT FEELS LIKE A REAL BATTLE EVER SINCE I REGRESSED.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE FIRST BATTLE THAT FEELS LIKE A REAL BATTLE EVER SINCE I REGRESSED."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE FIRST BATTLE THAT FEELS LIKE A REAL BATTLE EVER SINCE I REGRESSED."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE FIRST BATTLE THAT FEELS LIKE A REAL BATTLE EVER SINCE I REGRESSED."
+        }
+      }
+    },
+    {
+      "id": 11,
+      "expected_visible_dialogue": "YOU CAN'T MEET HIM UNLESS YOU HAVE MADE AN APPOINTMENT.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YOU CAN'T MEET HIM UNLESS YOU HAVE MADE AN APPOINTMENT."
+        },
+        "partial_consensus": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YOU CAN'T MEET HIM UNLESS YOU HAVE MADE AN APPOINTMENT."
+        },
+        "full_consensus": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YOU CAN'T MEET HIM UNLESS YOU HAVE MADE AN APPOINTMENT."
+        }
+      }
+    },
+    {
+      "id": 12,
+      "expected_visible_dialogue": "MUST I SPELL IT OUT FOR YOU? WHAT ARE YOU TRYING TO DO HERE BY PUTTING SOMETHING THAT INUSPICIOUS WHERE PEOPLE COME AND GO?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 24,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "inuspicious",
+              "actual": "inalspiciols",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "MUST I SPELL IT OUT FOR YOU? WHAT ARE YOU TRYING TO DO HERE BY PUTTING SOMETHING THAT INALSPICIOLS WHERE PEOPLE COME AND GO?"
+        },
+        "partial_consensus": {
+          "expected_words": 24,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "inuspicious",
+              "actual": "inalspiciols",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "MUST I SPELL IT OUT FOR YOU? WHAT ARE YOU TRYING TO DO HERE BY PUTTING SOMETHING THAT INALSPICIOLS WHERE PEOPLE COME AND GO?"
+        },
+        "full_consensus": {
+          "expected_words": 24,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "inuspicious",
+              "actual": "inalspiciols",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "MUST I SPELL IT OUT FOR YOU? WHAT ARE YOU TRYING TO DO HERE BY PUTTING SOMETHING THAT INALSPICIOLS WHERE PEOPLE COME AND GO?"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "expected_visible_dialogue": "INTO A FIGHT WITH THEM AT A BAR. ALL HIS OPPONENTS WERE LOW RANKED MARTIAL ARTISTS. BEFORE THINGS BLEW OUT OF PROPORTION, THE DEMONIC ARMY COVERED IT ALL UP FOR HIM. BECAUSE THERE ARE TOO MANY RETARDS THAT DON'T REVERE THE DEMONIC ARMY IN THE WORLD.",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 46,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "INTO A FIGHT WITH THEM AT A BAR. ALL HIS OPPONENTS WERE LOW RANKED MARTIAL ARTISTS. BEFORE THINGS BLEW OUT OF PROPORTION, THE DEMONIC ARMY COVERED IT ALL UP FOR HIM. BECAUSE THERE ARE TOO MANY RETARDS THAT DON'T REVERE THE DEMONIC ARMY IN THE WORLD."
+        },
+        "partial_consensus": {
+          "expected_words": 46,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "INTO A FIGHT WITH THEM AT A BAR. ALL HIS OPPONENTS WERE LOW RANKED MARTIAL ARTISTS. BEFORE THINGS BLEW OUT OF PROPORTION, THE DEMONIC ARMY COVERED IT ALL UP FOR HIM. BECAUSE THERE ARE TOO MANY RETARDS THAT DON'T REVERE THE DEMONIC ARMY IN THE WORLD."
+        },
+        "full_consensus": {
+          "expected_words": 46,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "INTO A FIGHT WITH THEM AT A BAR. ALL HIS OPPONENTS WERE LOW RANKED MARTIAL ARTISTS. BEFORE THINGS BLEW OUT OF PROPORTION, THE DEMONIC ARMY COVERED IT ALL UP FOR HIM. BECAUSE THERE ARE TOO MANY RETARDS THAT DON'T REVERE THE DEMONIC ARMY IN THE WORLD."
+        }
+      }
+    },
+    {
+      "id": 14,
+      "expected_visible_dialogue": "THE DEMONIC ARMY GAVE US THESE BOOKS. THE ASSASSINATION REQUEST LOGS AND BANKNOTE PAPERS THAT ARE WORTH THOUSANDS OF NYANGS WERE DISCOVERED IN THE 1ST CORPS COMMANDER'S HOUSE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 28,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE DEMONIC ARMY GAVE US THESE BOOKS. THE ASSASSINATION REQUEST LOGS AND BANKNOTE PAPERS THAT ARE WORTH THOUSANDS OF NYANGS WERE DISCOVERED IN THE 1ST CORPS COMMANDER'S HOUSE."
+        },
+        "partial_consensus": {
+          "expected_words": 28,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE DEMONIC ARMY GAVE US THESE BOOKS. THE ASSASSINATION REQUEST LOGS AND BANKNOTE PAPERS THAT ARE WORTH THOUSANDS OF NYANGS WERE DISCOVERED IN THE 1ST CORPS COMMANDER'S HOUSE."
+        },
+        "full_consensus": {
+          "expected_words": 28,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE DEMONIC ARMY GAVE US THESE BOOKS. THE ASSASSINATION REQUEST LOGS AND BANKNOTE PAPERS THAT ARE WORTH THOUSANDS OF NYANGS WERE DISCOVERED IN THE 1ST CORPS COMMANDER'S HOUSE."
+        }
+      }
+    },
+    {
+      "id": 15,
+      "expected_visible_dialogue": "HOW WOULD I KNOW? YOU SHOULD ASK THE DEAD 1ST CORPS COMMANDER THAT QUESTION.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HOW WOULD I KNOW? YOU SHOULD ASK THE DEAD 1ST CORPS COMMANDER THAT QUESTION."
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HOW WOULD I KNOW? YOU SHOULD ASK THE DEAD 1ST CORPS COMMANDER THAT QUESTION."
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HOW WOULD I KNOW? YOU SHOULD ASK THE DEAD 1ST CORPS COMMANDER THAT QUESTION."
+        }
+      }
+    },
+    {
+      "id": 16,
+      "expected_visible_dialogue": "I CAN'T BELIEVE HE'S BEING SO HONEST ABOUT HIS RELATIONSHIP WITH HIS BROTHER...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I CAN'T BELIEVE HE'S BEING SO HONEST ABOUT HIS RELATIONSHIP WITH HIS BROTHER..."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I CAN'T BELIEVE HE'S BEING SO HONEST ABOUT HIS RELATIONSHIP WITH HIS BROTHER..."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I CAN'T BELIEVE HE'S BEING SO HONEST ABOUT HIS RELATIONSHIP WITH HIS BROTHER..."
+        }
+      }
+    },
+    {
+      "id": 17,
+      "expected_visible_dialogue": "HOW ABOUT PLACING A STATUE OF A BEAUTIFUL WOMAN INSTEAD OF THAT DEMON STATUE?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "about",
+              "actual": "abolt",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "statue",
+              "actual": "stathe",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "HOW ABOLT PLACING A STATUE OF A BEAUTIFUL WOMAN INSTEAD OF THAT DEMON STATHE?"
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "statue",
+              "actual": "stathe",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "HOW ABOUT PLACING A STATUE OF A BEAUTIFUL WOMAN INSTEAD OF THAT DEMON STATHE?"
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "statue",
+              "actual": "stathe",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "HOW ABOUT PLACING A STATUE OF A BEAUTIFUL WOMAN INSTEAD OF THAT DEMON STATHE?"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "expected_visible_dialogue": "WHY DID YOU CREATE CONFLICT BETWEEN ME AND HIM THEN? SHOULDN'T YOU TAKE RESPONSIBILITY FOR THAT?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY DID YOU CREATE CONFLICT BETWEEN ME AND HIM THEN? SHOULDN'T YOU TAKE RESPONSIBILITY FOR THAT?"
+        },
+        "partial_consensus": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY DID YOU CREATE CONFLICT BETWEEN ME AND HIM THEN? SHOULDN'T YOU TAKE RESPONSIBILITY FOR THAT?"
+        },
+        "full_consensus": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY DID YOU CREATE CONFLICT BETWEEN ME AND HIM THEN? SHOULDN'T YOU TAKE RESPONSIBILITY FOR THAT?"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "expected_visible_dialogue": "THE HEAVENLY DEMON DEFENSE ART. IT PROTECTS ONE'S BODY AND IS AN EXCLUSIVE MARTIAL ART THAT ONLY THE HEAVENLY DEMON CAN LEARN.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE HEAVENLY DEMON DEFENSE ART, IT PROTECTS ONE'S BODY AND IS AN EXCLUSIVE MARTIAL ART THAT ONLY THE HEAVENLY DEMON CAN LEARN."
+        },
+        "partial_consensus": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE HEAVENLY DEMON DEFENSE ART, IT PROTECTS ONE'S BODY AND IS AN EXCLUSIVE MARTIAL ART THAT ONLY THE HEAVENLY DEMON CAN LEARN."
+        },
+        "full_consensus": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE HEAVENLY DEMON DEFENSE ART, IT PROTECTS ONE'S BODY AND IS AN EXCLUSIVE MARTIAL ART THAT ONLY THE HEAVENLY DEMON CAN LEARN."
+        }
+      }
+    },
+    {
+      "id": 20,
+      "expected_visible_dialogue": "HE'S PUT POISON INTO THE FOOD THAT HE GAVE OUT! I DIDN'T EAT ANY OF THE FOOD YOU GAVE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "he's",
+              "actual": "s",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "'S PUT POISON INTO THE FOOD THAT HE GAVE OUT! I DIDN'T EAT ANY OF THE FOOD YOU GAVE."
+        },
+        "partial_consensus": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "he's",
+              "actual": "s",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "'S PUT POISON INTO THE FOOD THAT HE GAVE OUT! I DIDN'T EAT ANY OF THE FOOD YOU GAVE."
+        },
+        "full_consensus": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "he's",
+              "actual": "s",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "'S PUT POISON INTO THE FOOD THAT HE GAVE OUT! I DIDN'T EAT ANY OF THE FOOD YOU GAVE."
+        }
+      }
+    },
+    {
+      "id": 21,
+      "expected_visible_dialogue": "LOOKS LIKE YOU'VE GOT A GOOD EYE FOR PEOPLE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LOOKS LIKE YOU'VE GOT A GOOD EYE FOR PEOPLE."
+        },
+        "partial_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LOOKS LIKE YOU'VE GOT A GOOD EYE FOR PEOPLE."
+        },
+        "full_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LOOKS LIKE YOU'VE GOT A GOOD EYE FOR PEOPLE."
+        }
+      }
+    },
+    {
+      "id": 22,
+      "expected_visible_dialogue": "A PRIVATE GROUP? DON'T EACH OF THE DEMON SUPREMES TAKE IN THEIR OWN SUBORDINATES? IN ORDER TO DEAL WITH THEM, I ALSO NEED MY OWN.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "A PRIVATE GROUP? DON'T EACH OF THE DEMON SUPREMES TAKE IN THEIR OWN SUBORDINATES? IN ORDER TO DEAL WITH THEM, I ALSO NEED MY OWN."
+        },
+        "partial_consensus": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "A PRIVATE GROUP? DON'T EACH OF THE DEMON SUPREMES TAKE IN THEIR OWN SUBORDINATES? IN ORDER TO DEAL WITH THEM, I ALSO NEED MY OWN."
+        },
+        "full_consensus": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "A PRIVATE GROUP? DON'T EACH OF THE DEMON SUPREMES TAKE IN THEIR OWN SUBORDINATES? IN ORDER TO DEAL WITH THEM, I ALSO NEED MY OWN."
+        }
+      }
+    },
+    {
+      "id": 23,
+      "expected_visible_dialogue": "HOW COULD HE DO THAT? I HEARD THE FATHER OF THE CHILD WHO LED THE ATTACK ON MY CHILD WAS THE HUNDRED SWORD DEMON.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HOW COULD HE DO THAT? I HEARD THE FATHER OF THE CHILD WHO LED THE ATTACK ON MY / CHILD WAS THE HUNDRED SWORD DEMON."
+        },
+        "partial_consensus": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HOW COULD HE DO THAT? I HEARD THE FATHER OF THE CHILD WHO LED THE ATTACK ON MY / CHILD WAS THE HUNDRED SWORD DEMON."
+        },
+        "full_consensus": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HOW COULD HE DO THAT? I HEARD THE FATHER OF THE CHILD WHO LED THE ATTACK ON MY / CHILD WAS THE HUNDRED SWORD DEMON."
+        }
+      }
+    },
+    {
+      "id": 24,
+      "expected_visible_dialogue": "IF ANYTHING UNFAIR HAPPENS EVER AGAIN, PLEASE REPORT IT TO THE NIRVANA PAVILION.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF ANYTHING UNFAIR HAPPENS EVER AGAIN, PLEASE REPORT IT TO THE NIRVANA PAVILION."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF ANYTHING UNFAIR HAPPENS EVER AGAIN, PLEASE REPORT IT TO THE NIRVANA PAVILION."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF ANYTHING UNFAIR HAPPENS EVER AGAIN, PLEASE REPORT IT TO THE NIRVANA PAVILION."
+        }
+      }
+    },
+    {
+      "id": 25,
+      "expected_visible_dialogue": "WERE YOU THREATENED WITH THE SAFETY OF YOUR SISTER?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WERE YOU THREATENED WITH THE SAFETY OF YOUR SISTER?"
+        },
+        "partial_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WERE YOU THREATENED WITH THE SAFETY OF YOUR SISTER?"
+        },
+        "full_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WERE YOU THREATENED WITH THE SAFETY OF YOUR SISTER?"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "expected_visible_dialogue": "NO MATTER WHO IT IS, IF THEY DARE COMMIT A CRIME, THEN I BELIEVE THEY SHOULD BE PUNISHED. EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NO MATTER WHO IT IS, IF THEY DARE COMMIT A CRIME, THEN I BELIEVE THEY SHOULD BE PUNISHED. EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME,"
+        },
+        "partial_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NO MATTER WHO IT IS, IF THEY DARE COMMIT A CRIME, THEN I BELIEVE THEY SHOULD BE PUNISHED. EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME,"
+        },
+        "full_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NO MATTER WHO IT IS, IF THEY DARE COMMIT A CRIME, THEN I BELIEVE THEY SHOULD BE PUNISHED. EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME,"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "expected_visible_dialogue": "WHILE I'M THANKFUL YOU THINK HIGHLY OF ME,",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHILE I'M THANKFUL YOU THINK HIGHLY OF ME,"
+        },
+        "partial_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHILE I'M THANKFUL YOU THINK HIGHLY OF ME,"
+        },
+        "full_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHILE I'M THANKFUL YOU THINK HIGHLY OF ME,"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "expected_visible_dialogue": "PLEASE DON'T SAY THAT EVEN IF YOU MEANT IT AS A JOKE. IF I GO TO THE SOUTHERN BLADE HOUSE RIGHT NOW, I MIGHT GET MY LEGS BROKEN THERE...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "PLEASE DON'T SAY THAT EVEN IF YOU MEANT IT AS A JOKE. IF I GO TO THE SOUTHERN BLADE HOUSE RIGHT NOW, I MIGHT GET MY LEGS BROKEN THERE..."
+        },
+        "partial_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "PLEASE DON'T SAY THAT EVEN IF YOU MEANT IT AS A JOKE. IF I GO TO THE SOUTHERN BLADE HOUSE RIGHT NOW, I MIGHT GET MY LEGS BROKEN THERE..."
+        },
+        "full_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "PLEASE DON'T SAY THAT EVEN IF YOU MEANT IT AS A JOKE. IF I GO TO THE SOUTHERN BLADE HOUSE RIGHT NOW, I MIGHT GET MY LEGS BROKEN THERE..."
+        }
+      }
+    },
+    {
+      "id": 29,
+      "expected_visible_dialogue": "BUT I INTEND TO GET BUSY AND MAKE HIM THE DEMONIC ARMY COMMANDER.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BUT I INTEND TO GET BUSY AND MAKE HIM THE DEMONIC ARMY COMMANDER."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BUT I INTEND TO GET BUSY AND MAKE HIM THE DEMONIC ARMY COMMANDER."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BUT I INTEND TO GET BUSY AND MAKE HIM THE DEMONIC ARMY COMMANDER."
+        }
+      }
+    },
+    {
+      "id": 30,
+      "expected_visible_dialogue": "AS YOU KNOW, I'VE ALREADY DONE MUCH TO SUPPORT MY SECOND SON. I NEED TO CONSIDER THE FEELINGS OF MY FIRST SON.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "AS YOU KNOW, I'VE ALREADY DONE MUCH TO SUPPORT MY SECOND SON. I NEED TO CONSIDER THE FEELINGS OF MY FIRST SON."
+        },
+        "partial_consensus": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "AS YOU KNOW, I'VE ALREADY DONE MUCH TO SUPPORT MY SECOND SON. I NEED TO CONSIDER THE FEELINGS OF MY FIRST SON."
+        },
+        "full_consensus": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "AS YOU KNOW, I'VE ALREADY DONE MUCH TO SUPPORT MY SECOND SON. I NEED TO CONSIDER THE FEELINGS OF MY FIRST SON."
+        }
+      }
+    },
+    {
+      "id": 31,
+      "expected_visible_dialogue": "THAT'S JUST WHAT IT'S SUPPOSED TO BE LIKE. WE JUST WEREN'T ABLE TO DO WHAT'S TO BE NATURALLY EXPECTED SO FAR.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT'S JUST WHAT IT'S SUPPOSED TO BE LIKE. WE JUST WEREN'T ABLE TO DO WHAT'S TO BE NATURALLY EXPECTED SO FAR."
+        },
+        "partial_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT'S JUST WHAT IT'S SUPPOSED TO BE LIKE. WE JUST WEREN'T ABLE TO DO WHAT'S TO BE NATURALLY EXPECTED SO FAR."
+        },
+        "full_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT'S JUST WHAT IT'S SUPPOSED TO BE LIKE. WE JUST WEREN'T ABLE TO DO WHAT'S TO BE NATURALLY EXPECTED SO FAR."
+        }
+      }
+    },
+    {
+      "id": 32,
+      "expected_visible_dialogue": "THAT WAS ONLY POSSIBLE BECAUSE YOU WERE SUCH A GREAT PILLAR OF SUPPORT.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT WAS ONLY POSSIBLE BECAUSE YOU WERE SUCH A GREAT PILLAR OF SUPPORT."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT WAS ONLY POSSIBLE BECAUSE YOU WERE SUCH A GREAT PILLAR OF SUPPORT."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THAT WAS ONLY POSSIBLE BECAUSE YOU WERE SUCH A GREAT PILLAR OF SUPPORT."
+        }
+      }
+    },
+    {
+      "id": 33,
+      "expected_visible_dialogue": "THERE ARE VARIOUS TYPES OF NASTIES. FROM WHAT I'VE SEEN, YOU'RE NOT SOMEONE WHO'D BREAK THEIR WORD.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE ARE VARIOUS TYPES OF NASTIES. FROM WHAT I'VE SEEN, YOU'RE NOT SOMEONE WHO'D BREAK THEIR WORD."
+        },
+        "partial_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE ARE VARIOUS TYPES OF NASTIES. FROM WHAT I'VE SEEN, YOU'RE NOT SOMEONE WHO'D BREAK THEIR WORD."
+        },
+        "full_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE ARE VARIOUS TYPES OF NASTIES. FROM WHAT I'VE SEEN, YOU'RE NOT SOMEONE WHO'D BREAK THEIR WORD."
+        }
+      }
+    },
+    {
+      "id": 34,
+      "expected_visible_dialogue": "AND MAKE ME HAND OVER EVEN THE HEAVENLY DIVINE PILL?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "AND MAKE ME HAND OVER EVEN THE HEAVENLY DIVINE PILL?"
+        },
+        "partial_consensus": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "AND MAKE ME HAND OVER EVEN THE HEAVENLY DIVINE PILL?"
+        },
+        "full_consensus": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "AND MAKE ME HAND OVER EVEN THE HEAVENLY DIVINE PILL?"
+        }
+      }
+    },
+    {
+      "id": 35,
+      "expected_visible_dialogue": "ARE YOU SURE IT'S NOT BECAUSE HE GAVE YOU THE HEAVENLY DIVINE PILL? I WON'T DENY THAT.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 17,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "you",
+              "actual": "yol",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "ARE YOU SURE IT'S NOT BECAUSE HE GAVE YOL THE HEAVENLY DIVINE PILL? I WON'T DENY THAT."
+        },
+        "partial_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "ARE YOU SURE IT'S NOT BECAUSE HE GAVE YOU THE HEAVENLY DIVINE PILL? I WON'T DENY THAT."
+        },
+        "full_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "ARE YOU SURE IT'S NOT BECAUSE HE GAVE YOU THE HEAVENLY DIVINE PILL? I WON'T DENY THAT."
+        }
+      }
+    },
+    {
+      "id": 36,
+      "expected_visible_dialogue": "THERE WAS SOMETHING THAT OLD MAN COULD SEE BUT I COULDN'T?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE WAS SOMETHING THAT OLD MAN COULD SEE BUT I COULDN'T?"
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE WAS SOMETHING THAT OLD MAN COULD SEE BUT I COULDN'T?"
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE WAS SOMETHING THAT OLD MAN COULD SEE BUT I COULDN'T?"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "expected_visible_dialogue": "I HAVE A FAVOR TO ASK OF YOU. WHAT IS IT? I'D LIKE TO HAVE ANOTHER FAMILY MEMBER.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "i'd",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "like",
+              "actual": "id",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "to",
+              "actual": "liketo",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "I HAVE A FAVOR TO ASK OF YOU. WHAT IS IT? ID LIKETO HAVE ANOTHER FAMILY MEMBER,"
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "i'd",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "like",
+              "actual": "id",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "to",
+              "actual": "liketo",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "I HAVE A FAVOR TO ASK OF YOU. WHAT IS IT? ID LIKETO HAVE ANOTHER FAMILY MEMBER,"
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I HAVE A FAVOR TO ASK OF YOU. WHAT IS IT? I'D LIKE TO HAVE ANOTHER FAMILY MEMBER,"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "expected_visible_dialogue": "LET'S HAVE DRINKS AT THE PLEASURE BAR LATER TONIGHT. I'LL WAIT FOR YOU THERE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "drinks",
+              "actual": "prinks",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "LET'S HAVE PRINKS AT THE PLEASURE BAR LATER TONIGHT. I'LL WAIT FOR YOU THERE."
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S HAVE DRINKS AT THE PLEASURE BAR LATER TONIGHT. I'LL WAIT FOR YOU THERE."
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S HAVE DRINKS AT THE PLEASURE BAR LATER TONIGHT. I'LL WAIT FOR YOU THERE."
+        }
+      }
+    },
+    {
+      "id": 39,
+      "expected_visible_dialogue": "NOW HE'S COME TO MY RESIDENCE FOR THE FIRST TIME. THERE HAVE BEEN SO MANY FIRST EXPERIENCES WITH HIM IN THIS LIFETIME. WOULD YOU LIKE TO COME IN? WHY WOULD I GO INTO A ROOM WHERE A MAN LIVES ALONE AND SMELLS?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 42,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NOW HE'S COME TO MY RESIDENCE FOR THE FIRST TIME. THERE HAVE BEEN SO MANY FIRST EXPERIENCES WITH HIM IN THIS LIFETIME. WOULD YOU LIKE TO COME IN? WHY WOULD I GO INTO A ROOM WHERE A MAN LIVES ALONE AND SMELLS?"
+        },
+        "partial_consensus": {
+          "expected_words": 42,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NOW HE'S COME TO MY RESIDENCE FOR THE FIRST TIME. THERE HAVE BEEN SO MANY FIRST EXPERIENCES WITH HIM IN THIS LIFETIME. WOULD YOU LIKE TO COME IN? WHY WOULD I GO INTO A ROOM WHERE A MAN LIVES ALONE AND SMELLS?"
+        },
+        "full_consensus": {
+          "expected_words": 42,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NOW HE'S COME TO MY RESIDENCE FOR THE FIRST TIME. THERE HAVE BEEN SO MANY FIRST EXPERIENCES WITH HIM IN THIS LIFETIME. WOULD YOU LIKE TO COME IN? WHY WOULD I GO INTO A ROOM WHERE A MAN LIVES ALONE AND SMELLS?"
+        }
+      }
+    },
+    {
+      "id": 40,
+      "expected_visible_dialogue": "WELCOME, SWORD SUPREME. PLEASE SIT OVER HERE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WELCOME, SWORD SUPREME. PLEASE SIT OVER HERE."
+        },
+        "partial_consensus": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WELCOME, SWORD SUPREME. PLEASE SIT OVER HERE."
+        },
+        "full_consensus": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WELCOME, SWORD SUPREME. PLEASE SIT OVER HERE."
+        }
+      }
+    },
+    {
+      "id": 41,
+      "expected_visible_dialogue": "I SHOULDN'T HAVE INVITED YOU TO THAT DINNER. YOU ALREADY WON. WHY ARE YOU APOLOGIZING TO ME?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I SHOULDN'T HAVE INVITED YOU TO THAT DINNER. YOU ALREADY WON. WHY ARE YOU APOLOGIZING TO ME?"
+        },
+        "partial_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I SHOULDN'T HAVE INVITED YOU TO THAT DINNER. YOU ALREADY WON. WHY ARE YOU APOLOGIZING TO ME?"
+        },
+        "full_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I SHOULDN'T HAVE INVITED YOU TO THAT DINNER. YOU ALREADY WON. WHY ARE YOU APOLOGIZING TO ME?"
+        }
+      }
+    },
+    {
+      "id": 42,
+      "expected_visible_dialogue": "IT WAS A ONCE-IN-A-LIFETIME STROKE OF LUCK. I'M NOT ARROGANT ENOUGH TO MISTAKE LUCK FOR SKILL. THEN LET'S DO THIS. I WON'T SET ANY CONDITIONS IF I WIN.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 31,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "was",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": "wasa",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT WASA ONCE-IN-A-LIFETIME STROKE OF LUCK. I'M NOT ARROGANT ENOUGH TO MISTAKE LUCK FOR SKILL. THEN LET'S DO THIS. I WON'T SET ANY CONDITIONS IF I WIN."
+        },
+        "partial_consensus": {
+          "expected_words": 31,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "was",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": "wasa",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT WASA ONCE-IN-A-LIFETIME STROKE OF LUCK. I'M NOT ARROGANT ENOUGH TO MISTAKE LUCK FOR SKILL. THEN LET'S DO THIS. I WON'T SET ANY CONDITIONS IF I WIN."
+        },
+        "full_consensus": {
+          "expected_words": 31,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT WAS A ONCE-IN-A-LIFETIME STROKE OF LUCK. I'M NOT ARROGANT ENOUGH TO MISTAKE LUCK FOR SKILL. THEN LET'S DO THIS. I WON'T SET ANY CONDITIONS IF I WIN."
+        }
+      }
+    },
+    {
+      "id": 43,
+      "expected_visible_dialogue": "I'D LIKE TO HAVE A DRINK WITH YOU. LET'S GO.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'D LIKE TO HAVE A DRINK WITH YOU. | LET'S GO."
+        },
+        "partial_consensus": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'D LIKE TO HAVE A DRINK WITH YOU. | LET'S GO."
+        },
+        "full_consensus": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'D LIKE TO HAVE A DRINK WITH YOU. | LET'S GO."
+        }
+      }
+    },
+    {
+      "id": 44,
+      "expected_visible_dialogue": "THE SOUL ABSORBING SUPREME DEMON WOULD'VE BEEN METICULOUS IN COVERING UP ANYTHING RELATED TO HIS SOUL ART. YET THE CORPSES WERE FOUND BY A HERB GATHERER, AND THE FAN WAS CONVENIENTLY LEFT BEHIND?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 33,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "meticulous",
+              "actual": "meticllols",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "up",
+              "actual": "lip",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE SOUL ABSORBING SUPREME DEMON WOULD'VE BEEN METICLLOLS IN COVERING LIP ANYTHING RELATED TO HIS SOUL ART. YET THE CORPSES WERE FOUND BY A HERB GATHERER, AND THE FAN WAS CONVENIENTLY LEFT BEHIND?"
+        },
+        "partial_consensus": {
+          "expected_words": 33,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "up",
+              "actual": "lip",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE SOUL ABSORBING SUPREME DEMON WOULD'VE BEEN METICULOUS IN COVERING LIP ANYTHING RELATED TO HIS SOUL ART. YET THE CORPSES WERE FOUND BY A HERB GATHERER, AND THE FAN WAS CONVENIENTLY LEFT BEHIND?"
+        },
+        "full_consensus": {
+          "expected_words": 33,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE SOUL ABSORBING SUPREME DEMON WOULD'VE BEEN METICULOUS IN COVERING UP ANYTHING RELATED TO HIS SOUL ART. YET THE CORPSES WERE FOUND BY A HERB GATHERER, AND THE FAN WAS CONVENIENTLY LEFT BEHIND?"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "expected_visible_dialogue": "IF YOU'RE THAT SKILLED, THEN YOU'LL NATURALLY FILL THE VACANCY LEFT BY THE SOUL ABSORBING SUPREME DEMON.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 17,
+          "word_errors": 9,
+          "edits": [
+            {
+              "expected": "if",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "you're",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "that",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "skilled",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "then",
+              "actual": "ifvoqkerwr",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "you'll",
+              "actual": "saw",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "naturally",
+              "actual": "wemvoquurqkåuv",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "fill",
+              "actual": "fil",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "by",
+              "actual": "bv",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IFVoqkErwr saw, WEMVoqUUrqkÅUV FIL THE VACANCY LEFT BV THE SOUL ABSORBING SUPREME DEMON."
+        },
+        "partial_consensus": {
+          "expected_words": 17,
+          "word_errors": 8,
+          "edits": [
+            {
+              "expected": "if",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "you're",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "that",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "skilled",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "then",
+              "actual": "ifvoqkerwr",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "you'll",
+              "actual": "saw",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "naturally",
+              "actual": "wemvoquurqkåuv",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "fill",
+              "actual": "fil",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IFVoqkErwr saw, WEMVoqUUrqkÅUV FIL THE VACANCY LEFT BY THE SOUL ABSORBING SUPREME DEMON."
+        },
+        "full_consensus": {
+          "expected_words": 17,
+          "word_errors": 8,
+          "edits": [
+            {
+              "expected": "if",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "you're",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "that",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "skilled",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "then",
+              "actual": "ifvoqkerwr",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "you'll",
+              "actual": "saw",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "naturally",
+              "actual": "wemvoquurqkåuv",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "fill",
+              "actual": "fil",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IFVoqkErwr saw, WEMVoqUUrqkÅUV FIL THE VACANCY LEFT BY THE SOUL ABSORBING SUPREME DEMON."
+        }
+      }
+    },
+    {
+      "id": 46,
+      "expected_visible_dialogue": "SINCE IT WAS MORE OF A THREAT USING MY FATHER, IT'LL PROBABLY HOLD FOR TWO OR THREE MONTHS.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SINCE IT WAS MORE OF A THREAT USING MY FATHER, IT'LL PROBABLY HOLD FOR TWO OR THREE MONTHS."
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SINCE IT WAS MORE OF A THREAT USING MY FATHER, IT'LL PROBABLY HOLD FOR TWO OR THREE MONTHS."
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SINCE IT WAS MORE OF A THREAT USING MY FATHER, IT'LL PROBABLY HOLD FOR TWO OR THREE MONTHS."
+        }
+      }
+    },
+    {
+      "id": 47,
+      "expected_visible_dialogue": "I'M ALREADY THIRTY-TWO. I'M WORRIED IT MIGHT BE TOO LATE. YEAH, IT'S LATE. BUT THAT ALSO COMES WITH AN ADVANTAGE. AN ADVANTAGE?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'M ALREADY THIRTY-TWO. I'M WORRIED IT MIGHT BE TOO LATE. YEAH, IT'S LATE. BUT THAT ALSO COMES WITH AN ADVANTAGE. AN ADVANTAGE?"
+        },
+        "partial_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'M ALREADY THIRTY-TWO. I'M WORRIED IT MIGHT BE TOO LATE. YEAH, IT'S LATE. BUT THAT ALSO COMES WITH AN ADVANTAGE. AN ADVANTAGE?"
+        },
+        "full_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'M ALREADY THIRTY-TWO. I'M WORRIED IT MIGHT BE TOO LATE. YEAH, IT'S LATE. BUT THAT ALSO COMES WITH AN ADVANTAGE. AN ADVANTAGE?"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "expected_visible_dialogue": "A FEW DAYS OR A FEW YEARS, ANYTHING IS FINE. IF YOU STILL DON'T LIKE HIM, THEN WE",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "A FEW DAYS OR A FEW YEARS, ANYTHING IS FINE. IF YOU STILL DON'T LIKE HIM, THEN WE"
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "A FEW DAYS OR A FEW YEARS, ANYTHING IS FINE. IF YOU STILL DON'T LIKE HIM, THEN WE"
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "A FEW DAYS OR A FEW YEARS, ANYTHING IS FINE. IF YOU STILL DON'T LIKE HIM, THEN WE"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "expected_visible_dialogue": "I DID THAT? IT'S BEEN DECADES SINCE I LAST ALLOWED ANYONE TO TOUCH ME.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "i",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "did",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "THAT? IT'S BEEN DECADES SINCE I LAST ALLOWED ANYONE TO TOUCH ME."
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "i",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "did",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "THAT? IT'S BEEN DECADES SINCE I LAST ALLOWED ANYONE TO TOUCH ME."
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "i",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "did",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "THAT? IT'S BEEN DECADES SINCE I LAST ALLOWED ANYONE TO TOUCH ME."
+        }
+      }
+    },
+    {
+      "id": 50,
+      "expected_visible_dialogue": "WHAT IF YOUR CHILD ENDS UP HATING YOU? THEN",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 9,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "then",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "WHAT IF YOUR CHILD ENDS UP HATING YOU?"
+        },
+        "partial_consensus": {
+          "expected_words": 9,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "then",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "WHAT IF YOUR CHILD ENDS UP HATING YOU?"
+        },
+        "full_consensus": {
+          "expected_words": 9,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "then",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "WHAT IF YOUR CHILD ENDS UP HATING YOU?"
+        }
+      }
+    },
+    {
+      "id": 51,
+      "expected_visible_dialogue": "THERE'LL BE MORE TROUBLE SOON, I BET. WHY DO YOU ASSUME THAT I WENT OUT TO CAUSE TROUBLE?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE'LL BE MORE TROUBLE SOON, I BET. WHY DO YOU ASSUME THAT I WENT OUT TO CAUSE TROUBLE?"
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE'LL BE MORE TROUBLE SOON, I BET. WHY DO YOU ASSUME THAT I WENT OUT TO CAUSE TROUBLE?"
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THERE'LL BE MORE TROUBLE SOON, I BET. WHY DO YOU ASSUME THAT I WENT OUT TO CAUSE TROUBLE?"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "expected_visible_dialogue": "DO WE REALLY LIVE LIVES SO EASY THAT WE CAN AFFORD TO GIVE THE WEAK A CHOICE? WHAT'S SO WRONG WITH DEVOURING THE HEARTS OF THE WEAK TO GROW STRONGER?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 30,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "devouring",
+              "actual": "devolring",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "DO WE REALLY LIVE LIVES SO EASY THAT WE CAN AFFORD TO GIVE THE WEAK A CHOICE? WHAT'S SO WRONG WITH DEVOLRING THE HEARTS OF THE WEAK TO GROW STRONGER?"
+        },
+        "partial_consensus": {
+          "expected_words": 30,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "devouring",
+              "actual": "devolring",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "DO WE REALLY LIVE LIVES SO EASY THAT WE CAN AFFORD TO GIVE THE WEAK A CHOICE? WHAT'S SO WRONG WITH DEVOLRING THE HEARTS OF THE WEAK TO GROW STRONGER?"
+        },
+        "full_consensus": {
+          "expected_words": 30,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "devouring",
+              "actual": "devolring",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "DO WE REALLY LIVE LIVES SO EASY THAT WE CAN AFFORD TO GIVE THE WEAK A CHOICE? WHAT'S SO WRONG WITH DEVOLRING THE HEARTS OF THE WEAK TO GROW STRONGER?"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "expected_visible_dialogue": "HIM KILL HIM. KILL HIM. EVEN WHEN THE HEAVENLY DEMON DEFENSE ART IS ACTIVATED, THERE'S STILL THIS MUCH EFFECT... FOR AN ORDINARY PERSON, THEY WOULD'VE ALREADY FALLEN UNDER THE SOUL ABSORBING ART OF THE SOUL ABSORBING SUPREME DEMON. KILL HIM.",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 40,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "him",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "kill",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "him",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "KILL HIM, EVEN WHEN THE HEAVENLY DEMON DEFENSE ART IS ACTIVATED, THERE'S STILL THIS MUCH EFFECT... FOR AN ORDINARY PERSON, THEY WOULD'VE ALREADY FALLEN UNDER THE SOUL ABSORBING ART OF THE SOUL ABSORBING SUPREME DEMON. KILL HIM"
+        },
+        "partial_consensus": {
+          "expected_words": 40,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "him",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "kill",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "him",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "KILL HIM, EVEN WHEN THE HEAVENLY DEMON DEFENSE ART IS ACTIVATED, THERE'S STILL THIS MUCH EFFECT... FOR AN ORDINARY PERSON, THEY WOULD'VE ALREADY FALLEN UNDER THE SOUL ABSORBING ART OF THE SOUL ABSORBING SUPREME DEMON. KILL HIM"
+        },
+        "full_consensus": {
+          "expected_words": 40,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "him",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "kill",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "him",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "KILL HIM, EVEN WHEN THE HEAVENLY DEMON DEFENSE ART IS ACTIVATED, THERE'S STILL THIS MUCH EFFECT... FOR AN ORDINARY PERSON, THEY WOULD'VE ALREADY FALLEN UNDER THE SOUL ABSORBING ART OF THE SOUL ABSORBING SUPREME DEMON. KILL HIM"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "expected_visible_dialogue": "IF I HADN'T DODGED WITH MY FLICKER STEP, I WOULD'VE BEEN SLICED INTO SIX PIECES AND KILLED.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF I HADN'T DODGED WITH MY FLICKER STEP, I WOULD'VE BEEN SLICED INTO SIX PIECES AND KILLED."
+        },
+        "partial_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF I HADN'T DODGED WITH MY FLICKER STEP, I WOULD'VE BEEN SLICED INTO SIX PIECES AND KILLED."
+        },
+        "full_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF I HADN'T DODGED WITH MY FLICKER STEP, I WOULD'VE BEEN SLICED INTO SIX PIECES AND KILLED."
+        }
+      }
+    },
+    {
+      "id": 55,
+      "expected_visible_dialogue": "UNLIKE THE SOUL ABSORBING SUPREME DEMON'S USUAL SELF, HE DIDN'T LEAVE ANY CURSES BEHIND.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "UNLIKE THE SOUL ABSORBING SUPREME DEMON'S USUAL SELF, HE DIDN'T LEAVE ANY CURSES BEHIND."
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "UNLIKE THE SOUL ABSORBING SUPREME DEMON'S USUAL SELF, HE DIDN'T LEAVE ANY CURSES BEHIND."
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "UNLIKE THE SOUL ABSORBING SUPREME DEMON'S USUAL SELF, HE DIDN'T LEAVE ANY CURSES BEHIND."
+        }
+      }
+    },
+    {
+      "id": 56,
+      "expected_visible_dialogue": "WOULD IT BE HARD FOR ME TO CATCH YOU? IF YOU RELEASE THE FISH YOU CAUGHT, MAYBE IT'LL BE POSSIBLE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 20,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "caught",
+              "actual": "calght",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WOULD IT BE HARD FOR ME TO CATCH YOU? IF YOU RELEASE THE FISH YOU CALGHT, MAYBE IT'LL BE POSSIBLE."
+        },
+        "partial_consensus": {
+          "expected_words": 20,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "caught",
+              "actual": "calght",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WOULD IT BE HARD FOR ME TO CATCH YOU? IF YOU RELEASE THE FISH YOU CALGHT, MAYBE IT'LL BE POSSIBLE."
+        },
+        "full_consensus": {
+          "expected_words": 20,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "caught",
+              "actual": "calght",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WOULD IT BE HARD FOR ME TO CATCH YOU? IF YOU RELEASE THE FISH YOU CALGHT, MAYBE IT'LL BE POSSIBLE."
+        }
+      }
+    },
+    {
+      "id": 57,
+      "expected_visible_dialogue": "WHERE TO? ISN'T IT TIME YOU VISITED THE NIRVANA PAVILION BRANCH IN THE CENTRAL PLAINS?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHERE TO? ISN'T IT TIME YOU VISITED THE NIRVANA PAVILION BRANCH IN THE CENTRAL PLAINS?"
+        },
+        "partial_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHERE TO? ISN'T IT TIME YOU VISITED THE NIRVANA PAVILION BRANCH IN THE CENTRAL PLAINS?"
+        },
+        "full_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHERE TO? ISN'T IT TIME YOU VISITED THE NIRVANA PAVILION BRANCH IN THE CENTRAL PLAINS?"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "expected_visible_dialogue": "THOSE WHO SAY THEY HAVE NO REGRETS ARE OFTEN THE ONES MOST TORMENTED INSIDE. ANYWAY, WHAT IS THIS ABOUT?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 19,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THOSE WHO SAY THEY HAVE NO REGRETS ARE OFTEN THE ONES MOST TORMENTED INSIDE. ANYWAY, WHAT IS THIS ABOUT?"
+        },
+        "partial_consensus": {
+          "expected_words": 19,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THOSE WHO SAY THEY HAVE NO REGRETS ARE OFTEN THE ONES MOST TORMENTED INSIDE. ANYWAY, WHAT IS THIS ABOUT?"
+        },
+        "full_consensus": {
+          "expected_words": 19,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THOSE WHO SAY THEY HAVE NO REGRETS ARE OFTEN THE ONES MOST TORMENTED INSIDE. ANYWAY, WHAT IS THIS ABOUT?"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "expected_visible_dialogue": "GOOD GRIEF. THAT'S A STRAIGHT PATH TO ILLNESS. I'M ALREADY SICK. IT'S A CONDITION WHERE I CAN'T SLEEP UNLESS I TRAIN.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "GOOD GRIEF. THAT'S A STRAIGHT PATH TO ILLNESS. I'M ALREADY SICK. IT'S A CONDITION WHERE I CAN'T SLEEP UNLESS I TRAIN."
+        },
+        "partial_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "GOOD GRIEF. THAT'S A STRAIGHT PATH TO ILLNESS. I'M ALREADY SICK. IT'S A CONDITION WHERE I CAN'T SLEEP UNLESS I TRAIN."
+        },
+        "full_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "GOOD GRIEF. THAT'S A STRAIGHT PATH TO ILLNESS. I'M ALREADY SICK. IT'S A CONDITION WHERE I CAN'T SLEEP UNLESS I TRAIN."
+        }
+      }
+    },
+    {
+      "id": 60,
+      "expected_visible_dialogue": "WELL? THE SECOND YOUNG MASTER HAS NO CONNECTION TO THE SOUL ABSORBING ART. TO OVERPOWER SOMEONE WITHIN A SPACE CREATED BY THAT TECHNIQUE,",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 23,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "by",
+              "actual": "3y",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WELL? THE SECOND YOUNG MASTER HAS NO CONNECTION TO THE SOUL ABSORBING ART. TO OVERPOWER SOMEONE WITHIN A SPACE CREATED 3Y THAT TECHNIQUE,"
+        },
+        "partial_consensus": {
+          "expected_words": 23,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "by",
+              "actual": "3y",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WELL? THE SECOND YOUNG MASTER HAS NO CONNECTION TO THE SOUL ABSORBING ART. TO OVERPOWER SOMEONE WITHIN A SPACE CREATED 3Y THAT TECHNIQUE,"
+        },
+        "full_consensus": {
+          "expected_words": 23,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "by",
+              "actual": "3y",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WELL? THE SECOND YOUNG MASTER HAS NO CONNECTION TO THE SOUL ABSORBING ART. TO OVERPOWER SOMEONE WITHIN A SPACE CREATED 3Y THAT TECHNIQUE,"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "expected_visible_dialogue": "IN THAT MOMENT, I CLEARLY HEARD IT. THE SOUND OF HIS HEART'S DOOR OPENING A LITTLE WIDER,",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IN THAT MOMENT, I CLEARLY HEARD IT. THE SOUND OF HIS HEART'S DOOR OPENING A LITTLE WIDER,"
+        },
+        "partial_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IN THAT MOMENT, I CLEARLY HEARD IT. THE SOUND OF HIS HEART'S DOOR OPENING A LITTLE WIDER,"
+        },
+        "full_consensus": {
+          "expected_words": 17,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IN THAT MOMENT, I CLEARLY HEARD IT. THE SOUND OF HIS HEART'S DOOR OPENING A LITTLE WIDER,"
+        }
+      }
+    },
+    {
+      "id": 62,
+      "expected_visible_dialogue": "I THOUGHT ABOUT IT AFTER RETURNING, AND YOU WERE RIGHT. I REALIZED I STILL HAVEN'T SHOWN YOU ANY TRUE GOODWILL YET.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I THOUGHT ABOUT IT AFTER RETURNING, AND YOU WERE RIGHT. I REALIZED I STILL HAVEN'T SHOWN YOU ANY TRUE GOODWILL YET."
+        },
+        "partial_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I THOUGHT ABOUT IT AFTER RETURNING, AND YOU WERE RIGHT. I REALIZED I STILL HAVEN'T SHOWN YOU ANY TRUE GOODWILL YET."
+        },
+        "full_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I THOUGHT ABOUT IT AFTER RETURNING, AND YOU WERE RIGHT. I REALIZED I STILL HAVEN'T SHOWN YOU ANY TRUE GOODWILL YET."
+        }
+      }
+    },
+    {
+      "id": 63,
+      "expected_visible_dialogue": "AT THE END. WHEN THAT HAPPENS, EVEN I SOMETIMES FEEL LIKE KILLING HIM IN ONE BLOW.",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 16,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "at",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "the",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "end",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "WHEN THAT HAPPENS, EVEN I SOMETIMES FEEL LIKE KILLING HIM IN ONE BLOW."
+        },
+        "partial_consensus": {
+          "expected_words": 16,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "at",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "the",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "end",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "WHEN THAT HAPPENS, EVEN I SOMETIMES FEEL LIKE KILLING HIM IN ONE BLOW."
+        },
+        "full_consensus": {
+          "expected_words": 16,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "at",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "the",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "end",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "WHEN THAT HAPPENS, EVEN I SOMETIMES FEEL LIKE KILLING HIM IN ONE BLOW."
+        }
+      }
+    },
+    {
+      "id": 64,
+      "expected_visible_dialogue": "HASN'T THE SECOND YOUNG MASTER RISEN TO THE SEAT OF NIRVANA PAVILION MASTER? TO ANYONE'S EYES, IT LOOKS LIKE THE HEAVENLY DEMON IS",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HASN'T THE SECOND YOUNG MASTER RISEN TO THE SEAT OF NIRVANA PAVILION MASTER? TO ANYONE'S EYES, IT LOOKS LIKE THE HEAVENLY DEMON IS"
+        },
+        "partial_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HASN'T THE SECOND YOUNG MASTER RISEN TO THE SEAT OF NIRVANA PAVILION MASTER? TO ANYONE'S EYES, IT LOOKS LIKE THE HEAVENLY DEMON IS"
+        },
+        "full_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HASN'T THE SECOND YOUNG MASTER RISEN TO THE SEAT OF NIRVANA PAVILION MASTER? TO ANYONE'S EYES, IT LOOKS LIKE THE HEAVENLY DEMON IS"
+        }
+      }
+    },
+    {
+      "id": 65,
+      "expected_visible_dialogue": "TAKING ONE HIT ISN'T A REASON TO SLAUGHTER A FAMILY. AND DRINKING TOO MUCH ISN'T A REASON TO LOSE YOUR HUMANITY. SO TELL ME, WHY? WHY DID IT HAVE TO COME TO THIS? IT COULD'VE ENDED WITHOUT ANY INCIDENT.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 39,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "TAKING ONE HIT ISN'T A REASON TO SLAUGHTER A FAMILY. AND DRINKING TOO MUCH ISN'T A REASON TO LOSE YOUR HUMANITY. SO TELL ME, WHY? WHY DID IT HAVE TO COME TO THIS? IT COULD'VE ENDED WITHOUT ANY INCIDENT."
+        },
+        "partial_consensus": {
+          "expected_words": 39,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "TAKING ONE HIT ISN'T A REASON TO SLAUGHTER A FAMILY. AND DRINKING TOO MUCH ISN'T A REASON TO LOSE YOUR HUMANITY. SO TELL ME, WHY? WHY DID IT HAVE TO COME TO THIS? IT COULD'VE ENDED WITHOUT ANY INCIDENT."
+        },
+        "full_consensus": {
+          "expected_words": 39,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "TAKING ONE HIT ISN'T A REASON TO SLAUGHTER A FAMILY. AND DRINKING TOO MUCH ISN'T A REASON TO LOSE YOUR HUMANITY. SO TELL ME, WHY? WHY DID IT HAVE TO COME TO THIS? IT COULD'VE ENDED WITHOUT ANY INCIDENT."
+        }
+      }
+    },
+    {
+      "id": 66,
+      "expected_visible_dialogue": "UNEXPECTED. DO YOU EVEN KNOW WHAT YOU'RE CHOOSING? I DON'T KNOW EXACTLY, BUT I FELT STRONGLY DRAWN TO IT.",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "unexpected",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "DO YOU EVEN KNOW WHAT YOU'RE CHOOSING? I DON'T KNOW EXACTLY, BUT I FELT STRONGLY DRAWN TO IT."
+        },
+        "partial_consensus": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "unexpected",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "DO YOU EVEN KNOW WHAT YOU'RE CHOOSING? I DON'T KNOW EXACTLY, BUT I FELT STRONGLY DRAWN TO IT."
+        },
+        "full_consensus": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "unexpected",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "DO YOU EVEN KNOW WHAT YOU'RE CHOOSING? I DON'T KNOW EXACTLY, BUT I FELT STRONGLY DRAWN TO IT."
+        }
+      }
+    },
+    {
+      "id": 67,
+      "expected_visible_dialogue": "BECAUSE YOU WOULD ONLY CONSIDER GIVING A GIFT TO SOMEONE OF HIS CALIBER.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "of",
+              "actual": "oe",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "his",
+              "actual": "s",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "BECAUSE YOU WOULD ONLY CONSIDER GIVING A GIFT TO SOMEONE OE S CALIBER."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "his",
+              "actual": "s",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "BECAUSE YOU WOULD ONLY CONSIDER GIVING A GIFT TO SOMEONE OF S CALIBER."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BECAUSE YOU WOULD ONLY CONSIDER GIVING A GIFT TO SOMEONE OF HIS CALIBER."
+        }
+      }
+    },
+    {
+      "id": 68,
+      "expected_visible_dialogue": "WHY DON'T YOU CONSIDER YOURSELF THE THIRD?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY DON'T YOU CONSIDER YOURSELF | THE THIRD?"
+        },
+        "partial_consensus": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY DON'T YOU CONSIDER YOURSELF | THE THIRD?"
+        },
+        "full_consensus": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY DON'T YOU CONSIDER YOURSELF | THE THIRD?"
+        }
+      }
+    },
+    {
+      "id": 69,
+      "expected_visible_dialogue": "I USED TO ANSWER THAT IT WAS BECAUSE OF ONE PETTY, GREEDY PERSON IN THE PAST.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I USED TO ANSWER THAT IT WAS BECAUSE OF ONE PETTY, GREEDY PERSON IN THE PAST."
+        },
+        "partial_consensus": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I USED TO ANSWER THAT IT WAS BECAUSE OF ONE PETTY, GREEDY PERSON IN THE PAST."
+        },
+        "full_consensus": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I USED TO ANSWER THAT IT WAS BECAUSE OF ONE PETTY, GREEDY PERSON IN THE PAST."
+        }
+      }
+    },
+    {
+      "id": 70,
+      "expected_visible_dialogue": "IF SHE CAN LEARN FROM THE SKY HEAVEN CULT LEADER, WHO IS CURRENTLY STAYING AT THE CULT, SHE'LL HAVE A CHANCE TO WIN. I SEE...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF SHE CAN LEARN FROM THE SKY HEAVEN CULT LEADER, WHO IS CURRENTLY STAYING AT THE CULT, SHE'LL HAVE A CHANCE TO WIN. I SEE..."
+        },
+        "partial_consensus": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF SHE CAN LEARN FROM THE SKY HEAVEN CULT LEADER, WHO IS CURRENTLY STAYING AT THE CULT, SHE'LL HAVE A CHANCE TO WIN. I SEE..."
+        },
+        "full_consensus": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IF SHE CAN LEARN FROM THE SKY HEAVEN CULT LEADER, WHO IS CURRENTLY STAYING AT THE CULT, SHE'LL HAVE A CHANCE TO WIN. I SEE..."
+        }
+      }
+    },
+    {
+      "id": 71,
+      "expected_visible_dialogue": "CAN'T YOU SEE THEY'RE TRYING TO DRIVE US OUT? WHO WOULD BELIEVE THAT THE HEAVENLY DEMON DIVINE CULT WOULD STOOP TO SUCH PETTY TRICKS?",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 24,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "us",
+              "actual": "ls",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "CAN'T YOU SEE (THEY'RE TRYING TO) DRIVE LS OUT? WHO WOULD BELIEVE THAT THE HEAVENLY DEMON DIVINE CULT WOULD STOOP TO SUCH PETTY TRICKS?"
+        },
+        "partial_consensus": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "CAN'T YOU SEE (THEY'RE TRYING TO) DRIVE US OUT? WHO WOULD BELIEVE THAT THE HEAVENLY DEMON DIVINE CULT WOULD STOOP TO SUCH PETTY TRICKS?"
+        },
+        "full_consensus": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "CAN'T YOU SEE (THEY'RE TRYING TO) DRIVE US OUT? WHO WOULD BELIEVE THAT THE HEAVENLY DEMON DIVINE CULT WOULD STOOP TO SUCH PETTY TRICKS?"
+        }
+      }
+    },
+    {
+      "id": 72,
+      "expected_visible_dialogue": "THE BLOOD GOD PILL EARLIER, AND NOW THIS SUPREME HEAVENLY SILK...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE BLOOD GOD PILL EARLIER, AND NOW THIS SUPREME HEAVENLY SILK..."
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE BLOOD GOD PILL EARLIER, AND NOW THIS SUPREME HEAVENLY SILK..."
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE BLOOD GOD PILL EARLIER, AND NOW THIS SUPREME HEAVENLY SILK..."
+        }
+      }
+    },
+    {
+      "id": 73,
+      "expected_visible_dialogue": "I... I DON'T CARE EVEN IF I'M JUST A DRAGONFLY'S WING.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "i",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "I DON'T CARE EVEN IF I'M JUST A DRAGONFLY'S WING."
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "i",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "I DON'T CARE EVEN IF I'M JUST A DRAGONFLY'S WING."
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "i",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "I DON'T CARE EVEN IF I'M JUST A DRAGONFLY'S WING."
+        }
+      }
+    },
+    {
+      "id": 74,
+      "expected_visible_dialogue": "HE'S HERE TO ROB ME AGAIN. THAT'S BECAUSE WE'RE ALWAYS TALKING ABOUT THE SECOND YOUNG MASTER AND THINKING ABOUT HIM.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE'S HERE TO ROB ME AGAIN. THAT'S BECAUSE WE'RE ALWAYS TALKING ABOUT THE SECOND YOUNG MASTER AND THINKING ABOUT HIM."
+        },
+        "partial_consensus": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE'S HERE TO ROB ME AGAIN. THAT'S BECAUSE WE'RE ALWAYS TALKING ABOUT THE SECOND YOUNG MASTER AND THINKING ABOUT HIM."
+        },
+        "full_consensus": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE'S HERE TO ROB ME AGAIN. THAT'S BECAUSE WE'RE ALWAYS TALKING ABOUT THE SECOND YOUNG MASTER AND THINKING ABOUT HIM."
+        }
+      }
+    },
+    {
+      "id": 75,
+      "expected_visible_dialogue": "SO PLEASE, CONTINUE KEEPING THESE THINGS HIDDEN FROM ME. EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 24,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "continue",
+              "actual": "continle",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "SO PLEASE, CONTINLE KEEPING THESE THINGS HIDDEN FROM ME. EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!"
+        },
+        "partial_consensus": {
+          "expected_words": 24,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "continue",
+              "actual": "continle",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "SO PLEASE, CONTINLE KEEPING THESE THINGS HIDDEN FROM ME. EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!"
+        },
+        "full_consensus": {
+          "expected_words": 24,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "continue",
+              "actual": "continle",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "SO PLEASE, CONTINLE KEEPING THESE THINGS HIDDEN FROM ME. EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!"
+        }
+      }
+    },
+    {
+      "id": 76,
+      "expected_visible_dialogue": "WHEN YOU DO, MAKE SURE TO EMPHASIZE THIS POINT.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHEN YOU DO, MAKE SURE TO EMPHASIZE THIS POINT."
+        },
+        "partial_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHEN YOU DO, MAKE SURE TO EMPHASIZE THIS POINT."
+        },
+        "full_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHEN YOU DO, MAKE SURE TO EMPHASIZE THIS POINT."
+        }
+      }
+    },
+    {
+      "id": 77,
+      "expected_visible_dialogue": "DID YOU COME TO WATCH YOUR SUBORDINATE SUFFER? HE ALREADY SUFFERS PLENTY DURING THE DAY. I DON'T HAVE SUCH TWISTED HOBBIES.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "DID YOU COME TO WATCH YOUR SUBORDINATE SUFFER? HE ALREADY SUFFERS PLENTY DURING THE DAY. I DON'T HAVE SUCH TWISTED HOBBIES."
+        },
+        "partial_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "DID YOU COME TO WATCH YOUR SUBORDINATE SUFFER? HE ALREADY SUFFERS PLENTY DURING THE DAY. I DON'T HAVE SUCH TWISTED HOBBIES."
+        },
+        "full_consensus": {
+          "expected_words": 21,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "DID YOU COME TO WATCH YOUR SUBORDINATE SUFFER? HE ALREADY SUFFERS PLENTY DURING THE DAY. I DON'T HAVE SUCH TWISTED HOBBIES."
+        }
+      }
+    },
+    {
+      "id": 78,
+      "expected_visible_dialogue": "THE OTHERS WILL BE WORSE, WON'T THEY? ON THE SURFACE THEY SWEAR LOYALTY, BUT INSIDE THEY'RE LAUGHING AT ME.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 19,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE OTHERS WILL BE WORSE, WON'T THEY? ON THE SURFACE THEY SWEAR LOYALTY, BUT INSIDE THEY'RE LAUGHING AT ME."
+        },
+        "partial_consensus": {
+          "expected_words": 19,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE OTHERS WILL BE WORSE, WON'T THEY? ON THE SURFACE THEY SWEAR LOYALTY, BUT INSIDE THEY'RE LAUGHING AT ME."
+        },
+        "full_consensus": {
+          "expected_words": 19,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE OTHERS WILL BE WORSE, WON'T THEY? ON THE SURFACE THEY SWEAR LOYALTY, BUT INSIDE THEY'RE LAUGHING AT ME."
+        }
+      }
+    },
+    {
+      "id": 79,
+      "expected_visible_dialogue": "HE TOLD THE LEADER THAT HE SHOULD RELEASE SOMEONE THAT OUGHT TO BE SENT OFF, WHILE ALSO PRAISING THE SHACKLED MAN AS A DRAGON THAT'S MEANT TO ASCEND.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 28,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE TOLD THE LEADER THAT HE SHOULD RELEASE SOMEONE THAT OUGHT TO BE SENT OFF. WHILE ALSO PRAISING THE SHACKLED MAN AS A DRAGON THAT'S MEANT TO ASCEND."
+        },
+        "partial_consensus": {
+          "expected_words": 28,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE TOLD THE LEADER THAT HE SHOULD RELEASE SOMEONE THAT OUGHT TO BE SENT OFF. WHILE ALSO PRAISING THE SHACKLED MAN AS A DRAGON THAT'S MEANT TO ASCEND."
+        },
+        "full_consensus": {
+          "expected_words": 28,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE TOLD THE LEADER THAT HE SHOULD RELEASE SOMEONE THAT OUGHT TO BE SENT OFF. WHILE ALSO PRAISING THE SHACKLED MAN AS A DRAGON THAT'S MEANT TO ASCEND."
+        }
+      }
+    },
+    {
+      "id": 80,
+      "expected_visible_dialogue": "THE SKY HEAVEN CULT POURED INNER ENERGY INTO THE LIQUOR BOTTLE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE SKY HEAVEN CULT POURED INNER ENERGY INTO THE LIQUOR BOTTLE."
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE SKY HEAVEN CULT POURED INNER ENERGY INTO THE LIQUOR BOTTLE."
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THE SKY HEAVEN CULT POURED INNER ENERGY INTO THE LIQUOR BOTTLE."
+        }
+      }
+    },
+    {
+      "id": 81,
+      "expected_visible_dialogue": "IT INCLUDES THE SKY HEAVEN CULT LEADER'S AND THE SHACKLED MAN! I DON'T KNOW IF I'M ALLOWED TO ACCEPT SUCH A PRECIOUS DAGGER.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT INCLUDES THE SKY HEAVEN CULT LEADER'S AND THE SHACKLED MAN! I DON'T KNOW IF I'M ALLOWED TO ACCEPT SUCH A PRECIOUS DAGGER."
+        },
+        "partial_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT INCLUDES THE SKY HEAVEN CULT LEADER'S AND THE SHACKLED MAN! I DON'T KNOW IF I'M ALLOWED TO ACCEPT SUCH A PRECIOUS DAGGER."
+        },
+        "full_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT INCLUDES THE SKY HEAVEN CULT LEADER'S AND THE SHACKLED MAN! I DON'T KNOW IF I'M ALLOWED TO ACCEPT SUCH A PRECIOUS DAGGER."
+        }
+      }
+    },
+    {
+      "id": 82,
+      "expected_visible_dialogue": "I DON'T HAVE DREAMS OF CHANGING THE WORLD. THEN WHY? WHY THE HELL ARE YOU LEAVING?!",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I DON'T HAVE DREAMS OF CHANGING THE WORLD. THEN WHY? WHY THE HELL ARE YOU LEAVING?!"
+        },
+        "partial_consensus": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I DON'T HAVE DREAMS OF CHANGING THE WORLD. THEN WHY? WHY THE HELL ARE YOU LEAVING?!"
+        },
+        "full_consensus": {
+          "expected_words": 16,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I DON'T HAVE DREAMS OF CHANGING THE WORLD. THEN WHY? WHY THE HELL ARE YOU LEAVING?!"
+        }
+      }
+    },
+    {
+      "id": 83,
+      "expected_visible_dialogue": "GO AND SUFFER IN HELL... REGRET LEAVING ME TILL THE DAY YOU DIE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "go",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "and",
+              "actual": "goand",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "GOAND SUFFER IN HELL... REGRET LEAVING ME TILL THE DAY YOU DIE."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "go",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "and",
+              "actual": "goand",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "GOAND SUFFER IN HELL... REGRET LEAVING ME TILL THE DAY YOU DIE."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "GO AND SUFFER IN HELL... REGRET LEAVING ME TILL THE DAY YOU DIE."
+        }
+      }
+    },
+    {
+      "id": 84,
+      "expected_visible_dialogue": "BUT HE ALSO LOOKED LIKE HE WANTED ME TO RETURN QUICKLY. HE ASKED HOW LONG I PLANNED TO KEEP UP WITH THE MARTIAL ARTS TRAINING. WHAT WAS YOUR ANSWER?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BUT HE ALSO LOOKED LIKE HE WANTED ME TO RETURN QUICKLY. HE ASKED HOW LONG I PLANNED TO KEEP UP WITH THE MARTIAL ARTS TRAINING. WHAT WAS YOUR ANSWER?"
+        },
+        "partial_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BUT HE ALSO LOOKED LIKE HE WANTED ME TO RETURN QUICKLY. HE ASKED HOW LONG I PLANNED TO KEEP UP WITH THE MARTIAL ARTS TRAINING. WHAT WAS YOUR ANSWER?"
+        },
+        "full_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BUT HE ALSO LOOKED LIKE HE WANTED ME TO RETURN QUICKLY. HE ASKED HOW LONG I PLANNED TO KEEP UP WITH THE MARTIAL ARTS TRAINING. WHAT WAS YOUR ANSWER?"
+        }
+      }
+    },
+    {
+      "id": 85,
+      "expected_visible_dialogue": "WHY SHOULD I ACCEPT THE SKY HEAVEN CULT LEADER COMING ONTO MY SIDE, EVEN IF IT MEANS ENDURING CONFLICT WITH MY FATHER?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY SHOULD I ACCEPT THE SKY HEAVEN CULT LEADER COMING ONTO MY SIDE, EVEN IF IT MEANS ENDURING CONFLICT WITH MY FATHER?"
+        },
+        "partial_consensus": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY SHOULD I ACCEPT THE SKY HEAVEN CULT LEADER COMING ONTO MY SIDE, EVEN IF IT MEANS ENDURING CONFLICT WITH MY FATHER?"
+        },
+        "full_consensus": {
+          "expected_words": 22,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHY SHOULD I ACCEPT THE SKY HEAVEN CULT LEADER COMING ONTO MY SIDE, EVEN IF IT MEANS ENDURING CONFLICT WITH MY FATHER?"
+        }
+      }
+    },
+    {
+      "id": 86,
+      "expected_visible_dialogue": "STILL... WOULD HE REALLY ABANDON THE SEAT OF THE SKY HEAVEN CULT LEADER AND COME TO ME JUST BECAUSE OF HIS RELATIONSHIP WITH ONE PERSON?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "STILL... WOULD HE REALLY ABANDON THE SEAT OF THE SKY HEAVEN CULT LEADER AND COME TO ME JUST BECAUSE OF HIS RELATIONSHIP WITH ONE PERSON?"
+        },
+        "partial_consensus": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "STILL... WOULD HE REALLY ABANDON THE SEAT OF THE SKY HEAVEN CULT LEADER AND COME TO ME JUST BECAUSE OF HIS RELATIONSHIP WITH ONE PERSON?"
+        },
+        "full_consensus": {
+          "expected_words": 25,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "STILL... WOULD HE REALLY ABANDON THE SEAT OF THE SKY HEAVEN CULT LEADER AND COME TO ME JUST BECAUSE OF HIS RELATIONSHIP WITH ONE PERSON?"
+        }
+      }
+    },
+    {
+      "id": 87,
+      "expected_visible_dialogue": "SO CELESTIAL SEIZE CAN EVEN DO SUCH PRECISE THINGS! I CAN'T JUST LET YOU WALK AWAY. LET'S HAVE A DUEL.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SO CELESTIAL SEIZE CAN EVEN DO SUCH PRECISE THINGS! I CAN'T JUST LET |YOU WALK AWAY. LET'S HAVE A DUEL."
+        },
+        "partial_consensus": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SO CELESTIAL SEIZE CAN EVEN DO SUCH PRECISE THINGS! I CAN'T JUST LET |YOU WALK AWAY. LET'S HAVE A DUEL."
+        },
+        "full_consensus": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SO CELESTIAL SEIZE CAN EVEN DO SUCH PRECISE THINGS! I CAN'T JUST LET |YOU WALK AWAY. LET'S HAVE A DUEL."
+        }
+      }
+    },
+    {
+      "id": 88,
+      "expected_visible_dialogue": "I-IF YOU NEED ANYTHING ELSE, PLEASE CALL ME ANYTIME!",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 10,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "anything",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "else",
+              "actual": "anythingelse",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "I-IF YOU NEED ANYTHINGELSE, PLEASE CALL ME ANYTIME!"
+        },
+        "partial_consensus": {
+          "expected_words": 10,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "anything",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "else",
+              "actual": "anythingelse",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "I-IF YOU NEED ANYTHINGELSE, PLEASE CALL ME ANYTIME!"
+        },
+        "full_consensus": {
+          "expected_words": 10,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I-IF YOU NEED ANYTHING ELSE, PLEASE CALL ME ANYTIME!"
+        }
+      }
+    },
+    {
+      "id": 89,
+      "expected_visible_dialogue": "I'D LIKE THAT TOO, BUT HAVEN'T YOU SEEN ENOUGH BY NOW? THE SWORD SUPREME SNAPS AT ME VICIOUSLY EVERY TIME SHE SEES ME.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'D LIKE THAT TOO, BUT HAVEN'T YOU SEEN ENOUGH BY NOW? THE SWORD SUPREME SNAPS AT ME VICIOUSLY EVERY TIME SHE SEES ME."
+        },
+        "partial_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'D LIKE THAT TOO, BUT HAVEN'T YOU SEEN ENOUGH BY NOW? THE SWORD SUPREME SNAPS AT ME VICIOUSLY EVERY TIME SHE SEES ME."
+        },
+        "full_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'D LIKE THAT TOO, BUT HAVEN'T YOU SEEN ENOUGH BY NOW? THE SWORD SUPREME SNAPS AT ME VICIOUSLY EVERY TIME SHE SEES ME."
+        }
+      }
+    },
+    {
+      "id": 90,
+      "expected_visible_dialogue": "IT'S REALLY WELL MADE. SO MUCH SO YOU COULD EVEN TREAT IT AS A DIVINE RELIC.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 16,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": null,
+              "actual": "yol",
+              "kind": "inserted_word"
+            },
+            {
+              "expected": "you",
+              "actual": "t",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT'S REALLY WELL MADE. SO MUCH SO YOL T COULD EVEN TREAT IT AS A DIVINE RELIC."
+        },
+        "partial_consensus": {
+          "expected_words": 16,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": null,
+              "actual": "yol",
+              "kind": "inserted_word"
+            },
+            {
+              "expected": "you",
+              "actual": "t",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT'S REALLY WELL MADE. SO MUCH SO YOL T COULD EVEN TREAT IT AS A DIVINE RELIC."
+        },
+        "full_consensus": {
+          "expected_words": 16,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": null,
+              "actual": "yol",
+              "kind": "inserted_word"
+            },
+            {
+              "expected": "you",
+              "actual": "t",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT'S REALLY WELL MADE. SO MUCH SO YOL T COULD EVEN TREAT IT AS A DIVINE RELIC."
+        }
+      }
+    },
+    {
+      "id": 91,
+      "expected_visible_dialogue": "THE SPECTATORS ARE GONE, SO THE MOOD'S DIED DOWN. BUT THE STRENGTH IN MY FIST HASN'T. LET'S GO A ROUND.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 20,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "go",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "round",
+              "actual": "goaround",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE SPECTATORS ARE GONE, SO THE MOOD'S DIED DOWN. BUT THE STRENGTH IN MY FIST HASN'T. LET'S GOAROUND."
+        },
+        "partial_consensus": {
+          "expected_words": 20,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "go",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "round",
+              "actual": "goaround",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE SPECTATORS ARE GONE, SO THE MOOD'S DIED DOWN. BUT THE STRENGTH IN MY FIST HASN'T. LET'S GOAROUND."
+        },
+        "full_consensus": {
+          "expected_words": 20,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "go",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "round",
+              "actual": "goaround",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE SPECTATORS ARE GONE, SO THE MOOD'S DIED DOWN. BUT THE STRENGTH IN MY FIST HASN'T. LET'S GOAROUND."
+        }
+      }
+    },
+    {
+      "id": 92,
+      "expected_visible_dialogue": "LIKE THE MINOR HEAVEN CAVE, IT'S A SECRET TRAINING GROUND OF THE DEMONIC CULT. IT'S HIDDEN ON THE FRONTIER, THAT CAN ONLY BE ENTERED WITH THE HEAVENLY DEMON'S PERMISSION.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 29,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "ground",
+              "actual": "d",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "LIKE THE MINOR HEAVEN CAVE, IT'S A SECRET TRAINING D OF THE DEMONIC CULT. IT'S HIDDEN ON THE FRONTIER, THAT CAN ONLY BE ENTERED WITH THE HEAVENLY DEMON'S PERMISSION."
+        },
+        "partial_consensus": {
+          "expected_words": 29,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "ground",
+              "actual": "d",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "LIKE THE MINOR HEAVEN CAVE, IT'S A SECRET TRAINING D OF THE DEMONIC CULT. IT'S HIDDEN ON THE FRONTIER, THAT CAN ONLY BE ENTERED WITH THE HEAVENLY DEMON'S PERMISSION."
+        },
+        "full_consensus": {
+          "expected_words": 29,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "ground",
+              "actual": "d",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "LIKE THE MINOR HEAVEN CAVE, IT'S A SECRET TRAINING D OF THE DEMONIC CULT. IT'S HIDDEN ON THE FRONTIER, THAT CAN ONLY BE ENTERED WITH THE HEAVENLY DEMON'S PERMISSION."
+        }
+      }
+    },
+    {
+      "id": 93,
+      "expected_visible_dialogue": "WHEN I FIRST MET YOU, IT WAS HERE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHEN I FIRST MET YOU, IT WAS HERE."
+        },
+        "partial_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHEN I FIRST MET YOU, IT WAS HERE."
+        },
+        "full_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WHEN I FIRST MET YOU, IT WAS HERE."
+        }
+      }
+    },
+    {
+      "id": 94,
+      "expected_visible_dialogue": "OF COURSE. THOUGH NATURALLY, I PLAN TO DO EVERYTHING TO PREVENT IT FROM COMING TO THAT. WHICH ISN'T BECAUSE OF CHEONG SEON, BUT BECAUSE OF THE SKY HEAVEN CULT LEADER.",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 30,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "of",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "course",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "THOUGH NATURALLY, I PLAN TO DO EVERYTHING TO PREVENT IT FROM COMING TO THAT. WHICH ISN'T BECAUSE OF CHEONG SEON, BUT BECAUSE OF THE SKY HEAVEN CULT LEADER."
+        },
+        "partial_consensus": {
+          "expected_words": 30,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "of",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "course",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "THOUGH NATURALLY, I PLAN TO DO EVERYTHING TO PREVENT IT FROM COMING TO THAT. WHICH ISN'T BECAUSE OF CHEONG SEON, BUT BECAUSE OF THE SKY HEAVEN CULT LEADER."
+        },
+        "full_consensus": {
+          "expected_words": 30,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "of",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "course",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "THOUGH NATURALLY, I PLAN TO DO EVERYTHING TO PREVENT IT FROM COMING TO THAT. WHICH ISN'T BECAUSE OF CHEONG SEON, BUT BECAUSE OF THE SKY HEAVEN CULT LEADER."
+        }
+      }
+    },
+    {
+      "id": 95,
+      "expected_visible_dialogue": "HOLDING A BLOOD POISON PEARL WHILE DRINKING. HAS THAT OLD MAN LOST HIS MIND?!",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "holding",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "blood",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "POISON PEARL WHILE DRINKING. HAS THAT OLD MAN LOST HIS MIND?!"
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "holding",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "blood",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "POISON PEARL WHILE DRINKING. HAS THAT OLD MAN LOST HIS MIND?!"
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "holding",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "blood",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "POISON PEARL WHILE DRINKING. HAS THAT OLD MAN LOST HIS MIND?!"
+        }
+      }
+    },
+    {
+      "id": 96,
+      "expected_visible_dialogue": "HE'S SOMEONE WHO UNCONDITIONALLY OBEYS HIS FATHER'S WILL. HE'S NOTHING LIKE THE SECOND YOUNG MASTER, WHO HAS TENDENCIES TO BE OUT OF THE NORM.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE'S SOMEONE WHO UNCONDITIONALLY OBEYS HIS FATHER'S WILL. HE'S NOTHING LIKE THE SECOND YOUNG MASTER, WHO HAS TENDENCIES TO BE OUT OF THE NORM."
+        },
+        "partial_consensus": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE'S SOMEONE WHO UNCONDITIONALLY OBEYS HIS FATHER'S WILL. HE'S NOTHING LIKE THE SECOND YOUNG MASTER, WHO HAS TENDENCIES TO BE OUT OF THE NORM."
+        },
+        "full_consensus": {
+          "expected_words": 24,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE'S SOMEONE WHO UNCONDITIONALLY OBEYS HIS FATHER'S WILL. HE'S NOTHING LIKE THE SECOND YOUNG MASTER, WHO HAS TENDENCIES TO BE OUT OF THE NORM."
+        }
+      }
+    },
+    {
+      "id": 97,
+      "expected_visible_dialogue": "YEAH, THAT'S TRUE. IT WOULD'VE BEEN PERFECT IF YOU HADN'T SAID THAT. IS THAT SO?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YEAH, THAT'S TRUE. IT WOULD'VE BEEN PERFECT IF YOU HADN'T SAID THAT. IS THAT SO?"
+        },
+        "partial_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YEAH, THAT'S TRUE. IT WOULD'VE BEEN PERFECT IF YOU HADN'T SAID THAT. IS THAT SO?"
+        },
+        "full_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YEAH, THAT'S TRUE. IT WOULD'VE BEEN PERFECT IF YOU HADN'T SAID THAT. IS THAT SO?"
+        }
+      }
+    },
+    {
+      "id": 98,
+      "expected_visible_dialogue": "KEEPING THEM IN CHECK? YES, MY BROTHER HAS STARTED MEETING PEOPLE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "KEEPING THEM IN CHECK? YES, MY BROTHER HAS STARTED MEETING PEOPLE."
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "KEEPING THEM IN CHECK? YES, MY BROTHER HAS STARTED MEETING PEOPLE."
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "KEEPING THEM IN CHECK? YES, MY BROTHER HAS STARTED MEETING PEOPLE."
+        }
+      }
+    },
+    {
+      "id": 99,
+      "expected_visible_dialogue": "FIRST YOUNG MASTER IS SOMEONE WHO FITS WELL WITH OUR CULT.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "FIRST YOUNG MASTER IS SOMEONE WHO FITS WELL WITH OUR CULT."
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "FIRST YOUNG MASTER IS SOMEONE WHO FITS WELL WITH OUR CULT."
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "FIRST YOUNG MASTER IS SOMEONE WHO FITS WELL WITH OUR CULT."
+        }
+      }
+    },
+    {
+      "id": 100,
+      "expected_visible_dialogue": "BEING TWO SIDES OF A COIN IS LIKELY NOTHING MORE THAN WORDS MADE UP BY VILLAINS TO JUSTIFY THEMSELVES.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "being",
+              "actual": "g",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "G TWO SIDES OF A COIN IS LIKELY NOTHING MORE THAN WORDS MADE UP BY VILLAINS TO JUSTIFY THEMSELVES."
+        },
+        "partial_consensus": {
+          "expected_words": 19,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "being",
+              "actual": "g",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "G TWO SIDES OF A COIN IS LIKELY NOTHING MORE THAN WORDS MADE UP BY VILLAINS TO JUSTIFY THEMSELVES."
+        },
+        "full_consensus": {
+          "expected_words": 19,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "BEING TWO SIDES OF A COIN IS LIKELY NOTHING MORE THAN WORDS MADE UP BY VILLAINS TO JUSTIFY THEMSELVES."
+        }
+      }
+    },
+    {
+      "id": 101,
+      "expected_visible_dialogue": "MASTER... JUST CALLED ME HIS DISCIPLE FOR THE FIRST TIME. MASTER!",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "just",
+              "actual": "st",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "MASTER... ST CALLED ME HIS DISCIPLE FOR THE FIRST TIME. MASTER!"
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "just",
+              "actual": "st",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "MASTER... ST CALLED ME HIS DISCIPLE FOR THE FIRST TIME. MASTER!"
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "MASTER... JUST CALLED ME HIS DISCIPLE FOR THE FIRST TIME. MASTER!"
+        }
+      }
+    },
+    {
+      "id": 102,
+      "expected_visible_dialogue": "HE WAS A VILLAIN WHO DESERVED TO DIE...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 8,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "a",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "villain",
+              "actual": "avillain",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "HE WAS AVILLAIN WHO DESERVED TO DIE..."
+        },
+        "partial_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE WAS A VILLAIN WHO DESERVED TO DIE..."
+        },
+        "full_consensus": {
+          "expected_words": 8,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "HE WAS A VILLAIN WHO DESERVED TO DIE..."
+        }
+      }
+    },
+    {
+      "id": 103,
+      "expected_visible_dialogue": "PERHAPS WE BROTHERS ARE THE ONES WHO ACTUALLY NEED AN INTRODUCTION.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "PERHAPS WE BROTHERS ARE THE ONES WHO ACTUALLY NEED AN INTRODUCTION."
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "PERHAPS WE BROTHERS ARE THE ONES WHO ACTUALLY NEED AN INTRODUCTION."
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "PERHAPS WE BROTHERS ARE THE ONES WHO ACTUALLY NEED AN INTRODUCTION."
+        }
+      }
+    },
+    {
+      "id": 104,
+      "expected_visible_dialogue": "SOON, THAT MAN WILL PUT ON THE MASK HE WAS SELLING AND STAB THE PERSON NEXT TO HIM TO DEATH.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SOON, THAT MAN WILL PUT ON THE MASK HE WAS SELLING AND STAB THE PERSON NEXT TO HIM TO DEATH."
+        },
+        "partial_consensus": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SOON, THAT MAN WILL PUT ON THE MASK HE WAS SELLING AND STAB THE PERSON NEXT TO HIM TO DEATH."
+        },
+        "full_consensus": {
+          "expected_words": 20,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SOON, THAT MAN WILL PUT ON THE MASK HE WAS SELLING AND STAB THE PERSON NEXT TO HIM TO DEATH."
+        }
+      }
+    },
+    {
+      "id": 105,
+      "expected_visible_dialogue": "WOULDN'T THIS BE FINE? THEN WE'LL BOTH BE LOOKING AT THE SKY.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WOULDN'T THIS BE FINE? THEN WE'LL BOTH BE LOOKING AT THE SKY."
+        },
+        "partial_consensus": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WOULDN'T THIS BE FINE? THEN WE'LL BOTH BE LOOKING AT THE SKY."
+        },
+        "full_consensus": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "WOULDN'T THIS BE FINE? THEN WE'LL BOTH BE LOOKING AT THE SKY."
+        }
+      }
+    },
+    {
+      "id": 106,
+      "expected_visible_dialogue": "I'M LOOKING FORWARD TO MY TRIP WITH YOU. WE AREN'T EXACTLY GOING ON A TRIP... IF YOU GO WITH A FRIEND, ISN'T IT A TRIP NO MATTER WHERE YOU GO?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 30,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "you",
+              "actual": "yol",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "I'M LOOKING FORWARD TO MY TRIP WITH YOU. WE AREN'T (EXACTLY GOING ON A TRIP... IF YOU GO WITH A FRIEND, ISN'T IT A TRIP NO MATTER WHERE YOL GO?"
+        },
+        "partial_consensus": {
+          "expected_words": 30,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'M LOOKING FORWARD TO MY TRIP WITH YOU. WE AREN'T (EXACTLY GOING ON A TRIP... IF YOU GO WITH A FRIEND, ISN'T IT A TRIP NO MATTER WHERE YOU GO?"
+        },
+        "full_consensus": {
+          "expected_words": 30,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I'M LOOKING FORWARD TO MY TRIP WITH YOU. WE AREN'T (EXACTLY GOING ON A TRIP... IF YOU GO WITH A FRIEND, ISN'T IT A TRIP NO MATTER WHERE YOU GO?"
+        }
+      }
+    },
+    {
+      "id": 107,
+      "expected_visible_dialogue": "THEY WILL GET ALONG EVEN BETTER THAN MY BROTHER WITH THE DEMONIC BUDDHA.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THEY WILL GET ALONG EVEN BETTER THAN MY BROTHER WITH THE DEMONIC BUDDHA."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THEY WILL GET ALONG EVEN BETTER THAN MY BROTHER WITH THE DEMONIC BUDDHA."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THEY WILL GET ALONG EVEN BETTER THAN MY BROTHER WITH THE DEMONIC BUDDHA."
+        }
+      }
+    },
+    {
+      "id": 108,
+      "expected_visible_dialogue": "SINCE HE HEARD OUR CONVERSATION EARLIER, HE'LL PROBABLY GO AND CLEAN OUT THEIR LEADER AS WELL. OF COURSE, IT WON'T BE LONG BEFORE A NEW UNDERWORLD GROUP MOVES IN.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SINCE HE HEARD OUR CONVERSATION EARLIER, HE'LL PROBABLY GO AND CLEAN OUT THEIR LEADER AS WELL. OF COURSE, IT WON'T BE LONG BEFORE A NEW UNDERWORLD GROUP MOVES IN."
+        },
+        "partial_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SINCE HE HEARD OUR CONVERSATION EARLIER, HE'LL PROBABLY GO AND CLEAN OUT THEIR LEADER AS WELL. OF COURSE, IT WON'T BE LONG BEFORE A NEW UNDERWORLD GROUP MOVES IN."
+        },
+        "full_consensus": {
+          "expected_words": 29,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "SINCE HE HEARD OUR CONVERSATION EARLIER, HE'LL PROBABLY GO AND CLEAN OUT THEIR LEADER AS WELL. OF COURSE, IT WON'T BE LONG BEFORE A NEW UNDERWORLD GROUP MOVES IN."
+        }
+      }
+    },
+    {
+      "id": 109,
+      "expected_visible_dialogue": "IT'S PROBABLY BECAUSE IT FEELS LIKE YOUR OWN FLESH IS BEING TORN OFF.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT'S PROBABLY BECAUSE IT FEELS LIKE YOUR OWN FLESH IS BEING TORN OFF."
+        },
+        "partial_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT'S PROBABLY BECAUSE IT FEELS LIKE YOUR OWN FLESH IS BEING TORN OFF."
+        },
+        "full_consensus": {
+          "expected_words": 13,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IT'S PROBABLY BECAUSE IT FEELS LIKE YOUR OWN FLESH IS BEING TORN OFF."
+        }
+      }
+    },
+    {
+      "id": 110,
+      "expected_visible_dialogue": "IF THE WORLD WE SEE NOW IS DULL, THEN THE ORIGINAL WORLD MUST BE A SLEEPING ONE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 17,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "must",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "be",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": "ml",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IF THE WORLD WE SEE NOW IS DULL, THEN THE ORIGINAL WORLD ML SLEEPING ONE."
+        },
+        "partial_consensus": {
+          "expected_words": 17,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "must",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "be",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": "ml",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IF THE WORLD WE SEE NOW IS DULL, THEN THE ORIGINAL WORLD ML SLEEPING ONE."
+        },
+        "full_consensus": {
+          "expected_words": 17,
+          "word_errors": 3,
+          "edits": [
+            {
+              "expected": "must",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "be",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "a",
+              "actual": "ml",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IF THE WORLD WE SEE NOW IS DULL, THEN THE ORIGINAL WORLD ML SLEEPING ONE."
+        }
+      }
+    },
+    {
+      "id": 111,
+      "expected_visible_dialogue": "WOULDN'T THAT HAVE CAUSED ANOTHER MASSIVE UPROAR? THE MASTERMINDS BEHIND THIS LIKELY INTENDED TO USE THE CONFLICT AND STRIFE BETWEEN OUR CULT AND THE UNORTHODOX ALLIANCE TO PLOT SOMETHING THAT WOULD FOLLOW",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 32,
+          "word_errors": 4,
+          "edits": [
+            {
+              "expected": "caused",
+              "actual": "calsed",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "use",
+              "actual": "lise",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "unorthodox",
+              "actual": "lunorthodox",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "follow",
+              "actual": "eollow",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WOULDN'T THAT HAVE CALSED ANOTHER MASSIVE UPROAR? THE MASTERMINDS BEHIND THIS LIKELY INTENDED TO LISE THE CONFLICT AND STRIFE BETWEEN OUR CULT AND THE LUNORTHODOX ALLIANCE TO PLOT SOMETHING THAT WOULD EOLLOW"
+        },
+        "partial_consensus": {
+          "expected_words": 32,
+          "word_errors": 4,
+          "edits": [
+            {
+              "expected": "caused",
+              "actual": "calsed",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "use",
+              "actual": "lise",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "unorthodox",
+              "actual": "lunorthodox",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "follow",
+              "actual": "eollow",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WOULDN'T THAT HAVE CALSED ANOTHER MASSIVE UPROAR? THE MASTERMINDS BEHIND THIS LIKELY INTENDED TO LISE THE CONFLICT AND STRIFE BETWEEN OUR CULT AND THE LUNORTHODOX ALLIANCE TO PLOT SOMETHING THAT WOULD EOLLOW"
+        },
+        "full_consensus": {
+          "expected_words": 32,
+          "word_errors": 4,
+          "edits": [
+            {
+              "expected": "caused",
+              "actual": "calsed",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "use",
+              "actual": "lise",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "unorthodox",
+              "actual": "lunorthodox",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "follow",
+              "actual": "eollow",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "WOULDN'T THAT HAVE CALSED ANOTHER MASSIVE UPROAR? THE MASTERMINDS BEHIND THIS LIKELY INTENDED TO LISE THE CONFLICT AND STRIFE BETWEEN OUR CULT AND THE LUNORTHODOX ALLIANCE TO PLOT SOMETHING THAT WOULD EOLLOW"
+        }
+      }
+    },
+    {
+      "id": 112,
+      "expected_visible_dialogue": "IS IT OKAY TO PLAY AT A MAJOR STRONGHOLD OF THE VALLEY OF THE WICKED?",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IS IT OKAY TO PLAY AT A MAJOR STRONGHOLD OF THE VALLEY OF THE WICKED?"
+        },
+        "partial_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IS IT OKAY TO PLAY AT A MAJOR STRONGHOLD OF THE VALLEY OF THE WICKED?"
+        },
+        "full_consensus": {
+          "expected_words": 15,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "IS IT OKAY TO PLAY AT A MAJOR STRONGHOLD OF THE VALLEY OF THE WICKED?"
+        }
+      }
+    },
+    {
+      "id": 113,
+      "expected_visible_dialogue": "LET'S KIDNAP THE CHEF HERE. CHEF LIM MUST BE GETTING OLD. HIS SEASONING HASN'T BEEN RIGHT LATELY. CHEF LIM WOULD BE HURT IF HE HEARD THAT.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 26,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S KIDNAP THE CHEF HERE. CHEF LIM MUST BE GETTING OLD. HIS SEASONING HASN'T BEEN RIGHT LATELY. CHEF LIM WOULD BE HURT IF HE HEARD THAT."
+        },
+        "partial_consensus": {
+          "expected_words": 26,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S KIDNAP THE CHEF HERE. CHEF LIM MUST BE GETTING OLD. HIS SEASONING HASN'T BEEN RIGHT LATELY. CHEF LIM WOULD BE HURT IF HE HEARD THAT."
+        },
+        "full_consensus": {
+          "expected_words": 26,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S KIDNAP THE CHEF HERE. CHEF LIM MUST BE GETTING OLD. HIS SEASONING HASN'T BEEN RIGHT LATELY. CHEF LIM WOULD BE HURT IF HE HEARD THAT."
+        }
+      }
+    },
+    {
+      "id": 114,
+      "expected_visible_dialogue": "THE ONE WHO FIRST REVEALED HIMSELF LUNGED AT ME USING A DAGGER. LIKE THIS...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 14,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "using",
+              "actual": "lsing",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "dagger",
+              "actual": "di",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE ONE WHO FIRST REVEALED HIMSELF LUNGED AT ME LSING A DI LIKE THIS."
+        },
+        "partial_consensus": {
+          "expected_words": 14,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "using",
+              "actual": "lsing",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "dagger",
+              "actual": "di",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE ONE WHO FIRST REVEALED HIMSELF LUNGED AT ME LSING A DI LIKE THIS."
+        },
+        "full_consensus": {
+          "expected_words": 14,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "using",
+              "actual": "lsing",
+              "kind": "substituted_word"
+            },
+            {
+              "expected": "dagger",
+              "actual": "di",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "THE ONE WHO FIRST REVEALED HIMSELF LUNGED AT ME LSING A DI LIKE THIS."
+        }
+      }
+    },
+    {
+      "id": 115,
+      "expected_visible_dialogue": "I STILL WANT TO SEE THIS KIND OF WORLD.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I STILL WANT TO SEE THIS KIND OF WORLD."
+        },
+        "partial_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I STILL WANT TO SEE THIS KIND OF WORLD."
+        },
+        "full_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I STILL WANT TO SEE THIS KIND OF WORLD."
+        }
+      }
+    },
+    {
+      "id": 116,
+      "expected_visible_dialogue": "AND INSTEAD LEAD THINGS SO THAT ONLY THOSE BEHIND THIS INCIDENT ARE DEALT WITH. BLUE",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 15,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "blue",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "AND INSTEAD LEAD THINGS SO THAT ONLY THOSE BEHIND THIS INCIDENT ARE DEALT WITH."
+        },
+        "partial_consensus": {
+          "expected_words": 15,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "blue",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "AND INSTEAD LEAD THINGS SO THAT ONLY THOSE BEHIND THIS INCIDENT ARE DEALT WITH."
+        },
+        "full_consensus": {
+          "expected_words": 15,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "blue",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            }
+          ],
+          "actual": "AND INSTEAD LEAD THINGS SO THAT ONLY THOSE BEHIND THIS INCIDENT ARE DEALT WITH."
+        }
+      }
+    },
+    {
+      "id": 117,
+      "expected_visible_dialogue": "YOU'RE PROBABLY THE FIRST PERSON TO EVER BREAK THE SMILING DEMON'S CARRIAGE.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YOU'RE PROBABLY THE FIRST PERSON TO EVER BREAK THE SMILING DEMON'S CARRIAGE."
+        },
+        "partial_consensus": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YOU'RE PROBABLY THE FIRST PERSON TO EVER BREAK THE SMILING DEMON'S CARRIAGE."
+        },
+        "full_consensus": {
+          "expected_words": 12,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "YOU'RE PROBABLY THE FIRST PERSON TO EVER BREAK THE SMILING DEMON'S CARRIAGE."
+        }
+      }
+    },
+    {
+      "id": 118,
+      "expected_visible_dialogue": "THIS IS THE METHOD I'VE CHOSEN TO DEAL WITH A MADMAN.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THIS IS THE METHOD I'VE CHOSEN TO DEAL WITH A MADMAN."
+        },
+        "partial_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THIS IS THE METHOD I'VE CHOSEN TO DEAL WITH A MADMAN."
+        },
+        "full_consensus": {
+          "expected_words": 11,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "THIS IS THE METHOD I'VE CHOSEN TO DEAL WITH A MADMAN."
+        }
+      }
+    },
+    {
+      "id": 119,
+      "expected_visible_dialogue": "EATING AND DRINKING TOGETHER TODAY. AFTER ALL, IT'S THE FIRST TIME WE'VE SHARED A MEAL AND A DRINK.",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "EATING AND DRINKING TOGETHER TODAY. AFTER ALL, IT'S THE FIRST TIME WE'VE SHARED A MEAL AND A DRINK."
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "EATING AND DRINKING TOGETHER TODAY. AFTER ALL, IT'S THE FIRST TIME WE'VE SHARED A MEAL AND A DRINK."
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "EATING AND DRINKING TOGETHER TODAY. AFTER ALL, IT'S THE FIRST TIME WE'VE SHARED A MEAL AND A DRINK."
+        }
+      }
+    },
+    {
+      "id": 120,
+      "expected_visible_dialogue": "I NEED TO QUESTION HIM FIRST. WHO WAS IT THAT OFFERED YOU A SEAT IN THE UNORTHODOX ALLIANCE?",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 18,
+          "word_errors": 2,
+          "edits": [
+            {
+              "expected": "i",
+              "actual": null,
+              "kind": "alignment_deleted_word"
+            },
+            {
+              "expected": "you",
+              "actual": "yol",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "NEED TO QUESTION HIM FIRST. WHO WAS IT THAT OFFERED YOL A SEAT IN THE UNORTHODOX ALLIANCE?"
+        },
+        "partial_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I NEED TO QUESTION HIM FIRST. WHO WAS IT THAT OFFERED YOU A SEAT IN THE UNORTHODOX ALLIANCE?"
+        },
+        "full_consensus": {
+          "expected_words": 18,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "I NEED TO QUESTION HIM FIRST. WHO WAS IT THAT OFFERED YOU A SEAT IN THE UNORTHODOX ALLIANCE?"
+        }
+      }
+    },
+    {
+      "id": 121,
+      "expected_visible_dialogue": "NO, THIS WORLD IS STILL YOUR WORLD.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NO,THIS WORLD IS STILL YOUR WORLD."
+        },
+        "partial_consensus": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NO,THIS WORLD IS STILL YOUR WORLD."
+        },
+        "full_consensus": {
+          "expected_words": 7,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "NO,THIS WORLD IS STILL YOUR WORLD."
+        }
+      }
+    },
+    {
+      "id": 122,
+      "expected_visible_dialogue": "LET'S CATCH THE RAT FIRST BEFORE DISCUSSING THE DETAILS.",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S CATCH THE RAT FIRST BEFORE DISCUSSING THE DETAILS."
+        },
+        "partial_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S CATCH THE RAT FIRST BEFORE DISCUSSING THE DETAILS."
+        },
+        "full_consensus": {
+          "expected_words": 9,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "LET'S CATCH THE RAT FIRST BEFORE DISCUSSING THE DETAILS."
+        }
+      }
+    },
+    {
+      "id": 123,
+      "expected_visible_dialogue": "ARE YOU NOT THE WITNESSES? EVEN EXCLUDING THE INVOLVED PARTY, YOUNG MASTER BI, THERE ARE SIX WITNESSES WHO SAW THE SIXTH WOLF'S BETRAYAL...",
+      "visible_dialogue_clipped": false,
+      "variants": {
+        "baseline": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "ARE YOU NOT THE WITNESSES? EVEN EXCLUDING THE INVOLVED PARTY, YOUNG MASTER BI, THERE ARE SIX WITNESSES WHO SAW THE SIXTH WOLF'S BETRAYAL.."
+        },
+        "partial_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "ARE YOU NOT THE WITNESSES? EVEN EXCLUDING THE INVOLVED PARTY, YOUNG MASTER BI, THERE ARE SIX WITNESSES WHO SAW THE SIXTH WOLF'S BETRAYAL.."
+        },
+        "full_consensus": {
+          "expected_words": 23,
+          "word_errors": 0,
+          "edits": [],
+          "actual": "ARE YOU NOT THE WITNESSES? EVEN EXCLUDING THE INVOLVED PARTY, YOUNG MASTER BI, THERE ARE SIX WITNESSES WHO SAW THE SIXTH WOLF'S BETRAYAL.."
+        }
+      }
+    },
+    {
+      "id": 124,
+      "expected_visible_dialogue": "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS BASED ON THE ENLIGHTENMENT HE GAINED THROUGH HIS FIGHT WITH THE HEAVENLY DEMON. THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHODOX FACTION IN THE LAST THREE",
+      "visible_dialogue_clipped": true,
+      "variants": {
+        "baseline": {
+          "expected_words": 36,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "unorthodox",
+              "actual": "unorthopox",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS BASED ON THE ENLIGHTENMENT HE GAINED THROUGH HIS FIGHT WITH THE HEAVENLY DEMON. THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHOPOX FACTION IN THE LAST THREE"
+        },
+        "partial_consensus": {
+          "expected_words": 36,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "unorthodox",
+              "actual": "unorthopox",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS BASED ON THE ENLIGHTENMENT HE GAINED THROUGH HIS FIGHT WITH THE HEAVENLY DEMON. THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHOPOX FACTION IN THE LAST THREE"
+        },
+        "full_consensus": {
+          "expected_words": 36,
+          "word_errors": 1,
+          "edits": [
+            {
+              "expected": "unorthodox",
+              "actual": "unorthopox",
+              "kind": "substituted_word"
+            }
+          ],
+          "actual": "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS BASED ON THE ENLIGHTENMENT HE GAINED THROUGH HIS FIGHT WITH THE HEAVENLY DEMON. THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHOPOX FACTION IN THE LAST THREE"
+        }
+      }
+    }
+  ],
+  "strict_internal_apostrophes": true,
+  "case_and_outer_punctuation_ignored": true,
+  "alignment_deletions_include_segmentation_defects": true,
+  "dialogue_is_not_limited_to_detected_boxes": true,
+  "translation_meaning_not_measured_by_this_report": true,
+  "screen_attempt_failure_probability": null,
+  "all_chapter_words_visually_reviewed": false,
+  "target_achieved": false,
+  "application_modified": false
+}

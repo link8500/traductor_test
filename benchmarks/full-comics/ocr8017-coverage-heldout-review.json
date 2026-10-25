@@ -1,0 +1,560 @@
+{
+  "schema": 1,
+  "locations_inferred": 124,
+  "changed_locations_visually_reviewed": 16,
+  "unchanged_locations_without_meaning_approval": 108,
+  "before_word_errors": 22,
+  "after_word_errors": 3,
+  "changed_crops_fixed": 14,
+  "changed_crops_regressed": 0,
+  "changed_crops_still_have_word_errors": 2,
+  "before_omitted_words": 2,
+  "after_omitted_words": 0,
+  "source_locations_disjoint_from_previous_868": true,
+  "rule_frozen_before_location_selection": true,
+  "manual_transcription_used_for_inference": false,
+  "application_modified": false,
+  "screen_attempt_failure_probability": null,
+  "all_chapter_words_visually_reviewed": false,
+  "population_accuracy_estimate": false,
+  "sample_sha256": "c9eea77e2f6e35fe71f1aa1a1d3005f19b18f10db64a1e1e759f63a8f8c40211",
+  "manual_sha256": "9252aab41978a964c2d38afe3236c16ba42671c2d8d4f69f1ff88a62adf47530",
+  "selection_provenance_sha256": "496030f101c81973da2ec9c0b85f371d587c7b65bce5e3816b72f4b49825b451",
+  "policy_sha256": "d8a58146c73fdfe4135d7ed37bc010df7d45eb52a14bc2f4d71042333fb01f5b",
+  "binary_sha256": "b087f4507ac62c8770adaf3368cd5b74bebe0487658f16a186218add8be6cb65",
+  "entries": [
+    {
+      "id": 1,
+      "location_id": 4,
+      "expected_visible_english": "SLOWLY DISCHARGE YOUR ENERGY AS IF YOU'RE PULLING OUT A THREAD.",
+      "before": {
+        "expected_words": 11,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "your",
+            "actual": "nour"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "pulling",
+            "actual": "puuing"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 11,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 2,
+      "note_es": "YOUR y PULLING legibles."
+    },
+    {
+      "id": 2,
+      "location_id": 11,
+      "expected_visible_english": "THAT MAN IS THE SECOND-IN-COMMAND IN THIS PLACE. HE'S NOTORIOUS FOR COMMITTING ATROCIOUS DEEDS EVEN AMONG THE DEMONIC ARMY.",
+      "before": {
+        "expected_words": 21,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "notorious",
+            "actual": "notoriols"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 21,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "NOTORIOUS respaldado por los píxeles."
+    },
+    {
+      "id": 3,
+      "location_id": 15,
+      "expected_visible_english": "I TOLD YOU ALREADY, I'M GOING TO KILL THE DEMONIC ARMY COMMANDER.",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "i",
+            "actual": null
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 1,
+      "replacements": 0,
+      "note_es": "La I inicial está visible y se recupera."
+    },
+    {
+      "id": 4,
+      "location_id": 28,
+      "expected_visible_english": "PLEASE PUT THE DEMONIC ARMY INTO MY MOUTH.",
+      "before": {
+        "expected_words": 8,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "put",
+            "actual": "plt"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "mouth",
+            "actual": "molth"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 8,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 2,
+      "note_es": "PUT y MOUTH completos."
+    },
+    {
+      "id": 5,
+      "location_id": 34,
+      "expected_visible_english": "DIDN'T YOU TELL ME THAT YOU HAD SOMETHING YOU WANTED TO GET FROM HIM?",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "YOU y negación conservados."
+    },
+    {
+      "id": 6,
+      "location_id": 40,
+      "expected_visible_english": "AREN'T YOU CURIOUS ABOUT WHAT I WANT?",
+      "before": {
+        "expected_words": 7,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 7,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "YOU respaldado por los píxeles."
+    },
+    {
+      "id": 7,
+      "location_id": 41,
+      "expected_visible_english": "SHE COULDN'T HELP IT THOUGH. THE CONSTANT SHIFTS MADE BY THE SHIFTING SLASH MAKES IT A TECHNIQUE THAT CAN'T BE STOPPED WITH BLOCKING ALONE.",
+      "before": {
+        "expected_words": 24,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "though",
+            "actual": "tholgh"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 24,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "Se conserva el original visible incluso con la concordancia inglesa de origen."
+    },
+    {
+      "id": 8,
+      "location_id": 45,
+      "expected_visible_english": "YOU ARE NOT YET HIS MATCH WITH YOUR CURRENT SKILLS.",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "YOU corregido sin modificar NOT."
+    },
+    {
+      "id": 9,
+      "location_id": 57,
+      "expected_visible_english": "IT'S TO SHOW EVERYONE, NOT JUST US, BUT ALSO THE MURIM ALLIANCE AND THE UNORTHODOX ALLIANCE, THAT THE EIGHT DEMON SUPREMES ARE NOT TO BE MESSED WITH.",
+      "before": {
+        "expected_words": 27,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 2,
+          "inserted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "us",
+            "actual": "ls"
+          },
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "unortho"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "unorthodox",
+            "actual": "dox"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 27,
+        "word_errors": 2,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "inserted_word": 1,
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "inserted_word",
+            "expected": null,
+            "actual": "unortho"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "unorthodox",
+            "actual": "dox"
+          }
+        ]
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "UNORTHODOX es una palabra partida por guion de fin de renglón; el candidato aún la fragmenta."
+    },
+    {
+      "id": 10,
+      "location_id": 63,
+      "expected_visible_english": "IF YOU GIVE ME YOUR WORD, THEN I'LL GIVE YOU THIS MANUAL REGARDLESS OF THE OUTCOME.",
+      "before": {
+        "expected_words": 16,
+        "word_errors": 3,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 3
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          },
+          {
+            "kind": "wrong_word",
+            "expected": "manual",
+            "actual": "manlal"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 16,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "manual",
+            "actual": "manlal"
+          }
+        ]
+      },
+      "insertions": 0,
+      "replacements": 2,
+      "note_es": "Las dos lecturas YOU se corrigen, pero MANLAL aún no coincide con MANUAL."
+    },
+    {
+      "id": 11,
+      "location_id": 72,
+      "expected_visible_english": "WHEN AN UNPRECEDENTED FIGURE IS BORN, NOT ONLY IN THE DEMONIC CULT, BUT PERHAPS IN ALL OF THE MURIM.",
+      "before": {
+        "expected_words": 19,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "unprecedented",
+            "actual": "lnprecedented"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 19,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "UNPRECEDENTED respaldado por los píxeles."
+    },
+    {
+      "id": 12,
+      "location_id": 73,
+      "expected_visible_english": "YOU THINK SOMEONE OSTRACIZED AMONG THE DEMON SUPREMES CAN BE OF HELP?",
+      "before": {
+        "expected_words": 12,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 12,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "YOU corregido."
+    },
+    {
+      "id": 13,
+      "location_id": 79,
+      "expected_visible_english": "THAT DOESN'T MEAN YOU NEED TO THROW YOUR BODY ON THE LINE FOR ME.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "you",
+            "actual": "yol"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "YOU se corrige y se conserva DOESN'T."
+    },
+    {
+      "id": 14,
+      "location_id": 84,
+      "expected_visible_english": "AND YOU'D BETTER HAVE THAT MYSTERIOUS AURA ACT OF YOURS READY AT THAT TIME.",
+      "before": {
+        "expected_words": 14,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "mysterious",
+            "actual": "mysteriols"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 14,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "MYSTERIOUS respaldado por los píxeles."
+    },
+    {
+      "id": 15,
+      "location_id": 100,
+      "expected_visible_english": "SECOND YOUNG MASTER, WHY HAVE YOU COME TO SEE ME?",
+      "before": {
+        "expected_words": 10,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "omitted_word": 1
+        },
+        "edits": [
+          {
+            "kind": "omitted_word",
+            "expected": "you",
+            "actual": null
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 10,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 1,
+      "replacements": 0,
+      "note_es": "YOU está visible entre HAVE y COME."
+    },
+    {
+      "id": 16,
+      "location_id": 106,
+      "expected_visible_english": "SINCE THE FLATTERY'S BEEN CAUGHT, I'LL ADD ONE MORE.",
+      "before": {
+        "expected_words": 9,
+        "word_errors": 1,
+        "exact_word_sequence": false,
+        "edit_categories": {
+          "wrong_word": 1
+        },
+        "edits": [
+          {
+            "kind": "wrong_word",
+            "expected": "caught",
+            "actual": "calght"
+          }
+        ]
+      },
+      "after": {
+        "expected_words": 9,
+        "word_errors": 0,
+        "exact_word_sequence": true,
+        "edit_categories": {},
+        "edits": []
+      },
+      "insertions": 0,
+      "replacements": 1,
+      "note_es": "CAUGHT respaldado por los píxeles."
+    }
+  ]
+}

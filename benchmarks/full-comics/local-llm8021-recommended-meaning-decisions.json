@@ -1,0 +1,622 @@
+[
+  [
+    1,
+    "acceptable",
+    "Exactness, question and temporal return retained."
+  ],
+  [
+    2,
+    "incorrect",
+    "HEY becomes AY; MESSAR and CONFIDENSE are malformed words."
+  ],
+  [
+    3,
+    "incorrect",
+    "Addiction onset still becomes realizing an existing addiction."
+  ],
+  [
+    4,
+    "incomplete",
+    "BOAR remains English despite repaired fur."
+  ],
+  [
+    5,
+    "incorrect",
+    "Out of nowhere becomes an unwanted location; final emphasis malformed."
+  ],
+  [
+    6,
+    "incomplete",
+    "BLADESMAN remains English in the title."
+  ],
+  [
+    7,
+    "acceptable",
+    "Self-punishment obligation and survival retained, despite rough grammar."
+  ],
+  [
+    8,
+    "acceptable",
+    "Rhetorical degree, terrible place and many trapped people retained; grammar poor."
+  ],
+  [
+    9,
+    "acceptable",
+    "Strong power, body and prior absence retained."
+  ],
+  [
+    10,
+    "incorrect",
+    "Battle becomes nonword BATALLO twice."
+  ],
+  [
+    11,
+    "acceptable",
+    "Appointment requirement for meeting/contact retained."
+  ],
+  [
+    12,
+    "incorrect",
+    "Explain idiom becomes writing in uppercase; corrupt INALSPICIOLS stays untranslated."
+  ],
+  [
+    13,
+    "incomplete",
+    "MASTERS and RANKING remain English in full paragraphs, beyond clipped opening; army also becomes navy."
+  ],
+  [
+    14,
+    "incomplete",
+    "PAPERS and CORPS remain English."
+  ],
+  [
+    15,
+    "incorrect",
+    "Adds FIRST to asking the question; CORPS still untranslated."
+  ],
+  [
+    16,
+    "incorrect",
+    "Speaker's I CANNOT BELIEVE still changes to NO PUEDE CREER."
+  ],
+  [
+    17,
+    "acceptable",
+    "Proposal to replace demon statue with a beautiful woman's statue retained; grammar rough."
+  ],
+  [
+    18,
+    "acceptable",
+    "Both questions and THEN retained."
+  ],
+  [
+    19,
+    "incorrect",
+    "Unique Heavenly Demon becomes plural celestial devils."
+  ],
+  [
+    20,
+    "incorrect",
+    "First paragraph garbled and food YOU gave becomes food someone gave to YOU."
+  ],
+  [
+    21,
+    "acceptable",
+    "Good eye for people retained."
+  ],
+  [
+    22,
+    "incorrect",
+    "Demon Supremes becomes supernatural supremes and need for own subordinates becomes needing oneself."
+  ],
+  [
+    23,
+    "acceptable",
+    "Father-child relations, question and hundred-blade demon title retained; title wording and grammar are rough."
+  ],
+  [
+    24,
+    "incomplete",
+    "PAVILION remains English."
+  ],
+  [
+    25,
+    "acceptable",
+    "Threat involving sister's safety retained."
+  ],
+  [
+    26,
+    "incomplete",
+    "HEAVENLY qualifier in unique pavilion name omitted beyond clipped continuation."
+  ],
+  [
+    27,
+    "incorrect",
+    "Concessive WHILE remains temporal MIENTRAS."
+  ],
+  [
+    28,
+    "incomplete",
+    "HOUSE and BLADE remain English."
+  ],
+  [
+    29,
+    "incomplete",
+    "BUSY remains English."
+  ],
+  [
+    30,
+    "acceptable",
+    "Prior support, both sons' ordinals and feelings retained."
+  ],
+  [
+    31,
+    "acceptable",
+    "Exactness, expected state and prior inability retained; first sentence uses appearance wording."
+  ],
+  [
+    32,
+    "acceptable",
+    "Only possibility through great support-pillar retained; stray artifacts are non-dialogue."
+  ],
+  [
+    33,
+    "incorrect",
+    "Nasty people become malign things."
+  ],
+  [
+    34,
+    "acceptable",
+    "Even handing over the named divine medicine retained."
+  ],
+  [
+    35,
+    "acceptable",
+    "Negated question, recipient and reply retained."
+  ],
+  [
+    36,
+    "acceptable",
+    "Contrasting ability and question retained."
+  ],
+  [
+    37,
+    "incorrect",
+    "Favor request becomes malformed TIENGO UNA PEDIDA DE MANERA QUE TE PIDE."
+  ],
+  [
+    38,
+    "incorrect",
+    "Future promise to wait becomes currently waiting."
+  ],
+  [
+    39,
+    "incorrect",
+    "Emitting bad smell becomes having a sense of smell; living alone omitted."
+  ],
+  [
+    40,
+    "incorrect",
+    "SWORD untranslated and female addressee still masculine."
+  ],
+  [
+    41,
+    "incorrect",
+    "Malformed TEJADO invitation and apologizing becomes forgiving."
+  ],
+  [
+    42,
+    "incomplete",
+    "ENOUGH remains English; once-in-a-lifetime wording malformed."
+  ],
+  [
+    43,
+    "incomplete",
+    "DRINK remains English; addressee also changes to plural."
+  ],
+  [
+    44,
+    "incorrect",
+    "Title and corpses partly untranslated; handheld fan remains ventilator."
+  ],
+  [
+    45,
+    "incorrect",
+    "Unrecognizable clause retained and soul becomes food in title."
+  ],
+  [
+    46,
+    "incomplete",
+    "PROBABLY remains English."
+  ],
+  [
+    47,
+    "acceptable",
+    "Age, concern, lateness and advantage retained despite rough grammar."
+  ],
+  [
+    48,
+    "clipped",
+    "Visible first balloon retained; bottom continuation remains clipped."
+  ],
+  [
+    49,
+    "incomplete",
+    "I DID still absent from OCR."
+  ],
+  [
+    50,
+    "clipped",
+    "Full question's meaning readable despite malformed Spanish; clipped THEN still absent."
+  ],
+  [
+    51,
+    "acceptable",
+    "Prediction, soon, speaker's expectation and going out to cause trouble retained."
+  ],
+  [
+    52,
+    "incorrect",
+    "Devouring becomes returning hearts and the weak are the ones getting stronger."
+  ],
+  [
+    53,
+    "incomplete",
+    "Vertical KILL HIM remains omitted, beyond the clipped top fragment."
+  ],
+  [
+    54,
+    "incorrect",
+    "Being killed becomes leaving/marching away."
+  ],
+  [
+    55,
+    "incomplete",
+    "SELF remains English and curses weakened to generic spell."
+  ],
+  [
+    56,
+    "acceptable",
+    "Catch question and releasing caught fish condition retained."
+  ],
+  [
+    57,
+    "incomplete",
+    "PAVILION remains English."
+  ],
+  [
+    58,
+    "incorrect",
+    "Current inner torment becomes past suffering; ANYWAY connector malformed."
+  ],
+  [
+    59,
+    "incorrect",
+    "Unless I train becomes unless THEY train."
+  ],
+  [
+    60,
+    "incorrect",
+    "WELL question becomes approving exclamation; title and 3Y clause garbled."
+  ],
+  [
+    61,
+    "incomplete",
+    "LITTLE remains English and HIS heart referent omitted."
+  ],
+  [
+    62,
+    "acceptable",
+    "True goodwill conveyed as genuine wish for good; thought, return and prior correctness retained despite rough Spanish."
+  ],
+  [
+    63,
+    "incorrect",
+    "Adds UNLESS and changes one blow to a target, with malformed middle clause."
+  ],
+  [
+    64,
+    "incorrect",
+    "Promotion becomes a literal chair and office of master is omitted; PAVILION untranslated."
+  ],
+  [
+    65,
+    "acceptable",
+    "Both reasons, both WHY questions and avoidable incident now retained."
+  ],
+  [
+    66,
+    "incorrect",
+    "Strong attraction becomes entrapment and EVEN omitted beyond clipped top."
+  ],
+  [
+    67,
+    "incorrect",
+    "Considering a gift becomes talking and giving a gift to addressee; actors changed."
+  ],
+  [
+    68,
+    "acceptable",
+    "Whole question retained; stray separator is not a missing word."
+  ],
+  [
+    69,
+    "incorrect",
+    "Past answer and character adjectives become malformed invented words."
+  ],
+  [
+    70,
+    "incorrect",
+    "Cult leader changes to a city of heaven; acknowledgement remains literal seeing."
+  ],
+  [
+    71,
+    "incomplete",
+    "PETTY qualifier not retained beyond already clipped prior fragment; expel-us recovered."
+  ],
+  [
+    72,
+    "incorrect",
+    "Supreme heavenly silk becomes celestial thieves; title and temporal relation distorted."
+  ],
+  [
+    73,
+    "incorrect",
+    "Dragonfly becomes draco; standalone I still omitted."
+  ],
+  [
+    74,
+    "acceptable",
+    "Both statements retained."
+  ],
+  [
+    75,
+    "incomplete",
+    "SO connective omitted despite corrected CONTINUE."
+  ],
+  [
+    76,
+    "acceptable",
+    "Timing and emphasis instruction retained."
+  ],
+  [
+    77,
+    "incorrect",
+    "Twisted hobby becomes blessed habit; suffering phrase garbled."
+  ],
+  [
+    78,
+    "incorrect",
+    "Ridiculed person's pronoun becomes nonword DEMIGO."
+  ],
+  [
+    79,
+    "acceptable",
+    "Release and destined ascent retained with historical-present phrasing."
+  ],
+  [
+    80,
+    "incorrect",
+    "Action expressed with nonword PONIO rather than a valid Spanish verb; meaning broadly inferable but not approved."
+  ],
+  [
+    81,
+    "incorrect",
+    "Possessive leader phrase becomes city/cultural youths, uncertainty becomes prohibition and dagger becomes sword."
+  ],
+  [
+    82,
+    "incorrect",
+    "Leaving becomes nonword VANIENDO."
+  ],
+  [
+    83,
+    "incorrect",
+    "Command to regret becomes speaker's own future regret."
+  ],
+  [
+    84,
+    "incorrect",
+    "Training duration question becomes malformed long plane/plan with unclear speaker."
+  ],
+  [
+    85,
+    "acceptable",
+    "Allegiance and enduring conflict with father retained."
+  ],
+  [
+    86,
+    "incorrect",
+    "Leaving leadership becomes leaving the leader's malformed little chair; office no longer clearly expressed."
+  ],
+  [
+    87,
+    "incorrect",
+    "I cannot let you go becomes he/you cannot let me go; technique name partly missing."
+  ],
+  [
+    88,
+    "incorrect",
+    "Anything else becomes specified materials; PLEASE and ELSE omitted and call verb malformed."
+  ],
+  [
+    89,
+    "incorrect",
+    "Verbal snapping still becomes physical biting."
+  ],
+  [
+    90,
+    "incorrect",
+    "Relic becomes RECIEN and unresolved YOL T remains."
+  ],
+  [
+    91,
+    "incorrect",
+    "Mood becomes mode and fighting challenge becomes spinning/turning; multiple malformed words."
+  ],
+  [
+    92,
+    "incomplete",
+    "GROUND remains omitted and first paragraph remains disconnected with D artifact."
+  ],
+  [
+    93,
+    "incomplete",
+    "FIRST omitted."
+  ],
+  [
+    94,
+    "incorrect",
+    "Elves invented in cult title, beyond the clipped OF COURSE."
+  ],
+  [
+    95,
+    "incorrect",
+    "Poison pearl becomes an invented religious interjection and loss of mind becomes malformed chivalry."
+  ],
+  [
+    96,
+    "acceptable",
+    "Unconditional obedience and unconventional contrast retained."
+  ],
+  [
+    97,
+    "acceptable",
+    "Acknowledgment, counterfactual negation and response retained."
+  ],
+  [
+    98,
+    "acceptable",
+    "Control question and brother starting to meet/get to know people retained."
+  ],
+  [
+    99,
+    "incorrect",
+    "Cult becomes culture."
+  ],
+  [
+    100,
+    "incorrect",
+    "TWO sides still becomes ONE side."
+  ],
+  [
+    101,
+    "incorrect",
+    "Who called whom disciple is reversed beyond clipped bottom."
+  ],
+  [
+    102,
+    "acceptable",
+    "Villain and deserved death retained."
+  ],
+  [
+    103,
+    "incorrect",
+    "PERHAPS remains English, NEED becomes nonword NEEEN and personal introduction not expressed correctly."
+  ],
+  [
+    104,
+    "incorrect",
+    "Stabbing to death becomes malformed establishing a short hang of death."
+  ],
+  [
+    105,
+    "incorrect",
+    "Looking at sky becomes seeing/finding both people in heaven."
+  ],
+  [
+    106,
+    "incorrect",
+    "Anticipating trip becomes being employed on trip; second balloon also broken."
+  ],
+  [
+    107,
+    "acceptable",
+    "EVEN comparative restored; all remaining relationship content retained."
+  ],
+  [
+    108,
+    "incorrect",
+    "Conversation and leader become rotting mind and new king; underworld clause garbled."
+  ],
+  [
+    109,
+    "incomplete",
+    "Being torn OFF becomes a general skin laceration; detachment intensity omitted."
+  ],
+  [
+    110,
+    "incomplete",
+    "MUST BE A still missing and paragraph stays fragmented with ML artifact."
+  ],
+  [
+    111,
+    "incorrect",
+    "Multiple English/nonwords, cult becomes culture and alliance remains corrupted."
+  ],
+  [
+    112,
+    "acceptable",
+    "Question, major stronghold and named valley retained."
+  ],
+  [
+    113,
+    "incomplete",
+    "GETTING remains English despite corrected seasoning."
+  ],
+  [
+    114,
+    "incomplete",
+    "Dagger missing and LSING/DI stay unresolved in a separate fragment."
+  ],
+  [
+    115,
+    "incorrect",
+    "WANT becomes QUISCO rather than a Spanish desire verb."
+  ],
+  [
+    116,
+    "incorrect",
+    "Instead-lead instruction becomes malformed INSTEAD OF CONDUCT phrase."
+  ],
+  [
+    117,
+    "acceptable",
+    "Probability, first-ever sense, carriage and owner retained."
+  ],
+  [
+    118,
+    "acceptable",
+    "Chosen method and madman retained despite noun agreement defect."
+  ],
+  [
+    119,
+    "clipped",
+    "Visible shared eating/drinking content retained with grammar defects; top clipped."
+  ],
+  [
+    120,
+    "incorrect",
+    "Unorthodox doctrinal alliance becomes unusual/unexpected alliance, beyond clipped first line."
+  ],
+  [
+    121,
+    "acceptable",
+    "Negation, still and ownership retained."
+  ],
+  [
+    122,
+    "incorrect",
+    "Rat becomes RATO, a time interval."
+  ],
+  [
+    123,
+    "incorrect",
+    "Young Master left English and involved party becomes political party."
+  ],
+  [
+    124,
+    "incorrect",
+    "Entire becomes nonword ENTEGNADO and faction becomes invented FRAZIA ANTICUADRA."
+  ]
+]

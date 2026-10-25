@@ -1,0 +1,1650 @@
+{
+  "build": "802402",
+  "baseline_build": "801901",
+  "viewports": 124,
+  "native_regions": 229,
+  "cohorts": {
+    "all124_fixed_reading_viewports": {
+      "viewports": 124,
+      "before_categories": {
+        "incomplete": 19,
+        "acceptable": 62,
+        "incorrect": 31,
+        "clipped": 9,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 18,
+        "acceptable": 63,
+        "incorrect": 31,
+        "clipped": 9,
+        "needs_review": 3
+      },
+      "before_not_approved": 62,
+      "after_not_approved": 61,
+      "corrected": 1,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 1.6129032258064515
+    },
+    "no_visible_dialogue_clipped": {
+      "viewports": 107,
+      "before_categories": {
+        "incomplete": 16,
+        "acceptable": 62,
+        "incorrect": 26,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 15,
+        "acceptable": 63,
+        "incorrect": 26,
+        "needs_review": 3
+      },
+      "before_not_approved": 45,
+      "after_not_approved": 44,
+      "corrected": 1,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 2.2222222222222223
+    }
+  },
+  "entries": [
+    {
+      "id": 1,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "WHY EXACTLY ARE YOU TRYING TO GO BACK TO THE PAST?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 2,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "HEY! SEEING AS HOW YOU DARE TO MESS WITH ME, IT MUST MEAN YOU'RE CONFIDENT IN YOUR ABILITIES."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THAT BOY INCURRED A GREAT DEBT BECAUSE HE GOT ADDICTED TO GAMBLING."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 4,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "IT HAS STIFF FUR AND A LONG BODY, SO IT FEELS LIKE IT COULD BE A WILD BOAR..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 5,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "YOU'RE FINALLY OUT, SECOND YOUNG MASTER. WHY ARE YOU SUDDENLY TRAINING OUT OF NOWHERE? AND YOU DID IT FOR DAYS AT THAT?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 6,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "IS MY FIRST OPPONENT THE BLOOD HEAVENS BLADESMAN?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 7,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WE MUST PUNISH OURSELVES SO THAT WE CAN SURVIVE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 8,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "JUST HOW TERRIBLE IS THIS PLACE FOR SO MANY PEOPLE TO GET STUCK IN HERE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I CAN FEEL A STRONG POWER IN THIS BODY THAT I DIDN'T FEEL BEFORE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 10,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THE FIRST BATTLE THAT FEELS LIKE A REAL BATTLE EVER SINCE I REGRESSED."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "YOU CAN'T MEET HIM UNLESS YOU HAVE MADE AN APPOINTMENT."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 12,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "MUST I SPELL IT OUT FOR YOU?",
+        "WHAT ARE YOU TRYING TO DO HERE BY PUTTING SOMETHING THAT INUSPICIOUS WHERE PEOPLE COME AND GO?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 13,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "INTO A FIGHT WITH THEM AT A BAR.",
+        "ALL HIS OPPONENTS WERE LOW RANKED MARTIAL ARTISTS. BEFORE THINGS BLEW OUT OF PROPORTION, THE DEMONIC ARMY COVERED IT ALL UP FOR HIM.",
+        "BECAUSE THERE ARE TOO MANY RETARDS THAT DON'T REVERE THE DEMONIC ARMY IN THE WORLD."
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 14,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "THE DEMONIC ARMY GAVE US THESE BOOKS.",
+        "THE ASSASSINATION REQUEST LOGS AND BANKNOTE PAPERS THAT ARE WORTH THOUSANDS OF NYANGS WERE DISCOVERED IN THE 1ST CORPS COMMANDER'S HOUSE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 15,
+      "before": "needs_review",
+      "after": "needs_review",
+      "dialogue": [
+        "HOW WOULD I KNOW? YOU SHOULD ASK THE DEAD 1ST CORPS COMMANDER THAT QUESTION."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 16,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I CAN'T BELIEVE HE'S BEING SO HONEST ABOUT HIS RELATIONSHIP WITH HIS BROTHER..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 17,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "HOW ABOUT PLACING A STATUE OF A BEAUTIFUL WOMAN INSTEAD OF THAT DEMON STATUE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 18,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "WHY DID YOU CREATE CONFLICT BETWEEN ME AND HIM THEN?",
+        "SHOULDN'T YOU TAKE RESPONSIBILITY FOR THAT?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THE HEAVENLY DEMON DEFENSE ART. IT PROTECTS ONE'S BODY AND IS AN EXCLUSIVE MARTIAL ART THAT ONLY THE HEAVENLY DEMON CAN LEARN."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "HE'S PUT POISON INTO THE FOOD THAT HE GAVE OUT!",
+        "I DIDN'T EAT ANY OF THE FOOD YOU GAVE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "LOOKS LIKE YOU'VE GOT A GOOD EYE FOR PEOPLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "A PRIVATE GROUP?",
+        "DON'T EACH OF THE DEMON SUPREMES TAKE IN THEIR OWN SUBORDINATES?",
+        "IN ORDER TO DEAL WITH THEM, I ALSO NEED MY OWN."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "HOW COULD HE DO THAT?",
+        "I HEARD THE FATHER OF THE CHILD WHO LED THE ATTACK ON MY CHILD WAS THE HUNDRED SWORD DEMON."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "IF ANYTHING UNFAIR HAPPENS EVER AGAIN, PLEASE REPORT IT TO THE NIRVANA PAVILION."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WERE YOU THREATENED WITH THE SAFETY OF YOUR SISTER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 26,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "NO MATTER WHO IT IS, IF THEY DARE COMMIT A CRIME, THEN I BELIEVE THEY SHOULD BE PUNISHED.",
+        "EVEN IF SOMEONE IN THE HEAVENLY DEMON PAVILION COMMITS A CRIME"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "WHILE I'M THANKFUL YOU THINK HIGHLY OF ME,"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "PLEASE DON'T SAY THAT EVEN IF YOU MEANT IT AS A JOKE.",
+        "IF I GO TO THE SOUTHERN BLADE HOUSE RIGHT NOW, I MIGHT GET MY LEGS BROKEN THERE..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 29,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "BUT I INTEND TO GET BUSY AND MAKE HIM THE DEMONIC ARMY COMMANDER."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "AS YOU KNOW, I'VE ALREADY DONE MUCH TO SUPPORT MY SECOND SON.",
+        "I NEED TO CONSIDER THE FEELINGS OF MY FIRST SON."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 31,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "THAT'S JUST WHAT IT'S SUPPOSED TO BE LIKE.",
+        "WE JUST WEREN'T ABLE TO DO WHAT'S TO BE NATURALLY EXPECTED SO FAR."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 32,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THAT WAS ONLY POSSIBLE BECAUSE YOU WERE SUCH A GREAT PILLAR OF SUPPORT."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 33,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "THERE ARE VARIOUS TYPES OF NASTIES.",
+        "FROM WHAT I'VE SEEN, YOU'RE NOT SOMEONE WHO'D BREAK THEIR WORD."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "AND MAKE ME HAND OVER EVEN THE HEAVENLY DIVINE PILL?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 35,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "ARE YOU SURE IT'S NOT BECAUSE HE GAVE YOU THE HEAVENLY DIVINE PILL?",
+        "I WON'T DENY THAT."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 36,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "THERE WAS SOMETHING THAT OLD MAN COULD SEE BUT I COULDN'T?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I HAVE A FAVOR TO ASK OF YOU.",
+        "WHAT IS IT?",
+        "I'D LIKE TO HAVE ANOTHER FAMILY MEMBER."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 38,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "LET'S HAVE DRINKS AT THE PLEASURE BAR LATER TONIGHT.",
+        "I'LL WAIT FOR YOU THERE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 39,
+      "before": "needs_review",
+      "after": "needs_review",
+      "dialogue": [
+        "NOW HE'S COME TO MY RESIDENCE FOR THE FIRST TIME.",
+        "THERE HAVE BEEN SO MANY FIRST EXPERIENCES WITH HIM IN THIS LIFETIME.",
+        "WOULD YOU LIKE TO COME IN?",
+        "WHY WOULD I GO INTO A ROOM WHERE A MAN LIVES ALONE AND SMELLS?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 40,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "WELCOME, SWORD SUPREME. PLEASE SIT OVER HERE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I SHOULDN'T HAVE INVITED YOU TO THAT DINNER.",
+        "YOU ALREADY WON. WHY ARE YOU APOLOGIZING TO ME?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "IT WAS A ONCE-IN-A-LIFETIME STROKE OF LUCK.",
+        "I'M NOT ARROGANT ENOUGH TO MISTAKE LUCK FOR SKILL.",
+        "THEN LET'S DO THIS. I WON'T SET ANY CONDITIONS IF I WIN."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 43,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I'D LIKE TO HAVE A DRINK WITH YOU.",
+        "LET'S GO."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "THE SOUL ABSORBING SUPREME DEMON WOULD'VE BEEN METICULOUS IN COVERING UP ANYTHING RELATED TO HIS SOUL ART.",
+        "YET THE CORPSES WERE FOUND BY A HERB GATHERER, AND THE FAN WAS CONVENIENTLY LEFT BEHIND?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "IF YOU'RE THAT SKILLED, THEN YOU'LL NATURALLY FILL THE VACANCY LEFT BY THE SOUL ABSORBING SUPREME DEMON."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "SINCE IT WAS MORE OF A THREAT USING MY FATHER, IT'LL PROBABLY HOLD FOR TWO OR THREE MONTHS."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I'M ALREADY THIRTY-TWO. I'M WORRIED IT MIGHT BE TOO LATE.",
+        "YEAH, IT'S LATE. BUT THAT ALSO COMES WITH AN ADVANTAGE.",
+        "AN ADVANTAGE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 48,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "A FEW DAYS OR A FEW YEARS, ANYTHING IS FINE.",
+        "IF YOU STILL DON'T LIKE HIM, THEN WE"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 49,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "I DID THAT?",
+        "IT'S BEEN DECADES SINCE I LAST ALLOWED ANYONE TO TOUCH ME."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 50,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "WHAT IF YOUR CHILD ENDS UP HATING YOU?",
+        "THEN"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 51,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THERE'LL BE MORE TROUBLE SOON, I BET.",
+        "WHY DO YOU ASSUME THAT I WENT OUT TO CAUSE TROUBLE?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 52,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "DO WE REALLY LIVE LIVES SO EASY THAT WE CAN AFFORD TO GIVE THE WEAK A CHOICE?",
+        "WHAT'S SO WRONG WITH DEVOURING THE HEARTS OF THE WEAK TO GROW STRONGER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 53,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "HIM",
+        "KILL HIM.",
+        "KILL HIM.",
+        "EVEN WHEN THE HEAVENLY DEMON DEFENSE ART IS ACTIVATED, THERE'S STILL THIS MUCH EFFECT...",
+        "FOR AN ORDINARY PERSON, THEY WOULD'VE ALREADY FALLEN UNDER THE SOUL ABSORBING ART OF THE SOUL ABSORBING SUPREME DEMON.",
+        "KILL HIM."
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "IF I HADN'T DODGED WITH MY FLICKER STEP, I WOULD'VE BEEN SLICED INTO SIX PIECES AND KILLED."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 55,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "UNLIKE THE SOUL ABSORBING SUPREME DEMON'S USUAL SELF, HE DIDN'T LEAVE ANY CURSES BEHIND."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 56,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "WOULD IT BE HARD FOR ME TO CATCH YOU?",
+        "IF YOU RELEASE THE FISH YOU CAUGHT, MAYBE IT'LL BE POSSIBLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WHERE TO?",
+        "ISN'T IT TIME YOU VISITED THE NIRVANA PAVILION BRANCH IN THE CENTRAL PLAINS?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 58,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THOSE WHO SAY THEY HAVE NO REGRETS ARE OFTEN THE ONES MOST TORMENTED INSIDE.",
+        "ANYWAY, WHAT IS THIS ABOUT?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 59,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "GOOD GRIEF. THAT'S A STRAIGHT PATH TO ILLNESS.",
+        "I'M ALREADY SICK. IT'S A CONDITION WHERE I CAN'T SLEEP UNLESS I TRAIN."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WELL?",
+        "THE SECOND YOUNG MASTER HAS NO CONNECTION TO THE SOUL ABSORBING ART. TO OVERPOWER SOMEONE WITHIN A SPACE CREATED BY THAT TECHNIQUE,"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 61,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "IN THAT MOMENT, I CLEARLY HEARD IT.",
+        "THE SOUND OF HIS HEART'S DOOR OPENING A LITTLE WIDER,"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 62,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "I THOUGHT ABOUT IT AFTER RETURNING, AND YOU WERE RIGHT.",
+        "I REALIZED I STILL HAVEN'T SHOWN YOU ANY TRUE GOODWILL YET."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 63,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "AT THE END.",
+        "WHEN THAT HAPPENS, EVEN I SOMETIMES FEEL LIKE KILLING HIM IN ONE BLOW."
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "HASN'T THE SECOND YOUNG MASTER RISEN TO THE SEAT OF NIRVANA PAVILION MASTER?",
+        "TO ANYONE'S EYES, IT LOOKS LIKE THE HEAVENLY DEMON IS"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 65,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "TAKING ONE HIT ISN'T A REASON TO SLAUGHTER A FAMILY. AND DRINKING TOO MUCH ISN'T A REASON TO LOSE YOUR HUMANITY.",
+        "SO TELL ME, WHY? WHY DID IT HAVE TO COME TO THIS? IT COULD'VE ENDED WITHOUT ANY INCIDENT."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 66,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "UNEXPECTED.",
+        "DO YOU EVEN KNOW WHAT YOU'RE CHOOSING?",
+        "I DON'T KNOW EXACTLY, BUT I FELT STRONGLY DRAWN TO IT."
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "BECAUSE YOU WOULD ONLY CONSIDER GIVING A GIFT TO SOMEONE OF HIS CALIBER."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WHY DON'T YOU CONSIDER YOURSELF THE THIRD?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 69,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I USED TO ANSWER THAT IT WAS BECAUSE OF ONE PETTY, GREEDY PERSON IN THE PAST."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 70,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "IF SHE CAN LEARN FROM THE SKY HEAVEN CULT LEADER, WHO IS CURRENTLY STAYING AT THE CULT, SHE'LL HAVE A CHANCE TO WIN.",
+        "I SEE..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 71,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "CAN'T YOU SEE THEY'RE TRYING TO DRIVE US OUT?",
+        "WHO WOULD BELIEVE THAT THE HEAVENLY DEMON DIVINE CULT WOULD STOOP TO SUCH PETTY TRICKS?"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 72,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THE BLOOD GOD PILL EARLIER, AND NOW THIS SUPREME HEAVENLY SILK..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 73,
+      "before": "incomplete",
+      "after": "acceptable",
+      "dialogue": [
+        "I...",
+        "I DON'T CARE EVEN IF I'M JUST A DRAGONFLY'S WING."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "The independent I... balloon is now translated as Yo... with normal defaults. Complete main dialogue retains the original meaning. All displayed fields of this full view equal the already inspected native painting of802401.",
+      "new_meaning_reviewed_against_complete_original_inventory": true,
+      "candidate_outputs": [
+        {
+          "chapter": "fixed-screen-073",
+          "image": 73,
+          "capture_edge_clearance": 2000,
+          "source": "I...",
+          "cropTop": 0,
+          "native_source": "I...",
+          "additional_detection": true,
+          "short_dialogue_recovered": true,
+          "paragraph_recovered": false,
+          "line_completed": false,
+          "native_words": [],
+          "bounds": [
+            298,
+            249,
+            443,
+            366
+          ],
+          "translation": "Yo...",
+          "retained_original": false,
+          "sentence_recovered": false
+        },
+        {
+          "chapter": "fixed-screen-073",
+          "image": 73,
+          "capture_edge_clearance": 2000,
+          "source": "I DON'T CARE EVEN IF I'M JUST A DRAGONFLY'S WING.",
+          "cropTop": 0,
+          "native_source": "DON'T CARE EVEN IF I'M JUST A PRA&ONFLY'S WIN&.",
+          "additional_detection": false,
+          "short_dialogue_recovered": false,
+          "paragraph_recovered": false,
+          "line_completed": false,
+          "native_words": [
+            {
+              "text": "DON'T",
+              "bounds": [
+                375,
+                675,
+                506,
+                711
+              ]
+            },
+            {
+              "text": "CARE",
+              "bounds": [
+                180,
+                723,
+                289,
+                758
+              ]
+            },
+            {
+              "text": "EVEN",
+              "bounds": [
+                306,
+                723,
+                407,
+                757
+              ]
+            },
+            {
+              "text": "IF",
+              "bounds": [
+                424,
+                723,
+                468,
+                757
+              ]
+            },
+            {
+              "text": "I'M",
+              "bounds": [
+                484,
+                721,
+                543,
+                757
+              ]
+            },
+            {
+              "text": "JUST",
+              "bounds": [
+                560,
+                723,
+                663,
+                757
+              ]
+            },
+            {
+              "text": "A",
+              "bounds": [
+                190,
+                769,
+                212,
+                803
+              ]
+            },
+            {
+              "text": "PRA&ONFLY'S",
+              "bounds": [
+                230,
+                767,
+                518,
+                804
+              ]
+            },
+            {
+              "text": "WIN&.",
+              "bounds": [
+                534,
+                769,
+                652,
+                803
+              ]
+            }
+          ],
+          "bounds": [
+            177,
+            675,
+            665,
+            804
+          ],
+          "translation": "No me importa aunque sea solo un ala de libélula.",
+          "retained_original": false,
+          "sentence_recovered": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "HE'S HERE TO ROB ME AGAIN.",
+        "THAT'S BECAUSE WE'RE ALWAYS TALKING ABOUT THE SECOND YOUNG MASTER AND THINKING ABOUT HIM."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "SO PLEASE, CONTINUE KEEPING THESE THINGS HIDDEN FROM ME.",
+        "EVEN IF I ONLY LEARN TOMORROW THAT YOU HAVE UNIFIED THE MURIM, THAT'S PERFECTLY FINE!"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WHEN YOU DO, MAKE SURE TO EMPHASIZE THIS POINT."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 77,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "DID YOU COME TO WATCH YOUR SUBORDINATE SUFFER?",
+        "HE ALREADY SUFFERS PLENTY DURING THE DAY. I DON'T HAVE SUCH TWISTED HOBBIES."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 78,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THE OTHERS WILL BE WORSE, WON'T THEY? ON THE SURFACE THEY SWEAR LOYALTY, BUT INSIDE THEY'RE LAUGHING AT ME."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 79,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "HE TOLD THE LEADER THAT HE SHOULD RELEASE SOMEONE THAT OUGHT TO BE SENT OFF,",
+        "WHILE ALSO PRAISING THE SHACKLED MAN AS A DRAGON THAT'S MEANT TO ASCEND."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 80,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THE SKY HEAVEN CULT POURED INNER ENERGY INTO THE LIQUOR BOTTLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 81,
+      "before": "needs_review",
+      "after": "needs_review",
+      "dialogue": [
+        "IT INCLUDES THE SKY HEAVEN CULT LEADER'S AND THE SHACKLED MAN!",
+        "I DON'T KNOW IF I'M ALLOWED TO ACCEPT SUCH A PRECIOUS DAGGER."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I DON'T HAVE DREAMS OF CHANGING THE WORLD.",
+        "THEN WHY? WHY THE HELL ARE YOU LEAVING?!"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "GO AND SUFFER IN HELL...",
+        "REGRET LEAVING ME TILL THE DAY YOU DIE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 84,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "BUT HE ALSO LOOKED LIKE HE WANTED ME TO RETURN QUICKLY.",
+        "HE ASKED HOW LONG I PLANNED TO KEEP UP WITH THE MARTIAL ARTS TRAINING.",
+        "WHAT WAS YOUR ANSWER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 85,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WHY SHOULD I ACCEPT THE SKY HEAVEN CULT LEADER COMING ONTO MY SIDE, EVEN IF IT MEANS ENDURING CONFLICT WITH MY FATHER?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 86,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "STILL... WOULD HE REALLY ABANDON THE SEAT OF THE SKY HEAVEN CULT LEADER AND COME TO ME JUST BECAUSE OF HIS RELATIONSHIP WITH ONE PERSON?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 87,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "SO CELESTIAL SEIZE CAN EVEN DO SUCH PRECISE THINGS!",
+        "I CAN'T JUST LET YOU WALK AWAY. LET'S HAVE A DUEL."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 88,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I-IF YOU NEED ANYTHING ELSE, PLEASE CALL ME ANYTIME!"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "I'D LIKE THAT TOO, BUT HAVEN'T YOU SEEN ENOUGH BY NOW?",
+        "THE SWORD SUPREME SNAPS AT ME VICIOUSLY EVERY TIME SHE SEES ME."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "IT'S REALLY WELL MADE. SO MUCH SO YOU COULD EVEN TREAT IT AS A DIVINE RELIC."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 91,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "THE SPECTATORS ARE GONE, SO THE MOOD'S DIED DOWN.",
+        "BUT THE STRENGTH IN MY FIST HASN'T. LET'S GO A ROUND."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 92,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "LIKE THE MINOR HEAVEN CAVE, IT'S A SECRET TRAINING GROUND OF THE DEMONIC CULT.",
+        "IT'S HIDDEN ON THE FRONTIER, THAT CAN ONLY BE ENTERED WITH THE HEAVENLY DEMON'S PERMISSION."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WHEN I FIRST MET YOU, IT WAS HERE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 94,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "OF COURSE. THOUGH NATURALLY, I PLAN TO DO EVERYTHING TO PREVENT IT FROM COMING TO THAT.",
+        "WHICH ISN'T BECAUSE OF CHEONG SEON, BUT BECAUSE OF THE SKY HEAVEN CULT LEADER."
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 95,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "HOLDING A BLOOD POISON PEARL WHILE DRINKING.",
+        "HAS THAT OLD MAN LOST HIS MIND?!"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 96,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "HE'S SOMEONE WHO UNCONDITIONALLY OBEYS HIS FATHER'S WILL.",
+        "HE'S NOTHING LIKE THE SECOND YOUNG MASTER, WHO HAS TENDENCIES TO BE OUT OF THE NORM."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "YEAH, THAT'S TRUE. IT WOULD'VE BEEN PERFECT IF YOU HADN'T SAID THAT.",
+        "IS THAT SO?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 98,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "KEEPING THEM IN CHECK?",
+        "YES, MY BROTHER HAS STARTED MEETING PEOPLE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "FIRST YOUNG MASTER IS SOMEONE WHO FITS WELL WITH OUR CULT."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 100,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "BEING TWO SIDES OF A COIN IS LIKELY NOTHING MORE THAN WORDS MADE UP BY VILLAINS TO JUSTIFY THEMSELVES."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 101,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "MASTER... JUST CALLED ME HIS DISCIPLE FOR THE FIRST TIME.",
+        "MASTER!"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 102,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "HE WAS A VILLAIN WHO DESERVED TO DIE..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 103,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "PERHAPS WE BROTHERS ARE THE ONES WHO ACTUALLY NEED AN INTRODUCTION."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "SOON, THAT MAN WILL PUT ON THE MASK HE WAS SELLING AND STAB THE PERSON NEXT TO HIM TO DEATH."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 105,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "WOULDN'T THIS BE FINE? THEN WE'LL BOTH BE LOOKING AT THE SKY."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "I'M LOOKING FORWARD TO MY TRIP WITH YOU.",
+        "WE AREN'T EXACTLY GOING ON A TRIP...",
+        "IF YOU GO WITH A FRIEND, ISN'T IT A TRIP NO MATTER WHERE YOU GO?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 107,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "THEY WILL GET ALONG EVEN BETTER THAN MY BROTHER WITH THE DEMONIC BUDDHA."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 108,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "SINCE HE HEARD OUR CONVERSATION EARLIER, HE'LL PROBABLY GO AND CLEAN OUT THEIR LEADER AS WELL.",
+        "OF COURSE, IT WON'T BE LONG BEFORE A NEW UNDERWORLD GROUP MOVES IN."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 109,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "IT'S PROBABLY BECAUSE IT FEELS LIKE YOUR OWN FLESH IS BEING TORN OFF."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 110,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "IF THE WORLD WE SEE NOW IS DULL, THEN THE ORIGINAL WORLD MUST BE A SLEEPING ONE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "WOULDN'T THAT HAVE CAUSED ANOTHER MASSIVE UPROAR?",
+        "THE MASTERMINDS BEHIND THIS LIKELY INTENDED TO USE THE CONFLICT AND STRIFE BETWEEN OUR CULT AND THE UNORTHODOX ALLIANCE",
+        "TO PLOT SOMETHING THAT WOULD FOLLOW"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "IS IT OKAY TO PLAY AT A MAJOR STRONGHOLD OF THE VALLEY OF THE WICKED?"
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 113,
+      "before": "incomplete",
+      "after": "incomplete",
+      "dialogue": [
+        "LET'S KIDNAP THE CHEF HERE. CHEF LIM MUST BE GETTING OLD. HIS SEASONING HASN'T BEEN RIGHT LATELY.",
+        "CHEF LIM WOULD BE HURT IF HE HEARD THAT."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "THE ONE WHO FIRST REVEALED HIMSELF LUNGED AT ME USING A DAGGER.",
+        "LIKE THIS..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 115,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "I STILL WANT TO SEE THIS KIND OF WORLD."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 116,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "AND INSTEAD LEAD THINGS SO THAT ONLY THOSE BEHIND THIS INCIDENT ARE DEALT WITH.",
+        "BLUE"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 117,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "YOU'RE PROBABLY THE FIRST PERSON TO EVER BREAK THE SMILING DEMON'S CARRIAGE."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 118,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "THIS IS THE METHOD I'VE CHOSEN TO DEAL WITH A MADMAN."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 119,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "EATING AND DRINKING TOGETHER TODAY.",
+        "AFTER ALL, IT'S THE FIRST TIME WE'VE SHARED A MEAL AND A DRINK."
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 120,
+      "before": "clipped",
+      "after": "clipped",
+      "dialogue": [
+        "I NEED TO QUESTION HIM FIRST.",
+        "WHO WAS IT THAT OFFERED YOU A SEAT IN THE UNORTHODOX ALLIANCE?"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "NO, THIS WORLD IS STILL YOUR WORLD."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 122,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "LET'S CATCH THE RAT FIRST BEFORE DISCUSSING THE DETAILS."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 123,
+      "before": "acceptable",
+      "after": "acceptable",
+      "dialogue": [
+        "ARE YOU NOT THE WITNESSES?",
+        "EVEN EXCLUDING THE INVOLVED PARTY, YOUNG MASTER BI, THERE ARE SIX WITNESSES WHO SAW THE SIXTH WOLF'S BETRAYAL..."
+      ],
+      "visible_dialogue_clipped": false,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    },
+    {
+      "id": 124,
+      "before": "incorrect",
+      "after": "incorrect",
+      "dialogue": [
+        "IT'S A LECTURE ON HIS ENTIRE MARTIAL ARTS BASED ON THE ENLIGHTENMENT HE GAINED THROUGH HIS FIGHT WITH THE HEAVENLY DEMON.",
+        "THE LEGACY LEFT BY THE GREATEST MASTER OF THE UNORTHODOX FACTION IN THE LAST THREE"
+      ],
+      "visible_dialogue_clipped": true,
+      "note": "Original baseline output judgment reused only for identical full-location output.",
+      "same_full_location_output_judgment_reused": true
+    }
+  ],
+  "default_short_recovery_enabled": true,
+  "optional_consensus_readers_enabled": false,
+  "explicit_short_override_supplied": false,
+  "changed_viewports_reviewed": 1,
+  "identical_full_location_judgments_reused": 123,
+  "manual_sha256": "35173d7f7ed9019289eba4a0d93f7964e41a3ca1c9977a52d2ea9fd20e0c8fa4",
+  "changed_native_paint_reused_only_for_identical_displayed_fields": true,
+  "reused_paint_manual_review_sha256": "3f2a9f2bbc08cd54250ee1f96de850f404eaaaac7beb0468f4ae236bdc160109",
+  "original_baseline_review_sha256": "a7aff03fa96821274d41b9e9153a7f91861873ec59ac6bc58ee583ef054cc343",
+  "baseline_output_sha256": "e0a0a4f75c1da13b97115468fff4c92904edb1c4259196e558eb6f6bebad876a",
+  "native_output_sha256": "a676c9ae377c80fea9d4b75e10c7298b8364a486823a07266c46768fb746d682",
+  "provenance_sha256": "5792c85d08a70648081bacc473794233b6dbe80a88c72a6803ba39f80b6262cb",
+  "native_summary_sha256": "e693663514efe7cbfdae7971fd094d6268187c30b28ebb40d63b94f47bd70b3f",
+  "snapshot_sha256": "ef95c135f7e5abef7af10cf34b831978214cd0c3f8772cc4b859f8ecd4ffbdd1",
+  "all_original_visible_dialogue_inventoried": true,
+  "no_reference_or_inventory_inputs": true,
+  "model_weights_trained": false,
+  "all_chapter_words_visually_reviewed": false,
+  "complete_live_app_use_including_capture_and_movement": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "ready_for_release": false
+}

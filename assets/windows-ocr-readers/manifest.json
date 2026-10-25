@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "license": "Apache-2.0",
+  "sources": {
+    "english-v5": {
+      "name": "english-v5",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/en_PP-OCRv5_rec_mobile.onnx",
+      "sha256": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8",
+      "bytes": 7872351,
+      "input_shape": [
+        "DynamicDimension.0",
+        3,
+        "?",
+        "DynamicDimension.1"
+      ],
+      "output_shape": [
+        1,
+        40,
+        438
+      ],
+      "characters_sha256": "e8e2561357716acdc698e3c7567b940e74dbce507076de89a2a0e4a8f5dfdc90",
+      "upstream": "PaddlePaddle/PaddleOCR",
+      "conversion": "RapidAI/RapidOCR",
+      "revision": "v3.10.0",
+      "license": "Apache-2.0",
+      "upstream_registry": "https://github.com/RapidAI/RapidOCR/blob/main/python/rapidocr/default_models.yaml",
+      "native_48_pixel_ctc_compatibility": true,
+      "application_assets_modified": false,
+      "trained_for_this_project": false,
+      "chapter_answers_supplied": false
+    },
+    "multilingual-v6-small": {
+      "name": "multilingual-v6-small",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv6/rec/PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+      "bytes": 21234383,
+      "input_shape": [
+        "DynamicDimension.0",
+        3,
+        48,
+        "DynamicDimension.1"
+      ],
+      "output_shape": [
+        1,
+        40,
+        18710
+      ],
+      "characters_sha256": "bf37aa18b879fe7d9b7a70112c59bf6e3e994eab8ff7b22882e3d76e485c9df1",
+      "upstream": "PaddlePaddle/PaddleOCR",
+      "conversion": "RapidAI/RapidOCR",
+      "revision": "v3.10.0",
+      "license": "Apache-2.0",
+      "upstream_registry": "https://github.com/RapidAI/RapidOCR/blob/main/python/rapidocr/default_models.yaml",
+      "native_48_pixel_ctc_compatibility": true,
+      "application_assets_modified": false,
+      "trained_for_this_project": false,
+      "chapter_answers_supplied": false
+    }
+  },
+  "files": {
+    "english-v5/english-ocr.onnx": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8",
+    "english-v5/ocr-characters.json": "e8e2561357716acdc698e3c7567b940e74dbce507076de89a2a0e4a8f5dfdc90",
+    "english-v5/english-ocr-fallback.onnx": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318",
+    "english-v5/ocr-characters-fallback.json": "2c1fa0e0da7f065f917d46a5d0469a25ccacdeb768511d7a11572203d3f6526d",
+    "multilingual-v6-small/english-ocr.onnx": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+    "multilingual-v6-small/ocr-characters.json": "bf37aa18b879fe7d9b7a70112c59bf6e3e994eab8ff7b22882e3d76e485c9df1",
+    "multilingual-v6-small/english-ocr-fallback.onnx": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318",
+    "multilingual-v6-small/ocr-characters-fallback.json": "2c1fa0e0da7f065f917d46a5d0469a25ccacdeb768511d7a11572203d3f6526d",
+    "LICENSE.Apache-2.0.txt": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333"
+  },
+  "platform": "Windows",
+  "role": "Corroborate existing English text blocks; never supplies chapter answers",
+  "human_or_reference_text_supplied": false,
+  "model_weights_trained": false
+}

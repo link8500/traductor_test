@@ -1,0 +1,1291 @@
+{
+  "schema": 1,
+  "build": "802501",
+  "baseline_build": "802402",
+  "viewports": 124,
+  "native_regions": 229,
+  "cohorts": {
+    "all124_fixed_reading_viewports": {
+      "viewports": 124,
+      "before_categories": {
+        "incomplete": 18,
+        "acceptable": 63,
+        "incorrect": 31,
+        "clipped": 9,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 18,
+        "acceptable": 67,
+        "incorrect": 25,
+        "clipped": 11,
+        "needs_review": 3
+      },
+      "before_not_approved": 61,
+      "after_not_approved": 57,
+      "corrected": 4,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 6.557377049180328
+    },
+    "no_visible_dialogue_clipped": {
+      "viewports": 107,
+      "before_categories": {
+        "incomplete": 15,
+        "acceptable": 63,
+        "incorrect": 26,
+        "needs_review": 3
+      },
+      "after_categories": {
+        "incomplete": 16,
+        "acceptable": 67,
+        "incorrect": 21,
+        "needs_review": 3
+      },
+      "before_not_approved": 44,
+      "after_not_approved": 40,
+      "corrected": 4,
+      "regressed": 0,
+      "relative_unapproved_reduction_percent": 9.090909090909092
+    }
+  },
+  "historical_baseline_comparison": {
+    "build": "801901",
+    "cohorts": {
+      "all124_fixed_reading_viewports": {
+        "viewports": 124,
+        "before_categories": {
+          "incomplete": 19,
+          "acceptable": 62,
+          "incorrect": 31,
+          "clipped": 9,
+          "needs_review": 3
+        },
+        "after_categories": {
+          "incomplete": 18,
+          "acceptable": 67,
+          "incorrect": 25,
+          "clipped": 11,
+          "needs_review": 3
+        },
+        "before_not_approved": 62,
+        "after_not_approved": 57,
+        "corrected": 5,
+        "regressed": 0,
+        "relative_unapproved_reduction_percent": 8.064516129032258
+      },
+      "no_visible_dialogue_clipped": {
+        "viewports": 107,
+        "before_categories": {
+          "incomplete": 16,
+          "acceptable": 62,
+          "incorrect": 26,
+          "needs_review": 3
+        },
+        "after_categories": {
+          "incomplete": 16,
+          "acceptable": 67,
+          "incorrect": 21,
+          "needs_review": 3
+        },
+        "before_not_approved": 45,
+        "after_not_approved": 40,
+        "corrected": 5,
+        "regressed": 0,
+        "relative_unapproved_reduction_percent": 11.11111111111111
+      }
+    }
+  },
+  "entries": [
+    {
+      "id": 1,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "6d2022eb436dc7747a58322cf25d2be9b6cb03c02e205f1e7eda2f5f50d456c8"
+    },
+    {
+      "id": 2,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "598754ae7d0029647094041b48e517a46b5d92e28fbdb6237d760cd2efd72129"
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "3c385e1c7ab92bd63f16059069679960ac88fd71d3fa25de261e1e7a1b395d84"
+    },
+    {
+      "id": 4,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "703d2b2fa75ebc2c956a8c43ce4a8febaad3a1a1f246b05bacd8e0ce6469679a"
+    },
+    {
+      "id": 5,
+      "before": "incorrect",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "2c678fc94cf132ae9e0d4811b9cfb505d44964a65daf78cd568e81107c2d80f6"
+    },
+    {
+      "id": 6,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "8c093ec44fd0bbd80cb23ca744aa228331b9b011e084d921632dc8762de483e9"
+    },
+    {
+      "id": 7,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "3bab8d2a49a240b40aa32ca5b8651a879b072ba3dd611101a243ffec68ab457d"
+    },
+    {
+      "id": 8,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "0477a96fac5b818c18f3e68967a67c4114e9bc616c90803e4bb0d35a20e9f395"
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "6b15551c5ccc8cf6572fdcb41e3b32c9fbd1d7c3fc840685e478eb68684abf6c"
+    },
+    {
+      "id": 10,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "140a01ba4bd38f264ab660726629824a19276ddb69f906c954b3e4d0b6b348f3"
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "0a98cc06d3709d7f7c6651af1c33463c0dbd4958a75eb322769ff1e053adeaa0"
+    },
+    {
+      "id": 12,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "b502a22e15320effcf6eac7c273dccc0b2500b348fe0faae4a71d4c8010e0fee"
+    },
+    {
+      "id": 13,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "680bc5927f1fb01753f057baa031a7149a2f2dfda01fc766e5e22346b00edf70"
+    },
+    {
+      "id": 14,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "13cd34351409d6f9b78dcde4ca0e6bb1b799cc36f95a47e526055dca9b8cdd6b"
+    },
+    {
+      "id": 15,
+      "before": "needs_review",
+      "after": "needs_review",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "needs_review",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "c43af2519e9d4e3b1feb05236a697914ebe62eadbeba86b9288dddf2c10d7253"
+    },
+    {
+      "id": 16,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "433b4b4ab69e9693a358457c37950604d18991e8943fc2dfe8a41f4f9c61d2c3"
+    },
+    {
+      "id": 17,
+      "before": "incorrect",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "1a06bb90fb011019d2b3d502a3d8b04f6f3286c0efb1fff1e6cd0e6043e6a573"
+    },
+    {
+      "id": 18,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "ae16b4e0c712418b19dc9c1f209dbd2af2d3366861564e26adfd40050dc492d6"
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "d9a7f53ebc06dd899623650e8a772e46567602f3235399cbfd8297622dd91a96"
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "675b7190e78256447c95abe732b4e5b8673e56ddb56f136acb382c89c59694dd"
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "5382603d9ba3184ebdf48339990d6fbe72230ea68c4f9c93133f4acbfcd27130"
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "ca8e7929e03363acc4b2dd4d2a2a089b73277a9aa542dc6a950d0b1aaf534c05"
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "8d88ad2d87a76ffc27c640c7eeb35e9cdfa07975704f27f354bc28a29336aab3"
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "3866812c3712ab316625190ff9e09b1329b294f08054d1823d831b8a738eea39"
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "2cb621f2d11502f752ed9c85e8671daa2a56b4765054876d3df9d24693df0eec"
+    },
+    {
+      "id": 26,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "ab7a50051d8d89d88bf460401abc62d5c513a3b997c586203bb0178dfb79e775"
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "b2ed805a972f2994f6c562d07b744914fa2750a1e16c00555aad2d0f42aa6001"
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "653f04a2d52963827d499a187dd9543f3c463dd15a92adb67a84d20878830f10"
+    },
+    {
+      "id": 29,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "8ce6805ec14d74f2e96b349bbf9d001b865542fe596084614191ee11897a59d4"
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "34936183b3b5a45ed031bc3f54b6b2dc47d9b6f78da5697372ec9f25b0d544b3"
+    },
+    {
+      "id": 31,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "16328b8d6021a74952080f5a1e9263248c4cd436ad9b18cec92b100863108fdf"
+    },
+    {
+      "id": 32,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "2e4e2c5caaa9f651d74be0e355b9ab3c1c92ff7ad5e3ef7c24c9158a2f399e7a"
+    },
+    {
+      "id": 33,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "5011967776ff13128c0aedcbc1486961a92f93da0d4ce395beee5ef27b727183"
+    },
+    {
+      "id": 34,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "6844e03800e6fcd91f7e98cbfec00ea66e1d6daa67494430b1073b40198cf089"
+    },
+    {
+      "id": 35,
+      "before": "incorrect",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "20f2a1b1495e0584e41b799e4da456a3535866b22a81553da8ae65debcfaa266"
+    },
+    {
+      "id": 36,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "a8398f040a95cdb8ccc1207f6172c32fd0c3f83c41b2bb548b89d5ef6858aabe"
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "4d8eef6003c71ef7f03e758c97022b3826028b08d052868b97ff397ad9d9b77c"
+    },
+    {
+      "id": 38,
+      "before": "incorrect",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "3c11f7c42f1f70bd4db7195186caab00563ebdb47d822c57d1840b25d018c4b6"
+    },
+    {
+      "id": 39,
+      "before": "needs_review",
+      "after": "needs_review",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "needs_review",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "a6ddaed923b0650874441a0b9ad81d1541760f607cb577bbe254fc3eac5b673f"
+    },
+    {
+      "id": 40,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "5a9314ed35790d4c18b6d4f3a56bba97a2f5bfb1c66faa3a75fe101b010e8023"
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "bfabfbe7591b3472c98dec3108805e15433845a40370651292b476a01d2c40d8"
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "9d87bbdac40fcb0f5e8054a406bdb84bf7ce0c4e5cc4ce744b6b4d7e8bbbd501"
+    },
+    {
+      "id": 43,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "213cb68a2fe25e40985ce2acb9c3658d51803445a6de535cbeb9aaf4d1a7273c"
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "077efb447288dec2f9c77f595bcd9c7f382dcfa6efb95730b31aca3ca174fcc0"
+    },
+    {
+      "id": 45,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "3d4e8ac998100eaabe919ce0c959bbaa0a3818b14fa8a9933aa899ecd831b41b"
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "9ac5b171b3b60e772afc9bfe3fd6b18d97cb44bfec32472c89d701ef16ff7686"
+    },
+    {
+      "id": 47,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "c5ff192cb23e2bd9b0f40e698607dbce3ff0730d0d70efceca586cee5de3f3f5"
+    },
+    {
+      "id": 48,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "662039445800e208963e629a43ab3b4de2bc474fcad17f70c7e0121713408d91"
+    },
+    {
+      "id": 49,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "59fe522a59ac197885bc20e323e3fc56265b194cd8664423722d7e9f42f2817b"
+    },
+    {
+      "id": 50,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "13464527ca48d3041fdb12fbf930313f19b0ff87abdc21c8b5a4579192148bd6"
+    },
+    {
+      "id": 51,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "04521ac6265a7e2c467923bba40aad8418944b4bbe841eebdf03dd5f677f67b7"
+    },
+    {
+      "id": 52,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "371ec0f46e0daa5ee2456bd8bc1c61b3e882ca2fe30d12f51272bfa1c21011b0"
+    },
+    {
+      "id": 53,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "cc0564f9f7372e9f2da11d7b46103ace7abe94b7495c1bece1bd170e0f147b0f"
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "84c79164ad8c2f2947054c02a64e6be066101e4e2b6e2ad1e098f6eeaa1ccdef"
+    },
+    {
+      "id": 55,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "b139b396e1e2c52dbd329edb179fc873f2dd8d82a1ab9939a2ced1c16ada08af"
+    },
+    {
+      "id": 56,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "c53077a1f7ff038af267f62e9d6a28aa93b071e19ea19142534ffafbec52d5dc"
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "6cc5431b4e57d2b290f1c44bb274cf950d5d064b50603e9e148eee9d18e88e1e"
+    },
+    {
+      "id": 58,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "43f1c470337eefe9ac7a2b0bc9ae41bc7797ececf86d4a6211d2878e2e408ed8"
+    },
+    {
+      "id": 59,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "72f4c1f191e5de4005d140939355256fe41f87f319ca73654de3a0feab3feee8"
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "856278a1bdeb230b852e4f0eef16e8f261b0ccf1e58c5c2218dcc852b7514664"
+    },
+    {
+      "id": 61,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "0181e372d0d1df0038eadf5a955e6e0117e545b703efb087639c9db14710d656"
+    },
+    {
+      "id": 62,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "0a0c4a6bf062dc60f8b54441dd31a05bc5c8f0236f251c87ae4c7aacfce71b7a"
+    },
+    {
+      "id": 63,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "0e20812d44a5b475e914756b92d1b619b217b51abf0f3c136ca017b07b4ec2a2"
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "7080173774d6d8d82ff0990a34f9be849303eeae5f8211bf9878b3c6e42fa89c"
+    },
+    {
+      "id": 65,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "53a7b11597f236c7e19323c4a5de07c91a3090046e9f61cee99e852277319af8"
+    },
+    {
+      "id": 66,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "96d5a4c1dfa1764f315e0afc865c67d04db6b9988abe042b08d9a3e251d505ea"
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "16c37f81eb28e60e9fb995328df31473de532c26cd7979fff276ddeaa3eb72d8"
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "86b8e1871467bf436a74fb4e04dafbdc584bffdb7e63d1a3b1d9cf860a55c069"
+    },
+    {
+      "id": 69,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "bdcd23e40986f63ad2e85696c1c7bd47ca456dbf5a61205298030605772a0337"
+    },
+    {
+      "id": 70,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "f2399ce84c76ee6e08ac244e9b34362fb15951f64a81311529a788fd3101c1fa"
+    },
+    {
+      "id": 71,
+      "before": "incorrect",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "ea55c62253133aebb71001618d12f1a8f5c88ab7761ba9cd7284ab743acc4797"
+    },
+    {
+      "id": 72,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "c886ae0f717ea83542996b22f6f142594628b841cc6e22ad1bd769da5af973d3"
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "05c6981a0e0732ef76a43cbb1906bfce947d424a9701f743c554a6e270824542"
+    },
+    {
+      "id": 74,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "344e1f9dd9e5b7cb8852bc910bec5a6a99bcaba0dae0cd9c418876a98d56ed22"
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "2fb95f2f166b565aed46d4a5bc2748bd1ab702f16c7676638e00842e3a5cf512"
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "472d6471472dff9094f0e9f3513475556cff7cb6b79878dd34c7b9370f1b2386"
+    },
+    {
+      "id": 77,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "5614ef0746db7087e701390c526e97e1731a5aa5875d13caf226dfcd577691a3"
+    },
+    {
+      "id": 78,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "232343f5da4ed0226b325b281d04100d43dbc34fd30993653386d5e15c5fb11e"
+    },
+    {
+      "id": 79,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "f892fe45bacf4cf56ae2d3682cdfeb7b50e761353843a60cff246995c765ab73"
+    },
+    {
+      "id": 80,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "b7c9444e3a3bb32b147df17dd3892e7d9fb910c73d1325d7de10c0dbcba59182"
+    },
+    {
+      "id": 81,
+      "before": "needs_review",
+      "after": "needs_review",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "needs_review",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "c6467405c09bc09ffa99e0775a95bdf41021b366498b3e3a9ec4ace5e0c2f443"
+    },
+    {
+      "id": 82,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "77e24f01fb8dc9de26362852aced6f3d7d4393157fcf545af300489f81145dce"
+    },
+    {
+      "id": 83,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "948e67964090cfc5adef6b49652cb22e002fca9d23ea66c0eba0f5e9250d94f1"
+    },
+    {
+      "id": 84,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "19c42ce8fe3f58e0f9e118bd9deaa659afef5f459c36c193d926368fa7c89043"
+    },
+    {
+      "id": 85,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "9504c284e046ffbe8f94df1251f71cc02c1806355a38fce67b6c102863ac133f"
+    },
+    {
+      "id": 86,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "b63da45d7014e01f9058a893a006b4107e4672c690b08a4a5e2ac891503b2d6e"
+    },
+    {
+      "id": 87,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "294eccf7a520f592eb547d441c7c981fae92d1fdf87b3f345cfd16c261915474"
+    },
+    {
+      "id": 88,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "1ad1d97a0e5fcb78cd3c18739aec3bbdef0b57787735b804af2cd33e0f0ea7be"
+    },
+    {
+      "id": 89,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "681cc7580548cfdb884e8ba021e811e8259677b5b029eb393c3c97c58f0c8a7c"
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "24582a35935bd57b9fa815a0b563633d15abf0c7e77d72f79682779a081ce70d"
+    },
+    {
+      "id": 91,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "44573f0ba3987b0729715469b0edfc5ea32f7f4b80fb3236ab031bdf6df1b446"
+    },
+    {
+      "id": 92,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "0b1fc9491fd288c3f2c3cf6528ccece8e4312cbb385361b26bfe022120ee4e7a"
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "919befa05e5aacdfa2835fe05eb9cb155b9ec162b1d1665764182c9f4fbed089"
+    },
+    {
+      "id": 94,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "4acda3bd022e5f39028a8239db7f744f287eb2053f9db2580fd67408eaa822c0"
+    },
+    {
+      "id": 95,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "a8fa4ff3b76630c146426a543563a855324befc81d7469afaea929906417058f"
+    },
+    {
+      "id": 96,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "7f6b2b2c35f6c3c35da0f0d7a21f389715f347f93ac31db49cc6168d6830d5e5"
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "c6462ab5b7a0e0c6a5570166120861d0a0c9a50e959ff358c61f59fac7b0493b"
+    },
+    {
+      "id": 98,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "fa6ca0dac06d98704c172b4cd8dd7f36fed1fe0de2b94c3784a83adf02f495b7"
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "182b698b5b8fca6687b55c72cde183c334a625f6a31b304f59d3a4f183a971b3"
+    },
+    {
+      "id": 100,
+      "before": "incorrect",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "bab425fbf8be2e1d0d51be643a08198489c729e67cad8fb6bd80d9ba529b2deb"
+    },
+    {
+      "id": 101,
+      "before": "incomplete",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "d82288c09be65d26ea8403bc2d4fb24a68e86fa2338e6ce005dbb6bf8921e61d"
+    },
+    {
+      "id": 102,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "413797ba18cff7343f4ba1cf94f8e22344b9f32ec73c36a6d33d4228c2c2f1f1"
+    },
+    {
+      "id": 103,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "dc110bd832b3d1e2c03504980c30658ef1d68021bc9ac6f8aa17fc2775017c25"
+    },
+    {
+      "id": 104,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "25097f39daba905d42264b07d12c1115a74106bd23f99f2336559ba39280c282"
+    },
+    {
+      "id": 105,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "e9a89cdcff8efac83c2b6b9de7c0519e7d5bb6bbea38bc6482e9f567a8a2869e"
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "9788ae9def458d33fff8f2ccd93a92f096aad0cc6f8c0920a0be16b71ecce48b"
+    },
+    {
+      "id": 107,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "74f13c86125fe5416b26ba0a090925694b81dba900b9256341ecffb8f331b0e3"
+    },
+    {
+      "id": 108,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "b419278338948efca5f8732bb1f6d5e830cc12ef05b9d3d570179f5e47f693ba"
+    },
+    {
+      "id": 109,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "579525c9b8c568f0ffc0e45ac35f1bf4c1c0cca3ad2b8209fa4c31992645fd4c"
+    },
+    {
+      "id": 110,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "94380fef53e57373d325a0c00c1fb731dba6293d32add33cb83f7374d96b07e4"
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "e486fcb711fcb779a5a76a95c0aeb20786e340b6b3573b83787ff94b22927907"
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "c7ea31930e2d8d47d357d4b1b7bc00a3e3b2c71a66ade4109c68cf23df332bff"
+    },
+    {
+      "id": 113,
+      "before": "incomplete",
+      "after": "incomplete",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incomplete",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "0fb349b860128958fbbfa9ff689565a16875b72a09729ef58e8a515bd220f8b7"
+    },
+    {
+      "id": 114,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "f5324802533ffc304dd8621f6c869a1f3973d427b062c9bc8007103b022871ae"
+    },
+    {
+      "id": 115,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "52b67e4a40033de3744115f7f3dc8383e18dcf8c9d543c2a0d242137e9acd1ed"
+    },
+    {
+      "id": 116,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "e9234013f0499c291f6c1dfe1f09e9127605477560dd2064f5adaa25a981ee37"
+    },
+    {
+      "id": 117,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "4d428926547db8181ffab77bd21cd1533913536825e1230affc967726d5dbf84"
+    },
+    {
+      "id": 118,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "7c2cde7295d1d43801962485d445c6c3ccf2137613944c9c9a5c775f85825583"
+    },
+    {
+      "id": 119,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "f7204413f51be09f820e15bd7dfe0dfefc7f174e9719af239b841c4f86c0dcda"
+    },
+    {
+      "id": 120,
+      "before": "clipped",
+      "after": "clipped",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "clipped",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "410b10e3ee00f8a1f18bc7776c82a14e591861ef663802e9424c5b8b7bd025c2"
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "d97eb1f1c737883a7ce80f9792b9178af4d5e8a1cccfccdf31e5e8784f95739e"
+    },
+    {
+      "id": 122,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "1caeefe7bdb396341739c6f4513272ccc8d180f600e591df30a695a746c1449b"
+    },
+    {
+      "id": 123,
+      "before": "acceptable",
+      "after": "acceptable",
+      "visible_dialogue_clipped": false,
+      "historical_baseline": "acceptable",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "e74615016b7f0e4c3f9226d75c2ea9b5d7c3da53824b8b9b9a42837e81de91af"
+    },
+    {
+      "id": 124,
+      "before": "incorrect",
+      "after": "incorrect",
+      "visible_dialogue_clipped": true,
+      "historical_baseline": "incorrect",
+      "previous_full_location_meaning_judgment_reused": true,
+      "same_displayed_fields_sha256": "8cd3a254f5e1af4d605bb8df29f710a0c02ccf5a3e0d7a44639c29b8b31f0be4"
+    }
+  ],
+  "changed_views_against_previous_normal": 18,
+  "all124_meaning_judgments_reused_only_for_identical_full_location_outputs": true,
+  "normal_worker_consensus_enabled": true,
+  "default_benchmark_consensus_enabled": true,
+  "no_explicit_reader_paths_or_activation_flag": true,
+  "source_review_sha256": "9bc2de86e24498c9157b032f1281617ab2e2ba82e03540cc601645ecff6eaa24",
+  "baseline_review_sha256": "7ce964b91232cf03b3c2481c147467db95cdfc3129c90e08ff3368f8be77da60",
+  "native_output_sha256": "9017f89c9acc4b60221bcffcc817f1ea05d0988d64e5e6fc746f4f5309444e4c",
+  "native_provenance_sha256": "9caccf09182f7e434316a558d61206b23549f815bdd616e9394304ddedd2db62",
+  "native_summary_sha256": "81673052f899bc33c74737f45fb40923eda0a85725ef06433b98e6a2635cbd25",
+  "reader_manifest_sha256": "b2dc2f8b413907e1716645c69913111ac1d0525918b6602548c0f48c3beeba6b",
+  "snapshot_sha256": "a9f4a004d257ea98184392fa352eec90f2a7ba6d37caabc31eb1cf7e040079f3",
+  "runtime_checks_sha256": "8d79ed3c0eadb57173b98c35bb3081bcc32686a399445fcce87c9993d4599ffe",
+  "reused_dialogue_ocr_component": {
+    "all124_fixed_reading_viewports": {
+      "before": {
+        "viewports": 124,
+        "expected_dialogue_words": 2265,
+        "word_errors": 48,
+        "word_error_rate_percent": 2.119205298013245,
+        "viewports_with_word_errors": 24,
+        "alignment_edit_categories": {
+          "substituted_word": 22,
+          "alignment_deleted_word": 25,
+          "inserted_word": 1
+        }
+      },
+      "after": {
+        "viewports": 124,
+        "expected_dialogue_words": 2265,
+        "word_errors": 47,
+        "word_error_rate_percent": 2.075055187637969,
+        "viewports_with_word_errors": 23,
+        "alignment_edit_categories": {
+          "substituted_word": 22,
+          "alignment_deleted_word": 24,
+          "inserted_word": 1
+        }
+      }
+    },
+    "no_visible_dialogue_clipped": {
+      "before": {
+        "viewports": 107,
+        "expected_dialogue_words": 1867,
+        "word_errors": 29,
+        "word_error_rate_percent": 1.5532940546331013,
+        "viewports_with_word_errors": 15,
+        "alignment_edit_categories": {
+          "substituted_word": 17,
+          "alignment_deleted_word": 11,
+          "inserted_word": 1
+        }
+      },
+      "after": {
+        "viewports": 107,
+        "expected_dialogue_words": 1867,
+        "word_errors": 28,
+        "word_error_rate_percent": 1.4997321906802357,
+        "viewports_with_word_errors": 14,
+        "alignment_edit_categories": {
+          "substituted_word": 17,
+          "alignment_deleted_word": 10,
+          "inserted_word": 1
+        }
+      }
+    }
+  },
+  "paintings_reused_only_for_identical_displayed_fields": true,
+  "all_paintings_visually_reviewed": false,
+  "all_chapter_words_visually_reviewed": false,
+  "model_weights_trained": false,
+  "complete_live_app_use_including_capture_and_movement": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "ready_for_release": false
+}

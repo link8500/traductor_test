@@ -1,0 +1,2245 @@
+{
+  "schema": 1,
+  "reviewer": "assistant",
+  "sample_path": "build/full-comics/corpus-review-sample-b/sample.json",
+  "sample_sha256": "9fa598845357bcc4f560fba869573865156f32797dcb8d8346e01b3ef19a7ffd",
+  "planned_regions": 248,
+  "scope": "Two additional hashed eligible aligned regions per chapter, excluding the original frozen sample. Image-based semantic judgments over unedited before/after saved outputs; no whole-chapter or population accuracy approval.",
+  "all_planned_regions_reviewed": true,
+  "all_chapter_words_visually_reviewed": false,
+  "app_uses_review_answers": false,
+  "entries": [
+    {
+      "id": 1,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "La porción visible recupera precio, obtención y alma demoníaca; no aprueba el resto del globo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 2,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Vida se convierte en fe; persiste una lectura truncada de had.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 3,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan discípulos, ocho demonios y título de sangre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 4,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la mirada de reproche por caer en un truco mezquino.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 5,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La pregunta de por qué se culpa el interlocutor queda omitida y deformada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 6,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la reacción instintiva que evitó perder la mejilla.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 7,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva convertirse en sucesor sin ayuda.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 8,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera energía, que quedaba truncada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 9,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "El recorte y ambas lecturas terminan antes de completar la narración; requiere revisar regiones vecinas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 10,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera cuánto significa ella para él.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 11,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La emoción y tomar su partido permanecen corruptos por el tipo de letra.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 12,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Small queda como smau sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 13,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "La petición de ir queda explícita y gramatical.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 14,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera que el interlocutor había pedido poner en orden jerarquía y disciplina.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 15,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "La conducta habitual se expresa de forma poco natural y pasa a yo individual.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 16,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Se omite aura y parece mejorada la espada física en lugar de su aura.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 17,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera que obtuvo la energía que le faltaba.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 18,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La lectura corrupta mejora, pero trial pasa a juicio judicial en este contexto de prueba.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 19,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva controlarlos y sujetarlos por las correas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Digerir o asimilar lo aprendido pasa a dibujar ideas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 21,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Se omite la segunda pregunta sobre el último banquete.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 22,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La solicitud urgente y dejar pasar se convierten en una frase sin sentido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 23,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Suicidarse se convierte en escisiones o fragmentos corruptos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Conserva la pregunta sobre actuar solo por ganancias financieras.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "La frase visible mantiene el insulto y la falta de reverencia al ejército demoníaco; la edición española adapta el registro.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 26,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El modismo sigue traducido literalmente y su última palabra pasa a como.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 27,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La pregunta sobre informar a los superiores conserva un token corrupto al final.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 28,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recuperan el peligro descartado, la recuperación y el regreso al trabajo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 29,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La cantidad de asesinatos queda partida y aparece además un pronombre sin reconocer.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "La porción visible sobre encarcelamiento e investigación oficial está conservada; no se aprueba el texto previo fuera del recorte.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 31,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La amenaza visible contiene múltiples palabras sin reconocer. La referencia española corresponde sólo parcialmente a esta zona.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 32,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten palabras deformadas en las cláusulas visibles, independientemente de la continuación cortada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 33,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La traducción convierte el título de cuatro personas en una característica de la llanura.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 34,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la supervivencia y el uso temporal de la técnica de espada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 35,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "La formulación actual conserva la condición de mirar los títulos y resulta gramatical.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 36,
+      "before": "unresolved",
+      "after": "incorrect",
+      "note_es": "El recorte impide aprobar la oración previa completa; la salida actual convierte una condición visible en una orden.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 37,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La despedida y la petición de responder siguen mal interpretadas; la salida actual habla de una licencia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 38,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "La salida anterior perdía el objeto de las bromas; la actual conserva la oración.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 39,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el alimento envenenado sin el token desconocido previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 40,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "El despido como guardia se conserva.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 41,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la pregunta sobre el motivo pese a disponer ya de dinero.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 42,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas omiten la segunda frase sobre el dinero del propio amo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 43,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Antes se cambiaba el reto por acompañar al hablante; ahora se omite toda la segunda frase.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 44,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la necesidad futura de financiación y el límite del dinero ajeno.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 45,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva quién mató al investigador de la primera investigación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 46,
+      "before": "incomplete",
+      "after": "needs_improvement",
+      "note_es": "Se recupera sangre en el título visible; la construcción nominal sigue siendo poco natural. No se aprueba la pregunta fuera del recorte.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 47,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "La reapertura completa de la investigación queda expresada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 48,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el calificativo y la finalidad de intimidar en la cláusula visible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 49,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva el envío previo de guerreros para protegerla.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 50,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "La pregunta final y la prohibición pese a las amenazas quedan reconocidas y traducidas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 51,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la razón para poder volver a ver al interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 52,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la comparación entre no actuar antes y hacerlo por el interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 53,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan eludir el trabajo, hacer política y la responsabilidad confiada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 54,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Deseo sigue sin reconocerse; persiste un token copiado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 55,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La bebida se convierte en aperitivo; el error de reconocimiento altera el sustantivo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 56,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "La acción deja de dirigirse a uno mismo y pasa al otro interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 57,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recuperan los calificativos y la pregunta sobre ser el primero en morir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 58,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se reconoce y traduce el título plural antes deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 59,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "La relación con el padre se conserva; la edición española usa una adaptación diferente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 60,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "La intención del modismo se entiende, pero la construcción española sigue demasiado literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 61,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El título se interpreta como objeto y el modismo de no dejar pasar el asunto se pierde.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 62,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "La orden se conserva, pero el título personal queda formulado como un objeto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 63,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La intención de mostrar se convierte en mañana y queda un numeral espurio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 64,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Desaparece el token corrupto y se conserva quién se da cuenta primero; el título sigue siendo poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 65,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se corrige quién se pregunta y se conserva la propuesta imposible de rechazar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 66,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera la oración completa; persiste una formulación torpe del título y del valor de mantenerlo cerca.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Ambas salidas conservan que el interlocutor reconoce ahora el valor del hablante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 68,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la cadena de felicidad del hablante, su entorno y el culto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 69,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conservan la despedida y el agradecimiento por la ayuda.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 70,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se mantiene la advertencia de no trabajar con esa persona.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 71,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "La salida actual cambia el sujeto de quien clavará la espada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 72,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "El sentido se conserva con una construcción española demasiado literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "La salida actual atribuye al hablante el reconocimiento de sus propias habilidades en vez de al padre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 74,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "El deseo de ampliar la familia pasa a una condición sobre vivir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 75,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Se limpia el token corrupto, pero desaparece la afirmación final de no saberlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "La porción visible sobre dedicarse a enseñar está conservada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 77,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan el título y la pregunta sin los tokens espurios previos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 78,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la reducción de cuentas impagadas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 79,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "La versión previa afirma una victoria pasada; la actual conserva la condición con una construcción poco natural.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 80,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la felicitación y el insulto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 81,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera el apoyo de corazón.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 82,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El nombre de la técnica se traduce como alza en lugar de vuelo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 83,
+      "before": "needs_improvement",
+      "after": "incorrect",
+      "note_es": "La salida actual transforma la pasiva en una acción reflexiva del hablante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 84,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan el descanso de hoy y el aspecto enfermo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 85,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera el centro de gravedad y la pregunta de confirmación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 86,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "La salida actual cambia pensamientos por trabajo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 87,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El título de quien absorbe almas se descompone como si el demonio absorbiera un alma, alterando el sujeto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 88,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recuperan los términos visibles, pero la relación entre las flores y su energía queda sintácticamente rota.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 89,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recuperan el dominio completo y la técnica defensiva.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 90,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La pregunta pasa de la fuerza de una persona a la del alma absorbida.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 91,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la sorpresa ante el consuelo de alguien oscuro y retorcido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 92,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Se limpia la deformación final, pero se omite el calificativo del nombre de la técnica.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 93,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la edad y la preocupación de que sea tarde.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 94,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "La lectura actual recupera ambición, frialdad y lealtad; el modismo hombre entre hombres sigue siendo literal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 95,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Se recupera primer día en lugar de paga, pero se omite dar una oportunidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 96,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La amenaza de quedar roto por dentro se convierte en llevar o hacer entrar dentro.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 97,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la valoración excepcional de la persona.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 98,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recuperan la vida pasada y la búsqueda del objeto nombrado en inglés; la referencia adapta el nombre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 99,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera el título visible, pero su construcción española sigue siendo torpe.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 100,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Se recupera blandir la espada, pero se omite que la postura fue enseñada por él.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 101,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el sujeto de la condición y la pregunta sobre la reacción.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 102,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la previsión de nuevos problemas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 103,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la afirmación de que era verdad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 104,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera fingir que no se sabe sin el token previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 105,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persiste un pronombre reconocido como nombre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Salida sigue reconocida y traducida como una palabra distinta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 107,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera duplicarse y la imposibilidad final de abandonar el lugar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 108,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva quién aprendió las artes demoníacas oscuras.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 109,
+      "before": "needs_improvement",
+      "after": "acceptable",
+      "note_es": "La condición actual expresa mejor la disposición a dar la vida; sólo se aprueba la cláusula visible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 110,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la negación y el nombre de la técnica.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 111,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten tokens deformados y se altera el sujeto del título y el verbo causar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva haber bebido toda la noche con el personaje nombrado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 113,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El líder pasa a saltador y la causa a calibre.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 114,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la invitación violenta y la guerra total.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 115,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera haber dedicado la vida a salvar personas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 116,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la razón paradójica de salvar personas para matar a una.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 117,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la sonrisa y la felicidad del hablante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 118,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "La salida actual conserva una palabra truncada y no completa la relación de deslumbramiento.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 119,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La afirmación inicial sigue reconocida como una letra suelta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 120,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "La salida actual cambia recibir una oferta de té por ofrecérsela a uno mismo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 121,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la aceptación del favor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 122,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La reconciliación queda traducida como seguir adelante o continuar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 123,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la condición de dominar las artes auténticas para usarlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 124,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Ambas salidas omiten que se trata de la ciudad natal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 125,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la cesión de la técnica nombrada en inglés.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 126,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la obligación de creer y el último aliento.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 127,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera el objeto del entrenamiento y su papel como sucesor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 128,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note_es": "La salida actual omite pensar por uno mismo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 129,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note_es": "Aparece una palabra deformada en lugar de usar energía.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 130,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "Se recupera parte de la exhortación, pero la última orden contiene un token sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 131,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la pregunta sobre no haber consumido algo valioso.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 132,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "El nombre del culto queda repetido literalmente como cielo cielo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 133,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la reiteración y la negación de que fuera un premio por presentar el método.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 134,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera arrastrar grilletes y vender medicinas si es necesario.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 135,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se cambia la posibilidad de que él escuche por querer escucharlo y se omite el cargo del hablante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 136,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "El recorte termina antes de la cláusula de entrar en las llanuras; hace falta revisar la continuación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 137,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten varias palabras deformadas en la investigación y el hallazgo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 138,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Edad y conjunción siguen deformadas; el nombre propio tiene una lectura distinta en las dos ediciones.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 139,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El final de la responsabilidad y discípula siguen sin reconocerse.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 140,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la imposibilidad de persuadirla.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 141,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva el estado de ánimo reciente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 142,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Persisten tokens corruptos y la marcha posterior se convierte en después de la guerra.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 143,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Piernas sigue como un token deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 144,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El cargo de investigador permanece sin reconocer.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 145,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva el recuento de dos votos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 146,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la necesidad de ayuda.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 147,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva que existe una forma difícil.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 148,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "La filtración inicial se entiende, con una construcción española torpe.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 149,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La preposición de estar encadenado queda como token sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 150,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la apuesta sobre el tercer discípulo; la referencia hace una adaptación contextual.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 151,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La justificación blasfema se atribuye al interlocutor y se omite la acción inicial visible.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 152,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Enseñar sigue como un token deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 153,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Ver sufrir al subordinado se transforma en sufrirlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 154,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Líder sigue reconocido como saltador.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 155,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Se omite pedir explícitamente una razón.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 156,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Culpabilidad y la conjunción inicial siguen deformadas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 157,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la respuesta ante la jactancia sobre los subordinados.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 158,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva que todos lo consideran de esa manera.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 159,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Mano derecha queda como dos tokens deformados.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 160,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Objetivo se convierte en carbón y se cambia fijar una meta por haberse convertido ya.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 161,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La conjunción inicial queda como un token sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 162,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se altera el nombre, la forja y la cantidad de años del material.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 163,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Ambos se convierte en un ordinal numérico y se pierde el sentido del modismo de buena racha.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 164,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Sueños y cambiar quedan como presagios y un nombre deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 165,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La posición y el cargo contienen palabras sin reconocer y una relación nominal equivocada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 166,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Animar a otros se convierte en cooperar en un levantamiento.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 167,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Joven y la construcción de héroe excepcional permanecen deformados.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 168,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se mantienen tokens deformados y el modismo de darse aires queda sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 169,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Se conserva atraer al interlocutor, pero se pierde el calificativo de corazón blando.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 170,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Las dos afirmaciones se funden en una pregunta que altera la relación entre anuncio público y pacto privado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 171,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La petición final sigue como tokens deformados.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 172,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El puesto de líder queda reconocido como salto y hay una conjunción sin traducir.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 173,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Castigo se convierte en juego de palabras y quedan caracteres sin reconocer.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 174,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La capacidad alcanzada se convierte en una llamada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 175,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "Se conserva la falta de traje con el hijo, pero no queda clara la correspondencia entre ambos trajes.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 176,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se pierde la negación y se afirma ser suficientemente codicioso.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 177,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva estar a la altura de las expectativas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 178,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "La ayuda y el reclutamiento se conservan, con una discordancia temporal menor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 179,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la fama adquirida durante la ausencia.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 180,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la confianza y el sentimiento de superioridad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 181,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Esperar mucho tiempo se convierte en esperar poco.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 182,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note_es": "Se omiten el plural y la idea de excederse.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 183,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Superar pruebas se interpreta como aclarar un juicio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 184,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La ayuda permanece como token deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 185,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La habilidad con las palabras queda como un token deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 186,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva que el personaje no es una persona corriente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 187,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El deseo del hablante se atribuye al interlocutor.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 188,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La porción visible conserva tokens deformados en vez del adverbio repentino; no se aprueba el texto fuera del recorte.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 189,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la comparación de determinación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 190,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se omite revelar el secreto sólo al interlocutor y se introduce aprender en una cláusula cortada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 191,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "El cargo del joven maestro permanece deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 192,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se pierde la pregunta sobre olvidar y se cambia el recordatorio pasado por seguir diciéndolo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 193,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "El agradecimiento por las artes transmitidas se entiende, con discordancia verbal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 194,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Se cambia la reunión del hablante por una reunión de varias personas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 195,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "El recorte corta la alternativa inicial; hace falta ver el globo completo antes de aprobar la frase.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 196,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Gigante queda sin reconocer y se pierde la primera persona del verbo pensar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 197,
+      "before": "needs_improvement",
+      "after": "needs_improvement",
+      "note_es": "El sentido se conserva, con el título personal traducido como un objeto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 198,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la obsesión por actuar moralmente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 199,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se corrige el número ordinal a cien.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 200,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera mostrar grandeza al suprimir otro mal.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 201,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Reír sigue como un token deformado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 202,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan correr y acondicionamiento físico.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 203,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La salida actual cambia reír por hablar.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 204,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan el aspecto de joven y la pregunta por la máscara.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 205,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera sucesor, pero todo sólo queda ambiguo entre motivo exclusivo y soportarlo sin compañía.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 206,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera obsesionarse con quienes lo provocan e interesan.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 207,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La emoción se recupera parcialmente, pero el objeto matarme queda truncado y el modismo de espera sigue incompleto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 208,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva el permiso para fabricar y vender sin límite de cantidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 209,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan el sujeto y la posibilidad de resolverlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 210,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la negación y cumplir la promesa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 211,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera convertirse en el personaje nombrado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 212,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la responsabilidad de quien lo liberó.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 213,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la pregunta de recibir algo valioso.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 214,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "Antes se omitía el rechazo inicial de las delicias; ahora el modismo se traduce literalmente como mi pie.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 215,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note_es": "Se recupera comer, pero nosotros queda como un token sin reconocer.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 216,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conservan la habilidad marcial y la lealtad superior.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 217,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la primera persona y la palabra amable.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 218,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Se recupera sentir que ya habían perdido, pero se omite la causa final.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 219,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera podredumbre en lugar de rotura.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 220,
+      "before": "acceptable",
+      "after": "incomplete",
+      "note_es": "La salida actual omite que se trata de un pensamiento previo del hablante.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 221,
+      "before": "incomplete",
+      "after": "needs_improvement",
+      "note_es": "Se recupera la continuación; trazar resulta menos natural que tramar en este contexto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 222,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la pregunta por el motivo de haber salido.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 223,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note_es": "Se recupera la unidad de cien años.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 224,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva no haber visto antes ese rostro.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 225,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera divertirse; el término para las anfitrionas sigue siendo poco adecuado al contexto.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 226,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la pregunta sin el numeral espurio.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 227,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera ir a ellos; el pronombre del asunto investigado queda poco claro.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 228,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan ambas preguntas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 229,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera servir únicamente hierba.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 230,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera amigos en lugar de frenos.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 231,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recupera juego; la formulación no explicita bien la apuesta.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 232,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera hacerles comprender quién los observa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 233,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La salida actual atribuye el superlativo a una persona ruidosa en lugar de a la intensidad de su risa.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 234,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera la primera persona del pasado.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 235,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva la condición para aceptar el duelo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 236,
+      "before": "incorrect",
+      "after": "incomplete",
+      "note_es": "Se recupera locura, pero se omite detenerla al final.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 237,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recupera beber sin el token previo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 238,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "Levantar se convierte en detectar y persisten sílabas deformadas en la comparación.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 239,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Desaparece la letra espuria y se conserva oír el nombre delante de la persona.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 240,
+      "before": "unresolved",
+      "after": "unresolved",
+      "note_es": "El recorte termina en medio del modismo de la segunda oración; hace falta ampliarlo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 241,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva el afecto hacia los familiares y el límite de comprensión.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 242,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note_es": "La salida actual cambia a quién le viene la persona a la mente.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 243,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan el momento anterior, lo dicho y el cargo.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 244,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan energía interna y habilidad con la espada.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 245,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "La salida conserva las cuatro horas del original inglés; la edición española cambia la cantidad.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 246,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note_es": "Se conserva el motivo de pedirlo ahora.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 247,
+      "before": "incorrect",
+      "after": "acceptable",
+      "note_es": "Se recuperan la comida bajo el agua y los seres del río; la referencia adapta el nombre de los seres.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    },
+    {
+      "id": 248,
+      "before": "incorrect",
+      "after": "needs_improvement",
+      "note_es": "Se recuperan los relatos y la biografía; cuentos heroicos resulta menos preciso que hazañas.",
+      "source_pixels_inspected": true,
+      "reference_pixels_inspected": true,
+      "whole_balloon_completeness_approved": false
+    }
+  ]
+}

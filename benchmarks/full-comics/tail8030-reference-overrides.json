@@ -1,0 +1,4 @@
+{
+  "purpose": "Reference alignment only; never supplied to OCR or translation inference",
+  "entries": [{"id": 1, "reference_region": 77}]
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Reference-only region proposals located in saved Olympus OCR; never input to the app",
+  "entries": [
+    {"id":2,"reference_region":177},
+    {"id":3,"reference_region":88},
+    {"id":5,"reference_region":191},
+    {"id":6,"reference_region":118},
+    {"id":7,"reference_region":211}
+  ]
+}

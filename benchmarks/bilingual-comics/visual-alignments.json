@@ -1,0 +1,29 @@
+[
+  {
+    "id": "greatest-estate-developer-15-en",
+    "method": "full_page_color_correlation",
+    "correlation": 0.7500619292259216,
+    "reference_crop_top": 40855,
+    "reviewer": "assistant_visual_review",
+    "source_mobile_sha256": "bc90b5257112b6d35d603903e9c4b77cff33b20b16e18a1e77ccb566223b812e",
+    "target_panorama_sha256": "47ebbd73b0750fae7bd731ad4edce219312dd25ecbd70448e8e7175d27f531e8"
+  },
+  {
+    "id": "greatest-estate-developer-17-en",
+    "method": "full_page_color_correlation",
+    "correlation": 0.5219783782958984,
+    "reference_crop_top": 36378,
+    "reviewer": "assistant_visual_review",
+    "source_mobile_sha256": "498d61f668b3660c7ba977c397617badd3d30685ed2727c3fc09de4996980554",
+    "target_panorama_sha256": "40fffac0583c64abe682c783016d103788fcd4090679b3c8fbd4193d16f264ba"
+  },
+  {
+    "id": "greatest-estate-developer-20-en",
+    "method": "full_page_color_correlation",
+    "correlation": 0.7284365296363831,
+    "reference_crop_top": 30629,
+    "reviewer": "assistant_visual_review",
+    "source_mobile_sha256": "40aee83f315c7393fd4fd06fdaa9a8a081d91880d1b604d2d2d52d532703b3d8",
+    "target_panorama_sha256": "160a0fde3e1a02e198332276fea8863cb2869a1a6916b0b8f9c94b840268d21e"
+  }
+]
