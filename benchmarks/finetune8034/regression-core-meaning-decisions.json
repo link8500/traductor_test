@@ -1,0 +1,627 @@
+{
+  "schema": 1,
+  "scope": "All79 changed captured-source core outputs;35 exact source/output verdicts reused and44 new variants manually reviewed. Not fresh OCR, full chapters or live app uses.",
+  "entries": [
+    {
+      "id": 2,
+      "before": "incomplete",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The explicit precision question modifier EXACTLY is recovered."
+    },
+    {
+      "id": 3,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The opening attention-getting utterance remains absent; the changed body wording does not resolve the prior verdict.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 4,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 5,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Only the intentional ellipsis is restored; not a content correction."
+    },
+    {
+      "id": 6,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The final duration question is recovered.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 12,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 13,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Meeting-with is expressed more naturally; the original meet/get-to-know wording can be valid without more context, so it is not inflated into a confirmed correction."
+    },
+    {
+      "id": 17,
+      "before": "incorrect",
+      "after": "incorrect",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The existing idiom is literal in both versions; the candidate flying-out-of-proportion phrase is less natural.",
+      "new_partial_quality_worsening": true
+    },
+    {
+      "id": 20,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The captured document noun phrase retains its meaning despite small wording changes.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 22,
+      "before": "incomplete",
+      "after": "incomplete",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The opening question is still absent. Dead moves after first corps and introduces a modifier-scope ambiguity; no complete correction is certified.",
+      "new_partial_quality_worsening": true,
+      "possible_modifier_scope_worsening": true
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 29,
+      "before": "needs_source_review",
+      "after": "needs_source_review",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The upstream clipped subject and broken distribute-food phrase persist; tense alone does not fix the source.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 33,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "A captured slash is newly copied into the output; content remains, but rendering quality worsens.",
+      "new_rendered_text_artifact": true,
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The concessive AUNQUE is preserved and the prior temporal MIENTRAS regression is absent. THINK HIGHLY is naturally equivalent to PIENSES BIEN; do not demand word-for-word adverb matching.",
+      "previous_concessive_regression_not_present": true,
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 42,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The general warning permits the natural Spanish present conditional; do not force tense identity for an idiomatic warning."
+    },
+    {
+      "id": 43,
+      "before": "needs_context",
+      "after": "needs_context",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Only whitespace changes in the named institutional term; its canonical rendering still needs context."
+    },
+    {
+      "id": 48,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 49,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The Spanish subjunctive can retain an implicit first-person subject; explicit ME is not mandatory word matching."
+    },
+    {
+      "id": 55,
+      "before": "needs_context",
+      "after": "needs_context",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The English YOU does not supply gender. The changed Spanish gender alone is not a confirmed content loss."
+    },
+    {
+      "id": 61,
+      "before": "incomplete",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The bar descriptor/name and explicit later-tonight modifier are recovered."
+    },
+    {
+      "id": 64,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The abundance is already preserved by MUCHAS; TANTAS strengthens style but is not counted as a complete content correction."
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The courtesy marker is restored. This is recorded separately and does not inflate complete narrative-content corrections.",
+      "courtesy_recovery_only": true,
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 75,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 77,
+      "before": "incorrect",
+      "after": "incorrect",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The handheld fan remains incorrectly rendered as an electric fan; the question is retained and only adverb order changes."
+    },
+    {
+      "id": 78,
+      "before": "unreadable_source",
+      "after": "unreadable_source",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The OCR sentence is extensively corrupted; no guessed semantic approval is made."
+    },
+    {
+      "id": 80,
+      "before": "needs_source_review",
+      "after": "needs_source_review",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The awkward captured threat/using-father relation needs source context. The only changed connector does not establish a correction."
+    },
+    {
+      "id": 81,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The age unit was implicit and unambiguous before; adding YEARS is not counted as a new content correction."
+    },
+    {
+      "id": 86,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Spanish UNOS already allows a few. Explicit POCOS does not alone establish a previous error."
+    },
+    {
+      "id": 92,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 96,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 98,
+      "before": "incorrect",
+      "after": "incorrect",
+      "partial_quality_improvement": true,
+      "note": "The malformed magnitude wording improves, but the captured THIS MUCH is still not faithfully expressed.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 101,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 102,
+      "before": "incorrect",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The demon title and usual-self relation are now correctly attached. YO DE SIEMPRE is a valid if awkward Spanish noun phrase.",
+      "remaining_style_defect": true
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The upstream OCR typo CALGHT remains untranslated. The fish noun improves, without solving the dialogue.",
+      "upstream_ocr_defect": true,
+      "partial_quality_improvement": true,
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 110,
+      "before": "acceptable",
+      "after": "needs_context",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The explicit aboutness question becomes an identity question. Context might license it; no unqualified equivalence or confirmed new error is asserted.",
+      "new_uncertain_relation_change": true
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 124,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Different sentence boundaries and the explicit possessive preserve the same captured meaning.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 125,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The separate initial why question is recovered, retaining the rest of the utterance.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 126,
+      "before": "incomplete",
+      "after": "quality_defect",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "EVEN is no longer absent, but positive INCLUSO does not reliably express the minimizing SIQUIERA/at-all challenge; this remains a partial recovery without full approval.",
+      "partial_content_recovery": true
+    },
+    {
+      "id": 132,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 134,
+      "before": "needs_context",
+      "after": "needs_context",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Addressee number still needs context and the parenthetical QUE syntax worsens; captured lexical content is retained.",
+      "new_partial_quality_worsening": true
+    },
+    {
+      "id": 135,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 141,
+      "before": "needs_context",
+      "after": "needs_context",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Number/register is not supplied by isolated YOU; the hidden-from-me meaning is retained."
+    },
+    {
+      "id": 145,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 146,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question about the others being worse is recovered.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 148,
+      "before": "incomplete",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The explicit concurrent/parallel relation returns as AL MISMO TIEMPO; the captured clause is complete in content, not a complete-view approval.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 153,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "Both explicit questions are recovered; removing an exclamation mark does not undo the content correction.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 157,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 161,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 163,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Both formulations retain the departure prohibition and duel invitation, with the existing awkward invitation wording.",
+      "persistent_quality_defect": true
+    },
+    {
+      "id": 167,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 168,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 169,
+      "before": "incomplete",
+      "after": "incorrect",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The added roaming instruction is not a reliable duel invitation from upstream GOAROUND; this is not a complete correction.",
+      "partial_content_recovery": true,
+      "upstream_ocr_defect": true
+    },
+    {
+      "id": 173,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 175,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 176,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Capitalization and removing a spurious article improve the proper-name rendering, without a new content correction.",
+      "partial_quality_improvement": true,
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 181,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 183,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The spoken affirmative clause is recovered.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 188,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 189,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 195,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question is recovered, keeping the sky statement.",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 200,
+      "before": "incorrect",
+      "after": "incorrect",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The causal connector improves but CLEAN OUT THEIR LEADER remains a wrong literal cleaning action.",
+      "partial_content_recovery": true
+    },
+    {
+      "id": 206,
+      "before": "acceptable",
+      "after": "needs_context",
+      "note": "The candidate weakens explicit causation into event identification. Do not certify a new complete error without the surrounding event reference.",
+      "possible_relation_worsening": true,
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 207,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The upstream corrupted verb persists; intended purpose additionally shifts toward a past attempted action.",
+      "new_partial_meaning_loss": true,
+      "upstream_ocr_defect": true,
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8032"
+    },
+    {
+      "id": 209,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    },
+    {
+      "id": 210,
+      "before": "incomplete",
+      "after": "needs_context",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "HERE is restored, but SAZONADOR changes seasoning skill/taste toward a seasoning substance. The isolated source permits uncertainty; no whole-region correction is certified.",
+      "partial_content_recovery": true,
+      "possible_lexical_referent_worsening": true
+    },
+    {
+      "id": 212,
+      "before": "incomplete",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The captured action LUNGED and first actor order are recovered. The original full sentence extends beyond this OCR fragment.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 216,
+      "before": "needs_context",
+      "after": "needs_context",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The imperative addressee number is not given in English; the restrictive ONLY target remains."
+    },
+    {
+      "id": 218,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "Only the laugh spelling changes. Sound effects do not inflate content corrections or regressions.",
+      "filler_only": true
+    },
+    {
+      "id": 222,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review",
+      "note": "The questioning verb is more specific; both versions already convey the action."
+    },
+    {
+      "id": 223,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "exact_source_and_candidate_identity",
+      "previous_experiment": "8033"
+    },
+    {
+      "id": 225,
+      "before": "acceptable",
+      "after": "acceptable",
+      "review_method": "new_captured_source_and_output_review"
+    }
+  ],
+  "complete_captured_content_corrections": 11,
+  "new_confirmed_complete_region_regressions": 0,
+  "additional_partial_meaning_losses": 1,
+  "new_rendered_source_artifacts": 1,
+  "new_context_uncertain_relation_changes": [
+    110,
+    206
+  ],
+  "new_partial_quality_worsenings": 3,
+  "all_changed_outputs_reviewed": true,
+  "all229_meanings_regraded": false,
+  "source_and_candidate_identity_reuse": 35,
+  "manual_new_variants_reviewed": 44,
+  "changes_sha256": "3c412ac6c735ce82876992d554b6f61eacb8b37dcf9ae014f76340ba11aa5f90",
+  "review_queue_sha256": "741a4cd2a7d07df42fa7bcdbfc688f49647c54c58df22ba6bc7b947301ad03ba",
+  "previous_evidence": [
+    {
+      "experiment": "8031",
+      "decisions_sha256": "f3c468f54e077cda9c80ec9ff5da0d73b7d95a2b49441d94183492bd47dbd7c8",
+      "candidate_sha256": "0817aec0105165d3582c73910f960bd15425ccc447460a78ff1390807f14ba28"
+    },
+    {
+      "experiment": "8032",
+      "decisions_sha256": "2a127ad90443bf7a3cea94a1de995038d59f59f9519d8a7fcdaa82814a9ce830",
+      "candidate_sha256": "fd8be91838b50a5af545b1bf77aa5147ab2b73b090f8438941dffd09f403fe42"
+    },
+    {
+      "experiment": "8033",
+      "decisions_sha256": "8232cf97201580b730808395bbd05a4d2718e3f615c49cca81917ca034cb2c1d",
+      "candidate_sha256": "cecbf2f54894a8a4e511c32249165ae50609de516a067a303ca338f776522f81"
+    }
+  ],
+  "production_app_failure_rate_comparable": false,
+  "application_weights_modified": false,
+  "target_achieved": false
+}

@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_source_and_baseline_meaning_review",
+  "entries": [
+    {
+      "id": 143,
+      "status": "acceptable",
+      "validation_group": "known",
+      "note": null
+    },
+    {
+      "id": 144,
+      "status": "incomplete",
+      "validation_group": "known",
+      "note": "The forward location modifier is absent."
+    },
+    {
+      "id": 145,
+      "status": "acceptable",
+      "validation_group": "known",
+      "note": null
+    },
+    {
+      "id": 146,
+      "status": "needs_context",
+      "validation_group": "known",
+      "note": "Antecedent gender is not specified in the isolated English sentence."
+    },
+    {
+      "id": 148,
+      "status": "incorrect",
+      "validation_group": "known",
+      "note": "The malformed superlative remains. Better sentence boundaries do not constitute a content correction."
+    },
+    {
+      "id": 149,
+      "status": "acceptable",
+      "validation_group": "known",
+      "note": "The content is preserved. The untranslated discourse filler is a separate quality issue, excluded from meaningful-content scoring by the user."
+    },
+    {
+      "id": 150,
+      "status": "incomplete",
+      "validation_group": "known",
+      "note": "The opening affirmative clause disappears. Addressee gender also needs context."
+    },
+    {
+      "id": 151,
+      "status": "acceptable",
+      "validation_group": "known",
+      "note": null
+    },
+    {
+      "id": 152,
+      "status": "needs_context",
+      "validation_group": "known",
+      "note": "Speaker/addressee and antecedent gender are not given to the text-only core."
+    },
+    {
+      "id": 153,
+      "status": "needs_context",
+      "validation_group": "known",
+      "note": "The alternate idiomatic wording preserves the same meaning; gender remains unavailable in isolated English."
+    },
+    {
+      "id": 154,
+      "status": "incomplete",
+      "validation_group": "known",
+      "note": "The explicit confirmation question is recovered, preserving the rest of the dialogue."
+    },
+    {
+      "id": 155,
+      "status": "incomplete",
+      "validation_group": "known",
+      "note": "The instruction to wait is recovered; the hesitation stutter is not required for this content decision."
+    },
+    {
+      "id": 156,
+      "status": "acceptable",
+      "validation_group": "known",
+      "note": null
+    },
+    {
+      "id": 158,
+      "status": "acceptable",
+      "validation_group": "known",
+      "note": null
+    },
+    {
+      "id": 400062,
+      "status": "acceptable",
+      "validation_group": "new",
+      "note": "The meaningful denial is present. Losing one repeated copy is a quality/repetition issue, not an independent content-error count."
+    },
+    {
+      "id": 400063,
+      "status": "acceptable",
+      "validation_group": "new",
+      "note": "All explicit questions, distant barrier, immediate arrival, speed and teleportation are preserved."
+    },
+    {
+      "id": 400064,
+      "status": "acceptable",
+      "validation_group": "new",
+      "note": "Both helplessness and the completion condition are preserved."
+    },
+    {
+      "id": 400066,
+      "status": "acceptable",
+      "validation_group": "new",
+      "note": "The urgency statement is preserved."
+    },
+    {
+      "id": 400067,
+      "status": "acceptable",
+      "validation_group": "new",
+      "note": "The gratitude, little-pet address and future negative clause are preserved; the laugh is not scored as content."
+    },
+    {
+      "id": 400068,
+      "status": "needs_context",
+      "validation_group": "new",
+      "note": "English YOU does not explicitly establish addressee number; combined power can refer to multiple abilities. Other captured meanings are preserved."
+    },
+    {
+      "id": 400069,
+      "status": "incorrect",
+      "validation_group": "new",
+      "note": "The behavior adverb IMMATURELY is attached to MAGIC POWER as inmaduro, changing its meaning."
+    },
+    {
+      "id": 400070,
+      "status": "incomplete",
+      "validation_group": "new",
+      "note": "The explicit scalar/minimizing EVEN is absent; this is separated from sound effects and hesitation fillers."
+    },
+    {
+      "id": 400072,
+      "status": "acceptable",
+      "validation_group": "new",
+      "note": "The tentacle count and the more-than-expected comparison are preserved."
+    },
+    {
+      "id": 400073,
+      "status": "incomplete",
+      "validation_group": "new",
+      "note": "The whole final self-correction and personal completion priority with FIRST disappear."
+    },
+    {
+      "id": 400074,
+      "status": "incomplete",
+      "validation_group": "new",
+      "note": "The explicit temporal continuation marker AFTER THAT is absent; no unseen continuation is required to preserve the marker."
+    }
+  ],
+  "known_confirmed_errors": 5,
+  "new_confirmed_errors": 4,
+  "known_context_uncertain": 3,
+  "new_context_uncertain": 1,
+  "new_acceptable": 6,
+  "candidate_outputs_consulted_for_baseline_verdicts": false,
+  "repeated_filler_not_counted_as_multiple_content_fixes": true,
+  "baseline_sha256": "5e23ac0b3e958e2f9fe0a8ea15ca09ed787fdcea8f7899443768ad7b5ffa223d",
+  "labels_sha256": "310cf839254b9a444e914afb4deae0655880e76a03dc1cc513c6d173f90ce316",
+  "app_failure_rate_comparable": false
+}

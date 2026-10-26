@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.19)
 project(runner LANGUAGES CXX)
 
+add_subdirectory("../../native" "${CMAKE_CURRENT_BINARY_DIR}/luma_native")
+
 # Define the application target. To change its name, change BINARY_NAME in the
 # top-level CMakeLists.txt, not the value here, or `flutter run` will no longer
 # work.
@@ -10,7 +12,6 @@ add_executable(${BINARY_NAME} WIN32
   "flutter_window.cpp"
   "screen_translator.cpp"
   "review_export.cpp"
-  "../../native/local_translation.cpp"
   "main.cpp"
   "utils.cpp"
   "win32_window.cpp"
@@ -36,10 +37,10 @@ target_compile_definitions(${BINARY_NAME} PRIVATE "NOMINMAX")
 # Add dependency libraries and include directories. Add any application-specific
 # dependencies here.
 target_link_libraries(${BINARY_NAME} PRIVATE flutter flutter_wrapper_app)
+target_link_libraries(${BINARY_NAME} PRIVATE luma::translation_core luma::json)
 target_link_libraries(${BINARY_NAME} PRIVATE "dwmapi.lib")
 target_link_libraries(${BINARY_NAME} PRIVATE "windowsapp.lib" "winhttp.lib")
 target_link_libraries(${BINARY_NAME} PRIVATE "normaliz.lib")
-target_include_directories(${BINARY_NAME} PRIVATE "../../native" "../../native/third_party/json" "../../native/third_party/onnxruntime/include")
 add_custom_command(TARGET ${BINARY_NAME} POST_BUILD
   COMMAND ${CMAKE_COMMAND} -E copy_if_different
     "${CMAKE_CURRENT_SOURCE_DIR}/../third_party/onnxruntime/onnxruntime.dll"

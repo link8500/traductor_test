@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_source_reference_and_output_meaning_review",
+  "entries": [
+    {
+      "id": 143,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "known"
+    },
+    {
+      "id": 144,
+      "before": "incomplete",
+      "after": "acceptable",
+      "validation_group": "known",
+      "complete_content_recovery": true,
+      "note": "The forward-location AHEAD modifier is recovered."
+    },
+    {
+      "id": 145,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "known"
+    },
+    {
+      "id": 146,
+      "before": "needs_context",
+      "after": "needs_context",
+      "validation_group": "known"
+    },
+    {
+      "id": 148,
+      "before": "incorrect",
+      "after": "incorrect",
+      "validation_group": "known",
+      "note": "Better punctuation does not fix the malformed superlative."
+    },
+    {
+      "id": 149,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "known",
+      "note": "The copied HUH filler is a quality defect, not a meaningful content-loss count."
+    },
+    {
+      "id": 150,
+      "before": "incomplete",
+      "after": "incomplete",
+      "validation_group": "known",
+      "note": "The opening affirmative clause remains absent."
+    },
+    {
+      "id": 151,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "known"
+    },
+    {
+      "id": 152,
+      "before": "needs_context",
+      "after": "needs_context",
+      "validation_group": "known"
+    },
+    {
+      "id": 153,
+      "before": "needs_context",
+      "after": "needs_context",
+      "validation_group": "known"
+    },
+    {
+      "id": 154,
+      "before": "incomplete",
+      "after": "acceptable",
+      "validation_group": "known",
+      "complete_content_recovery": true,
+      "note": "The explicit confirmation question is recovered."
+    },
+    {
+      "id": 155,
+      "before": "incomplete",
+      "after": "acceptable",
+      "validation_group": "known",
+      "complete_content_recovery": true,
+      "note": "The instruction to wait is recovered; the stutter is not a content requirement."
+    },
+    {
+      "id": 156,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "known"
+    },
+    {
+      "id": 158,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "known"
+    },
+    {
+      "id": 400062,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "new",
+      "note": "The denial and a third repeated copy are present; this repetition-only change is not a complete content fix."
+    },
+    {
+      "id": 400063,
+      "before": "acceptable",
+      "after": "needs_context",
+      "validation_group": "new",
+      "possible_tense_regression": true,
+      "note": "English SET UP is morphologically ambiguous between past and present. The candidate present establezco differs from the published past interpretation; no categorical isolated-text content-loss verdict is forced without broader context."
+    },
+    {
+      "id": 400064,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "new"
+    },
+    {
+      "id": 400066,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "new"
+    },
+    {
+      "id": 400067,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "new"
+    },
+    {
+      "id": 400068,
+      "before": "needs_context",
+      "after": "incorrect",
+      "validation_group": "new",
+      "new_content_regression": true,
+      "independent_addressee_number_uncertainty_remains": true,
+      "note": "TOO BAD becomes a curse MALDITA SEA rather than the taunting pity expression. This independent speech-act change is a confirmed regression, even though addressee number was already uncertain."
+    },
+    {
+      "id": 400069,
+      "before": "incorrect",
+      "after": "incorrect",
+      "validation_group": "new",
+      "note": "The IMMATURELY behavior adverb is still wrongly attached to magical power; the dialogue remains incorrect."
+    },
+    {
+      "id": 400070,
+      "before": "incomplete",
+      "after": "acceptable",
+      "validation_group": "new",
+      "complete_content_recovery": true,
+      "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration."
+    },
+    {
+      "id": 400072,
+      "before": "acceptable",
+      "after": "acceptable",
+      "validation_group": "new"
+    },
+    {
+      "id": 400073,
+      "before": "incomplete",
+      "after": "acceptable",
+      "validation_group": "new",
+      "complete_content_recovery": true,
+      "note": "The entire final self-correction and personal completion priority are recovered, including FIRST."
+    },
+    {
+      "id": 400074,
+      "before": "incomplete",
+      "after": "acceptable",
+      "validation_group": "new",
+      "complete_content_recovery": true,
+      "note": "The temporal continuation AFTER THAT is recovered without inventing the next event."
+    }
+  ],
+  "all25_outputs_reviewed": true,
+  "known": {
+    "pairs": 14,
+    "confirmed_errors_before": 5,
+    "confirmed_errors_after": 2,
+    "complete_content_corrections": 3,
+    "new_confirmed_content_regressions": 0,
+    "context_uncertain": 3,
+    "relative_reduction_percent": 60.0
+  },
+  "new": {
+    "pairs": 11,
+    "confirmed_errors_before": 4,
+    "confirmed_errors_after": 2,
+    "complete_content_corrections": 3,
+    "new_confirmed_content_regressions": 1,
+    "new_uncertain_tense_change": 1,
+    "context_cases": 2,
+    "context_case_overlaps_one_confirmed_regression": true,
+    "relative_error_reduction_not_reported_because_context_categories_change": true
+  },
+  "baseline_meaning_decisions_sha256": "7026fe082a6d3c7ac0d5721a8822730b7cf3c20148d2b54a8268eb9d1fff68a6",
+  "baseline_sha256": "5e23ac0b3e958e2f9fe0a8ea15ca09ed787fdcea8f7899443768ad7b5ffa223d",
+  "candidate_sha256": "1191d54947942cc3f3d40d1dc412525824fe584d4f540ed0984245f19d6a1c9b",
+  "labels_sha256": "310cf839254b9a444e914afb4deae0655880e76a03dc1cc513c6d173f90ce316",
+  "repetition_only_not_counted_as_content_fix": true,
+  "predeclared_known_validation_gate_passed": true,
+  "predeclared_new_validation_no_regression_gate_passed": false,
+  "application_weights_modified": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "ready_for_application": false
+}

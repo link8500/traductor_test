@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:traductor/src/overlay_bridge.dart';
-import 'package:traductor/src/overlay_home.dart';
-import 'package:traductor/src/theme.dart';
+import 'package:traductor/app/luma_app.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -53,12 +51,7 @@ void main() {
     tester.view.physicalSize = size;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
-    await tester.pumpWidget(
-      MaterialApp(
-        theme: buildLumaTheme().copyWith(platform: platform),
-        home: const OverlayHome(),
-      ),
-    );
+    await tester.pumpWidget(LumaApp(platform: platform));
     await tester.pumpAndSettle();
   }
 
@@ -183,22 +176,6 @@ void main() {
       );
     },
   );
-
-  test('Native status events update the bridge', () async {
-    final bridge = OverlayBridge(channel: channel);
-    await bridge.start(
-      source: 'en',
-      target: 'es',
-      opacity: .8,
-      provider: 'mymemory',
-      endpoint: '',
-      apiKey: '',
-    );
-    expect(bridge.running, isTrue);
-    await bridge.command('stop');
-    expect(bridge.running, isFalse);
-    bridge.dispose();
-  });
 
   for (final size in [
     const Size(320, 720),

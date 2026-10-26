@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_visual_pixel_review",
+  "approved": [
+    [
+      62,
+      "NO WAY, NO WAY, NO WAY.",
+      "No puede ser, no puede ser, no puede ser."
+    ],
+    [
+      63,
+      "IS HE COMING? IS HE REALLY COMING? TO HERE?! WHEN? IS IT SOON? BUT I SET UP THAT BARRIER SO FAR AWAY... NO, STUPID!! THAT STUPID SEVENTH PRINCE WILL COME RIGHT AWAY! IN A SPLIT SECOND! HE HAS TELEPORTATION!!",
+      "¿Va a venir? ¿En verdad vendrá? ¿Aquí? ¿Cuándo? ¿Será pronto? Pero preparé la barrera tan lejos... ¡No, qué estúpido! ¡El estúpido séptimo príncipe vendrá de inmediato! ¡En una fracción de segundo! ¡Tiene teletransportación!"
+    ],
+    [
+      64,
+      "THERE'S NOTHING I CAN DO!! I WON'T MAKE IT UNTIL I'M COMPLETE!",
+      "¡No hay nada que pueda hacer! ¡No lo lograré hasta que esté completo!"
+    ],
+    [
+      66,
+      "NO TIME TO WASTE!",
+      "¡No hay tiempo que perder!"
+    ],
+    [
+      67,
+      "FUFUFUFU!! THANK YOU, LITTLE PET... THAT WON'T BE NECESSARY!!",
+      "¡Fufufufu! Gracias, pequeña mascota... ¡Eso no será necesario!"
+    ],
+    [
+      68,
+      "TOO BAD!! I CAN'T HEAR YOU!! EVEN WITH YOUR COMBINED POWER, NOTHING CAN REACH ME!",
+      "¡Qué mal! ¡No puedo escucharlos! ¡Incluso con su poder combinado, nada puede alcanzarme!"
+    ],
+    [
+      69,
+      "I ENDED UP WASTING A LOT OF MAGIC POWER IMMATURELY... THANKS TO THAT, MY TIME FOR COMPLETION IS NOW SLIGHTLY DELAYED...",
+      "Terminé desperdiciando mucho poder mágico de manera inmadura... Por eso, ahora tardaré un poco más en completarme..."
+    ],
+    [
+      70,
+      "NO ONE CAN EVEN HEAR THEM DIE.",
+      "Nadie puede siquiera escucharlos morir."
+    ],
+    [
+      72,
+      "...? THE NUMBER OF TENTACLES HAS SHRUNK BY MORE THAN I EXPECTED...",
+      "¿...? El número de tentáculos se ha reducido más de lo que esperaba..."
+    ],
+    [
+      73,
+      "WHAT ARE THE COMBATANTS DOING? ARE THE PEOPLE IN THE CITY STRONGER THAN I THOUGHT? THE COMBATANTS NEED SOME HELP. HUH... NO, MY PRIORITY RIGHT NOW IS TO COMPLETE MYSELF FIRST.",
+      "¿Qué están haciendo los combatientes? ¿Acaso las personas de la ciudad son más fuertes de lo que pensé? Los combatientes necesitan ayuda. Eh... No, mi prioridad ahora mismo es completarme primero."
+    ],
+    [
+      74,
+      "I SHOULD FOCUS MY MAGIC CONSUMPTION ON IT. AFTER THAT...",
+      "Debería concentrar mi consumo de magia en ello. Después de eso..."
+    ]
+  ],
+  "excluded": [
+    {
+      "id": 60,
+      "reason": "The DREGS component of the named spell is missing from the Spanish edition; its canonical equivalence is not independently established"
+    },
+    {
+      "id": 61,
+      "reason": "Chapter-number/title heading, not a dialogue"
+    },
+    {
+      "id": 65,
+      "reason": "The published English visibly says SERVE YOURSELF rather than the presumed idiom SERVES YOU RIGHT; neither an invented English correction nor the Spanish literal mistranslation is treated as gold"
+    },
+    {
+      "id": 71,
+      "reason": "Same uncertain DREGS named-spell equivalence as60; no assumed terminology mapping is used"
+    }
+  ],
+  "annotation_notes": {
+    "62": "The denial is meaningful; repetition is preserved in the label but is not three independent corrections or an onomatopoeia score.",
+    "63": "Only the complete right-hand monologue is used. The adjacent left balloon belongs to another speaker and is excluded. IN A SPLIT SECOND is speed, restored instead of the published en cualquier segundo.",
+    "67": "The source little pet is retained as pequena mascota rather than asserting that it is a dog. The future clause is retained; the laugh is not scored as a meaningful fix.",
+    "68": "The explicit NOTHING scope is preserved instead of changing it into only the addressees inability to reach the speaker.",
+    "69": "The target is a faithful natural paraphrase of the explicit current slight completion delay and wasted magic; no new completion event is invented.",
+    "73": "Both complete photographed inner-thought balloons belong to the same visibly identified speaker. All questions, the self-correction and FIRST are retained; no other speaker is mixed.",
+    "74": "The entire photographed utterance, including the temporal marker, is retained without inventing its unseen continuation."
+  },
+  "pending_additional_pixels": [],
+  "reviewed_ids": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "final_training_input": false
+}

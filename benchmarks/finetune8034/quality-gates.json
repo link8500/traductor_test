@@ -1,0 +1,29 @@
+{
+  "predeclared_checks": {
+    "known_validation": true,
+    "new_validation_net_corrections": true,
+    "new_validation_no_regressions": false,
+    "old_core_no_regressions": true,
+    "old_core_no_additional_partial_losses": false,
+    "old_core_no_new_source_artifacts": false
+  },
+  "all_predeclared_quality_gates_passed": false,
+  "observed_candidate_collapse_count": 1,
+  "collapse_is_an_additional_observed_blocker_not_a_lowered_threshold": true,
+  "ready_for_native_parity": false,
+  "ready_for_installation": false,
+  "production_end_to_end_checks_completed": false,
+  "app_failure_probability": null,
+  "target_achieved": false,
+  "execution_script_sha256": "9ad312b9187260b084c3021feb9ce6218a8a6f552b99633bd29d88221259ce54",
+  "protocol_sha256": "9f3952da61bf74a431ac73c11627197e399e2b8c6cf012e791ef097a75d6606c",
+  "evidence_sha256": {
+    "validation-meaning-decisions.json": "b9a4af845461c6e36afd329a18ead6202d4f626f2d6fe245b654bdca0a8a882f",
+    "regression-core-meaning-decisions.json": "7a3e3dd1a72528e3b2877cccf3c11bddbce008c3a5326f694773f200a86f70ab",
+    "known-test-meaning-decisions.json": "d3d7a98de8cf267170d47c741c2dbfd9f47c3cd5237c6d0d79e167173a23579b",
+    "early-known-test-meaning-decisions.json": "3d6776a668ef0899d7108a1beb1c8a9eb923b482701bb8a5c76ebf74a482b36d"
+  },
+  "audit_sha256": "de97bc72a2f836b214ae82864f4fb14c2e9fe584da390ced9e34937e6de5630f",
+  "new_blind_test_chapters_opened": 0,
+  "application_modified": false
+}

@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "scope": "All13 previously inspected initial clean-source test dialogues, evaluation-only known control",
+  "entries": [
+    {
+      "id": 50,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The character name remains the common noun GRIMORIO."
+    },
+    {
+      "id": 53,
+      "before": "incomplete",
+      "after": "acceptable",
+      "complete_content_recovery": true,
+      "note": "The explicit precision modifier EXACTLY is recovered."
+    },
+    {
+      "id": 54,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 55,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 57,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Restoring the phrase SOME KIND is a closer wording, not a full correction of a previously valid comparison."
+    },
+    {
+      "id": 60,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 63,
+      "before": "acceptable",
+      "after": "failed_generation",
+      "new_confirmed_content_regression": true,
+      "note": "The candidate output contains only repeated inverted exclamation marks and no dialogue. Runtime completion does not make it a translation."
+    },
+    {
+      "id": 64,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The UHM hesitation returns; excluded from meaningful-content corrections."
+    },
+    {
+      "id": 65,
+      "before": "acceptable",
+      "after": "needs_context",
+      "new_context_uncertainty": true,
+      "note": "SUBE is valid for boarding, but the isolated GET IN does not identify a vehicle or upward motion. Its contextual suitability is not certified."
+    },
+    {
+      "id": 68,
+      "before": "incorrect",
+      "after": "incomplete",
+      "new_partial_meaning_loss": true,
+      "note": "The already incorrect dense-magic phrase now loses DENSE/THIS entirely; a new partial loss within an existing failed dialogue."
+    },
+    {
+      "id": 69,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 70,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 71,
+      "before": "acceptable",
+      "after": "acceptable"
+    }
+  ],
+  "complete_content_corrections": 1,
+  "new_complete_generation_failures": 1,
+  "additional_partial_meaning_losses": 1,
+  "new_context_uncertainty": 1,
+  "confirmed_failed_dialogues_before": 3,
+  "confirmed_failed_dialogues_after": 3,
+  "all_outputs_reviewed": true,
+  "already_inspected_not_blind": true,
+  "baseline_sha256": "183912d755247c15c81c653f9bf1d1260eb07d35a10debcebac4af75aca6c1eb",
+  "candidate_sha256": "254f26664e9448b62796024dbaf6c2406d0bb2a44d11a615d7680410cb2e2e3e",
+  "application_modified": false,
+  "app_failure_rate_comparable": false
+}

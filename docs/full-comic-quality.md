@@ -1569,3 +1569,43 @@ a la app. El control instalado sigue con56 de124 vistas sin aprobar y la
 reducción histórica de9,68 %. No se entrenaron pesos OCR; la lectura de cada
 palabra y el objetivo de menos del5 % por uso siguen pendientes. Protocolos,
 criterios, hashes y límites están en[la revisión de adaptación local](local-model-adaptation.md).
+
+
+## Ampliación de datos cotejados: 8034
+
+Se inspeccionaron 111 propuestas nuevas: 77 diálogos para entrenamiento,
+11 para otra selección de validación y 23 excluidas. El entrenamiento pasa
+de 86 a 163 diálogos originales, más 254 concatenaciones explícitas. Los
+312 pasos siguen una regla proporcional fijada antes de generar resultados.
+Se descargaron 167 imágenes, unos 42 MB; los 41 capítulos de prueba aún
+sin inspeccionar permanecen intactos.
+
+La validación fija pasa de cinco errores de la base y tres del candidato
+anterior a dos ahora, manteniendo tres dudas de contexto. El 60 % relativo
+frente a la base se limita a esa muestra de 14 diálogos. En las 11 entradas
+nuevas se recuperan tres unidades de contenido, pero aparecen una regresión
+confirmada y un cambio de tiempo que requiere contexto. No se acredita una
+tasa global de fallo.
+
+El control del núcleo sobre 229 fuentes conservadas de 124 vistas presenta
+79 cambios: 35 dictámenes por identidad exacta y 44 variantes nuevas cotejadas.
+Se corrigen 11 regiones de contenido capturado, sin nuevas regresiones completas
+confirmadas en ese control. Aun así, conserva una pérdida parcial adicional,
+un artefacto copiado y dos cambios de relación pendientes de contexto.
+El núcleo no repite captura ni OCR y no aplica las recuperaciones de producción.
+
+Las pruebas conocidas de 16 y 13 diálogos también se conservaron. En la primera
+se recuperan dos traducciones completas y una parcialmente; en la segunda se
+corrige una omisión, pero aparece una salida sin palabras, solo signos, y una
+pérdida parcial dentro de otro diálogo ya fallido. La salida degenerada se
+reproduce tanto en bfloat16 como en float32. No se reemplazó por el resultado
+de un diagnóstico ni se descartó de las cuentas.
+
+Pasaron 18 guardas de procedencia, separación, matemáticas, pesos y auditoría;
+el modelo no superó los criterios de calidad. La auditoría de formato revisó
+566 salidas de base y candidato, no 566 muestras independientes ni significados
+certificados. El adaptador no se incorpora y no se exporta otro modelo nativo.
+La app instalada mantiene 56 de 124 vistas sin aprobar y la reducción histórica
+del 9,68 %. Todas las comparaciones de esta iteración están en
+`build/finetune8034/index.html`; la revisión completa de capítulos y menos del
+5 % de fallos por uso siguen pendientes.

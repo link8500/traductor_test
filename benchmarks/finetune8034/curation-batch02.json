@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_visual_pixel_review",
+  "approved": [
+    [
+      41,
+      "ARE YOU INSANE!? THIS PLACE IS NO DIFFERENT!",
+      "¡¿Estás loca?! ¡Este lugar es igual!"
+    ],
+    [
+      42,
+      "ARE YOU TELLING US TO STAY AND BE EATEN BY THAT \"THING\"!?",
+      "¡¿Nos dices que nos quedemos para ser devorados por esa \"cosa\"?!"
+    ],
+    [
+      43,
+      "KATALINA-SAN, WE HAVE TO ABANDON THIS CHURCH NOW! QUICK, GET OUT OF HERE!",
+      "¡Katalina-san, tenemos que abandonar ahora esta iglesia! ¡Rápido, salgan de aquí!"
+    ],
+    [
+      44,
+      "WE'LL HOLD IT OFF HERE... HAHAHA...",
+      "Lo retendremos aquí... Jajaja..."
+    ],
+    [
+      45,
+      "NO... THAT'S IMPOSSIBLE...",
+      "No... Es imposible..."
+    ],
+    [
+      46,
+      "WHAT THE HELL IS GOING ON?! I THOUGHT THE CHURCH WAS SAFE!",
+      "¿¡Qué rayos está pasando!? ¡Pensé que la iglesia era segura!"
+    ],
+    [
+      47,
+      "ISN'T GOD SUPPOSED TO PROTECT US!?",
+      "¡¿No se supone que Dios nos protege?!"
+    ],
+    [
+      48,
+      "WHERE IS THE POPE?!",
+      "¡¿Dónde está el papa?!"
+    ],
+    [
+      49,
+      "FOR LONG YEARS, I HAVE LIVED BELIEVING THAT GOD \"EXISTS\"...",
+      "Durante muchos años, he vivido creyendo que Dios \"existe\"..."
+    ],
+    [
+      50,
+      "WELL, YES, GOD EXISTS, BUT WHETHER OR NOT I WOULD CALL \"THEM\" A GOD OR NOT IS THE QUESTION...",
+      "Bueno, sí, Dios existe, pero la cuestión es si lo llamaría Dios o no..."
+    ],
+    [
+      51,
+      "SO... WHAT ARE YOU?",
+      "Entonces... ¿Qué eres?"
+    ],
+    [
+      53,
+      "IT'S OBVIOUS FROM THE RESULTS...",
+      "Es obvio por los resultados..."
+    ],
+    [
+      55,
+      "* SEAMLESS ROBE OF HEAVEN.",
+      "* Manto celestial inconsútil."
+    ],
+    [
+      56,
+      "IT ONLY MAKES SOUNDS LOUDER...",
+      "Solo aumenta la intensidad de los sonidos..."
+    ],
+    [
+      58,
+      "AND EVEN THE CHIMERA, A CREATURE WITHOUT A HEART...",
+      "E incluso la quimera, una criatura sin corazón..."
+    ],
+    [
+      52,
+      "ARE YOU A BEING WHO CAN BE CALLED GOD?",
+      "¿Eres un ser que puede ser llamado Dios?"
+    ],
+    [
+      57,
+      "ITS KILLING POWER IS ZERO AND ITS EFFECT IS \"AMPLIFICATION\"...",
+      "Su poder asesino es nulo y su efecto es \"amplificación\"..."
+    ]
+  ],
+  "excluded": [
+    {
+      "id": 54,
+      "reason": "Published sacred-arms versus art-of-light terminology is not independently validated as equivalent; no guessed canonical term is trained"
+    }
+  ],
+  "annotation_notes": {
+    "42": "The English instruction/telling-us speech act is kept explicit rather than changing it to merely wanting us to stay.",
+    "43": "WE is inclusive; the Spanish edition uses TIENEN. The reviewed target preserves tenemos and both urgency/location clauses.",
+    "44": "The English object is singular IT and explicitly HERE; the reviewed target restores both rather than plural los.",
+    "49": "The English present-perfect continuing belief is preserved as he vivido rather than the published vivia.",
+    "50": "THEM is the gender-neutral reference to the singular being addressed across the photographed exchange, not a fabricated group of gods. Natural Spanish pronoun equivalence is allowed.",
+    "55": "Meaningful item footnote, not an onomatopoeia. The translators Nt prefix is not in the English and is not supplied as a model label.",
+    "58": "Complete photographed nominal utterance ending in an intentional ellipsis; no unseen continuation is inferred.",
+    "52": "The wider crop confirms the complete final GOD question, not an ending inferred from Spanish.",
+    "57": "The wider crop confirms the full Spanish AMPLIFICACION and English whole coloured-background statement."
+  },
+  "pending_additional_pixels": [],
+  "reviewed_ids": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "final_training_input": false,
+  "additional_review_images": [
+    "build/finetune8034/review/wide-02.jpg"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "scope": "All16 previously inspected clean-source test dialogues, evaluation only, not a new blind test",
+  "entries": [
+    {
+      "id": 1,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 2,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Spanish pro-drop makes the explicit ELLA optional; omission of the pronoun is not a content loss."
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 4,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 5,
+      "before": "incomplete",
+      "after": "quality_defect",
+      "partial_content_recovery": true,
+      "note": "The greeting is recovered but remains malformed Spanish, not a complete usable correction."
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 13,
+      "before": "acceptable",
+      "after": "needs_context",
+      "new_context_uncertainty": true,
+      "note": "The source permits both a suspicious person and a person harboring suspicion. The changed reading cannot be called a categorical isolated-text error without context."
+    },
+    {
+      "id": 14,
+      "before": "needs_context",
+      "after": "needs_context"
+    },
+    {
+      "id": 15,
+      "before": "incomplete",
+      "after": "acceptable",
+      "complete_content_recovery": true,
+      "note": "The name question is restored, independently of capitalization."
+    },
+    {
+      "id": 16,
+      "before": "needs_context",
+      "after": "needs_context"
+    },
+    {
+      "id": 19,
+      "before": "incorrect",
+      "after": "acceptable",
+      "complete_content_recovery": true,
+      "note": "The attractiveness meaning of HOT replaces the wrong temperature literal."
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Adventuring PARTY is still wrongly a celebration."
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "acceptable",
+      "new_rendered_suffix_artifact": true,
+      "note": "The Aru speech suffix is formatted as a vocative name. This is a rendering/quality issue, not a missing meaningful word or a content correction."
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Negative existential NINGUN licenses a singular friend noun even though English uses ANY FRIENDS; do not invent a number error by word matching."
+    }
+  ],
+  "complete_usable_corrections": 2,
+  "partial_content_recoveries_without_full_approval": 1,
+  "new_confirmed_content_regressions": 0,
+  "new_context_uncertainty": 1,
+  "new_rendered_suffix_artifacts": 1,
+  "all_outputs_reviewed": true,
+  "already_inspected_not_blind": true,
+  "baseline_sha256": "006307f15527ebb6c0bc3698d1327cbde79db86e6ba9fc372b2810f7fa748f9c",
+  "candidate_sha256": "49836acc2b50208685352e76541207aa6f4ee3b4751ca4f4dc6024c9985b7ebb",
+  "application_modified": false,
+  "app_failure_rate_comparable": false
+}

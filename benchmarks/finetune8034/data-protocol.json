@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "purpose": "Expand pixel-reviewed bilingual training dialogue and independently check a new validation slice; no new blind test access",
+  "selected_chapters": {
+    "train": [
+      11,
+      81,
+      148,
+      217
+    ],
+    "validation": [
+      124
+    ],
+    "test": []
+  },
+  "selection_rule": "Four deterministic spread positions in previously unused training chapters; one middle unused validation chapter, no candidate output consulted",
+  "maximum_pages_per_language": 18,
+  "proposal_quota_per_training_chapter": 30,
+  "proposal_quota_per_validation_chapter": 20,
+  "source_inventory_sha256": "b3e9821771898e72a4937deb7b97cc75a071850f2017699e52e832fecfb13273",
+  "previous_dataset_sha256": "a08c77a889407467e2d75ff3e82d943dc0e61556a56535e97f424584e4e5cd82",
+  "model_answers_allowed_for_annotation": false,
+  "new_test_chapters_opened": 0,
+  "uninspected_test_chapters_remaining": 41,
+  "reference_policy": "Assistant checks English and Spanish pixels. Exclude clipped, unaligned, ambiguous or duplicate proposals; document corrections needed for faithful meaning. No reference inferred from unreadable English.",
+  "application_modified": false
+}

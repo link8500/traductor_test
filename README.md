@@ -2,6 +2,19 @@
 
 Traduce el texto visible sobre otras aplicaciones en Windows y Android. Flutter muestra los ajustes; la captura, la barra movible y el reemplazo del texto son nativos.
 
+## Organización del proyecto
+
+La configuración y las sesiones usan arquitectura limpia: `domain` define las
+reglas y los contratos, `application` coordina las acciones, `infrastructure`
+implementa el canal nativo y `presentation` contiene la interfaz. `app` conecta
+las dependencias. Windows, Android y las utilidades enlazan un único target
+para el motor C++ compartido.
+
+Consulta [el mapa, las dependencias y la guía de cambios](docs/architecture.md),
+[el índice de documentación](docs/README.md),
+[las herramientas de evaluación](tools/README.md) y
+[los datos de pruebas](benchmarks/README.md).
+
 ## Uso
 
 1. Elige los idiomas en la aplicación. Inglés → español usa por defecto el modelo incluido y funciona sin conexión desde la instalación.
@@ -13,7 +26,7 @@ Los idiomas se cambian desde la aplicación. No hay traducciones periódicas ni 
 
 ## Traducción y reconocimiento locales
 
-El motor compartido C++ ejecuta **Helsinki-NLP/opus-mt-tc-big-en-es** con ONNX Runtime 1.23.2, búsqueda de cuatro candidatos, tokenización SentencePiece y pesos Int4. Se adaptó un modelo ya entrenado; este proyecto no entrenó una red desde cero. El paquete incluye alrededor de 259 MB de modelos y metadatos, además de los componentes de la aplicación.
+El motor compartido C++ ejecuta **Helsinki-NLP/opus-mt-tc-big-en-es** con ONNX Runtime 1.23.2, búsqueda de cuatro candidatos, tokenización SentencePiece y pesos Int4. El modelo incluido se convirtió a ONNX y se cuantizó para ejecutarse localmente; no se entrenó desde cero. Los ajustes experimentales de pesos se describen por separado más abajo. El paquete incluye alrededor de 259 MB de modelos y metadatos, además de los componentes de la aplicación.
 
 Windows OCR y Android ML Kit localizan los textos. La compilación 8007 usa el reconocedor latino **PP-OCRv5** y consulta el lector inglés **PP-OCRv4** cuando la primera lectura es incierta o discrepa del OCR del sistema. Los cambios pequeños se contrastan entre lectores; una confianza alta por sí sola puede corresponder a una palabra incorrecta. El detector DB móvil PP-OCRv4 localiza texto adicional. Se unen líneas del mismo párrafo, se normalizan las mayúsculas para traducir, y un glosario general mantiene términos de ficción y cultivo. El glosario no contiene respuestas completas de los capítulos de prueba.
 
@@ -26,6 +39,20 @@ Antes de capturar se ocultan la barra y la traducción anterior. Después, la ba
 La posición, el centrado y el tamaño se ajustan al área reconocida. En Windows la opacidad inicial es del 100 %. Android limita la ventana al 80 % para permitir el paso de toques: una máscara calculada con la captura compensa las letras originales y suaviza los bordes. El fondo resultante puede verse ligeramente gris. Fondos en movimiento y letras artísticas siguen siendo casos difíciles.
 
 **Alcance:** el modelo incluido traduce inglés → español. En Android, otros pares usan ML Kit local; su primera preparación necesita descargar los modelos de idioma. En Windows hay proveedores opcionales MyMemory y LibreTranslate: solo se usan al seleccionarlos y aceptar expresamente el envío del texto. El modo local no hace peticiones de traducción.
+
+## Adaptación experimental del traductor
+
+Se entrenaron adaptadores LoRA sobre OPUS-MT y se compararon con inglés
+transcrito y con fuentes OCR conservadas. Son candidatos de traducción,
+separados del modelo instalado; no se añadieron dos motores nuevos a la app.
+Los ensayos recuperan contenido en conjuntos pequeños, pero también muestran
+regresiones y salidas fallidas en otros controles. Ninguno se incorporó a
+producción y no se acredita menos del 5 % de fallos por uso.
+
+Continúa la ampliación de diálogos bilingües cotejados con sus imágenes,
+manteniendo separados entrenamiento, validación y prueba. Consulta
+[los resultados, los protocolos y sus límites](docs/local-model-adaptation.md).
+Estos ajustes de traducción no entrenan los pesos del reconocimiento OCR.
 
 ## Plataformas
 

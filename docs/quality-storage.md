@@ -213,3 +213,19 @@ en el tercero. Se mantienen4 GiB de reserva de disco y esperas de memoria
 antes de inferir. La instantánea posterior conserva aproximadamente12,45 GiB
 libres. No se eliminan archivos personales, historial Git ni evidencia de
 ensayos fallidos.
+
+
+## Datos ampliados y cuarto adaptador: 8034
+
+Se reutilizan el mismo entorno y la única base OPUS original. Las 167 imágenes
+nuevas ocupan 42.156.701 bytes. Las 419 imágenes conservadas suman 102.984.298
+bytes, unos 98,2 MiB; son selecciones de páginas, no nuevas copias de capítulos
+completos. La vista previa de cotejo referencia los mismos originales y los
+58 registros revisados inicialmente se contrastaron por identidad exacta con
+la selección final. Se conservan sus hojas como evidencia.
+
+El cuarto ensayo guarda otro adaptador pequeño y texto de resultados. No se
+descargan otras bases, se duplican los modelos instalados ni se crea APK.
+La memoria CUDA máxima registrada es de 1.765.566.976 bytes. Se mantienen
+4 GiB de reserva; la instantánea posterior conserva unos 12,36 GiB libres.
+No se borra ningún resultado fallido, archivo personal ni historial Git.

@@ -1,0 +1,614 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_visual_pixel_review_not_user_certified",
+  "approved": [
+    [
+      1,
+      "NOT YET! IF THE MAJIN ISN'T DEFEATED, THEY'LL JUST KEEP REGENERATING!",
+      "¡Aún no! ¡Si el majin no es derrotado, seguirán regenerándose!"
+    ],
+    [
+      2,
+      "YOU ROTTEN SWORDSWOMAN!",
+      "¡Maldita espadachina!"
+    ],
+    [
+      3,
+      "WHAT THE HELL IS THIS!? MY STRENGTH... MY CONSCIOUSNESS IS FADING... IT'S ALMOST LIKE I'M BEING FORCED TO FALL ASLEEP.",
+      "¿Qué demonios es esto? Mi fuerza... Mi consciencia se está desvaneciendo... Es casi como si me obligaran a dormirme."
+    ],
+    [
+      4,
+      "JUST LIKE THOSE MAGICAL BEASTS, ANYONE WHO BREATHES THIS WILL FALL INTO MY HANDS! THIS IS THE MIASMA OF CONTROL!",
+      "Al igual que esas bestias mágicas, ¡cualquiera que respire esto caerá en mis manos! ¡Este es el miasma del control!"
+    ],
+    [
+      5,
+      "NO WONDER WHY IT STINKS.",
+      "No es de extrañar que apeste."
+    ],
+    [
+      7,
+      "YOUR CONCERNS ARE UNWARRANTED... I'M... COMPLETELY FINE... SO PLEASE... LEAVE.",
+      "Tus preocupaciones son injustificadas... Estoy... completamente bien... así que, por favor... vete."
+    ],
+    [
+      10,
+      "SO? WHY IS IT THAT YOU DID NOT FALL INTO MY CONTROL?",
+      "¿Entonces? ¿Por qué no caíste en mi control?"
+    ],
+    [
+      12,
+      "I SEE, YOU SEEM TO HAVE A WEIRD METHOD OF BREATHING. ARE YOU USING THAT TO KEEP THE MIASMA AT BAY?",
+      "Ya veo. Parece que tienes un método extraño de respiración. ¿Lo usas para mantener el miasma a raya?"
+    ],
+    [
+      13,
+      "CRAP... MY BREATHING IS MESSED UP.",
+      "Mierda... Mi respiración es un desastre."
+    ],
+    [
+      15,
+      "YOU WANTED TO BECOME MY UNDERLING THAT MUCH?",
+      "¿Tanto querías convertirte en mi subordinada?"
+    ],
+    [
+      17,
+      "DON'T LOOK DOWN ON ME YOU UGLY PIECE OF SHIT!",
+      "¡No me subestimes, pedazo de mierda fea!"
+    ],
+    [
+      20,
+      "ALL I CAN SEE ARE UGLY BASTARDS WHO'VE FACE PLANTED INTO THE GROUND...",
+      "Todo lo que puedo ver son esos feos bastardos que tienen la cara plantada en el suelo..."
+    ],
+    [
+      21,
+      "ON THE OTHER HAND, WHAT DO YOU THINK OF MY UNDERLINGS? FOR MY SAKE, THEY ARE WILLING TO GET BACK UP NO MATTER HOW MANY TIMES IT TAKES. IT'S AS IF THEY ARE HEROES, DON'T YOU THINK?",
+      "Por otro lado, ¿qué opinas de mis subordinados? Por mí, están dispuestos a levantarse sin importar las veces que les cueste. Es como si fueran héroes, ¿no crees?"
+    ],
+    [
+      23,
+      "DON'T YOU THINK THAT THEY ARE HOT?",
+      "¿No crees que son sexys?"
+    ],
+    [
+      25,
+      "I WASN'T MISTAKEN. HE'S NEARBY-ARU. EVEN IN THIS RANCID AIR... I CAN CLEARLY SENSE HIM... JUST LIKE THE SUN.",
+      "No me equivoqué. Él está cerca-aru. Incluso en este aire rancio... puedo sentirlo claramente... justo como el sol."
+    ],
+    [
+      27,
+      "...WHO ARE YOU TALKING ABOUT?",
+      "¿...De quién estás hablando?"
+    ],
+    [
+      28,
+      "HOW FOOLISH. IN THE END, YOU'RE STILL JUST A HUMAN. A LOWER EXISTENCE WHO HAS NO WAY OF UNDERSTANDING MY DEVILISHNESS.",
+      "Qué tonta. Al final, eres sólo una humana. Una existencia inferior que no tiene forma de entender mi maldad."
+    ],
+    [
+      29,
+      "I'LL USE SHADOW WOLF TO INTERCEPT IT.",
+      "Usaré Lobo Sombrío para interceptarlo."
+    ],
+    [
+      30,
+      "I REMEMBERED THE MAGICAL POWER OF THE \"EGG\" HE SHOT OUT.",
+      "Recordé el poder mágico del \"huevo\" que arrojó."
+    ],
+    [
+      33,
+      "I WON'T LET YOU.",
+      "No te lo permitiré."
+    ],
+    [
+      34,
+      "PLUS, IT'S HARD TO AIM AT MOVING TARGETS, CORRECT?",
+      "Además, es difícil apuntar a blancos que se mueven, ¿cierto?"
+    ],
+    [
+      35,
+      "THAT INSTANT TELEPORTATION OF YOURS... IT CAN BE USED FOR ATTACKS, BUT IT REQUIRES YOUR CONCENTRATION...",
+      "Esa teletransportación instantánea tuya... La puedes usar para atacar, pero requiere de tu concentración..."
+    ],
+    [
+      36,
+      "I WON'T LET YOU STOP ME.",
+      "No permitiré que me detengas."
+    ],
+    [
+      37,
+      "NOR WILL MY CLONES STOP UNTIL I HAVE DESTROYED THIS COUNTRY.",
+      "Y mis clones tampoco se detendrán hasta que yo haya destruido este país."
+    ],
+    [
+      38,
+      "WHAT'S WITH THAT THING!!",
+      "¡¿Qué pasa con esa cosa?!"
+    ],
+    [
+      39,
+      "IS NOT LIKE THE OTHERS...!!",
+      "¡No es como las demás...!"
+    ],
+    [
+      40,
+      "OPEN THE DOOR!! LET US OUT!!",
+      "¡Abran la puerta! ¡Déjennos salir!"
+    ],
+    [
+      8,
+      "SHE WAS A STRONG SWORDSWOMAN. EVEN THOUGH SHE WAS EXPOSED TO MORE OF MY MIASMA THAN EVERYONE ELSE, SHE WAS STILL ABLE TO FACE ME WITH THAT MUCH STRENGTH. EVEN MAGICAL BEASTS AREN'T ABLE TO LAST 30 SECONDS BEFORE FALLING UNCONSCIOUS...",
+      "Era una espadachina fuerte. Aunque estaba más expuesta a mi miasma que los demás, aún era capaz de enfrentarme con tanta fuerza. Ni siquiera las bestias mágicas son capaces de aguantar 30 segundos antes de caer inconscientes..."
+    ],
+    [
+      18,
+      "A PERSON WHO IS ONLY INTERESTED IN LOOKS LIKE ME...",
+      "Una persona que sólo se interesa por la apariencia como yo..."
+    ],
+    [
+      24,
+      "YOU WANT TO BECOME MY UNDERLING AND DEVOTE YOUR LIFE TO ME, DON'T YOU?",
+      "Quieres convertirte en mi subordinada y dedicar tu vida a mí, ¿no es cierto?"
+    ],
+    [
+      41,
+      "ARE YOU INSANE!? THIS PLACE IS NO DIFFERENT!",
+      "¡¿Estás loca?! ¡Este lugar es igual!"
+    ],
+    [
+      42,
+      "ARE YOU TELLING US TO STAY AND BE EATEN BY THAT \"THING\"!?",
+      "¡¿Nos dices que nos quedemos para ser devorados por esa \"cosa\"?!"
+    ],
+    [
+      43,
+      "KATALINA-SAN, WE HAVE TO ABANDON THIS CHURCH NOW! QUICK, GET OUT OF HERE!",
+      "¡Katalina-san, tenemos que abandonar ahora esta iglesia! ¡Rápido, salgan de aquí!"
+    ],
+    [
+      44,
+      "WE'LL HOLD IT OFF HERE... HAHAHA...",
+      "Lo retendremos aquí... Jajaja..."
+    ],
+    [
+      45,
+      "NO... THAT'S IMPOSSIBLE...",
+      "No... Es imposible..."
+    ],
+    [
+      46,
+      "WHAT THE HELL IS GOING ON?! I THOUGHT THE CHURCH WAS SAFE!",
+      "¿¡Qué rayos está pasando!? ¡Pensé que la iglesia era segura!"
+    ],
+    [
+      47,
+      "ISN'T GOD SUPPOSED TO PROTECT US!?",
+      "¡¿No se supone que Dios nos protege?!"
+    ],
+    [
+      48,
+      "WHERE IS THE POPE?!",
+      "¡¿Dónde está el papa?!"
+    ],
+    [
+      49,
+      "FOR LONG YEARS, I HAVE LIVED BELIEVING THAT GOD \"EXISTS\"...",
+      "Durante muchos años, he vivido creyendo que Dios \"existe\"..."
+    ],
+    [
+      50,
+      "WELL, YES, GOD EXISTS, BUT WHETHER OR NOT I WOULD CALL \"THEM\" A GOD OR NOT IS THE QUESTION...",
+      "Bueno, sí, Dios existe, pero la cuestión es si lo llamaría Dios o no..."
+    ],
+    [
+      51,
+      "SO... WHAT ARE YOU?",
+      "Entonces... ¿Qué eres?"
+    ],
+    [
+      53,
+      "IT'S OBVIOUS FROM THE RESULTS...",
+      "Es obvio por los resultados..."
+    ],
+    [
+      55,
+      "* SEAMLESS ROBE OF HEAVEN.",
+      "* Manto celestial inconsútil."
+    ],
+    [
+      56,
+      "IT ONLY MAKES SOUNDS LOUDER...",
+      "Solo aumenta la intensidad de los sonidos..."
+    ],
+    [
+      58,
+      "AND EVEN THE CHIMERA, A CREATURE WITHOUT A HEART...",
+      "E incluso la quimera, una criatura sin corazón..."
+    ],
+    [
+      52,
+      "ARE YOU A BEING WHO CAN BE CALLED GOD?",
+      "¿Eres un ser que puede ser llamado Dios?"
+    ],
+    [
+      57,
+      "ITS KILLING POWER IS ZERO AND ITS EFFECT IS \"AMPLIFICATION\"...",
+      "Su poder asesino es nulo y su efecto es \"amplificación\"..."
+    ],
+    [
+      76,
+      "WOW! YOU'RE AMAZING!!",
+      "¡Wow! ¡Eres asombroso!"
+    ],
+    [
+      78,
+      "BACK OFF, YOU COMMONER! DON'T YOU KNOW WHO THIS PERSON IS?!",
+      "¡Retrocede, plebeyo! ¡¿No sabes quién es esta persona?!"
+    ],
+    [
+      80,
+      "I CAN FEEL A TON OF MANA FROM YOU! WILL YOU LET ME SEE YOUR MAGIC?",
+      "¡Puedo sentir un montón de maná proveniente de ti! ¿Podrías enseñarme tu magia?"
+    ],
+    [
+      81,
+      "ARE YOU ALSO A STUDENT OF THIS MAGIC ACADEMY?",
+      "¿Tú también eres un estudiante de esta academia de magia?"
+    ],
+    [
+      83,
+      "...LLOYD, THE ROYAL PRINCE, SUDDENLY ROCKS UP TO CONNIE, THE PLAIN AND ORDINARY BESPECTACLED GIRL IN CHARGE OF EXPOSITION... WILL THERE BE ANY CHEMISTRY...? OR SOMETHING MORE?!",
+      "...Lloyd, el príncipe real, aparece de repente ante Connie, la chica sencilla y corriente con lentes encargada de las explicaciones... ¿Habrá química...? ¿O algo más?!"
+    ],
+    [
+      84,
+      "PREVIOUSLY, ON 'TWINKLE-SPARK! BESPECTACLED EXPOSITION GIRL BECOMES THE NEW CINDERELLA!'...",
+      "En el episodio anterior de '¡Twinkle-Spark! ¡La chica de gafas que da las explicaciones se convierte en la nueva Cenicienta!'..."
+    ],
+    [
+      85,
+      "I'M GOING TO GET MORE CHALK! KEEP READING WHILE I'M AWAY...!",
+      "¡Voy a por más tiza! ¡Sigan leyendo mientras estoy fuera...!"
+    ],
+    [
+      86,
+      "HEY, PRINCE BOY.",
+      "Oye, principito."
+    ],
+    [
+      87,
+      "HOW ABOUT I SELL YOU THIS SEAT NEXT TO ME? IT'LL BE WAY CHEAPER THAN THE BRIBE YOU PAID TO COME HERE.",
+      "¿Qué tal si te vendo este asiento que tengo al lado? Te saldrá mucho más barato que el soborno que pagaste para venir aquí."
+    ],
+    [
+      88,
+      "OR ARE YOU INTO GIRLS LIKE HER?",
+      "¿O es que acaso te gustan las chicas como ella?"
+    ],
+    [
+      89,
+      "SHE'S SO BROKE, SHE CAN'T EVEN AFFORD A DORM ROOM HERE.",
+      "Es tan pobre que ni siquiera puede permitirse un dormitorio aquí."
+    ],
+    [
+      90,
+      "SHE CAN'T EVEN CAST SPELLS WITHOUT A CRUTCH.",
+      "Ni siquiera puede usar hechizos sin ayuda."
+    ],
+    [
+      91,
+      "HOW DARE YOU.",
+      "¿Cómo se atreven?"
+    ],
+    [
+      92,
+      "HEY, MAYBE THE USELESS BLIGHTED GIRL'S THE PERFECT MATCH FOR A BRIBING PRINCE!!",
+      "¡Oye, quizá esa chica inútil y maldita sea la pareja perfecta para un príncipe que soborna!"
+    ],
+    [
+      93,
+      "DO YOU KNOW WHAT \"ROYALTY\" MEANS?",
+      "¿Saben lo que significa \"realeza\"?"
+    ],
+    [
+      94,
+      "I TEND TO FORGET THESE DAYS, BUT I'M ROYALTY, WHICH MEANS I'M IMPORTANT.",
+      "Últimamente tiendo a olvidarlo, pero pertenezco a la realeza, lo que significa que soy importante."
+    ],
+    [
+      95,
+      "THEY'RE THE MOST IMPORTANT PEOPLE IN THE COUNTRY.",
+      "Son las personas más importantes del país."
+    ],
+    [
+      97,
+      "IF YOU CAN GET THAT INTO YOUR HEADS, DON'T EVER RUN YOUR MOUTHS OFF AGAIN. AND I DON'T MEAN THAT ABOUT ME.",
+      "Si son capaces de meterse eso en la cabeza, no vuelvan a hablar así nunca más. Y no lo digo por mí."
+    ],
+    [
+      98,
+      "YOU CAN TALK SMACK ABOUT ME ALL YOU LIKE.",
+      "Pueden hablar mal de mí todo lo que quieran."
+    ],
+    [
+      99,
+      "BUT DON'T YOU EVER CALL CONNIE \"BLIGHTED\" AGAIN.",
+      "Pero no vuelvan a llamar a Connie \"maldita\" nunca más."
+    ],
+    [
+      100,
+      "REMEMBER, LLOYD! FIRST IMPRESSIONS COUNT AT SCHOOL!! DON'T LET THEM THINK YOU'RE A PUSHOVER!",
+      "¡Recuerda, Lloyd! ¡Las primeras impresiones cuentan en la escuela! ¡No dejes que piensen que eres alguien con quien pueden meterse!"
+    ],
+    [
+      101,
+      "AND NOW... FOR THE GRAND FINALE!!",
+      "Y ahora... ¡El gran final!"
+    ],
+    [
+      103,
+      "BULLIES ARE GONNA WANT TO PICK ON YOU!",
+      "¡Los matones querrán meterse contigo!"
+    ],
+    [
+      104,
+      "IF ANYONE BULLIES YOU, THEN I WILL PERSONALLY DEAL WITH THEM PROMPTLY.",
+      "Si alguien te acosa, entonces me encargaré personalmente de esa persona de inmediato."
+    ],
+    [
+      105,
+      "YOU'VE GOT CRAZY NEPOBABY VIBES.",
+      "Das una tremenda impresión de hijo de papá."
+    ],
+    [
+      106,
+      "BULLYING SUCKS... BUT I ACTUALLY WANT THEM TO UNDERESTIMATE ME... I WANT TO SPEND MY TIME HERE WITHOUT ATTRACTING ATTENTION, LIKE I DID BACK AT THE CASTLE...",
+      "El acoso es horrible... Pero, en realidad, quiero que me subestimen... Quiero pasar mi tiempo aquí sin llamar la atención, como hacía en el castillo..."
+    ],
+    [
+      108,
+      "LISTEN UP, GUYS.",
+      "Escuchen atentamente, chicos."
+    ],
+    [
+      109,
+      "DON'T YOU EVER FORGET...",
+      "No lo olviden nunca..."
+    ],
+    [
+      111,
+      "I CAN'T BELIEVE I SAID ALL THAT WITHOUT FLUBBING MY LINES. SING MY PRAISES!!",
+      "¡No puedo creer que haya dicho todo eso sin equivocarme en mis frases! ¡Elógienme!"
+    ],
+    [
+      96,
+      "IT MEANS I CAN HAVE YOU \"NEUTRALIZED\" WHENEVER I WANT.",
+      "Significa que puedo hacer que los \"neutralicen\" cuando quiera."
+    ],
+    [
+      62,
+      "NO WAY, NO WAY, NO WAY.",
+      "No puede ser, no puede ser, no puede ser."
+    ],
+    [
+      63,
+      "IS HE COMING? IS HE REALLY COMING? TO HERE?! WHEN? IS IT SOON? BUT I SET UP THAT BARRIER SO FAR AWAY... NO, STUPID!! THAT STUPID SEVENTH PRINCE WILL COME RIGHT AWAY! IN A SPLIT SECOND! HE HAS TELEPORTATION!!",
+      "¿Va a venir? ¿En verdad vendrá? ¿Aquí? ¿Cuándo? ¿Será pronto? Pero preparé la barrera tan lejos... ¡No, qué estúpido! ¡El estúpido séptimo príncipe vendrá de inmediato! ¡En una fracción de segundo! ¡Tiene teletransportación!"
+    ],
+    [
+      64,
+      "THERE'S NOTHING I CAN DO!! I WON'T MAKE IT UNTIL I'M COMPLETE!",
+      "¡No hay nada que pueda hacer! ¡No lo lograré hasta que esté completo!"
+    ],
+    [
+      66,
+      "NO TIME TO WASTE!",
+      "¡No hay tiempo que perder!"
+    ],
+    [
+      67,
+      "FUFUFUFU!! THANK YOU, LITTLE PET... THAT WON'T BE NECESSARY!!",
+      "¡Fufufufu! Gracias, pequeña mascota... ¡Eso no será necesario!"
+    ],
+    [
+      68,
+      "TOO BAD!! I CAN'T HEAR YOU!! EVEN WITH YOUR COMBINED POWER, NOTHING CAN REACH ME!",
+      "¡Qué mal! ¡No puedo escucharlos! ¡Incluso con su poder combinado, nada puede alcanzarme!"
+    ],
+    [
+      69,
+      "I ENDED UP WASTING A LOT OF MAGIC POWER IMMATURELY... THANKS TO THAT, MY TIME FOR COMPLETION IS NOW SLIGHTLY DELAYED...",
+      "Terminé desperdiciando mucho poder mágico de manera inmadura... Por eso, ahora tardaré un poco más en completarme..."
+    ],
+    [
+      70,
+      "NO ONE CAN EVEN HEAR THEM DIE.",
+      "Nadie puede siquiera escucharlos morir."
+    ],
+    [
+      72,
+      "...? THE NUMBER OF TENTACLES HAS SHRUNK BY MORE THAN I EXPECTED...",
+      "¿...? El número de tentáculos se ha reducido más de lo que esperaba..."
+    ],
+    [
+      73,
+      "WHAT ARE THE COMBATANTS DOING? ARE THE PEOPLE IN THE CITY STRONGER THAN I THOUGHT? THE COMBATANTS NEED SOME HELP. HUH... NO, MY PRIORITY RIGHT NOW IS TO COMPLETE MYSELF FIRST.",
+      "¿Qué están haciendo los combatientes? ¿Acaso las personas de la ciudad son más fuertes de lo que pensé? Los combatientes necesitan ayuda. Eh... No, mi prioridad ahora mismo es completarme primero."
+    ],
+    [
+      74,
+      "I SHOULD FOCUS MY MAGIC CONSUMPTION ON IT. AFTER THAT...",
+      "Debería concentrar mi consumo de magia en ello. Después de eso..."
+    ]
+  ],
+  "excluded": [
+    {
+      "id": 6,
+      "reason": "The visible utterance is cut off at RUN AW-/CORRE LE-; no ending is inferred"
+    },
+    {
+      "id": 9,
+      "reason": "Overlapping fragment of the longer paragraph in8, not a separate complete meaning unit"
+    },
+    {
+      "id": 11,
+      "reason": "Duplicate of the complete photographed question labeled10"
+    },
+    {
+      "id": 14,
+      "reason": "Conditional leads into unfinished UNLESS; avoid labeling an incomplete meaning unit"
+    },
+    {
+      "id": 16,
+      "reason": "Duplicate fragment of the unfinished utterance14"
+    },
+    {
+      "id": 19,
+      "reason": "Same complete balloon used to transcribe17, not another independent pair"
+    },
+    {
+      "id": 22,
+      "reason": "Duplicate fragment of the complete paragraph21"
+    },
+    {
+      "id": 26,
+      "reason": "Continuation included in the complete photographed semantic sequence25"
+    },
+    {
+      "id": 31,
+      "reason": "Duplicate of the complete balloon30"
+    },
+    {
+      "id": 32,
+      "reason": "Chapter title, excluded from dialogue training"
+    },
+    {
+      "id": 54,
+      "reason": "Published sacred-arms versus art-of-light terminology is not independently validated as equivalent; no guessed canonical term is trained"
+    },
+    {
+      "id": 75,
+      "reason": "Advertisement aligned to a different-language credits page, not bilingual dialogue"
+    },
+    {
+      "id": 77,
+      "reason": "Chapter title, excluded from dialogue training"
+    },
+    {
+      "id": 79,
+      "reason": "Duplicate of the complete same photographed balloon labeled78"
+    },
+    {
+      "id": 82,
+      "reason": "Named introduction is cut off at ALBER- in both languages; no name completion is inferred"
+    },
+    {
+      "id": 102,
+      "reason": "Duplicate of the full photographed paragraph100"
+    },
+    {
+      "id": 107,
+      "reason": "The thought is an unfinished IF clause without its consequence; no ending is invented"
+    },
+    {
+      "id": 110,
+      "reason": "The second sentence stops in an unfinished conditional; its unseen consequence is not inferred"
+    },
+    {
+      "id": 112,
+      "reason": "Duplicate overlapping fragment of unfinished110"
+    },
+    {
+      "id": 60,
+      "reason": "The DREGS component of the named spell is missing from the Spanish edition; its canonical equivalence is not independently established"
+    },
+    {
+      "id": 61,
+      "reason": "Chapter-number/title heading, not a dialogue"
+    },
+    {
+      "id": 65,
+      "reason": "The published English visibly says SERVE YOURSELF rather than the presumed idiom SERVES YOU RIGHT; neither an invented English correction nor the Spanish literal mistranslation is treated as gold"
+    },
+    {
+      "id": 71,
+      "reason": "Same uncertain DREGS named-spell equivalence as60; no assumed terminology mapping is used"
+    }
+  ],
+  "annotation_notes": {
+    "1": "The full English balloon is transcribed from pixels; plural THEY is preserved, unlike singular Spanish raw wording.",
+    "3": "Almost is explicit in English and is restored in Spanish; no model output was consulted.",
+    "7": "Published injustificables is corrected to injustificadas for the English unwarranted meaning.",
+    "17": "The complete same balloon is visible in the overlap crop19; it supplies the final insult missing from raw OCR.",
+    "21": "FOR MY SAKE is rendered por mí, correcting the published por mi parte.",
+    "25": "Two adjacent photographed clauses25/26 form an explicit grammatical continuation; both languages are visible, with no assumed new dialogue.",
+    "29": "The English pixels say SHADOW WOLF, while the Spanish edition says Onda Sombría; the reference explicitly preserves WOLF as Lobo.",
+    "35": "The explicit OF YOURS ownership is retained as tuya.",
+    "37": "The English speaker I is explicitly preserved as yo; the published infinitive can attribute the destruction to clones instead.",
+    "38": "The reference restores the idiomatic question about what is happening with the object, from the English pixels.",
+    "39": "This is the entire photographed predicate balloon in both languages, not an OCR-clipped transcript. No antecedent is invented.",
+    "40": "Singular English DOOR is retained as puerta; the published plural puertas is not copied.",
+    "8": "The wider crop shows the complete paragraph, including the30-second clause. Explicit MY and STILL are preserved in Spanish; they were implicit or omitted in the published reference.",
+    "18": "The wider crop confirms the entire nominal balloon and ME. This is an intentional photographed nominal utterance, not clipped OCR; no predicate is invented.",
+    "24": "The wider crop confirms the tag question DONT YOU. The published que piensas changes its force; the reference restores confirmation.",
+    "42": "The English instruction/telling-us speech act is kept explicit rather than changing it to merely wanting us to stay.",
+    "43": "WE is inclusive; the Spanish edition uses TIENEN. The reviewed target preserves tenemos and both urgency/location clauses.",
+    "44": "The English object is singular IT and explicitly HERE; the reviewed target restores both rather than plural los.",
+    "49": "The English present-perfect continuing belief is preserved as he vivido rather than the published vivia.",
+    "50": "THEM is the gender-neutral reference to the singular being addressed across the photographed exchange, not a fabricated group of gods. Natural Spanish pronoun equivalence is allowed.",
+    "55": "Meaningful item footnote, not an onomatopoeia. The translators Nt prefix is not in the English and is not supplied as a model label.",
+    "58": "Complete photographed nominal utterance ending in an intentional ellipsis; no unseen continuation is inferred.",
+    "52": "The wider crop confirms the complete final GOD question, not an ending inferred from Spanish.",
+    "57": "The wider crop confirms the full Spanish AMPLIFICACION and English whole coloured-background statement.",
+    "78": "The complete source is jointly visible in overlap79, same balloon. No extra sentence is inferred.",
+    "83": "The published Spanish omits IN CHARGE OF EXPOSITION. The reference explicitly restores that visible narrative role rather than replacing it with nerd.",
+    "84": "Meaningful in-universe narrative recap/title, not the excluded chapter-number heading. The English exposition-girl role is restored; decorative heart is not a meaningful word.",
+    "87": "The English pixels explicitly say BRIBE; the published fortuna changes this into merely a large amount of money. The reviewed label restores soborno.",
+    "89": "English HERE is explicit and restored in Spanish.",
+    "90": "CRUTCH is metaphorical assistance in this photographed context; no literal mobility aid is invented.",
+    "92": "The English accusation BRIBING is preserved as que soborna instead of the published mimado. COMO TU is not added when absent from the English.",
+    "94": "ROYALTY is membership, rendered pertenezco a la realeza instead of identification with the entire institution.",
+    "97": "The modal conditional and warning are retained, with a natural mouth-off idiom and no extra object invented.",
+    "100": "Overlap102 supplies the whole same paragraph. The source says impressions COUNT, not that they are MOST important; the reference removes that unsupported superlative.",
+    "104": "The bullying, conditional, personal action and promptness are all retained without a singular/plural antecedent mismatch.",
+    "105": "The family-privilege slang NEPOBABY is preserved by the Spanish idiom hijo de papa, rather than just rich/spoiled. CRAZY as intensifier is retained.",
+    "106": "The visible opening BULLYING SUCKS, missed in raw OCR, is included; no outside context is used.",
+    "108": "The source vocative GUYS is explicitly retained as chicos.",
+    "109": "Complete photographed imperative with an intentional ellipsis. No unseen object or following clause is invented.",
+    "111": "The whole photographed two-sentence utterance is transcribed; the explicit lines are retained as mis frases.",
+    "96": "The wider crop confirms the final WANT. Indirect causation, the quoted euphemism and timing are preserved.",
+    "62": "The denial is meaningful; repetition is preserved in the label but is not three independent corrections or an onomatopoeia score.",
+    "63": "Only the complete right-hand monologue is used. The adjacent left balloon belongs to another speaker and is excluded. IN A SPLIT SECOND is speed, restored instead of the published en cualquier segundo.",
+    "67": "The source little pet is retained as pequena mascota rather than asserting that it is a dog. The future clause is retained; the laugh is not scored as a meaningful fix.",
+    "68": "The explicit NOTHING scope is preserved instead of changing it into only the addressees inability to reach the speaker.",
+    "69": "The target is a faithful natural paraphrase of the explicit current slight completion delay and wasted magic; no new completion event is invented.",
+    "73": "Both complete photographed inner-thought balloons belong to the same visibly identified speaker. All questions, the self-correction and FIRST are retained; no other speaker is mixed.",
+    "74": "The entire photographed utterance, including the temporal marker, is retained without inventing its unseen continuation."
+  },
+  "selection_sha256": "a539ef876054ecc1454a025bf07604271f83efffe156609dc562367df621c095",
+  "all_selected_proposals_reviewed": true,
+  "model_answers_used_for_annotation": false,
+  "training_has_not_started": true,
+  "reference_faithfulness_edits_explicit": true,
+  "review_parts": [
+    {
+      "path": "curation-batch01.json",
+      "sha256": "5f8d50dc0536d034773e6776526b5356ca00aaaaae552b9a51f3a1d4b8dc8155"
+    },
+    {
+      "path": "curation-batch02.json",
+      "sha256": "cf40fda2fc1fb09367508ce4e0d5ffde0ae026ab85cf44c51fdf666ca828277f"
+    },
+    {
+      "path": "curation-batch03.json",
+      "sha256": "4e73228601c0d7fb51c81f42cc147ba6a28b83cf4438f0facf403fb5e4b3c065"
+    },
+    {
+      "path": "curation-validation.json",
+      "sha256": "87c2f27a03883a5de0c37b8f8d2d50619dc681fd9752b0898a2751fc7d88bcea"
+    }
+  ],
+  "preview_first58_verified_identical_to_final": true
+}
