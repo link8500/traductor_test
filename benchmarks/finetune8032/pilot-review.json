@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "experiment": "8032-expanded-opus-lora",
+  "application_build_unchanged": "803001",
+  "actual_weight_training_completed": true,
+  "reviewed_bilingual_proposals_total": 184,
+  "accepted_original_training_pairs": 86,
+  "packed_training_sequences": 130,
+  "validation_pairs": 14,
+  "previous_known_test_pairs_not_reopened_for_training": 13,
+  "newly_opened_test_pairs": 16,
+  "pages_total_bounded": 252,
+  "full_chapters_reviewed": false,
+  "validation_errors": {
+    "before": 5,
+    "after": 3,
+    "relative_reduction_percent": 40,
+    "context_unresolved": 3
+  },
+  "new_test": {
+    "complete_corrections": 1,
+    "partial_content_recovery_with_quality_defect": 1,
+    "new_content_losses": 0,
+    "unapproved_core_outputs_before": 4,
+    "unapproved_core_outputs_after": 3,
+    "context_unresolved": 2
+  },
+  "old_saved_core_control": {
+    "regions": 229,
+    "views": 124,
+    "changed_regions": 81,
+    "complete_captured_corrections": 12,
+    "new_captured_regressions": 3,
+    "additional_partial_losses": 2,
+    "new_source_artifacts": 1,
+    "not_comparable_to_production_failure_rate": true
+  },
+  "optimizer_steps": 160,
+  "adapter_sha256": "476d116abddd15a99c2bb083fddb6f3a2dff8d8736d37f6513edce5bcb5ccf4a",
+  "frozen_base_unchanged": true,
+  "checks_passed": 16,
+  "future_untouched_test_chapters": 41,
+  "newly_opened_test_no_longer_blind_for_future_tuning": true,
+  "installed_app_fixed_control": {
+    "unapproved_views": 56,
+    "total_views": 124,
+    "historical_relative_reduction_percent": 9.6774193548
+  },
+  "application_weights_modified": false,
+  "experiment_promoted": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "reason_not_promoted": "The newly opened test remains imperfect, and the old control exposes new meaning/quality regressions; do not replace the installed model on a small average improvement.",
+  "free_disk_bytes": 13359976448,
+  "evidence": [
+    {
+      "path": "benchmarks/finetune8032/protocol.json",
+      "sha256": "3cd74c95dd88e7e2bdc42b71d38aec3d64e69e633851d9b438a8bee6a3b7808e"
+    },
+    {
+      "path": "benchmarks/finetune8032/dataset.json",
+      "sha256": "a08c77a889407467e2d75ff3e82d943dc0e61556a56535e97f424584e4e5cd82"
+    },
+    {
+      "path": "benchmarks/finetune8032/validation-meaning-decisions.json",
+      "sha256": "67bae2ce40d9fd9fd4df3b5567ef36f06f437448bbb10900fbd9eff7cafbfd40"
+    },
+    {
+      "path": "benchmarks/finetune8032/fresh-test-protocol.json",
+      "sha256": "d77f045365ed6bb334af69a0b66dbf13fb089f74919b82a83ddb962a9993ebba"
+    },
+    {
+      "path": "benchmarks/finetune8032/fresh-test-labels.json",
+      "sha256": "f1aade2c9b87beae0ad62bf31df09228ee00eff76bf17f442160b4860eb3e2f9"
+    },
+    {
+      "path": "benchmarks/finetune8032/fresh-test-meaning-decisions.json",
+      "sha256": "041ca05439c104dd124aad6cf78618438b10375e2946aeafe64bb945a0f53386"
+    },
+    {
+      "path": "benchmarks/finetune8032/regression-core-meaning-decisions.json",
+      "sha256": "2a127ad90443bf7a3cea94a1de995038d59f59f9519d8a7fcdaa82814a9ce830"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/summary.json",
+      "sha256": "73a874c37566c4169a25eb20f508663f18477c132cc7ffbcd899ce11d84c20db"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/run-input-proof.json",
+      "sha256": "65afb3c7d1542b37c65d1d8dfb6238b93ea92365db1a1f58b98883c13d6de5cf"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/training-log.json",
+      "sha256": "12b33879b800c3ef458b472cf3e7f6c1e2f07637a8e49e6b9493f5abf4e3f826"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/baseline-validation.json",
+      "sha256": "b8050bc5b7f56b02ff8dc5f062a5f3d2e09e0cd4ec3fbd2a35b3f2b744dbbf6e"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/candidate-validation.json",
+      "sha256": "b6b70a15e4a781a9cf8137ca46848a506f813f6d7848ba930d33fbf43adef3ab"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/fresh-test-summary.json",
+      "sha256": "747b2e50bea2a364cfa24bdc07f4a0c9d30c13b82a3b61fd61cf51db9341df7b"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/fresh-test-baseline.json",
+      "sha256": "006307f15527ebb6c0bc3698d1327cbde79db86e6ba9fc372b2810f7fa748f9c"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/fresh-test-candidate.json",
+      "sha256": "608ad6f0772ef60560d5d3e6978f5d8774b711b29c4950415553fb48c19d26a5"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/regression-core-summary.json",
+      "sha256": "515c23eeb493a0a395843aabd5b30a1b86c8f530bccf628ac06f8c681b0815bc"
+    },
+    {
+      "path": "build/finetune8032/lora-pilot/regression-core-changes.json",
+      "sha256": "48400073ccdf42d0c44a977c00e391dad5370f9cedf7025ac1de3566ea1d5399"
+    },
+    {
+      "path": "build/full-comics/finetune8032-tests.log",
+      "sha256": "9d30b4324ec5294a7e6672f501c48cb0add590ac0c98824f9a4025d17998b10b"
+    }
+  ]
+}

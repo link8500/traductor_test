@@ -1,0 +1,44 @@
+{
+  "reviewer": "assistant_visual_pixel_review",
+  "selection": "build/finetune8031/review-selection.json",
+  "sheets_inspected": [8,9,10,11,12,13,14,15],
+  "approved": [
+    [103,"OH, YOU'RE READING A NEWSPAPER? I THOUGHT THAT YOU HAD NO INTEREST IN THAT SORT OF THING.","Oh, ¿estás leyendo un periódico? Pensé que no te interesaban ese tipo de cosas."],
+    [104,"I'M BORED. I ALREADY READ EVERY BOOK IN THE LIBRARY,","Estoy aburrido, ya que leí todos los libros de la biblioteca,"],
+    [105,"BUT THANKS TO THAT I LEARNED SOMETHING GOOD.","Pero gracias a eso aprendí algo bueno."],
+    [108,"I KNOW! LET'S GO TO A DUNGEON!","¡Ya sé! ¡Vayamos a una mazmorra!"],
+    [112,"I CAN MAKE UP FOR THAT WITH MAGIC AND TRICKS!","¡Puedo compensarlo con trucos y magia!"],
+    [113,"IT LOOKS EXACTLY LIKE YOU!","¡Es exactamente como tú!"],
+    [114,"IT DOESN'T JUST LOOK THE SAME, I MADE THE BARK GROW ALL OVER IT AND TURN INTO BONES AND MEAT AND SKIN WHILE EMULATING BLOOD AND NERVOUS SYSTEMS! PLUS, IT EVEN MAKES SIMPLE MOVEMENTS AUTOMATICALLY!","¡No solo se ve igual, hice que la corteza creciera por todos lados y se convirtiera en carne y huesos, también piel, al mismo tiempo que simula el flujo de la sangre y el sistema nervioso! ¡Además, incluso puede realizar movimientos sencillos por su cuenta!"],
+    [118,"YEAH, PREVIOUSLY","Sí, anteriormente..."],
+    [119,"NO... IF IT WAS SO EASY I WOULD HAVE DONE IT LONG AGO. THE MAIN PROBLEM IS SILPHA.","No... Si fuera tan fácil lo hubiera hecho desde hace tiempo. El problema principal es Silpha."],
+    [120,"YES. ABOUT 0.7 MILIMETRES...","Sí, como unos 0.7 milímetros..."],
+    [121,"LLOYD-SAMA. YOU HAVE GROWN AGAIN.","Lloyd-sama, has crecido de nuevo."],
+    [123,"YEAH. I DON'T THINK I CAN FOOL HER WITH THIS SIMPLE DANCE ROUTINE.","Sí, no creo poder engañarla con algo como un simple baile."],
+    [124,"OKAY! MY GREAT ESCAPE WAS A SUCCESS!","¡Bien! ¡Mi gran escape ha sido un éxito!"],
+    [125,"YES! I CAN HEAR YOU!","¡Sí! ¡Te escucho!"],
+    [127,"I THINK... I'VE SUCCESSFULLY BECOME YOUR BODY DOUBLE.","Creo... que ha sido un éxito el volverme tu doble."],
+    [128,"LLOYD-SAMA IS CARING ABOUT HIS APPEARANCE!","¡Lloyd-sama se preocupa por su apariencia!"],
+    [132,"WOO! BE WARY OF SILPHA AND CONTINUE PLAYING THE PART OF LLOYD!","¡Oh! ¡Ten cuidado con Silpha y sigue haciendo tu papel como Lloyd!"]
+  ],
+  "excluded": [
+    [106,"Reference changes the dungeon difficulty description into an explicit conquering agent"],
+    [107,"The fragment depends on the preceding balloon; not a standalone clean pair"],
+    [109,"Reference crop is incomplete"],[110,"Reference grammar/reading is uncertain in the proposed crop"],
+    [111,"Reference changes grammatical person; excluded from this controlled label set"],
+    [115,"Reference drops the explicit degree of amazement; omitted from the small pilot"],
+    [116,"Duplicate fragment of the complete balloon transcribed at114"],[117,"Duplicate fragment of115"],
+    [122,"Duplicate fragment of the complete balloon transcribed at123"],
+    [126,"Two balloons/speakers were merged by the proposal geometry; not accepted"],
+    [129,"The source/reference differ in how the spirit is divided/transferred"],
+    [130,"The reference does not clearly preserve the distinction between inventing and accomplishing"],
+    [131,"Both proposed crops end in an incomplete word; not completed by guessing"]
+  ],
+  "target_faithfulness_corrections": [
+    {"id":114,"note":"Plus is rendered as Además rather than the reference's causal Así que."},
+    {"id":119,"note":"Added principal to preserve the printed source MAIN."},
+    {"id":121,"note":"Added de nuevo to preserve the printed source AGAIN."},
+    {"id":124,"note":"Added gran to preserve the printed source GREAT."}
+  ],
+  "notes": "Accepted source strings are complete photographed balloons, including text split into multiple OCR proposals. Target spelling and printed line-wrap hyphenation are normalized. Explicit target corrections are supervised annotations checked against the English pixels, not claims that the Spanish publisher printed those added words. No model-generated translation was consulted."
+}

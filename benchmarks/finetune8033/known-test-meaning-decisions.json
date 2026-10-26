@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_source_reference_and_output_meaning_review",
+  "scope": "All16 known clean-source test outputs, now a previously inspected evaluation-only control, not a new blind test",
+  "entries": [
+    {
+      "id": 1,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 2,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 3,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 4,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 5,
+      "before": "incomplete",
+      "after": "quality_defect",
+      "partial_content_recovery": true,
+      "note": "The omitted greeting is restored, but the literal N-agradable conocerte remains defective Spanish; this is not counted as a complete usable-dialogue correction."
+    },
+    {
+      "id": 11,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 13,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The implicit Spanish subject remains a valid reference to she; this reversion is not a new loss."
+    },
+    {
+      "id": 14,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The abbreviated named spell translation needs terminology context; do not manufacture a confirmed error by enforcing a literal title match."
+    },
+    {
+      "id": 15,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The question is still recovered. Lowercase tao is a typography issue separate from this meaning fix."
+    },
+    {
+      "id": 16,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The isolated English does not identify speaker gender; the male article alone cannot establish a model error."
+    },
+    {
+      "id": 19,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "HOT GUY is still translated as a temperature/sexual literal rather than attractiveness."
+    },
+    {
+      "id": 20,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "PARTY means an adventuring group; the political party and celebration readings are both wrong."
+    },
+    {
+      "id": 21,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The meaningful NOT EVEN LOOKING is retained. The filler and character speech suffix are excluded from content-loss counts."
+    },
+    {
+      "id": 22,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 23,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 24,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The men/adventurer-friends self-repair remains awkward, but both meaningful terms and the inability to find them are present; filler omission is not counted as a new content loss."
+    }
+  ],
+  "all16_outputs_reviewed": true,
+  "complete_usable_dialogue_corrections": 1,
+  "partial_content_recoveries_without_complete_approval": 1,
+  "new_confirmed_content_losses": 0,
+  "unapproved_core_outputs_before": 4,
+  "unapproved_core_outputs_after": 3,
+  "unresolved_context_cases": 2,
+  "quality_defects_count_as_unapproved_not_as_complete_corrections": true,
+  "test_label_sha256": "f1aade2c9b87beae0ad62bf31df09228ee00eff76bf17f442160b4860eb3e2f9",
+  "baseline_sha256": "006307f15527ebb6c0bc3698d1327cbde79db86e6ba9fc372b2810f7fa748f9c",
+  "candidate_sha256": "cfdb281fed4d8daac9e1f91893062e1146705a3f0a235a2b49e1fe8e7f466a27",
+  "app_modified": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "candidate_not_promoted": true,
+  "reason_not_promoted": "Regularization retains two new old-control regressions and one additional partial meaning loss. Small validation improvement does not justify replacing the app model.",
+  "test_already_inspected_not_blind": true,
+  "previous_candidate_sha256": "608ad6f0772ef60560d5d3e6978f5d8774b711b29c4950415553fb48c19d26a5",
+  "outputs_reused_by_exact_identity": 14,
+  "additional_changed_outputs_manually_reviewed": 2
+}

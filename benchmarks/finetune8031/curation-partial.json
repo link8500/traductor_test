@@ -1,0 +1,37 @@
+{
+  "reviewer": "assistant_visual_pixel_review",
+  "selection": "build/finetune8031/review-selection-partial.json",
+  "sheets_inspected": [1,2,3,4,5,6,7,8],
+  "scope": "Initial training chapter proposals inspected while remaining OCR completes. Entries must match the final selection by page and bounds before training.",
+  "approved": [
+    [5, "A PARTING GIFT FOR YOU TO TAKE TO THE UNDERWORLD, COMMONER.", "Un regalo de despedida para que te lleves al inframundo, plebeyo."],
+    [6, "SHOW ME ONE OF YOUR... MAGIC ATTACKS.", "Muéstrame uno de tus... ataques mágicos."],
+    [7, "THE THREE MOST IMPORTANT THINGS FOR A MAGICIAN... ARE PEDIGREE, TALENT, AND EFFORT.", "Las tres cosas más importantes para un mago... son el linaje, el talento y el esfuerzo."],
+    [8, "WILLIAM BOLT, THE FATHER OF ALL MAGES, SAID THAT.", "William Bolt, el padre de todos los magos, dijo eso."],
+    [10, "DO NOT MISUNDERSTAND; \"EFFORT\" IS NOT THE ONLY PREREQUISITE. TO PUT IT ANOTHER WAY, NO MATTER HOW HARD ONE WORKS,", "No lo malinterpretes; el esfuerzo no es el único requisito. Para decirlo de otra manera, no importa lo duro que uno trabaje."],
+    [11, "IF THEY WERE NOT BORN TO THE RIGHT PARENTS, OR WITH A GOOD AMOUNT OF TALENT; CURSED, LIKE YOU WERE...", "Si no nacieron de los padres adecuados, o con una gran cantidad de talento; malditos, como tú..."],
+    [12, "THEN MAGIC WILL NEVER BE A SKILL OF YOURS.", "Entonces la magia nunca será una habilidad tuya."],
+    [14, "TO STUDY EVEN MORE... TO MASTER...", "Estudiar aún más para dominarla..."],
+    [17, "SALOOM HAS A 7TH PRINCE!", "¡Saloom tiene un séptimo príncipe!"],
+    [18, "UNDERSTOOD, WE'LL KEEP IT A SECRET.", "Entendido, guardaremos el secreto."],
+    [19, "THOSE OF ROYAL BLOOD MUST AT LEAST TRY HUNTING...", "Los de sangre real deben al menos intentar cazar..."],
+    [20, "DARN... HE GOT AWAY AGAIN.", "Maldita sea... Escapó de nuevo."],
+    [21, "THAT'S THE SEVENTH PRINCE, ISN'T IT? HE'S SO MUCH YOUNGER THAN HIS OTHER SIBLINGS THAT HE WON'T EVEN BE CONSIDERED AN HEIR... THERE'S NO POINT IN GIVING HIM SPECIAL TREATMENT.", "Es el séptimo príncipe, ¿no es así? Es mucho más joven que sus otros hermanos que ni siquiera será considerado como heredero... No tiene sentido darle un trato especial."],
+    [22, "DON'T BE STUPID.", "No seas estúpido."],
+    [25, "HE UNDERSTOOD OUR LANGUAGE RIGHT OUT OF THE WOMB,", "Entendió nuestro lenguaje al salir del vientre materno,"],
+    [27, "THEN STARTED RIFLING THROUGH SPELLBOOKS INSTEAD OF PICTURE BOOKS!", "¡Luego empezó a hojear libros de hechizos en lugar de libros ilustrados!"],
+    [28, "AND MOST OF ALL...", "Y sobre todo..."],
+    [30, "THE FATHER OF MAGIC? DON'T BE RIDICULOUS...", "¿El padre de la magia? No seas ridículo..."]
+  ],
+  "excluded": [
+    [1,"Cover promotion, not dialogue"],[2,"Cover promotion and incomplete OCR"],[3,"Cover promotion and clipped sentence"],
+    [4,"Chapter title, excluded from the dialogue pilot"],[9,"Partial duplicate of the complete balloon transcribed at10"],
+    [13,"Fragment with a tense/mood adaptation in the reference; not a clean standalone training label"],
+    [15,"Series title, not dialogue"],[16,"Elongated spelling, omitted from this small initial label set"],
+    [23,"Partial duplicate of the complete balloon transcribed at21"],[24,"Partial duplicate of26"],
+    [26,"Reference changes source present tense to past; not used as an exact supervised label"],
+    [29,"The English crop is incomplete; requires an expanded pixel review before approval"],
+    [48,"Chapter title, excluded from the heldout dialogue set"]
+  ],
+  "notes": "Line wraps and printed hyphenation are joined; source omissions were expanded only from the photographed balloon, never from a translation model. No candidate-model output was consulted. Candidate49 has been inspected but is not approved pending its full source/reference transcription."
+}

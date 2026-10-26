@@ -1534,3 +1534,38 @@ incluye43 tablas y61.205 tokens, sin pérdidas ni cambios de orden. Ese cotejo
 verifica el almacenamiento y la procedencia; no aprueba su significado.
 La revisión palabra por palabra y menos del5 % de fallos por uso siguen
 pendientes. No se crea APK ni se utiliza el teléfono.
+
+
+## Adaptación real de pesos: 8031–8033
+
+El nuevo material contiene217 parejas bilingües; se separó por capítulo antes
+de entrenar. Se cotejaron184 propuestas con sus imágenes y se aceptaron129
+etiquetas:86 para entrenamiento,14 para validación y29 de dos pruebas.
+Las252 imágenes conservadas son selecciones acotadas de siete parejas, no
+capítulos completos revisados. Quedan41 capítulos de prueba sin inspeccionar.
+
+Se entrenaron tres adaptadores LoRA de294.912 parámetros sobre el OPUS
+original, con base congelada y pesos de la app intactos. El primer piloto
+no corrigió contenido del lote reservado y añadió una omisión. Los dos
+ensayos ampliados usan86 diálogos reales y130 concatenaciones de esos mismos
+diálogos. En la validación fija, los errores confirmados pasan de5 a3 sobre14
+diálogos; tres casos necesitan contexto. El40 % es una reducción relativa
+solo de esos cinco errores, no una probabilidad de fallo de la aplicación.
+
+La nueva prueba reservada de16 diálogos produce una corrección completa y una
+recuperación parcial con redacción defectuosa, sin pérdidas nuevas. Tras
+inspeccionarse, se conserva como control conocido para el tercer ensayo y
+no se vuelve a llamar prueba ciega. Sus referencias no entran en gradientes.
+
+En el núcleo flotante sobre las229 fuentes OCR de124 vistas, el segundo
+adaptador corrige12 fragmentos de contenido pero introduce3 regresiones y2
+pérdidas parciales adicionales. El tercero, con penalización respecto a la
+base y dropout desactivado, corrige9 e introduce2 regresiones y1 pérdida
+parcial adicional. Ambos copian un artefacto de la fuente. No son nuevos
+usos completos ni repiten las reparaciones y recuperaciones de producción.
+
+Pasaron16 guardas del segundo ensayo y10 del tercero. No se incorpora ninguno
+a la app. El control instalado sigue con56 de124 vistas sin aprobar y la
+reducción histórica de9,68 %. No se entrenaron pesos OCR; la lectura de cada
+palabra y el objetivo de menos del5 % por uso siguen pendientes. Protocolos,
+criterios, hashes y límites están en[la revisión de adaptación local](local-model-adaptation.md).

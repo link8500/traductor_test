@@ -1,0 +1,24 @@
+{
+  "reviewer":"assistant_visual_pixel_review",
+  "selection":"build/finetune8031/review-selection.json",
+  "sheets_inspected":[16,17,18,19],
+  "approved":[
+    [143,"IS THIS THE PART OF THE FOREST WHERE MAGICAL BEASTS WERE SIGHTED?","¿Esta es la parte del bosque donde fueron vistas las bestias mágicas?"],
+    [144,"NO. I HEARD IT'S CLOSER TO THE LAKE AHEAD.","No. Escuché que está más cerca del lago, delante."],
+    [145,"I CAN'T WAIT TO SEE MY ENCHANTED WEAPONS, AS WELL AS THE MAGIC BEASTS!","¡No puedo esperar a ver mis armas encantadas, así como las bestias mágicas!"],
+    [146,"YOU SEEM TO BE LOOKING FORWARD TO SEEING THEM, LLOYD-SAMA.","Parece que tienes ganas de verlas, Lloyd-sama."],
+    [148,"OF COURSE! GETTING TO BRAZENLY LEAVE THE MANSION LIKE THIS IS THE RAREST OF RARE FOR ME!","¡Por supuesto! ¡Salir descaradamente así de la mansión es lo más raro para mí!"],
+    [149,"SILPHA REALLY CAN'T TAKE HER EYES OFF LLOYD, HUH.","Silpha realmente no puede quitarle los ojos de encima a Lloyd, ¿eh?"],
+    [150,"OF COURSE. YOU ARE LLOYD'S BODYGUARD AND INSTRUCTOR, AFTER ALL.","Desde luego. Después de todo, eres la guardaespaldas e instructora de Lloyd."],
+    [151,"ALBERTO-SAMA, THANK YOU FOR ALLOWING ME TO COME ALONG THIS TIME.","Alberto-sama, le agradezco por permitirme acompañarlos esta vez."],
+    [152,"BESIDES, YOU'RE INTERESTED IN THEM TOO, AREN'T YOU?","Además, también estás interesada en ellas, ¿no es así?"],
+    [153,"LIKE YOU SAID, I AM MERELY HIS INSTRUCTOR.","Como dice, simplemente soy su instructora."],
+    [154,"NO, NO! THAT'S NOT ALL, IS IT? NO MATTER HOW I THINK ABOUT IT, THE WAY YOU LOOK AT LLOYD IS...","¡No, no! Eso no es todo, ¿verdad? No importa cómo lo piense, la forma en que miras a Lloyd es..."],
+    [155,"W-WAIT! I'M JUST KIDDING!","¡E-espera! ¡Solo estoy bromeando!"],
+    [156,"LOOKS LIKE WE HAVE GUESTS.","Parece que tenemos invitados."],
+    [158,"YOU SAW THIS COMING, DON'T LIE!","¡No mientas, lo veías venir!"]
+  ],
+  "excluded":[[147,"Partial duplicate of the complete balloon transcribed at148"],[157,"Reference crop ends in an incomplete name/word; no completion is inferred from English"]],
+  "target_faithfulness_corrections":[{"id":149,"note":"Preserved source REALLY with realmente; removed the repeated printed verb and normalized the discourse tag to Spanish."}],
+  "notes":"Validation references never enter gradient computation. Speaker/addressee gender is sometimes provided by the artwork but absent from the isolated English input: a grammatical gender alternative must not automatically be graded as a semantic regression. Automatic reference-similarity metrics cannot decide this."
+}

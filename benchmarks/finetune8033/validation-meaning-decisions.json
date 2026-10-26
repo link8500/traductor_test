@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_source_reference_and_output_review",
+  "scope": "All 14 fixed clean-source validation outputs, not a production app or full-chapter evaluation",
+  "entries": [
+    {
+      "id": 143,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 144,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The forward location modifier is absent."
+    },
+    {
+      "id": 145,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 146,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "Antecedent gender is not specified in the isolated English sentence."
+    },
+    {
+      "id": 148,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The malformed superlative remains. Better sentence boundaries do not constitute a content correction."
+    },
+    {
+      "id": 149,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The content is preserved. The untranslated discourse filler is a separate quality issue, excluded from meaningful-content scoring by the user."
+    },
+    {
+      "id": 150,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The opening affirmative clause disappears. Addressee gender also needs context."
+    },
+    {
+      "id": 151,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 152,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "Speaker/addressee and antecedent gender are not given to the text-only core."
+    },
+    {
+      "id": 153,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The alternate idiomatic wording preserves the same meaning; gender remains unavailable in isolated English."
+    },
+    {
+      "id": 154,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The explicit confirmation question is recovered, preserving the rest of the dialogue."
+    },
+    {
+      "id": 155,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The instruction to wait is recovered; the hesitation stutter is not required for this content decision."
+    },
+    {
+      "id": 156,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 158,
+      "before": "acceptable",
+      "after": "acceptable"
+    }
+  ],
+  "baseline_confirmed_content_errors": 5,
+  "candidate_confirmed_content_errors": 3,
+  "complete_content_corrections": 2,
+  "new_content_losses": 0,
+  "unresolved_context_cases": 3,
+  "relative_reduction_of_confirmed_validation_content_errors_percent": 40.0,
+  "validation_sample_size": 14,
+  "remaining_known_content_errors": 3,
+  "filler_not_counted_as_content_fix_or_loss": true,
+  "automatic_score_is_not_error_probability": true,
+  "application_weights_modified": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "ready_for_application": false,
+  "next_gate": "Evaluate a previously uninspected test chapter, freeze its pixel labels before generation, then inspect the old regression control; never train on these new test labels.",
+  "experiment": "8033-regularized-weight-trial",
+  "baseline_outputs_sha256": "b8050bc5b7f56b02ff8dc5f062a5f3d2e09e0cd4ec3fbd2a35b3f2b744dbbf6e",
+  "candidate_outputs_sha256": "25370508fb7430312f2673e5c03919c21726a3049287a6af3562a3484606725b",
+  "verdicts_reused_by_exact_output_identity": 13,
+  "additional_outputs_manually_reviewed": 1
+}

@@ -1,0 +1,30 @@
+{
+  "reviewer": "assistant_visual_pixel_review",
+  "selection": "build/finetune8031/review-selection-partial.json",
+  "sheets_inspected": [8,9,10,11,12,13,14],
+  "scope": "Heldout labels only. None of these pairs may enter training or gradient computation.",
+  "approved": [
+    [50,"NO, YOU ARE THE ONE WHO IS AMAZING, GRIMOIRE.","No, eres tú el que es increíble, Grimoire."],
+    [53,"EXACTLY HOW IMMORTAL ARE YOU, I WONDER...?","Exactamente cuán inmortal eres, me pregunto...?"],
+    [54,"MAJIN DOESN'T DIE FROM MAGIC, RIGHT!","¡Majin no muere por magia, verdad!"],
+    [55,"YES... THOUGH WE DO STILL FEEL PAIN...","Sí... aunque todavía sentimos dolor..."],
+    [57,"WHY IS HE STARING AT ME LIKE SOME KIND OF LAB RAT...","¿Por qué me mira como una especie de rata de laboratorio...?"],
+    [60,"BUT OF COURSE!","¡Pero por supuesto!"],
+    [63,"HOW IS THIS, YOU SHITTY LITTLE BRAT!!","¡¡Cómo es esto, pequeño mocoso de mierda!!"],
+    [64,"UHM, IS IT OKAY FOR ME TO BE SO CLOSE TO YOU?","Uhm, ¿está bien que esté tan cerca de ti?"],
+    [65,"C'MON NOW. GET IN.","Vamos ahora. Entra."],
+    [68,"WH-WHAT THE FUCK... MAGIC THIS DENSE...","Q-qué mierda... La magia está tan densa..."],
+    [69,"I FEEL LIKE I'M GOING TO BE CRUSHED...","Siento que voy a ser aplastado..."],
+    [70,"THIS FUCKER'S NOT HUMAN!!","¡¡Este hijo de puta no es humano!!"],
+    [71,"WHAT'S WRONG? ARE YOU COLD?","¿Qué ocurre? ¿Tienes frío?"]
+  ],
+  "excluded": [
+    [48,"Chapter title, not a dialogue"],[49,"Reference/source crop needs additional full-balloon review"],
+    [51,"Duplicate portion of49"],[52,"Duplicate portion of50"],
+    [56,"English opening is clipped in the proposed crop; not inferred from Spanish"],
+    [58,"Duplicate portion of57"],[59,"Reference has awkward filler structure; excluded from this small clean evaluation set"],
+    [61,"Duplicate portion of59"],[62,"Reference removes the source conditional distinction and weakens the insult"],
+    [66,"Reference changes a singular child into plural children"],[67,"Reference drops the explicit degree of closeness"]
+  ],
+  "notes": "Complete source wording was transcribed from the combined photographed portions of each balloon. Case53 reference follows the printed punctuation; it does not serve as a template for forced punctuation in production. No model output was used to select or grade these labels."
+}

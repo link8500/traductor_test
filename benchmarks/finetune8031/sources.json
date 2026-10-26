@@ -1,0 +1,3723 @@
+{
+  "schema": 1,
+  "source_path": "C:\\Users\\MSI THIN\\Documents\\Code\\Nuevo Documento de texto (2).txt",
+  "source_sha256": "c02303a86075285f437dcea28eb0b1fe037de97938845cf321e0b31aca18315d",
+  "chapter_pairs": 217,
+  "seed": "luma-opus-domain-pilot8031-v1",
+  "split_unit": "complete_chapter",
+  "assignments": {
+    "train": [
+      1,
+      3,
+      5,
+      9,
+      11,
+      12,
+      13,
+      15,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      27,
+      29,
+      30,
+      31,
+      32,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      42,
+      45,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53,
+      54,
+      55,
+      56,
+      59,
+      60,
+      65,
+      67,
+      68,
+      69,
+      72,
+      73,
+      74,
+      75,
+      77,
+      80,
+      81,
+      82,
+      87,
+      88,
+      89,
+      91,
+      93,
+      94,
+      95,
+      96,
+      98,
+      99,
+      100,
+      101,
+      102,
+      104,
+      105,
+      106,
+      108,
+      109,
+      110,
+      112,
+      113,
+      114,
+      115,
+      117,
+      118,
+      119,
+      120,
+      122,
+      123,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      135,
+      137,
+      141,
+      142,
+      143,
+      146,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      155,
+      156,
+      157,
+      158,
+      159,
+      161,
+      162,
+      164,
+      166,
+      167,
+      168,
+      173,
+      175,
+      177,
+      178,
+      179,
+      182,
+      183,
+      184,
+      185,
+      187,
+      189,
+      191,
+      192,
+      195,
+      196,
+      197,
+      198,
+      203,
+      204,
+      206,
+      208,
+      209,
+      210,
+      212,
+      215,
+      216,
+      217
+    ],
+    "validation": [
+      8,
+      10,
+      17,
+      19,
+      28,
+      33,
+      43,
+      44,
+      57,
+      61,
+      63,
+      66,
+      71,
+      86,
+      97,
+      103,
+      107,
+      116,
+      121,
+      124,
+      133,
+      136,
+      138,
+      140,
+      144,
+      145,
+      147,
+      171,
+      174,
+      176,
+      180,
+      186,
+      193,
+      200,
+      201,
+      205,
+      207,
+      214
+    ],
+    "test": [
+      2,
+      4,
+      6,
+      7,
+      14,
+      16,
+      24,
+      26,
+      34,
+      39,
+      46,
+      52,
+      58,
+      62,
+      64,
+      70,
+      76,
+      78,
+      79,
+      83,
+      84,
+      85,
+      90,
+      92,
+      111,
+      132,
+      134,
+      139,
+      154,
+      160,
+      163,
+      165,
+      169,
+      170,
+      172,
+      181,
+      188,
+      190,
+      194,
+      199,
+      202,
+      211,
+      213
+    ]
+  },
+  "initial_pilot_chapters": {
+    "train": [
+      1,
+      3
+    ],
+    "validation": [
+      8
+    ],
+    "test": [
+      2
+    ]
+  },
+  "initial_pilot_max_pages_per_language_and_chapter": 18,
+  "records": [
+    {
+      "id": "seventh-prince-001-es",
+      "series": "seventh-prince",
+      "chapter": 1,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/1/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-002-es",
+      "series": "seventh-prince",
+      "chapter": 2,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/2/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-003-es",
+      "series": "seventh-prince",
+      "chapter": 3,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/3/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-004-es",
+      "series": "seventh-prince",
+      "chapter": 4,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/4/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-005-es",
+      "series": "seventh-prince",
+      "chapter": 5,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/5/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-006-es",
+      "series": "seventh-prince",
+      "chapter": 6,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/6/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-007-es",
+      "series": "seventh-prince",
+      "chapter": 7,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/7/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-008-es",
+      "series": "seventh-prince",
+      "chapter": 8,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/8/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-009-es",
+      "series": "seventh-prince",
+      "chapter": 9,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/9/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-010-es",
+      "series": "seventh-prince",
+      "chapter": 10,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/10/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-011-es",
+      "series": "seventh-prince",
+      "chapter": 11,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/11/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-012-es",
+      "series": "seventh-prince",
+      "chapter": 12,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/12/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-013-es",
+      "series": "seventh-prince",
+      "chapter": 13,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/13/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-014-es",
+      "series": "seventh-prince",
+      "chapter": 14,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/14/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-015-es",
+      "series": "seventh-prince",
+      "chapter": 15,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/15/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-016-es",
+      "series": "seventh-prince",
+      "chapter": 16,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/16/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-017-es",
+      "series": "seventh-prince",
+      "chapter": 17,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/17/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-018-es",
+      "series": "seventh-prince",
+      "chapter": 18,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/18/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-019-es",
+      "series": "seventh-prince",
+      "chapter": 19,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/19/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-020-es",
+      "series": "seventh-prince",
+      "chapter": 20,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/20/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-021-es",
+      "series": "seventh-prince",
+      "chapter": 21,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/21/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-022-es",
+      "series": "seventh-prince",
+      "chapter": 22,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/22/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-023-es",
+      "series": "seventh-prince",
+      "chapter": 23,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/23/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-024-es",
+      "series": "seventh-prince",
+      "chapter": 24,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/24/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-025-es",
+      "series": "seventh-prince",
+      "chapter": 25,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/25/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-026-es",
+      "series": "seventh-prince",
+      "chapter": 26,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/26/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-027-es",
+      "series": "seventh-prince",
+      "chapter": 27,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/27/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-028-es",
+      "series": "seventh-prince",
+      "chapter": 28,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/28/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-029-es",
+      "series": "seventh-prince",
+      "chapter": 29,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/29/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-030-es",
+      "series": "seventh-prince",
+      "chapter": 30,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/30/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-031-es",
+      "series": "seventh-prince",
+      "chapter": 31,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/31/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-032-es",
+      "series": "seventh-prince",
+      "chapter": 32,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/32/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-033-es",
+      "series": "seventh-prince",
+      "chapter": 33,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/33/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-034-es",
+      "series": "seventh-prince",
+      "chapter": 34,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/34/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-035-es",
+      "series": "seventh-prince",
+      "chapter": 35,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/35/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-036-es",
+      "series": "seventh-prince",
+      "chapter": 36,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/36/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-037-es",
+      "series": "seventh-prince",
+      "chapter": 37,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/37/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-038-es",
+      "series": "seventh-prince",
+      "chapter": 38,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/38/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-039-es",
+      "series": "seventh-prince",
+      "chapter": 39,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/39/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-040-es",
+      "series": "seventh-prince",
+      "chapter": 40,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/40/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-041-es",
+      "series": "seventh-prince",
+      "chapter": 41,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/41/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-042-es",
+      "series": "seventh-prince",
+      "chapter": 42,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/42/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-043-es",
+      "series": "seventh-prince",
+      "chapter": 43,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/43/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-044-es",
+      "series": "seventh-prince",
+      "chapter": 44,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/44/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-045-es",
+      "series": "seventh-prince",
+      "chapter": 45,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/45/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-046-es",
+      "series": "seventh-prince",
+      "chapter": 46,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/46/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-047-es",
+      "series": "seventh-prince",
+      "chapter": 47,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/47/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-048-es",
+      "series": "seventh-prince",
+      "chapter": 48,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/48/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-049-es",
+      "series": "seventh-prince",
+      "chapter": 49,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/49/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-050-es",
+      "series": "seventh-prince",
+      "chapter": 50,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/50/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-051-es",
+      "series": "seventh-prince",
+      "chapter": 51,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/51/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-052-es",
+      "series": "seventh-prince",
+      "chapter": 52,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/52/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-053-es",
+      "series": "seventh-prince",
+      "chapter": 53,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/53/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-054-es",
+      "series": "seventh-prince",
+      "chapter": 54,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/54/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-055-es",
+      "series": "seventh-prince",
+      "chapter": 55,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/55/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-056-es",
+      "series": "seventh-prince",
+      "chapter": 56,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/56/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-057-es",
+      "series": "seventh-prince",
+      "chapter": 57,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/57/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-058-es",
+      "series": "seventh-prince",
+      "chapter": 58,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/58/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-059-es",
+      "series": "seventh-prince",
+      "chapter": 59,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/59/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-060-es",
+      "series": "seventh-prince",
+      "chapter": 60,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/60/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-061-es",
+      "series": "seventh-prince",
+      "chapter": 61,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/61/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-062-es",
+      "series": "seventh-prince",
+      "chapter": 62,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/62/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-063-es",
+      "series": "seventh-prince",
+      "chapter": 63,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/63/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-064-es",
+      "series": "seventh-prince",
+      "chapter": 64,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/64/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-065-es",
+      "series": "seventh-prince",
+      "chapter": 65,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/65/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-066-es",
+      "series": "seventh-prince",
+      "chapter": 66,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/66/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-067-es",
+      "series": "seventh-prince",
+      "chapter": 67,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/67/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-068-es",
+      "series": "seventh-prince",
+      "chapter": 68,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/68/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-069-es",
+      "series": "seventh-prince",
+      "chapter": 69,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/69/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-070-es",
+      "series": "seventh-prince",
+      "chapter": 70,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/70/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-071-es",
+      "series": "seventh-prince",
+      "chapter": 71,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/71/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-072-es",
+      "series": "seventh-prince",
+      "chapter": 72,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/72/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-073-es",
+      "series": "seventh-prince",
+      "chapter": 73,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/73/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-074-es",
+      "series": "seventh-prince",
+      "chapter": 74,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/74/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-075-es",
+      "series": "seventh-prince",
+      "chapter": 75,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/75/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-076-es",
+      "series": "seventh-prince",
+      "chapter": 76,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/76/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-077-es",
+      "series": "seventh-prince",
+      "chapter": 77,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/77/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-078-es",
+      "series": "seventh-prince",
+      "chapter": 78,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/78/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-079-es",
+      "series": "seventh-prince",
+      "chapter": 79,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/79/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-080-es",
+      "series": "seventh-prince",
+      "chapter": 80,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/80/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-081-es",
+      "series": "seventh-prince",
+      "chapter": 81,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/81/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-082-es",
+      "series": "seventh-prince",
+      "chapter": 82,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/82/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-083-es",
+      "series": "seventh-prince",
+      "chapter": 83,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/83/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-084-es",
+      "series": "seventh-prince",
+      "chapter": 84,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/84/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-085-es",
+      "series": "seventh-prince",
+      "chapter": 85,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/85/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-086-es",
+      "series": "seventh-prince",
+      "chapter": 86,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/86/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-087-es",
+      "series": "seventh-prince",
+      "chapter": 87,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/87/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-088-es",
+      "series": "seventh-prince",
+      "chapter": 88,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/88/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-089-es",
+      "series": "seventh-prince",
+      "chapter": 89,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/89/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-090-es",
+      "series": "seventh-prince",
+      "chapter": 90,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/90/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-091-es",
+      "series": "seventh-prince",
+      "chapter": 91,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/91/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-092-es",
+      "series": "seventh-prince",
+      "chapter": 92,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/92/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-093-es",
+      "series": "seventh-prince",
+      "chapter": 93,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/93/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-094-es",
+      "series": "seventh-prince",
+      "chapter": 94,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/94/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-095-es",
+      "series": "seventh-prince",
+      "chapter": 95,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/95/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-096-es",
+      "series": "seventh-prince",
+      "chapter": 96,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/96/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-097-es",
+      "series": "seventh-prince",
+      "chapter": 97,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/97/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-098-es",
+      "series": "seventh-prince",
+      "chapter": 98,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/98/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-099-es",
+      "series": "seventh-prince",
+      "chapter": 99,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/99/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-100-es",
+      "series": "seventh-prince",
+      "chapter": 100,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/100/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-101-es",
+      "series": "seventh-prince",
+      "chapter": 101,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/101/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-102-es",
+      "series": "seventh-prince",
+      "chapter": 102,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/102/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-103-es",
+      "series": "seventh-prince",
+      "chapter": 103,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/103/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-104-es",
+      "series": "seventh-prince",
+      "chapter": 104,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/104/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-105-es",
+      "series": "seventh-prince",
+      "chapter": 105,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/105/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-106-es",
+      "series": "seventh-prince",
+      "chapter": 106,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/106/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-107-es",
+      "series": "seventh-prince",
+      "chapter": 107,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/107/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-108-es",
+      "series": "seventh-prince",
+      "chapter": 108,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/108/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-109-es",
+      "series": "seventh-prince",
+      "chapter": 109,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/109/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-110-es",
+      "series": "seventh-prince",
+      "chapter": 110,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/110/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-111-es",
+      "series": "seventh-prince",
+      "chapter": 111,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/111/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-112-es",
+      "series": "seventh-prince",
+      "chapter": 112,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/112/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-113-es",
+      "series": "seventh-prince",
+      "chapter": 113,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/113/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-114-es",
+      "series": "seventh-prince",
+      "chapter": 114,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/114/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-115-es",
+      "series": "seventh-prince",
+      "chapter": 115,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/115/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-116-es",
+      "series": "seventh-prince",
+      "chapter": 116,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/116/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-117-es",
+      "series": "seventh-prince",
+      "chapter": 117,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/117/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-118-es",
+      "series": "seventh-prince",
+      "chapter": 118,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/118/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-119-es",
+      "series": "seventh-prince",
+      "chapter": 119,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/119/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-120-es",
+      "series": "seventh-prince",
+      "chapter": 120,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/120/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-121-es",
+      "series": "seventh-prince",
+      "chapter": 121,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/121/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-122-es",
+      "series": "seventh-prince",
+      "chapter": 122,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/122/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-123-es",
+      "series": "seventh-prince",
+      "chapter": 123,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/123/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-124-es",
+      "series": "seventh-prince",
+      "chapter": 124,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/124/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-125-es",
+      "series": "seventh-prince",
+      "chapter": 125,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/125/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-126-es",
+      "series": "seventh-prince",
+      "chapter": 126,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/126/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-127-es",
+      "series": "seventh-prince",
+      "chapter": 127,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/127/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-128-es",
+      "series": "seventh-prince",
+      "chapter": 128,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/128/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-129-es",
+      "series": "seventh-prince",
+      "chapter": 129,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/129/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-130-es",
+      "series": "seventh-prince",
+      "chapter": 130,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/130/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-131-es",
+      "series": "seventh-prince",
+      "chapter": 131,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/131/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-132-es",
+      "series": "seventh-prince",
+      "chapter": 132,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/132/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-133-es",
+      "series": "seventh-prince",
+      "chapter": 133,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/133/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-134-es",
+      "series": "seventh-prince",
+      "chapter": 134,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/134/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-135-es",
+      "series": "seventh-prince",
+      "chapter": 135,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/135/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-136-es",
+      "series": "seventh-prince",
+      "chapter": 136,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/136/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-137-es",
+      "series": "seventh-prince",
+      "chapter": 137,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/137/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-138-es",
+      "series": "seventh-prince",
+      "chapter": 138,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/138/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-139-es",
+      "series": "seventh-prince",
+      "chapter": 139,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/139/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-140-es",
+      "series": "seventh-prince",
+      "chapter": 140,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/140/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-141-es",
+      "series": "seventh-prince",
+      "chapter": 141,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/141/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-142-es",
+      "series": "seventh-prince",
+      "chapter": 142,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/142/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-143-es",
+      "series": "seventh-prince",
+      "chapter": 143,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/143/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-144-es",
+      "series": "seventh-prince",
+      "chapter": 144,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/144/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-145-es",
+      "series": "seventh-prince",
+      "chapter": 145,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/145/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-146-es",
+      "series": "seventh-prince",
+      "chapter": 146,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/146/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-147-es",
+      "series": "seventh-prince",
+      "chapter": 147,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/147/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-148-es",
+      "series": "seventh-prince",
+      "chapter": 148,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/148/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-149-es",
+      "series": "seventh-prince",
+      "chapter": 149,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/149/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-150-es",
+      "series": "seventh-prince",
+      "chapter": 150,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/150/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-151-es",
+      "series": "seventh-prince",
+      "chapter": 151,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/151/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-152-es",
+      "series": "seventh-prince",
+      "chapter": 152,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/152/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-153-es",
+      "series": "seventh-prince",
+      "chapter": 153,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/153/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-154-es",
+      "series": "seventh-prince",
+      "chapter": 154,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/154/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-155-es",
+      "series": "seventh-prince",
+      "chapter": 155,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/155/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-156-es",
+      "series": "seventh-prince",
+      "chapter": 156,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/156/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-157-es",
+      "series": "seventh-prince",
+      "chapter": 157,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/157/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-158-es",
+      "series": "seventh-prince",
+      "chapter": 158,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/158/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-159-es",
+      "series": "seventh-prince",
+      "chapter": 159,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/159/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-160-es",
+      "series": "seventh-prince",
+      "chapter": 160,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/160/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-161-es",
+      "series": "seventh-prince",
+      "chapter": 161,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/161/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-162-es",
+      "series": "seventh-prince",
+      "chapter": 162,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/162/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-163-es",
+      "series": "seventh-prince",
+      "chapter": 163,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/163/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-164-es",
+      "series": "seventh-prince",
+      "chapter": 164,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/164/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-165-es",
+      "series": "seventh-prince",
+      "chapter": 165,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/165/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-166-es",
+      "series": "seventh-prince",
+      "chapter": 166,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/166/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-167-es",
+      "series": "seventh-prince",
+      "chapter": 167,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/167/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-168-es",
+      "series": "seventh-prince",
+      "chapter": 168,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/168/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-169-es",
+      "series": "seventh-prince",
+      "chapter": 169,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/169/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-170-es",
+      "series": "seventh-prince",
+      "chapter": 170,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/170/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-171-es",
+      "series": "seventh-prince",
+      "chapter": 171,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/171/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-172-es",
+      "series": "seventh-prince",
+      "chapter": 172,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/172/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-173-es",
+      "series": "seventh-prince",
+      "chapter": 173,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/173/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-174-es",
+      "series": "seventh-prince",
+      "chapter": 174,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/174/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-175-es",
+      "series": "seventh-prince",
+      "chapter": 175,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/175/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-176-es",
+      "series": "seventh-prince",
+      "chapter": 176,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/176/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-177-es",
+      "series": "seventh-prince",
+      "chapter": 177,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/177/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-178-es",
+      "series": "seventh-prince",
+      "chapter": 178,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/178/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-179-es",
+      "series": "seventh-prince",
+      "chapter": 179,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/179/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-180-es",
+      "series": "seventh-prince",
+      "chapter": 180,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/180/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-181-es",
+      "series": "seventh-prince",
+      "chapter": 181,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/181/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-182-es",
+      "series": "seventh-prince",
+      "chapter": 182,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/182/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-183-es",
+      "series": "seventh-prince",
+      "chapter": 183,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/183/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-184-es",
+      "series": "seventh-prince",
+      "chapter": 184,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/184/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-185-es",
+      "series": "seventh-prince",
+      "chapter": 185,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/185/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-186-es",
+      "series": "seventh-prince",
+      "chapter": 186,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/186/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-187-es",
+      "series": "seventh-prince",
+      "chapter": 187,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/187/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-188-es",
+      "series": "seventh-prince",
+      "chapter": 188,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/188/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-189-es",
+      "series": "seventh-prince",
+      "chapter": 189,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/189/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-190-es",
+      "series": "seventh-prince",
+      "chapter": 190,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/190/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-191-es",
+      "series": "seventh-prince",
+      "chapter": 191,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/191/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-192-es",
+      "series": "seventh-prince",
+      "chapter": 192,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/192/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-193-es",
+      "series": "seventh-prince",
+      "chapter": 193,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/193/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-194-es",
+      "series": "seventh-prince",
+      "chapter": 194,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/194/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-195-es",
+      "series": "seventh-prince",
+      "chapter": 195,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/195/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-196-es",
+      "series": "seventh-prince",
+      "chapter": 196,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/196/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-197-es",
+      "series": "seventh-prince",
+      "chapter": 197,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/197/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-198-es",
+      "series": "seventh-prince",
+      "chapter": 198,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/198/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-199-es",
+      "series": "seventh-prince",
+      "chapter": 199,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/199/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-200-es",
+      "series": "seventh-prince",
+      "chapter": 200,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/200/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-201-es",
+      "series": "seventh-prince",
+      "chapter": 201,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/201/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-202-es",
+      "series": "seventh-prince",
+      "chapter": 202,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/202/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-203-es",
+      "series": "seventh-prince",
+      "chapter": 203,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/203/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-204-es",
+      "series": "seventh-prince",
+      "chapter": 204,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/204/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-205-es",
+      "series": "seventh-prince",
+      "chapter": 205,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/205/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-206-es",
+      "series": "seventh-prince",
+      "chapter": 206,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/206/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-207-es",
+      "series": "seventh-prince",
+      "chapter": 207,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/207/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-208-es",
+      "series": "seventh-prince",
+      "chapter": 208,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/208/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-209-es",
+      "series": "seventh-prince",
+      "chapter": 209,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/209/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-210-es",
+      "series": "seventh-prince",
+      "chapter": 210,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/210/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-211-es",
+      "series": "seventh-prince",
+      "chapter": 211,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/211/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-212-es",
+      "series": "seventh-prince",
+      "chapter": 212,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/212/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-213-es",
+      "series": "seventh-prince",
+      "chapter": 213,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/213/",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-214-es",
+      "series": "seventh-prince",
+      "chapter": 214,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/214/",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-215-es",
+      "series": "seventh-prince",
+      "chapter": 215,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/215/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-216-es",
+      "series": "seventh-prince",
+      "chapter": 216,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/216/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-217-es",
+      "series": "seventh-prince",
+      "chapter": 217,
+      "language": "es",
+      "url": "https://www.leercapitulo.co/leer/wwcza8j2mh/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu/217/",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-001-en",
+      "series": "seventh-prince",
+      "chapter": 1,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c1",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-002-en",
+      "series": "seventh-prince",
+      "chapter": 2,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c2",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-003-en",
+      "series": "seventh-prince",
+      "chapter": 3,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c3",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-004-en",
+      "series": "seventh-prince",
+      "chapter": 4,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c4",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-005-en",
+      "series": "seventh-prince",
+      "chapter": 5,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c5",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-006-en",
+      "series": "seventh-prince",
+      "chapter": 6,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c6",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-007-en",
+      "series": "seventh-prince",
+      "chapter": 7,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c7",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-008-en",
+      "series": "seventh-prince",
+      "chapter": 8,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c8",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-009-en",
+      "series": "seventh-prince",
+      "chapter": 9,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c9",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-010-en",
+      "series": "seventh-prince",
+      "chapter": 10,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c10",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-011-en",
+      "series": "seventh-prince",
+      "chapter": 11,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c11",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-012-en",
+      "series": "seventh-prince",
+      "chapter": 12,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c12",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-013-en",
+      "series": "seventh-prince",
+      "chapter": 13,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c13",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-014-en",
+      "series": "seventh-prince",
+      "chapter": 14,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c14",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-015-en",
+      "series": "seventh-prince",
+      "chapter": 15,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c15",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-016-en",
+      "series": "seventh-prince",
+      "chapter": 16,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c16",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-017-en",
+      "series": "seventh-prince",
+      "chapter": 17,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c17",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-018-en",
+      "series": "seventh-prince",
+      "chapter": 18,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c18",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-019-en",
+      "series": "seventh-prince",
+      "chapter": 19,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c19",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-020-en",
+      "series": "seventh-prince",
+      "chapter": 20,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c20",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-021-en",
+      "series": "seventh-prince",
+      "chapter": 21,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c21",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-022-en",
+      "series": "seventh-prince",
+      "chapter": 22,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c22",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-023-en",
+      "series": "seventh-prince",
+      "chapter": 23,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c23",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-024-en",
+      "series": "seventh-prince",
+      "chapter": 24,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c24",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-025-en",
+      "series": "seventh-prince",
+      "chapter": 25,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c25",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-026-en",
+      "series": "seventh-prince",
+      "chapter": 26,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c26",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-027-en",
+      "series": "seventh-prince",
+      "chapter": 27,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c27",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-028-en",
+      "series": "seventh-prince",
+      "chapter": 28,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c28",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-029-en",
+      "series": "seventh-prince",
+      "chapter": 29,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c29",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-030-en",
+      "series": "seventh-prince",
+      "chapter": 30,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c30",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-031-en",
+      "series": "seventh-prince",
+      "chapter": 31,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c31",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-032-en",
+      "series": "seventh-prince",
+      "chapter": 32,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c32",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-033-en",
+      "series": "seventh-prince",
+      "chapter": 33,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c33",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-034-en",
+      "series": "seventh-prince",
+      "chapter": 34,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c34",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-035-en",
+      "series": "seventh-prince",
+      "chapter": 35,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c35",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-036-en",
+      "series": "seventh-prince",
+      "chapter": 36,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c36",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-037-en",
+      "series": "seventh-prince",
+      "chapter": 37,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c37",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-038-en",
+      "series": "seventh-prince",
+      "chapter": 38,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c38",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-039-en",
+      "series": "seventh-prince",
+      "chapter": 39,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c39",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-040-en",
+      "series": "seventh-prince",
+      "chapter": 40,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c40",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-041-en",
+      "series": "seventh-prince",
+      "chapter": 41,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c41",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-042-en",
+      "series": "seventh-prince",
+      "chapter": 42,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c42",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-043-en",
+      "series": "seventh-prince",
+      "chapter": 43,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c43",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-044-en",
+      "series": "seventh-prince",
+      "chapter": 44,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c44",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-045-en",
+      "series": "seventh-prince",
+      "chapter": 45,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c45",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-046-en",
+      "series": "seventh-prince",
+      "chapter": 46,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c46",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-047-en",
+      "series": "seventh-prince",
+      "chapter": 47,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c47",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-048-en",
+      "series": "seventh-prince",
+      "chapter": 48,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c48",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-049-en",
+      "series": "seventh-prince",
+      "chapter": 49,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c49",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-050-en",
+      "series": "seventh-prince",
+      "chapter": 50,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c50",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-051-en",
+      "series": "seventh-prince",
+      "chapter": 51,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c51",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-052-en",
+      "series": "seventh-prince",
+      "chapter": 52,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c52",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-053-en",
+      "series": "seventh-prince",
+      "chapter": 53,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c53",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-054-en",
+      "series": "seventh-prince",
+      "chapter": 54,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c54",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-055-en",
+      "series": "seventh-prince",
+      "chapter": 55,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c55",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-056-en",
+      "series": "seventh-prince",
+      "chapter": 56,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c56",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-057-en",
+      "series": "seventh-prince",
+      "chapter": 57,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c57",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-058-en",
+      "series": "seventh-prince",
+      "chapter": 58,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c58",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-059-en",
+      "series": "seventh-prince",
+      "chapter": 59,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c59",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-060-en",
+      "series": "seventh-prince",
+      "chapter": 60,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c60",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-061-en",
+      "series": "seventh-prince",
+      "chapter": 61,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c61",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-062-en",
+      "series": "seventh-prince",
+      "chapter": 62,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c62",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-063-en",
+      "series": "seventh-prince",
+      "chapter": 63,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c63",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-064-en",
+      "series": "seventh-prince",
+      "chapter": 64,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c64",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-065-en",
+      "series": "seventh-prince",
+      "chapter": 65,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c65",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-066-en",
+      "series": "seventh-prince",
+      "chapter": 66,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c66",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-067-en",
+      "series": "seventh-prince",
+      "chapter": 67,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c67",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-068-en",
+      "series": "seventh-prince",
+      "chapter": 68,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c68",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-069-en",
+      "series": "seventh-prince",
+      "chapter": 69,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c69",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-070-en",
+      "series": "seventh-prince",
+      "chapter": 70,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c70",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-071-en",
+      "series": "seventh-prince",
+      "chapter": 71,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c71",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-072-en",
+      "series": "seventh-prince",
+      "chapter": 72,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c72",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-073-en",
+      "series": "seventh-prince",
+      "chapter": 73,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c73",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-074-en",
+      "series": "seventh-prince",
+      "chapter": 74,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c74",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-075-en",
+      "series": "seventh-prince",
+      "chapter": 75,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c75",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-076-en",
+      "series": "seventh-prince",
+      "chapter": 76,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c76",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-077-en",
+      "series": "seventh-prince",
+      "chapter": 77,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c77",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-078-en",
+      "series": "seventh-prince",
+      "chapter": 78,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c78",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-079-en",
+      "series": "seventh-prince",
+      "chapter": 79,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c79",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-080-en",
+      "series": "seventh-prince",
+      "chapter": 80,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c80",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-081-en",
+      "series": "seventh-prince",
+      "chapter": 81,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c81",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-082-en",
+      "series": "seventh-prince",
+      "chapter": 82,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c82",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-083-en",
+      "series": "seventh-prince",
+      "chapter": 83,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c83",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-084-en",
+      "series": "seventh-prince",
+      "chapter": 84,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c84",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-085-en",
+      "series": "seventh-prince",
+      "chapter": 85,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c85",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-086-en",
+      "series": "seventh-prince",
+      "chapter": 86,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c86",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-087-en",
+      "series": "seventh-prince",
+      "chapter": 87,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c87",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-088-en",
+      "series": "seventh-prince",
+      "chapter": 88,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c88",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-089-en",
+      "series": "seventh-prince",
+      "chapter": 89,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c89",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-090-en",
+      "series": "seventh-prince",
+      "chapter": 90,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c90",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-091-en",
+      "series": "seventh-prince",
+      "chapter": 91,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c91",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-092-en",
+      "series": "seventh-prince",
+      "chapter": 92,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c92",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-093-en",
+      "series": "seventh-prince",
+      "chapter": 93,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c93",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-094-en",
+      "series": "seventh-prince",
+      "chapter": 94,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c94",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-095-en",
+      "series": "seventh-prince",
+      "chapter": 95,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c95",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-096-en",
+      "series": "seventh-prince",
+      "chapter": 96,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c96",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-097-en",
+      "series": "seventh-prince",
+      "chapter": 97,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c97",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-098-en",
+      "series": "seventh-prince",
+      "chapter": 98,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c98",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-099-en",
+      "series": "seventh-prince",
+      "chapter": 99,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c99",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-100-en",
+      "series": "seventh-prince",
+      "chapter": 100,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c100",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-101-en",
+      "series": "seventh-prince",
+      "chapter": 101,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c101",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-102-en",
+      "series": "seventh-prince",
+      "chapter": 102,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c102",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-103-en",
+      "series": "seventh-prince",
+      "chapter": 103,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c103",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-104-en",
+      "series": "seventh-prince",
+      "chapter": 104,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c104",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-105-en",
+      "series": "seventh-prince",
+      "chapter": 105,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c105",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-106-en",
+      "series": "seventh-prince",
+      "chapter": 106,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c106",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-107-en",
+      "series": "seventh-prince",
+      "chapter": 107,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c107",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-108-en",
+      "series": "seventh-prince",
+      "chapter": 108,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c108",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-109-en",
+      "series": "seventh-prince",
+      "chapter": 109,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c109",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-110-en",
+      "series": "seventh-prince",
+      "chapter": 110,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c110",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-111-en",
+      "series": "seventh-prince",
+      "chapter": 111,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c111",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-112-en",
+      "series": "seventh-prince",
+      "chapter": 112,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c112",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-113-en",
+      "series": "seventh-prince",
+      "chapter": 113,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c113",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-114-en",
+      "series": "seventh-prince",
+      "chapter": 114,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c114",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-115-en",
+      "series": "seventh-prince",
+      "chapter": 115,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c115",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-116-en",
+      "series": "seventh-prince",
+      "chapter": 116,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c116",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-117-en",
+      "series": "seventh-prince",
+      "chapter": 117,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c117",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-118-en",
+      "series": "seventh-prince",
+      "chapter": 118,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c118",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-119-en",
+      "series": "seventh-prince",
+      "chapter": 119,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c119",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-120-en",
+      "series": "seventh-prince",
+      "chapter": 120,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c120",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-121-en",
+      "series": "seventh-prince",
+      "chapter": 121,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c121",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-122-en",
+      "series": "seventh-prince",
+      "chapter": 122,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c122",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-123-en",
+      "series": "seventh-prince",
+      "chapter": 123,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c123",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-124-en",
+      "series": "seventh-prince",
+      "chapter": 124,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c124",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-125-en",
+      "series": "seventh-prince",
+      "chapter": 125,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c125",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-126-en",
+      "series": "seventh-prince",
+      "chapter": 126,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c126",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-127-en",
+      "series": "seventh-prince",
+      "chapter": 127,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c127",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-128-en",
+      "series": "seventh-prince",
+      "chapter": 128,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c128",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-129-en",
+      "series": "seventh-prince",
+      "chapter": 129,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c129",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-130-en",
+      "series": "seventh-prince",
+      "chapter": 130,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c130",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-131-en",
+      "series": "seventh-prince",
+      "chapter": 131,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c131",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-132-en",
+      "series": "seventh-prince",
+      "chapter": 132,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c132",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-133-en",
+      "series": "seventh-prince",
+      "chapter": 133,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c133",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-134-en",
+      "series": "seventh-prince",
+      "chapter": 134,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c134",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-135-en",
+      "series": "seventh-prince",
+      "chapter": 135,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c135",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-136-en",
+      "series": "seventh-prince",
+      "chapter": 136,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c136",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-137-en",
+      "series": "seventh-prince",
+      "chapter": 137,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c137",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-138-en",
+      "series": "seventh-prince",
+      "chapter": 138,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c138",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-139-en",
+      "series": "seventh-prince",
+      "chapter": 139,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c139",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-140-en",
+      "series": "seventh-prince",
+      "chapter": 140,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c140",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-141-en",
+      "series": "seventh-prince",
+      "chapter": 141,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c141",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-142-en",
+      "series": "seventh-prince",
+      "chapter": 142,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c142",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-143-en",
+      "series": "seventh-prince",
+      "chapter": 143,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c143",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-144-en",
+      "series": "seventh-prince",
+      "chapter": 144,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c144",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-145-en",
+      "series": "seventh-prince",
+      "chapter": 145,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c145",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-146-en",
+      "series": "seventh-prince",
+      "chapter": 146,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c146",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-147-en",
+      "series": "seventh-prince",
+      "chapter": 147,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c147",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-148-en",
+      "series": "seventh-prince",
+      "chapter": 148,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c148",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-149-en",
+      "series": "seventh-prince",
+      "chapter": 149,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c149",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-150-en",
+      "series": "seventh-prince",
+      "chapter": 150,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c150",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-151-en",
+      "series": "seventh-prince",
+      "chapter": 151,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c151",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-152-en",
+      "series": "seventh-prince",
+      "chapter": 152,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c152",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-153-en",
+      "series": "seventh-prince",
+      "chapter": 153,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c153",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-154-en",
+      "series": "seventh-prince",
+      "chapter": 154,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c154",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-155-en",
+      "series": "seventh-prince",
+      "chapter": 155,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c155",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-156-en",
+      "series": "seventh-prince",
+      "chapter": 156,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c156",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-157-en",
+      "series": "seventh-prince",
+      "chapter": 157,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c157",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-158-en",
+      "series": "seventh-prince",
+      "chapter": 158,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c158",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-159-en",
+      "series": "seventh-prince",
+      "chapter": 159,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c159",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-160-en",
+      "series": "seventh-prince",
+      "chapter": 160,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c160",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-161-en",
+      "series": "seventh-prince",
+      "chapter": 161,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c161",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-162-en",
+      "series": "seventh-prince",
+      "chapter": 162,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c162",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-163-en",
+      "series": "seventh-prince",
+      "chapter": 163,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c163",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-164-en",
+      "series": "seventh-prince",
+      "chapter": 164,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c164",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-165-en",
+      "series": "seventh-prince",
+      "chapter": 165,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c165",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-166-en",
+      "series": "seventh-prince",
+      "chapter": 166,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c166",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-167-en",
+      "series": "seventh-prince",
+      "chapter": 167,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c167",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-168-en",
+      "series": "seventh-prince",
+      "chapter": 168,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c168",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-169-en",
+      "series": "seventh-prince",
+      "chapter": 169,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c169",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-170-en",
+      "series": "seventh-prince",
+      "chapter": 170,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c170",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-171-en",
+      "series": "seventh-prince",
+      "chapter": 171,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c171",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-172-en",
+      "series": "seventh-prince",
+      "chapter": 172,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c172",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-173-en",
+      "series": "seventh-prince",
+      "chapter": 173,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c173",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-174-en",
+      "series": "seventh-prince",
+      "chapter": 174,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c174",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-175-en",
+      "series": "seventh-prince",
+      "chapter": 175,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c175",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-176-en",
+      "series": "seventh-prince",
+      "chapter": 176,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c176",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-177-en",
+      "series": "seventh-prince",
+      "chapter": 177,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c177",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-178-en",
+      "series": "seventh-prince",
+      "chapter": 178,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c178",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-179-en",
+      "series": "seventh-prince",
+      "chapter": 179,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c179",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-180-en",
+      "series": "seventh-prince",
+      "chapter": 180,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c180",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-181-en",
+      "series": "seventh-prince",
+      "chapter": 181,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c181",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-182-en",
+      "series": "seventh-prince",
+      "chapter": 182,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c182",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-183-en",
+      "series": "seventh-prince",
+      "chapter": 183,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c183",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-184-en",
+      "series": "seventh-prince",
+      "chapter": 184,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c184",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-185-en",
+      "series": "seventh-prince",
+      "chapter": 185,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c185",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-186-en",
+      "series": "seventh-prince",
+      "chapter": 186,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c186",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-187-en",
+      "series": "seventh-prince",
+      "chapter": 187,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c187",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-188-en",
+      "series": "seventh-prince",
+      "chapter": 188,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c188",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-189-en",
+      "series": "seventh-prince",
+      "chapter": 189,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c189",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-190-en",
+      "series": "seventh-prince",
+      "chapter": 190,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c190",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-191-en",
+      "series": "seventh-prince",
+      "chapter": 191,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c191",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-192-en",
+      "series": "seventh-prince",
+      "chapter": 192,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c192",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-193-en",
+      "series": "seventh-prince",
+      "chapter": 193,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c193",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-194-en",
+      "series": "seventh-prince",
+      "chapter": 194,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c194",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-195-en",
+      "series": "seventh-prince",
+      "chapter": 195,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c195",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-196-en",
+      "series": "seventh-prince",
+      "chapter": 196,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c196",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-197-en",
+      "series": "seventh-prince",
+      "chapter": 197,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c197",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-198-en",
+      "series": "seventh-prince",
+      "chapter": 198,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c198",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-199-en",
+      "series": "seventh-prince",
+      "chapter": 199,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c199",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-200-en",
+      "series": "seventh-prince",
+      "chapter": 200,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c200",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-201-en",
+      "series": "seventh-prince",
+      "chapter": 201,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c201",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-202-en",
+      "series": "seventh-prince",
+      "chapter": 202,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c202",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-203-en",
+      "series": "seventh-prince",
+      "chapter": 203,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c203",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-204-en",
+      "series": "seventh-prince",
+      "chapter": 204,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c204",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-205-en",
+      "series": "seventh-prince",
+      "chapter": 205,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c205",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-206-en",
+      "series": "seventh-prince",
+      "chapter": 206,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c206",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-207-en",
+      "series": "seventh-prince",
+      "chapter": 207,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c207",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-208-en",
+      "series": "seventh-prince",
+      "chapter": 208,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c208",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-209-en",
+      "series": "seventh-prince",
+      "chapter": 209,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c209",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-210-en",
+      "series": "seventh-prince",
+      "chapter": 210,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c210",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-211-en",
+      "series": "seventh-prince",
+      "chapter": 211,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c211",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-212-en",
+      "series": "seventh-prince",
+      "chapter": 212,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c212",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-213-en",
+      "series": "seventh-prince",
+      "chapter": 213,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c213",
+      "split": "test"
+    },
+    {
+      "id": "seventh-prince-214-en",
+      "series": "seventh-prince",
+      "chapter": 214,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c214",
+      "split": "validation"
+    },
+    {
+      "id": "seventh-prince-215-en",
+      "series": "seventh-prince",
+      "chapter": 215,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c215",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-216-en",
+      "series": "seventh-prince",
+      "chapter": 216,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c216",
+      "split": "train"
+    },
+    {
+      "id": "seventh-prince-217-en",
+      "series": "seventh-prince",
+      "chapter": 217,
+      "language": "en",
+      "url": "https://mangakatana.com/manga/tensei-shitara-dai-nana-ouji-dattanode-kimamani-majutsu-o-kiwamemasu.25077/c217",
+      "split": "train"
+    }
+  ],
+  "previous_absolute_regression_corpus_role": "regression_test_only_never_training",
+  "test_answers_allowed_for_training": false,
+  "chapter_links_are_not_approved_training_pairs": true
+}

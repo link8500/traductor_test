@@ -1,0 +1,492 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_captured_source_and_output_meaning_review",
+  "scope": "All 81 changed model-core outputs on 229 preserved OCR regions from 124 saved views; no new screenshot, production clause rules, or full chapter reading is claimed",
+  "entries": [
+    {
+      "id": 3,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The opening attention-getting utterance remains absent; the changed body wording does not resolve the prior verdict."
+    },
+    {
+      "id": 6,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The final duration question is recovered."
+    },
+    {
+      "id": 9,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 20,
+      "before": "acceptable",
+      "after": "acceptable",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 22,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question about how the speaker would know is recovered."
+    },
+    {
+      "id": 24,
+      "before": "unreadable_source",
+      "after": "unreadable_source",
+      "note": "The OCR string is not readable dialogue; these outputs cannot establish translation quality."
+    },
+    {
+      "id": 25,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 29,
+      "before": "needs_source_review",
+      "after": "needs_source_review",
+      "note": "The English subject is clipped; the candidate improves the verb but retains a stray initial letter.",
+      "captured_source_is_clipped": true,
+      "partial_quality_improvement": true
+    },
+    {
+      "id": 30,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 33,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "A captured slash is newly copied into the output; content remains, but rendering quality worsens.",
+      "new_rendered_text_artifact": true
+    },
+    {
+      "id": 37,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 40,
+      "before": "acceptable",
+      "after": "acceptable",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "The concessive WHILE becomes temporal MIENTRAS. This judgement concerns the captured relation; the sentence is clipped.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 43,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The institutional weapon/title name changes; a named rendering cannot be judged without terminology context."
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 48,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 49,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 61,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The bar descriptor/name and the later-tonight modifier are recovered."
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The courtesy marker is restored. This is recorded separately and does not inflate complete narrative-content corrections.",
+      "courtesy_recovery_only": true
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 75,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 77,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Both versions mistranslate the handheld fan as an electric fan. The candidate additionally changes the explicit question to a statement.",
+      "new_partial_meaning_loss": true
+    },
+    {
+      "id": 78,
+      "before": "unreadable_source",
+      "after": "unreadable_source",
+      "note": "OCR has extensively corrupted the sentence; do not score guessed words as a model improvement."
+    },
+    {
+      "id": 81,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 92,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 98,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The malformed magnitude expression becomes more natural, but does not faithfully preserve THIS MUCH.",
+      "partial_quality_improvement": true
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Captured meaning is retained. Both versions have a singular-generic/plural agreement defect.",
+      "persistent_quality_defect": true
+    },
+    {
+      "id": 101,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 102,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The existing mistaken subject/title parse persists and the candidate is less natural.",
+      "partial_quality_worsening": true
+    },
+    {
+      "id": 106,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The upstream OCR typo CALGHT remains untranslated. The fish noun improves, without solving the dialogue.",
+      "upstream_ocr_defect": true,
+      "partial_quality_improvement": true
+    },
+    {
+      "id": 110,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Making the implicit THIS explicit is not counted as a content correction."
+    },
+    {
+      "id": 111,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "The source discourse idiom becomes the fabricated literal BUEN DOLOR. The prior omission of a filler was not counted as a meaningful loss; this new literal assertion is a quality/meaning regression.",
+      "new_literal_idiom_error": true
+    },
+    {
+      "id": 112,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 119,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 120,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The explicit true/authentic-goodwill modifier is recovered."
+    },
+    {
+      "id": 124,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 125,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The separate initial why question is recovered, retaining the rest of the utterance."
+    },
+    {
+      "id": 127,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 132,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 134,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The isolated English YOU does not determine the number of addressees. The candidate also has an awkward parenthetical syntax."
+    },
+    {
+      "id": 135,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 141,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The number of addressees is unavailable in isolated English; an upstream OCR typo is also present."
+    },
+    {
+      "id": 145,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 146,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question about the others being worse is recovered."
+    },
+    {
+      "id": 148,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The additive relation ALSO is recovered in the captured clause.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 153,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The separate initial question is recovered."
+    },
+    {
+      "id": 155,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Both versions turn the instruction to regret leaving the speaker into a statement of regret with a broken reflexive."
+    },
+    {
+      "id": 157,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 161,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 162,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 163,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 164,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 167,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 168,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 169,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "The added instruction is not an established complete correction: the corrupted GOAROUND is rendered as roaming, not reliably as the intended duel invitation.",
+      "partial_content_recovery": true,
+      "upstream_ocr_defect": true
+    },
+    {
+      "id": 173,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 174,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 175,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 176,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Capitalization and removing a spurious article improve the proper-name rendering, without a new content correction.",
+      "partial_quality_improvement": true
+    },
+    {
+      "id": 177,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "The captured noun phrase becomes malformed Spanish. The full original view already omitted other words.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 179,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 180,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 181,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The contrast is preserved but the candidate is less idiomatic.",
+      "partial_quality_worsening": true
+    },
+    {
+      "id": 183,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The spoken affirmative clause is recovered."
+    },
+    {
+      "id": 184,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 186,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 189,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 192,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The interpersonal introduction is still expressed with the wrong Spanish sense of introduccion."
+    },
+    {
+      "id": 195,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question is recovered, keeping the sky statement."
+    },
+    {
+      "id": 200,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The causal connector improves, but CLEAN OUT THE LEADER remains a wrong literal cleaning action.",
+      "partial_content_recovery": true
+    },
+    {
+      "id": 202,
+      "before": "acceptable",
+      "after": "acceptable"
+    },
+    {
+      "id": 203,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The captured nominal original can stand without repeating WORLD; neither fragment certifies a complete sentence.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 206,
+      "before": "acceptable",
+      "after": "needs_context",
+      "note": "The candidate weakens explicit causation into event identification. Do not certify a new complete error without the surrounding event reference.",
+      "possible_relation_worsening": true
+    },
+    {
+      "id": 207,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The upstream corrupted verb persists; intended purpose additionally shifts toward a past attempted action.",
+      "new_partial_meaning_loss": true,
+      "upstream_ocr_defect": true
+    },
+    {
+      "id": 210,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The explicit location HERE is recovered."
+    },
+    {
+      "id": 212,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The captured action LUNGED is recovered; the full original sentence still extends beyond this OCR fragment.",
+      "captured_source_is_clipped": true
+    },
+    {
+      "id": 218,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Only laugh length changes; excluded from meaningful-content correction counts.",
+      "filler_only": true
+    },
+    {
+      "id": 223,
+      "before": "acceptable",
+      "after": "acceptable"
+    }
+  ],
+  "complete_captured_content_corrections": 12,
+  "new_captured_content_regressions": 3,
+  "new_partial_meaning_losses": 2,
+  "new_rendered_source_artifacts": 1,
+  "additional_uncertain_relation_changes": 1,
+  "all_changed_outputs_reviewed": true,
+  "all229_meanings_regraded": false,
+  "production_app_failure_rate_comparable": false,
+  "not_added_to_new_heldout_test_counts": true,
+  "application_weights_modified": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "changes_sha256": "48400073ccdf42d0c44a977c00e391dad5370f9cedf7025ac1de3566ea1d5399"
+}

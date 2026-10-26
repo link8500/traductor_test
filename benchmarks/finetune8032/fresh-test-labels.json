@@ -1,0 +1,275 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_visual_pixel_review_not_user_certified",
+  "entries": [
+    {
+      "id": 1,
+      "chapter": 4,
+      "split": "test",
+      "source": "WHO IS THAT, HIDING OVER THERE?",
+      "target": "¿Quién está escondido allí?",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "3f9c2f7c54f309bec7beb7a963442c5a1d284e726d7b652d2e1cc0f8e2085e56",
+      "reference_page_sha256": "a260a9099461073488d59fae2be433c6d76b073455d523f576bc97fdbc612632",
+      "annotation_note": null
+    },
+    {
+      "id": 2,
+      "chapter": 4,
+      "split": "test",
+      "source": "SHE DETECTED HIM FROM THIS DISTANCE?!",
+      "target": "¡¿Ella lo detectó desde esa distancia?!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "3f9c2f7c54f309bec7beb7a963442c5a1d284e726d7b652d2e1cc0f8e2085e56",
+      "reference_page_sha256": "a260a9099461073488d59fae2be433c6d76b073455d523f576bc97fdbc612632",
+      "annotation_note": "The wider photograph shows SHE and the whole balloon. The published Spanish changes him to us being here; the evaluation reference explicitly restores the English object."
+    },
+    {
+      "id": 3,
+      "chapter": 4,
+      "split": "test",
+      "source": "SHOULD I GIVE HER A BREAK AND SHOW MYSELF? I WANT TO ASK ABOUT DUNGEONS AND THAT \"KI\" SHE USED AFTER ALL...",
+      "target": "¿Debería darle un respiro y mostrarme? Después de todo, quiero preguntarle sobre las mazmorras y ese \"ki\" que usó...",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "d53f4a95d5c8c92708fb05b8581afc2358c6c5d2486df9140f1b291e99b4665e",
+      "reference_page_sha256": "0d6bfbbe85a643d7c7859fbb6eb70477d0b55c56fa7555b40e1002dbcf733327",
+      "annotation_note": "Only the first complete photographed balloon is used, not the neighboring response. The causal after-all unit absent from the published Spanish is explicitly retained."
+    },
+    {
+      "id": 4,
+      "chapter": 4,
+      "split": "test",
+      "source": "IT MUST BE AN ENEMY-AH!",
+      "target": "¡Debe ser un enemigo! ¡Ah!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "d53f4a95d5c8c92708fb05b8581afc2358c6c5d2486df9140f1b291e99b4665e",
+      "reference_page_sha256": "0d6bfbbe85a643d7c7859fbb6eb70477d0b55c56fa7555b40e1002dbcf733327",
+      "annotation_note": "Only the first complete balloon is used; the neighboring panic dialogue is not merged. Hesitation filler is not a content criterion."
+    },
+    {
+      "id": 5,
+      "chapter": 4,
+      "split": "test",
+      "source": "N-NICE TO MEET YOU! I AM... ...NEW ADVENTURER!",
+      "target": "¡E-encantado de conocerte! Yo soy... ¡...nuevo aventurero!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "0d0e2261e21c67e6e1ba7f720260e795578f040b2a3572efd49ba742e8f6f850",
+      "reference_page_sha256": "3cfff3995d18bbcc39c9549e52f37523d994b771a713f137c18c4ae6a14eb04a",
+      "annotation_note": "The two photographed parts of the same self-introduction (proposals 5 and 6) are combined; 6 is excluded as a duplicate. No article is invented in the English transcript."
+    },
+    {
+      "id": 11,
+      "chapter": 4,
+      "split": "test",
+      "source": "AND, BY MIXING UP BOTH OUR FORMS, I CAN MAKE AN ORIGINAL BODY, AND BE UNRECOGNIZABLE!",
+      "target": "Y al mezclar ambas formas, ¡puedo hacer un nuevo cuerpo que sea irreconocible!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "08c3c9b98d7efd5fd862a246e761fc17916dacd401d13cc5f5352595e70dfeae",
+      "reference_page_sha256": "676340efed173f61c5407d9616ba270a87943cffebb24eef0df9816b7c49a3c5",
+      "annotation_note": "The visible sentence prefix in proposal 12 is joined to its completion in 11. Both Spanish parts are photographed; 12 is excluded as a duplicate."
+    },
+    {
+      "id": 13,
+      "chapter": 4,
+      "split": "test",
+      "source": "IS SHE SUSPICIOUS?",
+      "target": "¿Ella sospecha de mí?",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "08c3c9b98d7efd5fd862a246e761fc17916dacd401d13cc5f5352595e70dfeae",
+      "reference_page_sha256": "676340efed173f61c5407d9616ba270a87943cffebb24eef0df9816b7c49a3c5",
+      "annotation_note": "Suspicious is ambiguous in isolated English. Do not automatically mark the other valid reading as a model content error without context."
+    },
+    {
+      "id": 14,
+      "chapter": 4,
+      "split": "test",
+      "source": "THE [COPY FORM] IS PERFECT!",
+      "target": "[Copiar apariencia] es perfecto.",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "08c3c9b98d7efd5fd862a246e761fc17916dacd401d13cc5f5352595e70dfeae",
+      "reference_page_sha256": "676340efed173f61c5407d9616ba270a87943cffebb24eef0df9816b7c49a3c5",
+      "annotation_note": null
+    },
+    {
+      "id": 15,
+      "chapter": 4,
+      "split": "test",
+      "source": "ROBERTO?... I AM TAO.",
+      "target": "¿Roberto?... Soy Tao.",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "08c3c9b98d7efd5fd862a246e761fc17916dacd401d13cc5f5352595e70dfeae",
+      "reference_page_sha256": "676340efed173f61c5407d9616ba270a87943cffebb24eef0df9816b7c49a3c5",
+      "annotation_note": null
+    },
+    {
+      "id": 16,
+      "chapter": 4,
+      "split": "test",
+      "source": "MY ADVENTURER RANK IS B, AND, UMM... AS YOU CAN SEE I AM A MARTIAL ARTIST.",
+      "target": "Mi rango de aventurera es B, y, umm... como puedes ver soy una artista marcial.",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "08c3c9b98d7efd5fd862a246e761fc17916dacd401d13cc5f5352595e70dfeae",
+      "reference_page_sha256": "676340efed173f61c5407d9616ba270a87943cffebb24eef0df9816b7c49a3c5",
+      "annotation_note": "The Spanish feminine is visible in the reference but is not inferable from this isolated English input. Gender alone is a needs-context case."
+    },
+    {
+      "id": 19,
+      "chapter": 4,
+      "split": "test",
+      "source": "SPRING HAS FINALLY COME FOR SOMEONE AS UNPOPULAR AS ME! I WILL DEFINITELY MAKE THIS HOT GUY MY BOYFRIEND!",
+      "target": "¡Finalmente llegó la primavera para alguien tan impopular como yo! ¡Definitivamente haré a este chico atractivo mi novio!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "72a452052d5c65d575686cdce4b2fe7a4a8715fa983f19d8a3077be32376a045",
+      "reference_page_sha256": "ceecb100213e44dedd1600e1c96eefe380353c71ecebc61bdc435d92ef126ab9",
+      "annotation_note": "The published Spanish drops hot; the reference explicitly restores atractivo from the English pixels."
+    },
+    {
+      "id": 20,
+      "chapter": 4,
+      "split": "test",
+      "source": "MARTIAL ARTIST TAO JOINED YOUR PARTY!",
+      "target": "¡La artista marcial Tao se ha unido a tu grupo!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "72a452052d5c65d575686cdce4b2fe7a4a8715fa983f19d8a3077be32376a045",
+      "reference_page_sha256": "ceecb100213e44dedd1600e1c96eefe380353c71ecebc61bdc435d92ef126ab9",
+      "annotation_note": "The reference is feminine from the artwork; a masculine article alone is unresolved by the isolated English input."
+    },
+    {
+      "id": 21,
+      "chapter": 4,
+      "split": "test",
+      "source": "HUH?! HE'S NOT EVEN LOOKING-ARU!",
+      "target": "¡¿Eh?! ¡Ni siquiera me está mirando-aru!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "7040ed79544bb33b1c02f56401ec52d307592dbdf49be06ce8012cb4d2674070",
+      "reference_page_sha256": "ba51590c2fe84aa95e4dad2e0fcdf7f65ff69fa0d41fdf5af29099082bf598ee",
+      "annotation_note": "The whole English balloon is transcribed from the wider photograph. Aru is a character speech suffix, not an untranslated meaningful English word. Me in Spanish is contextual, not an explicit English object."
+    },
+    {
+      "id": 22,
+      "chapter": 4,
+      "split": "test",
+      "source": "DID YOU SEE THAT, ROBERTO! DID YOU FALL FOR ME-ARU?",
+      "target": "¡Viste eso, Roberto! ¿Te enamoraste de mí-aru?",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "7040ed79544bb33b1c02f56401ec52d307592dbdf49be06ce8012cb4d2674070",
+      "reference_page_sha256": "ba51590c2fe84aa95e4dad2e0fcdf7f65ff69fa0d41fdf5af29099082bf598ee",
+      "annotation_note": null
+    },
+    {
+      "id": 23,
+      "chapter": 4,
+      "split": "test",
+      "source": "I WAS PAYING ATTENTION, TAO. YOU'RE AMAZING!",
+      "target": "Te estaba prestando atención, Tao. ¡Eres increíble!",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "27231f2da10152f15c3f82dd47486793ce8c58e892533a0cc8a5aa0fb68680ac",
+      "reference_page_sha256": "1a863fec0c2c3720af8c1f549e73d3b22b8765e197567e903674b5bf2f62abe9",
+      "annotation_note": null
+    },
+    {
+      "id": 24,
+      "chapter": 4,
+      "split": "test",
+      "source": "WELL, YES. I COULDN'T FIND ANY DECENT MEN-ERR, ADVENTURER FRIENDS-ARU.",
+      "target": "Bueno, sí. No pude encontrar hombres... err, amigos aventureros decentes-aru.",
+      "source_pixels_visually_verified": true,
+      "target_pixels_visually_verified": true,
+      "artwork_alignment_verified": true,
+      "complete_meaning_unit": true,
+      "source_page_sha256": "27231f2da10152f15c3f82dd47486793ce8c58e892533a0cc8a5aa0fb68680ac",
+      "reference_page_sha256": "1a863fec0c2c3720af8c1f549e73d3b22b8765e197567e903674b5bf2f62abe9",
+      "annotation_note": "The published Spanish uses present puedo for past could not. The test reference explicitly restores past pude and makes the visible friends noun explicit; the male self-correction must not be silently discarded."
+    }
+  ],
+  "excluded": [
+    {
+      "id": 6,
+      "reason": "Duplicate of the complete introduction in 5"
+    },
+    {
+      "id": 7,
+      "reason": "Spanish reference visibly cuts off the final consequence; do not infer it"
+    },
+    {
+      "id": 8,
+      "reason": "Unfinished sentence ending AND, not a complete aligned meaning unit"
+    },
+    {
+      "id": 9,
+      "reason": "Duplicate fragment of 8"
+    },
+    {
+      "id": 10,
+      "reason": "Unfinished clause ending THEN, kept out of complete-dialogue test"
+    },
+    {
+      "id": 12,
+      "reason": "Prefix included in the complete sentence labeled 11"
+    },
+    {
+      "id": 17,
+      "reason": "The published reference omits the monk-like comparison and its intended wording is ambiguous; not reliable as a bilingual gold pair"
+    },
+    {
+      "id": 18,
+      "reason": "Dialogue is deliberately interrupted at SOM-/ALGU-; not a complete meaning unit"
+    }
+  ],
+  "selected_proposals": 24,
+  "accepted": 16,
+  "all_selected_proposals_reviewed": true,
+  "model_answers_used_for_annotation": false,
+  "training_allowed": false,
+  "adapter_sha256_frozen_before_review": "476d116abddd15a99c2bb083fddb6f3a2dff8d8736d37f6513edce5bcb5ccf4a",
+  "test_protocol_sha256": "d77f045365ed6bb334af69a0b66dbf13fb089f74919b82a83ddb962a9993ebba",
+  "selection_sha256": "986a2367581f939b6b01df6d8ece4ef58d1a9c8aae05aa442abdb8888d078108",
+  "reference_is_not_claimed_to_be_a_verbatim_publisher_transcript": true,
+  "reference_faithfulness_edits_explicit": true,
+  "context_uncertainty_separated_from_content_errors": true
+}

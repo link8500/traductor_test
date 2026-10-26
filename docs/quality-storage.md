@@ -187,3 +187,29 @@ aislada y4 GiB de reserva de disco; el recorrido con imágenes mantiene3 GiB.
 No se reinicia el recorrido del núcleo ni se borran resultados. La instantánea
 posterior a estas pruebas conserva aproximadamente18,29 GiB de disco libre.
 No se generan APK, ZIP ni duplicados de pesos para Android.
+
+
+## Entorno de entrenamiento y adaptadores: 8031–8033
+
+Se añadió un entorno aislado `build/training-venv8031`, con dependencias
+fijadas, y una sola copia de los pesos OPUS originales no cuantizados
+de465.549.630 bytes. Los tres entrenamientos reutilizan esa base; guardan
+solo adaptadores LoRA pequeños, salidas y procedencia. Los modelos ONNX de
+la app permanecen idénticos. No se descargan modelos alternativos ni se
+crean APK o ZIP.
+
+Las252 imágenes bilingües ocupan alrededor de60 MB y se guardan una sola
+vez. Los recortes de cotejo son hojas pequeñas; los informes mantienen
+referencias y hashes, sin copiar capítulos completos. Las concatenaciones
+de entrenamiento son texto, no imágenes duplicadas. Se conservan también
+los resultados del OCR interrumpido, sin descartarlos ni presentarlos como
+un recorrido completo.
+
+El tercer ensayo reutiliza los datos y la base del segundo. Las salidas base
+del control se reutilizan tras verificar procedencia y recarga exacta de la
+validación; solo se ejecuta la nueva traducción candidata. La memoria CUDA
+máxima registrada es aproximadamente1,12 GiB en el segundo ensayo y1,65 GiB
+en el tercero. Se mantienen4 GiB de reserva de disco y esperas de memoria
+antes de inferir. La instantánea posterior conserva aproximadamente12,45 GiB
+libres. No se eliminan archivos personales, historial Git ni evidencia de
+ensayos fallidos.

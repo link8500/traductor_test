@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "experiment": "8033-regularized-local-opus-lora",
+  "application_build_unchanged": "803001",
+  "actual_weight_training_completed": true,
+  "original_training_pairs": 86,
+  "packed_training_examples": 130,
+  "validation_pairs": 14,
+  "known_test_pairs": 16,
+  "optimizer_steps": 160,
+  "trainable_parameters": 294912,
+  "training_seconds": 72.06,
+  "peak_cuda_allocated_bytes": 1772095488,
+  "frozen_base_unchanged": true,
+  "adapter_sha256": "e49940a3691df7da69fdc39c5cb91c2c642d14b02cf23575f7c11ed49e09869a",
+  "kl_weight": 0.5,
+  "initial_token_kl": 0.0,
+  "dropout_also_disabled_not_a_causal_ablation_of_kl_alone": true,
+  "validation": {
+    "confirmed_errors_before": 5,
+    "confirmed_errors_after": 3,
+    "relative_reduction_percent": 40,
+    "unresolved_context": 3
+  },
+  "known_test": {
+    "complete_corrections": 1,
+    "partial_content_recovery_without_usable_approval": 1,
+    "new_content_losses": 0,
+    "unapproved_before": 4,
+    "unapproved_after": 3,
+    "context_unresolved": 2,
+    "already_inspected_not_blind": true
+  },
+  "old_core": {
+    "regions": 229,
+    "saved_views": 124,
+    "changed_regions": 59,
+    "complete_captured_corrections": 9,
+    "new_captured_regressions": 2,
+    "additional_partial_meaning_loss": 1,
+    "new_source_artifact": 1,
+    "verdicts_reused_by_exact_output_identity": 48,
+    "additional_changed_region_verdicts_reviewed": 11,
+    "full_live_app_use_evaluated": false
+  },
+  "integrity_guards_passed": 10,
+  "previous_expanded_trial_guards_passed": 16,
+  "application_weights_modified": false,
+  "experiment_promoted": false,
+  "reason_not_promoted": "Regularization retains two new old-control regressions and one additional partial meaning loss. Small validation improvement does not justify replacing the app model.",
+  "historical_installed_fixed_control": {
+    "unapproved_views": 56,
+    "saved_views": 124,
+    "historical_relative_reduction_percent": 9.6774193548
+  },
+  "all124_complete_chapter_words_reviewed": false,
+  "new217_complete_chapters_reviewed": false,
+  "ocr_weights_trained": false,
+  "reviewed_bilingual_proposals_total": 184,
+  "accepted_labels_total": 129,
+  "original_source_images_saved": 252,
+  "future_untouched_test_chapters_remaining": 41,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "free_disk_bytes": 13365092352,
+  "next_priority": "Expand genuinely reviewed training dialogue and linguistic variety; keep all old and newly inspected test sources evaluation-only. Do not continue a blind hyperparameter search or replace production weights on these results.",
+  "evidence": [
+    {
+      "path": "benchmarks/finetune8033/protocol.json",
+      "sha256": "1c6f33f569b2b7a05f3d5836d1dfbd4dd2e50e79b4ebf4365326d51a20a7072f"
+    },
+    {
+      "path": "benchmarks/finetune8033/validation-meaning-decisions.json",
+      "sha256": "ff14b0d0bb4c70624868378ae981e831936e463888646cfa8afceb98cdffdcbd"
+    },
+    {
+      "path": "benchmarks/finetune8033/regression-core-meaning-decisions.json",
+      "sha256": "8232cf97201580b730808395bbd05a4d2718e3f615c49cca81917ca034cb2c1d"
+    },
+    {
+      "path": "benchmarks/finetune8033/known-test-meaning-decisions.json",
+      "sha256": "212ebff7b1762cada4805b599278d4c2c3d3a54e2ea874c44fa80f11a6ac9d61"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/summary.json",
+      "sha256": "8a36bc7e188039dc1b0f4a5ed63f899345c453013e803fff0f0d97f8861fa51d"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/run-input-proof.json",
+      "sha256": "102f001e29020ca112d9b72dd5f2c66f8756ea96c2c6186cdfade8005b2be3f2"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/training-log.json",
+      "sha256": "b922af73097032d765488d97e750cbdb5059d2ab658abdb6b74ba52522cc5d27"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/baseline-validation.json",
+      "sha256": "b8050bc5b7f56b02ff8dc5f062a5f3d2e09e0cd4ec3fbd2a35b3f2b744dbbf6e"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/candidate-validation.json",
+      "sha256": "25370508fb7430312f2673e5c03919c21726a3049287a6af3562a3484606725b"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/regression-core-summary.json",
+      "sha256": "9a2c27b9d760d7030303b480b244fc2272a4f17aaa521ef3533c4beb832c5495"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/regression-core-changes.json",
+      "sha256": "5236beadb4ac152178b3450124139373672ae70ebd7f5f3c797c413f8f2fe3a7"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/regression-core-vs8032.json",
+      "sha256": "9f71ada18e041108d5abc0ea0ae31b22ebba613c8da353386bf60e9688fcd029"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/fresh-test-summary.json",
+      "sha256": "593c0e17b990dc90b3ba3ebc48b3bec2cee7b92ad4e52c2d8b6b7855f392ec97"
+    },
+    {
+      "path": "build/finetune8033/lora-pilot/fresh-test-vs8032.json",
+      "sha256": "15009c5cf18072353d8cd48516d15738ef2b0591e271f36791ff36d408d89961"
+    },
+    {
+      "path": "build/full-comics/finetune8033-tests.log",
+      "sha256": "8e71229bb835bc028e03c85723a6adb81355084327d84527d20d74bd14d7ee51"
+    },
+    {
+      "path": "benchmarks/finetune8032/pilot-review.json",
+      "sha256": "fecd10b8e5581aafdbb366bd47f08d29d02de28c226fb2dbeef15f7c2a7f7ef0"
+    }
+  ]
+}

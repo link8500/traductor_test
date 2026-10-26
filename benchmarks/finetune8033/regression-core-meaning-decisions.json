@@ -1,0 +1,461 @@
+{
+  "schema": 1,
+  "scope": "All 59 changed captured-source core outputs; 34 differences from8032 inspected, with identical output verdicts reused by exact source/output identity",
+  "entries": [
+    {
+      "id": 3,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The opening attention-getting utterance remains absent; the changed body wording does not resolve the prior verdict.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 5,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The added indefinite article is a valid Spanish wording variation, not a content correction.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 6,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The final duration question is recovered.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 20,
+      "before": "acceptable",
+      "after": "acceptable",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 22,
+      "before": "incomplete",
+      "after": "incorrect",
+      "partial_content_recovery": true,
+      "note": "The opening question is recovered, but the dead qualifier is moved after FIRST CORPS, producing an ambiguous dead corps/body rather than a reliably dead commander. This conservative review does not certify a complete correction.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 28,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 36,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "A captured slash is newly copied into the output; content remains, but rendering quality worsens.",
+      "new_rendered_text_artifact": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 41,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "The concessive WHILE becomes temporal MIENTRAS. This judgement concerns the captured relation; the sentence is clipped.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 43,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The institutional weapon/title name changes; a named rendering cannot be judged without terminology context.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 46,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 49,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 61,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The changed drink invitation still omits the bar descriptor and the explicit later modifier.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 67,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The courtesy marker is restored. This is recorded separately and does not inflate complete narrative-content corrections.",
+      "courtesy_recovery_only": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 73,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 75,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 76,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 78,
+      "before": "unreadable_source",
+      "after": "unreadable_source",
+      "note": "OCR has extensively corrupted the sentence; do not score guessed words as a model improvement.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 81,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 92,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 98,
+      "before": "incorrect",
+      "after": "incorrect",
+      "partial_quality_improvement": true,
+      "note": "The malformed magnitude wording improves, but the captured THIS MUCH is still not faithfully expressed.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 99,
+      "before": "acceptable",
+      "after": "acceptable",
+      "persistent_quality_defect": true,
+      "note": "Meaning remains; the existing generic-person/plural agreement defect persists.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 101,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 102,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The existing mistaken subject/title parse persists and the candidate is less natural.",
+      "partial_quality_worsening": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 110,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Making the implicit THIS explicit is not counted as a content correction.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 119,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 124,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Different sentence boundaries and the explicit possessive preserve the same captured meaning.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 125,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The separate initial why question is recovered, retaining the rest of the utterance.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 127,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 134,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The number of addressees remains unspecified by isolated English. The parenthetical syntax improves.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 141,
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "Formal singular versus plural cannot be resolved from the isolated YOU; the other captured meaning is retained.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 145,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 146,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question about the others being worse is recovered.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 148,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The additive relation ALSO is recovered in the captured clause.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 153,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "Both explicit questions are recovered; removing an exclamation mark does not undo the content correction.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 155,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Both versions turn the instruction to regret leaving the speaker into a statement of regret with a broken reflexive.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 161,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 163,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 164,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 167,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 169,
+      "before": "incomplete",
+      "after": "incorrect",
+      "note": "The added instruction is not an established complete correction: the corrupted GOAROUND is rendered as roaming, not reliably as the intended duel invitation.",
+      "partial_content_recovery": true,
+      "upstream_ocr_defect": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 173,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 174,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 175,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 176,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Capitalization and removing a spurious article improve the proper-name rendering, without a new content correction.",
+      "partial_quality_improvement": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 177,
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "The captured noun phrase becomes malformed Spanish. The full original view already omitted other words.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 179,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 180,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 181,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The contrast is preserved but the candidate is less idiomatic.",
+      "partial_quality_worsening": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 183,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The affirmative clause is recovered; comma versus full stop does not change the content verdict.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 189,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 195,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question is recovered, keeping the sky statement.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 200,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The causal connector improves, but CLEAN OUT THE LEADER remains a wrong literal cleaning action.",
+      "partial_content_recovery": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 203,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The captured nominal original can stand without repeating WORLD; neither fragment certifies a complete sentence.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 206,
+      "before": "acceptable",
+      "after": "needs_context",
+      "note": "The candidate weakens explicit causation into event identification. Do not certify a new complete error without the surrounding event reference.",
+      "possible_relation_worsening": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 207,
+      "before": "incorrect",
+      "after": "incorrect",
+      "new_partial_meaning_loss": true,
+      "upstream_ocr_defect": true,
+      "note": "The corrupted verb persists and intended purpose still shifts toward past attempted action.",
+      "reused_verdict_by_exact_output_identity": false
+    },
+    {
+      "id": 210,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The explicit location HERE is recovered.",
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 212,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The captured action LUNGED is recovered; the full original sentence still extends beyond this OCR fragment.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 218,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Only laugh length changes; excluded from meaningful-content correction counts.",
+      "filler_only": true,
+      "reused_verdict_by_exact_output_identity": true
+    },
+    {
+      "id": 223,
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true
+    }
+  ],
+  "complete_captured_content_corrections": 9,
+  "new_captured_content_regressions": 2,
+  "new_partial_meaning_losses": 1,
+  "new_rendered_source_artifacts": 1,
+  "verdicts_reused_by_exact_output_identity": 48,
+  "new_changed_region_verdicts_manually_reviewed": 11,
+  "all_changes_from_previous_candidate_reviewed": true,
+  "outputs_reverted_to_baseline": [
+    9,
+    24,
+    25,
+    29,
+    30,
+    33,
+    37,
+    40,
+    48,
+    77,
+    106,
+    111,
+    112,
+    120,
+    132,
+    135,
+    157,
+    162,
+    168,
+    184,
+    186,
+    192,
+    202
+  ],
+  "previous_bad_literal_idiom_reverted_to_baseline": true,
+  "all_changed_outputs_reviewed": true,
+  "all229_meanings_regraded": false,
+  "fresh_pixel_review": false,
+  "production_app_failure_rate_comparable": false,
+  "not_added_to_new_heldout_test_counts": true,
+  "application_weights_modified": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "changes_sha256": "5236beadb4ac152178b3450124139373672ae70ebd7f5f3c797c413f8f2fe3a7",
+  "previous_verdicts_sha256": "2a127ad90443bf7a3cea94a1de995038d59f59f9519d8a7fcdaa82814a9ce830",
+  "previous_candidate_sha256": "fd8be91838b50a5af545b1bf77aa5147ab2b73b090f8438941dffd09f403fe42",
+  "candidate_sha256": "cecbf2f54894a8a4e511c32249165ae50609de516a067a303ca338f776522f81"
+}

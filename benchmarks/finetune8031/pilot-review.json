@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "experiment": "8031-local-opus-lora-pilot",
+  "app_build_unchanged": "803001",
+  "user_source_pairs": 217,
+  "chapter_split_counts": {
+    "train": 136,
+    "validation": 38,
+    "test": 43
+  },
+  "pages_downloaded": 144,
+  "initial_chapter_pairs_downloaded": 4,
+  "proposal_pairs_reviewed": 100,
+  "approved_pair_counts": {
+    "train": 35,
+    "test": 13,
+    "validation": 14
+  },
+  "excluded_proposals": 38,
+  "all_accepted_pairs_visually_checked": true,
+  "chapter_split_disjoint": true,
+  "actual_weight_training_completed": true,
+  "optimizer_steps": 40,
+  "trainable_parameters": 294912,
+  "training_seconds": 47.36,
+  "peak_cuda_allocated_bytes": 1153281024,
+  "new_heldout_complete_content_corrections": 0,
+  "new_heldout_content_losses": 1,
+  "validation_confirmed_content_errors": {
+    "before": 5,
+    "after": 5
+  },
+  "validation_unresolved_context": 3,
+  "test_confirmed_content_errors": {
+    "before": 3,
+    "after": 4
+  },
+  "old_core_diagnostic": {
+    "regions": 229,
+    "saved_views": 124,
+    "changed_regions": 22,
+    "captured_region_corrections": 5,
+    "new_captured_region_content_losses": 2,
+    "additional_partial_meaning_worsenings": 1,
+    "additional_partial_quality_worsenings": 1,
+    "new_source_artifacts": 1,
+    "comparable_to_production_app_failure_rate": false,
+    "not_added_to_new_heldout_results": true
+  },
+  "adapter_reloaded_with_exact_output_parity": true,
+  "new_integrity_guards_passed": 15,
+  "application_weights_modified": false,
+  "installed_app_model_sha256": {
+    "encoder.onnx": "4d6e222350318858ccb47d8b69e40ba348aaf737569f01c971f385485e698d47",
+    "decoder.onnx": "e826a410a865e64272d99fc310f5adf1ea021cb25d6e6cdcf09fc154762f3d90"
+  },
+  "experiment_promoted": false,
+  "reason_not_promoted": "New heldout set has no complete content corrections and one added omission; the training set is only a feasibility pilot",
+  "future_unseen_test_chapters_remaining": 42,
+  "initial_test_set_is_not_blind_for_later_tuning": true,
+  "expansion_queue": {
+    "state": "awaiting_bilingual_pixel_and_meaning_review",
+    "new_proposals": 60,
+    "selection_sha256": "24718448dc7e46c4b64191153b4cdf7a14a044f60074846ad8278b4c741ccd76",
+    "automatic_training_started": false,
+    "approved_new_training_pairs": 0,
+    "heldout_test_answers_reused_for_training": false,
+    "application_modified": false
+  },
+  "evidence": [
+    {
+      "path": "benchmarks/finetune8031/sources.json",
+      "sha256": "b3e9821771898e72a4937deb7b97cc75a071850f2017699e52e832fecfb13273"
+    },
+    {
+      "path": "benchmarks/finetune8031/protocol.json",
+      "sha256": "23ef80f57cfe4f0c2fc5c20a4f3bb9a01109c97972537fec9cb3d05ab777a84c"
+    },
+    {
+      "path": "benchmarks/finetune8031/approved-pairs.json",
+      "sha256": "d8036619d7e25b37f328353edc17736628332346d7b61fcd67eb322112edb7ee"
+    },
+    {
+      "path": "benchmarks/finetune8031/heldout-meaning-decisions.json",
+      "sha256": "c0251b0a816f631f3cf355cf50b5ef0aa2b7c2b93f3ce099f7023ec802dce8f9"
+    },
+    {
+      "path": "benchmarks/finetune8031/regression-core-meaning-decisions.json",
+      "sha256": "f3c468f54e077cda9c80ec9ff5da0d73b7d95a2b49441d94183492bd47dbd7c8"
+    },
+    {
+      "path": "build/finetune8031/base-model-provenance.json",
+      "sha256": "5f9e024a7de0537a68029d7f4f2989d608bfcdb8c4a7230e069960f0224d2af6"
+    },
+    {
+      "path": "build/finetune8031/ocr-provenance.json",
+      "sha256": "1ceb13c2d58d3acfe9e593876c1910b106f96e39ae24e8a190b8bc7f20ea5439"
+    },
+    {
+      "path": "build/finetune8031/review-selection.json",
+      "sha256": "e5b551e0355676b9eac7828b6ed8457218f476277c92df5010ec5dee88ff498e"
+    },
+    {
+      "path": "build/finetune8031/training-environment.freeze.txt",
+      "sha256": "8d0bd696330297c8f48a6123b0c2c2f67745c60849d56c688bb9e9956d759e9c"
+    },
+    {
+      "path": "build/finetune8031/lora-pilot/summary.json",
+      "sha256": "68500544f1009895a9dfe6d519cb6dd6d24fbdde896b18a1c31b3bfbba56219e"
+    },
+    {
+      "path": "build/finetune8031/lora-pilot/run-input-proof.json",
+      "sha256": "f360f6ecf80b3d3629ef22afe3875b705dd7426b8bee5f422a051219bec8781c"
+    },
+    {
+      "path": "build/finetune8031/lora-pilot/training-log.json",
+      "sha256": "2d2ba0d73fc314d008d18e61ffe086f63a42cd8fab42414e9bed83fbfdba0362"
+    },
+    {
+      "path": "build/finetune8031/lora-pilot/baseline-heldout.json",
+      "sha256": "df305ab7c07acdee5a75839cb821d721f6cc85442e0c7e8cad57a6e05e65f7de"
+    },
+    {
+      "path": "build/finetune8031/lora-pilot/candidate-heldout.json",
+      "sha256": "f5b3fdce1e7c9b043050dcd87db6fb8145c0154076891ab06da8b3311f789a5c"
+    },
+    {
+      "path": "build/finetune8031/lora-pilot/regression-core-summary.json",
+      "sha256": "a66c2eb9a73969bd20b0b80f32400f1c05a58679c19d0c605e139fd3de4a9b2a"
+    },
+    {
+      "path": "build/finetune8031/lora-pilot/regression-core-changes.json",
+      "sha256": "3e8ad10435440cec93482c1887b06b656c8e10b986cd9e162428ed98ce889f9c"
+    },
+    {
+      "path": "build/full-comics/finetune8031-tests.log",
+      "sha256": "2a8c230c95df4d211823085a5af7d1734a8211a8eb334a41bcd34984501f1c38"
+    }
+  ],
+  "all217_chapters_reviewed": false,
+  "all124_original_chapter_words_reviewed": false,
+  "full_live_app_use_evaluated": false,
+  "screen_attempt_failure_probability": null,
+  "target_achieved": false,
+  "free_disk_bytes": 13414363136
+}
