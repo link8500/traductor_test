@@ -1609,3 +1609,33 @@ La app instalada mantiene 56 de 124 vistas sin aprobar y la reducción históric
 del 9,68 %. Todas las comparaciones de esta iteración están en
 `build/finetune8034/index.html`; la revisión completa de capítulos y menos del
 5 % de fallos por uso siguen pendientes.
+
+### Continuación 8035–8036: estabilidad y selección
+
+Se evaluaron dos intensidades del adaptador 8034 y se entrenó otro adaptador
+con regularización sobre prefijos generados desde fuentes de entrenamiento.
+La selección se hizo con validación conocida y quedó fijada antes de los demás
+controles. Se revisaron todos los cambios: 86 en el ensayo 8035 y 65 en el 8036,
+reutilizando dictámenes solo cuando fuente y traducción eran idénticas.
+
+Ambos quedaron descartados. El 8036 seleccionado recuperó ocho regiones del
+control de 229, pero empeoró una; también añadió una pregunta omitida en otro
+control y conservó la generación formada solo por signos. No se cambió el
+modelo instalado, no se abrió ningún capítulo reservado y no se repitió OCR
+o captura. Estos resultados no reducen la tasa del control de la app ni
+acreditan el objetivo del 5 %. Consulta [el informe y sus límites](model-stability.md)
+y las comparaciones completas en `build/onpolicy8036/index.html`.
+
+### Continuación 8037–8040: selección inversa y base nativa
+
+Se fijaron 283 fuentes conservadas: 25 de validación y 258 de controles. La
+comparación principal se hace ahora con las salidas del motor nativo 803001,
+incluidas sus recuperaciones, en vez de confundirlo con la base flotante.
+La última variante recupera 7 diálogos de validación y 10 de control, pero
+introduce dos empeoramientos parciales y dos dudas nuevas en los controles.
+Queda descartada para producción; no actualiza la cifra histórica de vistas.
+
+No se repitieron captura ni OCR, ni se abrieron los capítulos reservados.
+La revisión de cada palabra de los 124 capítulos permanece pendiente.
+[Informe y límites](translation-selection.md); comparaciones completas en
+`build/temporal8040/index.html`, un HTML independiente sin servidor.

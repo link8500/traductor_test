@@ -1,0 +1,17 @@
+{
+  "official_loader_scores": [
+    0.5678948163986206,
+    -1.1609543561935425
+  ],
+  "strict_compatibility_loader_scores": [
+    0.5678948163986206,
+    -1.1609543561935425
+  ],
+  "absolute_tolerance": 1e-06,
+  "exact": true,
+  "ignored_buffer_only": "encoder.model.embeddings.position_ids",
+  "learned_parameters_loaded_strictly": true,
+  "checkpoint_modified": false,
+  "final_activation": null,
+  "score_is_probability": false
+}

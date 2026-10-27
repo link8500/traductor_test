@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "experiment": "8037-decoder-search-diagnostics",
+  "hypothesis": "Canonical completion and a lexical opening validity constraint may prevent premature or punctuation-only outputs without changing model weights. Semantic regressions must still be reviewed.",
+  "immutable_inputs": [
+    {
+      "path": "benchmarks/finetune8034/pilot-review.json",
+      "sha256": "967aad35f78bd3504c1dc2fc29e8062c1ba441cf74be5d073dd6e1341ec75161"
+    },
+    {
+      "path": "benchmarks/finetune8034/dataset.json",
+      "sha256": "310cf839254b9a444e914afb4deae0655880e76a03dc1cc513c6d173f90ce316"
+    },
+    {
+      "path": "benchmarks/onpolicy8036/result.json",
+      "sha256": "071e59af055748c20b448633af9cdaef97cefc05738ff036c90df9bc96029638"
+    },
+    {
+      "path": "build/finetune8034/lora-pilot/adapter/adapter_model.safetensors",
+      "sha256": "ce5471bd3cca006ea9f89e7981b2e8213f5521d1f7c6777d13697298baba5366"
+    },
+    {
+      "path": "tools/experiments/stability8035/core.py",
+      "sha256": "79384dc1011e4d8a402789dccac53a7ba22f303c93391d9622026311260c55e7"
+    }
+  ],
+  "variants": [
+    {
+      "id": "base_canonical",
+      "weights": "base",
+      "early_stopping": "never",
+      "lexical_opening": false
+    },
+    {
+      "id": "base_safe",
+      "weights": "base",
+      "early_stopping": "never",
+      "lexical_opening": true
+    },
+    {
+      "id": "adapter_canonical",
+      "weights": "adapter8034",
+      "early_stopping": "never",
+      "lexical_opening": false
+    },
+    {
+      "id": "adapter_safe",
+      "weights": "adapter8034",
+      "early_stopping": "never",
+      "lexical_opening": true
+    }
+  ],
+  "generation": {
+    "num_beams": 4,
+    "max_new_tokens": 160,
+    "do_sample": false,
+    "renormalize_logits": true,
+    "use_cache": true
+  },
+  "fixed_primary": "base_safe",
+  "fixed_secondary_diagnostic": "adapter_safe",
+  "fixed_control_variants": [
+    "base_safe",
+    "adapter_safe"
+  ],
+  "control_policy": "Both safe variants fixed before generation. No reselecting weights or policy using known-control outputs. Ablations run on validation only. Secondary is diagnostic, not a replacement candidate selected after results.",
+  "constraint": "Before the first target alphanumeric for a lexical source, forbid EOS/UNK/PAD and tokens whose leading punctuation would exceed max(3,source leading punctuation+2). Once lexical content appears, scores are unchanged. Punctuation-only source is unchanged. At forced-EOS/all-masked steps restore original scores and record unresolved validity, never hide it.",
+  "quality_gates": {
+    "maximum_new_complete_content_regressions": 0,
+    "maximum_additional_partial_losses": 0,
+    "maximum_new_source_artifacts": 0,
+    "maximum_format_alerts": 0,
+    "minimum_old_core_complete_corrections": 1,
+    "minimum_known16_complete_corrections": 1
+  },
+  "validation_gates": {
+    "known_validation_maximum_confirmed_errors": 3,
+    "new_validation_minimum_net_complete_corrections": 1,
+    "new_validation_maximum_new_content_regressions": 0,
+    "new_validation_maximum_new_context_uncertainties": 0,
+    "maximum_new_content_regressions_on_known_validation": 0,
+    "maximum_format_alerts": 0,
+    "rank": "Eligible variants: lowest known confirmed errors, then most complete new-validation fixes, then highest all-validation chrF++, then lower adapter strength. chrF is not semantic approval.",
+    "if_no_eligible_variant": "Reject this experiment; do not expand the grid using control/test failures."
+  },
+  "review": "Review every new output compared with exact prior-reviewed source/translation. Shape validity is not completeness or meaning. Any new complete regression, partial loss or source artifact blocks promotion.",
+  "references": [
+    "https://huggingface.co/docs/transformers/main_classes/text_generation"
+  ],
+  "new_weights_trained": false,
+  "new_blind_test_chapters_opened": 0,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

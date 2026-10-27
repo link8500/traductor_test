@@ -1,0 +1,11 @@
+{
+  "variant_id": "scale075",
+  "strength": 0.75,
+  "protocol_sha256": "a8c62d4af807717169f900b47da580ba36bd9ae093d72e4d5e0f97d39835521e",
+  "validation_outputs_sha256": "9e41275f257273a2834fbe017fd17ae471fea5a0f46ce60f1e30edd334cf6038",
+  "validation_review_sha256": "aec5017541948e2367f6d966167e5f3e629b9a0bfba152815c3d52819772aca3",
+  "frozen_before_control_generation": true,
+  "all_selection_gates_passed": true,
+  "selection_uses_controls_or_test_outputs": false,
+  "new_blind_test_chapters_opened": 0
+}

@@ -1,0 +1,323 @@
+{
+  "entries": [
+    {
+      "key": "222870844b0811181b9f276583b0e5de41b1d2f3ea37b7eaed044421c782f8d7",
+      "group": "regression-core",
+      "id": 56,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "fc106d514e5375486ccd957505b8f68910a4495387dec0adfb01942d47535b1b",
+      "group": "regression-core",
+      "id": 57,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "bee5b6e4e9f8868f9063b6be3e3dabd5be5ffc1244a681f74631fa72162d363c",
+      "group": "regression-core",
+      "id": 58,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "22eb8382c60ef51f5a251cc43cff9d509731e34c9e8dc5e4c15063e751997cb5",
+      "group": "regression-core",
+      "id": 59,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "1193f5da12ce6ea620e3fc31311f359d8f9a55102e95fa9f6d70934d0882874a",
+      "group": "regression-core",
+      "id": 60,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "00f8606ebdef1985b28a067439475c511f9e6bb332e9d621399f83d24468932b",
+      "group": "regression-core",
+      "id": 61,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "ac3d70aeeeff3b8518fe2c25b00cec5d3432b508cb4326f44ffc7cf0c1ae78a0",
+      "group": "regression-core",
+      "id": 62,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "b6b5592a26e0e69c36fc25f2d6985a65a866eba80af54d5a2d3c2bd56f430584",
+      "group": "regression-core",
+      "id": 63,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "37090856a12395952867a375220be51727be6c9139e4febfb3045e32144a34e0",
+      "group": "regression-core",
+      "id": 65,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "b791346bbc7919d0a8e563e02fb4609ff55e7f3588d88fc028f819f1760ee4ed",
+      "group": "regression-core",
+      "id": 66,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "0cdb28f3367ac5c9b396ad1b12c8b954275a946cf7292fa85e814d5a802fe078",
+      "group": "regression-core",
+      "id": 67,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 68,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "08349e937be785d55f81a86a16f31e44179db12a29f76f24227a6df10bdd3077",
+      "group": "regression-core",
+      "id": 69,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "6589b737cc944521befb402a9e00c4e2d1d0be55d7244fe3e4e73de57c6bb1b6",
+      "group": "regression-core",
+      "id": 70,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "b9835444028f6cb1e5b0ac1f446333ef4446945e82b18327c4464b1602b19376",
+      "group": "regression-core",
+      "id": 71,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "51b5a5acc4157062093b66a561987c357bdc35d2a2670322f0b1a81fcc0852fd",
+      "group": "regression-core",
+      "id": 72,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "3b91f444824837695147d0001b2bf340da4392a05639e92747750aefeab26115",
+      "group": "regression-core",
+      "id": 74,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "33f6520bfc18134a439edd9e6eb637902587e1786f1b787fc23601927deb08c6",
+      "group": "regression-core",
+      "id": 78,
+      "status": "needs_source_review",
+      "note": "The first clause contains several unreadable OCR strings; copied corruption and the following relation cannot be certified as a complete translation."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 79,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "0ce80073618c84786407d44122e7762303ac37badce4372612a40e99957b56a8",
+      "group": "regression-core",
+      "id": 80,
+      "status": "needs_context",
+      "note": "The target attachment of using the father to the threat is ambiguous/awkward; no unqualified equivalence is certified."
+    },
+    {
+      "key": "23b1c4495154db4a69091e8cb5fe4e7ed62f822d7d6f5cd609e3c4e1ea9153cb",
+      "group": "regression-core",
+      "id": 82,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 83,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "d029749389c86805cfc202a6a08571611c2c6656a5026f047c69e3f395fa4df6",
+      "group": "regression-core",
+      "id": 84,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 85,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "c0f82ac51673b8c4396dd3a0c8dc327322c38b471c06865d653bab5a1292c0d2",
+      "group": "regression-core",
+      "id": 87,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "5375968f7355498c735736d820e4c088000176fed3e794339b477fa77aa182b4",
+      "group": "regression-core",
+      "id": 88,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "683c9d928bb552915a3ee2a3339527789049debd9a8c7d6ce933b1e960494c56",
+      "group": "regression-core",
+      "id": 89,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "7c7d4f56bf1d0f12ae69a01b2e40ac23bb993eb62c6222fca479e2ce0861aa62",
+      "group": "regression-core",
+      "id": 90,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 91,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "8888d2d7b50ec09515fbbe5b3eac3bd6b9c8c22452b550bf8b66696db39091e7",
+      "group": "regression-core",
+      "id": 93,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "8dbed1e0444cca56b9aa4039314fba6275eb26090bd00fb891ba53d206059e44",
+      "group": "regression-core",
+      "id": 94,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2a4c4f0e76fa6469bb99b7d2481e8fd2eef7ad908da5812cb564e5f1d8dde64c",
+      "group": "regression-core",
+      "id": 95,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "a55ec44b804c9b87ac3f7779e01cefa89b8b1d177e1f723e65d16f6487c50354",
+      "group": "regression-core",
+      "id": 97,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "56d65321b3ad492620b06a389f31a9b6fff333cc0cde16d3de4b744f5ae01dd5",
+      "group": "regression-core",
+      "id": 98,
+      "status": "incomplete",
+      "note": "Explicit magnitude THIS MUCH is omitted; preserving the effect noun alone does not recover the amount."
+    },
+    {
+      "key": "a31aeab04a2e393e8c905f92682aa3734dd22f168943f0cdc82ea804393b1415",
+      "group": "regression-core",
+      "id": 100,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2cf628398656d5285824e6498884a1ba5afcc8b31bba082bc29235924317133b",
+      "group": "regression-core",
+      "id": 102,
+      "status": "incorrect",
+      "note": "USUAL SELF relationship and the demon title are not faithfully preserved."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 103,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 104,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "01e65229175aa9100b2350416362da06bace6ad5b8bdcf69901d017be52c0b3e",
+      "group": "regression-core",
+      "id": 105,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "28c2724fd643c177925fad52f70a6834af729a90be172ab78a70769c70d0bba4",
+      "group": "regression-core",
+      "id": 107,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "1945da5b52b0ee2945a8db948283f53db5faba2783887077308e4860063db2e5",
+      "group": "regression-core",
+      "id": 108,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "4b295fe39204ca386a9fd5e4a2817935e212fcaf16a7724d386ecbb13583cb64",
+      "group": "regression-core",
+      "id": 109,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "54b0fc8a6efd7ac6c7f26371999e30be118323406010abcfff1090ab0e2cab1b",
+      "group": "regression-core",
+      "id": 113,
+      "status": "needs_context",
+      "note": "Isolated WELL? can be a discourse prompt or an assessment; BIEN? cannot be approved without that context."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 114,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "0a499f8b28a14e0b10911b5da2fb3c5977c32748dcf2d75273c5b830c5d21ed8",
+      "group": "regression-core",
+      "id": 115,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    }
+  ],
+  "queue_range": [
+    35,
+    80
+  ]
+}

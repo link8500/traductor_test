@@ -1,0 +1,8 @@
+{
+  "eligible": false,
+  "policy": null,
+  "frozen_before_controls": true,
+  "protocol_sha256": "db884bc006409f6a6b79be73abdfc153d0c6f2ddd87404b547b7c29181c99b53",
+  "validation_review_sha256": "924f6babb2b558d62549a04d1918da4e19e93c11be8fbd39cac1c2a5ce67f11c",
+  "reason": "No eligible policy because of new context uncertainty. No controls were scored."
+}

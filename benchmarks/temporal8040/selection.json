@@ -1,0 +1,8 @@
+{
+  "eligible": true,
+  "policy": "inverse_with_temporal_retention",
+  "frozen_before_controls": true,
+  "validation_review_sha256": "522aee34dc0ea775434970c5f4f5736456f707e593ee3fea021b987a38ab33cd",
+  "protocol_sha256": "ba3b25092712850cb0cc3152d805e9fcb1f3ed25baed921a19cb85b9497f8121",
+  "known_validation_not_independent_test": true
+}

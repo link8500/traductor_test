@@ -1,0 +1,254 @@
+{
+  "entries": [
+    {
+      "key": "b3d6830880dea02a48d9baacc98a32f23aee42399fa78a1f9b59a0c933cf0973",
+      "group": "regression-core",
+      "id": 1,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "35221eeebe6d36c9125dc73d7876f66426f330db14f6f1f6424c45948356ce22",
+      "group": "regression-core",
+      "id": 4,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "b7f1b9a769756deff9be1263437642440a1079de518a5857e2389f36cf15ab63",
+      "group": "regression-core",
+      "id": 5,
+      "status": "incorrect",
+      "note": "FUR is rendered as skin rather than coat/fur, a changed body attribute."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 7,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "acee4fe1fd7999e8e2237c2fa185fcf051040a0175fcfe35074fb3b7014bf7ea",
+      "group": "regression-core",
+      "id": 8,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "46173d6ca9a39fcce22345b1dc769213438000ef43ef8e276c8177cfe4e7119f",
+      "group": "regression-core",
+      "id": 10,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "2942c8d6233ff22c30d6e1e1407ad5a989af4705b84222f75fcc7de23ccba8ce",
+      "group": "regression-core",
+      "id": 11,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "c0400221e396fb1295d1e8f869ea529778f851d95d3499f3ceccbd6d56981129",
+      "group": "regression-core",
+      "id": 14,
+      "status": "incorrect",
+      "note": "SPELL IT OUT FOR YOU is rendered with POR TI, changing the explanatory recipient relation toward acting on behalf."
+    },
+    {
+      "key": "1090d7480cc3a78298ed61abb65845ccc2b27ade7e976c771866f305e38f335a",
+      "group": "regression-core",
+      "id": 15,
+      "status": "needs_source_review",
+      "note": "INALSPICIOLS is a corrupted OCR token; its missing meaning cannot be certified from this source."
+    },
+    {
+      "key": "fdc497e46fbf8dca6344236aa90fc109b0470f862b520c32ef61b964cbce565b",
+      "group": "regression-core",
+      "id": 16,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "f2eab051a1f9c1b3e4c2c523f1be56208fddb2dc6b205f51f0f19f2ca84d4789",
+      "group": "regression-core",
+      "id": 18,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "9696e698472c66ce7f1cf6fa11bfa7ee39bedbd6dd8b27a4394ba11a55640230",
+      "group": "regression-core",
+      "id": 19,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "f4e32079fe1e0ed1697f918427c2b1fe9fbd142a6ebd4278f06fe8250e5a5eb6",
+      "group": "regression-core",
+      "id": 20,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "cd4fe2e257f82b48dddb417bd230a5a9fde3f223109faf64ccf5db1ed1c9d42a",
+      "group": "regression-core",
+      "id": 21,
+      "status": "incorrect",
+      "note": "FIRST modifies the corps, not the commander; ordinal scope is changed."
+    },
+    {
+      "key": "ab980c45e2bdea1058c1cd3c395b445580836bd2d6740bf9ee49de48fd1a475b",
+      "group": "regression-core",
+      "id": 22,
+      "status": "needs_context",
+      "note": "The opening question is recovered, but DEAD follows the corps noun phrase and its modifier attachment is ambiguous."
+    },
+    {
+      "key": "7ac2adb14b428da989d2293506e1a9f7de166f6ce029e092fa41163b111d39e5",
+      "group": "regression-core",
+      "id": 26,
+      "status": "incomplete",
+      "note": "The explicit THEN discourse/conditional link is omitted."
+    },
+    {
+      "key": "80881b5fae2cc8e7a1ec1e22a379b675da0b5fb903176299854ee05156b651ca",
+      "group": "regression-core",
+      "id": 27,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "6de8ddd365d3fad165cb473391311ac0b9c34276c6de716ef04ea7300d97c773",
+      "group": "regression-core",
+      "id": 29,
+      "status": "needs_source_review",
+      "note": "The captured source starts with a clipped possessive/contraction fragment; copied English and verb role remain unresolved."
+    },
+    {
+      "key": "d9d5ce25efbe440bfb064d541f59489d6b577af52d19ee51729e6f1e2368ab30",
+      "group": "regression-core",
+      "id": 31,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "157c420551fc0a40c33bb3dc7d58addcc829760ec4713e767f68876074b1ec1e",
+      "group": "regression-core",
+      "id": 32,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "ba008b9bd5af0d234d012f48212763280e3f6f771074e8573c24b9ce8b7f2be6",
+      "group": "regression-core",
+      "id": 33,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "50ed689f23455a38a74b8227e8ec8b963ba4b19b00b7b8ef1110b9f52e04f193",
+      "group": "regression-core",
+      "id": 34,
+      "status": "needs_context",
+      "note": "MY OWN has no explicit antecedent in the isolated source; target number/referent cannot be certified."
+    },
+    {
+      "key": "6fa135894473d9bb54bb980ebba3423fa379af555c4153be8913f05d8a15f9a0",
+      "group": "regression-core",
+      "id": 35,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "4a5282613127d0c2fe23cec94f417670be099fc46a28df7a24115f8e49d05793",
+      "group": "regression-core",
+      "id": 38,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "3cf4c1814a244abffbe272fe637f48d7cdd1ca47ccd90fc12f72bcb5ba49b3a1",
+      "group": "regression-core",
+      "id": 39,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "2cd6323e5ab92f20058569dec7308657009400c35abc7e4f9060aba5d23f160c",
+      "group": "regression-core",
+      "id": 42,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "ec09a4d3c730057fb5afe229ce9f4f9164be8deec9c8d62ce4e74db04c8e8705",
+      "group": "regression-core",
+      "id": 43,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "70dff08502169a81f614478a58988a5c7bf9e8bf74acd3d7d66d48655341b1f0",
+      "group": "regression-core",
+      "id": 44,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "6b86cd11f7238508d0475f3352b6b742cb934d30fcf6739a587645bbfee9eab8",
+      "group": "regression-core",
+      "id": 45,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "b268dfb5ab4f396f0e104cc4cda55eb9346a87f9d444be8d7d3dd9ec7fa7d8fb",
+      "group": "regression-core",
+      "id": 46,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "1df71e76ae26191564f5f5d3f8d151f85aa56a7e1553d3ce86cd313e70e3105b",
+      "group": "regression-core",
+      "id": 47,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "b598975279a5926b0797c47457d61f6dc7e152c199eec38261e699e90635864d",
+      "group": "regression-core",
+      "id": 50,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 51,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "e7637afaa7e3346f188dce408333fa67702760658dd5cdc1175190dc0286ac89",
+      "group": "regression-core",
+      "id": 52,
+      "status": "incomplete",
+      "note": "Meaningful common noun NASTIES remains untranslated; it is not an onomatopoeia."
+    },
+    {
+      "key": "7c44b6f36734a8769f64a12ebf17326bc9e11e0c15696f9889001b67551d04fb",
+      "group": "regression-core",
+      "id": 53,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    }
+  ],
+  "queue_range": [
+    0,
+    35
+  ],
+  "review_scope": "Captured-source meanings only; not complete-screen OCR coverage."
+}

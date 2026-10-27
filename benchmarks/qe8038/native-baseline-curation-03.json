@@ -1,0 +1,288 @@
+{
+  "entries": [
+    {
+      "key": "37b8b2a06daaaf7402613834c66c90d0aa2da834eea6233e5c6f09c9c34f7328",
+      "group": "regression-core",
+      "id": 116,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "b71433a4777caa34ad8e987197faac544bcdaf7f15334a9fd46531988b18669d",
+      "group": "regression-core",
+      "id": 117,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 118,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "5f3e3f1e6b81bbb1fcb9db3ae8a6c88480f4adba4f869d362f61ad0f9caa8501",
+      "group": "regression-core",
+      "id": 121,
+      "status": "incomplete",
+      "note": "EVEN I emphasis changes to EVEN SOMETIMES; emphatic subject relation is not preserved."
+    },
+    {
+      "key": "bb93d9693d83bde47060ccc5297d1c52aa1ec4ffb7920295f4740b59b11471d6",
+      "group": "regression-core",
+      "id": 122,
+      "status": "incorrect",
+      "note": "Rising to the office/position is rendered as physically rising to a headquarters; the seat/role idiom is wrong."
+    },
+    {
+      "key": "6a299528a21352ce26f7eb1d02945f5739e8225b5852301761743ece12e891e1",
+      "group": "regression-core",
+      "id": 123,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "9b8b6d9d89667092e99b22b6cc594aaed47061a6ebb26f339d74c0ab10dff483",
+      "group": "regression-core",
+      "id": 127,
+      "status": "needs_context",
+      "note": "IT is rendered as masculine EL; isolated source gives no antecedent to certify that choice."
+    },
+    {
+      "key": "f25bd1f0de77d44d18c22f95eca6abc45192f00c4a687752d7052911e00839bf",
+      "group": "regression-core",
+      "id": 128,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "f89ff128e9b9bb9bce41fe4e46f5aef0fbcbcfb828f9a935d9102f41fafaa051",
+      "group": "regression-core",
+      "id": 129,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "4e7589c490fcd0a283e100aa703f468bebbd26ca7177a37ef15a79adbbfccc5b",
+      "group": "regression-core",
+      "id": 130,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "4406319dbb9dd36e1f854a09e186f38a824c40251269bb9e3e68ba542dfaffc3",
+      "group": "regression-core",
+      "id": 131,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "eac11f9be4e4d8798bcaebdf136ed8ea6ebdae67b1cb8e5eac4fa2eef7b7258f",
+      "group": "regression-core",
+      "id": 133,
+      "status": "needs_context",
+      "note": "I SEE can indicate understanding or literal sight; bare VEO requires the missing discourse context."
+    },
+    {
+      "key": "88bae9e4cd4c68214c3763581ca2fddef7468ea04bdf571859835489d47cc73a",
+      "group": "regression-core",
+      "id": 136,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "35c697aad8942b193e58481c9cba84f7a6c13dbfa4bb573c439b8b5cb7b80445",
+      "group": "regression-core",
+      "id": 137,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "213eff1291638b809a7ff71c6356e618d2b02f5e38624d564a22bea773787a33",
+      "group": "regression-core",
+      "id": 139,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "a371b3595897d2c4a4f29bac5744326f89d692a8a42272fed8bd8bbf6b12f602",
+      "group": "regression-core",
+      "id": 140,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "bd66d12a020e9d3655e7a3c93de7352daf64f61996a7b5e0fd695043f56f11de",
+      "group": "regression-core",
+      "id": 141,
+      "status": "needs_source_review",
+      "note": "CONTINLE is an OCR corruption retained in the target; the intended verb is not certified solely from these pixels-free inputs."
+    },
+    {
+      "key": "b98d03eb6e5158d3a5cb409931f3b1893a749dc153091dbd8bff67ba40acba73",
+      "group": "regression-core",
+      "id": 142,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "7ce03006192570dd89c66763e43accb2a9fbaf118fbb40c88429e441f5150950",
+      "group": "regression-core",
+      "id": 143,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "b0f00b9740ff9cddc144d234a8cc9e9f04cffc985627382eafc77bbcca5f4008",
+      "group": "regression-core",
+      "id": 144,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "d5958f3392ba98ec3bdb6a77d84698b1a0c62fdf509fed04e495df75e74482aa",
+      "group": "regression-core",
+      "id": 146,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "d294b091d31efb516f64cbde9f27ca7009b114f8782aa11627b5614e79168467",
+      "group": "regression-core",
+      "id": 147,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "c8b980acd43b1ca5229b00c94e3d613f891cc8fa51ab4dbe19297b85a9d8374b",
+      "group": "regression-core",
+      "id": 149,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "096936ae284095b41371e7cf808ff0f6d0384939feb360f2d68262e1373da401",
+      "group": "regression-core",
+      "id": 150,
+      "status": "incomplete",
+      "note": "The possessive LEADERS contribution/energy is reduced to the leader himself; the relation expressed by the possessive is lost."
+    },
+    {
+      "key": "baa58fddad21cd676b4861a4604fa369bd091bfb5a3c02534153c2d761ddef68",
+      "group": "regression-core",
+      "id": 151,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "f94fb056ecfcdecb63bc2c6bca6ae8a99c81e36d78a67f2519b2a7d82a86f4f3",
+      "group": "regression-core",
+      "id": 152,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "0e9b9005bbb1798637e7c61e0d7f9b6ed75b56c4d3920a23e125078c31aade76",
+      "group": "regression-core",
+      "id": 153,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "6a6d83853b5abb2333a67bb77c3cc3956efb40baff680d378cc9ab53b2c8d13a",
+      "group": "regression-core",
+      "id": 154,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 156,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "029ab95bd5adfcfd80263a1403a182f8a04fd6ba28cd2a766a8417aee179cd01",
+      "group": "regression-core",
+      "id": 158,
+      "status": "incorrect",
+      "note": "KEEP UP WITH training is rendered as maintaining pace/keeping updated rather than the intended continuing activity."
+    },
+    {
+      "key": "1626153db35c8841ce3154d5c18cd4076e6b75dd8c81cbd833b087defee20ce0",
+      "group": "regression-core",
+      "id": 159,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "2c33f01c5cdd809f2c48911ec5821f64f64e42c730c40bafee406b534c3e2f81",
+      "group": "regression-core",
+      "id": 160,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "830ae73d995535f6edddef4b174f01b430eef52bfbbf9d9805d3b44fec7dd0ea",
+      "group": "regression-core",
+      "id": 163,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "33e21b3d4c9a5bcc07396494a601863ef88f9b3e131b54d97362857dc704fc0e",
+      "group": "regression-core",
+      "id": 165,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "1258913244bbf9fa7fc126e2209b9c2226adfc8014925fb459ac3fd5dabf85cc",
+      "group": "regression-core",
+      "id": 166,
+      "status": "incorrect",
+      "note": "Verbal snapping/irritable response becomes physical hitting; the action is changed."
+    },
+    {
+      "key": "12797076800a0efcfaddb0258a171340f72696908f5ec478082d353cbcba5b9b",
+      "group": "regression-core",
+      "id": 168,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "5b1acc3feed61e15edc7ca3fb2597ea2471764808bc2fba697e4365e6e144286",
+      "group": "regression-core",
+      "id": 170,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "9758440f710784e4cf61cd067cb46efa68974d61035471cb9094af55df48e38f",
+      "group": "regression-core",
+      "id": 171,
+      "status": "needs_source_review",
+      "note": "This is a clipped OCR fragment D OF THE, not enough source to certify a complete dialogue."
+    },
+    {
+      "key": "9ffea0501c00294bd88410d11be2c251f3db1428679f526ed3c9a7fda14b6dae",
+      "group": "regression-core",
+      "id": 172,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "1925a3ca0b9c3dd470abcafdf3d597592fc1895305a4502b84adc2d9581aa0c5",
+      "group": "regression-core",
+      "id": 176,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    }
+  ],
+  "queue_range": [
+    80,
+    120
+  ]
+}

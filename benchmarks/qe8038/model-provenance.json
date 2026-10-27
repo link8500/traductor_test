@@ -1,0 +1,14 @@
+{
+  "repo_id": "Unbabel/wmt20-comet-qe-da",
+  "revision": "2e7ffc84fb67d99cf92506611766463bb9230cfb",
+  "license": "Apache-2.0",
+  "checkpoint": "build\\qe8038\\model\\checkpoints\\model.ckpt",
+  "checkpoint_bytes": 2277497201,
+  "checkpoint_sha256": "05d892bf4a3e34b9a4de239109387d43107b2a8c55ad34b73a929ca6c1ede24e",
+  "hparams_sha256": "bd5046369aa7ea01374c34131aef216eca309399860db3125840d7428d102362",
+  "readme_sha256": "c965439818e7596eb29cfb2b9c014319e024cd41cbc994df81a9e56cfaea69bd",
+  "public_pretrained_model": true,
+  "task": "Reference-free translation quality estimation",
+  "user_text_uploaded": false,
+  "full_encoder_weights_downloaded_separately": false
+}

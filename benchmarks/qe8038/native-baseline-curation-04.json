@@ -1,0 +1,297 @@
+{
+  "entries": [
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 178,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 182,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "10c2deb5eba63c97c085eea3ff5176644bb7f9d828b6831fda576cf32a7dee46",
+      "group": "regression-core",
+      "id": 185,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "b128e8a2070bd6f4db1a3712d8c7a9df337050372ea40ed8ae26c0307139f9a4",
+      "group": "regression-core",
+      "id": 187,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "0676f2688ce54933b02a0f9a0d3db1bb309ec66235368713655750061e841135",
+      "group": "regression-core",
+      "id": 190,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "5fb5b8f7b69f0838c4f4d2459cf362f94eb4df46c5d7b52cdeb9926d1dfc295a",
+      "group": "regression-core",
+      "id": 191,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "0b192e22a0f24545abcdbc5056fdbc4d243527f745271dd0ee29857e27468243",
+      "group": "regression-core",
+      "id": 193,
+      "status": "acceptable",
+      "note": "The sound-only URGH is mistranslated as URGENCIAS, recorded as a non-content quality defect; it does not inflate narrative omission/correction counts.",
+      "filler_only": true,
+      "non_content_quality_defect": true
+    },
+    {
+      "key": "cf7639a1a67f60ecf8f681d2451ff9791366926e2e736d1bae5e1a1d36bc1538",
+      "group": "regression-core",
+      "id": 194,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "7aea98aab58d5a3d4ac5cb011d9e57c606c0570f9b09793985f85d2bdf00b67a",
+      "group": "regression-core",
+      "id": 195,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "3e95b5d6fcb020307257367af536c78004428d7f4a51c1fbc8d2c1ce47a7b600",
+      "group": "regression-core",
+      "id": 196,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "a0a995167502a1536bfb45e6a1d9138129174377393c90793f94b25afe323ff2",
+      "group": "regression-core",
+      "id": 197,
+      "status": "quality_defect",
+      "note": "The negative travel statement is present but the Spanish NO ESTAMOS IR construction is unusably malformed."
+    },
+    {
+      "key": "b9c164157774964c5670f15c5f8788716a78d0afbcdaf14a627d19d461e6808e",
+      "group": "regression-core",
+      "id": 198,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "6ce84b755ee5bd3baf7505063f888999247f68984dc66d39e79972ba89eed5d6",
+      "group": "regression-core",
+      "id": 199,
+      "status": "incomplete",
+      "note": "The explicit EVEN BETTER scalar relation is weakened to BETTER without the additional emphasis."
+    },
+    {
+      "key": "e75ec774cc9de64cc983d357f5f7fc296ea509c4b7acda740b36ab82316cab00",
+      "group": "regression-core",
+      "id": 201,
+      "status": "needs_context",
+      "note": "UNDERWORLD may refer to criminal groups or a literal fantasy realm; INFRAMUNDO is not certified without that referent context."
+    },
+    {
+      "key": "312cf3306ea3b4b04ef96b40ceb00ee119a8c52456a175d987d52e41b45e38a3",
+      "group": "regression-core",
+      "id": 202,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "06f82c044e4626885c504c00c18f0c83f4194ffca543faf9cfd4b083b1031ade",
+      "group": "regression-core",
+      "id": 204,
+      "status": "needs_source_review",
+      "note": "WORLD ML appears to be a clipped caption or label; its complete original content cannot be checked from this fragment."
+    },
+    {
+      "key": "5f59270211113a39f7c36a24b00ac906ab39f1a8e32ea199dcf713408ab5e518",
+      "group": "regression-core",
+      "id": 205,
+      "status": "incorrect",
+      "note": "SLEEPING ONE is a nominal/participial phrase, but DUERME UNO changes it to a finite verb/command."
+    },
+    {
+      "key": "df2d3f293239acc9650a94b8c1c4bc3155e4977fc7ae05066e3decff3286bab1",
+      "group": "regression-core",
+      "id": 206,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "7a47c8461600f62dc27b20779380a978f4e8cfa43fcff66eb684c6729c5caa5b",
+      "group": "regression-core",
+      "id": 207,
+      "status": "needs_source_review",
+      "note": "The corrupted LISE verb is retained and its intended meaning is not certified from the source-only record."
+    },
+    {
+      "key": "c328d0e9ec3a0e59c6b006bde937496213b281dc802c64eed5c22ce0e7bf2ecb",
+      "group": "regression-core",
+      "id": 208,
+      "status": "needs_source_review",
+      "note": "EOLLOW is corrupted OCR and copied untranslated; do not invent a clean source from the model answer."
+    },
+    {
+      "key": "5a2ea55c9aa0b4cc10ae5ebd04d0f337f9f86fe569bc66893d9aff4e47982d1a",
+      "group": "regression-core",
+      "id": 209,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "16b282b483a170afe4cac2e87985f71721eb8e11856d564375075d6175c96814",
+      "group": "regression-core",
+      "id": 210,
+      "status": "incomplete",
+      "note": "The explicit location HERE in the kidnapping proposal is omitted."
+    },
+    {
+      "key": "7fed58c84a6b77663faffe5eecea2d6d7a0e81cc5497360ec968d83c1da0e2cb",
+      "group": "regression-core",
+      "id": 211,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "37d1acaaeb4c0e044c41a0be6b62f5790f2459e45070ead79191e30bd4adefa7",
+      "group": "regression-core",
+      "id": 213,
+      "status": "needs_source_review",
+      "note": "Captured text has heavy clipping and an unresolved LSING token; no complete meaning can be certified."
+    },
+    {
+      "key": "7a783f11f42cc86ce3b06a219e78a64f6923cbd88fb366dbf8cc81408ba81dcc",
+      "group": "regression-core",
+      "id": 214,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "aadd947b972150f6f833fa23c5b0d9b02f9fd89d03f3cb46c6b63f8815a77e64",
+      "group": "regression-core",
+      "id": 215,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "b860e7dfda9e29da1bbea146c98360be1bc52fa8da1a69ace3b0b470d74ed544",
+      "group": "regression-core",
+      "id": 216,
+      "status": "needs_context",
+      "note": "The isolated continuation and malformed Spanish leave command attachment and dealt-with relation unresolved."
+    },
+    {
+      "key": "7ddb22af865325dfd415dcff3bb78852a950da9d569c7d29b367ee86a84dead4",
+      "group": "regression-core",
+      "id": 217,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "bc63e4622c22391734e881eae08cc0818a7852d35e3e5bde3c2b2001cd0f7e03",
+      "group": "regression-core",
+      "id": 219,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "12ab85478e28c9d22a9804bf37966539c6c4f0033cfa4367baa38f8020a8f4fe",
+      "group": "regression-core",
+      "id": 220,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "51536b892e230423162d387efa64d1bc1f3e05e0b77211721553dee91cd5d7d6",
+      "group": "regression-core",
+      "id": 221,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "abddd24d3260ef47b3987fafedc70c52ade0107b773f468759d2779ece01cc2e",
+      "group": "regression-core",
+      "id": 224,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "b2528c7fcd4459712eb26bbc227ffb261a33c20be5b3e5b2b37892684447e2f6",
+      "group": "regression-core",
+      "id": 226,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "dec451246bceca251f209838c3397e8d52536ee885e9fce5380ec9e6df6de7ce",
+      "group": "regression-core",
+      "id": 227,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "9450b903fa2fde0bb08f710b341e0d1e55b729e0be825336b40184465e312ae0",
+      "group": "regression-core",
+      "id": 228,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "c5219ca3821a51925a2a3cefa71d6321a9064431a4c5a9e442ee566163af2311",
+      "group": "regression-core",
+      "id": 229,
+      "status": "incorrect",
+      "note": "YEARS is added even though the captured source only ends in LAST THREE; no time unit is available to justify that addition."
+    },
+    {
+      "key": "c957fb95a41d34ef1c41e5c1d7395ae66a48af8bcfb09e0ebffbe068e774c3f8",
+      "group": "known-test",
+      "id": 4,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "c972e0205534156ab33f8af6a04bb740999b0f0143b874ebc48fc9c5b8b89fbb",
+      "group": "known-test",
+      "id": 5,
+      "status": "quality_defect",
+      "note": "Greeting is partially recovered but literal N-AGRADABLE CONOCERTE remains malformed Spanish; not a complete usable correction."
+    },
+    {
+      "key": "53c52d7e3de51cf5554c5562aa57e4c60183a71b1899c4f46892e7da60d77154",
+      "group": "known-test",
+      "id": 21,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "075f817e00b8b9a07b433a5619442b0a281239b7791a9bccb1027b7305c437e6",
+      "group": "known-test",
+      "id": 22,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "a8458d85ca64a78e44f39017f0a7da0330a67d8b1565f300c1a88bfccd8a1dfb",
+      "group": "known-test",
+      "id": 24,
+      "status": "incomplete",
+      "note": "The explicit YES affirmation is omitted; WELL and ARU fillers are not the reason for the verdict."
+    }
+  ],
+  "queue_range": [
+    120,
+    161
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "experiment": "8037",
+  "new_weights_trained": false,
+  "primary": "base_safe",
+  "secondary_diagnostic": "adapter_safe",
+  "quality_gates_passed": false,
+  "promoted": false,
+  "controls_executed": false,
+  "controls_skipped_reason": "Primary fails required validation gains; secondary adds a hallucinated reply. Stop after all100 validation outputs were reviewed rather than spending more inference on ineligible variants.",
+  "known_validation_errors_base": 5,
+  "primary_known_errors": 5,
+  "secondary_new_complete_regressions": 2,
+  "canonical_search_introduced_unresolved_length_limits": true,
+  "new_blind_test_chapters_opened": 0,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

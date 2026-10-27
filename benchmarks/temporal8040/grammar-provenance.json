@@ -1,0 +1,131 @@
+{
+  "model": "es_core_news_sm",
+  "version": "3.8.0",
+  "spacy_version": "3.8.7",
+  "license": "GNU GPL 3.0",
+  "research_only_not_in_application": true,
+  "official_metadata": "https://raw.githubusercontent.com/explosion/spacy-models/master/meta/es_core_news_sm-3.8.0.json",
+  "wheel": {
+    "url": "https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl",
+    "archive_info": {
+      "hash": "sha256=e451a83d6df79b87e9eed0cb553f03e99e36a3bab18a7b79f0dcfd1fdf875e12",
+      "hashes": {
+        "sha256": "e451a83d6df79b87e9eed0cb553f03e99e36a3bab18a7b79f0dcfd1fdf875e12"
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\__init__.py",
+      "sha256": "c8eb57079c03fc4157c227f641781fbcb3e9d11439abe1bf0b72e4c0fa78a38d"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\accuracy.json",
+      "sha256": "0d007ffb064c6154d332bc937cc87b2409cdfa50fb9021183a77f3976794b74a"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\attribute_ruler\\patterns",
+      "sha256": "4f75cda3457fb69177271ea919b9718de483d613a6934e705284a0d7a3f5f8d4"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\config.cfg",
+      "sha256": "087f4b104d48e6e1f00705fb6c9faa7986d9cd90a0aefdcdca43e345b1ec7915"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\lemmatizer\\lookups\\lookups.bin",
+      "sha256": "ee3740fdad2ebc1cf79a63a8e5b2d2f3dd47b33c3a7a0bc9351ba5a1246b6a07"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\LICENSES_SOURCES",
+      "sha256": "76fa6447b65f26c23091a1a33090078107eac51c880638e1b924dc2af0c62d2b"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\meta.json",
+      "sha256": "2461674e8dd76dec0875d80778736d6900592835722cd793e80037e0c12a721c"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\morphologizer\\cfg",
+      "sha256": "fb6ef1fde55d6fdfc62928ad473b02ec6f60c918de3630b24193155e9b44e6b6"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\morphologizer\\model",
+      "sha256": "ffd6ec38ef74103e8eb8d7f4f9f2024c4fe497ebd25cf93ea665da29c6065570"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\ner\\cfg",
+      "sha256": "a7172edadafba9f472e9ac0f2660eec04b6405e471be9e20267b79c67288d22d"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\ner\\model",
+      "sha256": "131735463a7f41e278d98ab4ebec8dfc82d646acc3cf2c0eb44d4fd4eabea267"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\ner\\moves",
+      "sha256": "388a36c16aef7bcb5337914cbeb4294615eed7f43d9428d54ce7d5cec3fbda88"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\parser\\cfg",
+      "sha256": "e2a240ef01f95e58f5dd4c9d6e90d61f597b8d998966570d3009dd81e8879780"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\parser\\model",
+      "sha256": "5f4bd7b9591f6451661d875fa37a04ed9e4c30e9d0e382a1c7beafba25cd2117"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\parser\\moves",
+      "sha256": "8d24e3afe08cdb49c58d10b045fb3f2238be46e9ec61c5310603627a1aa1de5b"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\README.md",
+      "sha256": "c3810d99709eabfb2f1a229f87bccb4f301b07d44b7434f4b61609297459f6fb"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\senter\\cfg",
+      "sha256": "2a4db4a729b6469da1f87d71cc7cd3ed2a73360cc85326821e850836c4671103"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\senter\\model",
+      "sha256": "861955bc1bd5675b547ed84026de5137291bb00eae0970c4d99df008ae78d140"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\tok2vec\\cfg",
+      "sha256": "f8a5a26e3056eb6fb06deeb3dbccfd88ae74900200c98c70b5966bbb7ec9d4de"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\tok2vec\\model",
+      "sha256": "ae8efa1e15379822553ea9bf38bea6a2792296318f6393f1f5722d9d19ca4ba2"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\tokenizer",
+      "sha256": "b59b7b576c81115906b8fcf07f331a84846f77b431676a0803906c94c817462f"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\vocab\\key2row",
+      "sha256": "76be8b528d0075f7aae98d6fa57a6d3c83ae480a8469e668d7b0af968995ac71"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\vocab\\lookups.bin",
+      "sha256": "76be8b528d0075f7aae98d6fa57a6d3c83ae480a8469e668d7b0af968995ac71"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\vocab\\strings.json",
+      "sha256": "cdfc708397290f6bb86f1dc4e126707762969a4dd5515a1afba693a67620a9ab"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\vocab\\vectors",
+      "sha256": "14772b683e726436d5948ad3fff2b43d036ef2ebbe3458aafed6004e05a40706"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\es_core_news_sm-3.8.0\\vocab\\vectors.cfg",
+      "sha256": "ff4359091952c8cd16f1f0482f5770fb82d1707368d5cca3c46aa501f552e3c5"
+    },
+    {
+      "path": "build\\grammar8040-venv\\lib\\site-packages\\es_core_news_sm\\meta.json",
+      "sha256": "2461674e8dd76dec0875d80778736d6900592835722cd793e80037e0c12a721c"
+    }
+  ]
+}

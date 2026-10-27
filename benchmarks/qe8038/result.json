@@ -1,0 +1,37 @@
+{
+  "experiment": "8038",
+  "quality_model": "COMET-QE",
+  "native_production_comparator": true,
+  "quality_gates_passed": false,
+  "promoted": false,
+  "controls_scored": false,
+  "controls_skip_reason": "Both margins already fail zero-new-regression validation gate.",
+  "validation": {
+    "000": {
+      "rows": 25,
+      "confirmed_errors_before": 10,
+      "confirmed_errors_after": 10,
+      "complete_corrections": 2,
+      "new_complete_regressions": 2,
+      "context_before": 4,
+      "context_after": 3,
+      "switches": 12,
+      "unresolved_estimation": 0
+    },
+    "002": {
+      "rows": 25,
+      "confirmed_errors_before": 10,
+      "confirmed_errors_after": 10,
+      "complete_corrections": 2,
+      "new_complete_regressions": 2,
+      "context_before": 4,
+      "context_after": 3,
+      "switches": 7,
+      "unresolved_estimation": 0
+    }
+  },
+  "new_blind_test_chapters_opened": 0,
+  "model_weights_modified": false,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

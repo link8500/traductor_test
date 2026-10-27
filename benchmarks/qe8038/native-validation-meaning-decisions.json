@@ -1,0 +1,208 @@
+{
+  "entries": [
+    {
+      "id": 143,
+      "validation_group": "known",
+      "status": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "13b0a4cf1c836b91223c5e85b7b9f76f660fc2ebf694198aeea85e8fdcf49ded"
+    },
+    {
+      "id": 144,
+      "validation_group": "known",
+      "status": "incomplete",
+      "note": "The initial NO and forward-location AHEAD are missing.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "c9938123f6918bd4f7fec892adbec3a5133e0b18b9fbd5e105d63c92d3977c55"
+    },
+    {
+      "id": 145,
+      "validation_group": "known",
+      "status": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "e9f972064792a4cd219b80d8e655fd33fd9f611e53004c6144ee088eb9b042de"
+    },
+    {
+      "id": 146,
+      "validation_group": "known",
+      "status": "needs_context",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "f1b35b384db8e86335cd61f1530863b771e82f7e7c804e26dd1820548fe92c2b"
+    },
+    {
+      "id": 148,
+      "validation_group": "known",
+      "status": "incorrect",
+      "note": "The RAREST OF RARE superlative remains malformed.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "751cc7c9698373ac6c11eb3742e48fe6cc24edde3a29d47a3e64b6243d592287"
+    },
+    {
+      "id": 149,
+      "validation_group": "known",
+      "status": "incorrect",
+      "note": "Named referent LLOYD is replaced by TODO; the relation is no longer about that person.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "e8bf48b4f0852cd3ceb742154c3ca3e7c4dfa820da6eb9feb79e26a3e5d209d2"
+    },
+    {
+      "id": 150,
+      "validation_group": "known",
+      "status": "incomplete",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "4a729503f263d2104777dfdb0a537abac78e43fdf9ebccff08bef889a156b41a"
+    },
+    {
+      "id": 151,
+      "validation_group": "known",
+      "status": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "eb79bd2a21b65fd82fd110f4c25ed8833712144027be888bd2874627f1102420"
+    },
+    {
+      "id": 152,
+      "validation_group": "known",
+      "status": "needs_context",
+      "note": "Speaker/addressee and antecedent gender are not given to the text-only core.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "1c328eb6fc8683d3c779560bad04c6d05bf0e405bca4479e828d33e9f76de132"
+    },
+    {
+      "id": 153,
+      "validation_group": "known",
+      "status": "needs_context",
+      "note": "MERELY is preserved; instructor gender still requires context.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "ef005ea77d044f78eea695f1b18c4d914335763cfe6424f26ff928bd7ef09de3"
+    },
+    {
+      "id": 154,
+      "validation_group": "known",
+      "status": "incorrect",
+      "note": "The explicit first-person I THINK changes to second-person PIENSES; recovering the question does not repair that independent person change.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "1d7e4ad885fca049ccd002811104347779a1115eaff0b7a14bd5bbe23d65223a"
+    },
+    {
+      "id": 155,
+      "validation_group": "known",
+      "status": "incomplete",
+      "note": "The WAIT instruction remains omitted; a stutter is not required.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "906fbcfdb55d8f990d4ba3838c6df59372f415c9f300f5108f5438cf0a5f1440"
+    },
+    {
+      "id": 156,
+      "validation_group": "known",
+      "status": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "91ab411cd9dfb45db04e29abbd9274db2d51cfa4110cc675c61eb74fcb56dcd9"
+    },
+    {
+      "id": 158,
+      "validation_group": "known",
+      "status": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "3b8e792ec0e6eeccb96a6f2bf0ebe1ebacfba4d3772d78a520ce994e18c73f16"
+    },
+    {
+      "id": 400062,
+      "validation_group": "new",
+      "status": "acceptable",
+      "note": "Repeated denial is preserved; repetition-only changes do not inflate meaningful corrections.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "4c5f0117f43fd129287ba1a733de1a084ed51df542a2c712c0ffbb8bfac62616"
+    },
+    {
+      "id": 400063,
+      "validation_group": "new",
+      "status": "acceptable",
+      "note": "All questions, past barrier placement, speed and teleportation retained. An extra opening question mark is a style defect, not an omitted unit.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "d9390fff5d3be84150eeadf19f73d6c7b98d9b13d4d45c578c359b1b82c3f2cd"
+    },
+    {
+      "id": 400064,
+      "validation_group": "new",
+      "status": "incorrect",
+      "note": "The achievement idiom WONT MAKE IT changes to WONT DO IT, losing the intended success/ability relation.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "581ddb88e36849af947192ff97f442b013331c6016b522916732e94915d7bc2a"
+    },
+    {
+      "id": 400066,
+      "validation_group": "new",
+      "status": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "986a136263791274ae949f7a08c6fe4e29802e08718b7f9d49cf46d111109337"
+    },
+    {
+      "id": 400067,
+      "validation_group": "new",
+      "status": "acceptable",
+      "note": "Thanks, pet address and unnecessary-action statement preserved; laugh repetition is not a content error.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "1ef329fade5de72f2a19a918bb22ce54ea898e7fd7e1daf1cb7b9bc861be27a9"
+    },
+    {
+      "id": 400068,
+      "validation_group": "new",
+      "status": "needs_context",
+      "note": "Taunting pity preserved; plural addressee remains uncertain from the isolated YOU.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "635509945cbca73886125a2a83ae0ce74b9005ba3e7102ad4abbe30613a4ff09"
+    },
+    {
+      "id": 400069,
+      "validation_group": "new",
+      "status": "incorrect",
+      "note": "Behavior adverb IMMATURELY remains wrongly attached to the magical power.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "6dbcaee9059819b30be67926f8cef4dfd5f02309632320fff4418f212afafafb"
+    },
+    {
+      "id": 400070,
+      "validation_group": "new",
+      "status": "acceptable",
+      "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "786323aad37d921682d1359343cf67e9d8e6a65cb5d05e50b811fa0cfc5da0b2"
+    },
+    {
+      "id": 400072,
+      "validation_group": "new",
+      "status": "acceptable",
+      "note": "The tentacle count and the more-than-expected comparison are preserved.",
+      "review_method": "exact_source_and_reviewed_output_identity",
+      "source_output_key": "4ded7bdb34d0f6c5f83f45166a562f056867423b3ad31738815928d3eca9faf5"
+    },
+    {
+      "id": 400073,
+      "validation_group": "new",
+      "status": "incomplete",
+      "note": "Final self-correction and personal completion priority, including FIRST, are omitted.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "75570bff8438e57c9243e18a134afa3c49913c3f178e479881326a4f0130de48"
+    },
+    {
+      "id": 400074,
+      "validation_group": "new",
+      "status": "incomplete",
+      "note": "AFTER THAT temporal continuation is missing; the pronoun also requires context.",
+      "review_method": "assistant_source_reference_and_native_output_review",
+      "source_output_key": "19b3aeef25959c31b91a3472a51e4045db1840dc296e33f66399bc3f5d49366e"
+    }
+  ],
+  "native_output_sha256": "47210a8cd40cdec6b812f270a08a8ecb3e1afa25534345f68b7f485af1a6f1db",
+  "reviewed_before_qe_scores": true,
+  "reviewer": "assistant_meaning_review",
+  "not_human_certified": true
+}

@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "experiment": "8039-inverse-likelihood-and-score-agreement",
+  "purpose": "Check whether a fixed original English source remains supported by each Spanish alternative; compare inverse-only selection with independent-score agreement.",
+  "immutable_inputs": [
+    {
+      "path": "benchmarks/qe8038/result.json",
+      "sha256": "f66da2322b5f7eb74caed8b0ec814da81d05b93233706ba2453358a93c5e1eff"
+    },
+    {
+      "path": "benchmarks/qe8038/native-validation-meaning-decisions.json",
+      "sha256": "23025db47860c29d83c0156c6e20c2b4c1b960ab9169e2093cb6d08e0745b9fb"
+    },
+    {
+      "path": "benchmarks/qe8038/native-control-meaning-decisions.json",
+      "sha256": "27611a0c0b16ccd98d8029509eb20322a0f861bdc9a0667a0de866c13ec72314"
+    },
+    {
+      "path": "build/qe8038/candidate-pools.json",
+      "sha256": "f6551b860539451990aa4e58b3c4c7636b34273ae46161d30077e30afceebf1f"
+    },
+    {
+      "path": "build/qe8038/validation-scores.json",
+      "sha256": "fd6fa5433694db8a4de60772a8f12248c8c1473852de3a472e61a7cb10dd20b8"
+    },
+    {
+      "path": "tools/train_opus_lora8031.py",
+      "sha256": "b8eda1af3f72605f7cca4f78da5e812c3aabf257450fdf3cb9ec72bdf25de05c"
+    },
+    {
+      "path": "tools/experiments/roundtrip8039/policy.py",
+      "sha256": "985de5e4e6b890483c1c14bf44eaf3c91c35a75e7d4594107f862173c060947a"
+    },
+    {
+      "path": "tools/experiments/roundtrip8039/score.py",
+      "sha256": "a853758c36bd509284acfab7944a4e70bffc7cd6799a428e4564fe2f1680627e"
+    }
+  ],
+  "policies": [
+    "inverse_only",
+    "inverse_and_qe"
+  ],
+  "source_target_roles": "Each reverse-model request inputs a Spanish alternative and teacher-forces the original English source, prepared by the existing casing function. This is likelihood evaluation, not training. No correct Spanish reference or human verdict is input.",
+  "score": "Mean original-source token log probability under pretrained OPUS es-en, including EOS and excluding padding. All alternatives for a source use identical English target tokens.",
+  "policy": "Keep native unless a valid alternative strictly improves inverse likelihood. Agreement variant additionally requires strictly higher COMET-QE score. No margin search, source-word lookup, identity routing or output rewriting. Fixed pool order breaks ties.",
+  "validation_gates": {
+    "minimum_complete_content_corrections": 1,
+    "maximum_new_content_regressions": 0,
+    "maximum_additional_partial_losses": 0,
+    "maximum_new_source_artifacts": 0,
+    "maximum_new_context_uncertainties": 0
+  },
+  "selection": "Among eligible policies: fewest confirmed failures, then most complete corrections, then fewest switches, then inverse_only to prefer the smaller runtime. Freeze choice before any control scoring; reject if neither qualifies.",
+  "control_gates": {
+    "minimum_net_complete_content_corrections": 1,
+    "maximum_new_content_regressions": 0,
+    "maximum_additional_partial_losses": 0,
+    "maximum_new_source_artifacts": 0
+  },
+  "pretrained_reverse_model": "Helsinki-NLP/opus-mt-es-en",
+  "revision": "c96e2c5399ebfae4fc43d9669556b9afa74bb69d",
+  "license": "Apache-2.0",
+  "reference_free": true,
+  "new_gradient_updates": 0,
+  "model_weights_modified": false,
+  "new_blind_test_chapters_opened": 0,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

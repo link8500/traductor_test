@@ -1,0 +1,537 @@
+{
+  "policies": {
+    "inverse_only": {
+      "entries": [
+        {
+          "id": 143,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 144,
+          "group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The forward-location AHEAD modifier is recovered.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 145,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": null,
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 146,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 148,
+          "group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 149,
+          "group": "known",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "The copied HUH filler is a quality defect, not a meaningful content-loss count.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 150,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 151,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 152,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Prior verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 153,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": null,
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 154,
+          "group": "known",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "The explicit confirmation question is recovered.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 155,
+          "group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The instruction to wait is recovered; the stutter is not a content requirement.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 156,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 158,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400062,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Repeated denial is preserved; repetition-only changes do not inflate meaningful corrections.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400063,
+          "group": "new",
+          "before": "acceptable",
+          "after": "needs_context",
+          "note": "English SET UP is morphologically ambiguous between past and present. The candidate present establezco differs from the published past interpretation; no categorical isolated-text content-loss verdict is forced without broader context.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400064,
+          "group": "new",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400066,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400067,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Thanks, pet address and unnecessary-action statement preserved; laugh repetition is not a content error.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400068,
+          "group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Taunting pity preserved; plural addressee remains uncertain from the isolated YOU.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400069,
+          "group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Behavior adverb IMMATURELY remains wrongly attached to the magical power.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400070,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400072,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Prior verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400073,
+          "group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The entire final self-correction and personal completion priority are recovered, including FIRST.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400074,
+          "group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The temporal continuation AFTER THAT is recovered without inventing the next event.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        }
+      ],
+      "counts": {
+        "inputs": 25,
+        "confirmed_errors_before": 10,
+        "confirmed_errors_after": 3,
+        "complete_corrections": 7,
+        "new_complete_regressions": 0,
+        "new_context_uncertainties": 1,
+        "context_remaining": 5,
+        "switches": 13
+      },
+      "eligible": false,
+      "reason": "One new tense/context uncertainty violates the preregistered zero-new-uncertainty gate."
+    },
+    "inverse_and_qe": {
+      "entries": [
+        {
+          "id": 143,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 144,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 145,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": null,
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 146,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 148,
+          "group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The RAREST OF RARE superlative remains malformed.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 149,
+          "group": "known",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "The copied HUH filler is a quality defect, not a meaningful content-loss count.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 150,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 151,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 152,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Prior verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 153,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "MERELY is preserved; instructor gender still requires context.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 154,
+          "group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The explicit first-person I THINK changes to second-person PIENSES; recovering the question does not repair that independent person change.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 155,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The WAIT instruction remains omitted; a stutter is not required.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 156,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 158,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400062,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Repeated denial is preserved; repetition-only changes do not inflate meaningful corrections.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400063,
+          "group": "new",
+          "before": "acceptable",
+          "after": "needs_context",
+          "note": "English SET UP is morphologically ambiguous between past and present. The candidate present establezco differs from the published past interpretation; no categorical isolated-text content-loss verdict is forced without broader context.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400064,
+          "group": "new",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400066,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400067,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Thanks, pet address and unnecessary-action statement preserved; laugh repetition is not a content error.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400068,
+          "group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Taunting pity preserved; plural addressee remains uncertain from the isolated YOU.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400069,
+          "group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Behavior adverb IMMATURELY remains wrongly attached to the magical power.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400070,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400072,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The tentacle count and the more-than-expected comparison are preserved.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400073,
+          "group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Final self-correction and personal completion priority, including FIRST, are omitted.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        },
+        {
+          "id": 400074,
+          "group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The temporal continuation AFTER THAT is recovered without inventing the next event.",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "review_method": "exact_source_and_reviewed_output_identity"
+        }
+      ],
+      "counts": {
+        "inputs": 25,
+        "confirmed_errors_before": 10,
+        "confirmed_errors_after": 7,
+        "complete_corrections": 3,
+        "new_complete_regressions": 0,
+        "new_context_uncertainties": 1,
+        "context_remaining": 5,
+        "switches": 7
+      },
+      "eligible": false,
+      "reason": "One new tense/context uncertainty violates the preregistered zero-new-uncertainty gate."
+    }
+  },
+  "not_a_new_blind_test": true
+}

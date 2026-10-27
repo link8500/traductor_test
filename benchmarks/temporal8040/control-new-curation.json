@@ -1,0 +1,16 @@
+{
+  "reviewer": "assistant; captured English source versus selected Spanish; not final human certification",
+  "entries": [
+    {"group": "regression-core", "id": 21, "status": "acceptable", "note": "The ordinal now modifies the corps, not its commander: the first corps commander's house."},
+    {"group": "regression-core", "id": 26, "status": "acceptable", "note": "The missing THEN discourse relation is restored as ENTONCES."},
+    {"group": "regression-core", "id": 27, "status": "acceptable", "note": "Responsibility for that is retained with a different valid preposition."},
+    {"group": "regression-core", "id": 39, "status": "acceptable", "note": "DEBERIAN explicitly preserves the proposed punishment rather than changing the content."},
+    {"group": "regression-core", "id": 45, "status": "needs_context", "note": "The addressee changes from singular SABES to plural/formal-plural SABEN. English YOU alone does not resolve this; the change introduces a new uncertainty relative to native."},
+    {"group": "regression-core", "id": 70, "status": "acceptable", "note": "Apologizing to the speaker is preserved by a valid paraphrase."},
+    {"group": "regression-core", "id": 109, "status": "acceptable", "note": "The regret claim and internal torment are preserved."},
+    {"group": "regression-core", "id": 122, "status": "incorrect", "note": "The physical ASIENTO literalism still fails to naturally express rising to the office/post of pavilion master. Replacing SEDE does not certify a complete correction."},
+    {"group": "regression-core", "id": 193, "status": "acceptable", "note": "The interjection is restored, but this is a sound effect only and does not count as a content correction."},
+    {"group": "regression-core", "id": 211, "status": "acceptable", "note": "Only capitalization of chef changes; the hypothetical hurt reaction is preserved."},
+    {"group": "regression-core", "id": 228, "status": "acceptable", "note": "The feminine singular agreement attaches the enlightenment basis to the lecture. The isolated English also permits that reading; content is preserved."}
+  ]
+}

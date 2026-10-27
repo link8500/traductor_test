@@ -23,7 +23,7 @@ APK ni del ejecutable de Windows. La lógica de sesión en producción está en
 - `*8031*`, `*8032*`, `*8033*`, `*8034*`: adaptación LoRA de OPUS y controles
   de integridad y significado. [Resultados y límites](../docs/local-model-adaptation.md).
 
-El ensayo más reciente es **8034**, todavía experimental. Sus piezas se
+Las piezas del ensayo **8034**, todavía experimental, se
 encuentran agrupadas lógicamente así:
 
 | Etapa | Archivos |
@@ -36,6 +36,32 @@ encuentran agrupadas lógicamente así:
 No es una secuencia para repetir sin preparación: los scripts consumen
 protocolos congelados, checkpoints y decisiones revisadas. Publicar un informe
 local no instala un candidato en la app.
+
+La continuación se organiza como paquetes en `tools/experiments/`:
+
+- `stability8035/`: evaluación de dos intensidades, selección y comparación de
+  salidas. No entrena otros pesos.
+- `onpolicy8036/`: entrenamiento con prefijos generados exclusivamente desde
+  datos de entrenamiento, selección de punto, evaluación y publicación local.
+
+Ambos quedaron descartados. Consulta
+[sus resultados y límites](../docs/model-stability.md). Para comprobar la
+integridad se ejecutan como módulos desde la raíz del proyecto; no hace falta
+repetir el entrenamiento ni descargar otros modelos.
+
+La continuación más reciente mantiene paquetes separados:
+
+- `decoder8037/`: variantes de decodificación y protección del primer token.
+- `qe8038/`: base nativa reproducida, conjunto fijo de candidatos y COMET local.
+- `roundtrip8039/`: puntuación inversa con el inglés original como objetivo;
+  evalúa alternativas sin entrenar con las respuestas de prueba.
+- `temporal8040/`: veto morfológico general, controles, revisión y HTML independiente.
+
+Los cuatro ensayos quedaron descartados para producción. Consulta
+[resultados y reproducción](../docs/translation-selection.md). Los entornos
+COMET y de morfología son exclusivamente de investigación; no forman parte
+de la aplicación. Los scripts de publicación crean evidencia local y no
+levantan un servidor.
 
 ## Rutas y reproducibilidad
 

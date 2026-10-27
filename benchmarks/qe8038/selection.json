@@ -1,0 +1,8 @@
+{
+  "eligible": false,
+  "margin": null,
+  "protocol_sha256": "9492ebaf883bcf03710a3c6b661dc5251ee847138075b90bb329ae354b559da3",
+  "validation_review_sha256": "bbdd137ab3abdc6ac2d176a39a17a0fb851739b9a1846dc72eb879b0d1571bdb",
+  "frozen_before_controls": true,
+  "reason": "Neither preregistered margin prevents new content regressions."
+}

@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "experiment": "8036-training-only-onpolicy-anchor",
+  "hypothesis": "Anchor the adapted distribution on its own generated prefixes as well as gold training prefixes to reduce autoregressive drift; no guarantee that training-source stability transfers to evaluation.",
+  "immutable_inputs": [
+    {
+      "path": "benchmarks/finetune8034/dataset.json",
+      "sha256": "310cf839254b9a444e914afb4deae0655880e76a03dc1cc513c6d173f90ce316"
+    },
+    {
+      "path": "benchmarks/finetune8034/training-protocol.json",
+      "sha256": "9f3952da61bf74a431ac73c11627197e399e2b8c6cf012e791ef097a75d6606c"
+    },
+    {
+      "path": "benchmarks/stability8035/protocol.json",
+      "sha256": "a8c62d4af807717169f900b47da580ba36bd9ae093d72e4d5e0f97d39835521e"
+    },
+    {
+      "path": "benchmarks/stability8035/result.json",
+      "sha256": "695d68255901cab19049bcc8b50a2223d97f3aef7f28712078005067455480dd"
+    },
+    {
+      "path": "tools/train_opus_lora8031.py",
+      "sha256": "b8eda1af3f72605f7cca4f78da5e812c3aabf257450fdf3cb9ec72bdf25de05c"
+    }
+  ],
+  "seed": 8032,
+  "optimizer_steps": 312,
+  "checkpoint_steps": [
+    104,
+    208,
+    312
+  ],
+  "learning_rate": 0.0001,
+  "reference_kl_weight": 0.5,
+  "onpolicy_kl_weight": 0.5,
+  "rollout_max_new_tokens": 96,
+  "objective": "Supervised CE +0.5 forward KL(base||student) on training reference prefixes +0.5 forward KL(base||student) on detached student-generated training-source prefixes. Vocabulary sum, nonpadding token mean. One rollout batch of2 per optimizer update.",
+  "rollout_sources": "Two consecutive original training sources cyclically selected at each step. No validation/test or historical corpus inputs, source corrections or error-specific prompts.",
+  "label_truncation": false,
+  "rollout_prefix_budget_is_not_label_truncation": true,
+  "references": [
+    "https://arxiv.org/abs/2306.13649",
+    "https://huggingface.co/docs/trl/main/gkd_trainer"
+  ],
+  "method_scope": "Inspired by on-policy distillation; not a reproduction of GKD, not a larger external teacher, and not a causal ablation against8034 because the objective includes an additional training-only loss.",
+  "selection": {
+    "known_validation_maximum_confirmed_errors": 3,
+    "new_validation_minimum_net_complete_corrections": 1,
+    "new_validation_maximum_new_content_regressions": 0,
+    "new_validation_maximum_new_context_uncertainties": 0,
+    "maximum_new_content_regressions_on_known_validation": 0,
+    "maximum_format_alerts": 0,
+    "rank": "Eligible variants: lowest known confirmed errors, then most complete new-validation fixes, then highest all-validation chrF++, then lower adapter strength. chrF is not semantic approval.",
+    "if_no_eligible_variant": "Reject this experiment; do not expand the grid using control/test failures."
+  },
+  "selection_rule": "Select from the three preregistered checkpoints using all25 known validation dialogues as development data. First eligibility gates; then known error count, net new-validation corrections, chrF++, earlier step. Freeze before other controls; reject if none eligible.",
+  "control_gates": {
+    "maximum_new_complete_content_regressions": 0,
+    "maximum_additional_partial_losses": 0,
+    "maximum_new_source_artifacts": 0,
+    "maximum_format_alerts": 0,
+    "minimum_old_core_complete_corrections": 1,
+    "minimum_known16_complete_corrections": 1
+  },
+  "new_blind_test_chapters_opened": 0,
+  "production_weights_modified": false,
+  "target_achieved": false
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "8039",
+  "quality_gates_passed": false,
+  "promoted": false,
+  "controls_scored": false,
+  "validation": {
+    "inverse_only": {
+      "inputs": 25,
+      "confirmed_errors_before": 10,
+      "confirmed_errors_after": 3,
+      "complete_corrections": 7,
+      "new_complete_regressions": 0,
+      "new_context_uncertainties": 1,
+      "context_remaining": 5,
+      "switches": 13
+    },
+    "inverse_and_qe": {
+      "inputs": 25,
+      "confirmed_errors_before": 10,
+      "confirmed_errors_after": 7,
+      "complete_corrections": 3,
+      "new_complete_regressions": 0,
+      "new_context_uncertainties": 1,
+      "context_remaining": 5,
+      "switches": 7
+    }
+  },
+  "new_blind_test_chapters_opened": 0,
+  "production_weights_modified": false,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

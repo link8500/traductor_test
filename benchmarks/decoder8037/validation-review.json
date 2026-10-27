@@ -1,0 +1,1044 @@
+{
+  "variants": {
+    "base_canonical": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "Malformed RAREST OF RARE remains; a valid manner paraphrase does not fix the superlative.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Speaker/addressee and antecedent gender are not given to the text-only core.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "The explicit confirmation question is recovered, preserving the rest of the dialogue.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Third denial repetition restored; not counted as a complete narrative-content correction.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "All explicit questions, distant barrier, immediate arrival, speed and teleportation are preserved.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "English YOU does not explicitly establish addressee number; combined power can refer to multiple abilities. Other captured meanings are preserved.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "The behavior adverb IMMATURELY is attached to MAGIC POWER as inmaduro, changing its meaning.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The tentacle count and the more-than-expected comparison are preserved.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "The whole final self-correction and personal completion priority with FIRST disappear.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 5,
+          "complete_corrections": 0,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 3
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 4,
+          "complete_corrections": 0,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": false,
+        "new_net_fixes": false,
+        "no_new_validation_regressions": true,
+        "no_new_validation_context": true,
+        "no_known_validation_regressions": true,
+        "no_format_alerts": true
+      },
+      "eligible": false,
+      "limits_reached": 1
+    },
+    "base_safe": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "Malformed RAREST OF RARE remains; a valid manner paraphrase does not fix the superlative.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Speaker/addressee and antecedent gender are not given to the text-only core.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "The explicit confirmation question is recovered, preserving the rest of the dialogue.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Third denial repetition restored; not counted as a complete narrative-content correction.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "All explicit questions, distant barrier, immediate arrival, speed and teleportation are preserved.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "English YOU does not explicitly establish addressee number; combined power can refer to multiple abilities. Other captured meanings are preserved.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "The behavior adverb IMMATURELY is attached to MAGIC POWER as inmaduro, changing its meaning.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The tentacle count and the more-than-expected comparison are preserved.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "The whole final self-correction and personal completion priority with FIRST disappear.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 5,
+          "complete_corrections": 0,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 3
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 4,
+          "complete_corrections": 0,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": false,
+        "new_net_fixes": false,
+        "no_new_validation_regressions": true,
+        "no_new_validation_context": true,
+        "no_known_validation_regressions": true,
+        "no_format_alerts": true
+      },
+      "eligible": false,
+      "limits_reached": 1
+    },
+    "adapter_canonical": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The forward-location AHEAD modifier is recovered.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": null,
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The copied HUH filler is a quality defect, not a meaningful content-loss count.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "Adds an unsupported affirmative reply and HTML-like br text, followed by repeated punctuation. This is an independent hallucination even though source gender remains contextual.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": null,
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The explicit confirmation question is recovered.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The instruction to wait is recovered; the stutter is not a content requirement.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Third denial repetition restored; not counted as a complete narrative-content correction.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "English SET UP is morphologically ambiguous between past and present. The candidate present establezco differs from the published past interpretation; no categorical isolated-text content-loss verdict is forced without broader context.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "TOO BAD becomes a curse MALDITA SEA rather than the taunting pity expression. This independent speech-act change is a confirmed regression, even though addressee number was already uncertain.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "The IMMATURELY behavior adverb is still wrongly attached to magical power; the dialogue remains incorrect.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Prior verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "All source questions, need for help, self-correction and FIRST priority retained.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The temporal continuation AFTER THAT is recovered without inventing the next event.",
+          "review_method": "exact_source_and_output_identity"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 3,
+          "complete_corrections": 3,
+          "new_content_regressions": 1,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 2
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 2,
+          "complete_corrections": 3,
+          "new_content_regressions": 1,
+          "new_context_uncertainties": 1,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": true,
+        "new_net_fixes": true,
+        "no_new_validation_regressions": false,
+        "no_new_validation_context": false,
+        "no_known_validation_regressions": false,
+        "no_format_alerts": true
+      },
+      "eligible": false,
+      "limits_reached": 1
+    },
+    "adapter_safe": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The forward-location AHEAD modifier is recovered.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": null,
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The copied HUH filler is a quality defect, not a meaningful content-loss count.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "Adds an unsupported affirmative reply and HTML-like br text, followed by repeated punctuation. This is an independent hallucination even though source gender remains contextual.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": null,
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The explicit confirmation question is recovered.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The instruction to wait is recovered; the stutter is not a content requirement.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Third denial repetition restored; not counted as a complete narrative-content correction.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "needs_context",
+          "reviewed": true,
+          "note": "English SET UP is morphologically ambiguous between past and present. The candidate present establezco differs from the published past interpretation; no categorical isolated-text content-loss verdict is forced without broader context.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "TOO BAD becomes a curse MALDITA SEA rather than the taunting pity expression. This independent speech-act change is a confirmed regression, even though addressee number was already uncertain.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "note": "The IMMATURELY behavior adverb is still wrongly attached to magical power; the dialogue remains incorrect.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "Prior verdict reused for identical source and output.",
+          "review_method": "exact_source_and_output_identity"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "All source questions, need for help, self-correction and FIRST priority retained.",
+          "review_method": "assistant_meaning_review"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "note": "The temporal continuation AFTER THAT is recovered without inventing the next event.",
+          "review_method": "exact_source_and_output_identity"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 3,
+          "complete_corrections": 3,
+          "new_content_regressions": 1,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 2
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 2,
+          "complete_corrections": 3,
+          "new_content_regressions": 1,
+          "new_context_uncertainties": 1,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": true,
+        "new_net_fixes": true,
+        "no_new_validation_regressions": false,
+        "no_new_validation_context": false,
+        "no_known_validation_regressions": false,
+        "no_format_alerts": true
+      },
+      "eligible": false,
+      "limits_reached": 1
+    }
+  },
+  "outputs_reviewed": 100,
+  "distinct_novel_outputs": 4,
+  "novel_output_occurrences": 10,
+  "exact_reused_occurrences": 90
+}

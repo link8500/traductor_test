@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "experiment": "8038-reference-free-quality-routing",
+  "purpose": "Test a pretrained local QE model as a selector, against actual frozen production Windows translations rather than only a floating-point core.",
+  "immutable_inputs": [
+    {
+      "path": "benchmarks/qe8038/model-provenance.json",
+      "sha256": "eda6b72210f5cf16406702f6ee0394cde42d0b357ebefa5324a1e93a65578f5c"
+    },
+    {
+      "path": "benchmarks/qe8038/tokenizer-provenance.json",
+      "sha256": "2e8e0cdcd112cdc0b5b7e109925feaf045242f88a006d86f29213b5b835d8155"
+    },
+    {
+      "path": "benchmarks/qe8038/loader-parity.json",
+      "sha256": "9e6a78648b5400217e0325f103cc961d0431601389b29d8eed4c8a7bfd349d6f"
+    },
+    {
+      "path": "benchmarks/qe8038/native-baseline-provenance.json",
+      "sha256": "4eac251ab3ee3ad54e921431dce0b2379d31e50f3336c5cc3dd625663c7591b5"
+    },
+    {
+      "path": "benchmarks/qe8038/native-validation-meaning-decisions.json",
+      "sha256": "23025db47860c29d83c0156c6e20c2b4c1b960ab9169e2093cb6d08e0745b9fb"
+    },
+    {
+      "path": "benchmarks/qe8038/native-control-meaning-decisions.json",
+      "sha256": "27611a0c0b16ccd98d8029509eb20322a0f861bdc9a0667a0de866c13ec72314"
+    },
+    {
+      "path": "benchmarks/qe8038/candidate-pool-provenance.json",
+      "sha256": "8bd6a61e07945dcc5e26162fe873fbe35b6795d9558950a040e85ff12e9a0d84"
+    },
+    {
+      "path": "build/qe8038/candidate-pools.json",
+      "sha256": "f6551b860539451990aa4e58b3c4c7636b34273ae46161d30077e30afceebf1f"
+    },
+    {
+      "path": "tools/experiments/qe8038/model.py",
+      "sha256": "9533b6417b85ea5f246069fa2fd7ef4a2557060960047d9a21e9170cc18e1f49"
+    },
+    {
+      "path": "tools/experiments/qe8038/compatibility.py",
+      "sha256": "0e86091a3fc1917c6d71c2dc888d4ae282291673cb99d224791cf22e2d4c941e"
+    },
+    {
+      "path": "tools/experiments/qe8038/pool_policy.py",
+      "sha256": "20acd11e4c05c9a1c7ed86beae4b43ba8f5863693959d1f3710830d33dc95fbe"
+    },
+    {
+      "path": "tools/experiments/qe8038/policy.py",
+      "sha256": "d11f74ef3175de99c311f5531931ca3c922e4146facf7b36132691c53717d6b0"
+    }
+  ],
+  "model": "Unbabel/wmt20-comet-qe-da",
+  "revision": "2e7ffc84fb67d99cf92506611766463bb9230cfb",
+  "library": "unbabel-comet2.2.7",
+  "pretrained_weights_frozen": true,
+  "new_translator_weights_trained": false,
+  "source_sent_to_predictor": "Original captured English string; each request has exactly src and mt. No reference, correctness label, chapter or candidate role is supplied to the model.",
+  "pool": [
+    "native Windows803001 with full recovery/glossary rules",
+    "frozen unadapted OPUS floating core",
+    "frozen8034 full adapter"
+  ],
+  "default": "native",
+  "margins": [
+    0.0,
+    0.02
+  ],
+  "score_scale": "Unbounded regression output from the checkpoint final_activation=None, not a probability of correctness/failure. A0.02 margin is not a2percent or5percent failure claim.",
+  "policy": "Exclude malformed/no-alphabetic alternatives for lexical inputs. Pick the highest-scored different valid candidate only if it exceeds the native score by the fixed margin. Ties preserve native or fixed base-before-adapter order. Never rewrite output text. Missing or nonfinite estimates are recorded, never silently approved.",
+  "validation_selection": {
+    "complete_content_corrections_minimum": 1,
+    "new_complete_content_regressions_maximum": 0,
+    "new_partial_content_losses_maximum": 0,
+    "new_source_artifacts_maximum": 0,
+    "new_context_uncertainties_maximum": 0,
+    "unresolved_estimation_maximum": 0,
+    "rank": "Eligible margins: fewer total confirmed failures, then more complete content corrections, then fewer switches from native, then higher margin.",
+    "validation_is_development_not_independent_test": true,
+    "freeze_before_control_scores": true,
+    "reject_if_no_eligible_margin": true
+  },
+  "control_gates": {
+    "new_complete_content_regressions_maximum": 0,
+    "new_partial_content_losses_maximum": 0,
+    "new_source_artifacts_maximum": 0,
+    "minimum_net_complete_content_corrections": 1,
+    "unresolved_estimation_maximum": 0
+  },
+  "safety": "QE estimates cannot certify every word or replace source/reference meaning review. Use existing held controls only after validation selection. No new blind chapter is opened. No native installation without additional export/runtime/capture/OCR evaluation.",
+  "no_user_text_uploaded": true,
+  "no_ocr_or_capture_repeated": true,
+  "remaining_blind_test_chapters": 41,
+  "production_weights_modified": false,
+  "app_failure_probability": null,
+  "target_achieved": false,
+  "public_sources": [
+    "https://huggingface.co/Unbabel/wmt20-comet-qe-da",
+    "https://github.com/Unbabel/COMET/tree/v2.2.7"
+  ]
+}

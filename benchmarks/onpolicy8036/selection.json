@@ -1,0 +1,18 @@
+{
+  "selected_checkpoint": "step104",
+  "all_selection_gates_passed": true,
+  "checkpoint": {
+    "name": "step104",
+    "optimizer_step": 104,
+    "adapter_sha256": "8c80afd3817b506c54dee26a4a8e989d80eff0347fa08a1e0aa8d00d707f0682",
+    "output_sha256": "ef6d645b2de619305d2b9f85a80fd7b429b47749c1d0eb5e71041afadcc9e661",
+    "validation_chrfpp": 71.92535219025221,
+    "format_alerts": 0,
+    "meaning_review_complete": false
+  },
+  "protocol_sha256": "08e2e7ca143b1693a0c8354176592defca1f7ad9b135fb55b2bad5397cf81f84",
+  "review_sha256": "d84ed5e88c2a936aae14336263a7c21b45bcb2557dd00d807bff94b563ed8f6c",
+  "frozen_before_control_inference": true,
+  "controls_used_for_selection": false,
+  "new_blind_test_chapters_opened": 0
+}

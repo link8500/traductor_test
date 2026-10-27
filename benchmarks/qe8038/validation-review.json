@@ -1,0 +1,544 @@
+{
+  "variants": {
+    "000": {
+      "entries": [
+        {
+          "id": 143,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 144,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Initial NO recovered; AHEAD still missing, so not a complete correction.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "partial_recovery_only": true
+        },
+        {
+          "id": 145,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": null,
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 146,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 148,
+          "group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The RAREST OF RARE superlative remains malformed.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 149,
+          "group": "known",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 150,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 151,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 152,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Prior verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 153,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "MERELY is preserved; instructor gender still requires context.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 154,
+          "group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The explicit first-person I THINK changes to second-person PIENSES; recovering the question does not repair that independent person change.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 155,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The WAIT instruction remains omitted; a stutter is not required.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 156,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 158,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400062,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The meaningful denial is present. Losing one repeated copy is a quality/repetition issue, not an independent content-error count.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "repetition_quality_defect_only": true
+        },
+        {
+          "id": 400063,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "All explicit questions, distant barrier, immediate arrival, speed and teleportation are preserved.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400064,
+          "group": "new",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400066,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400067,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400068,
+          "group": "new",
+          "before": "needs_context",
+          "after": "incorrect",
+          "note": "TOO BAD becomes a curse MALDITA SEA rather than the taunting pity expression. This independent speech-act change is a confirmed regression, even though addressee number was already uncertain.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400069,
+          "group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Behavior adverb IMMATURELY remains wrongly attached to the magical power.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400070,
+          "group": "new",
+          "before": "acceptable",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400072,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The tentacle count and the more-than-expected comparison are preserved.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400073,
+          "group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The whole final self-correction and personal completion priority with FIRST disappear.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400074,
+          "group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        }
+      ],
+      "counts": {
+        "rows": 25,
+        "confirmed_errors_before": 10,
+        "confirmed_errors_after": 10,
+        "complete_corrections": 2,
+        "new_complete_regressions": 2,
+        "context_before": 4,
+        "context_after": 3,
+        "switches": 12,
+        "unresolved_estimation": 0
+      },
+      "eligible": false,
+      "rejection": "Two complete corrections but two new meaningful regressions: changed speech act and omitted EVEN modifier."
+    },
+    "002": {
+      "entries": [
+        {
+          "id": 143,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 144,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The initial NO and forward-location AHEAD are missing.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 145,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 146,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 148,
+          "group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The RAREST OF RARE superlative remains malformed.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 149,
+          "group": "known",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 150,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 151,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 152,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Speaker/addressee and antecedent gender are not given to the text-only core.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 153,
+          "group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "MERELY is preserved; instructor gender still requires context.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 154,
+          "group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The explicit first-person I THINK changes to second-person PIENSES; recovering the question does not repair that independent person change.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 155,
+          "group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The WAIT instruction remains omitted; a stutter is not required.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 156,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 158,
+          "group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400062,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The meaningful denial is present. Losing one repeated copy is a quality/repetition issue, not an independent content-error count.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false,
+          "repetition_quality_defect_only": true
+        },
+        {
+          "id": 400063,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "All questions, past barrier placement, speed and teleportation retained. An extra opening question mark is a style defect, not an omitted unit.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400064,
+          "group": "new",
+          "before": "incorrect",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400066,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400067,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Thanks, pet address and unnecessary-action statement preserved; laugh repetition is not a content error.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400068,
+          "group": "new",
+          "before": "needs_context",
+          "after": "incorrect",
+          "note": "TOO BAD becomes a curse MALDITA SEA rather than the taunting pity expression. This independent speech-act change is a confirmed regression, even though addressee number was already uncertain.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400069,
+          "group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Behavior adverb IMMATURELY remains wrongly attached to the magical power.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400070,
+          "group": "new",
+          "before": "acceptable",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400072,
+          "group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The tentacle count and the more-than-expected comparison are preserved.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400073,
+          "group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The whole final self-correction and personal completion priority with FIRST disappear.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        },
+        {
+          "id": 400074,
+          "group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "review_method": "exact_source_and_reviewed_output_identity",
+          "new_partial_loss": false,
+          "new_source_artifact": false
+        }
+      ],
+      "counts": {
+        "rows": 25,
+        "confirmed_errors_before": 10,
+        "confirmed_errors_after": 10,
+        "complete_corrections": 2,
+        "new_complete_regressions": 2,
+        "context_before": 4,
+        "context_after": 3,
+        "switches": 7,
+        "unresolved_estimation": 0
+      },
+      "eligible": false,
+      "rejection": "Two complete corrections but two new meaningful regressions: changed speech act and omitted EVEN modifier."
+    }
+  },
+  "baseline_is_actual_native_production_engine": true,
+  "all25_outputs_reviewed_per_margin": true,
+  "semantic_counts_not_failure_probabilities": true
+}

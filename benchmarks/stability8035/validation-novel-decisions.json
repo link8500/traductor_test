@@ -1,0 +1,57 @@
+{
+  "scale050": {
+    "outputs_sha256": "793ab57230b7b9bef9af22321aa1702185680c145c76d45a157aaed9e3753f32",
+    "entries": [
+      {
+        "id": 152,
+        "after": "needs_context",
+        "note": "Confirmation question preserved; antecedent gender remains uncertain."
+      },
+      {
+        "id": 154,
+        "after": "acceptable",
+        "note": "Confirmation question and remaining content preserved despite valid lexical paraphrase."
+      },
+      {
+        "id": 400063,
+        "after": "acceptable",
+        "note": "Past barrier placement and all questions, actions and time modifiers are preserved."
+      },
+      {
+        "id": 400068,
+        "after": "needs_context",
+        "note": "Taunting pity preserved; addressee number retains pre-existing ambiguity."
+      },
+      {
+        "id": 400073,
+        "after": "acceptable",
+        "note": "Final self-correction, self-completion priority and FIRST recovered; city wording is valid."
+      }
+    ]
+  },
+  "scale075": {
+    "outputs_sha256": "9e41275f257273a2834fbe017fd17ae471fea5a0f46ce60f1e30edd334cf6038",
+    "entries": [
+      {
+        "id": 153,
+        "after": "needs_context",
+        "note": "Restriction MERELY preserved as simplemente; antecedent gender remains uncertain."
+      },
+      {
+        "id": 400063,
+        "after": "acceptable",
+        "note": "Past barrier placement, immediate arrival and teleportation preserved."
+      },
+      {
+        "id": 400068,
+        "after": "needs_context",
+        "note": "TOO BAD remains pity/taunt, not a curse; pre-existing addressee-number ambiguity remains."
+      },
+      {
+        "id": 400074,
+        "after": "incomplete",
+        "note": "Temporal continuation AFTER THAT remains omitted, as in the base; the changed lexical wording does not recover it."
+      }
+    ]
+  }
+}

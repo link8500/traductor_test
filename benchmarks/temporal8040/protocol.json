@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "experiment": "8040-inverse-likelihood-with-temporal-retention",
+  "immutable_inputs": [
+    {
+      "path": "benchmarks/roundtrip8039/result.json",
+      "sha256": "90e1366db23696068139dba131078d0a2f5d2b3e9121b6f7eb06f62f3a562944"
+    },
+    {
+      "path": "benchmarks/roundtrip8039/model-provenance.json",
+      "sha256": "7962266045f2b7e09d291e5b94a3fb89e1b4d6604b1dab651396f29077ca36a5"
+    },
+    {
+      "path": "benchmarks/qe8038/native-validation-meaning-decisions.json",
+      "sha256": "23025db47860c29d83c0156c6e20c2b4c1b960ab9169e2093cb6d08e0745b9fb"
+    },
+    {
+      "path": "benchmarks/qe8038/native-control-meaning-decisions.json",
+      "sha256": "27611a0c0b16ccd98d8029509eb20322a0f861bdc9a0667a0de866c13ec72314"
+    },
+    {
+      "path": "build/qe8038/candidate-pools.json",
+      "sha256": "f6551b860539451990aa4e58b3c4c7636b34273ae46161d30077e30afceebf1f"
+    },
+    {
+      "path": "build/roundtrip8039/validation-inverse-scores.json",
+      "sha256": "377a56777b31794187fed5cced175e852bfafe0606bed2f289aa6093315abec8"
+    },
+    {
+      "path": "tools/experiments/roundtrip8039/score.py",
+      "sha256": "a853758c36bd509284acfab7944a4e70bffc7cd6799a428e4564fe2f1680627e"
+    },
+    {
+      "path": "tools/train_opus_lora8031.py",
+      "sha256": "b8eda1af3f72605f7cca4f78da5e812c3aabf257450fdf3cb9ec72bdf25de05c"
+    },
+    {
+      "path": "benchmarks/temporal8040/grammar-provenance.json",
+      "sha256": "4bd1c6147b8e1e7588084d2607ec4dc2359d77783e4bda95c870a8a0ab7c55c1"
+    },
+    {
+      "path": "tools\\experiments\\temporal8040\\grammar.py",
+      "sha256": "d127df80383e1e2a275adb6d33959ad91d3939b92191ba1a74b8f8cfc2f6abc1"
+    },
+    {
+      "path": "tools\\experiments\\temporal8040\\policy.py",
+      "sha256": "61100d70dbecb0e5c81976361831b497fa066c074515095c7e1bf41b642ec242"
+    },
+    {
+      "path": "tools\\experiments\\temporal8040\\prepare.py",
+      "sha256": "b0f7aa20d2a69a48d095ed664772847d9e6fac5a5f198a7e2a67811748ac0324"
+    },
+    {
+      "path": "tools\\experiments\\temporal8040\\route.py",
+      "sha256": "a9a134746ad7165af122265aaf671f55fe20ff7267212096d01263ddaf8bf9b3"
+    },
+    {
+      "path": "tools\\experiments\\temporal8040\\score_controls.py",
+      "sha256": "b019b02dd0757ac88919fbe7b6f31533ef6df9861706ccdee1dd5d4872e5becd"
+    },
+    {
+      "path": "tools\\experiments\\temporal8040\\test_policy.py",
+      "sha256": "d597433faaf1d0ca91d599532743016ee39ed53c7c43fe996a8dfeebba3e284e"
+    }
+  ],
+  "development_history": "Designed after the 8039 validation temporal uncertainty; not an independent test and does not change the failed 8039 gates.",
+  "candidate_pool": [
+    "native803001",
+    "base_float",
+    "adapter8034_full"
+  ],
+  "policy": "Default native. Accept only format-valid, strictly higher inverse-likelihood candidates whose coarse Spanish temporal categories contain every native category. Highest likelihood wins; pool order breaks ties. No margin tuning, source-word rules, reference inputs or sentence rewriting.",
+  "temporal_categories": [
+    "past",
+    "present",
+    "future",
+    "conditional"
+  ],
+  "temporal_scope": "Finite verb and auxiliary morphology. Present haber with participle maps to past; future/conditional perfect keeps auxiliary time. No claim of clause alignment or complete temporal semantics.",
+  "score": "Reuse fixed 8039 reverse OPUS mean log probability of original English conditioned on candidate Spanish. English original is the reverse target, no Spanish reference is used. No gradients.",
+  "validation_gates": {
+    "minimum_complete_corrections": 1,
+    "maximum_new_content_regressions": 0,
+    "maximum_additional_partial_losses": 0,
+    "maximum_new_source_artifacts": 0,
+    "maximum_new_context_uncertainties": 0
+  },
+  "controls_gates": {
+    "minimum_net_complete_corrections": 1,
+    "maximum_new_content_regressions": 0,
+    "maximum_additional_partial_losses": 0,
+    "maximum_new_source_artifacts": 0,
+    "maximum_new_context_uncertainties": 0
+  },
+  "single_preregistered_policy": true,
+  "freeze_selection_before_control_scoring": true,
+  "grammar_license": "GPL-3.0; isolated research dependency, not bundled in app",
+  "new_blind_test_chapters_opened": 0,
+  "production_weights_modified": false,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

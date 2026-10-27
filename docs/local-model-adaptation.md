@@ -6,6 +6,10 @@ Los cuatro ensayos terminaron; ninguno se incorpora a producción porque conserv
 o añade errores de significado. El objetivo de menos del 5 % de fallos por uso
 completo sigue sin acreditarse.
 
+La continuación posterior conserva estos resultados históricos y estudia
+intensidad del adaptador y estabilidad durante generación:
+[ensayos 8035–8036](model-stability.md). Tampoco se aprobaron para producción.
+
 ## Datos y separación
 
 El archivo nuevo del usuario contiene 434 enlaces: 217 parejas bilingües.
@@ -182,3 +186,11 @@ durante el entrenamiento no garantizan que la generación libre sea estable.
 No se reutiliza el fallo observado como respuesta de entrenamiento ni se
 rebaja el criterio para incorporarlo. No se genera otro APK ni se necesita
 el teléfono para este trabajo.
+
+Ese estudio continuó en los ensayos 8035–8040. La intensidad del adaptador y
+otro entrenamiento no superaron los controles. La selección inversa de
+traducciones recuperó contenido adicional, pero mantuvo empeoramientos parciales.
+Consulta [estabilidad](model-stability.md) y
+[selección de traducciones](translation-selection.md) para las comparaciones
+con la base flotante y, después, con el motor nativo real. Ningún candidato
+reemplazó al motor instalado.

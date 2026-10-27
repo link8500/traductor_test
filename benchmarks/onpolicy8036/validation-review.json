@@ -1,0 +1,855 @@
+{
+  "checkpoints": {
+    "step104": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "13b0a4cf1c836b91223c5e85b7b9f76f660fc2ebf694198aeea85e8fdcf49ded"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "fc7335c653798dc3785c37f0fbba648bc45991ea6c405b1fdd55ee1bd8a368fe"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "e9f972064792a4cd219b80d8e655fd33fd9f611e53004c6144ee088eb9b042de"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "f1b35b384db8e86335cd61f1530863b771e82f7e7c804e26dd1820548fe92c2b"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "4490655e5681a0fd5b04a81636a1b751cfa8fa035b893dfd097c818ea7d43acf"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "2b66788e11c994aa97014b67873fcd1a15b6cd9d930237ca0f57e9823bfbbddb"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "4a729503f263d2104777dfdb0a537abac78e43fdf9ebccff08bef889a156b41a"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "eb79bd2a21b65fd82fd110f4c25ed8833712144027be888bd2874627f1102420"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Confirmation question preserved; antecedent gender remains uncertain.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "7487947baf1dd3d5e1dd8070a71d9f9d920f1746a8f5323eaaf94e6dda801406"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Restriction MERELY preserved as simplemente; antecedent gender remains uncertain.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3101d7a915d61a7ed9a07f7c6f92212b94076323f45ee7ac1e60bdbba8cb5a14"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The explicit confirmation question is recovered.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "ddae533780916dd1c60632411952fb71bc1caae08f6feeabb7c30e35208a3cad"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The instruction to wait is recovered; the stutter is not a content requirement.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "f8a8df8739313d913b97e7e118b9afa2edb418d0f4a77bb75c04fd6ed4ca2b2a"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "91ab411cd9dfb45db04e29abbd9274db2d51cfa4110cc675c61eb74fcb56dcd9"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3b8e792ec0e6eeccb96a6f2bf0ebe1ebacfba4d3772d78a520ce994e18c73f16"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The denial and a third repeated copy are present; this repetition-only change is not a complete content fix.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "d6ef5794d86b14a5a72d226a3078959423b52681b871f5a49d0ed62a6c5a0c08"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "All questions, past placement, immediate arrival, split-second timing and teleportation retained; punctuation variation does not alter content.",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "source_output_key": "defd7504196261105b206e94ea9569b106fbe6e6477fa38f1ddc909e8d64df15"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "463cf2eda8f0f9d031f5d9517c6ea661cf25a52e3d1454dae846fe97c2a48bac"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "986a136263791274ae949f7a08c6fe4e29802e08718b7f9d49cf46d111109337"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "95519af9f60dc39c3b6fbe17901aa966afa60f9a08543b5b7845368c1fcdcc4e"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "TOO BAD remains pity/taunt, not a curse; pre-existing addressee-number ambiguity remains.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "8b7f67ebfbc9fe7fb0fbfc2d16a1f0d1403dd7b14a482188ff46e53302c2b42f"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "IMMATURELY is still wrongly attached to magical power; delayed completion wording does not fix that modifier error.",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "source_output_key": "6dbcaee9059819b30be67926f8cef4dfd5f02309632320fff4418f212afafafb"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "8628a151ca1f828a21ee2baedb0dc05b3536cd03453e1fec817719b8dd3ce0cc"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Prior verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3f03da10ec96ad01dc602c9f14e38052712d33c538f39cc8bec7b41031eb6b72"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "Final self-correction, self-completion priority and FIRST recovered; city wording is valid.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "4bf98ea6352214b61d2f86b39e2e32ab456307eb335d7d94fae9cf2f483851cb"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Temporal continuation AFTER THAT remains omitted, as in the base; the changed lexical wording does not recover it.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "9a7a8600071969bcce2cbc67736c8332f8a53cb454727b4139e26f6b1db21bb9"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 3,
+          "complete_corrections": 2,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 3
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 3,
+          "complete_corrections": 1,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": true,
+        "new_net_fixes": true,
+        "no_new_validation_regressions": true,
+        "no_new_validation_context": true,
+        "no_known_validation_regressions": true,
+        "no_format_alerts": true
+      },
+      "eligible": true
+    },
+    "step208": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "13b0a4cf1c836b91223c5e85b7b9f76f660fc2ebf694198aeea85e8fdcf49ded"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "fc7335c653798dc3785c37f0fbba648bc45991ea6c405b1fdd55ee1bd8a368fe"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "e9f972064792a4cd219b80d8e655fd33fd9f611e53004c6144ee088eb9b042de"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "f1b35b384db8e86335cd61f1530863b771e82f7e7c804e26dd1820548fe92c2b"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "4490655e5681a0fd5b04a81636a1b751cfa8fa035b893dfd097c818ea7d43acf"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "2b66788e11c994aa97014b67873fcd1a15b6cd9d930237ca0f57e9823bfbbddb"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "4a729503f263d2104777dfdb0a537abac78e43fdf9ebccff08bef889a156b41a"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "eb79bd2a21b65fd82fd110f4c25ed8833712144027be888bd2874627f1102420"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Prior verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "a7540b00f60bd774a6a6f20b6f6640124b00feee6e3c9014eaaafd082c664448"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Restriction MERELY preserved as simplemente; antecedent gender remains uncertain.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3101d7a915d61a7ed9a07f7c6f92212b94076323f45ee7ac1e60bdbba8cb5a14"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The explicit confirmation question is recovered.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "ddae533780916dd1c60632411952fb71bc1caae08f6feeabb7c30e35208a3cad"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "251a66eb1d729809ac8304eb75e294e1d38b388bc5f5001ac969cf38ebe5efe3"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "91ab411cd9dfb45db04e29abbd9274db2d51cfa4110cc675c61eb74fcb56dcd9"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3b8e792ec0e6eeccb96a6f2bf0ebe1ebacfba4d3772d78a520ce994e18c73f16"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The denial and a third repeated copy are present; this repetition-only change is not a complete content fix.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "d6ef5794d86b14a5a72d226a3078959423b52681b871f5a49d0ed62a6c5a0c08"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Past barrier placement and all questions, actions and time modifiers are preserved.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "ceaa5922479cb8cb8168e787f937c9edcac154a475dc3c215ca6518be44ba637"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "463cf2eda8f0f9d031f5d9517c6ea661cf25a52e3d1454dae846fe97c2a48bac"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "986a136263791274ae949f7a08c6fe4e29802e08718b7f9d49cf46d111109337"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "95519af9f60dc39c3b6fbe17901aa966afa60f9a08543b5b7845368c1fcdcc4e"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "TOO BAD remains pity/taunt, not a curse; pre-existing addressee-number ambiguity remains.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "8b7f67ebfbc9fe7fb0fbfc2d16a1f0d1403dd7b14a482188ff46e53302c2b42f"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The IMMATURELY behavior adverb is still wrongly attached to magical power; the dialogue remains incorrect.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "8f6ce509b2e4db194f4d4040cc7425f4533201e92c5279293e6b5ee10672c190"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The scalar EVEN is explicitly preserved as siquiera.",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "source_output_key": "16bb186f983c7d117aef9dd080ea0c3250626677c61bf8d5f4dcbebc6c997065"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Prior verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3f03da10ec96ad01dc602c9f14e38052712d33c538f39cc8bec7b41031eb6b72"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The questions, stronger-than-expected relation, need for help, final self-correction and FIRST priority are all preserved.",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "source_output_key": "2894ade0345f482aba6ed2b008f9ed7d63c8aaf33de72feef4f38f7b537865a3"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Temporal continuation AFTER THAT remains omitted, as in the base; the changed lexical wording does not recover it.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "9a7a8600071969bcce2cbc67736c8332f8a53cb454727b4139e26f6b1db21bb9"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 4,
+          "complete_corrections": 1,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 3
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 2,
+          "complete_corrections": 2,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": false,
+        "new_net_fixes": true,
+        "no_new_validation_regressions": true,
+        "no_new_validation_context": true,
+        "no_known_validation_regressions": true,
+        "no_format_alerts": true
+      },
+      "eligible": false
+    },
+    "step312": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "13b0a4cf1c836b91223c5e85b7b9f76f660fc2ebf694198aeea85e8fdcf49ded"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "fc7335c653798dc3785c37f0fbba648bc45991ea6c405b1fdd55ee1bd8a368fe"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "e9f972064792a4cd219b80d8e655fd33fd9f611e53004c6144ee088eb9b042de"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "f1b35b384db8e86335cd61f1530863b771e82f7e7c804e26dd1820548fe92c2b"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "4490655e5681a0fd5b04a81636a1b751cfa8fa035b893dfd097c818ea7d43acf"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Spanish definite article with the eyes preserves the possessive meaning; emphatic REALMENTE and the reaction question are retained.",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "source_output_key": "7012253473cb0ae8b96fa887695f0dab98b51f522843f07a63542204c371e79d"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "4a729503f263d2104777dfdb0a537abac78e43fdf9ebccff08bef889a156b41a"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "eb79bd2a21b65fd82fd110f4c25ed8833712144027be888bd2874627f1102420"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Prior verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "a7540b00f60bd774a6a6f20b6f6640124b00feee6e3c9014eaaafd082c664448"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Restriction MERELY preserved as simplemente; antecedent gender remains uncertain.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3101d7a915d61a7ed9a07f7c6f92212b94076323f45ee7ac1e60bdbba8cb5a14"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The explicit confirmation question is recovered.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "ddae533780916dd1c60632411952fb71bc1caae08f6feeabb7c30e35208a3cad"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "251a66eb1d729809ac8304eb75e294e1d38b388bc5f5001ac969cf38ebe5efe3"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "91ab411cd9dfb45db04e29abbd9274db2d51cfa4110cc675c61eb74fcb56dcd9"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3b8e792ec0e6eeccb96a6f2bf0ebe1ebacfba4d3772d78a520ce994e18c73f16"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The denial and a third repeated copy are present; this repetition-only change is not a complete content fix.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "d6ef5794d86b14a5a72d226a3078959423b52681b871f5a49d0ed62a6c5a0c08"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Past barrier placement and all questions, actions and time modifiers are preserved.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "ceaa5922479cb8cb8168e787f937c9edcac154a475dc3c215ca6518be44ba637"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "463cf2eda8f0f9d031f5d9517c6ea661cf25a52e3d1454dae846fe97c2a48bac"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "986a136263791274ae949f7a08c6fe4e29802e08718b7f9d49cf46d111109337"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "95519af9f60dc39c3b6fbe17901aa966afa60f9a08543b5b7845368c1fcdcc4e"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "TOO BAD remains pity/taunt, not a curse; pre-existing addressee-number ambiguity remains.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "8b7f67ebfbc9fe7fb0fbfc2d16a1f0d1403dd7b14a482188ff46e53302c2b42f"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "The IMMATURELY behavior adverb is still wrongly attached to magical power; the dialogue remains incorrect.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "8f6ce509b2e4db194f4d4040cc7425f4533201e92c5279293e6b5ee10672c190"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "786323aad37d921682d1359343cf67e9d8e6a65cb5d05e50b811fa0cfc5da0b2"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Prior verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "3f03da10ec96ad01dc602c9f14e38052712d33c538f39cc8bec7b41031eb6b72"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The entire final self-correction and personal completion priority are recovered, including FIRST.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "996f7361d16b08e23d08caea29003d095bd28fc6fb92fd71333a7a5db408a8f0"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "Baseline verdict reused for identical source and output.",
+          "reviewed": true,
+          "review_method": "exact_source_and_output_identity",
+          "source_output_key": "c44d9cc13c393ac7241fb22c659e07c7cec946cd7360ab2668170eeab22bfe2b"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 4,
+          "complete_corrections": 1,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 3
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 2,
+          "complete_corrections": 2,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": false,
+        "new_net_fixes": true,
+        "no_new_validation_regressions": true,
+        "no_new_validation_context": true,
+        "no_known_validation_regressions": true,
+        "no_format_alerts": true
+      },
+      "eligible": false
+    }
+  },
+  "validation_used_for_selection_not_independent_test": true,
+  "novel_decisions_sha256": "7b11c4a26861bd936d07371d38821b5aedc4627d18d51fccf8edba47078c63d5"
+}

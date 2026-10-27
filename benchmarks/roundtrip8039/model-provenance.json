@@ -1,0 +1,49 @@
+{
+  "repo": "Helsinki-NLP/opus-mt-es-en",
+  "revision": "c96e2c5399ebfae4fc43d9669556b9afa74bb69d",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "build\\roundtrip8039\\model\\config.json",
+      "bytes": 1438,
+      "sha256": "374443eacf8986c21386503e2fcd52eae6952ac09c87fd36695f5c12259a4cd1"
+    },
+    {
+      "path": "build\\roundtrip8039\\model\\generation_config.json",
+      "bytes": 293,
+      "sha256": "837839ed0534a27084f9b980fc33f47729052dd89cb26cca7ac830765ed30e49"
+    },
+    {
+      "path": "build\\roundtrip8039\\model\\source.spm",
+      "bytes": 825924,
+      "sha256": "e236ee6d866b635c0142114f8647f39831f9d92534aa2aad75c942f6a78ad0e3"
+    },
+    {
+      "path": "build\\roundtrip8039\\model\\target.spm",
+      "bytes": 801636,
+      "sha256": "4dd547c24816a335e7b0b2e63376a8f1b3cbfc671eda5ab808dd44fdadaa8791"
+    },
+    {
+      "path": "build\\roundtrip8039\\model\\vocab.json",
+      "bytes": 1590040,
+      "sha256": "257f346d7a6b2ecceafcca8ba05648ce2fd68dfaf105fb0e913dca7198f3f6d5"
+    },
+    {
+      "path": "build\\roundtrip8039\\model\\tokenizer_config.json",
+      "bytes": 44,
+      "sha256": "dd009536f1cd954180a3004be20e9963eaf3d68b485d062ea1b90d3b9ded2bc5"
+    },
+    {
+      "path": "build\\roundtrip8039\\model\\README.md",
+      "bytes": 2427,
+      "sha256": "d67ee971854b4c166da1cc281b58fbdc8596e0412441ef71fb0d422263230e0a"
+    },
+    {
+      "path": "build\\roundtrip8039\\model\\pytorch_model.bin",
+      "bytes": 312087523,
+      "sha256": "586a4e69e0804459ac7c176a5dc76852652100d9af1ee0db796de719899a5deb"
+    }
+  ],
+  "user_text_uploaded": false,
+  "purpose": "Conditional likelihood of original English given a Spanish alternative"
+}

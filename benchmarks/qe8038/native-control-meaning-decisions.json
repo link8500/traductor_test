@@ -1,0 +1,2013 @@
+{
+  "entries": [
+    {
+      "key": "b3d6830880dea02a48d9baacc98a32f23aee42399fa78a1f9b59a0c933cf0973",
+      "group": "regression-core",
+      "id": 1,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "35221eeebe6d36c9125dc73d7876f66426f330db14f6f1f6424c45948356ce22",
+      "group": "regression-core",
+      "id": 4,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "b7f1b9a769756deff9be1263437642440a1079de518a5857e2389f36cf15ab63",
+      "group": "regression-core",
+      "id": 5,
+      "status": "incorrect",
+      "note": "FUR is rendered as skin rather than coat/fur, a changed body attribute."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 7,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "acee4fe1fd7999e8e2237c2fa185fcf051040a0175fcfe35074fb3b7014bf7ea",
+      "group": "regression-core",
+      "id": 8,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "46173d6ca9a39fcce22345b1dc769213438000ef43ef8e276c8177cfe4e7119f",
+      "group": "regression-core",
+      "id": 10,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "2942c8d6233ff22c30d6e1e1407ad5a989af4705b84222f75fcc7de23ccba8ce",
+      "group": "regression-core",
+      "id": 11,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "c0400221e396fb1295d1e8f869ea529778f851d95d3499f3ceccbd6d56981129",
+      "group": "regression-core",
+      "id": 14,
+      "status": "incorrect",
+      "note": "SPELL IT OUT FOR YOU is rendered with POR TI, changing the explanatory recipient relation toward acting on behalf."
+    },
+    {
+      "key": "1090d7480cc3a78298ed61abb65845ccc2b27ade7e976c771866f305e38f335a",
+      "group": "regression-core",
+      "id": 15,
+      "status": "needs_source_review",
+      "note": "INALSPICIOLS is a corrupted OCR token; its missing meaning cannot be certified from this source."
+    },
+    {
+      "key": "fdc497e46fbf8dca6344236aa90fc109b0470f862b520c32ef61b964cbce565b",
+      "group": "regression-core",
+      "id": 16,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "f2eab051a1f9c1b3e4c2c523f1be56208fddb2dc6b205f51f0f19f2ca84d4789",
+      "group": "regression-core",
+      "id": 18,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "9696e698472c66ce7f1cf6fa11bfa7ee39bedbd6dd8b27a4394ba11a55640230",
+      "group": "regression-core",
+      "id": 19,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "f4e32079fe1e0ed1697f918427c2b1fe9fbd142a6ebd4278f06fe8250e5a5eb6",
+      "group": "regression-core",
+      "id": 20,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "cd4fe2e257f82b48dddb417bd230a5a9fde3f223109faf64ccf5db1ed1c9d42a",
+      "group": "regression-core",
+      "id": 21,
+      "status": "incorrect",
+      "note": "FIRST modifies the corps, not the commander; ordinal scope is changed."
+    },
+    {
+      "key": "ab980c45e2bdea1058c1cd3c395b445580836bd2d6740bf9ee49de48fd1a475b",
+      "group": "regression-core",
+      "id": 22,
+      "status": "needs_context",
+      "note": "The opening question is recovered, but DEAD follows the corps noun phrase and its modifier attachment is ambiguous."
+    },
+    {
+      "key": "7ac2adb14b428da989d2293506e1a9f7de166f6ce029e092fa41163b111d39e5",
+      "group": "regression-core",
+      "id": 26,
+      "status": "incomplete",
+      "note": "The explicit THEN discourse/conditional link is omitted."
+    },
+    {
+      "key": "80881b5fae2cc8e7a1ec1e22a379b675da0b5fb903176299854ee05156b651ca",
+      "group": "regression-core",
+      "id": 27,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "6de8ddd365d3fad165cb473391311ac0b9c34276c6de716ef04ea7300d97c773",
+      "group": "regression-core",
+      "id": 29,
+      "status": "needs_source_review",
+      "note": "The captured source starts with a clipped possessive/contraction fragment; copied English and verb role remain unresolved."
+    },
+    {
+      "key": "d9d5ce25efbe440bfb064d541f59489d6b577af52d19ee51729e6f1e2368ab30",
+      "group": "regression-core",
+      "id": 31,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "157c420551fc0a40c33bb3dc7d58addcc829760ec4713e767f68876074b1ec1e",
+      "group": "regression-core",
+      "id": 32,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "ba008b9bd5af0d234d012f48212763280e3f6f771074e8573c24b9ce8b7f2be6",
+      "group": "regression-core",
+      "id": 33,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "50ed689f23455a38a74b8227e8ec8b963ba4b19b00b7b8ef1110b9f52e04f193",
+      "group": "regression-core",
+      "id": 34,
+      "status": "needs_context",
+      "note": "MY OWN has no explicit antecedent in the isolated source; target number/referent cannot be certified."
+    },
+    {
+      "key": "6fa135894473d9bb54bb980ebba3423fa379af555c4153be8913f05d8a15f9a0",
+      "group": "regression-core",
+      "id": 35,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "4a5282613127d0c2fe23cec94f417670be099fc46a28df7a24115f8e49d05793",
+      "group": "regression-core",
+      "id": 38,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "3cf4c1814a244abffbe272fe637f48d7cdd1ca47ccd90fc12f72bcb5ba49b3a1",
+      "group": "regression-core",
+      "id": 39,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "2cd6323e5ab92f20058569dec7308657009400c35abc7e4f9060aba5d23f160c",
+      "group": "regression-core",
+      "id": 42,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "ec09a4d3c730057fb5afe229ce9f4f9164be8deec9c8d62ce4e74db04c8e8705",
+      "group": "regression-core",
+      "id": 43,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "70dff08502169a81f614478a58988a5c7bf9e8bf74acd3d7d66d48655341b1f0",
+      "group": "regression-core",
+      "id": 44,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "6b86cd11f7238508d0475f3352b6b742cb934d30fcf6739a587645bbfee9eab8",
+      "group": "regression-core",
+      "id": 45,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "b268dfb5ab4f396f0e104cc4cda55eb9346a87f9d444be8d7d3dd9ec7fa7d8fb",
+      "group": "regression-core",
+      "id": 46,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "1df71e76ae26191564f5f5d3f8d151f85aa56a7e1553d3ce86cd313e70e3105b",
+      "group": "regression-core",
+      "id": 47,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "b598975279a5926b0797c47457d61f6dc7e152c199eec38261e699e90635864d",
+      "group": "regression-core",
+      "id": 50,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 51,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "e7637afaa7e3346f188dce408333fa67702760658dd5cdc1175190dc0286ac89",
+      "group": "regression-core",
+      "id": 52,
+      "status": "incomplete",
+      "note": "Meaningful common noun NASTIES remains untranslated; it is not an onomatopoeia."
+    },
+    {
+      "key": "7c44b6f36734a8769f64a12ebf17326bc9e11e0c15696f9889001b67551d04fb",
+      "group": "regression-core",
+      "id": 53,
+      "status": "acceptable",
+      "note": "Meaning of the captured source is preserved; clipped fragments and titles are not certifications of the whole viewport."
+    },
+    {
+      "key": "222870844b0811181b9f276583b0e5de41b1d2f3ea37b7eaed044421c782f8d7",
+      "group": "regression-core",
+      "id": 56,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "fc106d514e5375486ccd957505b8f68910a4495387dec0adfb01942d47535b1b",
+      "group": "regression-core",
+      "id": 57,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "bee5b6e4e9f8868f9063b6be3e3dabd5be5ffc1244a681f74631fa72162d363c",
+      "group": "regression-core",
+      "id": 58,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "22eb8382c60ef51f5a251cc43cff9d509731e34c9e8dc5e4c15063e751997cb5",
+      "group": "regression-core",
+      "id": 59,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "1193f5da12ce6ea620e3fc31311f359d8f9a55102e95fa9f6d70934d0882874a",
+      "group": "regression-core",
+      "id": 60,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "00f8606ebdef1985b28a067439475c511f9e6bb332e9d621399f83d24468932b",
+      "group": "regression-core",
+      "id": 61,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "ac3d70aeeeff3b8518fe2c25b00cec5d3432b508cb4326f44ffc7cf0c1ae78a0",
+      "group": "regression-core",
+      "id": 62,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "b6b5592a26e0e69c36fc25f2d6985a65a866eba80af54d5a2d3c2bd56f430584",
+      "group": "regression-core",
+      "id": 63,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "37090856a12395952867a375220be51727be6c9139e4febfb3045e32144a34e0",
+      "group": "regression-core",
+      "id": 65,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "b791346bbc7919d0a8e563e02fb4609ff55e7f3588d88fc028f819f1760ee4ed",
+      "group": "regression-core",
+      "id": 66,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "0cdb28f3367ac5c9b396ad1b12c8b954275a946cf7292fa85e814d5a802fe078",
+      "group": "regression-core",
+      "id": 67,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 68,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "08349e937be785d55f81a86a16f31e44179db12a29f76f24227a6df10bdd3077",
+      "group": "regression-core",
+      "id": 69,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "6589b737cc944521befb402a9e00c4e2d1d0be55d7244fe3e4e73de57c6bb1b6",
+      "group": "regression-core",
+      "id": 70,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "b9835444028f6cb1e5b0ac1f446333ef4446945e82b18327c4464b1602b19376",
+      "group": "regression-core",
+      "id": 71,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "51b5a5acc4157062093b66a561987c357bdc35d2a2670322f0b1a81fcc0852fd",
+      "group": "regression-core",
+      "id": 72,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "3b91f444824837695147d0001b2bf340da4392a05639e92747750aefeab26115",
+      "group": "regression-core",
+      "id": 74,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "33f6520bfc18134a439edd9e6eb637902587e1786f1b787fc23601927deb08c6",
+      "group": "regression-core",
+      "id": 78,
+      "status": "needs_source_review",
+      "note": "The first clause contains several unreadable OCR strings; copied corruption and the following relation cannot be certified as a complete translation."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 79,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "0ce80073618c84786407d44122e7762303ac37badce4372612a40e99957b56a8",
+      "group": "regression-core",
+      "id": 80,
+      "status": "needs_context",
+      "note": "The target attachment of using the father to the threat is ambiguous/awkward; no unqualified equivalence is certified."
+    },
+    {
+      "key": "23b1c4495154db4a69091e8cb5fe4e7ed62f822d7d6f5cd609e3c4e1ea9153cb",
+      "group": "regression-core",
+      "id": 82,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 83,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "d029749389c86805cfc202a6a08571611c2c6656a5026f047c69e3f395fa4df6",
+      "group": "regression-core",
+      "id": 84,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 85,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "c0f82ac51673b8c4396dd3a0c8dc327322c38b471c06865d653bab5a1292c0d2",
+      "group": "regression-core",
+      "id": 87,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "5375968f7355498c735736d820e4c088000176fed3e794339b477fa77aa182b4",
+      "group": "regression-core",
+      "id": 88,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "683c9d928bb552915a3ee2a3339527789049debd9a8c7d6ce933b1e960494c56",
+      "group": "regression-core",
+      "id": 89,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "7c7d4f56bf1d0f12ae69a01b2e40ac23bb993eb62c6222fca479e2ce0861aa62",
+      "group": "regression-core",
+      "id": 90,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 91,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "8888d2d7b50ec09515fbbe5b3eac3bd6b9c8c22452b550bf8b66696db39091e7",
+      "group": "regression-core",
+      "id": 93,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "8dbed1e0444cca56b9aa4039314fba6275eb26090bd00fb891ba53d206059e44",
+      "group": "regression-core",
+      "id": 94,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2a4c4f0e76fa6469bb99b7d2481e8fd2eef7ad908da5812cb564e5f1d8dde64c",
+      "group": "regression-core",
+      "id": 95,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "a55ec44b804c9b87ac3f7779e01cefa89b8b1d177e1f723e65d16f6487c50354",
+      "group": "regression-core",
+      "id": 97,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "56d65321b3ad492620b06a389f31a9b6fff333cc0cde16d3de4b744f5ae01dd5",
+      "group": "regression-core",
+      "id": 98,
+      "status": "incomplete",
+      "note": "Explicit magnitude THIS MUCH is omitted; preserving the effect noun alone does not recover the amount."
+    },
+    {
+      "key": "a31aeab04a2e393e8c905f92682aa3734dd22f168943f0cdc82ea804393b1415",
+      "group": "regression-core",
+      "id": 100,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2cf628398656d5285824e6498884a1ba5afcc8b31bba082bc29235924317133b",
+      "group": "regression-core",
+      "id": 102,
+      "status": "incorrect",
+      "note": "USUAL SELF relationship and the demon title are not faithfully preserved."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 103,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 104,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "01e65229175aa9100b2350416362da06bace6ad5b8bdcf69901d017be52c0b3e",
+      "group": "regression-core",
+      "id": 105,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "28c2724fd643c177925fad52f70a6834af729a90be172ab78a70769c70d0bba4",
+      "group": "regression-core",
+      "id": 107,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "1945da5b52b0ee2945a8db948283f53db5faba2783887077308e4860063db2e5",
+      "group": "regression-core",
+      "id": 108,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "4b295fe39204ca386a9fd5e4a2817935e212fcaf16a7724d386ecbb13583cb64",
+      "group": "regression-core",
+      "id": 109,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "54b0fc8a6efd7ac6c7f26371999e30be118323406010abcfff1090ab0e2cab1b",
+      "group": "regression-core",
+      "id": 113,
+      "status": "needs_context",
+      "note": "Isolated WELL? can be a discourse prompt or an assessment; BIEN? cannot be approved without that context."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 114,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "0a499f8b28a14e0b10911b5da2fb3c5977c32748dcf2d75273c5b830c5d21ed8",
+      "group": "regression-core",
+      "id": 115,
+      "status": "acceptable",
+      "note": "All meaningful captured-source units are preserved; stylistic wording and fragmented-capture limitations are not whole-screen approval."
+    },
+    {
+      "key": "37b8b2a06daaaf7402613834c66c90d0aa2da834eea6233e5c6f09c9c34f7328",
+      "group": "regression-core",
+      "id": 116,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "b71433a4777caa34ad8e987197faac544bcdaf7f15334a9fd46531988b18669d",
+      "group": "regression-core",
+      "id": 117,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 118,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "5f3e3f1e6b81bbb1fcb9db3ae8a6c88480f4adba4f869d362f61ad0f9caa8501",
+      "group": "regression-core",
+      "id": 121,
+      "status": "incomplete",
+      "note": "EVEN I emphasis changes to EVEN SOMETIMES; emphatic subject relation is not preserved."
+    },
+    {
+      "key": "bb93d9693d83bde47060ccc5297d1c52aa1ec4ffb7920295f4740b59b11471d6",
+      "group": "regression-core",
+      "id": 122,
+      "status": "incorrect",
+      "note": "Rising to the office/position is rendered as physically rising to a headquarters; the seat/role idiom is wrong."
+    },
+    {
+      "key": "6a299528a21352ce26f7eb1d02945f5739e8225b5852301761743ece12e891e1",
+      "group": "regression-core",
+      "id": 123,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "9b8b6d9d89667092e99b22b6cc594aaed47061a6ebb26f339d74c0ab10dff483",
+      "group": "regression-core",
+      "id": 127,
+      "status": "needs_context",
+      "note": "IT is rendered as masculine EL; isolated source gives no antecedent to certify that choice."
+    },
+    {
+      "key": "f25bd1f0de77d44d18c22f95eca6abc45192f00c4a687752d7052911e00839bf",
+      "group": "regression-core",
+      "id": 128,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "f89ff128e9b9bb9bce41fe4e46f5aef0fbcbcfb828f9a935d9102f41fafaa051",
+      "group": "regression-core",
+      "id": 129,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "4e7589c490fcd0a283e100aa703f468bebbd26ca7177a37ef15a79adbbfccc5b",
+      "group": "regression-core",
+      "id": 130,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "4406319dbb9dd36e1f854a09e186f38a824c40251269bb9e3e68ba542dfaffc3",
+      "group": "regression-core",
+      "id": 131,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "eac11f9be4e4d8798bcaebdf136ed8ea6ebdae67b1cb8e5eac4fa2eef7b7258f",
+      "group": "regression-core",
+      "id": 133,
+      "status": "needs_context",
+      "note": "I SEE can indicate understanding or literal sight; bare VEO requires the missing discourse context."
+    },
+    {
+      "key": "88bae9e4cd4c68214c3763581ca2fddef7468ea04bdf571859835489d47cc73a",
+      "group": "regression-core",
+      "id": 136,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "35c697aad8942b193e58481c9cba84f7a6c13dbfa4bb573c439b8b5cb7b80445",
+      "group": "regression-core",
+      "id": 137,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "213eff1291638b809a7ff71c6356e618d2b02f5e38624d564a22bea773787a33",
+      "group": "regression-core",
+      "id": 139,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "a371b3595897d2c4a4f29bac5744326f89d692a8a42272fed8bd8bbf6b12f602",
+      "group": "regression-core",
+      "id": 140,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "bd66d12a020e9d3655e7a3c93de7352daf64f61996a7b5e0fd695043f56f11de",
+      "group": "regression-core",
+      "id": 141,
+      "status": "needs_source_review",
+      "note": "CONTINLE is an OCR corruption retained in the target; the intended verb is not certified solely from these pixels-free inputs."
+    },
+    {
+      "key": "b98d03eb6e5158d3a5cb409931f3b1893a749dc153091dbd8bff67ba40acba73",
+      "group": "regression-core",
+      "id": 142,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "7ce03006192570dd89c66763e43accb2a9fbaf118fbb40c88429e441f5150950",
+      "group": "regression-core",
+      "id": 143,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "b0f00b9740ff9cddc144d234a8cc9e9f04cffc985627382eafc77bbcca5f4008",
+      "group": "regression-core",
+      "id": 144,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "d5958f3392ba98ec3bdb6a77d84698b1a0c62fdf509fed04e495df75e74482aa",
+      "group": "regression-core",
+      "id": 146,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "d294b091d31efb516f64cbde9f27ca7009b114f8782aa11627b5614e79168467",
+      "group": "regression-core",
+      "id": 147,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "c8b980acd43b1ca5229b00c94e3d613f891cc8fa51ab4dbe19297b85a9d8374b",
+      "group": "regression-core",
+      "id": 149,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "096936ae284095b41371e7cf808ff0f6d0384939feb360f2d68262e1373da401",
+      "group": "regression-core",
+      "id": 150,
+      "status": "incomplete",
+      "note": "The possessive LEADERS contribution/energy is reduced to the leader himself; the relation expressed by the possessive is lost."
+    },
+    {
+      "key": "baa58fddad21cd676b4861a4604fa369bd091bfb5a3c02534153c2d761ddef68",
+      "group": "regression-core",
+      "id": 151,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "f94fb056ecfcdecb63bc2c6bca6ae8a99c81e36d78a67f2519b2a7d82a86f4f3",
+      "group": "regression-core",
+      "id": 152,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "0e9b9005bbb1798637e7c61e0d7f9b6ed75b56c4d3920a23e125078c31aade76",
+      "group": "regression-core",
+      "id": 153,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "6a6d83853b5abb2333a67bb77c3cc3956efb40baff680d378cc9ab53b2c8d13a",
+      "group": "regression-core",
+      "id": 154,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 156,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "029ab95bd5adfcfd80263a1403a182f8a04fd6ba28cd2a766a8417aee179cd01",
+      "group": "regression-core",
+      "id": 158,
+      "status": "incorrect",
+      "note": "KEEP UP WITH training is rendered as maintaining pace/keeping updated rather than the intended continuing activity."
+    },
+    {
+      "key": "1626153db35c8841ce3154d5c18cd4076e6b75dd8c81cbd833b087defee20ce0",
+      "group": "regression-core",
+      "id": 159,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "2c33f01c5cdd809f2c48911ec5821f64f64e42c730c40bafee406b534c3e2f81",
+      "group": "regression-core",
+      "id": 160,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "830ae73d995535f6edddef4b174f01b430eef52bfbbf9d9805d3b44fec7dd0ea",
+      "group": "regression-core",
+      "id": 163,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "33e21b3d4c9a5bcc07396494a601863ef88f9b3e131b54d97362857dc704fc0e",
+      "group": "regression-core",
+      "id": 165,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "1258913244bbf9fa7fc126e2209b9c2226adfc8014925fb459ac3fd5dabf85cc",
+      "group": "regression-core",
+      "id": 166,
+      "status": "incorrect",
+      "note": "Verbal snapping/irritable response becomes physical hitting; the action is changed."
+    },
+    {
+      "key": "12797076800a0efcfaddb0258a171340f72696908f5ec478082d353cbcba5b9b",
+      "group": "regression-core",
+      "id": 168,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "5b1acc3feed61e15edc7ca3fb2597ea2471764808bc2fba697e4365e6e144286",
+      "group": "regression-core",
+      "id": 170,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "9758440f710784e4cf61cd067cb46efa68974d61035471cb9094af55df48e38f",
+      "group": "regression-core",
+      "id": 171,
+      "status": "needs_source_review",
+      "note": "This is a clipped OCR fragment D OF THE, not enough source to certify a complete dialogue."
+    },
+    {
+      "key": "9ffea0501c00294bd88410d11be2c251f3db1428679f526ed3c9a7fda14b6dae",
+      "group": "regression-core",
+      "id": 172,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "1925a3ca0b9c3dd470abcafdf3d597592fc1895305a4502b84adc2d9581aa0c5",
+      "group": "regression-core",
+      "id": 176,
+      "status": "acceptable",
+      "note": "Captured-source content is preserved; this does not approve uncaptured continuations or surrounding context."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 178,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "2c7730f4757a64e99adf7cf3ea0156792380dda14d0ef9893f694a378c1bb921",
+      "group": "regression-core",
+      "id": 182,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "10c2deb5eba63c97c085eea3ff5176644bb7f9d828b6831fda576cf32a7dee46",
+      "group": "regression-core",
+      "id": 185,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "b128e8a2070bd6f4db1a3712d8c7a9df337050372ea40ed8ae26c0307139f9a4",
+      "group": "regression-core",
+      "id": 187,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "0676f2688ce54933b02a0f9a0d3db1bb309ec66235368713655750061e841135",
+      "group": "regression-core",
+      "id": 190,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "5fb5b8f7b69f0838c4f4d2459cf362f94eb4df46c5d7b52cdeb9926d1dfc295a",
+      "group": "regression-core",
+      "id": 191,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "0b192e22a0f24545abcdbc5056fdbc4d243527f745271dd0ee29857e27468243",
+      "group": "regression-core",
+      "id": 193,
+      "status": "acceptable",
+      "note": "The sound-only URGH is mistranslated as URGENCIAS, recorded as a non-content quality defect; it does not inflate narrative omission/correction counts.",
+      "filler_only": true,
+      "non_content_quality_defect": true
+    },
+    {
+      "key": "cf7639a1a67f60ecf8f681d2451ff9791366926e2e736d1bae5e1a1d36bc1538",
+      "group": "regression-core",
+      "id": 194,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "7aea98aab58d5a3d4ac5cb011d9e57c606c0570f9b09793985f85d2bdf00b67a",
+      "group": "regression-core",
+      "id": 195,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "3e95b5d6fcb020307257367af536c78004428d7f4a51c1fbc8d2c1ce47a7b600",
+      "group": "regression-core",
+      "id": 196,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "a0a995167502a1536bfb45e6a1d9138129174377393c90793f94b25afe323ff2",
+      "group": "regression-core",
+      "id": 197,
+      "status": "quality_defect",
+      "note": "The negative travel statement is present but the Spanish NO ESTAMOS IR construction is unusably malformed."
+    },
+    {
+      "key": "b9c164157774964c5670f15c5f8788716a78d0afbcdaf14a627d19d461e6808e",
+      "group": "regression-core",
+      "id": 198,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "6ce84b755ee5bd3baf7505063f888999247f68984dc66d39e79972ba89eed5d6",
+      "group": "regression-core",
+      "id": 199,
+      "status": "incomplete",
+      "note": "The explicit EVEN BETTER scalar relation is weakened to BETTER without the additional emphasis."
+    },
+    {
+      "key": "e75ec774cc9de64cc983d357f5f7fc296ea509c4b7acda740b36ab82316cab00",
+      "group": "regression-core",
+      "id": 201,
+      "status": "needs_context",
+      "note": "UNDERWORLD may refer to criminal groups or a literal fantasy realm; INFRAMUNDO is not certified without that referent context."
+    },
+    {
+      "key": "312cf3306ea3b4b04ef96b40ceb00ee119a8c52456a175d987d52e41b45e38a3",
+      "group": "regression-core",
+      "id": 202,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "06f82c044e4626885c504c00c18f0c83f4194ffca543faf9cfd4b083b1031ade",
+      "group": "regression-core",
+      "id": 204,
+      "status": "needs_source_review",
+      "note": "WORLD ML appears to be a clipped caption or label; its complete original content cannot be checked from this fragment."
+    },
+    {
+      "key": "5f59270211113a39f7c36a24b00ac906ab39f1a8e32ea199dcf713408ab5e518",
+      "group": "regression-core",
+      "id": 205,
+      "status": "incorrect",
+      "note": "SLEEPING ONE is a nominal/participial phrase, but DUERME UNO changes it to a finite verb/command."
+    },
+    {
+      "key": "df2d3f293239acc9650a94b8c1c4bc3155e4977fc7ae05066e3decff3286bab1",
+      "group": "regression-core",
+      "id": 206,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "7a47c8461600f62dc27b20779380a978f4e8cfa43fcff66eb684c6729c5caa5b",
+      "group": "regression-core",
+      "id": 207,
+      "status": "needs_source_review",
+      "note": "The corrupted LISE verb is retained and its intended meaning is not certified from the source-only record."
+    },
+    {
+      "key": "c328d0e9ec3a0e59c6b006bde937496213b281dc802c64eed5c22ce0e7bf2ecb",
+      "group": "regression-core",
+      "id": 208,
+      "status": "needs_source_review",
+      "note": "EOLLOW is corrupted OCR and copied untranslated; do not invent a clean source from the model answer."
+    },
+    {
+      "key": "5a2ea55c9aa0b4cc10ae5ebd04d0f337f9f86fe569bc66893d9aff4e47982d1a",
+      "group": "regression-core",
+      "id": 209,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "16b282b483a170afe4cac2e87985f71721eb8e11856d564375075d6175c96814",
+      "group": "regression-core",
+      "id": 210,
+      "status": "incomplete",
+      "note": "The explicit location HERE in the kidnapping proposal is omitted."
+    },
+    {
+      "key": "7fed58c84a6b77663faffe5eecea2d6d7a0e81cc5497360ec968d83c1da0e2cb",
+      "group": "regression-core",
+      "id": 211,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "37d1acaaeb4c0e044c41a0be6b62f5790f2459e45070ead79191e30bd4adefa7",
+      "group": "regression-core",
+      "id": 213,
+      "status": "needs_source_review",
+      "note": "Captured text has heavy clipping and an unresolved LSING token; no complete meaning can be certified."
+    },
+    {
+      "key": "7a783f11f42cc86ce3b06a219e78a64f6923cbd88fb366dbf8cc81408ba81dcc",
+      "group": "regression-core",
+      "id": 214,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "aadd947b972150f6f833fa23c5b0d9b02f9fd89d03f3cb46c6b63f8815a77e64",
+      "group": "regression-core",
+      "id": 215,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "b860e7dfda9e29da1bbea146c98360be1bc52fa8da1a69ace3b0b470d74ed544",
+      "group": "regression-core",
+      "id": 216,
+      "status": "needs_context",
+      "note": "The isolated continuation and malformed Spanish leave command attachment and dealt-with relation unresolved."
+    },
+    {
+      "key": "7ddb22af865325dfd415dcff3bb78852a950da9d569c7d29b367ee86a84dead4",
+      "group": "regression-core",
+      "id": 217,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "bc63e4622c22391734e881eae08cc0818a7852d35e3e5bde3c2b2001cd0f7e03",
+      "group": "regression-core",
+      "id": 219,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "12ab85478e28c9d22a9804bf37966539c6c4f0033cfa4367baa38f8020a8f4fe",
+      "group": "regression-core",
+      "id": 220,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "51536b892e230423162d387efa64d1bc1f3e05e0b77211721553dee91cd5d7d6",
+      "group": "regression-core",
+      "id": 221,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "abddd24d3260ef47b3987fafedc70c52ade0107b773f468759d2779ece01cc2e",
+      "group": "regression-core",
+      "id": 224,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "b2528c7fcd4459712eb26bbc227ffb261a33c20be5b3e5b2b37892684447e2f6",
+      "group": "regression-core",
+      "id": 226,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "dec451246bceca251f209838c3397e8d52536ee885e9fce5380ec9e6df6de7ce",
+      "group": "regression-core",
+      "id": 227,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "9450b903fa2fde0bb08f710b341e0d1e55b729e0be825336b40184465e312ae0",
+      "group": "regression-core",
+      "id": 228,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "c5219ca3821a51925a2a3cefa71d6321a9064431a4c5a9e442ee566163af2311",
+      "group": "regression-core",
+      "id": 229,
+      "status": "incorrect",
+      "note": "YEARS is added even though the captured source only ends in LAST THREE; no time unit is available to justify that addition."
+    },
+    {
+      "key": "c957fb95a41d34ef1c41e5c1d7395ae66a48af8bcfb09e0ebffbe068e774c3f8",
+      "group": "known-test",
+      "id": 4,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "c972e0205534156ab33f8af6a04bb740999b0f0143b874ebc48fc9c5b8b89fbb",
+      "group": "known-test",
+      "id": 5,
+      "status": "quality_defect",
+      "note": "Greeting is partially recovered but literal N-AGRADABLE CONOCERTE remains malformed Spanish; not a complete usable correction."
+    },
+    {
+      "key": "53c52d7e3de51cf5554c5562aa57e4c60183a71b1899c4f46892e7da60d77154",
+      "group": "known-test",
+      "id": 21,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "075f817e00b8b9a07b433a5619442b0a281239b7791a9bccb1027b7305c437e6",
+      "group": "known-test",
+      "id": 22,
+      "status": "acceptable",
+      "note": "All meaningful captured-source content is preserved; sounds, naming/case style and uncaptured continuations are not counted as narrative corrections."
+    },
+    {
+      "key": "a8458d85ca64a78e44f39017f0a7da0330a67d8b1565f300c1a88bfccd8a1dfb",
+      "group": "known-test",
+      "id": 24,
+      "status": "incomplete",
+      "note": "The explicit YES affirmation is omitted; WELL and ARU fillers are not the reason for the verdict."
+    },
+    {
+      "group": "regression-core",
+      "id": 2,
+      "key": "f8fce9fcebec9802d7922e82ea19e00573b994dce8f5421172e5c34fa573cd4e",
+      "status": "incomplete",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 3,
+      "key": "b9ce9464857f90bed1aa9001780aee993407afd3ffae9430c448872fdf2f7daf",
+      "status": "incomplete",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 6,
+      "key": "eb18b1e901dd64d98bcc480c0384d4d40697c4c1687795e96778dea91d2d56f0",
+      "status": "acceptable",
+      "note": "The final duration question is recovered.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 9,
+      "key": "35b2251b7c44eae0e73994fe15bfdbca8d1e227a62e5fbd7ebb6df94d3f003ba",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 12,
+      "key": "ad3d14910244a25c25ca17b2e1f2559df32427deb8dcd9805a6e7e42584fe95a",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 13,
+      "key": "05d00c247316a17af24e3df702ee9cd7c5cb1c230761949accffb74fe82adf19",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 17,
+      "key": "9045d063de957b307327978be7b8a3e7de4153525c7e3b66d8892f97cfe9129c",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 23,
+      "key": "5a036a9f55bb832b7fb75f009a4c2328e84167f109bcff4d6e382cec8ccf27b9",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 24,
+      "key": "63885ce529abbfbbc464efb474ab56088f9c78bdf145d47383229c6e827a6624",
+      "status": "unreadable_source",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 25,
+      "key": "17f65547d2ef810516a7d5b94ddfe9badca100a99a1436c8502acbde8405ddb8",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 28,
+      "key": "0487dc1d41614626309440e3ef508280d223dc2dd9d5b45194e2c89acc178a05",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 30,
+      "key": "d46062ec74330ee631cd7273b09088aa3fb35188b9c11578c0b85bf0ebd0c0fd",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 36,
+      "key": "7e2bf414c245462cebcefc3457520f62488691dacb448042ea3c388c4fab1466",
+      "status": "acceptable",
+      "note": "A source slash appears in the candidate. Content remains but display quality worsens.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 37,
+      "key": "8f4c702bdb6e9ab28e6c9dccf38fa3f3b5ec1336cfe39286b869a216ea941d3b",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 40,
+      "key": "a5f095ecb833e3e718644997d59388dac1db8cfc493d002bc2030a235db5882e",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 41,
+      "key": "a98597e2f6b9f28ce550bd3ed6a37c656bdd0dfaaa143cf2a82beb66682337d8",
+      "status": "incorrect",
+      "note": "The concessive WHILE becomes temporal MIENTRAS. This judgement concerns the captured relation; the sentence is clipped.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 48,
+      "key": "b453c46844fda5ae6288b1b13a70a8cf957ff4074a5835028315aa754bd06c35",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 49,
+      "key": "cc6060560298b6d6ee231250b247bbc121d608e5450f4f86d008576bd98f1480",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 54,
+      "key": "6754f8b5633bda6b27ae12a0aef141113a5200f8cc8743f170e9c44a5d2a78b9",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 55,
+      "key": "2548047d1060aea1d9d5771bde11f739b17239797ce5b4aedb82009f8516bed0",
+      "status": "needs_context",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 64,
+      "key": "ca74a94263e6d862cc4b745d785a1f7bbe238db6c7e3d1fe82b6fe68a91b4b35",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 73,
+      "key": "2eb2ca780ba4f23649fcb94c1f0401549abb07ef8c5ed7244aa90aa8660ed885",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 75,
+      "key": "652f3b871b582af4b5d89e7636094ad1266eb603ff13ba1de12b431b7648594b",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 76,
+      "key": "dcb1c2f9b82c4220941f4725d660aba0ac943b7b9848310a21a5c7207351672f",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 77,
+      "key": "fe623e7d612088aea3e46c0ff4fdf4348a14311e4febc5e68ebd2ee3d2930590",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 81,
+      "key": "524143167f83458686a45b2f26a9d2210a09d3b1a826851e2bceeba6e13c92f3",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 86,
+      "key": "e48026d1b0e2da37c3da047b879520c4dfc5bd94dd45bc294fc445f8919bc6c0",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 92,
+      "key": "c3a41a70652efcd8d7a67088caf226686ff444b5c3962e6f03d45edbd1ac97cc",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 96,
+      "key": "2cd8203105cf2f4f2ddb266861298ad5b24b1731a2de647011251cd5d8366f1e",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 99,
+      "key": "a5959cf57dcc7e69fe812fcee9710448467c8e52d92e4bbc81551d32b24b6df1",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 101,
+      "key": "4b52ab3468b246a6cec63e897fa33d8c20a0bfa8b34846c8f4179d6fe8f5acaf",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 106,
+      "key": "70433ecb122df6d5781cfac259f5b064d569068054d3bb4fa480866ed862bd46",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 110,
+      "key": "5a7cec61050a6990646adf3ac44b1d0effb7e4bb76420865a87db508b56cb0db",
+      "status": "needs_context",
+      "note": "The explicit aboutness question becomes an identity question. Context might license it; no unqualified equivalence or confirmed new error is asserted.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "stability8035"
+    },
+    {
+      "group": "regression-core",
+      "id": 111,
+      "key": "4eee93f3987c9e3a3fdc672fb1575f52e6f828ecc19698b2496e2f865d9aba37",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 112,
+      "key": "71531866fa51e8e8681e1588df73199d34306152d63838761c1a50e83216a30e",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 119,
+      "key": "81a6d90fc0fe2e69d7830af6cf3c6d74f3f41ee4340ea2cb994f9e1cc4afa73c",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 120,
+      "key": "04fc4b540ed67425df547d3dbf81b623420a1871fc75c50490c1d6d0602ddfc6",
+      "status": "incomplete",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 124,
+      "key": "a082c7c868a422d9a5f671c6c8c28b3c94842ba341179517cc00af890b235a34",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 125,
+      "key": "9d6f80ca884db9e0ea31e6607092d98d17e46adfb7abbe9134252e9589c034d3",
+      "status": "incomplete",
+      "note": "The separate initial question is still merged/lost.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8031\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 126,
+      "key": "d1e1e5e61e9c27ecc370dd22984772397dd47404d1f3c49424d8055e50c032d7",
+      "status": "incomplete",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 132,
+      "key": "00e64353f45f16593c82d963966b3f1eb8b1de3bf88b7ec01708094d75ded844",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 134,
+      "key": "c366ce0c3e9828e1d867534c580ada243e059f50077a673e32ebae47ade01466",
+      "status": "needs_context",
+      "note": "The number of addressees remains unspecified by isolated English. The parenthetical syntax improves.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 135,
+      "key": "f3e7a6b578a69d9fb516443cb16cc2fcf7db114930b4a43182c3bf6fc8bad26b",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 138,
+      "key": "9f7d8565b0f10409e331c87f4e6835c4d272785f4bbe9eb2995b8909850e959c",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8031\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 145,
+      "key": "3b55b2881457f1e10cc2125c93a28ac455c86e9168257d99c6bab00aba2606a9",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 148,
+      "key": "2474b0d288cbc4e599d2db639f3d25fcedb992871f211bb3a83b8af69f9844e7",
+      "status": "acceptable",
+      "note": "The additive relation ALSO is recovered in the captured clause.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 155,
+      "key": "8efe496fd9ff64fabf977ff82a53bd6cdbab5a6f9d80c48c8c13fc82e2693f20",
+      "status": "incorrect",
+      "note": "The imperative regret/agent relationship remains wrong; no complete correction.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "stability8035"
+    },
+    {
+      "group": "regression-core",
+      "id": 157,
+      "key": "4c5cbd09ba8cd7ec157436a406c0a3d03d27e40faf0c22f40499932a97a437e6",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 161,
+      "key": "45eb396f7889965d047f28207a305795acca9a7702b9528d461e7827e2802c32",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 162,
+      "key": "45b66ff970376508dcf1140b93c3a9b143fb298da2a4cb3cb08294be126d77d8",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 164,
+      "key": "80d87b968190b0fc5ec37b51d9706dcd931f134ae802a2e7ce40ace250832d5e",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 167,
+      "key": "0d8fae4ffcae3e69c7ecb377975c9f08bf9e7cda83d855a2610fb7327494409b",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 169,
+      "key": "ea683cf215fce6d52f255ba31328c3cb82caf1edc5e16ba6990a7486e937892c",
+      "status": "incomplete",
+      "note": "The corrupted invitation GOAROUND is still absent; the clipped contrast cannot be approved as a complete dialogue.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 173,
+      "key": "e71c2078a3e0fdcc41977aa4903f7e31d3fa4aae2353c08fdcbdd1398637e446",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 174,
+      "key": "c91373f017df490bd8a29deb998df7caf9d1cecab2263787d398d83ca8a83476",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 175,
+      "key": "a4c6df92b5f142f88685f7e872fc790c5f4adc8ee7e5110f8dd0b554ebbb9295",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 177,
+      "key": "76d3a9e6d5603c2542043d143928102ac70792a42ef8223ba6ab3e594891ec36",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 179,
+      "key": "2878deae9b9968d3b4568c2b82e5208ccd8436190d1953b14f59fa403b559294",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 180,
+      "key": "3eb3343f153611c04a71fd906ec4dfdc4614837307350915691db31d9150eba4",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "stability8035"
+    },
+    {
+      "group": "regression-core",
+      "id": 181,
+      "key": "696224124819f6c5bed6e5ae33157b8bc1571a0932dc6b447386357bd06ecaac",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 183,
+      "key": "3b8c669a5af507a3a7f6a03b34c4754c7c51df6b3f08f07a72c2e905ee65d044",
+      "status": "acceptable",
+      "note": "The spoken affirmative clause is recovered.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 184,
+      "key": "b0ce195cfc4ee88f459b02fd3c3f891139f892974cb4066409d4016f655fd8e8",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 186,
+      "key": "ff22c53fb9e56503b3a4bb9921c2eb06132bd9c9f8c3646a02a597948c937ab9",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 188,
+      "key": "8f44d54db3311339bbc95eb08e8653665dd938e302729ac8d4676a9e915e088a",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 189,
+      "key": "f5ac580e1de3f050e8716d798aadf2100f78edc5d47080508cd4e6d92c8cbe57",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 192,
+      "key": "25de713a501e956ab0d0eef60f71dd63166af0f0fcf82ce5758eb7fb09cbf157",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8032\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 200,
+      "key": "558e93223445a73d621b5c0c67c645615494c1d32cfac75ec04e7745aef15e40",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 203,
+      "key": "3f96aae1bfe83fb1ba5a3fa96687bf027cb093182d0f65d07b8ec9bac1af0e3d",
+      "status": "acceptable",
+      "note": "The captured nominal original can stand without repeating WORLD; neither fragment certifies a complete sentence.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 212,
+      "key": "503f7244e909766a1b5ab645b87a8aabb9ed67c4cdc4248e2bdd3824ca0b325d",
+      "status": "incomplete",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 218,
+      "key": "47f49218e5a310ec7110dff78973ef408cd3efbb289e43781e51322432da9f88",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 222,
+      "key": "b0f9a0380d5d65734c92542c1db660d72761739b1d14cbc55b142b3f62e093d0",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json"
+    },
+    {
+      "group": "regression-core",
+      "id": 223,
+      "key": "97a733ca795fcc02b27ec70e47d86a120b847f5a84defa72b09bd6744096d3e2",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "regression-core",
+      "id": 225,
+      "key": "359aa03050e260bb677ba206485d66ac67620aabc5c743b2d45d10f687b0a8b1",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "stability8035"
+    },
+    {
+      "group": "known-test",
+      "id": 1,
+      "key": "439af2ceaae38aff04f7b5ead14acbc3aa94fa0025e7dc812ef2122a60074545",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "known-test",
+      "id": 2,
+      "key": "9706861c89956f0e6bde29b1cf1b22040fea0571870408f9726e995d6a80a2b8",
+      "status": "acceptable",
+      "note": "Spanish pro-drop makes the explicit ELLA optional; omission of the pronoun is not a content loss.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "stability8035"
+    },
+    {
+      "group": "known-test",
+      "id": 3,
+      "key": "0d648d096073c132192536f70039dc267b8e1502e10cbc48197cafe7adb27314",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\known-test-meaning-decisions.json"
+    },
+    {
+      "group": "known-test",
+      "id": 11,
+      "key": "3c5ec39deb6b335dc47b2b65f65a031d50a2a3d7e2d099afe7f41a7ac3f34b59",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "known-test",
+      "id": 13,
+      "key": "e1d5b4ddf6537408b268faf34a854203258a47072dace83c1438070c312f1122",
+      "status": "needs_context",
+      "note": "The source permits both a suspicious person and a person harboring suspicion. The changed reading cannot be called a categorical isolated-text error without context.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "stability8035"
+    },
+    {
+      "group": "known-test",
+      "id": 14,
+      "key": "3dac071ea6ab5e2ac8637b76fad74e44a1416ec13fd4a91418f9fd1871191ed9",
+      "status": "needs_context",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\known-test-meaning-decisions.json"
+    },
+    {
+      "group": "known-test",
+      "id": 15,
+      "key": "32cc5c1f2fee8df64ebdff960e35393d3d8212cb382846359d9382b3bd2c7db5",
+      "status": "incomplete",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\known-test-meaning-decisions.json"
+    },
+    {
+      "group": "known-test",
+      "id": 16,
+      "key": "ff9097f7ce7a3214cae4ab651c46cb783f51d9bb99ca968f63bbd56860754aba",
+      "status": "needs_context",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\known-test-meaning-decisions.json"
+    },
+    {
+      "group": "known-test",
+      "id": 19,
+      "key": "b568e32ebe1c2f730300a05d49c799d14d3f61e3db426408f0babf9cf64ec246",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\known-test-meaning-decisions.json"
+    },
+    {
+      "group": "known-test",
+      "id": 20,
+      "key": "af1554d2fe6b589e170310713e580d84e297ce9e5e46869d0f9a72fa00b87d69",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\known-test-meaning-decisions.json"
+    },
+    {
+      "group": "known-test",
+      "id": 23,
+      "key": "21dae2f027330567c931a00bf1c47b19b98f40f34d8aeb1164e19a7d12682118",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 50,
+      "key": "d2c7ec105c8beb469e4b28469794d9c4173643934f4b1ac905875f0ec7489907",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 53,
+      "key": "8b9ee0e3033854c8fdedba3d0646ab4d3cd773668a9b27a1f10787e46739abcd",
+      "status": "incomplete",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 54,
+      "key": "293d0ad28876aa9253efc90506d58c4281051198650c2ee90fdc17c12f7003a3",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 55,
+      "key": "86146e765fbac475f3e4105c1f6472706b302c29059ab703b38e769b9d10cea3",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 57,
+      "key": "21862d59c2086716f7ed676daf4cbe865eef3b13fb13140f0b09c4fc33195268",
+      "status": "acceptable",
+      "note": "Restoring the phrase SOME KIND is a closer wording, not a full correction of a previously valid comparison.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 60,
+      "key": "db9b953343970f0afb8ddb36ea53a79a81c7ff483081d39f52c4d6104c66a31c",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 63,
+      "key": "e436f2b7549a7efa95897be90e06379d9f01b0ee5b002742538b0aa5bdf6a11b",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 64,
+      "key": "feec332388ac982f4192ca34b5ee9499345a3bce77e8926d4e41a4ccf9f282e0",
+      "status": "acceptable",
+      "note": "Proximity question preserved; restoring a filler does not inflate correction counts.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    },
+    {
+      "group": "early-known-test",
+      "id": 65,
+      "key": "59b206749ba3c9970e7ec4733b4c0e66cc51bf509c5de755175b88be17c775b2",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 68,
+      "key": "9ac0d4d9f2db2f7ffeaa4118c149c7a6a9e75fba247b6dcc3eac9f9912e52350",
+      "status": "incorrect",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 69,
+      "key": "5901cca5c8a39cd16ceac865ae523a40a856de5f51a433b6522a10a1589d8645",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 70,
+      "key": "dd95215b7592678e6da87bbf1e9eec09bd6041fb4b632cfffd3b1f573fa75a96",
+      "status": "acceptable",
+      "note": "Previously reviewed baseline output.",
+      "review_method": "exact_source_and_output_identity",
+      "origin": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json"
+    },
+    {
+      "group": "early-known-test",
+      "id": 71,
+      "key": "710ff4601c97fc49dde336195bd912c6fce1b4bbf1fd70532c52f6e25a6c3204",
+      "status": "acceptable",
+      "note": null,
+      "review_method": "exact_source_and_output_identity",
+      "origin": "onpolicy8036"
+    }
+  ],
+  "current_native_engine": "803001",
+  "newly_reviewed_records": 161,
+  "exact_reused_records": 97,
+  "new_distinct_source_output_pairs": 148,
+  "reviewed_before_control_qe_scores": true,
+  "scope": "Captured English-source meaning, not full viewport coverage or full124-chapter review.",
+  "not_human_certified": true
+}

@@ -1,0 +1,83 @@
+{
+  "experiment": "8036",
+  "new_model_trained": true,
+  "selected_checkpoint": "step104",
+  "validation": {
+    "known": {
+      "pairs": 14,
+      "confirmed_errors_before": 5,
+      "confirmed_errors_after": 3,
+      "complete_corrections": 2,
+      "new_content_regressions": 0,
+      "new_context_uncertainties": 0,
+      "context_uncertain": 3
+    },
+    "new": {
+      "pairs": 11,
+      "confirmed_errors_before": 4,
+      "confirmed_errors_after": 3,
+      "complete_corrections": 1,
+      "new_content_regressions": 0,
+      "new_context_uncertainties": 0,
+      "context_uncertain": 1
+    }
+  },
+  "controls": {
+    "regression-core": {
+      "total_inputs": 229,
+      "changed_outputs": 50,
+      "complete_corrections": 8,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 1,
+      "new_source_artifacts": 1,
+      "format_alerts": 0,
+      "partial_content_recoveries": 1,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    },
+    "known-test": {
+      "total_inputs": 16,
+      "changed_outputs": 9,
+      "complete_corrections": 1,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 0,
+      "new_source_artifacts": 0,
+      "format_alerts": 0,
+      "partial_content_recoveries": 1,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    },
+    "early-known-test": {
+      "total_inputs": 13,
+      "changed_outputs": 6,
+      "complete_corrections": 0,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 1,
+      "new_source_artifacts": 0,
+      "format_alerts": 1,
+      "partial_content_recoveries": 0,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    }
+  },
+  "quality_gates": {
+    "no_new_complete_regressions": false,
+    "no_additional_partial_losses": false,
+    "no_source_artifacts": false,
+    "no_format_alerts": false,
+    "old_core_fixes": true,
+    "known16_fixes": true
+  },
+  "quality_gates_passed": false,
+  "promoted": false,
+  "new_blind_test_chapters_opened": 0,
+  "remaining_uninspected_test_chapters": 41,
+  "production_weights_modified": false,
+  "app_failure_probability": null,
+  "target_achieved": false,
+  "rejection_reasons": [
+    "Complete question newly omitted in clean-source control",
+    "Punctuation-only generation persists",
+    "Partial content losses and a copied source artifact remain"
+  ]
+}

@@ -1,0 +1,1638 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "name": "regression-core",
+      "id": 20,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Captured assassination records, banknote papers and value preserved; banknote meaning is implicit in billetes.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "regression-core",
+      "id": 22,
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The opening question remains missing; first-corps ordinal and dead commander preserved. No complete fix.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "regression-core",
+      "id": 61,
+      "before": "incomplete",
+      "after": "incomplete",
+      "partial_content_recovery": true,
+      "note": "LATER timing recovered, but PLEASURE bar descriptor/name is still missing; not a complete correction.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "regression-core",
+      "id": 98,
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "The magnitude wording remains malformed; removing a space before ellipsis is not a correction.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "regression-core",
+      "id": 102,
+      "before": "incorrect",
+      "after": "incorrect",
+      "partial_quality_improvement": true,
+      "note": "Demon title improves, but the comparison to his USUAL SELF is still missing/wrongly attached.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "regression-core",
+      "id": 125,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "Separate initial WHY question recovered and remaining content preserved.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "regression-core",
+      "id": 179,
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Question preserved; Spanish simple past is valid here.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "known-test",
+      "id": 15,
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "Explicit name question recovered.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "known-test",
+      "id": 22,
+      "before": "acceptable",
+      "after": "incomplete",
+      "new_confirmed_content_regression": true,
+      "note": "Complete second question asking about falling for the speaker is newly omitted; ARU suffix is not the basis of the failure.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "name": "early-known-test",
+      "id": 65,
+      "before": "acceptable",
+      "after": "needs_context",
+      "new_context_uncertainty": true,
+      "note": "Boarding/upward interpretation SUBE requires surrounding context that isolated GET IN does not provide.",
+      "review_method": "assistant_captured_source_and_output_review"
+    },
+    {
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The opening attention-getting utterance remains absent; the changed body wording does not resolve the prior verdict.",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 3,
+      "reused_from": {
+        "decision": {
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The opening attention-getting utterance remains absent; the changed body wording does not resolve the prior verdict.",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 3,
+          "reused_from": {
+            "decision": {
+              "id": 3,
+              "before": "incomplete",
+              "after": "incomplete",
+              "note": "The opening attention-getting utterance remains absent; the changed body wording does not resolve the prior verdict.",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Only the intentional ellipsis is restored; not a content correction.",
+      "name": "regression-core",
+      "id": 5,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "note": "Only the intentional ellipsis is restored; not a content correction.",
+          "name": "regression-core",
+          "id": 5,
+          "reused_from": {
+            "decision": {
+              "id": 5,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "new_captured_source_and_output_review",
+              "note": "Only the intentional ellipsis is restored; not a content correction."
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The final duration question is recovered.",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 6,
+      "reused_from": {
+        "decision": {
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The final duration question is recovered.",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 6,
+          "reused_from": {
+            "decision": {
+              "id": 6,
+              "before": "incomplete",
+              "after": "acceptable",
+              "note": "The final duration question is recovered.",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 28,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 28,
+          "reused_from": {
+            "decision": {
+              "id": 28,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8032",
+      "name": "regression-core",
+      "id": 33,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8032",
+          "name": "regression-core",
+          "id": 33,
+          "reused_from": {
+            "decision": {
+              "id": 33,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8032"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "new_rendered_text_artifact": true,
+      "note": "A source slash appears in the candidate. Content remains but display quality worsens.",
+      "name": "regression-core",
+      "id": 36,
+      "reused_from": {
+        "decision": {
+          "id": 36,
+          "before": "acceptable",
+          "after": "acceptable",
+          "new_rendered_text_artifact": true,
+          "note": "A source slash appears in the candidate. Content remains but display quality worsens."
+        },
+        "experiment": "8031"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The institutional weapon/title name changes; a named rendering cannot be judged without terminology context.",
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 43,
+      "reused_from": {
+        "decision": {
+          "id": 43,
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "The institutional weapon/title name changes; a named rendering cannot be judged without terminology context.",
+          "reused_verdict_by_exact_output_identity": true
+        },
+        "experiment": "8033"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "needs_context",
+      "new_context_uncertainty": true,
+      "note": "YOU becomes plural; the isolated English does not fix addressee number, so equivalence remains uncertain.",
+      "name": "regression-core",
+      "id": 49,
+      "reused_from": {
+        "decision": {
+          "name": "regression-core",
+          "id": 49,
+          "before": "acceptable",
+          "after": "needs_context",
+          "new_context_uncertainty": true,
+          "note": "YOU becomes plural; the isolated English does not fix addressee number, so equivalence remains uncertain.",
+          "review_method": "assistant_captured_source_and_output_review"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The explicit question is still rendered as a statement.",
+      "name": "regression-core",
+      "id": 57,
+      "reused_from": {
+        "decision": {
+          "id": 57,
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The explicit question is still rendered as a statement."
+        },
+        "experiment": "8031"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The courtesy marker is restored. This is recorded separately and does not inflate complete narrative-content corrections.",
+      "courtesy_recovery_only": true,
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 67,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "The courtesy marker is restored. This is recorded separately and does not inflate complete narrative-content corrections.",
+          "courtesy_recovery_only": true,
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 67,
+          "reused_from": {
+            "decision": {
+              "id": 67,
+              "before": "acceptable",
+              "after": "acceptable",
+              "note": "The courtesy marker is restored. This is recorded separately and does not inflate complete narrative-content corrections.",
+              "courtesy_recovery_only": true,
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 75,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 75,
+          "reused_from": {
+            "decision": {
+              "id": 75,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 76,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 76,
+          "reused_from": {
+            "decision": {
+              "id": 76,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "unreadable_source",
+      "after": "unreadable_source",
+      "note": "OCR has extensively corrupted the sentence; do not score guessed words as a model improvement.",
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 78,
+      "reused_from": {
+        "decision": {
+          "id": 78,
+          "before": "unreadable_source",
+          "after": "unreadable_source",
+          "note": "OCR has extensively corrupted the sentence; do not score guessed words as a model improvement.",
+          "reused_verdict_by_exact_output_identity": true
+        },
+        "experiment": "8033"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 92,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 92,
+          "reused_from": {
+            "decision": {
+              "id": 92,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "regression-core",
+      "id": 96,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "name": "regression-core",
+          "id": 96,
+          "reused_from": {
+            "decision": {
+              "id": 96,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "new_captured_source_and_output_review"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Making the implicit THIS explicit is not counted as a content correction.",
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 110,
+      "reused_from": {
+        "decision": {
+          "id": 110,
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Making the implicit THIS explicit is not counted as a content correction.",
+          "reused_verdict_by_exact_output_identity": true
+        },
+        "experiment": "8033"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Different sentence boundaries and the explicit possessive preserve the same captured meaning.",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 124,
+      "reused_from": {
+        "decision": {
+          "id": 124,
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Different sentence boundaries and the explicit possessive preserve the same captured meaning.",
+          "review_method": "exact_source_and_candidate_identity",
+          "previous_experiment": "8033"
+        },
+        "experiment": "8034"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 127,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "reused_verdict_by_exact_output_identity": true,
+          "name": "regression-core",
+          "id": 127,
+          "reused_from": {
+            "decision": {
+              "id": 127,
+              "before": "acceptable",
+              "after": "acceptable",
+              "reused_verdict_by_exact_output_identity": true
+            },
+            "experiment": "8033",
+            "decision_file": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8033\\lora-pilot\\regression-core-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "Formal singular versus plural cannot be resolved from the isolated YOU; the other captured meaning is retained.",
+      "reused_verdict_by_exact_output_identity": false,
+      "name": "regression-core",
+      "id": 141,
+      "reused_from": {
+        "decision": {
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "Formal singular versus plural cannot be resolved from the isolated YOU; the other captured meaning is retained.",
+          "reused_verdict_by_exact_output_identity": false,
+          "name": "regression-core",
+          "id": 141,
+          "reused_from": {
+            "decision": {
+              "id": 141,
+              "before": "needs_context",
+              "after": "needs_context",
+              "note": "Formal singular versus plural cannot be resolved from the isolated YOU; the other captured meaning is retained.",
+              "reused_verdict_by_exact_output_identity": false
+            },
+            "experiment": "8033",
+            "decision_file": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8033\\lora-pilot\\regression-core-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 145,
+      "reused_from": {
+        "decision": {
+          "id": 145,
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_candidate_identity",
+          "previous_experiment": "8033"
+        },
+        "experiment": "8034"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question about the others being worse is recovered.",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 146,
+      "reused_from": {
+        "decision": {
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The initial question about the others being worse is recovered.",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 146,
+          "reused_from": {
+            "decision": {
+              "id": 146,
+              "before": "incomplete",
+              "after": "acceptable",
+              "note": "The initial question about the others being worse is recovered.",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The additive relation ALSO is recovered in the captured clause.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 148,
+      "reused_from": {
+        "decision": {
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The additive relation ALSO is recovered in the captured clause.",
+          "captured_source_is_clipped": true,
+          "reused_verdict_by_exact_output_identity": true,
+          "name": "regression-core",
+          "id": 148,
+          "reused_from": {
+            "decision": {
+              "id": 148,
+              "before": "incomplete",
+              "after": "acceptable",
+              "note": "The additive relation ALSO is recovered in the captured clause.",
+              "captured_source_is_clipped": true,
+              "reused_verdict_by_exact_output_identity": true
+            },
+            "experiment": "8033",
+            "decision_file": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8033\\lora-pilot\\regression-core-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8032",
+      "name": "regression-core",
+      "id": 157,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8032",
+          "name": "regression-core",
+          "id": 157,
+          "reused_from": {
+            "decision": {
+              "id": 157,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8032"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 161,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 161,
+          "reused_from": {
+            "decision": {
+              "id": 161,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 163,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "reused_verdict_by_exact_output_identity": true,
+          "name": "regression-core",
+          "id": 163,
+          "reused_from": {
+            "decision": {
+              "id": 163,
+              "before": "acceptable",
+              "after": "acceptable",
+              "reused_verdict_by_exact_output_identity": true
+            },
+            "experiment": "8033",
+            "decision_file": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8033\\lora-pilot\\regression-core-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 167,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 167,
+          "reused_from": {
+            "decision": {
+              "id": 167,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "regression-core",
+      "id": 168,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "name": "regression-core",
+          "id": 168,
+          "reused_from": {
+            "decision": {
+              "id": 168,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "new_captured_source_and_output_review"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "The corrupted invitation GOAROUND is still absent; the clipped contrast cannot be approved as a complete dialogue.",
+      "name": "regression-core",
+      "id": 169,
+      "reused_from": {
+        "decision": {
+          "name": "regression-core",
+          "id": 169,
+          "before": "incomplete",
+          "after": "incomplete",
+          "note": "The corrupted invitation GOAROUND is still absent; the clipped contrast cannot be approved as a complete dialogue.",
+          "review_method": "assistant_captured_source_and_output_review"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 173,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 173,
+          "reused_from": {
+            "decision": {
+              "id": 173,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 174,
+      "reused_from": {
+        "decision": {
+          "id": 174,
+          "before": "acceptable",
+          "after": "acceptable",
+          "reused_verdict_by_exact_output_identity": true
+        },
+        "experiment": "8033"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 175,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 175,
+          "reused_from": {
+            "decision": {
+              "id": 175,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "incorrect",
+      "note": "The captured noun phrase becomes malformed Spanish. The full original view already omitted other words.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 177,
+      "reused_from": {
+        "decision": {
+          "id": 177,
+          "before": "acceptable",
+          "after": "incorrect",
+          "note": "The captured noun phrase becomes malformed Spanish. The full original view already omitted other words.",
+          "captured_source_is_clipped": true,
+          "reused_verdict_by_exact_output_identity": true
+        },
+        "experiment": "8033"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "regression-core",
+      "id": 181,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "name": "regression-core",
+          "id": 181,
+          "reused_from": {
+            "decision": {
+              "id": 181,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "new_captured_source_and_output_review"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The affirmative clause is recovered; comma versus full stop does not change the content verdict.",
+      "reused_verdict_by_exact_output_identity": false,
+      "name": "regression-core",
+      "id": 183,
+      "reused_from": {
+        "decision": {
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The affirmative clause is recovered; comma versus full stop does not change the content verdict.",
+          "reused_verdict_by_exact_output_identity": false,
+          "name": "regression-core",
+          "id": 183,
+          "reused_from": {
+            "decision": {
+              "id": 183,
+              "before": "incomplete",
+              "after": "acceptable",
+              "note": "The affirmative clause is recovered; comma versus full stop does not change the content verdict.",
+              "reused_verdict_by_exact_output_identity": false
+            },
+            "experiment": "8033",
+            "decision_file": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8033\\lora-pilot\\regression-core-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 189,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 189,
+          "reused_from": {
+            "decision": {
+              "id": 189,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The initial question is recovered, keeping the sky statement.",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 195,
+      "reused_from": {
+        "decision": {
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The initial question is recovered, keeping the sky statement.",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 195,
+          "reused_from": {
+            "decision": {
+              "id": 195,
+              "before": "incomplete",
+              "after": "acceptable",
+              "note": "The initial question is recovered, keeping the sky statement.",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "needs_context",
+      "note": "The candidate weakens explicit causation into event identification. Do not certify a new complete error without the surrounding event reference.",
+      "possible_relation_worsening": true,
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 206,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "needs_context",
+          "note": "The candidate weakens explicit causation into event identification. Do not certify a new complete error without the surrounding event reference.",
+          "possible_relation_worsening": true,
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 206,
+          "reused_from": {
+            "decision": {
+              "id": 206,
+              "before": "acceptable",
+              "after": "needs_context",
+              "note": "The candidate weakens explicit causation into event identification. Do not certify a new complete error without the surrounding event reference.",
+              "possible_relation_worsening": true,
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incorrect",
+      "after": "incorrect",
+      "new_partial_meaning_loss": true,
+      "upstream_ocr_defect": true,
+      "note": "The corrupted verb persists and intended purpose still shifts toward past attempted action.",
+      "reused_verdict_by_exact_output_identity": false,
+      "name": "regression-core",
+      "id": 207,
+      "reused_from": {
+        "decision": {
+          "before": "incorrect",
+          "after": "incorrect",
+          "new_partial_meaning_loss": true,
+          "upstream_ocr_defect": true,
+          "note": "The corrupted verb persists and intended purpose still shifts toward past attempted action.",
+          "reused_verdict_by_exact_output_identity": false,
+          "name": "regression-core",
+          "id": 207,
+          "reused_from": {
+            "decision": {
+              "id": 207,
+              "before": "incorrect",
+              "after": "incorrect",
+              "new_partial_meaning_loss": true,
+              "upstream_ocr_defect": true,
+              "note": "The corrupted verb persists and intended purpose still shifts toward past attempted action.",
+              "reused_verdict_by_exact_output_identity": false
+            },
+            "experiment": "8033",
+            "decision_file": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8033\\lora-pilot\\regression-core-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The explicit location HERE is recovered.",
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 210,
+      "reused_from": {
+        "decision": {
+          "id": 210,
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The explicit location HERE is recovered.",
+          "reused_verdict_by_exact_output_identity": true
+        },
+        "experiment": "8033"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The captured action LUNGED is recovered; the full original sentence still extends beyond this OCR fragment.",
+      "captured_source_is_clipped": true,
+      "reused_verdict_by_exact_output_identity": true,
+      "name": "regression-core",
+      "id": 212,
+      "reused_from": {
+        "decision": {
+          "before": "incomplete",
+          "after": "acceptable",
+          "note": "The captured action LUNGED is recovered; the full original sentence still extends beyond this OCR fragment.",
+          "captured_source_is_clipped": true,
+          "reused_verdict_by_exact_output_identity": true,
+          "name": "regression-core",
+          "id": 212,
+          "reused_from": {
+            "decision": {
+              "id": 212,
+              "before": "incomplete",
+              "after": "acceptable",
+              "note": "The captured action LUNGED is recovered; the full original sentence still extends beyond this OCR fragment.",
+              "captured_source_is_clipped": true,
+              "reused_verdict_by_exact_output_identity": true
+            },
+            "experiment": "8033",
+            "decision_file": "benchmarks\\finetune8033\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8033\\lora-pilot\\regression-core-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "The change to plural command requires addressee context; no confirmed whole-region correction.",
+      "name": "regression-core",
+      "id": 216,
+      "reused_from": {
+        "decision": {
+          "name": "regression-core",
+          "id": 216,
+          "before": "needs_context",
+          "after": "needs_context",
+          "note": "The change to plural command requires addressee context; no confirmed whole-region correction.",
+          "review_method": "assistant_captured_source_and_output_review"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Only the laugh spelling changes. Sound effects do not inflate content corrections or regressions.",
+      "filler_only": true,
+      "name": "regression-core",
+      "id": 218,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "note": "Only the laugh spelling changes. Sound effects do not inflate content corrections or regressions.",
+          "filler_only": true,
+          "name": "regression-core",
+          "id": 218,
+          "reused_from": {
+            "decision": {
+              "id": 218,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "new_captured_source_and_output_review",
+              "note": "Only the laugh spelling changes. Sound effects do not inflate content corrections or regressions.",
+              "filler_only": true
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "previous_experiment": "8033",
+      "name": "regression-core",
+      "id": 223,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "review_method": "exact_source_and_output_identity",
+          "previous_experiment": "8033",
+          "name": "regression-core",
+          "id": 223,
+          "reused_from": {
+            "decision": {
+              "id": 223,
+              "before": "acceptable",
+              "after": "acceptable",
+              "review_method": "exact_source_and_candidate_identity",
+              "previous_experiment": "8033"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\regression-core-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json"
+          }
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "known-test",
+      "id": 1,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "name": "known-test",
+          "id": 1,
+          "reused_from": {
+            "decision": {
+              "id": 1,
+              "before": "acceptable",
+              "after": "acceptable"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\known-test-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\known-test-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incomplete",
+      "after": "quality_defect",
+      "partial_content_recovery": true,
+      "note": "Greeting recovered in malformed Spanish; it does not count as a complete usable correction.",
+      "name": "known-test",
+      "id": 5,
+      "reused_from": {
+        "decision": {
+          "name": "known-test",
+          "id": 5,
+          "before": "incomplete",
+          "after": "quality_defect",
+          "partial_content_recovery": true,
+          "note": "Greeting recovered in malformed Spanish; it does not count as a complete usable correction.",
+          "review_method": "assistant_captured_source_and_output_review"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "known-test",
+      "id": 11,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "name": "known-test",
+          "id": 11,
+          "reused_from": {
+            "decision": {
+              "id": 11,
+              "before": "acceptable",
+              "after": "acceptable"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\known-test-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\known-test-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "known-test",
+      "id": 13,
+      "reused_from": {
+        "decision": {
+          "id": 13,
+          "before": "acceptable",
+          "after": "acceptable"
+        },
+        "experiment": "8032"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Adventuring PARTY is still wrongly a celebration.",
+      "name": "known-test",
+      "id": 20,
+      "reused_from": {
+        "decision": {
+          "before": "incorrect",
+          "after": "incorrect",
+          "note": "Adventuring PARTY is still wrongly a celebration.",
+          "name": "known-test",
+          "id": 20,
+          "reused_from": {
+            "decision": {
+              "id": 20,
+              "before": "incorrect",
+              "after": "incorrect",
+              "note": "Adventuring PARTY is still wrongly a celebration."
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\known-test-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\known-test-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "known-test",
+      "id": 21,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "name": "known-test",
+          "id": 21,
+          "reused_from": {
+            "decision": {
+              "id": 21,
+              "before": "acceptable",
+              "after": "acceptable"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\known-test-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\known-test-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "known-test",
+      "id": 23,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "name": "known-test",
+          "id": 23,
+          "reused_from": {
+            "decision": {
+              "id": 23,
+              "before": "acceptable",
+              "after": "acceptable"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\known-test-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\known-test-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Valid comparison preserved; closer wording is not a complete content correction.",
+      "name": "early-known-test",
+      "id": 57,
+      "reused_from": {
+        "decision": {
+          "name": "early-known-test",
+          "id": 57,
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Valid comparison preserved; closer wording is not a complete content correction.",
+          "review_method": "assistant_captured_source_and_output_review"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "failed_generation",
+      "new_confirmed_content_regression": true,
+      "note": "The candidate output contains only repeated inverted exclamation marks and no dialogue. Runtime completion does not make it a translation.",
+      "name": "early-known-test",
+      "id": 63,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "failed_generation",
+          "new_confirmed_content_regression": true,
+          "note": "The candidate output contains only repeated inverted exclamation marks and no dialogue. Runtime completion does not make it a translation.",
+          "name": "early-known-test",
+          "id": 63,
+          "reused_from": {
+            "decision": {
+              "id": 63,
+              "before": "acceptable",
+              "after": "failed_generation",
+              "new_confirmed_content_regression": true,
+              "note": "The candidate output contains only repeated inverted exclamation marks and no dialogue. Runtime completion does not make it a translation."
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\early-known-test-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Proximity question preserved; restoring a filler does not inflate correction counts.",
+      "name": "early-known-test",
+      "id": 64,
+      "reused_from": {
+        "decision": {
+          "name": "early-known-test",
+          "id": 64,
+          "before": "acceptable",
+          "after": "acceptable",
+          "note": "Proximity question preserved; restoring a filler does not inflate correction counts.",
+          "review_method": "assistant_captured_source_and_output_review"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "incorrect",
+      "after": "incorrect",
+      "new_partial_meaning_loss": true,
+      "note": "The already incorrect fragment now additionally loses the DENSE magnitude description.",
+      "name": "early-known-test",
+      "id": 68,
+      "reused_from": {
+        "decision": {
+          "name": "early-known-test",
+          "id": 68,
+          "before": "incorrect",
+          "after": "incorrect",
+          "new_partial_meaning_loss": true,
+          "note": "The already incorrect fragment now additionally loses the DENSE magnitude description.",
+          "review_method": "assistant_captured_source_and_output_review"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    },
+    {
+      "before": "acceptable",
+      "after": "acceptable",
+      "name": "early-known-test",
+      "id": 71,
+      "reused_from": {
+        "decision": {
+          "before": "acceptable",
+          "after": "acceptable",
+          "name": "early-known-test",
+          "id": 71,
+          "reused_from": {
+            "decision": {
+              "id": 71,
+              "before": "acceptable",
+              "after": "acceptable"
+            },
+            "experiment": "8034",
+            "decision_file": "benchmarks\\finetune8034\\early-known-test-meaning-decisions.json",
+            "prediction_file": "build\\finetune8034\\lora-pilot\\early-known-test-candidate.json"
+          },
+          "review_method": "exact_source_and_output_identity"
+        },
+        "experiment": "8035"
+      },
+      "review_method": "exact_source_and_output_identity"
+    }
+  ],
+  "summaries": {
+    "regression-core": {
+      "total_inputs": 229,
+      "changed_outputs": 50,
+      "complete_corrections": 8,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 1,
+      "new_source_artifacts": 1,
+      "format_alerts": 0,
+      "partial_content_recoveries": 1,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    },
+    "known-test": {
+      "total_inputs": 16,
+      "changed_outputs": 9,
+      "complete_corrections": 1,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 0,
+      "new_source_artifacts": 0,
+      "format_alerts": 0,
+      "partial_content_recoveries": 1,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    },
+    "early-known-test": {
+      "total_inputs": 13,
+      "changed_outputs": 6,
+      "complete_corrections": 0,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 1,
+      "new_source_artifacts": 0,
+      "format_alerts": 1,
+      "partial_content_recoveries": 0,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    }
+  },
+  "new_variants_reviewed": 10,
+  "reused_exact_verdicts": 55,
+  "full_app_failure_rate_comparable": false
+}

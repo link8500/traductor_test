@@ -1,0 +1,14 @@
+{
+  "production_engine": "803001",
+  "native_executable_sha256": "cbefd6bb0a8712e0d680b16aef2c64c726385ed03ee1ddcbd0de6171d92f919e",
+  "outputs": {
+    "validation": "47210a8cd40cdec6b812f270a08a8ecb3e1afa25534345f68b7f485af1a6f1db",
+    "regression-core": "805f46302e84212f20ff6779371a836c8530b58d69543f582a9ff7fe198de4b4",
+    "known-test": "254056a0260e22c52aef3275275851da8e306d2c255fa9780da577b1b33bb822",
+    "early-known-test": "f5d24f47ceab1507ecd7deb560224f61ab4d8ff1990bf8750c23eab6388d0009"
+  },
+  "full_production_translation_rules": true,
+  "same_english_sources": true,
+  "new_ocr_or_capture": false,
+  "production_model_weights_modified": false
+}

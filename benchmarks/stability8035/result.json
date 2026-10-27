@@ -1,0 +1,74 @@
+{
+  "experiment": "8035",
+  "new_model_trained": false,
+  "selected_strength": 0.75,
+  "validation": {
+    "known": {
+      "pairs": 14,
+      "confirmed_errors_before": 5,
+      "confirmed_errors_after": 3,
+      "complete_corrections": 2,
+      "new_content_regressions": 0,
+      "new_context_uncertainties": 0,
+      "context_uncertain": 3
+    },
+    "new": {
+      "pairs": 11,
+      "confirmed_errors_before": 4,
+      "confirmed_errors_after": 2,
+      "complete_corrections": 2,
+      "new_content_regressions": 0,
+      "new_context_uncertainties": 0,
+      "context_uncertain": 1
+    }
+  },
+  "controls": {
+    "regression-core": {
+      "total_inputs": 229,
+      "changed_outputs": 66,
+      "complete_corrections": 10,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 1,
+      "new_source_artifacts": 1,
+      "format_alerts": 0,
+      "partial_content_recoveries": 1,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    },
+    "known-test": {
+      "total_inputs": 16,
+      "changed_outputs": 11,
+      "complete_corrections": 1,
+      "new_complete_content_regressions": 0,
+      "additional_partial_losses": 0,
+      "new_source_artifacts": 1,
+      "format_alerts": 0,
+      "partial_content_recoveries": 1,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    },
+    "early-known-test": {
+      "total_inputs": 13,
+      "changed_outputs": 9,
+      "complete_corrections": 1,
+      "new_complete_content_regressions": 1,
+      "additional_partial_losses": 1,
+      "new_source_artifacts": 0,
+      "format_alerts": 1,
+      "partial_content_recoveries": 0,
+      "all_changed_outputs_reviewed": true,
+      "all_unchanged_outputs_regraded": false
+    }
+  },
+  "quality_gates_passed": false,
+  "promoted": false,
+  "rejection_reasons": [
+    "New complete omission in the OCR-source control",
+    "Punctuation-only generation collapse persists",
+    "Additional partial losses and a copied source artifact persist"
+  ],
+  "new_blind_test_chapters_opened": 0,
+  "production_weights_modified": false,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

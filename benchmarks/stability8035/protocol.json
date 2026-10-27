@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "experiment": "8035-inference-strength",
+  "hypothesis": "A smaller uniform contribution of the frozen8034 LoRA may preserve content recoveries while reducing unstable generation and semantic regressions. No claim of monotonic improvement.",
+  "variants": [
+    {
+      "id": "scale050",
+      "strength": 0.5
+    },
+    {
+      "id": "scale075",
+      "strength": 0.75
+    }
+  ],
+  "immutable_inputs": [
+    {
+      "path": "benchmarks/finetune8034/pilot-review.json",
+      "sha256": "967aad35f78bd3504c1dc2fc29e8062c1ba441cf74be5d073dd6e1341ec75161"
+    },
+    {
+      "path": "benchmarks/finetune8034/dataset.json",
+      "sha256": "310cf839254b9a444e914afb4deae0655880e76a03dc1cc513c6d173f90ce316"
+    },
+    {
+      "path": "benchmarks/finetune8034/training-protocol.json",
+      "sha256": "9f3952da61bf74a431ac73c11627197e399e2b8c6cf012e791ef097a75d6606c"
+    },
+    {
+      "path": "benchmarks/finetune8034/validation-meaning-decisions.json",
+      "sha256": "b9a4af845461c6e36afd329a18ead6202d4f626f2d6fe245b654bdca0a8a882f"
+    },
+    {
+      "path": "build/finetune8031/base-model-provenance.json",
+      "sha256": "5f9e024a7de0537a68029d7f4f2989d608bfcdb8c4a7230e069960f0224d2af6"
+    },
+    {
+      "path": "build/finetune8034/lora-pilot/adapter/adapter_model.safetensors",
+      "sha256": "ce5471bd3cca006ea9f89e7981b2e8213f5521d1f7c6777d13697298baba5366"
+    },
+    {
+      "path": "build/finetune8034/lora-pilot/adapter/adapter_config.json",
+      "sha256": "2ab1ad346cde107af063b751c5398848c0328c880d6a8a2664282031a8bd16e6"
+    },
+    {
+      "path": "tools/train_opus_lora8031.py",
+      "sha256": "b8eda1af3f72605f7cca4f78da5e812c3aabf257450fdf3cb9ec72bdf25de05c"
+    }
+  ],
+  "generation": {
+    "num_beams": 4,
+    "max_new_tokens": 160,
+    "do_sample": false,
+    "early_stopping": true,
+    "renormalize_logits": true,
+    "use_cache": true
+  },
+  "changes_allowed": "Only a uniform scalar multiplying every8034 LoRA residual; no word-specific rules, source/id routing, glossary replacements, decoding penalties or fallback substitutions.",
+  "validation_role": "All25 previously inspected validation dialogues are development data for this selection, not independent certification.",
+  "selection": {
+    "known_validation_maximum_confirmed_errors": 3,
+    "new_validation_minimum_net_complete_corrections": 1,
+    "new_validation_maximum_new_content_regressions": 0,
+    "new_validation_maximum_new_context_uncertainties": 0,
+    "maximum_new_content_regressions_on_known_validation": 0,
+    "maximum_format_alerts": 0,
+    "rank": "Eligible variants: lowest known confirmed errors, then most complete new-validation fixes, then highest all-validation chrF++, then lower adapter strength. chrF is not semantic approval.",
+    "if_no_eligible_variant": "Reject this experiment; do not expand the grid using control/test failures."
+  },
+  "control_gates": {
+    "maximum_new_complete_content_regressions": 0,
+    "maximum_additional_partial_losses": 0,
+    "maximum_new_source_artifacts": 0,
+    "maximum_format_alerts": 0,
+    "minimum_old_core_complete_corrections": 1,
+    "minimum_known16_complete_corrections": 1
+  },
+  "controls": "Freeze one selection before running229 OCR-source regions and29 known clean dialogues. Review all changed outputs. Do not reselect from these results.",
+  "no_new_blind_test_chapters": true,
+  "no_additional_training": true,
+  "production_ocr_or_capture_repeated": false,
+  "app_failure_probability": null,
+  "target_achieved": false,
+  "references": [
+    "https://huggingface.co/docs/peft/main/package_reference/lora",
+    "https://huggingface.co/docs/transformers/v4.50.0/main_classes/text_generation"
+  ]
+}

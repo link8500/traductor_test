@@ -54,6 +54,17 @@ manteniendo separados entrenamiento, validación y prueba. Consulta
 [los resultados, los protocolos y sus límites](docs/local-model-adaptation.md).
 Estos ajustes de traducción no entrenan los pesos del reconocimiento OCR.
 
+La continuación [8035–8036 estudia intensidad, estabilidad y selección de
+puntos de control](docs/model-stability.md). Incluye otro entrenamiento real,
+pero conserva regresiones y tampoco se incorpora a producción. Las mejoras
+parciales de validación no acreditan el objetivo del 5 %.
+
+La continuación [8037–8040 compara decodificación, evaluación de calidad y
+selección inversa](docs/translation-selection.md). La última variante recupera
+7 diálogos de validación y 10 de control frente al motor nativo, pero introduce
+dos empeoramientos parciales y dos dudas nuevas en los controles. Sigue
+experimental; la aplicación conserva su motor actual.
+
 ## Plataformas
 
 - **Windows:** Windows 10 2004 o posterior, x64; idioma de OCR instalado en Configuración. Captura del escritorio virtual y varios monitores. Atajo `Ctrl + Shift + L` mientras la barra está activa.

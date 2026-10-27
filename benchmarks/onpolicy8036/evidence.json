@@ -1,0 +1,91 @@
+{
+  "evidence": [
+    {
+      "path": "benchmarks\\stability8035\\control-meaning-review.json",
+      "sha256": "022c52e14d5aeee1680d37d31e3a3ae45ad3819f0c17af0b7e14b5fa017256ad"
+    },
+    {
+      "path": "benchmarks\\stability8035\\protocol.json",
+      "sha256": "a8c62d4af807717169f900b47da580ba36bd9ae093d72e4d5e0f97d39835521e"
+    },
+    {
+      "path": "benchmarks\\stability8035\\result.json",
+      "sha256": "695d68255901cab19049bcc8b50a2223d97f3aef7f28712078005067455480dd"
+    },
+    {
+      "path": "benchmarks\\stability8035\\selection.json",
+      "sha256": "15a160eda9a502e996cbfe9131b50c8139e083edadc166d0993a99f842c0f81c"
+    },
+    {
+      "path": "benchmarks\\stability8035\\validation-novel-decisions.json",
+      "sha256": "5d39b6a69ee0f2b7a9efca1b0ce9d6dade82258cc647d665d9044d0b22280369"
+    },
+    {
+      "path": "benchmarks\\stability8035\\validation-review.json",
+      "sha256": "aec5017541948e2367f6d966167e5f3e629b9a0bfba152815c3d52819772aca3"
+    },
+    {
+      "path": "benchmarks\\onpolicy8036\\control-meaning-review.json",
+      "sha256": "7b0594459da5128650629bc7a65dc57fa8e3c9a354495881d9fb2f89348fb2af"
+    },
+    {
+      "path": "benchmarks\\onpolicy8036\\protocol.json",
+      "sha256": "08e2e7ca143b1693a0c8354176592defca1f7ad9b135fb55b2bad5397cf81f84"
+    },
+    {
+      "path": "benchmarks\\onpolicy8036\\result.json",
+      "sha256": "071e59af055748c20b448633af9cdaef97cefc05738ff036c90df9bc96029638"
+    },
+    {
+      "path": "benchmarks\\onpolicy8036\\selection.json",
+      "sha256": "351424c636d8fd9d405aecae0637023d1c0084258f766461a47c1eae1446dfd8"
+    },
+    {
+      "path": "benchmarks\\onpolicy8036\\validation-novel-decisions.json",
+      "sha256": "7b11c4a26861bd936d07371d38821b5aedc4627d18d51fccf8edba47078c63d5"
+    },
+    {
+      "path": "benchmarks\\onpolicy8036\\validation-review.json",
+      "sha256": "d84ed5e88c2a936aae14336263a7c21b45bcb2557dd00d807bff94b563ed8f6c"
+    },
+    {
+      "path": "build/onpolicy8036/run-input-proof.json",
+      "sha256": "d9f8c40a040b314612d020c045053baa8cb8fbbd65c6562bf69b0c895ac3b566"
+    },
+    {
+      "path": "build/onpolicy8036/summary.json",
+      "sha256": "7180f7283c2f8913f6f4a039597ddbad2cee58a411532a90686bee877ab7da85"
+    },
+    {
+      "path": "build/onpolicy8036/training-log.json",
+      "sha256": "9c740fabd7bc56201daa625d3a57a99c7dcfb22ec2e97f36b1db3a8b68130d81"
+    },
+    {
+      "path": "build/onpolicy8036/rollout-log.json",
+      "sha256": "6e39da9a5d3c2115a8e55ee95af2f184dfae6e5c6ba64ed46e6b30691f8e9f27"
+    },
+    {
+      "path": "build/onpolicy8036/controls-input-proof.json",
+      "sha256": "32ddbdbb8203bef080edebb315a442411b893e4ae5a902b9d81dfdd1868d8bb8"
+    },
+    {
+      "path": "build/onpolicy8036/selected-checkpoint-reload-parity.json",
+      "sha256": "1fd48af36953c092791708ce6fe2f056f99818f1d8d326e202cc2f7a0067d7e5"
+    },
+    {
+      "path": "build/onpolicy8036/regression-core-candidate.json",
+      "sha256": "3415753f6273dece8ddcf82a6db9cb7a17bfca39e7a71c3b7c8d876c1b68ced1"
+    },
+    {
+      "path": "build/onpolicy8036/known-test-candidate.json",
+      "sha256": "fc23288f1f5349978671d4c4469a7812cbed37282c382f54a2969e291f56d5fe"
+    },
+    {
+      "path": "build/onpolicy8036/early-known-test-candidate.json",
+      "sha256": "166137f339a89b01b9abd7e1cf634076116be2f289a86630fa40cc08418426f2"
+    }
+  ],
+  "guards_passed": 18,
+  "quality_gates_passed": false,
+  "application_weights_modified": false
+}

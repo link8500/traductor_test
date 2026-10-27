@@ -229,3 +229,19 @@ descargan otras bases, se duplican los modelos instalados ni se crea APK.
 La memoria CUDA máxima registrada es de 1.765.566.976 bytes. Se mantienen
 4 GiB de reserva; la instantánea posterior conserva unos 12,36 GiB libres.
 No se borra ningún resultado fallido, archivo personal ni historial Git.
+
+
+## Continuacion 8035-8036: sin otra copia del modelo base
+
+Se reutilizo el modelo base existente. El ensayo de intensidad ocupa unos 0,35 MiB de salidas e informes; el entrenamiento con tres adaptadores y sus registros ocupa unos 4,12 MiB. Los metadatos de ambos ocupan alrededor de 0,20 MiB. No se descargaron modelos ni capitulos nuevos, no se construyo un APK y se conservaron los experimentos rechazados. Los adaptadores anteriores y los archivos personales permanecen intactos.
+
+## Selección de traducciones 8037–8040
+
+Se conservó una copia de COMET-QE, una de OPUS español→inglés y un analizador
+morfológico español pequeño, todos con hashes y procedencia registrados. No
+se descargó aparte el codificador completo de COMET. Los entornos nuevos
+comparten las bibliotecas grandes del entorno de entrenamiento sin modificarlo.
+Los seis directorios de resultados y entornos nuevos suman unos 2,88 GiB;
+la instantánea posterior mantiene unos 11,83 GiB libres. No se descargaron
+capítulos adicionales ni se construyó APK. Los informes son HTML independientes
+que referencian texto conservado, sin duplicar fotografías de capítulos.

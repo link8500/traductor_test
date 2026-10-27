@@ -1,0 +1,626 @@
+{
+  "schema": 1,
+  "reviewer": "assistant_meaning_review_with_exact_identity_reuse",
+  "validation_is_development_data": true,
+  "variants": {
+    "scale050": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "2d29949799914bdd9feff7b1f6734f5aae66ea44f42385c94827bb9aa7333ccb",
+          "translation_sha256": "2b49f656bd5ccb8f46de768a34845a430cb875a784979b434e20f6fd9b8a9325"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "362357296716fd39cbf0bea7103060a0c994a6b3e979f9b32df87d92a90ac118",
+          "translation_sha256": "aea0f37b82ac20e9a4705b1913e1089de13064323f5ecef77ebf29e8f6928c04"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "024bca3a0dc2caad5117815021a5150ad76ff614a7534009dfb366df3a3576e1",
+          "translation_sha256": "0a3280ab279fff0d633f6c6731841eba18907f41fce08bafe008bd6001c10faa"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "ffbe8507d64006349872dad796cfef377ee382f68b51c4c5c5f4ca4076b41568",
+          "translation_sha256": "67f6cc823f91d2ca052a1c825a4709ed087cbef1e71ea0d0d0ee2415644737a6"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "source_sha256": "cf8dac8bcae957d830110dd7a6b3c825524e1eef397cef039a94dccb50bad228",
+          "translation_sha256": "c77f3c17ad2d5ccb1190f73cd7514cdf2b82f474a6bc7256f3bdc1531e29d9ad"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "a32b010c846148e5d1f880c5f192b3465cde5a2db1e7b433fbe2ed406d4d62c6",
+          "translation_sha256": "5393d6e76d2d7cbd424ca19f789e201dbcafd07bcd227657bac4c019007ad579"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "877edfa8d6eaf981dd6ebb33f96177e48388a5c351ad87af25df965f1f4e393c",
+          "translation_sha256": "8048f5d050fdf80152c0fa2170ba52162198e21ae26c5ba98274bec6469a9e8b"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "5c3cc6205b03abaeaf4c70fa9d3112d948a8b045f96f12c855212ca1046f7e81",
+          "translation_sha256": "f152602098469f37b8e70f5a528c6442d61dcc39b8faec80f9e68456bdbf799c"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Confirmation question preserved; antecedent gender remains uncertain.",
+          "source_sha256": "1955e8152b7e62fbbb21ae7994fe98aee9c8064d2d5080d4cb472f71a0359a47",
+          "translation_sha256": "95d0e20535ce3ebb0b4bfc0f40644cc9bf01910bd3b23c79185b2395b35c7906"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "3b045d550f1cc0a1939588ceada8b67a0c00cb0c57a3735e6bd1dac4cd225bc1",
+          "translation_sha256": "157479964cc9210e83cf7cc682947d2b37cbae1af3e0d86ba0bdc430e96860d5"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Confirmation question and remaining content preserved despite valid lexical paraphrase.",
+          "source_sha256": "39d76b0a0b6ad8ff2116aaa33817a90843bd280c2ef71d687b30fcdbaea11cf2",
+          "translation_sha256": "0f112fdaab14d2bb2d0d8d05789b221d95cf6df6c0c1732584c06d0914004e07"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "fbfc5e9a9f47c2243116457cfaf6cdd37eb6483c380d4903b3f912c10b144e18",
+          "translation_sha256": "5b7fb15d83b0fb9dfddac1da00f22fc167fa27e2f4f772345cdab73977174543"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "9fd767c08fc525175219369d5fdaa4851b4363a0bcafc8929bcc6405db8163ef",
+          "translation_sha256": "92c317f600013088ffdea7b9da9a6b94fe261da10b496a7ff3c2595824b964d6"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "39c7902f10a20fc23178ee71b6aabd2c35dc7de4f09692a6390be1d4c87eead2",
+          "translation_sha256": "03574b92223fc647fe68475234ca46a53d8c9bf10d68c3f48faf2ab7813a2a3f"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The denial and a third repeated copy are present; this repetition-only change is not a complete content fix.",
+          "source_sha256": "5b58289748ace9b6b7022c854d1a2c99caad5c45e8c7c9c7bc03744030edd2e6",
+          "translation_sha256": "01f708cb0d767c4c5d298ffaa0a8a8583c13c5802b9e21b1f76187b5a3097de5"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Past barrier placement and all questions, actions and time modifiers are preserved.",
+          "source_sha256": "cf4f0910f67ce815f27fc020436bec5cb04df59a17670e938a28b74c43535a2b",
+          "translation_sha256": "f65e68d8b5131353656ed8405b32f3b533e961713c17582333d6d664f9a8e5dd"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "d59ec9a1ebd42c9dec3334b3062c8ce99a04bdccf321673e82edc71f7c80caba",
+          "translation_sha256": "cfa6f3a6d6e9414578e72179623523b02d37b73a0ab391a0456fba5c8c2d2ab5"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "ed3700c50f9747a6542d65f0c6b3ff65f5d141964620a186f609de1cbb5804cc",
+          "translation_sha256": "1625bba7a9f0f7d983ca87c2f0aaafb6015f079f5b16f3f845b89a3b8e406e30"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "8606ec9252f597d982200079b0cb960f3098142663f02ebf3e9748a4caad1b8a",
+          "translation_sha256": "4d18100bdb58ec57f384d497c163f5739387f35bd333b84be3b7b44b3f1c8e20"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Taunting pity preserved; addressee number retains pre-existing ambiguity.",
+          "source_sha256": "5587adb69586e2e9cffa4eaaeec4740e24cb94b2c510219ce7cb7e1b04898ad8",
+          "translation_sha256": "d1e980e9cc42721ade0a4ed4e32a54f8f08f4e5713627b1f601b009571b41495"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The IMMATURELY behavior adverb is still wrongly attached to magical power; the dialogue remains incorrect.",
+          "source_sha256": "81e28a437b0f6a93d71aeb867352138bc6f3278f9a36f6abcb201b24e1750b4f",
+          "translation_sha256": "2befc53eeffaa668125348ff6d8453eb175314933f00e064ecd25035f4d9ee0e"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "b5348db41f54776c718def3cedadbe70e22da427430c82a2dcead9e88df2f93e",
+          "translation_sha256": "1b75c15d4dc1ae6a03ffc4207539ab9c19497e0344bd29ff12e58293584f5ab1"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "Prior verdict reused for identical source and output.",
+          "source_sha256": "f96e3b0e1fd49285b4779980ec06d1a26bc6318a5ced5ed6254076b0a02e144b",
+          "translation_sha256": "151b53fcb22da60905d97bd48a7e6c9a3afa7e4fee54cf42c8c978f2758087cc"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Final self-correction, self-completion priority and FIRST recovered; city wording is valid.",
+          "source_sha256": "f2ea90a4ef9cb79970ead0c3c7539aab2e7a1ea77c7ad4a49a5cbf6cba530e8b",
+          "translation_sha256": "285bdf095b739c361774e1e09d491ae17013649822e41b0f26792763c9f19954"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "e857e2b06676397c16b2c3d3d5e6950146e23cf51f3d92f68c8ab43fdfc3145f",
+          "translation_sha256": "2a695d0efcf4848056719e0866d0bbb92649c6a00862d57b393c285946c06899"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 4,
+          "complete_corrections": 1,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 3
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 3,
+          "complete_corrections": 1,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": false,
+        "new_net_fixes": true,
+        "no_new_validation_regressions": true,
+        "no_new_validation_context": true,
+        "no_known_validation_regressions": true,
+        "no_format_alerts": true
+      },
+      "eligible": false,
+      "output_sha256": "793ab57230b7b9bef9af22321aa1702185680c145c76d45a157aaed9e3753f32"
+    },
+    "scale075": {
+      "entries": [
+        {
+          "id": 143,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "2d29949799914bdd9feff7b1f6734f5aae66ea44f42385c94827bb9aa7333ccb",
+          "translation_sha256": "2b49f656bd5ccb8f46de768a34845a430cb875a784979b434e20f6fd9b8a9325"
+        },
+        {
+          "id": 144,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "362357296716fd39cbf0bea7103060a0c994a6b3e979f9b32df87d92a90ac118",
+          "translation_sha256": "aea0f37b82ac20e9a4705b1913e1089de13064323f5ecef77ebf29e8f6928c04"
+        },
+        {
+          "id": 145,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "024bca3a0dc2caad5117815021a5150ad76ff614a7534009dfb366df3a3576e1",
+          "translation_sha256": "0a3280ab279fff0d633f6c6731841eba18907f41fce08bafe008bd6001c10faa"
+        },
+        {
+          "id": 146,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "ffbe8507d64006349872dad796cfef377ee382f68b51c4c5c5f4ca4076b41568",
+          "translation_sha256": "67f6cc823f91d2ca052a1c825a4709ed087cbef1e71ea0d0d0ee2415644737a6"
+        },
+        {
+          "id": 148,
+          "validation_group": "known",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "Better punctuation does not fix the malformed superlative.",
+          "source_sha256": "cf8dac8bcae957d830110dd7a6b3c825524e1eef397cef039a94dccb50bad228",
+          "translation_sha256": "c77f3c17ad2d5ccb1190f73cd7514cdf2b82f474a6bc7256f3bdc1531e29d9ad"
+        },
+        {
+          "id": 149,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The copied HUH filler is a quality defect, not a meaningful content-loss count.",
+          "source_sha256": "a32b010c846148e5d1f880c5f192b3465cde5a2db1e7b433fbe2ed406d4d62c6",
+          "translation_sha256": "9272cdea8a8136e7f032a2b2225e0c3c24759f2cc4eb94d9de10510bac94699a"
+        },
+        {
+          "id": 150,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "877edfa8d6eaf981dd6ebb33f96177e48388a5c351ad87af25df965f1f4e393c",
+          "translation_sha256": "8048f5d050fdf80152c0fa2170ba52162198e21ae26c5ba98274bec6469a9e8b"
+        },
+        {
+          "id": 151,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "5c3cc6205b03abaeaf4c70fa9d3112d948a8b045f96f12c855212ca1046f7e81",
+          "translation_sha256": "f152602098469f37b8e70f5a528c6442d61dcc39b8faec80f9e68456bdbf799c"
+        },
+        {
+          "id": 152,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "Prior verdict reused for identical source and output.",
+          "source_sha256": "1955e8152b7e62fbbb21ae7994fe98aee9c8064d2d5080d4cb472f71a0359a47",
+          "translation_sha256": "a34cc1aff06b408213f993644e89e1e5b38480488d69bcf636313fbf5ce437e0"
+        },
+        {
+          "id": 153,
+          "validation_group": "known",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Restriction MERELY preserved as simplemente; antecedent gender remains uncertain.",
+          "source_sha256": "3b045d550f1cc0a1939588ceada8b67a0c00cb0c57a3735e6bd1dac4cd225bc1",
+          "translation_sha256": "22577c4e82fbafd06c5fbf62f024ffae46dedd5abb57453168d4bc483e21f9e8"
+        },
+        {
+          "id": 154,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The explicit confirmation question is recovered.",
+          "source_sha256": "39d76b0a0b6ad8ff2116aaa33817a90843bd280c2ef71d687b30fcdbaea11cf2",
+          "translation_sha256": "a51f38cee980a969579c5cd92c682c22102abe2efe4b15bc9e21f87d1006ab2a"
+        },
+        {
+          "id": 155,
+          "validation_group": "known",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The instruction to wait is recovered; the stutter is not a content requirement.",
+          "source_sha256": "fbfc5e9a9f47c2243116457cfaf6cdd37eb6483c380d4903b3f912c10b144e18",
+          "translation_sha256": "3dfdba9ce06d3b97a2ec468052871a61db854232f574edf9686e94f222ff2050"
+        },
+        {
+          "id": 156,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "9fd767c08fc525175219369d5fdaa4851b4363a0bcafc8929bcc6405db8163ef",
+          "translation_sha256": "92c317f600013088ffdea7b9da9a6b94fe261da10b496a7ff3c2595824b964d6"
+        },
+        {
+          "id": 158,
+          "validation_group": "known",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "39c7902f10a20fc23178ee71b6aabd2c35dc7de4f09692a6390be1d4c87eead2",
+          "translation_sha256": "03574b92223fc647fe68475234ca46a53d8c9bf10d68c3f48faf2ab7813a2a3f"
+        },
+        {
+          "id": 400062,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The denial and a third repeated copy are present; this repetition-only change is not a complete content fix.",
+          "source_sha256": "5b58289748ace9b6b7022c854d1a2c99caad5c45e8c7c9c7bc03744030edd2e6",
+          "translation_sha256": "01f708cb0d767c4c5d298ffaa0a8a8583c13c5802b9e21b1f76187b5a3097de5"
+        },
+        {
+          "id": 400063,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Past barrier placement, immediate arrival and teleportation preserved.",
+          "source_sha256": "cf4f0910f67ce815f27fc020436bec5cb04df59a17670e938a28b74c43535a2b",
+          "translation_sha256": "89cc0bb8d5f9880a68cac3e18bf31004aae4f86431f8c306b29a4be00f95576f"
+        },
+        {
+          "id": 400064,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "d59ec9a1ebd42c9dec3334b3062c8ce99a04bdccf321673e82edc71f7c80caba",
+          "translation_sha256": "cfa6f3a6d6e9414578e72179623523b02d37b73a0ab391a0456fba5c8c2d2ab5"
+        },
+        {
+          "id": 400066,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "ed3700c50f9747a6542d65f0c6b3ff65f5d141964620a186f609de1cbb5804cc",
+          "translation_sha256": "1625bba7a9f0f7d983ca87c2f0aaafb6015f079f5b16f3f845b89a3b8e406e30"
+        },
+        {
+          "id": 400067,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_base_output_identity",
+          "note": "Baseline verdict reused for identical source and output.",
+          "source_sha256": "8606ec9252f597d982200079b0cb960f3098142663f02ebf3e9748a4caad1b8a",
+          "translation_sha256": "4d18100bdb58ec57f384d497c163f5739387f35bd333b84be3b7b44b3f1c8e20"
+        },
+        {
+          "id": 400068,
+          "validation_group": "new",
+          "before": "needs_context",
+          "after": "needs_context",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "TOO BAD remains pity/taunt, not a curse; pre-existing addressee-number ambiguity remains.",
+          "source_sha256": "5587adb69586e2e9cffa4eaaeec4740e24cb94b2c510219ce7cb7e1b04898ad8",
+          "translation_sha256": "d1e980e9cc42721ade0a4ed4e32a54f8f08f4e5713627b1f601b009571b41495"
+        },
+        {
+          "id": 400069,
+          "validation_group": "new",
+          "before": "incorrect",
+          "after": "incorrect",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The IMMATURELY behavior adverb is still wrongly attached to magical power; the dialogue remains incorrect.",
+          "source_sha256": "81e28a437b0f6a93d71aeb867352138bc6f3278f9a36f6abcb201b24e1750b4f",
+          "translation_sha256": "2befc53eeffaa668125348ff6d8453eb175314933f00e064ecd25035f4d9ee0e"
+        },
+        {
+          "id": 400070,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+          "source_sha256": "b5348db41f54776c718def3cedadbe70e22da427430c82a2dcead9e88df2f93e",
+          "translation_sha256": "f9cd25cd0a4f2a21459f03565fe9e7eca3695abdf779a8f9d61e54ef01da122c"
+        },
+        {
+          "id": 400072,
+          "validation_group": "new",
+          "before": "acceptable",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "Prior verdict reused for identical source and output.",
+          "source_sha256": "f96e3b0e1fd49285b4779980ec06d1a26bc6318a5ced5ed6254076b0a02e144b",
+          "translation_sha256": "151b53fcb22da60905d97bd48a7e6c9a3afa7e4fee54cf42c8c978f2758087cc"
+        },
+        {
+          "id": 400073,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "acceptable",
+          "reviewed": true,
+          "review_method": "exact_source_and_prior_candidate_output_identity",
+          "note": "The entire final self-correction and personal completion priority are recovered, including FIRST.",
+          "source_sha256": "f2ea90a4ef9cb79970ead0c3c7539aab2e7a1ea77c7ad4a49a5cbf6cba530e8b",
+          "translation_sha256": "b522b7f73cd35a2e5ca5e80ad9ecf4503924fcab9b5a65a2ac4ae3528c127bb8"
+        },
+        {
+          "id": 400074,
+          "validation_group": "new",
+          "before": "incomplete",
+          "after": "incomplete",
+          "reviewed": true,
+          "review_method": "assistant_source_reference_and_output_review",
+          "note": "Temporal continuation AFTER THAT remains omitted, as in the base; the changed lexical wording does not recover it.",
+          "source_sha256": "e857e2b06676397c16b2c3d3d5e6950146e23cf51f3d92f68c8ab43fdfc3145f",
+          "translation_sha256": "1ffa09842baf3432a3a750fcd3cdb73ec28fcbfd786130b7e7b04719262ec0bd"
+        }
+      ],
+      "counts": {
+        "known": {
+          "pairs": 14,
+          "confirmed_errors_before": 5,
+          "confirmed_errors_after": 3,
+          "complete_corrections": 2,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 3
+        },
+        "new": {
+          "pairs": 11,
+          "confirmed_errors_before": 4,
+          "confirmed_errors_after": 2,
+          "complete_corrections": 2,
+          "new_content_regressions": 0,
+          "new_context_uncertainties": 0,
+          "context_uncertain": 1
+        }
+      },
+      "gates": {
+        "known_errors": true,
+        "new_net_fixes": true,
+        "no_new_validation_regressions": true,
+        "no_new_validation_context": true,
+        "no_known_validation_regressions": true,
+        "no_format_alerts": true
+      },
+      "eligible": true,
+      "output_sha256": "9e41275f257273a2834fbe017fd17ae471fea5a0f46ce60f1e30edd334cf6038"
+    }
+  },
+  "novel_decisions_sha256": "5d39b6a69ee0f2b7a9efca1b0ce9d6dade82258cc647d665d9044d0b22280369"
+}

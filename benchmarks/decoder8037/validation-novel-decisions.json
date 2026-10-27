@@ -1,0 +1,25 @@
+{
+  "queue_sha256": "22720479a8256065012668a9180cfa9e77bcf95efce6baa64f944606de727772",
+  "entries": [
+    {
+      "key": "751cc7c9698373ac6c11eb3742e48fe6cc24edde3a29d47a3e64b6243d592287",
+      "after": "incorrect",
+      "note": "Malformed RAREST OF RARE remains; a valid manner paraphrase does not fix the superlative."
+    },
+    {
+      "key": "4c5f0117f43fd129287ba1a733de1a084ed51df542a2c712c0ffbb8bfac62616",
+      "after": "acceptable",
+      "note": "Third denial repetition restored; not counted as a complete narrative-content correction."
+    },
+    {
+      "key": "1c7a8cde79ba85ca8b286d27c92fbbda79b5e87c74da10d778b467e139c1e0d1",
+      "after": "incorrect",
+      "note": "Adds an unsupported affirmative reply and HTML-like br text, followed by repeated punctuation. This is an independent hallucination even though source gender remains contextual."
+    },
+    {
+      "key": "1394928fe7aef8b841ff8a2229347c2405fcaac8a55de81995cc2720d00c5269",
+      "after": "acceptable",
+      "note": "All source questions, need for help, self-correction and FIRST priority retained."
+    }
+  ]
+}

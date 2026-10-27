@@ -1,0 +1,38 @@
+{
+  "experiment": "8040",
+  "validation": {
+    "inputs": 25,
+    "confirmed_errors_before": 10,
+    "confirmed_errors_after": 3,
+    "complete_corrections": 7,
+    "new_content_regressions": 0,
+    "new_partial_losses": 0,
+    "new_source_artifacts": 0,
+    "new_context_uncertainties": 0,
+    "context_remaining": 4
+  },
+  "controls": {
+    "inputs": 258,
+    "confirmed_errors_before": 39,
+    "confirmed_errors_after": 28,
+    "complete_corrections": 10,
+    "new_content_regressions": 0,
+    "new_partial_losses": 2,
+    "new_source_artifacts": 0,
+    "new_context_uncertainties": 3,
+    "unresolved_before": 23,
+    "unresolved_after": 24,
+    "switches": 64,
+    "newly_reviewed_changed_outputs": 11,
+    "reused_changed_outputs": 53,
+    "unchanged_native_outputs": 194
+  },
+  "quality_gates_passed": false,
+  "promoted": false,
+  "rejection_reason": "Additional partial losses and new context uncertainties exceed frozen zero-tolerance control gates.",
+  "total_unique_evaluation_inputs": 283,
+  "new_blind_test_chapters_opened": 0,
+  "production_weights_modified": false,
+  "app_failure_probability": null,
+  "target_achieved": false
+}

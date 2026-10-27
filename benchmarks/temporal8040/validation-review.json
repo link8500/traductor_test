@@ -1,0 +1,266 @@
+{
+  "entries": [
+    {
+      "id": 143,
+      "source_output_key": "13b0a4cf1c836b91223c5e85b7b9f76f660fc2ebf694198aeea85e8fdcf49ded",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 144,
+      "source_output_key": "3465b049af4fe01dcae97638deedbebaa72c919b889a5fa565fcc30e752aad51",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The forward-location AHEAD modifier is recovered.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 145,
+      "source_output_key": "e6f854cea52d3a4a20cce511817f706520a48e490485af438f4e704d826b21bc",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": null,
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 146,
+      "source_output_key": "f1b35b384db8e86335cd61f1530863b771e82f7e7c804e26dd1820548fe92c2b",
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 148,
+      "source_output_key": "4490655e5681a0fd5b04a81636a1b751cfa8fa035b893dfd097c818ea7d43acf",
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Better punctuation does not fix the malformed superlative.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 149,
+      "source_output_key": "00c2d6a06bf674485ab4362d69fcdafad4c6b99889114b2a80fc88a8b59039da",
+      "before": "incorrect",
+      "after": "acceptable",
+      "note": "The copied HUH filler is a quality defect, not a meaningful content-loss count.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 150,
+      "source_output_key": "4a729503f263d2104777dfdb0a537abac78e43fdf9ebccff08bef889a156b41a",
+      "before": "incomplete",
+      "after": "incomplete",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 151,
+      "source_output_key": "eb79bd2a21b65fd82fd110f4c25ed8833712144027be888bd2874627f1102420",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 152,
+      "source_output_key": "a7540b00f60bd774a6a6f20b6f6640124b00feee6e3c9014eaaafd082c664448",
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "Prior verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 153,
+      "source_output_key": "6abf665a7013c41a0784129d0f1112deac22917da7d3d5b0d60d8300f4559535",
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": null,
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 154,
+      "source_output_key": "ddae533780916dd1c60632411952fb71bc1caae08f6feeabb7c30e35208a3cad",
+      "before": "incorrect",
+      "after": "acceptable",
+      "note": "The explicit confirmation question is recovered.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 155,
+      "source_output_key": "f8a8df8739313d913b97e7e118b9afa2edb418d0f4a77bb75c04fd6ed4ca2b2a",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The instruction to wait is recovered; the stutter is not a content requirement.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 156,
+      "source_output_key": "91ab411cd9dfb45db04e29abbd9274db2d51cfa4110cc675c61eb74fcb56dcd9",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 158,
+      "source_output_key": "3b8e792ec0e6eeccb96a6f2bf0ebe1ebacfba4d3772d78a520ce994e18c73f16",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400062,
+      "source_output_key": "4c5f0117f43fd129287ba1a733de1a084ed51df542a2c712c0ffbb8bfac62616",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Repeated denial is preserved; repetition-only changes do not inflate meaningful corrections.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400063,
+      "source_output_key": "d9390fff5d3be84150eeadf19f73d6c7b98d9b13d4d45c578c359b1b82c3f2cd",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "All questions, past barrier placement, speed and teleportation retained. An extra opening question mark is a style defect, not an omitted unit.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400064,
+      "source_output_key": "463cf2eda8f0f9d031f5d9517c6ea661cf25a52e3d1454dae846fe97c2a48bac",
+      "before": "incorrect",
+      "after": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400066,
+      "source_output_key": "986a136263791274ae949f7a08c6fe4e29802e08718b7f9d49cf46d111109337",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Baseline verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400067,
+      "source_output_key": "1ef329fade5de72f2a19a918bb22ce54ea898e7fd7e1daf1cb7b9bc861be27a9",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Thanks, pet address and unnecessary-action statement preserved; laugh repetition is not a content error.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400068,
+      "source_output_key": "635509945cbca73886125a2a83ae0ce74b9005ba3e7102ad4abbe30613a4ff09",
+      "before": "needs_context",
+      "after": "needs_context",
+      "note": "Taunting pity preserved; plural addressee remains uncertain from the isolated YOU.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400069,
+      "source_output_key": "6dbcaee9059819b30be67926f8cef4dfd5f02309632320fff4418f212afafafb",
+      "before": "incorrect",
+      "after": "incorrect",
+      "note": "Behavior adverb IMMATURELY remains wrongly attached to the magical power.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400070,
+      "source_output_key": "786323aad37d921682d1359343cf67e9d8e6a65cb5d05e50b811fa0cfc5da0b2",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "The scalar EVEN is recovered as ni siquiera, not a filler restoration.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400072,
+      "source_output_key": "3f03da10ec96ad01dc602c9f14e38052712d33c538f39cc8bec7b41031eb6b72",
+      "before": "acceptable",
+      "after": "acceptable",
+      "note": "Prior verdict reused for identical source and output.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400073,
+      "source_output_key": "996f7361d16b08e23d08caea29003d095bd28fc6fb92fd71333a7a5db408a8f0",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The entire final self-correction and personal completion priority are recovered, including FIRST.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    },
+    {
+      "id": 400074,
+      "source_output_key": "37c743c65310b1badd39db734d99c4bcaccec859ee2ecd1e4392cecb9f291806",
+      "before": "incomplete",
+      "after": "acceptable",
+      "note": "The temporal continuation AFTER THAT is recovered without inventing the next event.",
+      "new_partial_loss": false,
+      "new_source_artifact": false,
+      "review_method": "exact_source_and_reviewed_output_identity"
+    }
+  ],
+  "summary": {
+    "inputs": 25,
+    "confirmed_errors_before": 10,
+    "confirmed_errors_after": 3,
+    "complete_corrections": 7,
+    "new_content_regressions": 0,
+    "new_partial_losses": 0,
+    "new_source_artifacts": 0,
+    "new_context_uncertainties": 0,
+    "context_remaining": 4
+  },
+  "reviewer": "assistant; not final human certification"
+}

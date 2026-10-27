@@ -1,0 +1,58 @@
+{
+  "inputs": 283,
+  "alternatives_per_input": 3,
+  "native_production_baseline": true,
+  "candidate_pool_sha256": "f6551b860539451990aa4e58b3c4c7636b34273ae46161d30077e30afceebf1f",
+  "evidence": [
+    {
+      "path": "build\\qe8038\\native-validation.json",
+      "sha256": "47210a8cd40cdec6b812f270a08a8ecb3e1afa25534345f68b7f485af1a6f1db"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\baseline-validation.json",
+      "sha256": "5e23ac0b3e958e2f9fe0a8ea15ca09ed787fdcea8f7899443768ad7b5ffa223d"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\candidate-validation.json",
+      "sha256": "1191d54947942cc3f3d40d1dc412525824fe584d4f540ed0984245f19d6a1c9b"
+    },
+    {
+      "path": "build\\qe8038\\native-regression-core.json",
+      "sha256": "805f46302e84212f20ff6779371a836c8530b58d69543f582a9ff7fe198de4b4"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\regression-core-baseline.json",
+      "sha256": "3168b8b6a43f5837ec8a223f9cbf616a8d6a9e902244b0179494bf2dff29abba"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\regression-core-candidate.json",
+      "sha256": "97d92ddf0bc77d081d163d1dcb0da4d9b45ccc601fdc5d38b977fb9903653bef"
+    },
+    {
+      "path": "build\\qe8038\\native-known-test.json",
+      "sha256": "254056a0260e22c52aef3275275851da8e306d2c255fa9780da577b1b33bb822"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\known-test-baseline.json",
+      "sha256": "006307f15527ebb6c0bc3698d1327cbde79db86e6ba9fc372b2810f7fa748f9c"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\known-test-candidate.json",
+      "sha256": "49836acc2b50208685352e76541207aa6f4ee3b4751ca4f4dc6024c9985b7ebb"
+    },
+    {
+      "path": "build\\qe8038\\native-early-known-test.json",
+      "sha256": "f5d24f47ceab1507ecd7deb560224f61ab4d8ff1990bf8750c23eab6388d0009"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\early-known-test-baseline.json",
+      "sha256": "183912d755247c15c81c653f9bf1d1260eb07d35a10debcebac4af75aca6c1eb"
+    },
+    {
+      "path": "build\\finetune8034\\lora-pilot\\early-known-test-candidate.json",
+      "sha256": "254f26664e9448b62796024dbaf6c2406d0bb2a44d11a615d7680410cb2e2e3e"
+    }
+  ],
+  "references_in_pool": false,
+  "validation_targets_sent_to_qe": false
+}

@@ -1,0 +1,31 @@
+{
+  "queue_sha256": "4591a5d902a029ffe0a479c3ac8e58589b452057d5ada8bd38586d06af4fc3f5",
+  "reviewer": "assistant_source_reference_meaning_review",
+  "entries": [
+    {
+      "key": "defd7504196261105b206e94ea9569b106fbe6e6477fa38f1ddc909e8d64df15",
+      "after": "acceptable",
+      "note": "All questions, past placement, immediate arrival, split-second timing and teleportation retained; punctuation variation does not alter content."
+    },
+    {
+      "key": "6dbcaee9059819b30be67926f8cef4dfd5f02309632320fff4418f212afafafb",
+      "after": "incorrect",
+      "note": "IMMATURELY is still wrongly attached to magical power; delayed completion wording does not fix that modifier error."
+    },
+    {
+      "key": "16bb186f983c7d117aef9dd080ea0c3250626677c61bf8d5f4dcbebc6c997065",
+      "after": "acceptable",
+      "note": "The scalar EVEN is explicitly preserved as siquiera."
+    },
+    {
+      "key": "2894ade0345f482aba6ed2b008f9ed7d63c8aaf33de72feef4f38f7b537865a3",
+      "after": "acceptable",
+      "note": "The questions, stronger-than-expected relation, need for help, final self-correction and FIRST priority are all preserved."
+    },
+    {
+      "key": "7012253473cb0ae8b96fa887695f0dab98b51f522843f07a63542204c371e79d",
+      "after": "acceptable",
+      "note": "Spanish definite article with the eyes preserves the possessive meaning; emphatic REALMENTE and the reaction question are retained."
+    }
+  ]
+}
